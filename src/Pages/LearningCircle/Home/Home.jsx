@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
 
@@ -7,6 +7,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import axios from "axios";
 
 const Home = ({
   districts,
@@ -19,6 +20,21 @@ const Home = ({
   setInterest,
   interest,
 }) => {
+  useEffect(() => {
+    if (college && interest) {
+      axios
+        .get(
+          `${process.env.REACT_APP_BACKEND_URL}/teams/${college}/${interest}`
+        )
+        .then(function (response) {
+          console.log(response.data.data);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    }
+  }, [college, interest]);
+
   if (districts) {
     return (
       <>
