@@ -1,0 +1,182 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.mulearn-logo {
+  width: 6rem;
+}
+
+.nav-barbtn button {
+  border: 2.5px solid #5865f2;
+  padding: 0.65rem 0.96rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  background-color: #5865f2;
+  color: white;
+  margin-top: 2vh;
+}
+
+.dropdown {
+  font-size: 1rem;
+}
+
+.dropdown-item {
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 10vh;
+  padding: 4rem 2rem;
+  background-color: #404040;
+}
+
+.footer-logo {
+  width: 5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.social-links a:hover,
+.footer-links a:hover {
+  color: #fd7915;
+}
+
+.footer-links {
+  margin: 2rem 0;
+  line-height: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer-links a {
+  margin-right: 0.75rem;
+}
+
+.iconify {
+  font-size: 2rem;
+  margin-right: 0.75rem;
+}
+
+.iconify:hover {
+  color: #f6832a;
+  background-color: #404040;
+}
+
+footer hr {
+  color: white;
+  margin: 2rem 0rem;
+}
+.address {
+  color: white;
+  width: 20rem;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.mailus {
+  display: block;
+  padding-top: 1rem;
+  color: rgb(176, 176, 245);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #5e72e4;
+}
+
+.fheadingtext {
+  font-size: 1.1rem;
+  color: white;
+  margin-top: 4vh;
+}
+
+.fparagraph {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: white;
+}
+
+.newsletterinvite {
+  display: flex;
+  flex-direction: row;
+}
+
+.invite-container {
+  position: relative;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 2vh;
+  border-radius: 5px;
+}
+
+.invite-container input {
+  font-size: 0.8rem;
+  border: none;
+  padding: 0.5rem;
+  width: 12.5rem;
+}
+
+.invite-container button {
+  border: none;
+  font-size: 0.8rem;
+  color: white;
+  background-color: #f6832a;
+  padding: 0.5rem 1.75rem;
+  border-radius: 3px;
+}
+
+.invite-container button:hover {
+  background-color: #fd7915;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.newsletter {
+  width: 20rem;
+}
+
+.newslettertext {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer {
+    padding: 1rem 6rem;
+    padding-bottom: 3rem;
+  }
+
+  .container-fluid {
+    padding: 0.55rem 4.3rem;
+  }
+
+  .iconify {
+    font-size: 2.5rem;
+  }
+
+  .footer-logo {
+    width: 6rem;
+    margin-top: 2vh;
+  }
+
+}
