@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/LearningCircle/Home/Home";
 import axios from "axios";
 import Create from "./Pages/LearningCircle/Create/Create";
+import Join from "./Pages/LearningCircle/Join/Join.jsx";
 
 function App() {
   //Home Page state Variables
@@ -30,6 +31,17 @@ function App() {
     college: college,
     phone: "",
     interest: interest,
+  });
+
+  //Join page State Variable
+  const [join, setJoin] = useState({
+    code: "",
+    name: "",
+    email: "",
+    discord_id: "",
+    karma: "",
+    college: "",
+    phone: "",
   });
 
   useEffect(() => {
@@ -102,6 +114,22 @@ function App() {
                 colleges={colleges}
                 create={create}
                 setCreate={setCreate}
+              />
+            }
+          />
+
+          <Route
+            path="/join"
+            element={
+              <Join
+                join={join}
+                setJoin={setJoin}
+                districts={districts}
+                district={district}
+                setDistrict={setDistrict}
+                college={college}
+                setCollege={setCollege}
+                colleges={colleges}
               />
             }
           />
