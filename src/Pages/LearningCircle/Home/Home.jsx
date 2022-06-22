@@ -7,6 +7,11 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 import axios from "axios";
 
 const Home = ({
@@ -20,6 +25,8 @@ const Home = ({
   setInterest,
   interest,
 }) => {
+  const [teams, setTeams] = useState("");
+
   useEffect(() => {
     if (college && interest) {
       axios
@@ -27,7 +34,7 @@ const Home = ({
           `${process.env.REACT_APP_BACKEND_URL}/teams/${college}/${interest}`
         )
         .then(function (response) {
-          console.log(response.data.data);
+          setTeams(response.data.data);
         })
         .catch(function (error) {
           console.log(error);
@@ -100,6 +107,32 @@ const Home = ({
             </FormControl>
           </Box>
         )}
+
+        {teams.length > 0 &&
+          teams.map((team) => (
+            <Card sx={{ minWidth: 275 }}>
+              <CardContent>
+                <Typography
+                  sx={{ fontSize: 14 }}
+                  color="text.secondary"
+                  gutterBottom
+                >
+                  {interest}
+                </Typography>
+                <Typography variant="h5" component="div">
+                  {team.lead}
+                </Typography>
+                <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                  {team.code}
+                </Typography>
+                <Typography variant="body2">{team.count}</Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Learn More</Button>
+              </CardActions>
+            </Card>
+          ))}
+
         <Footer />
       </>
     );
