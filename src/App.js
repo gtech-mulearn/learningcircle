@@ -92,6 +92,9 @@ function App() {
             element={
               <Create
                 interest={interest}
+                districts={districts}
+                district={district}
+                setDistrict={setDistrict}
                 setInterest={setInterest}
                 interests={interests}
                 college={college}
