@@ -4,8 +4,10 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/LearningCircle/Home/Home";
 import axios from "axios";
+import Create from "./Pages/LearningCircle/Create/Create";
 
 function App() {
+  //Home Page state Variables
   const [districts, setDistricts] = useState("");
   const [colleges, setColleges] = useState("");
 
@@ -14,6 +16,21 @@ function App() {
 
   const [interests, setInterests] = useState("");
   const [interest, setInterest] = useState("");
+
+  //Create Page State Variables
+  const [create, setCreate] = useState({
+    code: "",
+    lead: {
+      name: "",
+      email: "",
+      discord_id: "",
+      karma: "",
+    },
+    passcode: "",
+    college: "",
+    phone: "",
+    interest: "",
+  });
 
   useEffect(() => {
     if (!districts) {
@@ -67,6 +84,21 @@ function App() {
                 interests={interests}
                 setInterest={setInterest}
                 interest={interest}
+              />
+            }
+          />
+          <Route
+            path="/create"
+            element={
+              <Create
+                interest={interest}
+                setInterest={setInterest}
+                interests={interests}
+                college={college}
+                setCollege={setCollege}
+                colleges={colleges}
+                create={create}
+                setCreate={setCreate}
               />
             }
           />
