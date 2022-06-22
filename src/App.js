@@ -27,9 +27,9 @@ function App() {
       karma: "",
     },
     passcode: "",
-    college: "",
+    college: college,
     phone: "",
-    interest: "",
+    interest: interest,
   });
 
   useEffect(() => {
