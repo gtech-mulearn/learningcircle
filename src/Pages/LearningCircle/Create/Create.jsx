@@ -8,6 +8,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import Button from "@mui/material/Button";
 import axios from "axios";
 
 const Create = ({
@@ -28,7 +29,27 @@ const Create = ({
       ...prevState,
       [event.target.name]: event.target.value,
     }));
-    console.log(create);
+  };
+
+  const postData = () => {
+    const baseURL = `${process.env.REACT_APP_BACKEND_URL}/create`;
+    axios
+      .post(baseURL, {
+        code: create.code,
+        lead: {
+          name: create.lead.name,
+          email: create.lead.email,
+          discord_id: create.lead.discord_id,
+          karma: create.lead.karma,
+        },
+        passcode: create.passcode,
+        college: create.college,
+        phone: create.phone,
+        interest: create.interest,
+      })
+      .then((response) => {
+        console.log(response.data);
+      });
   };
 
   const leadchangeHandler = (event) => {
@@ -50,6 +71,7 @@ const Create = ({
         autoComplete="off"
       >
         <TextField
+          required
           name="code"
           id="outlined-basic"
           label="Circle Code"
@@ -58,6 +80,7 @@ const Create = ({
           onChange={changeHandler}
         />
         <TextField
+          required
           name="name"
           id="outlined-basic"
           label="Lead Name"
@@ -66,6 +89,7 @@ const Create = ({
           onChange={leadchangeHandler}
         />
         <TextField
+          required
           name="email"
           id="outlined-basic"
           label="Email Address"
@@ -74,6 +98,7 @@ const Create = ({
           onChange={leadchangeHandler}
         />
         <TextField
+          required
           name="discord_id"
           id="outlined-basic"
           label="Discord ID"
@@ -82,6 +107,7 @@ const Create = ({
           onChange={leadchangeHandler}
         />
         <TextField
+          required
           name="karma"
           id="outlined-basic"
           label="Karma Points"
@@ -91,6 +117,7 @@ const Create = ({
         />
 
         <TextField
+          required
           name="phone"
           id="outlined-basic"
           label="Phone"
@@ -100,6 +127,7 @@ const Create = ({
         />
 
         <TextField
+          required
           name="passcode"
           id="outlined-basic"
           label="Passcode"
@@ -109,7 +137,7 @@ const Create = ({
         />
         {districts && (
           <Box sx={{ minWidth: 120 }}>
-            <FormControl fullWidth>
+            <FormControl required fullWidth>
               <InputLabel id="demo-simple-select-label">
                 Select District
               </InputLabel>
@@ -132,7 +160,7 @@ const Create = ({
 
         {colleges && (
           <Box sx={{ minWidth: 120 }}>
-            <FormControl fullWidth>
+            <FormControl required fullWidth>
               <InputLabel id="demo-simple-select-label">
                 Select College
               </InputLabel>
@@ -160,7 +188,7 @@ const Create = ({
 
         {interests && college && (
           <Box sx={{ minWidth: 120 }}>
-            <FormControl fullWidth>
+            <FormControl required fullWidth>
               <InputLabel id="demo-simple-select-label">
                 Select Interest Group
               </InputLabel>
@@ -186,6 +214,16 @@ const Create = ({
           </Box>
         )}
       </Box>
+
+      <Button
+        onClick={() => {
+          postData();
+        }}
+        variant="contained"
+      >
+        Create Circle
+      </Button>
+
       <Footer />
     </>
   );
