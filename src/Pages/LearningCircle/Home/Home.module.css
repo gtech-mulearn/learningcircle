@@ -1,0 +1,18 @@
+.mimage {
+  width: 80vw;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .mimage {
+    width: 30vw;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
