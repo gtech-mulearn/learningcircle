@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
+import styles from "./Create.module.css";
 
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
@@ -62,15 +63,9 @@ const Create = ({
   return (
     <>
       <Navbar />
-      <Box
-        component="form"
-        sx={{
-          "& > :not(style)": { m: 1, width: "25ch" },
-        }}
-        noValidate
-        autoComplete="off"
-      >
+      <div className={styles.form}>
         <TextField
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="code"
           id="outlined-basic"
@@ -80,6 +75,7 @@ const Create = ({
           onChange={changeHandler}
         />
         <TextField
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="name"
           id="outlined-basic"
@@ -89,6 +85,7 @@ const Create = ({
           onChange={leadchangeHandler}
         />
         <TextField
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="email"
           id="outlined-basic"
@@ -98,6 +95,7 @@ const Create = ({
           onChange={leadchangeHandler}
         />
         <TextField
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="discord_id"
           id="outlined-basic"
@@ -107,6 +105,7 @@ const Create = ({
           onChange={leadchangeHandler}
         />
         <TextField
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="karma"
           id="outlined-basic"
@@ -117,6 +116,7 @@ const Create = ({
         />
 
         <TextField
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="phone"
           id="outlined-basic"
@@ -127,6 +127,7 @@ const Create = ({
         />
 
         <TextField
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="passcode"
           id="outlined-basic"
@@ -136,7 +137,7 @@ const Create = ({
           onChange={changeHandler}
         />
         {districts && (
-          <Box sx={{ minWidth: 120 }}>
+          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
             <FormControl required fullWidth>
               <InputLabel id="demo-simple-select-label">
                 Select District
@@ -159,7 +160,7 @@ const Create = ({
         )}
 
         {colleges && (
-          <Box sx={{ minWidth: 120 }}>
+          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
             <FormControl required fullWidth>
               <InputLabel id="demo-simple-select-label">
                 Select College
@@ -187,7 +188,7 @@ const Create = ({
         )}
 
         {interests && college && (
-          <Box sx={{ minWidth: 120 }}>
+          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
             <FormControl required fullWidth>
               <InputLabel id="demo-simple-select-label">
                 Select Interest Group
@@ -213,16 +214,17 @@ const Create = ({
             </FormControl>
           </Box>
         )}
-      </Box>
 
-      <Button
-        onClick={() => {
-          postData();
-        }}
-        variant="contained"
-      >
-        Create Circle
-      </Button>
+        <Button
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          onClick={() => {
+            postData();
+          }}
+          variant="contained"
+        >
+          Create Circle
+        </Button>
+      </div>
 
       <Footer />
     </>
