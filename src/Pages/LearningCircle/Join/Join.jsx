@@ -11,6 +11,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Button from "@mui/material/Button";
 import axios from "axios";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Join = ({
   code,
@@ -23,7 +24,9 @@ const Join = ({
   setCollege,
   colleges,
 }) => {
+  const recaptchaRef = React.createRef();
   const [pass, setPass] = useState("");
+  const [verify, setVerify] = useState(false);
   const changeHandler = (event) => {
     setJoin((prevState) => ({
       ...prevState,
@@ -111,7 +114,6 @@ const Join = ({
           value={join.karma}
           onChange={changeHandler}
         />
-
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
@@ -122,7 +124,6 @@ const Join = ({
           value={join.phone}
           onChange={changeHandler}
         />
-
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
@@ -155,7 +156,6 @@ const Join = ({
             </FormControl>
           </Box>
         )}
-
         {colleges && (
           <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
             <FormControl required fullWidth>
@@ -183,8 +183,17 @@ const Join = ({
             </FormControl>
           </Box>
         )}
-
+        <ReCAPTCHA
+          ref={recaptchaRef}
+          sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+          onChange={() => {
+            setVerify(true);
+            console.log(recaptchaRef.current.getValue())
+          }}
+        />
+        ,
         <Button
+          disabled={!verify}
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           onClick={() => {
             postData();
