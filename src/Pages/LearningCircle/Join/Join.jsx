@@ -13,6 +13,7 @@ import Button from "@mui/material/Button";
 import axios from "axios";
 
 const Join = ({
+  code,
   join,
   setJoin,
   districts,
@@ -37,7 +38,7 @@ const Join = ({
       .post(
         baseURL,
         {
-          code: join.code,
+          code: join.code || code,
           name: join.name,
           email: join.email,
           discord_id: join.discord_id,
@@ -67,21 +68,21 @@ const Join = ({
           id="outlined-basic"
           label="Circle Code"
           variant="outlined"
-          value={join.code}
+          value={join.code || code}
           onChange={changeHandler}
         />
         <TextField
-        sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="name"
           id="outlined-basic"
-          label="Lead Name"
+          label="Your Name"
           variant="outlined"
           value={join.name}
           onChange={changeHandler}
         />
         <TextField
-        sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="email"
           id="outlined-basic"
@@ -91,7 +92,7 @@ const Join = ({
           onChange={changeHandler}
         />
         <TextField
-        sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="discord_id"
           id="outlined-basic"
@@ -101,7 +102,7 @@ const Join = ({
           onChange={changeHandler}
         />
         <TextField
-        sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="karma"
           id="outlined-basic"
@@ -112,7 +113,7 @@ const Join = ({
         />
 
         <TextField
-        sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="phone"
           id="outlined-basic"
@@ -123,7 +124,7 @@ const Join = ({
         />
 
         <TextField
-        sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="passcode"
           id="outlined-basic"
@@ -132,7 +133,7 @@ const Join = ({
           value={pass}
           onChange={(event) => setPass(event.target.value)}
         />
-        {districts && (
+        {districts && !college && (
           <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
             <FormControl required fullWidth>
               <InputLabel id="demo-simple-select-label">
@@ -183,7 +184,8 @@ const Join = ({
           </Box>
         )}
 
-        <Button sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+        <Button
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           onClick={() => {
             postData();
           }}

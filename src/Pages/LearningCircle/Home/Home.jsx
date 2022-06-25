@@ -17,8 +17,10 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
 import { margin } from "@mui/system";
+import { Link } from "react-router-dom";
 
 const Home = ({
+  setCode,
   districts,
   setDistrict,
   colleges,
@@ -133,10 +135,16 @@ const Home = ({
                       <Typography sx={{ mb: 1.5 }} color="text.secondary">
                         Team Code: {team.code}
                       </Typography>
-                      <Typography variant="body2">Member Count: {team.count}</Typography>
+                      <Typography variant="body2">
+                        Member Count: {team.count}
+                      </Typography>
                     </CardContent>
                     <CardActions>
-                      <Button size="small">Join Group Now!</Button>
+                      <Link to={`/join`}>
+                        <Button onClick={() => setCode(team.code)} size="small">
+                          Join Group Now!
+                        </Button>
+                      </Link>
                     </CardActions>
                   </Card>
                 ))}

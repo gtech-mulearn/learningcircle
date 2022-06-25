@@ -18,6 +18,9 @@ function App() {
   const [interests, setInterests] = useState("");
   const [interest, setInterest] = useState("");
 
+  //Routing States
+  const [code, setCode] = useState("");
+
   //Create Page State Variables
   const [create, setCreate] = useState({
     code: "",
@@ -87,6 +90,7 @@ function App() {
             path="/"
             element={
               <Home
+                setCode={setCode}
                 districts={districts}
                 district={district}
                 setDistrict={setDistrict}
@@ -122,6 +126,7 @@ function App() {
             path="/join"
             element={
               <Join
+                code={code}
                 join={join}
                 setJoin={setJoin}
                 districts={districts}
