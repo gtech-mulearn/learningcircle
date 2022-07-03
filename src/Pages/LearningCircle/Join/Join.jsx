@@ -10,15 +10,15 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 const Join = ({ code, join, setJoin, college, setCollege }) => {
   const recaptchaRef = React.createRef();
-  
   const [pass, setPass] = useState("");
+  const [errors, setErrors] = useState();
+
   const [verify, setVerify] = useState(false);
   const changeHandler = (event) => {
     setJoin((prevState) => ({
       ...prevState,
       [event.target.name]: event.target.value,
     }));
-    console.log(join);
   };
 
   useEffect(() => {
@@ -58,6 +58,18 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
       )
       .then((response) => {
         console.log(response.data);
+        if (response.data.status == "success") {
+          setErrors("");
+        }
+      })
+      .catch((error) => {
+        if (error.response.status == 400) {
+          setErrors(error.response.data.detail.errors);
+        } else if (error.response.status == 401) {
+          setErrors(error.response.status);
+        } else {
+          setErrors("");
+        }
       });
   };
 
@@ -79,6 +91,14 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="name"
+          error={
+            errors && JSON.stringify(errors).includes("name") ? true : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("name")
+              ? "Name is Required"
+              : ""
+          }
           id="outlined-basic"
           label="Your Name"
           variant="outlined"
@@ -89,6 +109,14 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="email"
+          error={
+            errors && JSON.stringify(errors).includes("email") ? true : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("email")
+              ? "Email Address is Required"
+              : ""
+          }
           id="outlined-basic"
           label="Email Address"
           variant="outlined"
@@ -99,6 +127,16 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="discord_id"
+          error={
+            errors && JSON.stringify(errors).includes("discord_id")
+              ? true
+              : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("discord_id")
+              ? "Discord ID is Required"
+              : ""
+          }
           id="outlined-basic"
           label="Discord ID"
           variant="outlined"
@@ -109,6 +147,14 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="karma"
+          error={
+            errors && JSON.stringify(errors).includes("karma") ? true : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("karma")
+              ? "Karma is Required"
+              : ""
+          }
           id="outlined-basic"
           label="Karma Points"
           variant="outlined"
@@ -117,7 +163,6 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
         />
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
           name="phone"
           id="outlined-basic"
           label="Phone"
@@ -127,8 +172,15 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
         />
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
           name="passcode"
+          error={
+            errors && JSON.stringify(errors).includes("401") ? true : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("401")
+              ? "Entered Passcode is Wrong!"
+              : ""
+          }
           id="outlined-basic"
           label="Passcode"
           variant="outlined"
