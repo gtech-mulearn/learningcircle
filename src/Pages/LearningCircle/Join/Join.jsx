@@ -10,6 +10,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 const Join = ({ code, join, setJoin, college, setCollege }) => {
   const recaptchaRef = React.createRef();
+  
   const [pass, setPass] = useState("");
   const [verify, setVerify] = useState(false);
   const changeHandler = (event) => {
@@ -23,7 +24,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
   useEffect(() => {
     const delayDebounceFn = setTimeout(() => {
       axios
-        .get(`${process.env.REACT_APP_BACKEND_URL}/team/${join.code}`)
+        .get(`${process.env.REACT_APP_BACKEND_URL}/team/${join.code || code}`)
         .then(function (response) {
           setCollege(response.data.data.college.name);
         })
@@ -134,6 +135,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           value={pass}
           onChange={(event) => setPass(event.target.value)}
         />
+
         {college && (
           <TextField
             sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
@@ -146,6 +148,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
             value={college}
           />
         )}
+
         <ReCAPTCHA
           ref={recaptchaRef}
           sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
