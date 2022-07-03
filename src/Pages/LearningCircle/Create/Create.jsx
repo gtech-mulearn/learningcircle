@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./Create.module.css";
@@ -25,6 +25,8 @@ const Create = ({
   district,
   setDistrict,
 }) => {
+  const [errors, setErrors] = useState();
+
   const changeHandler = (event) => {
     setCreate((prevState) => ({
       ...prevState,
@@ -49,7 +51,20 @@ const Create = ({
         interest: create.interest,
       })
       .then((response) => {
-        console.log(response.data);
+        if (response.data.status == "success") {
+          setErrors("");
+        }
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log(error);
+        if (error.response.status == 400) {
+          setErrors(error.response.data.detail.errors);
+        } else if (error.response.status == 401) {
+          setErrors(error.response.status);
+        } else {
+          setErrors("");
+        }
       });
   };
 
@@ -67,6 +82,14 @@ const Create = ({
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
+          error={
+            errors && JSON.stringify(errors).includes("code") ? true : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("code")
+              ? "Team Code is Required"
+              : ""
+          }
           name="code"
           id="outlined-basic"
           label="Circle Code"
@@ -77,6 +100,16 @@ const Create = ({
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
+          error={
+            errors && JSON.stringify(errors).includes("lead.name")
+              ? true
+              : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("lead.name")
+              ? "Lead Name is Required"
+              : ""
+          }
           name="name"
           id="outlined-basic"
           label="Lead Name"
@@ -87,6 +120,16 @@ const Create = ({
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
+          error={
+            errors && JSON.stringify(errors).includes("lead.email")
+              ? true
+              : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("lead.email")
+              ? "Lead Email Address is Required"
+              : ""
+          }
           name="email"
           id="outlined-basic"
           label="Email Address"
@@ -97,6 +140,16 @@ const Create = ({
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
+          error={
+            errors && JSON.stringify(errors).includes("lead.discord_id")
+              ? true
+              : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("lead.discord_id")
+              ? "Lead Discord ID is Required"
+              : ""
+          }
           name="discord_id"
           id="outlined-basic"
           label="Discord ID"
@@ -107,6 +160,16 @@ const Create = ({
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
+          error={
+            errors && JSON.stringify(errors).includes("lead.karma")
+              ? true
+              : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("lead.karma")
+              ? "Lead Karma Points is Required"
+              : ""
+          }
           name="karma"
           id="outlined-basic"
           label="Karma Points"
@@ -117,7 +180,6 @@ const Create = ({
 
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
           name="phone"
           id="outlined-basic"
           label="Phone"
@@ -130,6 +192,14 @@ const Create = ({
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="passcode"
+          error={
+            errors && JSON.stringify(errors).includes("passcode") ? true : false
+          }
+          helperText={
+            errors && JSON.stringify(errors).includes("passcode")
+              ? "Team Passcode is Required"
+              : ""
+          }
           id="outlined-basic"
           label="Passcode"
           variant="outlined"
