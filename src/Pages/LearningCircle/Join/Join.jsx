@@ -1,29 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./Join.module.css";
 
-import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import Select from "@mui/material/Select";
 import Button from "@mui/material/Button";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
 
-const Join = ({
-  code,
-  join,
-  setJoin,
-  districts,
-  district,
-  setDistrict,
-  college,
-  setCollege,
-  colleges,
-}) => {
+const Join = ({ code, join, setJoin, college, setCollege }) => {
   const recaptchaRef = React.createRef();
   const [pass, setPass] = useState("");
   const [verify, setVerify] = useState(false);
@@ -34,6 +19,21 @@ const Join = ({
     }));
     console.log(join);
   };
+
+  useEffect(() => {
+    const delayDebounceFn = setTimeout(() => {
+      axios
+        .get(`${process.env.REACT_APP_BACKEND_URL}/team/${join.code}`)
+        .then(function (response) {
+          setCollege(response.data.data.college.name);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    }, 3000);
+
+    return () => clearTimeout(delayDebounceFn);
+  }, [join.code, setCollege]);
 
   const postData = () => {
     const baseURL = `${process.env.REACT_APP_BACKEND_URL}/join`;
@@ -134,66 +134,29 @@ const Join = ({
           value={pass}
           onChange={(event) => setPass(event.target.value)}
         />
-        {districts && !college && (
-          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-            <FormControl required fullWidth>
-              <InputLabel id="demo-simple-select-label">
-                Select District
-              </InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                label="Select District"
-                value={district}
-                onChange={(e) => {
-                  setDistrict(e.target.value);
-                }}
-              >
-                {districts.map((district) => (
-                  <MenuItem value={district}>{district}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Box>
-        )}
-        {colleges && (
-          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-            <FormControl required fullWidth>
-              <InputLabel id="demo-simple-select-label">
-                Select College
-              </InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                label="Select College"
-                name="college"
-                value={college}
-                onChange={(e) => {
-                  setCollege(e.target.value);
-                  setJoin((prevState) => ({
-                    ...prevState,
-                    college: e.target.value,
-                  }));
-                }}
-              >
-                {colleges.map((college) => (
-                  <MenuItem value={college.code}>{college.name}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Box>
+        {college && (
+          <TextField
+            sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+            required
+            disabled
+            name="college"
+            id="outlined-basic"
+            label="Select College"
+            variant="outlined"
+            value={college}
+          />
         )}
         <ReCAPTCHA
           ref={recaptchaRef}
           sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
           onChange={() => {
             setVerify(true);
-            console.log(recaptchaRef.current.getValue())
+            console.log(recaptchaRef.current.getValue());
           }}
         />
-        ,
+
         <Button
-          disabled={!verify}
+          disabled={college && verify ? false : true}
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           onClick={() => {
             postData();

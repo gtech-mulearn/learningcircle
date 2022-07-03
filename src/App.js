@@ -129,12 +129,8 @@ function App() {
                 code={code}
                 join={join}
                 setJoin={setJoin}
-                districts={districts}
-                district={district}
-                setDistrict={setDistrict}
                 college={college}
                 setCollege={setCollege}
-                colleges={colleges}
               />
             }
           />
