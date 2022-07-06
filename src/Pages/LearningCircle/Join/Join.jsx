@@ -7,11 +7,13 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
+import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
 
 const Join = ({ code, join, setJoin, college, setCollege }) => {
   const recaptchaRef = React.createRef();
   const [pass, setPass] = useState("");
   const [errors, setErrors] = useState();
+  const [completed, setCompleted] = useState(false);
 
   const [verify, setVerify] = useState(false);
   const changeHandler = (event) => {
@@ -58,14 +60,15 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
       )
       .then((response) => {
         console.log(response.data);
-        if (response.data.status == "success") {
+        if (response.data.status === "success") {
           setErrors("");
+          setCompleted(true);
         }
       })
       .catch((error) => {
-        if (error.response.status == 400) {
+        if (error.response.status === 400) {
           setErrors(error.response.data.detail.errors);
-        } else if (error.response.status == 401) {
+        } else if (error.response.status === 401) {
           setErrors(error.response.status);
         } else {
           setErrors("");
@@ -75,6 +78,12 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
 
   return (
     <>
+      {completed && (
+        <CustomizedSnackbars
+          severity="success"
+          message="Circle Joined Successfully"
+        />
+      )}
       <Navbar />
       <div className={styles.form}>
         <TextField

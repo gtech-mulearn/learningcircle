@@ -11,6 +11,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Button from "@mui/material/Button";
 import axios from "axios";
+import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
 
 const Create = ({
   interest,
@@ -26,6 +27,7 @@ const Create = ({
   setDistrict,
 }) => {
   const [errors, setErrors] = useState();
+  const [completed, setCompleted] = useState(false);
 
   const changeHandler = (event) => {
     setCreate((prevState) => ({
@@ -51,16 +53,17 @@ const Create = ({
         interest: create.interest,
       })
       .then((response) => {
-        if (response.data.status == "success") {
+        if (response.data.status === "success") {
           setErrors("");
+          setCompleted(true);
         }
         console.log(response);
       })
       .catch((error) => {
         console.log(error);
-        if (error.response.status == 400) {
+        if (error.response.status === 400) {
           setErrors(error.response.data.detail.errors);
-        } else if (error.response.status == 401) {
+        } else if (error.response.status === 401) {
           setErrors(error.response.status);
         } else {
           setErrors("");
@@ -77,6 +80,12 @@ const Create = ({
 
   return (
     <>
+      {completed && (
+        <CustomizedSnackbars
+          severity="success"
+          message="Circle Created Successfully"
+        />
+      )}
       <Navbar />
       <div className={styles.form}>
         <TextField
