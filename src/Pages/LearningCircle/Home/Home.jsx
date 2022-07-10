@@ -70,6 +70,16 @@ const Home = ({
           </div>
 
           <div className={styles.form}>
+            <div className={styles.formheading}>
+              {/* <hr className={styles.line} /> */}
+              <p className={styles.fhtext}>Find Existing Circles</p>
+              <p className={styles.fhcontent}>
+                If incase you don't your learning circle code for joining the
+                circle. You could fill in below details you find the right
+                circle
+              </p>
+              {/* <hr className={styles.line} /> */}
+            </div>
             <div className={styles.iview}>
               <p className={styles.iheading}>What is your District ?</p>
               <p className={styles.itext}>
