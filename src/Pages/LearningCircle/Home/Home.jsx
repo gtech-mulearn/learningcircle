@@ -65,6 +65,8 @@ const Home = ({
               learning about new things with a group of people with same
               interests!
             </p>
+            <button className={styles.fscreate}>Create</button>
+            <button className={styles.fsjoin}>Join</button>
           </div>
 
           <div className={styles.form}>
@@ -95,40 +97,12 @@ const Home = ({
               </Box>
             </div>
 
-            {colleges && (
-              <div className={styles.iview}>
-                <p className={styles.iheading}>Select College</p>
-                <p className={styles.itext}>
-                  Oh, So you are from {district}. Just a few steps more for the
-                  ahead. Kindly, Select your College Name from the below list to
-                  proceed.
-                </p>
-                <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-                  <FormControl fullWidth>
-                    <InputLabel id="demo-simple-select-label">
-                      Select College
-                    </InputLabel>
-                    <Select
-                      labelId="demo-simple-select-label"
-                      id="demo-simple-select"
-                      label="Select College"
-                      value={college}
-                      onChange={(e) => setCollege(e.target.value)}
-                    >
-                      {colleges.map((college) => (
-                        <MenuItem value={college.code}>{college.name}</MenuItem>
-                      ))}
-                    </Select>
-                  </FormControl>
-                </Box>
-              </div>
-            )}
-
-            {interests && college && (
+            {interests && district && (
               <div className={styles.iview}>
                 <p className={styles.iheading}>What is your Interest.</p>
                 <p className={styles.itext}>
-                  We have several interest groups and you either create/join a learning circle which is aligned with your interest.
+                  Alright, So you are from {district}. We have several interest
+                  groups here at Mulearn for you to join. Kindly select one.
                 </p>
                 <Box sx={{ minWidth: 300, margin: 1.5 }}>
                   <FormControl fullWidth>
@@ -146,6 +120,35 @@ const Home = ({
                         <MenuItem value={interest.id}>
                           {interest.title}
                         </MenuItem>
+                      ))}
+                    </Select>
+                  </FormControl>
+                </Box>
+              </div>
+            )}
+
+            {colleges && interest && (
+              <div className={styles.iview}>
+                <p className={styles.iheading}>What is your Instution Name?</p>
+                <p className={styles.itext}>
+                  One last Question. Select your institution name from the below
+                  list so that we could filter our data and show the results for
+                  you.
+                </p>
+                <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
+                  <FormControl fullWidth>
+                    <InputLabel id="demo-simple-select-label">
+                      Select College
+                    </InputLabel>
+                    <Select
+                      labelId="demo-simple-select-label"
+                      id="demo-simple-select"
+                      label="Select College"
+                      value={college}
+                      onChange={(e) => setCollege(e.target.value)}
+                    >
+                      {colleges.map((college) => (
+                        <MenuItem value={college.code}>{college.name}</MenuItem>
                       ))}
                     </Select>
                   </FormControl>

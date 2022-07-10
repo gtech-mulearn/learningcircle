@@ -40,6 +40,26 @@ p {
   margin-top: 1rem;
 }
 
+.fscreate,
+.fsjoin {
+  margin: 0.5rem;
+  padding: 0.25rem 2.25rem;
+  border: none;
+  margin-top: 1.25rem;
+  border-radius: 5px;
+}
+
+.fscreate {
+  background-color: #f6842c;
+  color: white;
+}
+
+.fsjoin{
+  background-color: #fff;
+  color: #F6842C;
+  border: 2px solid #F6842C;
+}
+
 @media only screen and (min-width: 1280px) {
   .fsheading {
     margin-top: -1rem;
@@ -63,6 +83,7 @@ p {
 }
 
 .iheading {
+  text-align: center;
   font-size: 1.75rem;
   font-weight: 500;
   font-family: "Noto Sans", sans-serif;
@@ -71,4 +92,13 @@ p {
 .itext {
   font-size: 0.9rem;
   text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+@media only screen and (min-width: 1280px) {
+  .itext {
+    width: 40vw;
+    font-size: 1rem;
+    text-align: center;
+  }
 }
