@@ -14,6 +14,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
   const [pass, setPass] = useState("");
   const [errors, setErrors] = useState();
   const [completed, setCompleted] = useState(false);
+  const [members, setMembers] = useState();
 
   const [verify, setVerify] = useState(false);
   const changeHandler = (event) => {
@@ -29,6 +30,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
         .get(`${process.env.REACT_APP_BACKEND_URL}/team/${join.code || code}`)
         .then(function (response) {
           setCollege(response.data.data.college.name);
+          setMembers(response.data.data.members);
         })
         .catch(function (error) {
           console.log(error);
@@ -231,6 +233,14 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
         >
           Join Circle
         </Button>
+        {members && (
+          <div className={styles.members}>
+            <p className={styles.mheading}>Existing Members</p>
+            {members.map((member) => (
+              <p>{member}</p>
+            ))}
+          </div>
+        )}
       </div>
       <Footer />
     </>
