@@ -44,8 +44,8 @@ const Create = ({
         lead: {
           name: create.lead.name,
           email: create.lead.email,
-          discord_id: create.lead.discord_id,
-          karma: create.lead.karma,
+          // discord_id: create.lead.discord_id,
+          // karma: create.lead.karma,
         },
         passcode: create.passcode,
         college: create.college,
@@ -146,7 +146,7 @@ const Create = ({
           value={create.email}
           onChange={leadchangeHandler}
         />
-        <TextField
+        {/* <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           error={
@@ -185,7 +185,7 @@ const Create = ({
           variant="outlined"
           value={create.karma}
           onChange={leadchangeHandler}
-        />
+        /> */}
 
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}

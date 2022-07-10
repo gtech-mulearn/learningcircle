@@ -27,8 +27,8 @@ function App() {
     lead: {
       name: "",
       email: "",
-      discord_id: "",
-      karma: "",
+      // discord_id: "",
+      // karma: "",
     },
     passcode: "",
     college: college,
@@ -41,8 +41,8 @@ function App() {
     code: "",
     name: "",
     email: "",
-    discord_id: "",
-    karma: "",
+    // discord_id: "",
+    // karma: "",
     college: "",
     phone: "",
   });

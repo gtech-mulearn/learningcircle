@@ -47,8 +47,8 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           code: join.code || code,
           name: join.name,
           email: join.email,
-          discord_id: join.discord_id,
-          karma: join.karma,
+          // discord_id: join.discord_id,
+          // karma: join.karma,
           college: join.college,
           phone: join.phone,
         },
@@ -128,11 +128,12 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           }
           id="outlined-basic"
           label="Email Address"
+          type="email"
           variant="outlined"
           value={join.email}
           onChange={changeHandler}
         />
-        <TextField
+        {/* <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
           name="discord_id"
@@ -169,7 +170,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           variant="outlined"
           value={join.karma}
           onChange={changeHandler}
-        />
+        /> */}
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           name="phone"
@@ -191,7 +192,8 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
               : ""
           }
           id="outlined-basic"
-          label="Passcode"
+          label="Secret Key"
+          // type="password"
           variant="outlined"
           value={pass}
           onChange={(event) => setPass(event.target.value)}
