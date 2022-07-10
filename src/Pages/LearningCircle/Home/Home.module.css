@@ -1,3 +1,8 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .mimage {
   width: 80vw;
   display: block;
@@ -15,4 +20,55 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.fsview {
+  text-align: center;
+  margin: 1rem;
+}
+
+.fsheading {
+  margin-top: -1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.fstagline {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 1280px) {
+  .fsheading {
+    margin-top: -1rem;
+    font-size: 2.75rem;
+  }
+
+  .fstagline {
+    width: 50vw;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+  }
+}
+
+.iview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.iheading {
+  font-size: 1.75rem;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.itext {
+  font-size: 0.9rem;
+  text-align: center;
 }

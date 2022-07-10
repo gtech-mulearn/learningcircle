@@ -55,66 +55,102 @@ const Home = ({
 
         <div className={styles.body_container}>
           <img src={learningcircles} alt="" className={styles.mimage} />
-          <div className={styles.form}>
-            <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-              <FormControl fullWidth>
-                <InputLabel id="demo-simple-select-label">
-                  Select District
-                </InputLabel>
-                <Select
-                  labelId="demo-simple-select-label"
-                  id="demo-simple-select"
-                  label="Select District"
-                  value={district}
-                  onChange={(e) => setDistrict(e.target.value)}
-                >
-                  {districts.map((district) => (
-                    <MenuItem value={district}>{district}</MenuItem>
-                  ))}
-                </Select>
-              </FormControl>
-            </Box>
 
-            {colleges && (
+          <div className={styles.fsview}>
+            <p className={styles.fsheading}>µlearn Learning Circles</p>
+            <p className={styles.fstagline}>
+              An informal mechanism for bringing together learners who are
+              interested in the same topic from across different fields and
+              disciplines. A fantastic way to spend a small amount of time
+              learning about new things with a group of people with same
+              interests!
+            </p>
+          </div>
+
+          <div className={styles.form}>
+            <div className={styles.iview}>
+              <p className={styles.iheading}>What is your District ?</p>
+              <p className={styles.itext}>
+                There can be multiple learning circles already existing in your
+                district or even in your own college. Select your district and
+                let check them out!.
+              </p>
               <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
                 <FormControl fullWidth>
                   <InputLabel id="demo-simple-select-label">
-                    Select College
+                    Select District
                   </InputLabel>
                   <Select
                     labelId="demo-simple-select-label"
                     id="demo-simple-select"
-                    label="Select College"
-                    value={college}
-                    onChange={(e) => setCollege(e.target.value)}
+                    label="Select District"
+                    value={district}
+                    onChange={(e) => setDistrict(e.target.value)}
                   >
-                    {colleges.map((college) => (
-                      <MenuItem value={college.code}>{college.name}</MenuItem>
+                    {districts.map((district) => (
+                      <MenuItem value={district}>{district}</MenuItem>
                     ))}
                   </Select>
                 </FormControl>
               </Box>
+            </div>
+
+            {colleges && (
+              <div className={styles.iview}>
+                <p className={styles.iheading}>Select College</p>
+                <p className={styles.itext}>
+                  Oh, So you are from {district}. Just a few steps more for the
+                  ahead. Kindly, Select your College Name from the below list to
+                  proceed.
+                </p>
+                <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
+                  <FormControl fullWidth>
+                    <InputLabel id="demo-simple-select-label">
+                      Select College
+                    </InputLabel>
+                    <Select
+                      labelId="demo-simple-select-label"
+                      id="demo-simple-select"
+                      label="Select College"
+                      value={college}
+                      onChange={(e) => setCollege(e.target.value)}
+                    >
+                      {colleges.map((college) => (
+                        <MenuItem value={college.code}>{college.name}</MenuItem>
+                      ))}
+                    </Select>
+                  </FormControl>
+                </Box>
+              </div>
             )}
 
             {interests && college && (
-              <Box sx={{ minWidth: 300, margin: 1.5 }}>
-                <FormControl fullWidth>
-                  <InputLabel id="demo-simple-select-label">
-                    Select Interest Group
-                  </InputLabel>
-                  <Select
-                    labelId="demo-simple-select-label"
-                    id="demo-simple-select"
-                    label="Select College"
-                    value={interest}
-                    onChange={(e) => setInterest(e.target.value)}
-                  >
-                    {interests.map((interest) => (
-                      <MenuItem value={interest.id}>{interest.title}</MenuItem>
-                    ))}
-                  </Select>
-                </FormControl>
-              </Box>
+              <div className={styles.iview}>
+                <p className={styles.iheading}>What is your Interest.</p>
+                <p className={styles.itext}>
+                  We have several interest groups and you either create/join a learning circle which is aligned with your interest.
+                </p>
+                <Box sx={{ minWidth: 300, margin: 1.5 }}>
+                  <FormControl fullWidth>
+                    <InputLabel id="demo-simple-select-label">
+                      Select Interest Group
+                    </InputLabel>
+                    <Select
+                      labelId="demo-simple-select-label"
+                      id="demo-simple-select"
+                      label="Select College"
+                      value={interest}
+                      onChange={(e) => setInterest(e.target.value)}
+                    >
+                      {interests.map((interest) => (
+                        <MenuItem value={interest.id}>
+                          {interest.title}
+                        </MenuItem>
+                      ))}
+                    </Select>
+                  </FormControl>
+                </Box>
+              </div>
             )}
 
             <div className={styles.circles}>
