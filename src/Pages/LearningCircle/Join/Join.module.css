@@ -63,3 +63,42 @@
   margin-left: 0.25rem;
   color: #2e7d32;
 }
+
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.mtagline {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.mlist {
+  margin-top: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+}
+
+.mheading {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-top: 1rem;
+  color: #404040;
+  font-size: 1.85rem;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1280px) {
+  .mheading {
+    font-size: 2rem;
+  }
+  .mtagline {
+    width: 40vw;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}

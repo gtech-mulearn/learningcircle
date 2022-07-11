@@ -281,9 +281,16 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
         {members && (
           <div className={styles.members}>
             <p className={styles.mheading}>Existing Members</p>
-            {members.map((member) => (
-              <p>{member}</p>
-            ))}
+            <p className={styles.mtagline}>
+              It seems like your circle already have some interesting learners.
+              Learning is always amazing when its done in group.
+            </p>
+
+            <div className={styles.mlist}>
+              {members.map((member) => (
+                <p className={styles.list}>{member}</p>
+              ))}
+            </div>
           </div>
         )}
       </div>
