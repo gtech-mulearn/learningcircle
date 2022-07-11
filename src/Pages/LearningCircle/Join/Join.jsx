@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import learningcircles from "./assets/learningcircles.jpg";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./Join.module.css";
@@ -87,6 +88,13 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
         />
       )}
       <Navbar />
+      <img src={learningcircles} alt="" className={styles.mimage} />
+      <div className={styles.fsview}>
+        <p className={styles.fsheading}>Join Learning Circles</p>
+        <p className={styles.fstagline}>
+          In order to join a learning circle, you need to enter the circle code as well as a secret key. Both of these credentials can be retrived from your circle lead. If you already have them fill them out and you are good to go!.
+        </p>
+      </div>
       <div className={styles.form}>
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
