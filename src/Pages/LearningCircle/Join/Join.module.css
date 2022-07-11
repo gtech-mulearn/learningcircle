@@ -49,3 +49,17 @@
   }
 }
 
+.validator {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.validtext {
+  margin-left: 0.25rem;
+  color: #f44336;
+}
+
+.validtext1 {
+  margin-left: 0.25rem;
+  color: #2e7d32;
+}

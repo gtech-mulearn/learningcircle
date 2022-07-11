@@ -9,6 +9,8 @@ import Button from "@mui/material/Button";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
 import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
+import CheckIcon from "@mui/icons-material/Check";
+import { red } from "@mui/material/colors";
 
 const Join = ({ code, join, setJoin, college, setCollege }) => {
   const recaptchaRef = React.createRef();
@@ -16,6 +18,8 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
   const [errors, setErrors] = useState();
   const [completed, setCompleted] = useState(false);
   const [members, setMembers] = useState();
+
+  const [valid, setValid] = useState(false);
 
   const [verify, setVerify] = useState(false);
   const changeHandler = (event) => {
@@ -32,9 +36,13 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
         .then(function (response) {
           setCollege(response.data.data.college.name);
           setMembers(response.data.data.members);
+          setValid(true);
         })
         .catch(function (error) {
           console.log(error);
+          setCollege();
+          setMembers();
+          setValid(false);
         });
     }, 3000);
 
@@ -87,15 +95,43 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           message="Circle Joined Successfully"
         />
       )}
+
+      {valid && (
+        <CustomizedSnackbars
+          severity="success"
+          message="Circle Code is Valid"
+        />
+      )}
+
       <Navbar />
       <img src={learningcircles} alt="" className={styles.mimage} />
       <div className={styles.fsview}>
         <p className={styles.fsheading}>Join Learning Circles</p>
         <p className={styles.fstagline}>
-          In order to join a learning circle, you need to enter the circle code as well as a secret key. Both of these credentials can be retrived from your circle lead. If you already have them fill them out and you are good to go!.
+          In order to join a learning circle, you need to enter the circle code
+          as well as a secret key. Both of these credentials can be retrived
+          from your circle lead. If you already have them fill them out and you
+          are good to go!.
         </p>
       </div>
+
       <div className={styles.form}>
+        {!valid && (
+          <div className={styles.validator}>
+            {" "}
+            <CheckIcon sx={{ color: red[500] }} />
+            <p className={styles.validtext}>Enter Valid Circle Code!</p>
+          </div>
+        )}
+
+        {valid && (
+          <div className={styles.validator}>
+            {" "}
+            <CheckIcon color="success" />
+            <p className={styles.validtext1}>Circle Code is Valid!</p>
+          </div>
+        )}
+
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
@@ -106,6 +142,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           value={join.code || code}
           onChange={changeHandler}
         />
+
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
