@@ -4,3 +4,47 @@
   justify-content: center;
   align-items: center;
 }
+
+.mimage {
+  width: 80vw;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .mimage {
+    width: 30vw;
+  }
+}
+
+.fsview {
+  text-align: center;
+  margin: 1rem;
+}
+
+.fsheading {
+  margin-top: -1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.fstagline {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 1280px) {
+  .fsheading {
+    margin-top: -1rem;
+    font-size: 2.75rem;
+  }
+
+  .fstagline {
+    width: 50vw;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+  }
+}

@@ -74,7 +74,7 @@ const Home = ({
               {/* <hr className={styles.line} /> */}
               <p className={styles.fhtext}>Find Existing Circles</p>
               <p className={styles.fhcontent}>
-                If incase you don't your learning circle code for joining the
+                If incase you don't know your learning circle code for joining the
                 circle. You could fill in below details you find the right
                 circle
               </p>
@@ -197,6 +197,16 @@ const Home = ({
                     </CardActions>
                   </Card>
                 ))}
+
+              {college && teams.length == 0 && (
+                <>
+                  <p>
+                    It seems there is no learning cirlces in your college. Come
+                    Lets Create One.
+                  </p>
+                  <button className={styles.fscreate}>Create</button>
+                </>
+              )}
             </div>
           </div>
         </div>

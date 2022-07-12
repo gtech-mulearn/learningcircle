@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
+import learningcircles from "./assets/learningcircles.jpg";
 import styles from "./Create.module.css";
 
 import Box from "@mui/material/Box";
@@ -87,6 +88,16 @@ const Create = ({
         />
       )}
       <Navbar />
+      <img src={learningcircles} alt="" className={styles.mimage} />
+      <div className={styles.fsview}>
+        <p className={styles.fsheading}>Create Learning Circles</p>
+        <p className={styles.fstagline}>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ex
+          est molestias deleniti ut, aspernatur recusandae libero. Porro non,
+          deleniti optio et dicta dignissimos perspiciatis natus ab atque neque
+          odio quos, quod molestiae quia fuga!
+        </p>
+      </div>
       <div className={styles.form}>
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
