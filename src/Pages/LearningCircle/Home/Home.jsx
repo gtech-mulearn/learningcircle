@@ -65,17 +65,20 @@ const Home = ({
               learning about new things with a group of people with same
               interests!
             </p>
-            <button className={styles.fscreate}>Create</button>
-            <button className={styles.fsjoin}>Join</button>
+            <Link to={`/create`}>
+              <button className={styles.fscreate}>Create</button>
+            </Link>
+            <Link to={`/join`}>
+              <button className={styles.fsjoin}>Join</button>
+            </Link>
           </div>
-
           <div className={styles.form}>
             <div className={styles.formheading}>
               {/* <hr className={styles.line} /> */}
               <p className={styles.fhtext}>Find Existing Circles</p>
               <p className={styles.fhcontent}>
-                If incase you don't know your learning circle code for joining the
-                circle. You could fill in below details you find the right
+                If incase you don't know your learning circle code for joining
+                the circle. You could fill in below details you find the right
                 circle
               </p>
               {/* <hr className={styles.line} /> */}
@@ -179,10 +182,10 @@ const Home = ({
                         Interest Group: {interest}
                       </Typography>
                       <Typography variant="h5" component="div">
-                        Lead: {team.lead}
+                        Circle Code: {team.code}
                       </Typography>
                       <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                        Team Code: {team.code}
+                        Circle Lead: {team.lead}
                       </Typography>
                       <Typography variant="body2">
                         Member Count: {team.count}
@@ -198,13 +201,15 @@ const Home = ({
                   </Card>
                 ))}
 
-              {college && teams.length == 0 && (
+              {college && teams.length === 0 && (
                 <>
-                  <p>
-                    It seems there is no learning cirlces in your college. Come
-                    Lets Create One.
+                  <p className={styles.notfound}>
+                    It seems there is <span>No Learning Cirlces</span> in your
+                    college. <span> Come Lets Create One.</span>
                   </p>
-                  <button className={styles.fscreate}>Create</button>
+                  <Link to={`/create`}>
+                    <button className={styles.fscreate1}>Create</button>
+                  </Link>
                 </>
               )}
             </div>

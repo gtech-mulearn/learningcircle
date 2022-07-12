@@ -41,9 +41,10 @@ p {
 }
 
 .fscreate,
-.fsjoin {
+.fsjoin,
+.fscreate1 {
   margin: 0.5rem;
-  padding: 0.25rem 2.25rem;
+  padding: 0.5rem 2.5rem;
   border: none;
   margin-top: 1.25rem;
   border-radius: 5px;
@@ -52,6 +53,14 @@ p {
 .fscreate {
   background-color: #f6842c;
   color: white;
+}
+
+.fscreate1 {
+  background-color: #f6842c;
+  color: white;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
 }
 
 .fsjoin {
@@ -128,4 +137,13 @@ p {
     font-size: 1rem;
     text-align: center;
   }
+}
+
+.notfound{
+  text-align: center;
+  color: #f6842c;
+}
+
+.notfound span{
+  font-weight: 500;
 }
