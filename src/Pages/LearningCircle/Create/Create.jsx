@@ -13,6 +13,7 @@ import Select from "@mui/material/Select";
 import Button from "@mui/material/Button";
 import axios from "axios";
 import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
+import { Link } from "react-router-dom";
 
 const Create = ({
   interest,
@@ -42,7 +43,7 @@ const Create = ({
 
   const postData = () => {
     setCompleted(false); //For showing snackbars if multiple circles are created without page reloading.
-    setSnackError(); 
+    setSnackError();
     const baseURL = `${process.env.REACT_APP_BACKEND_URL}/create`;
     axios
       .post(baseURL, {
@@ -54,9 +55,9 @@ const Create = ({
           // karma: create.lead.karma,
         },
         passcode: create.passcode,
-        college: create.college,
+        college: create.college || college,
         phone: create.phone,
-        interest: create.interest,
+        interest: create.interest || interest,
       })
       .then((response) => {
         if (response.data.status === "success") {
@@ -70,6 +71,7 @@ const Create = ({
         console.log(error.response.data.message);
         if (error.response.status === 400) {
           setErrors(error.response.data.detail.errors);
+          setSnackError(error.response.data.message);
         } else if (error.response.status === 401) {
           setErrors(error.response.status);
           setSnackError(error.response.data.message);
@@ -345,16 +347,17 @@ const Create = ({
           </Box>
         )}
 
-        <Button
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          disabled={college && confirm === create.passcode ? false : true}
-          onClick={() => {
-            postData();
-          }}
-          variant="contained"
-        >
-          Create Circle
-        </Button>
+
+          <Button
+            sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+            disabled={college && confirm === create.passcode ? false : true}
+            onClick={() => {
+              postData();
+            }}
+            variant="contained"
+          >
+            Create Circle
+          </Button>
       </div>
 
       <Footer />

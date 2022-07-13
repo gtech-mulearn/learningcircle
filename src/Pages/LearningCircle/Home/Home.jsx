@@ -241,7 +241,7 @@ const Home = ({
               <p className={styles.errortext}>
                 We are really sorry for the inconvience caused. Since we are
                 experiencing some technical difficulties we kindly request you to
-                check back again later.
+                check back again later or reload the page again.
               </p>
             </div>
           </div>
