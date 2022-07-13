@@ -21,6 +21,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
 
   const [valid, setValid] = useState(false);
   const [confirm, setConfirm] = useState();
+  const [snackerror, setSnackError] = useState();
 
   const [verify, setVerify] = useState(false);
   const changeHandler = (event) => {
@@ -51,6 +52,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
   }, [join.code, setCollege]);
 
   const postData = () => {
+    setSnackError();
     const baseURL = `${process.env.REACT_APP_BACKEND_URL}/join`;
     axios
       .post(
@@ -78,8 +80,13 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
         }
       })
       .catch((error) => {
+        console.log(error.response);
         if (error.response.status === 400) {
-          setErrors(error.response.data.detail.errors);
+          if (error.response.data.detail) {
+            setErrors(error.response.data.detail.errors);
+          }
+
+          setSnackError(error.response.data.message);
         } else if (error.response.status === 401) {
           setErrors(error.response.status);
         } else {
@@ -102,6 +109,10 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           severity="success"
           message="Circle Code is Valid"
         />
+      )}
+
+      {snackerror && (
+        <CustomizedSnackbars severity="error" message={snackerror} />
       )}
 
       <Navbar />
@@ -246,7 +257,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           value={pass}
           onChange={(event) => setPass(event.target.value)}
         />
-        
+
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
@@ -255,18 +266,12 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           label="Confirm Passcode"
           variant="outlined"
           error={
-            confirm != pass &&
-            confirm &&
-            pass &&
-            confirm.length > 0
+            confirm != pass && confirm && pass && confirm.length > 0
               ? true
               : false
           }
           helperText={
-            confirm != pass &&
-            confirm &&
-            pass &&
-            confirm.length > 0
+            confirm != pass && confirm && pass && confirm.length > 0
               ? "Both Screct Keys Should be the Same"
               : ""
           }
@@ -298,7 +303,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
         />
 
         <Button
-          disabled={college && verify && (confirm === pass) ? false : true}
+          disabled={college && verify && confirm === pass ? false : true}
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           onClick={() => {
             postData();
