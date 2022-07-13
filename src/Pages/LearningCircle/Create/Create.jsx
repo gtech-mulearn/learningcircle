@@ -30,6 +30,8 @@ const Create = ({
   const [errors, setErrors] = useState();
   const [completed, setCompleted] = useState(false);
 
+  const [confirm, setConfirm] = useState();
+
   const changeHandler = (event) => {
     setCreate((prevState) => ({
       ...prevState,
@@ -38,6 +40,7 @@ const Create = ({
   };
 
   const postData = () => {
+    setCompleted(false); //For showing snackbars if multiple circles are created without page reloading.
     const baseURL = `${process.env.REACT_APP_BACKEND_URL}/create`;
     axios
       .post(baseURL, {
@@ -93,7 +96,7 @@ const Create = ({
         <p className={styles.fsheading}>Create Learning Circles</p>
         <p className={styles.fstagline}>
           Learning Circles are a fantastic way to learn a new skill or
-          technologo. You get you learn from the different perspectives of the
+          technology. You get you learn from the different perspectives of the
           learners in the circle. So what are you waiting for click and create a
           circle now.
         </p>
@@ -225,6 +228,34 @@ const Create = ({
           variant="outlined"
           value={create.passcode}
           onChange={changeHandler}
+        />
+
+        <TextField
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          required
+          name="cpasscode"
+          id="outlined-basic"
+          label="Confirm Passcode"
+          variant="outlined"
+          error={
+            confirm != create.passcode &&
+            confirm &&
+            create.passcode &&
+            confirm.length > 0
+              ? true
+              : false
+          }
+          helperText={
+            confirm != create.passcode &&
+            confirm &&
+            create.passcode &&
+            confirm.length > 0
+              ? "Both Screct Keys Should be the Same"
+              : ""
+          }
+          onChange={(e) => {
+            setConfirm(e.target.value);
+          }}
         />
         {districts && (
           <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
