@@ -338,6 +338,7 @@ const Create = ({
 
         <Button
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          disabled={college && (confirm === create.passcode) ? false : true}
           onClick={() => {
             postData();
           }}
