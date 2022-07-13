@@ -31,6 +31,7 @@ const Create = ({
   const [completed, setCompleted] = useState(false);
 
   const [confirm, setConfirm] = useState();
+  const [snackerror, setSnackError] = useState();
 
   const changeHandler = (event) => {
     setCreate((prevState) => ({
@@ -41,6 +42,7 @@ const Create = ({
 
   const postData = () => {
     setCompleted(false); //For showing snackbars if multiple circles are created without page reloading.
+    setSnackError(); 
     const baseURL = `${process.env.REACT_APP_BACKEND_URL}/create`;
     axios
       .post(baseURL, {
@@ -65,10 +67,12 @@ const Create = ({
       })
       .catch((error) => {
         console.log(error);
+        console.log(error.response.data.message);
         if (error.response.status === 400) {
           setErrors(error.response.data.detail.errors);
         } else if (error.response.status === 401) {
           setErrors(error.response.status);
+          setSnackError(error.response.data.message);
         } else {
           setErrors("");
         }
@@ -90,6 +94,11 @@ const Create = ({
           message="Circle Created Successfully"
         />
       )}
+
+      {snackerror && (
+        <CustomizedSnackbars severity="error" message={snackerror} />
+      )}
+
       <Navbar />
       <img src={learningcircles} alt="" className={styles.mimage} />
       <div className={styles.fsview}>
@@ -338,7 +347,7 @@ const Create = ({
 
         <Button
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          disabled={college && (confirm === create.passcode) ? false : true}
+          disabled={college && confirm === create.passcode ? false : true}
           onClick={() => {
             postData();
           }}
