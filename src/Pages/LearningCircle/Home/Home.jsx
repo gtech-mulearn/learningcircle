@@ -16,7 +16,6 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
-import { margin } from "@mui/system";
 import { Link } from "react-router-dom";
 
 const Home = ({
@@ -220,11 +219,36 @@ const Home = ({
       </>
     );
   } else {
-    <>
-      <Navbar />
-      <p>Loading....</p>
-      <Footer />
-    </>;
+    return (
+      <>
+        <Navbar />
+        <div className={styles.body_container}>
+          <img src={learningcircles} alt="" className={styles.mimage} />
+
+          <div className={styles.fsview}>
+            <p className={styles.fsheading}>µlearn Learning Circles</p>
+            <p className={styles.fstagline}>
+              An informal mechanism for bringing together learners who are
+              interested in the same topic from across different fields and
+              disciplines. A fantastic way to spend a small amount of time
+              learning about new things with a group of people with same
+              interests!
+            </p>
+            <div className={styles.backenderror}>
+              <p className={styles.errorheading}>
+                Encountered Technical Difficulty
+              </p>
+              <p className={styles.errortext}>
+                We are really sorry for the inconvience caused. Since we are
+                experiencing some technical difficulties we kindly request you to
+                check back again later.
+              </p>
+            </div>
+          </div>
+        </div>
+        <Footer />
+      </>
+    );
   }
 };
 

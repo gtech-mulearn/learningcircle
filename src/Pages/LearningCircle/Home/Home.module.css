@@ -37,7 +37,7 @@ p {
 .fstagline {
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
-  margin-top: 1rem;
+  margin-top: 0.25rem;
 }
 
 .fscreate,
@@ -91,7 +91,7 @@ p {
   justify-content: center;
 }
 
-.fhcontent{
+.fhcontent {
   text-align: center;
   display: block;
   margin: auto;
@@ -104,7 +104,7 @@ p {
     border: none;
 } */
 
-.fhtext{
+.fhtext {
   color: #f6842c;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1.95rem;
@@ -139,11 +139,48 @@ p {
   }
 }
 
-.notfound{
+.notfound {
   text-align: center;
   color: #f6842c;
 }
 
-.notfound span{
+.notfound span {
   font-weight: 500;
+}
+
+.backenderror {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.errorheading {
+  color: #f6842c;
+  margin-top: -1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.errortext {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 1280px) {
+  .errorheading {
+    margin-top: -1rem;
+    font-size: 2.25rem;
+  }
+
+  .errortext {
+    width: 50vw;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+  }
 }
