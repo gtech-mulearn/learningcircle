@@ -15,6 +15,7 @@ import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
 
 import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
+import Autocomplete from "@mui/material/Autocomplete";
 import { Link } from "react-router-dom";
 
 const Create = ({
@@ -39,9 +40,11 @@ const Create = ({
 
   const [verify, setVerify] = useState(false);
 
+  const [options, setOptions] = useState("");
+
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   const changeHandler = (event) => {
     setCreate((prevState) => ({
@@ -49,6 +52,20 @@ const Create = ({
       [event.target.name]: event.target.value,
     }));
   };
+
+  useEffect(() => {
+    if (colleges) {
+      setOptions(
+        colleges.map((option) => {
+          const firstLetter = option.name[0].toUpperCase();
+          return {
+            firstLetter: /[0-9]/.test(firstLetter) ? "0-9" : firstLetter,
+            ...option,
+          };
+        })
+      );
+    }
+  }, [colleges]);
 
   const postData = () => {
     setCompleted(false); //For showing snackbars if multiple circles are created without page reloading.
@@ -135,7 +152,7 @@ const Create = ({
           }
           name="code"
           id="outlined-basic"
-          label="Learning Text"
+          label="Learning Circle Name"
           variant="outlined"
           value={create.code}
           onChange={changeHandler}
@@ -300,32 +317,29 @@ const Create = ({
           </Box>
         )}
 
-        {colleges && (
-          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-            <FormControl required fullWidth>
-              <InputLabel id="demo-simple-select-label">
-                Select College
-              </InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                label="Select College"
-                name="college"
-                value={college}
-                onChange={(e) => {
-                  setCollege(e.target.value);
-                  setCreate((prevState) => ({
-                    ...prevState,
-                    college: e.target.value,
-                  }));
+        {colleges && options && (
+          <>
+            <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
+              <Autocomplete
+                id="grouped-demo"
+                options={options.sort(
+                  (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
+                )}
+                isOptionEqualToValue={(option, value) =>
+                  option.value === value.value
+                }
+                groupBy={(option) => option.firstLetter}
+                getOptionLabel={(option) => option.name}
+                onChange={(event, newValue) => {
+                  setCollege(newValue.code);
                 }}
-              >
-                {colleges.map((college) => (
-                  <MenuItem value={college.code}>{college.name}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Box>
+                sx={{ width: 300 }}
+                renderInput={(params) => (
+                  <TextField {...params} label="Select College" />
+                )}
+              />
+            </Box>
+          </>
         )}
 
         {interests && college && (
