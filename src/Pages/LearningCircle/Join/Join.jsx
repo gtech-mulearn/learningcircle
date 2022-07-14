@@ -22,7 +22,6 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
   const [members, setMembers] = useState();
 
   const [valid, setValid] = useState(false);
-  const [confirm, setConfirm] = useState();
   const [snackerror, setSnackError] = useState();
 
   const [verify, setVerify] = useState(false);
@@ -161,7 +160,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           required
           name="code"
           id="outlined-basic"
-          label="Circle Code"
+          label="Circle Name"
           variant="outlined"
           disabled={id ? true : false}
           value={join.code || code}
@@ -271,28 +270,6 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           onChange={(event) => setPass(event.target.value)}
         />
 
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          name="cpasscode"
-          id="outlined-basic"
-          label="Confirm Passcode"
-          variant="outlined"
-          error={
-            confirm !== pass && confirm && pass && confirm.length > 0
-              ? true
-              : false
-          }
-          helperText={
-            confirm !== pass && confirm && pass && confirm.length > 0
-              ? "Both Screct Keys Should be the Same"
-              : ""
-          }
-          onChange={(e) => {
-            setConfirm(e.target.value);
-          }}
-        />
-
         {college && (
           <TextField
             sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
@@ -316,7 +293,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
         />
 
         <Button
-          disabled={college && confirm === pass ? false : true}
+          disabled={college && pass ? false : true}
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           onClick={() => {
             postData();
