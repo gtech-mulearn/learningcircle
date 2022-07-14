@@ -266,12 +266,12 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           label="Confirm Passcode"
           variant="outlined"
           error={
-            confirm != pass && confirm && pass && confirm.length > 0
+            confirm !== pass && confirm && pass && confirm.length > 0
               ? true
               : false
           }
           helperText={
-            confirm != pass && confirm && pass && confirm.length > 0
+            confirm !== pass && confirm && pass && confirm.length > 0
               ? "Both Screct Keys Should be the Same"
               : ""
           }

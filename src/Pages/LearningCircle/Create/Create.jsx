@@ -254,7 +254,7 @@ const Create = ({
           label="Confirm Passcode"
           variant="outlined"
           error={
-            confirm != create.passcode &&
+            confirm !== create.passcode &&
             confirm &&
             create.passcode &&
             confirm.length > 0
@@ -262,7 +262,7 @@ const Create = ({
               : false
           }
           helperText={
-            confirm != create.passcode &&
+            confirm !== create.passcode &&
             confirm &&
             create.passcode &&
             confirm.length > 0
