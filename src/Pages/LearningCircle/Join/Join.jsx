@@ -295,7 +295,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
 
         <ReCAPTCHA
           ref={recaptchaRef}
-          sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+          sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
           onChange={() => {
             setVerify(true);
             console.log(recaptchaRef.current.getValue());
