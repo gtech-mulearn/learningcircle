@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useHistory, useParams } from "react-router-dom";
 import learningcircles from "./assets/learningcircles.jpg";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
@@ -12,7 +13,8 @@ import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
 import CheckIcon from "@mui/icons-material/Check";
 import { red } from "@mui/material/colors";
 
-const Join = ({ code, join, setJoin, college, setCollege }) => {
+const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
+  const { id } = useParams();
   const recaptchaRef = React.createRef();
   const [pass, setPass] = useState("");
   const [errors, setErrors] = useState();
@@ -32,13 +34,11 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
   };
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-
-  useEffect(() => {
     const delayDebounceFn = setTimeout(() => {
       axios
-        .get(`${process.env.REACT_APP_BACKEND_URL}/team/${join.code || code}`)
+        .get(
+          `${process.env.REACT_APP_BACKEND_URL}/team/${join.code || code || id}`
+        )
         .then(function (response) {
           setCollege(response.data.data.college.name);
           setMembers(response.data.data.members);
@@ -54,6 +54,14 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
 
     return () => clearTimeout(delayDebounceFn);
   }, [join.code, setCollege]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+
+    if (id && code === "") {
+      setCode(id);
+    }
+  }, []);
 
   const postData = () => {
     setSnackError();
@@ -155,6 +163,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
           id="outlined-basic"
           label="Circle Code"
           variant="outlined"
+          disabled={id ? true : false}
           value={join.code || code}
           onChange={changeHandler}
         />

@@ -127,6 +127,21 @@ function App() {
             element={
               <Join
                 code={code}
+                setCode={setCode}
+                join={join}
+                setJoin={setJoin}
+                college={college}
+                setCollege={setCollege}
+              />
+            }
+          />
+
+          <Route
+            path="/join/:id"
+            element={
+              <Join
+                code={code}
+                setCode={setCode}
                 join={join}
                 setJoin={setJoin}
                 college={college}
