@@ -200,6 +200,8 @@ const Home = ({
                   </Card>
                 ))}
 
+            
+
               {college && teams.length === 0 && (
                 <>
                   <p className={styles.notfound}>
@@ -240,8 +242,8 @@ const Home = ({
               </p>
               <p className={styles.errortext}>
                 We are really sorry for the inconvience caused. Since we are
-                experiencing some technical difficulties we kindly request you to
-                check back again later or reload the page again.
+                experiencing some technical difficulties we kindly request you
+                to check back again later or reload the page again.
               </p>
             </div>
           </div>

@@ -303,7 +303,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
         />
 
         <Button
-          disabled={college && verify && confirm === pass ? false : true}
+          disabled={college && confirm === pass ? false : true}
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           onClick={() => {
             postData();

@@ -12,6 +12,8 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Button from "@mui/material/Button";
 import axios from "axios";
+import ReCAPTCHA from "react-google-recaptcha";
+
 import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
 import { Link } from "react-router-dom";
 
@@ -28,11 +30,14 @@ const Create = ({
   district,
   setDistrict,
 }) => {
+  const recaptchaRef = React.createRef();
   const [errors, setErrors] = useState();
   const [completed, setCompleted] = useState(false);
 
   const [confirm, setConfirm] = useState();
   const [snackerror, setSnackError] = useState();
+
+  const [verify, setVerify] = useState(false);
 
   const changeHandler = (event) => {
     setCreate((prevState) => ({
@@ -347,17 +352,25 @@ const Create = ({
           </Box>
         )}
 
+        <ReCAPTCHA
+          ref={recaptchaRef}
+          sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
+          onChange={() => {
+            setVerify(true);
+            console.log(recaptchaRef.current.getValue());
+          }}
+        />
 
-          <Button
-            sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-            disabled={college && confirm === create.passcode ? false : true}
-            onClick={() => {
-              postData();
-            }}
-            variant="contained"
-          >
-            Create Circle
-          </Button>
+        <Button
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          disabled={college && confirm === create.passcode ? false : true}
+          onClick={() => {
+            postData();
+          }}
+          variant="contained"
+        >
+          Create Circle
+        </Button>
       </div>
 
       <Footer />
