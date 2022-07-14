@@ -128,7 +128,7 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
       </div>
 
       <div className={styles.form}>
-        {!valid && (
+        {!valid && (join.code || code) && (
           <div className={styles.validator}>
             {" "}
             <CheckIcon sx={{ color: red[500] }} />

@@ -194,13 +194,12 @@ const Home = ({
                       <Link to={`/join`}>
                         <Button onClick={() => setCode(team.code)} size="small">
                           Join Group Now!
+                          <br />View Members
                         </Button>
                       </Link>
                     </CardActions>
                   </Card>
                 ))}
-
-            
 
               {college && teams.length === 0 && (
                 <>
