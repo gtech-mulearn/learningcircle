@@ -32,6 +32,10 @@ const Join = ({ code, join, setJoin, college, setCollege }) => {
   };
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+  useEffect(() => {
     const delayDebounceFn = setTimeout(() => {
       axios
         .get(`${process.env.REACT_APP_BACKEND_URL}/team/${join.code || code}`)

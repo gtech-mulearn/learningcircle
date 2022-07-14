@@ -33,8 +33,11 @@ const Home = ({
   interest,
 }) => {
   const [teams, setTeams] = useState("");
-
   const [options, setOptions] = useState("");
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   useEffect(() => {
     if (colleges) {

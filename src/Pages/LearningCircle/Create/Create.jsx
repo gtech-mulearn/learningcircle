@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
 import learningcircles from "./assets/learningcircles.jpg";
@@ -38,6 +38,10 @@ const Create = ({
   const [snackerror, setSnackError] = useState();
 
   const [verify, setVerify] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const changeHandler = (event) => {
     setCreate((prevState) => ({
@@ -131,7 +135,7 @@ const Create = ({
           }
           name="code"
           id="outlined-basic"
-          label="Circle Code"
+          label="Learning Text"
           variant="outlined"
           value={create.code}
           onChange={changeHandler}
