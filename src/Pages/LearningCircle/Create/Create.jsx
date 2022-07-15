@@ -153,6 +153,7 @@ const Create = ({
           name="code"
           id="outlined-basic"
           label="Learning Circle Name"
+          placeholder="A Unique name for your circle"
           variant="outlined"
           value={create.code}
           onChange={changeHandler}
@@ -257,11 +258,12 @@ const Create = ({
           }
           helperText={
             errors && JSON.stringify(errors).includes("passcode")
-              ? "Team Passcode is Required"
+              ? "Team Secret Key is Required"
               : ""
           }
           id="outlined-basic"
-          label="Passcode"
+          label="Secret Key"
+          placeholder="Try to Enter a Strong Key"
           variant="outlined"
           value={create.passcode}
           onChange={changeHandler}
@@ -272,7 +274,7 @@ const Create = ({
           required
           name="cpasscode"
           id="outlined-basic"
-          label="Confirm Passcode"
+          label="Confirm Secret Key"
           variant="outlined"
           error={
             confirm !== create.passcode &&
