@@ -270,59 +270,352 @@ const Home = ({
               </Box>
             )}
           </div>
-          <div className={styles.circles}>
-            {teams.length > 0 &&
-              teams.map((team) => (
-                <Card sx={{ minWidth: 275, margin: 3 }}>
-                  <CardContent>
-                    <Typography
-                      sx={{ fontSize: 14 }}
-                      color="text.secondary"
-                      gutterBottom
-                    >
-                      Interest Group: {interest}
-                    </Typography>
-                    <Typography variant="h5" component="div">
-                      Circle Code: {team.code}
-                    </Typography>
-                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                      Circle Lead: {team.lead}
-                    </Typography>
-                    <Typography variant="body2">
-                      Member Count: {team.count}
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Link to={`/join`}>
-                      <Button onClick={() => setCode(team.code)} size="small">
-                        Join Group Now!
-                      </Button>
-                    </Link>
-                    <Button
-                      onClick={() => {
-                        setCode(team.code);
-                        handleOpen();
-                      }}
-                      size="small"
-                    >
-                      View Members
-                    </Button>
-                  </CardActions>
-                </Card>
-              ))}
-
-            {college && teams.length === 0 && (
+        </div>
+        <div className={styles.circles_cointainer}>
+          {teams.length > 0 &&
+            teams.map((team) => (
               <>
-                <p className={styles.notfound}>
-                  It seems there is <span>No Learning Cirlces</span> in your
-                  college. <span> Come Lets Create One.</span>
-                </p>
-                <Link to={`/create`}>
-                  <button class={styles.createbtn}>Create Circles</button>
-                </Link>
+                <div className={styles.circles}>
+                  <Card sx={{ minWidth: 300, maxWidth: 300, margin: 3 }}>
+                    <CardContent>
+                      <Typography
+                        sx={{ fontSize: 14 }}
+                        color="text.secondary"
+                        gutterBottom
+                      >
+                        Interest Group: {interest}
+                      </Typography>
+                      <Typography variant="h5" component="div">
+                        Circle Code: {team.code}
+                      </Typography>
+                      <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        Circle Lead: {team.lead}
+                      </Typography>
+                      <Typography variant="body2">
+                        Member Count: {team.count}
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Link to={`/join`}>
+                        <Button onClick={() => setCode(team.code)} size="small">
+                          Join Group Now!
+                        </Button>
+                      </Link>
+                      <Button
+                        onClick={() => {
+                          setCode(team.code);
+                          handleOpen();
+                        }}
+                        size="small"
+                      >
+                        View Members
+                      </Button>
+                    </CardActions>
+                  </Card>
+
+                  <Card sx={{ minWidth: 300, maxWidth: 300, margin: 3 }}>
+                    <CardContent>
+                      <Typography
+                        sx={{ fontSize: 14 }}
+                        color="text.secondary"
+                        gutterBottom
+                      >
+                        Interest Group: {interest}
+                      </Typography>
+                      <Typography variant="h5" component="div">
+                        Circle Code: {team.code}
+                      </Typography>
+                      <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        Circle Lead: {team.lead}
+                      </Typography>
+                      <Typography variant="body2">
+                        Member Count: {team.count}
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Link to={`/join`}>
+                        <Button onClick={() => setCode(team.code)} size="small">
+                          Join Group Now!
+                        </Button>
+                      </Link>
+                      <Button
+                        onClick={() => {
+                          setCode(team.code);
+                          handleOpen();
+                        }}
+                        size="small"
+                      >
+                        View Members
+                      </Button>
+                    </CardActions>
+                  </Card>
+                  <Card sx={{ minWidth: 300, maxWidth: 300, margin: 3 }}>
+                    <CardContent>
+                      <Typography
+                        sx={{ fontSize: 14 }}
+                        color="text.secondary"
+                        gutterBottom
+                      >
+                        Interest Group: {interest}
+                      </Typography>
+                      <Typography variant="h5" component="div">
+                        Circle Code: {team.code}
+                      </Typography>
+                      <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        Circle Lead: {team.lead}
+                      </Typography>
+                      <Typography variant="body2">
+                        Member Count: {team.count}
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Link to={`/join`}>
+                        <Button onClick={() => setCode(team.code)} size="small">
+                          Join Group Now!
+                        </Button>
+                      </Link>
+                      <Button
+                        onClick={() => {
+                          setCode(team.code);
+                          handleOpen();
+                        }}
+                        size="small"
+                      >
+                        View Members
+                      </Button>
+                    </CardActions>
+                  </Card>
+                  <Card sx={{ minWidth: 300, maxWidth: 300, margin: 3 }}>
+                    <CardContent>
+                      <Typography
+                        sx={{ fontSize: 14 }}
+                        color="text.secondary"
+                        gutterBottom
+                      >
+                        Interest Group: {interest}
+                      </Typography>
+                      <Typography variant="h5" component="div">
+                        Circle Code: {team.code}
+                      </Typography>
+                      <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        Circle Lead: {team.lead}
+                      </Typography>
+                      <Typography variant="body2">
+                        Member Count: {team.count}
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Link to={`/join`}>
+                        <Button onClick={() => setCode(team.code)} size="small">
+                          Join Group Now!
+                        </Button>
+                      </Link>
+                      <Button
+                        onClick={() => {
+                          setCode(team.code);
+                          handleOpen();
+                        }}
+                        size="small"
+                      >
+                        View Members
+                      </Button>
+                    </CardActions>
+                  </Card>
+                  <Card sx={{ minWidth: 300, maxWidth: 300, margin: 3 }}>
+                    <CardContent>
+                      <Typography
+                        sx={{ fontSize: 14 }}
+                        color="text.secondary"
+                        gutterBottom
+                      >
+                        Interest Group: {interest}
+                      </Typography>
+                      <Typography variant="h5" component="div">
+                        Circle Code: {team.code}
+                      </Typography>
+                      <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        Circle Lead: {team.lead}
+                      </Typography>
+                      <Typography variant="body2">
+                        Member Count: {team.count}
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Link to={`/join`}>
+                        <Button onClick={() => setCode(team.code)} size="small">
+                          Join Group Now!
+                        </Button>
+                      </Link>
+                      <Button
+                        onClick={() => {
+                          setCode(team.code);
+                          handleOpen();
+                        }}
+                        size="small"
+                      >
+                        View Members
+                      </Button>
+                    </CardActions>
+                  </Card>
+                  <Card sx={{ minWidth: 300, maxWidth: 300, margin: 3 }}>
+                    <CardContent>
+                      <Typography
+                        sx={{ fontSize: 14 }}
+                        color="text.secondary"
+                        gutterBottom
+                      >
+                        Interest Group: {interest}
+                      </Typography>
+                      <Typography variant="h5" component="div">
+                        Circle Code: {team.code}
+                      </Typography>
+                      <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        Circle Lead: {team.lead}
+                      </Typography>
+                      <Typography variant="body2">
+                        Member Count: {team.count}
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Link to={`/join`}>
+                        <Button onClick={() => setCode(team.code)} size="small">
+                          Join Group Now!
+                        </Button>
+                      </Link>
+                      <Button
+                        onClick={() => {
+                          setCode(team.code);
+                          handleOpen();
+                        }}
+                        size="small"
+                      >
+                        View Members
+                      </Button>
+                    </CardActions>
+                  </Card>
+                  <Card sx={{ minWidth: 300, maxWidth: 300, margin: 3 }}>
+                    <CardContent>
+                      <Typography
+                        sx={{ fontSize: 14 }}
+                        color="text.secondary"
+                        gutterBottom
+                      >
+                        Interest Group: {interest}
+                      </Typography>
+                      <Typography variant="h5" component="div">
+                        Circle Code: {team.code}
+                      </Typography>
+                      <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        Circle Lead: {team.lead}
+                      </Typography>
+                      <Typography variant="body2">
+                        Member Count: {team.count}
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Link to={`/join`}>
+                        <Button onClick={() => setCode(team.code)} size="small">
+                          Join Group Now!
+                        </Button>
+                      </Link>
+                      <Button
+                        onClick={() => {
+                          setCode(team.code);
+                          handleOpen();
+                        }}
+                        size="small"
+                      >
+                        View Members
+                      </Button>
+                    </CardActions>
+                  </Card>
+                  <Card sx={{ minWidth: 300, maxWidth: 300, margin: 3 }}>
+                    <CardContent>
+                      <Typography
+                        sx={{ fontSize: 14 }}
+                        color="text.secondary"
+                        gutterBottom
+                      >
+                        Interest Group: {interest}
+                      </Typography>
+                      <Typography variant="h5" component="div">
+                        Circle Code: {team.code}
+                      </Typography>
+                      <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        Circle Lead: {team.lead}
+                      </Typography>
+                      <Typography variant="body2">
+                        Member Count: {team.count}
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Link to={`/join`}>
+                        <Button onClick={() => setCode(team.code)} size="small">
+                          Join Group Now!
+                        </Button>
+                      </Link>
+                      <Button
+                        onClick={() => {
+                          setCode(team.code);
+                          handleOpen();
+                        }}
+                        size="small"
+                      >
+                        View Members
+                      </Button>
+                    </CardActions>
+                  </Card>
+                  <Card sx={{ minWidth: 300, maxWidth: 300, margin: 3 }}>
+                    <CardContent>
+                      <Typography
+                        sx={{ fontSize: 14 }}
+                        color="text.secondary"
+                        gutterBottom
+                      >
+                        Interest Group: {interest}
+                      </Typography>
+                      <Typography variant="h5" component="div">
+                        Circle Code: {team.code}
+                      </Typography>
+                      <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        Circle Lead: {team.lead}
+                      </Typography>
+                      <Typography variant="body2">
+                        Member Count: {team.count}
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Link to={`/join`}>
+                        <Button onClick={() => setCode(team.code)} size="small">
+                          Join Group Now!
+                        </Button>
+                      </Link>
+                      <Button
+                        onClick={() => {
+                          setCode(team.code);
+                          handleOpen();
+                        }}
+                        size="small"
+                      >
+                        View Members
+                      </Button>
+                    </CardActions>
+                  </Card>
+                </div>
               </>
-            )}
-          </div>
+            ))}
+
+          {college && teams.length === 0 && (
+            <>
+              <p className={styles.notfound}>
+                It seems there is <span>No Learning Cirlces</span> in your
+                college. <span> Come Lets Create One.</span>
+              </p>
+              <Link to={`/create`}>
+                <button class={styles.createbtn}>Create Circles</button>
+              </Link>
+            </>
+          )}
         </div>
 
         <Footer />
