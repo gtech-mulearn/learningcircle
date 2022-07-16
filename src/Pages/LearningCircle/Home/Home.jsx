@@ -22,6 +22,14 @@ import { Link } from "react-router-dom";
 import Modal from "@mui/material/Modal";
 import CircularProgress from "@mui/material/CircularProgress";
 
+import Fof from "./assets/Others/Fof.png";
+import BeagleSecurity from "./assets/Others/BeagleSecurity.png";
+import FoxLabs from "./assets/Others/FoxLabs.png";
+import Pygrammers from "./assets/Others/Pygrammers.png";
+import ProductPack from "./assets/Others/ProductPack.png";
+
+import animation from "./assets/animation.webp";
+
 const Home = ({
   backenderr,
   code,
@@ -133,24 +141,59 @@ const Home = ({
         )}
 
         <div className={styles.body_container}>
-          <img src={learningcircles} alt="" className={styles.mimage} />
+          <div class={styles.first_section}>
+            <div class={styles.fstexts}>
+              <p class={styles.fsheading}>
+                Introducing <span> µlearn Learning Circles</span>
+              </p>
+              <p class={styles.fssheading}>
+                Android and Web Development, IOT, CyberSecurity and
+                <span> Much More....</span>
+              </p>
+              <p class={styles.fstagline}>
+                An informal mechanism for bringing together learners who are
+                interested in the same topic from across different fields and
+                disciplines. A fantastic way to spend a small amount of time
+                learning about new things with a group of people with same
+                interests!
+              </p>
 
-          <div className={styles.fsview}>
-            <p className={styles.fsheading}>µlearn Learning Circles</p>
-            <p className={styles.fstagline}>
-              An informal mechanism for bringing together learners who are
-              interested in the same topic from across different fields and
-              disciplines. A fantastic way to spend a small amount of time
-              learning about new things with a group of people with same
-              interests!
-            </p>
-            <Link to={`/create`}>
-              <button className={styles.fscreate}>Create</button>
-            </Link>
-            <Link to={`/join`}>
-              <button className={styles.fsjoin}>Join</button>
-            </Link>
+              <div class="supporters">
+                <span>Supported By </span>
+                <img
+                  src={BeagleSecurity}
+                  alt="Beagle Security"
+                  class={styles.supporter}
+                />
+                <img src={FoxLabs} alt="" class={styles.supporter} />
+                <img
+                  src={ProductPack}
+                  alt="Product Pack"
+                  class={styles.supporter}
+                />
+                <img
+                  src={Pygrammers}
+                  alt="Pygrammers"
+                  class={styles.supporter}
+                />
+                <img
+                  src={Fof}
+                  alt="Friends of Figma"
+                  class={styles.supporter}
+                />
+              </div>
+
+              <div class={styles.buttons}>
+                <button class={styles.fsbtn}>Create Circles</button>
+                <button class={styles.fsobtn}>Join Circles</button>
+              </div>
+            </div>
+
+            <div class={styles.fsimage}>
+              <img src={animation} alt="" class={styles.fs_img} />
+            </div>
           </div>
+
           <div className={styles.form}>
             <div className={styles.formheading}>
               {/* <hr className={styles.line} /> */}

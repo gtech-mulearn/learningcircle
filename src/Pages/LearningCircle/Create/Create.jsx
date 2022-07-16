@@ -69,44 +69,50 @@ const Create = ({
   }, [colleges]);
 
   const postData = () => {
-    setCompleted(false); //For showing snackbars if multiple circles are created without page reloading.
-    setSnackError();
-    const baseURL = `${process.env.REACT_APP_BACKEND_URL}/create`;
-    axios
-      .post(baseURL, {
-        code: create.code,
-        lead: {
-          name: create.lead.name,
-          email: create.lead.email,
-          // discord_id: create.lead.discord_id,
-          // karma: create.lead.karma,
-        },
-        passcode: create.passcode,
-        college: create.college || college,
-        phone: create.phone,
-        recaptcha: token,
-        interest: create.interest || interest,
-      })
-      .then((response) => {
-        if (response.data.status === "success") {
-          setErrors("");
-          setCompleted(true);
-        }
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
-        console.log(error.response.data.message);
-        if (error.response.status === 400) {
-          setErrors(error.response.data.detail.errors);
-          setSnackError(error.response.data.message);
-        } else if (error.response.status === 401) {
-          setErrors(error.response.status);
-          setSnackError(error.response.data.message);
-        } else {
-          setErrors("");
-        }
-      });
+    if (token) {
+      setCompleted(false); //For showing snackbars if multiple circles are created without page reloading.
+      setSnackError();
+      const baseURL = `${process.env.REACT_APP_BACKEND_URL}/create`;
+      console.log(create);
+      axios
+        .post(baseURL, {
+          code: create.code,
+          lead: {
+            name: create.lead.name,
+            email: create.lead.email,
+            // discord_id: create.lead.discord_id,
+            // karma: create.lead.karma,
+          },
+          passcode: create.passcode,
+          college: create.college || college,
+          phone: create.phone,
+          recaptcha: token,
+          interest: create.interest || interest,
+        })
+        .then((response) => {
+          if (response.data.status === "success") {
+            setErrors("");
+            setCompleted(true);
+          }
+          console.log(response);
+        })
+        .catch((error) => {
+          console.log(error);
+          console.log(error.response.data.message);
+          if (error.response.status === 400) {
+            setErrors(error.response.data.detail.errors);
+            setSnackError(error.response.data.message);
+          } else if (
+            error.response.status === 401 ||
+            error.response.status === 500
+          ) {
+            setErrors(error.response.status);
+            setSnackError(error.response.data.message);
+          } else {
+            setErrors("");
+          }
+        });
+    }
   };
 
   const leadchangeHandler = (event) => {
@@ -378,9 +384,9 @@ const Create = ({
           ref={recaptchaRef}
           sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
           onChange={() => {
-            setVerify(true);
             console.log(recaptchaRef.current.getValue());
             setToken(recaptchaRef.current.getValue());
+            setVerify(true);
           }}
         />
 
