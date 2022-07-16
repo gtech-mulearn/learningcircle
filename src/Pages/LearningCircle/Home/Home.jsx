@@ -184,8 +184,12 @@ const Home = ({
               </div>
 
               <div class={styles.buttons}>
+              <Link to={`/create`}>
                 <button class={styles.fsbtn}>Create Circles</button>
-                <button class={styles.fsobtn}>Join Circles</button>
+              </Link>
+              <Link to={`/join`}>
+                <button class={styles.fsobtn}>Join Existing Circles</button>
+              </Link>
               </div>
             </div>
 
