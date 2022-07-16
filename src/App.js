@@ -21,6 +21,9 @@ function App() {
   //Routing States
   const [code, setCode] = useState("");
 
+  //Error Vars
+  const [backenderr, setBackenderr] = useState(false);
+
   //Create Page State Variables
   const [create, setCreate] = useState({
     code: "",
@@ -56,6 +59,7 @@ function App() {
         })
         .catch(function (error) {
           console.log(error);
+          setBackenderr(true);
         });
     }
 
@@ -90,6 +94,7 @@ function App() {
             path="/"
             element={
               <Home
+                backenderr={backenderr}
                 code={code}
                 setCode={setCode}
                 districts={districts}

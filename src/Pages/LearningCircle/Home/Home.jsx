@@ -20,8 +20,10 @@ import Typography from "@mui/material/Typography";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import Modal from "@mui/material/Modal";
+import CircularProgress from "@mui/material/CircularProgress";
 
 const Home = ({
+  backenderr,
   code,
   setCode,
   districts,
@@ -307,7 +309,7 @@ const Home = ({
         <Footer />
       </>
     );
-  } else {
+  } else if (backenderr) {
     return (
       <>
         <Navbar />
@@ -336,6 +338,26 @@ const Home = ({
           </div>
         </div>
         <Footer />
+      </>
+    );
+  } else {
+    return (
+      <>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            minHeight: "100vh",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <CircularProgress />
+          <br />
+          <p className={styles.loading}>
+            Learning is Being Loaded, Please Wait!
+          </p>
+        </Box>
       </>
     );
   }
