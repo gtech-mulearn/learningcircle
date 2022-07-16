@@ -129,7 +129,7 @@ a {
 }
 
 .form {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -144,13 +144,13 @@ a {
   .fssheading1 {
     font-size: 4rem;
     line-height: 4rem;
-    width: 40vw;
+    width: 60vw;
     text-align: center;
     margin-bottom: 1rem;
   }
 
   .fsstagline {
-    width: 40%;
+    width: 75%;
     font-size: 1;
     text-align: center;
   }
@@ -163,16 +163,6 @@ a {
   }
 }
 
-
-.notfound {
-  text-align: center;
-  color: #f6842c;
-}
-
-.notfound span {
-  font-weight: 500;
-}
-
 .createbtn {
   background-color: #5865f2;
   text-align: center;
@@ -183,6 +173,15 @@ a {
   display: block;
   margin: auto;
   margin-top: 1rem;
+}
+
+.notfound {
+  text-align: center;
+  color: #f6842c;
+}
+
+.notfound span {
+  font-weight: 500;
 }
 
 .backenderror {
@@ -209,15 +208,17 @@ a {
 }
 
 @media only screen and (min-width: 1280px) {
-  .circles {
-    display: grid;
-    margin: 2rem 6rem ;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-  }
-
   .errorheading {
     margin-top: -1rem;
     font-size: 2.25rem;
+  }
+
+  .fssheading1 {
+    width: 50vw;
+  }
+
+  .fsstagline {
+    width: 65%;
   }
 
   .errortext {
@@ -225,5 +226,112 @@ a {
     font-size: 1rem;
     display: block;
     margin: auto;
+  }
+}
+
+/* Circles Styles */
+
+.circles {
+  margin: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .circles {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 45% 45%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .circles_container {
+    display: block;
+    margin: auto;
+  }
+
+  .circles {
+    margin: 2rem 6rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .circles_container {
+    display: block;
+    margin: auto;
+  }
+
+  .circles {
+    margin: 2rem 6rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .circles {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    grid-template-columns: 32% 32% 32%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .circles {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    grid-template-columns: 23% 23% 23% 23%;
+  }
+
+  .fssheading1 {
+    width: 40vw;
+  }
+
+  .fsstagline {
+    width: 50%;
+  }
+}
+
+/* Third Section Styles */
+.thirdsection {
+  margin: 2rem;
+}
+
+.tssheading1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.tssheading1 span {
+  color: #f6842c;
+}
+
+@media only screen and (min-width: 1000px) {
+  .thirdsection {
+    margin: 2rem 6rem;
+  }
+  .tssheading1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 60vw;
+    margin-bottom: 1rem;
+  }
+
+  .tsstagline {
+    width: 75%;
+  }
+
+  .tsstagline {
+    width: 40vw;
+    padding-right: 3vw;
+    color: #404040;
   }
 }
