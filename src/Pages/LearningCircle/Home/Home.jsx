@@ -65,9 +65,9 @@ const Home = ({
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   useEffect(() => {
     if (code) {
@@ -194,158 +194,134 @@ const Home = ({
             </div>
           </div>
 
-          <div className={styles.form}>
-            <div className={styles.formheading}>
-              {/* <hr className={styles.line} /> */}
-              <p className={styles.fhtext}>Find Existing Circles</p>
-              <p className={styles.fhcontent}>
-                If incase you don't know your learning circle code for joining
-                the circle. You could fill in below details you find the right
-                circle
-              </p>
-              {/* <hr className={styles.line} /> */}
+          <div className={styles.secondsection}>
+            <div className={styles.fssheading1}>
+              <span>Search</span> Existing Learning Circles.
             </div>
-            <div className={styles.iview}>
-              <p className={styles.iheading}>What is your District ?</p>
-              <p className={styles.itext}>
-                There can be multiple learning circles already existing in your
-                district or even in your own college. Select your district and
-                let check them out!.
-              </p>
+            <div className={styles.fsstagline}>
+              Mulearn currently has multiple active learning cirlces under
+              several interest groups fill in the these data to find out
+              existing learning circles near you so that you could also join in
+              and learn.
+            </div>
+          </div>
+
+          <div className={styles.form}>
+            <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
+              <FormControl fullWidth>
+                <InputLabel id="demo-simple-select-label">
+                  Select District
+                </InputLabel>
+                <Select
+                  labelId="demo-simple-select-label"
+                  id="demo-simple-select"
+                  label="Select District"
+                  value={district}
+                  onChange={(e) => setDistrict(e.target.value)}
+                >
+                  {districts.map((district) => (
+                    <MenuItem value={district}>{district}</MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Box>
+
+            {interests && district && (
               <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
                 <FormControl fullWidth>
                   <InputLabel id="demo-simple-select-label">
-                    Select District
+                    Select Interest Group
                   </InputLabel>
                   <Select
                     labelId="demo-simple-select-label"
                     id="demo-simple-select"
-                    label="Select District"
-                    value={district}
-                    onChange={(e) => setDistrict(e.target.value)}
+                    label="Select College"
+                    value={interest}
+                    onChange={(e) => setInterest(e.target.value)}
                   >
-                    {districts.map((district) => (
-                      <MenuItem value={district}>{district}</MenuItem>
+                    {interests.map((interest) => (
+                      <MenuItem value={interest.id}>{interest.title}</MenuItem>
                     ))}
                   </Select>
                 </FormControl>
               </Box>
-            </div>
-
-            {interests && district && (
-              <div className={styles.iview}>
-                <p className={styles.iheading}>What is your Interest.</p>
-                <p className={styles.itext}>
-                  Alright, So you are from {district}. We have several interest
-                  groups here at Mulearn for you to join. Kindly select one.
-                </p>
-                <Box sx={{ minWidth: 300, margin: 1.5 }}>
-                  <FormControl fullWidth>
-                    <InputLabel id="demo-simple-select-label">
-                      Select Interest Group
-                    </InputLabel>
-                    <Select
-                      labelId="demo-simple-select-label"
-                      id="demo-simple-select"
-                      label="Select College"
-                      value={interest}
-                      onChange={(e) => setInterest(e.target.value)}
-                    >
-                      {interests.map((interest) => (
-                        <MenuItem value={interest.id}>
-                          {interest.title}
-                        </MenuItem>
-                      ))}
-                    </Select>
-                  </FormControl>
-                </Box>
-              </div>
             )}
 
             {colleges && interest && (
-              <div className={styles.iview}>
-                <p className={styles.iheading}>What is your Instution Name?</p>
-                <p className={styles.itext}>
-                  One last Question. Select your institution name from the below
-                  list so that we could filter our data and show the results for
-                  you.
-                </p>
-                <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-                  <Autocomplete
-                    id="grouped-demo"
-                    options={options.sort(
-                      (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
-                    )}
-                    isOptionEqualToValue={(option, value) =>
-                      option.value === value.value
-                    }
-                    groupBy={(option) => option.firstLetter}
-                    getOptionLabel={(option) => option.name}
-                    onChange={(event, newValue) => {
-                      setCollege(newValue.code);
-                    }}
-                    sx={{ width: 300 }}
-                    renderInput={(params) => (
-                      <TextField {...params} label="Select College" />
-                    )}
-                  />
-                </Box>
-              </div>
+              <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
+                <Autocomplete
+                  id="grouped-demo"
+                  options={options.sort(
+                    (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
+                  )}
+                  isOptionEqualToValue={(option, value) =>
+                    option.value === value.value
+                  }
+                  groupBy={(option) => option.firstLetter}
+                  getOptionLabel={(option) => option.name}
+                  onChange={(event, newValue) => {
+                    setCollege(newValue.code);
+                  }}
+                  sx={{ width: 300 }}
+                  renderInput={(params) => (
+                    <TextField {...params} label="Select College" />
+                  )}
+                />
+              </Box>
             )}
-
-            <div className={styles.circles}>
-              {teams.length > 0 &&
-                teams.map((team) => (
-                  <Card sx={{ minWidth: 275, margin: 3 }}>
-                    <CardContent>
-                      <Typography
-                        sx={{ fontSize: 14 }}
-                        color="text.secondary"
-                        gutterBottom
-                      >
-                        Interest Group: {interest}
-                      </Typography>
-                      <Typography variant="h5" component="div">
-                        Circle Code: {team.code}
-                      </Typography>
-                      <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                        Circle Lead: {team.lead}
-                      </Typography>
-                      <Typography variant="body2">
-                        Member Count: {team.count}
-                      </Typography>
-                    </CardContent>
-                    <CardActions>
-                      <Link to={`/join`}>
-                        <Button onClick={() => setCode(team.code)} size="small">
-                          Join Group Now!
-                        </Button>
-                      </Link>
-                      <Button
-                        onClick={() => {
-                          setCode(team.code);
-                          handleOpen();
-                        }}
-                        size="small"
-                      >
-                        View Members
+          </div>
+          <div className={styles.circles}>
+            {teams.length > 0 &&
+              teams.map((team) => (
+                <Card sx={{ minWidth: 275, margin: 3 }}>
+                  <CardContent>
+                    <Typography
+                      sx={{ fontSize: 14 }}
+                      color="text.secondary"
+                      gutterBottom
+                    >
+                      Interest Group: {interest}
+                    </Typography>
+                    <Typography variant="h5" component="div">
+                      Circle Code: {team.code}
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                      Circle Lead: {team.lead}
+                    </Typography>
+                    <Typography variant="body2">
+                      Member Count: {team.count}
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Link to={`/join`}>
+                      <Button onClick={() => setCode(team.code)} size="small">
+                        Join Group Now!
                       </Button>
-                    </CardActions>
-                  </Card>
-                ))}
+                    </Link>
+                    <Button
+                      onClick={() => {
+                        setCode(team.code);
+                        handleOpen();
+                      }}
+                      size="small"
+                    >
+                      View Members
+                    </Button>
+                  </CardActions>
+                </Card>
+              ))}
 
-              {college && teams.length === 0 && (
-                <>
-                  <p className={styles.notfound}>
-                    It seems there is <span>No Learning Cirlces</span> in your
-                    college. <span> Come Lets Create One.</span>
-                  </p>
-                  <Link to={`/create`}>
-                    <button className={styles.fscreate1}>Create</button>
-                  </Link>
-                </>
-              )}
-            </div>
+            {college && teams.length === 0 && (
+              <>
+                <p className={styles.notfound}>
+                  It seems there is <span>No Learning Cirlces</span> in your
+                  college. <span> Come Lets Create One.</span>
+                </p>
+                <Link to={`/create`}>
+                  <button className={styles.fscreate1}>Create</button>
+                </Link>
+              </>
+            )}
           </div>
         </div>
 

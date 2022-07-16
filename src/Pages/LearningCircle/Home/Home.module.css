@@ -8,12 +8,6 @@ a {
   color: inherit;
 }
 
-.mimage {
-  width: 80vw;
-  display: block;
-  margin: auto;
-}
-
 /* First Section Styles From V2.O */
 .first_section {
   margin: 2rem;
@@ -115,133 +109,57 @@ a {
 }
 /* First Section Sytles End */
 
-@media only screen and (min-width: 768px) {
-  .mimage {
-    width: 30vw;
-  }
+/* Second Section Styles */
+
+.secondsection {
+  margin: 2rem;
+  margin-top: 3rem;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-/* 
-.fsview {
-  text-align: center;
-  margin: 1rem;
+.fssheading1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  margin-bottom: 0.5rem;
 }
 
-.fsheading {
-  margin-top: -1rem;
-  font-size: 2.5rem;
-  font-weight: 600;
-  font-family: "Plus Jakarta Sans", sans-serif;
-}
-
-.fstagline {
-  font-family: "Poppins", sans-serif;
-  font-size: 0.9rem;
-  margin-top: 0.25rem;
-}
-
-.fscreate,
-.fsjoin,
-.fscreate1 {
-  margin: 0.5rem;
-  padding: 0.5rem 2.5rem;
-  border: none;
-  margin-top: 1.25rem;
-  border-radius: 5px;
-}
-
-.fscreate {
-  background-color: #f6842c;
-  color: white;
-}
-
-.fscreate1 {
-  background-color: #f6842c;
-  color: white;
-  display: block;
-  margin: auto;
-  margin-top: 1rem;
-}
-
-.fsjoin {
-  background-color: #fff;
+.fssheading1 span {
   color: #f6842c;
-  border: 2px solid #f6842c;
 }
 
-@media only screen and (min-width: 1280px) {
-  .fsheading {
-    margin-top: -1rem;
-    font-size: 2.75rem;
-  }
-
-  .fstagline {
-    width: 50vw;
-    font-size: 1rem;
-    display: block;
-    margin: auto;
-  }
-} */
-
-.formheading {
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.fhcontent {
-  text-align: center;
-  display: block;
-  margin: auto;
-}
-
-/* .line {
-  height: 1px;
-    color: #123455;
-    background-color: #123455;
-    border: none;
-} */
-
-.fhtext {
-  color: #f6842c;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 1.95rem;
-}
-
-.iview {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.form{
   margin: 1rem;
 }
 
-.iheading {
-  text-align: center;
-  font-size: 1.75rem;
-  font-weight: 500;
-  font-family: "Noto Sans", sans-serif;
-}
+@media only screen and (min-width: 1000px) {
+  .secondsection {
+    margin: 1.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.itext {
-  font-size: 0.9rem;
-  text-align: center;
-  margin-bottom: 0.75rem;
-}
-
-@media only screen and (min-width: 1280px) {
-  .itext {
+  .fssheading1 {
+    font-size: 4rem;
+    line-height: 4rem;
     width: 40vw;
-    font-size: 1rem;
     text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .fsstagline {
+    width: 40%;
+    font-size: 1;
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
