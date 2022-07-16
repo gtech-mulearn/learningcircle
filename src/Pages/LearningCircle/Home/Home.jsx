@@ -318,7 +318,7 @@ const Home = ({
                   college. <span> Come Lets Create One.</span>
                 </p>
                 <Link to={`/create`}>
-                  <button className={styles.fscreate1}>Create</button>
+                  <button class={styles.createbtn}>Create Circles</button>
                 </Link>
               </>
             )}

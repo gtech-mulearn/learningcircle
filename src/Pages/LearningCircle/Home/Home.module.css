@@ -128,7 +128,7 @@ a {
   color: #f6842c;
 }
 
-.form{
+.form {
   margin: 1rem;
 }
 
@@ -170,6 +170,18 @@ a {
 
 .notfound span {
   font-weight: 500;
+}
+
+.createbtn {
+  background-color: #5865f2;
+  text-align: center;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
 }
 
 .backenderror {
