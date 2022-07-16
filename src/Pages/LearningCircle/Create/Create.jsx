@@ -39,6 +39,7 @@ const Create = ({
   const [snackerror, setSnackError] = useState();
 
   const [verify, setVerify] = useState(false);
+  const [token, setToken] = useState("");
 
   const [options, setOptions] = useState("");
 
@@ -83,6 +84,7 @@ const Create = ({
         passcode: create.passcode,
         college: create.college || college,
         phone: create.phone,
+        recaptcha: token,
         interest: create.interest || interest,
       })
       .then((response) => {
@@ -377,13 +379,15 @@ const Create = ({
           sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
           onChange={() => {
             setVerify(true);
-            console.log(recaptchaRef.current.getValue());
+            setToken(recaptchaRef.current.getValue());
           }}
         />
 
         <Button
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          disabled={college && confirm === create.passcode ? false : true}
+          disabled={
+            college && verify && confirm === create.passcode ? false : true
+          }
           onClick={() => {
             postData();
           }}
