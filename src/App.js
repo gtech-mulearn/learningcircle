@@ -90,6 +90,7 @@ function App() {
             path="/"
             element={
               <Home
+                code={code}
                 setCode={setCode}
                 districts={districts}
                 district={district}

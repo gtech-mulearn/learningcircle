@@ -19,8 +19,10 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import Modal from "@mui/material/Modal";
 
 const Home = ({
+  code,
   setCode,
   districts,
   setDistrict,
@@ -32,12 +34,44 @@ const Home = ({
   setInterest,
   interest,
 }) => {
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 400,
+    bgcolor: "background.paper",
+    border: "2px solid #000",
+    boxShadow: 24,
+    p: 4,
+  };
+
   const [teams, setTeams] = useState("");
   const [options, setOptions] = useState("");
 
+  const [members, setMembers] = useState("");
+
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
+    if (code) {
+      axios
+        .get(`${process.env.REACT_APP_BACKEND_URL}/team/${code}`)
+        .then(function (response) {
+          setMembers(response.data.data.members);
+          console.log(response.data.data.members);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    }
+  }, [code]);
 
   useEffect(() => {
     if (colleges) {
@@ -72,6 +106,29 @@ const Home = ({
     return (
       <>
         <Navbar />
+
+        {members && (
+          <div>
+            <Modal
+              open={open}
+              onClose={handleClose}
+              aria-labelledby="modal-modal-title"
+              aria-describedby="modal-modal-description"
+            >
+              <Box sx={style}>
+                <Typography id="modal-modal-title" variant="h6" component="h2">
+                  Members in your Circle
+                </Typography>
+
+                {members.map((member) => (
+                  <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                    {member}.
+                  </Typography>
+                ))}
+              </Box>
+            </Modal>
+          </div>
+        )}
 
         <div className={styles.body_container}>
           <img src={learningcircles} alt="" className={styles.mimage} />
@@ -169,7 +226,6 @@ const Home = ({
                   you.
                 </p>
                 <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-
                   <Autocomplete
                     id="grouped-demo"
                     options={options.sort(
@@ -218,10 +274,17 @@ const Home = ({
                       <Link to={`/join`}>
                         <Button onClick={() => setCode(team.code)} size="small">
                           Join Group Now!
-                          <br />
-                          View Members
                         </Button>
                       </Link>
+                      <Button
+                        onClick={() => {
+                          setCode(team.code);
+                          handleOpen();
+                        }}
+                        size="small"
+                      >
+                        View Members
+                      </Button>
                     </CardActions>
                   </Card>
                 ))}
