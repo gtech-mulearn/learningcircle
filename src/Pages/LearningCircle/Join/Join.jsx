@@ -64,48 +64,50 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
   }, []);
 
   const postData = () => {
-    setSnackError();
-    const baseURL = `${process.env.REACT_APP_BACKEND_URL}/join`;
-    axios
-      .post(
-        baseURL,
-        {
-          code: join.code || code,
-          name: join.name,
-          email: join.email,
-          // discord_id: join.discord_id,
-          // karma: join.karma,
-          college: join.college,
-          phone: join.phone,
-          recaptcha: token,
-        },
-        {
-          headers: {
-            Authorization: pass,
+    if (token) {
+      setSnackError();
+      const baseURL = `${process.env.REACT_APP_BACKEND_URL}/join`;
+      axios
+        .post(
+          baseURL,
+          {
+            code: join.code || code,
+            name: join.name,
+            email: join.email,
+            // discord_id: join.discord_id,
+            // karma: join.karma,
+            college: join.college,
+            phone: join.phone,
+            recaptcha: token,
           },
-        }
-      )
-      .then((response) => {
-        console.log(response.data);
-        if (response.data.status === "success") {
-          setErrors("");
-          setCompleted(true);
-        }
-      })
-      .catch((error) => {
-        console.log(error.response);
-        if (error.response.status === 400) {
-          if (error.response.data.detail) {
-            setErrors(error.response.data.detail.errors);
+          {
+            headers: {
+              Authorization: pass,
+            },
           }
+        )
+        .then((response) => {
+          console.log(response.data);
+          if (response.data.status === "success") {
+            setErrors("");
+            setCompleted(true);
+          }
+        })
+        .catch((error) => {
+          console.log(error.response);
+          if (error.response.status === 400) {
+            if (error.response.data.detail) {
+              setErrors(error.response.data.detail.errors);
+            }
 
-          setSnackError(error.response.data.message);
-        } else if (error.response.status === 401) {
-          setErrors(error.response.status);
-        } else {
-          setErrors("");
-        }
-      });
+            setSnackError(error.response.data.message);
+          } else if (error.response.status === 401) {
+            setErrors(error.response.status);
+          } else {
+            setErrors("");
+          }
+        });
+    }
   };
 
   return (
@@ -289,8 +291,8 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           ref={recaptchaRef}
           sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
           onChange={() => {
-            setVerify(true);
             setToken(recaptchaRef.current.getValue());
+            setVerify(true);
           }}
         />
 
