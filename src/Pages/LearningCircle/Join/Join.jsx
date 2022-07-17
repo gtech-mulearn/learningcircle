@@ -25,6 +25,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
   const [snackerror, setSnackError] = useState();
 
   const [verify, setVerify] = useState(false);
+  const [token, setToken] = useState();
   const changeHandler = (event) => {
     setJoin((prevState) => ({
       ...prevState,
@@ -76,6 +77,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           // karma: join.karma,
           college: join.college,
           phone: join.phone,
+          recaptcha: token,
         },
         {
           headers: {
@@ -288,12 +290,12 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
           onChange={() => {
             setVerify(true);
-            console.log(recaptchaRef.current.getValue());
+            setToken(recaptchaRef.current.getValue());
           }}
         />
 
         <Button
-          disabled={college && pass ? false : true}
+          disabled={college && verify && pass ? false : true}
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           onClick={() => {
             postData();

@@ -384,7 +384,6 @@ const Create = ({
           ref={recaptchaRef}
           sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
           onChange={() => {
-            console.log(recaptchaRef.current.getValue());
             setToken(recaptchaRef.current.getValue());
             setVerify(true);
           }}
