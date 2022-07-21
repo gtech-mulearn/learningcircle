@@ -67,6 +67,9 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
   const postData = () => {
     if (token) {
       setSnackError();
+      recaptchaRef.current.reset();
+      setToken();
+      setVerify(false);
       const baseURL = `${process.env.REACT_APP_BACKEND_URL}/join`;
       axios
         .post(
