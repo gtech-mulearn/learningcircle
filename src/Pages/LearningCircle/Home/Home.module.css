@@ -90,7 +90,7 @@ a {
   .fsobtn {
     margin-left: 0.5rem;
   }
-  
+
   .fs_img {
     display: block;
     width: 35vw;
@@ -339,4 +339,11 @@ a {
     padding-right: 3vw;
     color: #404040;
   }
+}
+
+.modaltext {
+  border: none;
+  color: #f6842c;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }

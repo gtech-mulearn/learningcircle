@@ -29,6 +29,7 @@ import Pygrammers from "./assets/Others/Pygrammers.png";
 import ProductPack from "./assets/Others/ProductPack.png";
 
 import animation from "./assets/animation.webp";
+import { color } from "@mui/system";
 
 const Home = ({
   backenderr,
@@ -51,8 +52,8 @@ const Home = ({
     transform: "translate(-50%, -50%)",
     width: 400,
     bgcolor: "background.paper",
-    border: "2px solid #000",
     boxShadow: 24,
+    borderRadius: "5px",
     p: 4,
   };
 
@@ -122,17 +123,18 @@ const Home = ({
             <Modal
               open={open}
               onClose={handleClose}
+              
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
             >
-              <Box sx={style}>
-                <Typography id="modal-modal-title" variant="h6" component="h2">
+              <Box sx={style} >
+                <Typography id="modal-modal-title" variant="h6" component="h2" className={styles.modaltext}>
                   Members in your Circle
                 </Typography>
 
-                {members.map((member) => (
-                  <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                    {member}.
+                {members.map((member, key) => (
+                  <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                    {key+1}). {member}.
                   </Typography>
                 ))}
               </Box>
@@ -184,12 +186,12 @@ const Home = ({
               </div>
 
               <div class={styles.buttons}>
-              <Link to={`/create`}>
-                <button class={styles.fsbtn}>Create Circles</button>
-              </Link>
-              <Link to={`/join`}>
-                <button class={styles.fsobtn}>Join Existing Circles</button>
-              </Link>
+                <Link to={`/create`}>
+                  <button class={styles.fsbtn}>Create Circles</button>
+                </Link>
+                <Link to={`/join`}>
+                  <button class={styles.fsobtn}>Join Existing Circles</button>
+                </Link>
               </div>
             </div>
 
@@ -284,7 +286,8 @@ const Home = ({
               <div className={styles.tsstagline}>
                 These are the existing learning circles which are present in
                 your campus. You contact the circle lead if you are interested
-                to join into the learning circles.
+                to join into the learning circles. If you are intersted to
+                create a learning circle. <a href="/create"> Click Here</a>
               </div>
             </div>
           )}
@@ -332,8 +335,6 @@ const Home = ({
                         </Button>
                       </CardActions>
                     </Card>
-
-                    
                   </>
                 ))}
             </>
