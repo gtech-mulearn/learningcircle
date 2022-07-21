@@ -12,6 +12,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
 import CheckIcon from "@mui/icons-material/Check";
 import { red } from "@mui/material/colors";
+import confetti from "canvas-confetti";
 
 const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
   const { id } = useParams();
@@ -89,8 +90,16 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
         .then((response) => {
           console.log(response.data);
           if (response.data.status === "success") {
+            setJoin({
+              code: "",
+              name: "",
+              email: "",
+              college: "",
+              phone: "",
+            });
             setErrors("");
             setCompleted(true);
+            confetti();
           }
         })
         .catch((error) => {

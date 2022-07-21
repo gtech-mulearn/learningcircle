@@ -29,7 +29,6 @@ import Pygrammers from "./assets/Others/Pygrammers.png";
 import ProductPack from "./assets/Others/ProductPack.png";
 
 import animation from "./assets/animation.webp";
-import { color } from "@mui/system";
 
 const Home = ({
   backenderr,

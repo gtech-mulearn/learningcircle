@@ -17,6 +17,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
 import Autocomplete from "@mui/material/Autocomplete";
 import { Link } from "react-router-dom";
+import confetti from "canvas-confetti";
 
 const Create = ({
   interest,
@@ -93,6 +94,7 @@ const Create = ({
           if (response.data.status === "success") {
             setErrors("");
             setCompleted(true);
+            confetti();
           }
           console.log(response);
         })
@@ -100,7 +102,9 @@ const Create = ({
           console.log(error);
           console.log(error.response.data.message);
           if (error.response.status === 400) {
-            setErrors(error.response.data.detail.errors);
+            if (error.response.data.detail) {
+              setErrors(error.response.data.detail.errors);
+            }
             setSnackError(error.response.data.message);
           } else if (
             error.response.status === 401 ||
