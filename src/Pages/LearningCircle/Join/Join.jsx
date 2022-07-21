@@ -102,6 +102,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
             });
             setErrors("");
             setCompleted(true);
+            setPass("");
             confetti();
           }
         })

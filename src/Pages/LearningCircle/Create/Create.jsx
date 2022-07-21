@@ -73,6 +73,9 @@ const Create = ({
     if (token) {
       setCompleted(false); //For showing snackbars if multiple circles are created without page reloading.
       setSnackError();
+      recaptchaRef.current.reset();
+      setToken();
+      setVerify(false);
       const baseURL = `${process.env.REACT_APP_BACKEND_URL}/create`;
       console.log(create);
       axios
@@ -92,6 +95,17 @@ const Create = ({
         })
         .then((response) => {
           if (response.data.status === "success") {
+            setCreate({
+              code: "",
+              lead: {
+                name: "",
+                email: "",
+              },
+              passcode: "",
+              college: college,
+              phone: "",
+              interest: interest,
+            });
             setErrors("");
             setCompleted(true);
             confetti();
