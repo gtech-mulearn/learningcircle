@@ -6,6 +6,9 @@ import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./Join.module.css";
 
 import TextField from "@mui/material/TextField";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -15,6 +18,18 @@ import { red } from "@mui/material/colors";
 import confetti from "canvas-confetti";
 
 const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 400,
+    bgcolor: "background.paper",
+    boxShadow: 24,
+    borderRadius: "5px",
+    p: 4,
+  };
+
   const { id } = useParams();
   const recaptchaRef = React.createRef();
   const [pass, setPass] = useState("");
@@ -27,6 +42,10 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
 
   const [verify, setVerify] = useState(false);
   const [token, setToken] = useState();
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+  const [wlink, setWLink] = useState();
   const changeHandler = (event) => {
     setJoin((prevState) => ({
       ...prevState,
@@ -102,6 +121,8 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
             });
             setErrors("");
             setCompleted(true);
+            setWLink(response.data. wa_url);
+            handleOpen();
             setPass("");
             confetti();
           }
@@ -141,6 +162,29 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
 
       {snackerror && (
         <CustomizedSnackbars severity="error" message={snackerror} />
+      )}
+
+      {completed && wlink && (
+        <div>
+          <Modal
+            open={open}
+            onClose={handleClose}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            <Box sx={style}>
+              <Typography
+                id="modal-modal-title"
+                variant="h6"
+                component="h2"
+                className={styles.modaltext}
+              >
+                Join Whatsapp Group.
+              </Typography>
+              <a href={wlink} target="_blank" rel="noopener noreferrer">Click Here to Join</a>
+            </Box>
+          </Modal>
+        </div>
       )}
 
       <Navbar />
