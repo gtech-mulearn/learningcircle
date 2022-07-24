@@ -96,7 +96,7 @@ const Create = ({
       setToken();
       setVerify(false);
       const baseURL = `${process.env.REACT_APP_BACKEND_URL}/create`;
-      console.log(create);
+      
       axios
         .post(baseURL, {
           code: create.code,
@@ -131,11 +131,10 @@ const Create = ({
             handleOpen();
             confetti();
           }
-          console.log(response);
+          
         })
         .catch((error) => {
-          console.log(error);
-          console.log(error.response.data.message);
+
           if (error.response.status === 400) {
             if (error.response.data.detail) {
               setErrors(error.response.data.detail.errors);

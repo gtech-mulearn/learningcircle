@@ -65,9 +65,9 @@ const Home = ({
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     if (code) {
@@ -75,10 +75,10 @@ const Home = ({
         .get(`${process.env.REACT_APP_BACKEND_URL}/team/${code}`)
         .then(function (response) {
           setMembers(response.data.data.members);
-          console.log(response.data.data.members);
+          
         })
         .catch(function (error) {
-          console.log(error);
+          // console.log(error);
         });
     }
   }, [code]);
@@ -107,7 +107,7 @@ const Home = ({
           setTeams(response.data.data);
         })
         .catch(function (error) {
-          console.log(error);
+          // console.log(error);
         });
     }
   }, [college, interest]);

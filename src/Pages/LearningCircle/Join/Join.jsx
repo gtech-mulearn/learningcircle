@@ -65,7 +65,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           setValid(true);
         })
         .catch(function (error) {
-          console.log(error);
+          
           setCollege();
           setMembers();
           setValid(false);
@@ -110,7 +110,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           }
         )
         .then((response) => {
-          console.log(response.data);
+          
           if (response.data.status === "success") {
             setJoin({
               code: "",
@@ -128,7 +128,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           }
         })
         .catch((error) => {
-          console.log(error.response);
+          
           if (error.response.status === 400) {
             if (error.response.data.detail) {
               setErrors(error.response.data.detail.errors);
