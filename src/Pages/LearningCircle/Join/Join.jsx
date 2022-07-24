@@ -23,7 +23,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
-    width: 400,
+    width: 350,
     bgcolor: "background.paper",
     boxShadow: 24,
     borderRadius: "5px",
@@ -121,7 +121,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
             });
             setErrors("");
             setCompleted(true);
-            setWLink(response.data. wa_url);
+            setWLink(response.data.wa_url);
             handleOpen();
             setPass("");
             confetti();
@@ -175,13 +175,26 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
             <Box sx={style}>
               <Typography
                 id="modal-modal-title"
-                variant="h6"
+                variant="h5"
                 component="h2"
                 className={styles.modaltext}
+                sx={{marginY: 1.5 }}
               >
-                Join Whatsapp Group.
+                Circle Joined!
               </Typography>
-              <a href={wlink} target="_blank" rel="noopener noreferrer">Click Here to Join</a>
+              <Typography variant="body2" gutterBottom component="div">
+                Furthur details has been already mailed to the the MailID you gave
+                here. Kindly check it out. Also all the upcoming communications
+                will be done through a whatsapp group so do join it.
+              </Typography>
+              <a href={wlink} target="_blank" rel="noopener noreferrer">
+                <Button
+                  sx={{ minWidth: 150, maxWidth: 150, marginY: 1.5 }}
+                  variant="contained"
+                >
+                  Join Group
+                </Button>
+              </a>
             </Box>
           </Modal>
         </div>
