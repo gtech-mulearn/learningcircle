@@ -347,3 +347,14 @@ a {
   font-weight: 600;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+.body_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
+.errortext {
+  text-align: center;
+}

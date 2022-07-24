@@ -75,7 +75,6 @@ const Home = ({
         .get(`${process.env.REACT_APP_BACKEND_URL}/team/${code}`)
         .then(function (response) {
           setMembers(response.data.data.members);
-          
         })
         .catch(function (error) {
           // console.log(error);
@@ -122,18 +121,22 @@ const Home = ({
             <Modal
               open={open}
               onClose={handleClose}
-              
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
             >
-              <Box sx={style} >
-                <Typography id="modal-modal-title" variant="h6" component="h2" className={styles.modaltext}>
+              <Box sx={style}>
+                <Typography
+                  id="modal-modal-title"
+                  variant="h6"
+                  component="h2"
+                  className={styles.modaltext}
+                >
                   Members in your Circle
                 </Typography>
 
                 {members.map((member, key) => (
                   <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-                    {key+1}). {member}.
+                    {key + 1}). {member}.
                   </Typography>
                 ))}
               </Box>
@@ -360,17 +363,7 @@ const Home = ({
       <>
         <Navbar />
         <div className={styles.body_container}>
-          <img src={learningcircles} alt="" className={styles.mimage} />
-
           <div className={styles.fsview}>
-            <p className={styles.fsheading}>µlearn Learning Circles</p>
-            <p className={styles.fstagline}>
-              An informal mechanism for bringing together learners who are
-              interested in the same topic from across different fields and
-              disciplines. A fantastic way to spend a small amount of time
-              learning about new things with a group of people with same
-              interests!
-            </p>
             <div className={styles.backenderror}>
               <p className={styles.errorheading}>
                 Encountered Technical Difficulty
