@@ -183,16 +183,27 @@ const Create = ({
             aria-describedby="modal-modal-description"
           >
             <Box sx={style}>
-              <Typography
+            <Typography
                 id="modal-modal-title"
-                variant="h6"
+                variant="h5"
                 component="h2"
                 className={styles.modaltext}
+                sx={{marginY: 1.5 }}
               >
-                Join Whatsapp Group.
+                Circle Created!
+              </Typography>
+              <Typography variant="body2" gutterBottom component="div">
+                The Circle is created and furthur details has been already mailed to the the MailID you gave
+                here. Kindly check it out. Also all the upcoming communications
+                will be done through a whatsapp group so do join it.
               </Typography>
               <a href={wlink} target="_blank" rel="noopener noreferrer">
-                Click Here to Join
+                <Button
+                  sx={{ minWidth: 150, maxWidth: 150, marginY: 1.5 }}
+                  variant="contained"
+                >
+                  Join Group
+                </Button>
               </a>
             </Box>
           </Modal>
