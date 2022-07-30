@@ -230,7 +230,7 @@ const Create = ({
           helperText={
             errors && JSON.stringify(errors).includes("code")
               ? "Team Code is Required"
-              : ""
+              : "*Spaces and Special Characters aren't allowed!"
           }
           name="code"
           id="outlined-basic"
