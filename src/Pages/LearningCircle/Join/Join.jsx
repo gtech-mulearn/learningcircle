@@ -65,7 +65,6 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           setValid(true);
         })
         .catch(function (error) {
-          
           setCollege();
           setMembers();
           setValid(false);
@@ -110,7 +109,6 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           }
         )
         .then((response) => {
-          
           if (response.data.status === "success") {
             setJoin({
               code: "",
@@ -128,7 +126,6 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           }
         })
         .catch((error) => {
-          
           if (error.response.status === 400) {
             if (error.response.data.detail) {
               setErrors(error.response.data.detail.errors);
@@ -178,21 +175,21 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
                 variant="h5"
                 component="h2"
                 className={styles.modaltext}
-                sx={{marginY: 1.5 }}
+                sx={{ marginY: 1.5 }}
               >
                 Circle Joined!
               </Typography>
               <Typography variant="body2" gutterBottom component="div">
-                Furthur details has been already mailed to the the MailID you gave
-                here. Kindly check it out. Also all the upcoming communications
-                will be done through a whatsapp group so do join it.
+                Furthur details has been already mailed to you. Kindly check it
+                out. Also all the upcoming communications will be done through a
+                whatsapp group so do join it.
               </Typography>
               <a href={wlink} target="_blank" rel="noopener noreferrer">
                 <Button
-                  sx={{ minWidth: 150, maxWidth: 150, marginY: 1.5 }}
+                  sx={{ minWidth: 250, maxWidth: 250, marginY: 1.5 }}
                   variant="contained"
                 >
-                  Join Group
+                  Join Whatsapp Group
                 </Button>
               </a>
             </Box>
