@@ -321,6 +321,7 @@ const Create = ({
         /> */}
 
         <TextField
+          required
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           name="phone"
           id="outlined-basic"
@@ -465,7 +466,13 @@ const Create = ({
         <Button
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           disabled={
-            create.phone && create.phone.length >= 10 && college && verify && confirm === create.passcode ? false : true
+            create.phone &&
+            create.phone.length >= 10 &&
+            college &&
+            verify &&
+            confirm === create.passcode
+              ? false
+              : true
           }
           onClick={() => {
             postData();
