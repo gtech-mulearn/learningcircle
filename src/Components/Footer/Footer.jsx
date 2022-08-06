@@ -13,13 +13,13 @@ const Footer = () => {
             </div>
 
             <div class="footer-links">
-              <a target="_blank"  rel="noreferrer" href="https://mulearn.org/careers">
+              <a target="_blank"  rel="noreferrer" href="https://careers.mulearn.org/">
                 Careers
               </a>
               <a target="_blank" rel="noreferrer" href="https://gtechmulearn.medium.com/">
                 Blog
               </a>
-              <a target="_blank" rel="noreferrer" href="https://mulearn.org/events/">
+              <a target="_blank" rel="noreferrer" href="https://events.mulearn.org/">
                 Events
               </a>
             </div>

@@ -316,6 +316,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           name="phone"
+          required
           id="outlined-basic"
           label="Phone"
           variant="outlined"
@@ -364,7 +365,11 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
         />
 
         <Button
-          disabled={college && verify && pass ? false : true}
+          disabled={
+            join.phone && join.phone.length >= 10 && college && verify && pass
+              ? false
+              : true
+          }
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           onClick={() => {
             postData();

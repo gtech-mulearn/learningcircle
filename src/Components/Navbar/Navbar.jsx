@@ -45,14 +45,9 @@ const Navbar = () => {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a class="dropdown-item" href="https://yip.mulearn.org">
-                        YIP
-                      </a>
-                    </li>
-                    <li>
                       <a
                         class="dropdown-item"
-                        href="https://mulearn.org/events"
+                        href="https://events.mulearn.org/"
                       >
                         Events
                       </a>
@@ -61,16 +56,7 @@ const Navbar = () => {
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a
-                    class="nav-link"
-                    href="https://atfg.gtechindia.org/participate/"
-                  >
-                    Participate
-                  </a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link" href="https://mulearn.org/careers/">
+                  <a class="nav-link" href="https://careers.mulearn.org/">
                     {" "}
                     Careers{" "}
                   </a>
@@ -92,7 +78,7 @@ const Navbar = () => {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a class="dropdown-item" href="https://mulearn.org/team">
+                      <a class="dropdown-item" href="https://team.mulearn.org/">
                         Our Team
                       </a>
                     </li>
