@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
       <div class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">
+          <a class="navbar-brand" href="https://mulearn.org">
             <img className="mulearn-logo" src={Mulearn} alt="Mulearn" />
           </a>
 

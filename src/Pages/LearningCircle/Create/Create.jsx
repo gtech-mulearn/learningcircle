@@ -341,12 +341,13 @@ const Create = ({
           helperText={
             errors && JSON.stringify(errors).includes("passcode")
               ? "Team Secret Key is Required"
-              : ""
+              : "*Key to be shared with members only!"
           }
           id="outlined-basic"
           label="Secret Key"
           placeholder="Try to Enter a Strong Key"
           variant="outlined"
+          
           value={create.passcode}
           onChange={changeHandler}
         />
