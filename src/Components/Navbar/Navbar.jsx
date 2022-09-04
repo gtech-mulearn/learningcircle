@@ -53,7 +53,7 @@ const Navbar = () => {
                       </a>
                     </li>
                   <li>
-                    <a class="dropdown-item" class="dropdown-item"
+                    <a class="dropdown-item"
                         target="_blank"
                         rel="noopener noreferrer" href="https://rebrand.ly/mulearncalendar"
                       >
