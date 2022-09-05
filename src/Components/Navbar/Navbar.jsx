@@ -71,6 +71,14 @@ const Navbar = () => {
                 </li>
 
                 <li class="nav-item dropdown">
+                  <a class="nav-link" href="https://learn.mulearn.org/">
+                    {" "}
+                    Interest Group{" "}
+                  </a>
+                </li>
+
+
+                <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
