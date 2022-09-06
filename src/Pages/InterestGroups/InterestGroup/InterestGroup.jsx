@@ -4,6 +4,7 @@ import Footer from "../../../Components/Footer/Footer";
 import styles from "./InterestGroup.module.css";
 
 import fvimg from "./assets/fvimg.png";
+import path from "./assets/path.png";
 
 import { styled } from "@mui/material/styles";
 import Table from "@mui/material/Table";
@@ -38,9 +39,21 @@ function createData(name, link, complexity, karma, time) {
   return { name, link, complexity, karma, time };
 }
 
-const rows = [
-  createData("Create a Survey Form", "https://www.notion.so/mulearn/Survey-From-139baee23b1344cb82183c9495156e81", 3, 200, "-"),
-  createData("Recreate the given image using HTML CSS", "https://web.fe.up.pt/~arestivo/page/exercises/css/", 3, 200, "-"),
+const enablementtasks = [
+  createData(
+    "Create a Survey Form",
+    "https://www.notion.so/mulearn/Survey-From-139baee23b1344cb82183c9495156e81",
+    3,
+    200,
+    "-"
+  ),
+  createData(
+    "Recreate the given image using HTML CSS",
+    "https://web.fe.up.pt/~arestivo/page/exercises/css/",
+    3,
+    200,
+    "-"
+  ),
 ];
 
 const InterestGroup = () => {
@@ -51,7 +64,7 @@ const InterestGroup = () => {
         <div className={styles.first_view_container}>
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
-              <p className={styles.fv_heading}>Internet of Things</p>
+              <p className={styles.fv_heading}>Web Development</p>
               <p className={styles.fv_content}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 iste vitae natus facere vel amet enim doloremque, voluptate
@@ -108,22 +121,28 @@ const InterestGroup = () => {
                       </TableRow>
                     </TableHead>
                     <TableBody>
-                      {rows.map((row) => (
-                        <StyledTableRow key={row.name}>
+                      {enablementtasks.map((enablementtask) => (
+                        <StyledTableRow key={enablementtask.name}>
                           <StyledTableCell component="th" scope="row">
-                            {row.name}
+                            {enablementtask.name}
                           </StyledTableCell>
                           <StyledTableCell align="right">
-                            <a href={row.link} target="_blank" rel="noopener noreferrer">Click Here</a>
+                            <a
+                              href={enablementtask.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Click Here
+                            </a>
                           </StyledTableCell>
                           <StyledTableCell align="right">
-                            {row.complexity}
+                            {enablementtask.complexity}
                           </StyledTableCell>
                           <StyledTableCell align="right">
-                            {row.karma}
+                            {enablementtask.karma}
                           </StyledTableCell>
                           <StyledTableCell align="right">
-                            {row.time}
+                            {enablementtask.time}
                           </StyledTableCell>
                         </StyledTableRow>
                       ))}
@@ -131,6 +150,50 @@ const InterestGroup = () => {
                   </Table>
                 </TableContainer>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.thrid_view_container}>
+          <div className={styles.third_view}>
+            <div className={styles.tv_texts}>
+              <p className={styles.tv_heading}>Learning Paths</p>
+              <p className={styles.tv_content}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                consequatur blanditiis mollitia tempora porro possimus.
+              </p>
+              <ul className={styles.tv_lists}>
+                <li className={styles.list_item}>
+                  <a
+                    href="https://roadmap.sh/frontend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    FrontEnd Learning Path
+                  </a>
+                </li>
+                <li className={styles.list_item}>
+                  <a
+                    href="http://roadmap.sh/backend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Backend Learning Path
+                  </a>
+                </li>
+                <li className={styles.list_item}>
+                  <a
+                    href="https://denic.hashnode.dev/you-want-to-learn-html-and-css-but-dont-know-where-to-get-started"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Complete Frontend Roadmap
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className={styles.tv_image}>
+              <img src={path} alt="" className={styles.tv_img} />
             </div>
           </div>
         </div>
