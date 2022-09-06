@@ -116,10 +116,12 @@ const InterestGroup = () => {
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>Web Development</p>
               <p className={styles.fv_content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                iste vitae natus facere vel amet enim doloremque, voluptate
-                aliquam animi adipisci neque ex debitis odio laborum blanditiis
-                fugiat eos tempore.
+                Ever wondered how web and mobile applications are built?
+                Everything seems greek until you get to how It is built.GTech
+                μlearn's Web and Mobile Development Interest Group aims to
+                develop and Fine-tune your Web, Mobile App Dev skills and bring
+                together people who wish to evaluate potential Web and Mobile
+                technologies. Join Now and Stay Updated!
               </p>
               <p className={styles.officehrs}>
                 <span>Office Hours</span> Every Sunday 7:30 PM at Discord Lobby
@@ -143,7 +145,6 @@ const InterestGroup = () => {
             </div>
           </div>
         </div>
-
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
@@ -182,21 +183,7 @@ const InterestGroup = () => {
                 </li>
               </ul>
             </div>
-            <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>Other Interest Groups</p>
-              <p className={styles.sv_content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                consequatur blanditiis mollitia tempora porro possimus.
-              </p>
-              <div className={styles.ilinks}>
-                <div className={styles.ilink}>UI/UX</div>
-                <div className={styles.ilink}>Product Management</div>
-                <div className={styles.ilink}>IOT</div>
-                <div className={styles.ilink}>Android Developement</div>
 
-                <div className={styles.ilink}>Cyber Security</div>
-              </div>
-            </div>
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>Mentor Details</p>
               <p className={styles.sv_content}>
@@ -218,7 +205,6 @@ const InterestGroup = () => {
             </div>
           </div>
         </div>
-
         <div className={styles.table_view_container}>
           <div className={styles.table_view}>
             <div className={styles.tav_texts}>
@@ -281,7 +267,6 @@ const InterestGroup = () => {
             </div>
           </div>
         </div>
-
         <div className={styles.table_view_container}>
           <div className={styles.table_view}>
             <div className={styles.tav_texts}>
@@ -344,7 +329,6 @@ const InterestGroup = () => {
             </div>
           </div>
         </div>
-
         <div className={styles.table_view_container}>
           <div className={styles.table_view}>
             <div className={styles.tav_texts}>
@@ -403,6 +387,67 @@ const InterestGroup = () => {
                     </TableBody>
                   </Table>
                 </TableContainer>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.interest_view_container}>
+          <div className={styles.interest_view}>
+            <div className={styles.iv_text}>
+              <p className={styles.iv_heading}>Interest Groups</p>
+              <p className={styles.iv_contents}>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nesciunt, quos vel atque voluptas dolore iste.
+              </p>
+            </div>
+
+            <div className={styles.interests_container}>
+              <div className={styles.interest}>
+                <p className={styles.interest_name}>Android Development</p>
+                <p className={styles.interest_text}>
+                  Do you wish to access the power of mobile technology than ever
+                  before? Our Android Interest Group will give you access to the
+                  newly emerging world of Android and also the golden
+                  opportunity to learn, interact and collaborate with
+                  like-minded peers. Join now!
+                </p>
+              </div>
+
+              <div className={styles.interest}>
+                <p className={styles.interest_name}>UI/UX</p>
+                <p className={styles.interest_text}>
+                  Ever wondered how the vibrant apps and websites you see are
+                  designed? Wanna know how to? Join our interest group to learn
+                  with others who have common interest and get mentored by
+                  expert individuals
+                </p>
+              </div>
+
+              <div className={styles.interest}>
+                <p className={styles.interest_name}>Internet of Things</p>
+                <p className={styles.interest_text}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In eligendi asperiores corrupti provident nihil laborum blanditiis animi soluta. Magni velit iste voluptate asperiores accusantium architecto provident, nulla magnam optio numquam.
+                </p>
+              </div>
+
+              <div className={styles.interest}>
+                <p className={styles.interest_name}>Cyber Security</p>
+                <p className={styles.interest_text}>
+                  Access the emerging era of cyber security with an opportunity
+                  to learn, interact and collaborate on projects along with your
+                  peers. Sounds interesting? Join our Cyber Security interest
+                  group to face challenges and thwart out cyber attacks.
+                </p>
+              </div>
+
+              <div className={styles.interest}>
+                <p className={styles.interest_name}>Product Management</p>
+                <p className={styles.interest_text}>
+                  "Product Management is deciding what to build next”. Are you
+                  interested in learning to build the right product and the
+                  product right? Join our “Product Management” interest group to
+                  learn and collaborate with peers.
+                </p>
               </div>
             </div>
           </div>
