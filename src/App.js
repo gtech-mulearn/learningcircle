@@ -6,6 +6,7 @@ import Home from "./Pages/LearningCircle/Home/Home";
 import axios from "axios";
 import Create from "./Pages/LearningCircle/Create/Create";
 import Join from "./Pages/LearningCircle/Join/Join.jsx";
+import InterestGroup from "./Pages/InterestGroups/InterestGroup/InterestGroup";
 
 function App() {
   //Home Page state Variables
@@ -155,6 +156,8 @@ function App() {
               />
             }
           />
+
+          <Route path="/web" element={<InterestGroup />} />
         </Routes>
       </Router>
     </div>
