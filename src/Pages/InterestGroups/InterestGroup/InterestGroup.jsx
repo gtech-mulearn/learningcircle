@@ -56,6 +56,54 @@ const enablementtasks = [
   ),
 ];
 
+const corecourses = [
+  createData(
+    "HTML and CSS",
+    "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    2,
+    400,
+    "-"
+  ),
+  createData(
+    "Javascript Algorithms & Datastructure",
+    "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    3,
+    400,
+    "-"
+  ),
+  createData(
+    "Frontend Development Libraries",
+    "https://www.freecodecamp.org/learn/front-end-development-libraries/",
+    3,
+    400,
+    "-"
+  ),
+  createData(
+    "Backebd Development & APIs",
+    "https://www.freecodecamp.org/learn/back-end-development-and-apis/#back-end-development-and-apis-projects",
+    3,
+    400,
+    "-"
+  ),
+];
+
+const subcourses = [
+  createData(
+    "Git & Github",
+    "https://www.classcentral.com/course/udacity-version-control-with-git-8430",
+    2,
+    "-",
+    "-"
+  ),
+  createData(
+    "Application Programming Interface (API)",
+    "https://youtu.be/GZvSYJDk-us",
+    3,
+    "-",
+    "-"
+  )
+];
+
 const InterestGroup = () => {
   return (
     <>
@@ -74,6 +122,9 @@ const InterestGroup = () => {
               <p className={styles.officehrs}>
                 <span>Office Hours</span> Every Sunday 7:30 PM at Discord Lobby
               </p>
+              <p className={styles.community}>
+                <span>Community Partner</span> Pygrammers
+              </p>
               <div className={styles.fv_buttons}>
                 <button className={styles.create}>
                   Create Learning Circles
@@ -87,6 +138,66 @@ const InterestGroup = () => {
                 alt="Group Learning Image"
                 className={styles.fv_img}
               />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.third_view_container}>
+          <div className={styles.third_view}>
+            <div className={styles.tv_texts}>
+              <p className={styles.tv_heading}>Learning Paths</p>
+              <p className={styles.tv_content}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                consequatur blanditiis mollitia tempora porro possimus.
+              </p>
+              <ul className={styles.tv_lists}>
+                <li className={styles.list_item}>
+                  <a
+                    href="https://roadmap.sh/frontend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    FrontEnd Learning Path
+                  </a>
+                </li>
+                <li className={styles.list_item}>
+                  <a
+                    href="http://roadmap.sh/backend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Backend Learning Path
+                  </a>
+                </li>
+                <li className={styles.list_item}>
+                  <a
+                    href="https://denic.hashnode.dev/you-want-to-learn-html-and-css-but-dont-know-where-to-get-started"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Complete Frontend Roadmap
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className={styles.tv_texts}>
+              <p className={styles.tv_heading}>Mentor Details</p>
+              <p className={styles.tv_content}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                consequatur blanditiis mollitia tempora porro possimus.
+              </p>
+              <ul className={styles.tv_lists}>
+                <li className={styles.list_item}>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Shaheen Hyder - Pygrammers
+                  </a>
+                </li>
+                <li className={styles.list_item}>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Shahanad - Pygrammers
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -154,46 +265,128 @@ const InterestGroup = () => {
           </div>
         </div>
 
-        <div className={styles.thrid_view_container}>
-          <div className={styles.third_view}>
-            <div className={styles.tv_texts}>
-              <p className={styles.tv_heading}>Learning Paths</p>
-              <p className={styles.tv_content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                consequatur blanditiis mollitia tempora porro possimus.
+        <div className={styles.second_view_container}>
+          <div className={styles.second_view}>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>Core Tasks</p>
+              <p className={styles.sv_contents}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                necessitatibus.
               </p>
-              <ul className={styles.tv_lists}>
-                <li className={styles.list_item}>
-                  <a
-                    href="https://roadmap.sh/frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    FrontEnd Learning Path
-                  </a>
-                </li>
-                <li className={styles.list_item}>
-                  <a
-                    href="http://roadmap.sh/backend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Backend Learning Path
-                  </a>
-                </li>
-                <li className={styles.list_item}>
-                  <a
-                    href="https://denic.hashnode.dev/you-want-to-learn-html-and-css-but-dont-know-where-to-get-started"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Complete Frontend Roadmap
-                  </a>
-                </li>
-              </ul>
             </div>
-            <div className={styles.tv_image}>
-              <img src={path} alt="" className={styles.tv_img} />
+
+            <div className={styles.sv_tasks_container}>
+              <div className={styles.sv_tasks}>
+                <TableContainer component={Paper}>
+                  <Table sx={{ minWidth: 700 }} aria-label="customized table">
+                    <TableHead>
+                      <TableRow>
+                        <StyledTableCell>Core Course Name</StyledTableCell>
+                        <StyledTableCell align="right">
+                          Core Course Link
+                        </StyledTableCell>
+                        <StyledTableCell align="right">
+                          Complexity (Out of 5)
+                        </StyledTableCell>
+                        <StyledTableCell align="right">
+                          Karma Points
+                        </StyledTableCell>
+                        <StyledTableCell align="right">Time</StyledTableCell>
+                      </TableRow>
+                    </TableHead>
+                    <TableBody>
+                      {corecourses.map((corecourse) => (
+                        <StyledTableRow key={corecourse.name}>
+                          <StyledTableCell component="th" scope="row">
+                            {corecourse.name}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            <a
+                              href={corecourse.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Click Here
+                            </a>
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {corecourse.complexity}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {corecourse.karma}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {corecourse.time}
+                          </StyledTableCell>
+                        </StyledTableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </TableContainer>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.second_view_container}>
+          <div className={styles.second_view}>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>Sub Courses</p>
+              <p className={styles.sv_contents}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                necessitatibus.
+              </p>
+            </div>
+
+            <div className={styles.sv_tasks_container}>
+              <div className={styles.sv_tasks}>
+                <TableContainer component={Paper}>
+                  <Table sx={{ minWidth: 700 }} aria-label="customized table">
+                    <TableHead>
+                      <TableRow>
+                        <StyledTableCell>Sub Courses Name</StyledTableCell>
+                        <StyledTableCell align="right">
+                          Sub Courses Link
+                        </StyledTableCell>
+                        <StyledTableCell align="right">
+                          Complexity (Out of 5)
+                        </StyledTableCell>
+                        <StyledTableCell align="right">
+                          Karma Points
+                        </StyledTableCell>
+                        <StyledTableCell align="right">Time</StyledTableCell>
+                      </TableRow>
+                    </TableHead>
+                    <TableBody>
+                      {subcourses.map((subcourse) => (
+                        <StyledTableRow key={subcourse.name}>
+                          <StyledTableCell component="th" scope="row">
+                            {subcourse.name}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            <a
+                              href={subcourse.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Click Here
+                            </a>
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {subcourse.complexity}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {subcourse.karma}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {subcourse.time}
+                          </StyledTableCell>
+                        </StyledTableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </TableContainer>
+              </div>
             </div>
           </div>
         </div>
