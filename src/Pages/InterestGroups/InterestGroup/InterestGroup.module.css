@@ -92,12 +92,43 @@
 
 /* Second Section Styles */
 
+.table_view_container {
+  margin: 2rem;
+}
+
+.tav_heading {
+  color: #404040;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.tav_contents {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .table_view_container {
+    margin: 6rem;
+  }
+
+  .tav_heading {
+    font-size: 2rem;
+  }
+}
+
+/* Third Section Styles */
+
 .second_view_container {
   margin: 2rem;
 }
 
+.sv_img {
+  width: 20rem;
+}
+
 .sv_heading {
-  color: #404040;
+  color: #f6842c;
   font-size: 1.5rem;
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -105,41 +136,10 @@
 
 .sv_contents {
   margin-bottom: 1rem;
-}
-
-@media only screen and (min-width: 1000px) {
-  .second_view_container {
-    margin: 6rem;
-  }
-
-  .sv_heading {
-    font-size: 2rem;
-  }
-}
-
-/* Third Section Styles */
-
-.third_view_container {
-  margin: 2rem;
-}
-
-.tv_img {
-  width: 20rem;
-}
-
-.tv_heading {
-  color: #f6842c;
-  font-size: 1.5rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-}
-
-.tv_contents {
-  margin-bottom: 1rem;
   
 }
 
-.tv_lists{
+.sv_lists{
   margin-top: 1rem;
 }
 
@@ -154,27 +154,27 @@
   border-radius: 5px;
 }
 
-.tv_texts{
+.sv_texts{
   margin: 2rem 0;
 }
 
 @media only screen and (min-width: 1000px) {
-  .third_view_container {
+  .second_view_container {
     margin: 6rem;
   }
 
-  .third_view {
+  .second_view {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
   }
 
-  .tv_heading {
+  .sv_heading {
     font-size: 2rem;
   }
 
-  .tv_content{
+  .sv_content{
     font-size: 0.95rem;
     width: 90%;
   }
@@ -183,7 +183,7 @@
     width: 80%;
   }
 
-  .tv_texts {
+  .sv_texts {
     width: 30vw;
     margin: 0 1rem;
   }

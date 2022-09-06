@@ -144,15 +144,15 @@ const InterestGroup = () => {
           </div>
         </div>
 
-        <div className={styles.third_view_container}>
-          <div className={styles.third_view}>
-            <div className={styles.tv_texts}>
-              <p className={styles.tv_heading}>Learning Paths</p>
-              <p className={styles.tv_content}>
+        <div className={styles.second_view_container}>
+          <div className={styles.second_view}>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>Learning Paths</p>
+              <p className={styles.sv_content}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
                 consequatur blanditiis mollitia tempora porro possimus.
               </p>
-              <ul className={styles.tv_lists}>
+              <ul className={styles.sv_lists}>
                 <li className={styles.list_item}>
                   <a
                     href="https://roadmap.sh/frontend"
@@ -182,9 +182,9 @@ const InterestGroup = () => {
                 </li>
               </ul>
             </div>
-            <div className={styles.tv_texts}>
-              <p className={styles.tv_heading}>Other Interest Groups</p>
-              <p className={styles.tv_content}>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>Other Interest Groups</p>
+              <p className={styles.sv_content}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
                 consequatur blanditiis mollitia tempora porro possimus.
               </p>
@@ -197,13 +197,13 @@ const InterestGroup = () => {
                 <div className={styles.ilink}>Cyber Security</div>
               </div>
             </div>
-            <div className={styles.tv_texts}>
-              <p className={styles.tv_heading}>Mentor Details</p>
-              <p className={styles.tv_content}>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>Mentor Details</p>
+              <p className={styles.sv_content}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
                 consequatur blanditiis mollitia tempora porro possimus.
               </p>
-              <ul className={styles.tv_lists}>
+              <ul className={styles.sv_lists}>
                 <li className={styles.list_item}>
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     Shaheen Hyder - Pygrammers
@@ -219,18 +219,18 @@ const InterestGroup = () => {
           </div>
         </div>
 
-        <div className={styles.second_view_container}>
-          <div className={styles.second_view}>
-            <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>Basic Enablement Tasks</p>
-              <p className={styles.sv_contents}>
+        <div className={styles.table_view_container}>
+          <div className={styles.table_view}>
+            <div className={styles.tav_texts}>
+              <p className={styles.tav_heading}>Basic Enablement Tasks</p>
+              <p className={styles.tav_contents}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
                 necessitatibus.
               </p>
             </div>
 
-            <div className={styles.sv_tasks_container}>
-              <div className={styles.sv_tasks}>
+            <div className={styles.tav_tasks_container}>
+              <div className={styles.tav_tasks}>
                 <TableContainer component={Paper}>
                   <Table sx={{ minWidth: 700 }} aria-label="customized table">
                     <TableHead>
@@ -282,18 +282,18 @@ const InterestGroup = () => {
           </div>
         </div>
 
-        <div className={styles.second_view_container}>
-          <div className={styles.second_view}>
-            <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>Core Tasks</p>
-              <p className={styles.sv_contents}>
+        <div className={styles.table_view_container}>
+          <div className={styles.table_view}>
+            <div className={styles.tav_texts}>
+              <p className={styles.tav_heading}>Core Tasks</p>
+              <p className={styles.tav_contents}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
                 necessitatibus.
               </p>
             </div>
 
-            <div className={styles.sv_tasks_container}>
-              <div className={styles.sv_tasks}>
+            <div className={styles.tav_tasks_container}>
+              <div className={styles.tav_tasks}>
                 <TableContainer component={Paper}>
                   <Table sx={{ minWidth: 700 }} aria-label="customized table">
                     <TableHead>
@@ -345,18 +345,18 @@ const InterestGroup = () => {
           </div>
         </div>
 
-        <div className={styles.second_view_container}>
-          <div className={styles.second_view}>
-            <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>Sub Courses</p>
-              <p className={styles.sv_contents}>
+        <div className={styles.table_view_container}>
+          <div className={styles.table_view}>
+            <div className={styles.tav_texts}>
+              <p className={styles.tav_heading}>Sub Courses</p>
+              <p className={styles.tav_contents}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
                 necessitatibus.
               </p>
             </div>
 
-            <div className={styles.sv_tasks_container}>
-              <div className={styles.sv_tasks}>
+            <div className={styles.tav_tasks_container}>
+              <div className={styles.tav_tasks}>
                 <TableContainer component={Paper}>
                   <Table sx={{ minWidth: 700 }} aria-label="customized table">
                     <TableHead>
