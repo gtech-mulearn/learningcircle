@@ -86,7 +86,7 @@
 
   .fv_img {
     display: block;
-    width: 40rem;
+    width: 30vw;
   }
 }
 
@@ -97,7 +97,7 @@
 }
 
 .sv_heading {
-  color: #f6842c;
+  color: #404040;
   font-size: 1.5rem;
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -147,6 +147,7 @@
   display: inline-block;
   background-color: #f6842c;
   color: white;
+  font-size: 0.9rem;
   padding: 0.25rem 1rem;
   margin: 0.25rem 0rem;
   margin-right: 0.25rem;
@@ -173,8 +174,17 @@
     font-size: 2rem;
   }
 
+  .tv_content{
+    font-size: 0.95rem;
+    width: 90%;
+  }
+
+  .ilinks{
+    width: 80%;
+  }
+
   .tv_texts {
     width: 30vw;
-    margin: 0;
+    margin: 0 1rem;
   }
 }
