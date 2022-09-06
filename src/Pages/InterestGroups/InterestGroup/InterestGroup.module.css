@@ -85,12 +85,15 @@
   margin: 2rem;
 }
 
-
-.sv_heading{
+.sv_heading {
   color: #f6842c;
   font-size: 1.5rem;
   font-family: "Inter", sans-serif;
   font-weight: 600;
+}
+
+.sv_contents {
+  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -98,8 +101,7 @@
     margin: 6rem;
   }
 
-  .sv_heading{
+  .sv_heading {
     font-size: 2rem;
-
   }
 }
