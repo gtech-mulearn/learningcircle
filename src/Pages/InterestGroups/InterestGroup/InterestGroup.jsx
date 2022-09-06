@@ -101,7 +101,7 @@ const subcourses = [
     3,
     "-",
     "-"
-  )
+  ),
 ];
 
 const InterestGroup = () => {
@@ -179,6 +179,21 @@ const InterestGroup = () => {
                   </a>
                 </li>
               </ul>
+            </div>
+            <div className={styles.tv_texts}>
+              <p className={styles.tv_heading}>Other Interest Groups</p>
+              <p className={styles.tv_content}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                consequatur blanditiis mollitia tempora porro possimus.
+              </p>
+              <div className={styles.ilinks}>
+                <div className={styles.ilink}>UI/UX</div>
+                <div className={styles.ilink}>Product Management</div>
+                <div className={styles.ilink}>IOT</div>
+                <div className={styles.ilink}>Android Developement</div>
+
+                <div className={styles.ilink}>Cyber Security</div>
+              </div>
             </div>
             <div className={styles.tv_texts}>
               <p className={styles.tv_heading}>Mentor Details</p>

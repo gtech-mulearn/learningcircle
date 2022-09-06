@@ -136,10 +136,25 @@
 
 .tv_contents {
   margin-bottom: 1rem;
+  
 }
 
 .tv_lists{
   margin-top: 1rem;
+}
+
+.ilink{
+  display: inline-block;
+  background-color: #f6842c;
+  color: white;
+  padding: 0.25rem 1rem;
+  margin: 0.25rem 0rem;
+  margin-right: 0.25rem;
+  border-radius: 5px;
+}
+
+.tv_texts{
+  margin: 2rem 0;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -160,5 +175,6 @@
 
   .tv_texts {
     width: 30vw;
+    margin: 0;
   }
 }
