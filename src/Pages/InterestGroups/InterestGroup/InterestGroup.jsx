@@ -391,67 +391,7 @@ const InterestGroup = () => {
             </div>
           </div>
         </div>
-        <div className={styles.interest_view_container}>
-          <div className={styles.interest_view}>
-            <div className={styles.iv_text}>
-              <p className={styles.iv_heading}>Interest Groups</p>
-              <p className={styles.iv_contents}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Nesciunt, quos vel atque voluptas dolore iste.
-              </p>
-            </div>
-
-            <div className={styles.interests_container}>
-              <div className={styles.interest}>
-                <p className={styles.interest_name}>Android Development</p>
-                <p className={styles.interest_text}>
-                  Do you wish to access the power of mobile technology than ever
-                  before? Our Android Interest Group will give you access to the
-                  newly emerging world of Android and also the golden
-                  opportunity to learn, interact and collaborate with
-                  like-minded peers. Join now!
-                </p>
-              </div>
-
-              <div className={styles.interest}>
-                <p className={styles.interest_name}>UI/UX</p>
-                <p className={styles.interest_text}>
-                  Ever wondered how the vibrant apps and websites you see are
-                  designed? Wanna know how to? Join our interest group to learn
-                  with others who have common interest and get mentored by
-                  expert individuals
-                </p>
-              </div>
-
-              <div className={styles.interest}>
-                <p className={styles.interest_name}>Internet of Things</p>
-                <p className={styles.interest_text}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In eligendi asperiores corrupti provident nihil laborum blanditiis animi soluta. Magni velit iste voluptate asperiores accusantium architecto provident, nulla magnam optio numquam.
-                </p>
-              </div>
-
-              <div className={styles.interest}>
-                <p className={styles.interest_name}>Cyber Security</p>
-                <p className={styles.interest_text}>
-                  Access the emerging era of cyber security with an opportunity
-                  to learn, interact and collaborate on projects along with your
-                  peers. Sounds interesting? Join our Cyber Security interest
-                  group to face challenges and thwart out cyber attacks.
-                </p>
-              </div>
-
-              <div className={styles.interest}>
-                <p className={styles.interest_name}>Product Management</p>
-                <p className={styles.interest_text}>
-                  "Product Management is deciding what to build next”. Are you
-                  interested in learning to build the right product and the
-                  product right? Join our “Product Management” interest group to
-                  learn and collaborate with peers.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+       
       </div>
       <Footer />
     </>
