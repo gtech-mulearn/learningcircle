@@ -1,4 +1,5 @@
 import React from "react";
+
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
 import styles from "./InterestGroup.module.css";
@@ -14,6 +15,8 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import { useParams } from "react-router-dom";
+import InterestGroups from "./data";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -107,6 +110,11 @@ const subcourses = [
 ];
 
 const InterestGroup = () => {
+  let { id } = useParams();
+  const data = InterestGroups.filter(function (interestgroups) {
+    return interestgroups.id === id;
+  });
+  console.log(data);
   return (
     <>
       <Navbar />
@@ -114,20 +122,15 @@ const InterestGroup = () => {
         <div className={styles.first_view_container}>
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
-              <p className={styles.fv_heading}>Web Development</p>
+              <p className={styles.fv_heading}>{data[0].interestgroup}</p>
               <p className={styles.fv_content}>
-                Ever wondered how web and mobile applications are built?
-                Everything seems greek until you get to how It is built.GTech
-                μlearn's Web and Mobile Development Interest Group aims to
-                develop and Fine-tune your Web, Mobile App Dev skills and bring
-                together people who wish to evaluate potential Web and Mobile
-                technologies. Join Now and Stay Updated!
+                {data[0].interestgroupdescription}
               </p>
               <p className={styles.officehrs}>
-                <span>Office Hours</span> Every Sunday 7:30 PM at Discord Lobby
+                <span>Office Hours</span> {data[0].officetime}
               </p>
               <p className={styles.community}>
-                <span>Community Partner</span> Pygrammers
+                <span>Community Partner</span> {data[0].community[0]}
               </p>
               <div className={styles.fv_buttons}>
                 <button className={styles.create}>
@@ -154,33 +157,17 @@ const InterestGroup = () => {
                 consequatur blanditiis mollitia tempora porro possimus.
               </p>
               <ul className={styles.sv_lists}>
-                <li className={styles.list_item}>
-                  <a
-                    href="https://roadmap.sh/frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    FrontEnd Learning Path
-                  </a>
-                </li>
-                <li className={styles.list_item}>
-                  <a
-                    href="http://roadmap.sh/backend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Backend Learning Path
-                  </a>
-                </li>
-                <li className={styles.list_item}>
-                  <a
-                    href="https://denic.hashnode.dev/you-want-to-learn-html-and-css-but-dont-know-where-to-get-started"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Complete Frontend Roadmap
-                  </a>
-                </li>
+                {data[0].learningpaths.map((learningpath) => (
+                  <li className={styles.list_item}>
+                    <a
+                      href={learningpath.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {learningpath.name}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -191,16 +178,13 @@ const InterestGroup = () => {
                 consequatur blanditiis mollitia tempora porro possimus.
               </p>
               <ul className={styles.sv_lists}>
-                <li className={styles.list_item}>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Shaheen Hyder - Pygrammers
-                  </a>
-                </li>
-                <li className={styles.list_item}>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Shahanad - Pygrammers
-                  </a>
-                </li>
+                {data[0].mentors.map((mentor) => (
+                  <li className={styles.list_item}>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      {mentor}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
@@ -235,7 +219,7 @@ const InterestGroup = () => {
                       </TableRow>
                     </TableHead>
                     <TableBody>
-                      {enablementtasks.map((enablementtask) => (
+                      {data[0].basicenablementtasks.map((enablementtask) => (
                         <StyledTableRow key={enablementtask.name}>
                           <StyledTableCell component="th" scope="row">
                             {enablementtask.name}
@@ -297,7 +281,7 @@ const InterestGroup = () => {
                       </TableRow>
                     </TableHead>
                     <TableBody>
-                      {corecourses.map((corecourse) => (
+                      {data[0].corecourses && data[0].corecourses.map((corecourse) => (
                         <StyledTableRow key={corecourse.name}>
                           <StyledTableCell component="th" scope="row">
                             {corecourse.name}
@@ -359,7 +343,7 @@ const InterestGroup = () => {
                       </TableRow>
                     </TableHead>
                     <TableBody>
-                      {subcourses.map((subcourse) => (
+                      {data[0].subcourses.map((subcourse) => (
                         <StyledTableRow key={subcourse.name}>
                           <StyledTableCell component="th" scope="row">
                             {subcourse.name}
@@ -391,7 +375,6 @@ const InterestGroup = () => {
             </div>
           </div>
         </div>
-       
       </div>
       <Footer />
     </>

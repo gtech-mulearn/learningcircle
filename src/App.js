@@ -157,7 +157,7 @@ function App() {
             }
           />
 
-          <Route path="/web" element={<InterestGroup />} />
+          <Route path="/:id" element={<InterestGroup />} />
         </Routes>
       </Router>
     </div>
