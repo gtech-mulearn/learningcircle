@@ -40,75 +40,6 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-function createData(name, link, complexity, karma, time) {
-  return { name, link, complexity, karma, time };
-}
-
-const enablementtasks = [
-  createData(
-    "Create a Survey Form",
-    "https://www.notion.so/mulearn/Survey-From-139baee23b1344cb82183c9495156e81",
-    3,
-    200,
-    "-"
-  ),
-  createData(
-    "Recreate the given image using HTML CSS",
-    "https://web.fe.up.pt/~arestivo/page/exercises/css/",
-    3,
-    200,
-    "-"
-  ),
-];
-
-const corecourses = [
-  createData(
-    "HTML and CSS",
-    "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
-    2,
-    400,
-    "-"
-  ),
-  createData(
-    "Javascript Algorithms & Datastructure",
-    "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
-    3,
-    400,
-    "-"
-  ),
-  createData(
-    "Frontend Development Libraries",
-    "https://www.freecodecamp.org/learn/front-end-development-libraries/",
-    3,
-    400,
-    "-"
-  ),
-  createData(
-    "Backebd Development & APIs",
-    "https://www.freecodecamp.org/learn/back-end-development-and-apis/#back-end-development-and-apis-projects",
-    3,
-    400,
-    "-"
-  ),
-];
-
-const subcourses = [
-  createData(
-    "Git & Github",
-    "https://www.classcentral.com/course/udacity-version-control-with-git-8430",
-    2,
-    "-",
-    "-"
-  ),
-  createData(
-    "Application Programming Interface (API)",
-    "https://youtu.be/GZvSYJDk-us",
-    3,
-    "-",
-    "-"
-  ),
-];
-
 const InterestGroup = () => {
   let { id } = useParams();
   const data = InterestGroups.filter(function (interestgroups) {
@@ -127,7 +58,7 @@ const InterestGroup = () => {
                 {data[0].interestgroupdescription}
               </p>
               <p className={styles.officehrs}>
-                <span>Office Hours</span> {data[0].officetime}
+                <span>Office Hours</span> {data[0].officetime} at {data[0].officeplace}
               </p>
               <p className={styles.community}>
                 <span>Community Partner</span> {data[0].community[0]}
@@ -281,31 +212,32 @@ const InterestGroup = () => {
                       </TableRow>
                     </TableHead>
                     <TableBody>
-                      {data[0].corecourses && data[0].corecourses.map((corecourse) => (
-                        <StyledTableRow key={corecourse.name}>
-                          <StyledTableCell component="th" scope="row">
-                            {corecourse.name}
-                          </StyledTableCell>
-                          <StyledTableCell align="right">
-                            <a
-                              href={corecourse.link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              Click Here
-                            </a>
-                          </StyledTableCell>
-                          <StyledTableCell align="right">
-                            {corecourse.complexity}
-                          </StyledTableCell>
-                          <StyledTableCell align="right">
-                            {corecourse.karma}
-                          </StyledTableCell>
-                          <StyledTableCell align="right">
-                            {corecourse.time}
-                          </StyledTableCell>
-                        </StyledTableRow>
-                      ))}
+                      {data[0].corecourses &&
+                        data[0].corecourses.map((corecourse) => (
+                          <StyledTableRow key={corecourse.name}>
+                            <StyledTableCell component="th" scope="row">
+                              {corecourse.name}
+                            </StyledTableCell>
+                            <StyledTableCell align="right">
+                              <a
+                                href={corecourse.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                Click Here
+                              </a>
+                            </StyledTableCell>
+                            <StyledTableCell align="right">
+                              {corecourse.complexity}
+                            </StyledTableCell>
+                            <StyledTableCell align="right">
+                              {corecourse.karma}
+                            </StyledTableCell>
+                            <StyledTableCell align="right">
+                              {corecourse.time}
+                            </StyledTableCell>
+                          </StyledTableRow>
+                        ))}
                     </TableBody>
                   </Table>
                 </TableContainer>
