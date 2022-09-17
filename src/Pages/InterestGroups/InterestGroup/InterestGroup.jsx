@@ -66,10 +66,11 @@ const InterestGroup = () => {
               </p>
               <div className={styles.fv_buttons}>
                 {" "}
-                //Add OnClick Link
-                <button className={styles.create}>
-                  Create Learning Circles
-                </button>
+                <a href="/create">
+                  <button className={styles.create}>
+                    Create Learning Circles
+                  </button>
+                </a>
               </div>
             </div>
 
