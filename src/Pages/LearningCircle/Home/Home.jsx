@@ -29,6 +29,9 @@ import Pygrammers from "./assets/Others/Pygrammers.png";
 import ProductPack from "./assets/Others/ProductPack.png";
 
 import animation from "./assets/animation.webp";
+import InterestCard from "../../../Components/InterestCard/InterestCard";
+
+import InterestGroups from "./data.js";
 
 const Home = ({
   backenderr,
@@ -353,6 +356,29 @@ const Home = ({
               </Link>
             </>
           )}
+        </div>
+
+        <div className={styles.secondsection}>
+          <div className={styles.fssheading1}>
+            <span>Existing</span> Interest Groups
+          </div>
+          <div className={styles.fsstagline}>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque,
+            distinctio quasi officia optio reiciendis quos sequi debitis a esse
+            modi? Cum, numquam deserunt. Enim dolore quasi incidunt facilis
+            dolor mollitia quam nesciunt.
+          </div>
+          <div className={styles.cards_container}>
+            {InterestGroups.map((InterestGroup) => (
+              <InterestCard
+                id={InterestGroup.id}
+                interestgroup={InterestGroup.interestgroup}
+                interestgroupdescription={
+                  InterestGroup.interestgroupdescription
+                }
+              />
+            ))}
+          </div>
         </div>
 
         <Footer />

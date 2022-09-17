@@ -16,7 +16,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { useParams } from "react-router-dom";
-import InterestGroups from "./data";
+import InterestGroups from "../../LearningCircle/Home/data";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {

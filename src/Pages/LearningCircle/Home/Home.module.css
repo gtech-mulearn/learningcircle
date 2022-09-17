@@ -358,3 +358,21 @@ a {
 .errortext {
   text-align: center;
 }
+
+/* Cards Styling */
+
+.cards_container {
+  display: grid;
+  row-gap: 3vh;
+  column-gap: 3vw;
+}
+
+@media only screen and (min-width: 1000px) {
+  .cards_container {
+    margin-top: 6vh;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    row-gap: 3vh;
+    column-gap: 3vw;
+  }
+}
