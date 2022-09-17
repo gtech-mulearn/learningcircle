@@ -115,6 +115,11 @@
   .tav_heading {
     font-size: 2rem;
   }
+
+  .tav_contents {
+    margin-bottom: 1rem;
+    width: 40%;
+  }
 }
 
 /* Third Section Styles */
@@ -166,7 +171,7 @@
     display: flex;
     flex-direction: row;
     justify-content: left;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .sv_heading {

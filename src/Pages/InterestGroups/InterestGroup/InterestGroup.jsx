@@ -58,12 +58,15 @@ const InterestGroup = () => {
                 {data[0].interestgroupdescription}
               </p>
               <p className={styles.officehrs}>
-                <span>Office Hours</span> {data[0].officetime} at {data[0].officeplace}
+                <span>Office Hours</span> {data[0].officetime} at{" "}
+                {data[0].officeplace}
               </p>
               <p className={styles.community}>
                 <span>Community Partner</span> {data[0].community[0]}
               </p>
               <div className={styles.fv_buttons}>
+                {" "}
+                //Add OnClick Link
                 <button className={styles.create}>
                   Create Learning Circles
                 </button>
@@ -84,8 +87,9 @@ const InterestGroup = () => {
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>Learning Paths</p>
               <p className={styles.sv_content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                consequatur blanditiis mollitia tempora porro possimus.
+                Having a plan/roadmap before to reach the destination on time is
+                a great advantage. Here are some learning paths for you to
+                follow.
               </p>
               <ul className={styles.sv_lists}>
                 {data[0].learningpaths.map((learningpath) => (
@@ -105,8 +109,9 @@ const InterestGroup = () => {
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>Mentor Details</p>
               <p className={styles.sv_content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                consequatur blanditiis mollitia tempora porro possimus.
+                Having Doubts?. Our Mentors are here to help you get all your
+                doubts cleared and get to going forward. Join in for our Office
+                Hours and get all your doubts cleared.
               </p>
               <ul className={styles.sv_lists}>
                 {data[0].mentors.map((mentor) => (
@@ -125,8 +130,10 @@ const InterestGroup = () => {
             <div className={styles.tav_texts}>
               <p className={styles.tav_heading}>Basic Enablement Tasks</p>
               <p className={styles.tav_contents}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-                necessitatibus.
+                These are the basic enablement tasks which will help you gain
+                the basic knowledege about your domain and will help you gain
+                some of the basic skills which is useful for your upcoming
+                journey.
               </p>
             </div>
 
@@ -187,8 +194,8 @@ const InterestGroup = () => {
             <div className={styles.tav_texts}>
               <p className={styles.tav_heading}>Core Tasks</p>
               <p className={styles.tav_contents}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-                necessitatibus.
+                Every subject or skill has some core set of things that has to
+                be learn. Here are few resouces curated by us for learning them.
               </p>
             </div>
 
@@ -250,8 +257,9 @@ const InterestGroup = () => {
             <div className={styles.tav_texts}>
               <p className={styles.tav_heading}>Sub Courses</p>
               <p className={styles.tav_contents}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-                necessitatibus.
+                These are the courses which will help to have a much more grasp
+                over your domain. Learning these will be always an important
+                advantage for your upcoming journey.
               </p>
             </div>
 
