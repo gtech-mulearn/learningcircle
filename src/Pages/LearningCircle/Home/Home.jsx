@@ -363,10 +363,9 @@ const Home = ({
             <span>Existing</span> Interest Groups
           </div>
           <div className={styles.fsstagline}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque,
-            distinctio quasi officia optio reiciendis quos sequi debitis a esse
-            modi? Cum, numquam deserunt. Enim dolore quasi incidunt facilis
-            dolor mollitia quam nesciunt.
+            Learning things for which you are curious about is interesting
+            right?. What about learning the same thing along with group of
+            like-minded peer group and mentors, Much more interesting right? Join in Now and Start Learning!.
           </div>
           <div className={styles.cards_container}>
             {InterestGroups.map((InterestGroup) => (
