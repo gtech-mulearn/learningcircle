@@ -86,6 +86,23 @@ const InterestGroup = () => {
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>Mentor Details</p>
+              <p className={styles.sv_content}>
+                Having Doubts?. Our Mentors are here to help you get all your
+                doubts cleared and get to going forward. Join in for our Office
+                Hours and get all your doubts cleared.
+              </p>
+              <ul className={styles.sv_lists}>
+                {data[0].mentors.map((mentor) => (
+                  <li className={styles.list_item}>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      {mentor}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>Learning Paths</p>
               <p className={styles.sv_content}>
                 Having a plan/roadmap before to reach the destination on time is
@@ -106,90 +123,9 @@ const InterestGroup = () => {
                 ))}
               </ul>
             </div>
-
-            <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>Mentor Details</p>
-              <p className={styles.sv_content}>
-                Having Doubts?. Our Mentors are here to help you get all your
-                doubts cleared and get to going forward. Join in for our Office
-                Hours and get all your doubts cleared.
-              </p>
-              <ul className={styles.sv_lists}>
-                {data[0].mentors.map((mentor) => (
-                  <li className={styles.list_item}>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      {mentor}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
           </div>
         </div>
-        <div className={styles.table_view_container}>
-          <div className={styles.table_view}>
-            <div className={styles.tav_texts}>
-              <p className={styles.tav_heading}>Basic Enablement Tasks</p>
-              <p className={styles.tav_contents}>
-                These are the basic enablement tasks which will help you gain
-                the basic knowledege about your domain and will help you gain
-                some of the basic skills which is useful for your upcoming
-                journey.
-              </p>
-            </div>
 
-            <div className={styles.tav_tasks_container}>
-              <div className={styles.tav_tasks}>
-                <TableContainer component={Paper}>
-                  <Table sx={{ minWidth: 700 }} aria-label="customized table">
-                    <TableHead>
-                      <TableRow>
-                        <StyledTableCell>Enablement Task Name</StyledTableCell>
-                        <StyledTableCell align="right">
-                          Enablement Task Link
-                        </StyledTableCell>
-                        <StyledTableCell align="right">
-                          Complexity (Out of 5)
-                        </StyledTableCell>
-                        <StyledTableCell align="right">
-                          Karma Points
-                        </StyledTableCell>
-                        <StyledTableCell align="right">Time</StyledTableCell>
-                      </TableRow>
-                    </TableHead>
-                    <TableBody>
-                      {data[0].basicenablementtasks.map((enablementtask) => (
-                        <StyledTableRow key={enablementtask.name}>
-                          <StyledTableCell component="th" scope="row">
-                            {enablementtask.name}
-                          </StyledTableCell>
-                          <StyledTableCell align="right">
-                            <a
-                              href={enablementtask.link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              Click Here
-                            </a>
-                          </StyledTableCell>
-                          <StyledTableCell align="right">
-                            {enablementtask.complexity}
-                          </StyledTableCell>
-                          <StyledTableCell align="right">
-                            {enablementtask.karma}
-                          </StyledTableCell>
-                          <StyledTableCell align="right">
-                            {enablementtask.time}
-                          </StyledTableCell>
-                        </StyledTableRow>
-                      ))}
-                    </TableBody>
-                  </Table>
-                </TableContainer>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className={styles.table_view_container}>
           <div className={styles.table_view}>
             <div className={styles.tav_texts}>
@@ -210,13 +146,13 @@ const InterestGroup = () => {
                         <StyledTableCell align="right">
                           Core Course Link
                         </StyledTableCell>
-                        <StyledTableCell align="right">
+                        {/* <StyledTableCell align="right">
                           Complexity (Out of 5)
-                        </StyledTableCell>
+                        </StyledTableCell> */}
                         <StyledTableCell align="right">
                           Karma Points
                         </StyledTableCell>
-                        <StyledTableCell align="right">Time</StyledTableCell>
+                        {/* <StyledTableCell align="right">Time</StyledTableCell> */}
                       </TableRow>
                     </TableHead>
                     <TableBody>
@@ -235,15 +171,15 @@ const InterestGroup = () => {
                                 Click Here
                               </a>
                             </StyledTableCell>
-                            <StyledTableCell align="right">
+                            {/* <StyledTableCell align="right">
                               {corecourse.complexity}
-                            </StyledTableCell>
+                            </StyledTableCell> */}
                             <StyledTableCell align="right">
                               {corecourse.karma}
                             </StyledTableCell>
-                            <StyledTableCell align="right">
+                            {/* <StyledTableCell align="right">
                               {corecourse.time}
-                            </StyledTableCell>
+                            </StyledTableCell> */}
                           </StyledTableRow>
                         ))}
                     </TableBody>
@@ -274,13 +210,13 @@ const InterestGroup = () => {
                         <StyledTableCell align="right">
                           Sub Courses Link
                         </StyledTableCell>
-                        <StyledTableCell align="right">
+                        {/* <StyledTableCell align="right">
                           Complexity (Out of 5)
-                        </StyledTableCell>
+                        </StyledTableCell> */}
                         <StyledTableCell align="right">
                           Karma Points
                         </StyledTableCell>
-                        <StyledTableCell align="right">Time</StyledTableCell>
+                        {/* <StyledTableCell align="right">Time</StyledTableCell> */}
                       </TableRow>
                     </TableHead>
                     <TableBody>
@@ -298,15 +234,15 @@ const InterestGroup = () => {
                               Click Here
                             </a>
                           </StyledTableCell>
-                          <StyledTableCell align="right">
+                          {/* <StyledTableCell align="right">
                             {subcourse.complexity}
-                          </StyledTableCell>
+                          </StyledTableCell> */}
                           <StyledTableCell align="right">
                             {subcourse.karma}
                           </StyledTableCell>
-                          <StyledTableCell align="right">
+                          {/* <StyledTableCell align="right">
                             {subcourse.time}
-                          </StyledTableCell>
+                          </StyledTableCell> */}
                         </StyledTableRow>
                       ))}
                     </TableBody>
