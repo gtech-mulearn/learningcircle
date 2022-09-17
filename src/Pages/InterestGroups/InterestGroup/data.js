@@ -91,7 +91,7 @@ const InterestGroups = [
       "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others who have common interest and get mentored by expert individuals.",
     officetime: "Sunday 7:30PM",
     officeplace: "Gathering Field",
-    commmunity: ["FoF Kochi", "GDSC MBCET"],
+    community: ["FoF Kochi", "GDSC MBCET"],
     company: ["Faya", "Experion Technologies"],
     mentors: [
       "Salman Faariz - GDSC MBCET",
