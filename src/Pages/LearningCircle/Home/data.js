@@ -3,7 +3,7 @@ const InterestGroups = [
     id: "iot",
     interestgroup: "Internet Of Things",
     interestgroupdescription:
-      "Our life as well as the Internet is full of amazing things. from the device from which you are reading thing to the fan above your head can be connected and controlled automatically. But How?. Join in our IoT Interest Group to learn how this can be achieved.",
+      "Our life as well as the Internet is full of amazing things. From the device on which you are reading thing to the fan above your head can be connected and controlled automatically. But How?. Join in our IoT Interest Group to learn how this can be achieved.",
     officetime: "Sunday 7:30",
     officeplace: "Discord Lobby",
     community: ["Fox Lab"],
@@ -161,7 +161,7 @@ const InterestGroups = [
     id: "web",
     interestgroup: "Web Development",
     interestgroupdescription:
-      "Ever wondered how web applications are built? Everything sees grekk until you get to how it is built. GTech μlearn's Web Development Interest Group aims to develop and Fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join Now and Stay Updated!",
+      "Ever wondered how web applications are built? Everything sees grekk until you get to how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
     officetime: "Saturday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Pygrammers"],
@@ -329,7 +329,7 @@ const InterestGroups = [
     id: "cybersec",
     interestgroup: "Cyber Security",
     interestgroupdescription:
-      "Having an extra layer of security is always and advantage in the current world. The best way to prevent a cyber attack is to learn how it works it the first place and block all the loopholes that allow it. Want learn more about Cyber Security?. Join in with our Interest Group and Learn from our expert mentors.",
+      "Having an extra layer of security is always an advantage in the current world. The best way to prevent a cyber attack is to learn how it works and block all the loopholes that allow it. Want to learn?. Join in with our Interest Group and learn from our expert mentors.",
     officetime: "Sunday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Beagle Security"],
