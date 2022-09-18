@@ -82,12 +82,17 @@ const Navbar = () => {
                     aria-expanded="false"
                   >
                     {" "}
-                    Interest Group{" "}
+                    Interest Groups{" "}
                   </a>
                   <ul
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
+                    <li>
+                      <a class="dropdown-item" href="/">
+                       Home
+                      </a>
+                    </li>
                     <li>
                       <a class="dropdown-item" href="/web">
                         Web Development
