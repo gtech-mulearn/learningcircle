@@ -3,7 +3,7 @@ const InterestGroups = [
     id: "iot",
     interestgroup: "Internet Of Things",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at ultricies nisl, eget finibus turpis. Donec pellentesque enim vel orci posuere, at scelerisque nulla vehicula. Fusce vulputate gravida consequat. Proin.",
+      "Our life as well as the Internet is full of amazing things. from the device from which you are reading thing to the fan above your head can be connected and controlled automatically. But How?. Join in our IoT Interest Group to learn how this can be achieved.",
     officetime: "Sunday 7:30",
     officeplace: "Discord Lobby",
     community: ["Fox Lab"],
@@ -139,6 +139,13 @@ const InterestGroups = [
         time: "",
         karma: "400",
       },
+      {
+        name: "UI/UX Design",
+        link: "https://www.coursera.org/specializations/ui-ux-design",
+        complexity: "",
+        time: "",
+        karma: "400",
+      },
     ],
     subcourses: [
       {
@@ -154,7 +161,7 @@ const InterestGroups = [
     id: "web",
     interestgroup: "Web Development",
     interestgroupdescription:
-      "Ever wondered how web and mobile applications are built? Everything seems greek until you get to how It is built.GTech μlearn's Web and Mobile Development Interest Group aims to develop and Fine-tune your Web, Mobile App Dev skills and bring together people who wish to evaluate potential Web and Mobile technologies. Join Now and Stay Updated!",
+      "Ever wondered how web applications are built? Everything sees grekk until you get to how it is built. GTech μlearn's Web Development Interest Group aims to develop and Fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join Now and Stay Updated!",
     officetime: "Saturday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Pygrammers"],
@@ -248,7 +255,7 @@ const InterestGroups = [
     id: "android",
     interestgroup: "Android Development",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at ultricies nisl, eget finibus turpis. Donec pellentesque enim vel orci posuere, at scelerisque nulla vehicula. Fusce vulputate gravida consequat. Proin.",
+      "Have you ever thought how your android devices work?. From the alarm app which you close each morning to the assignments which you get assigned in the google classroom. Who made all this beautiful apps and How are they able to do this?. Curious? Join in and Learn.",
     officetime: "Saturday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Google"],
@@ -322,7 +329,7 @@ const InterestGroups = [
     id: "cybersec",
     interestgroup: "Cyber Security",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at ultricies nisl, eget finibus turpis. Donec pellentesque enim vel orci posuere, at scelerisque nulla vehicula. Fusce vulputate gravida consequat. Proin.",
+      "Having an extra layer of security is always and advantage in the current world. The best way to prevent a cyber attack is to learn how it works it the first place and block all the loopholes that allow it. Want learn more about Cyber Security?. Join in with our Interest Group and Learn from our expert mentors.",
     officetime: "Sunday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Beagle Security"],
