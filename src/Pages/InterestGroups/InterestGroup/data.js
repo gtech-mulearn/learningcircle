@@ -20,6 +20,10 @@ const InterestGroups = [
         name: "IOT Learning Path",
         link: "https://paths.tinkerhub.org/iot/",
       },
+      {
+        name: "Getting Started with IoT Development - IBM Learning Path",
+        link: "https://developer.ibm.com/learningpaths/iot-getting-started-iot-development/",
+      }
     ],
     basicenablementtasks: [
       {
@@ -28,13 +32,6 @@ const InterestGroups = [
         complexity: "3",
         time: "40mins",
         karma: "200",
-      },
-      {
-        name: "Getting Started with IoT Development - IBM Learning Path",
-        link: "https://developer.ibm.com/learningpaths/iot-getting-started-iot-development/",
-        complexity: "",
-        time: "",
-        karma: "",
       },
       {
         name: "Traffic Light Simulation",
@@ -52,6 +49,13 @@ const InterestGroups = [
         time: "",
         karma: "400",
       },
+      {
+        name: "An Introduction to Programming the Internet of Things (IOT) Specialization",
+        link: "https://www.coursera.org/specializations/iot?ranMID=40328&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-uHZ2gmIeJlrAIaNHKA5yzQ&siteID=JVFxdTr9V80-uHZ2gmIeJlrAIaNHKA5yzQ&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=JVFxdTr9V80",
+        complexity: "",
+        time: "",
+        karma: "",
+      }
     ],
     subcourses: [
       {
@@ -89,14 +93,15 @@ const InterestGroups = [
     interestgroup: "User Interface and Experience",
     interestgroupdescription:
       "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others who have common interest and get mentored by expert individuals.",
-    officetime: "Sunday 7:30PM",
+    officetime: "Wednesday 7:30PM",
     officeplace: "Gathering Field",
     community: ["FoF Kochi", "GDSC MBCET"],
     company: ["Faya", "Experion Technologies"],
     mentors: [
-      "Salman Faariz - GDSC MBCET",
-      "Rhea Merin - GDSC MBCET",
-      "Nauneet - GDSC MBCET",
+      "Michael Mathews",
+      "Salman Faariz",
+      "Rhea Merin",
+      "Nauneet",
     ],
     learningpaths: [
       {
@@ -166,7 +171,7 @@ const InterestGroups = [
     officeplace: "Discord Lobby",
     community: ["Pygrammers"],
     company: ["Travancore Analytics", "PITS"],
-    mentors: ["Shaheen Hyder - Pygrammers", "Shahanad - Pygrammers"],
+    mentors: ["Shaheen Hyder", "Shahanad"],
     learningpaths: [
       {
         name: "Front End Learning Path",
@@ -256,7 +261,7 @@ const InterestGroups = [
     interestgroup: "Android Development",
     interestgroupdescription:
       "Have you ever thought how your android devices work?. From the alarm app which you close each morning to the assignments which you get assigned in the google classroom. Who made all this beautiful apps and How are they able to do this?. Curious? Join in and Learn.",
-    officetime: "Saturday 7:30PM",
+    officetime: "Thursday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Google"],
     company: ["Triassic Solutions", "PITS"],
@@ -334,7 +339,7 @@ const InterestGroups = [
     officeplace: "Discord Lobby",
     community: ["Beagle Security"],
     company: [],
-    mentors: ["Rejah Rehim - Beagle Security", "Anees - Beagle Security"],
+    mentors: ["Rejah Rehim", "Anees"],
     learningpaths: [
       {
         name: "Cyber Security GTech Mulearn",
@@ -550,7 +555,7 @@ const InterestGroups = [
     interestgroup: "Product Management",
     interestgroupdescription:
       '"Product Management is deciding what to build next”. Are you interested in learning to build the right product and the product right? Join our “Product Management” interest group to learn and collaborate with peers',
-    officetime: "Sunday 8:00PM",
+    officetime: "Monday 8:00PM",
     officeplace: "Discord Lobby",
     community: ["Product Pack"],
     company: ["SunTec"],
