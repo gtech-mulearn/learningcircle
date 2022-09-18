@@ -100,7 +100,7 @@ const InterestGroups = [
   },
   {
     id: "uiux",
-    interestgroup: "User Interface and Experience",
+    interestgroup: "User Interface and Experience (UI/UX)",
     interestgroupdescription:
       "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others who have common interest and get mentored by expert individuals.",
     officetime: "Wednesday 7:30PM",
@@ -278,7 +278,7 @@ const InterestGroups = [
     id: "android",
     interestgroup: "Android Development",
     interestgroupdescription:
-      "Have you ever thought how your android devices work?. From the alarm app which you close each morning to the assignments which you get assigned in the google classroom. Who made all this beautiful apps and How are they able to do this?. Curious? Join in and Learn.",
+      "Everything is at your finger tips, and still don't know the working and stages of the android development? Have you ever thought of exploring with those? Don't worry; Join our Android Development Interest Group right away and start feeding your curious minds from the basics",
     officetime: "Thursday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Google"],
