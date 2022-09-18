@@ -12,13 +12,17 @@ nav {
 }
 
 .nav-barbtn button {
-  border: 2.5px solid #5865f2;
+  border: 2.5px solid  #f6842c;
   padding: 0.65rem 0.96rem;
   border-radius: 5px;
   font-size: 0.8rem;
-  background-color: #5865f2;
+  background-color:  #f6842c;
   color: white;
   margin-top: 2vh;
+}
+
+.join-discord{
+  background-color:  #f6842c;
 }
 
 .dropdown {

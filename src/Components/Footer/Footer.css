@@ -10,16 +10,6 @@ a:hover {
   width: 6rem;
 }
 
-.nav-barbtn button {
-  border: 2.5px solid #5865f2;
-  padding: 0.65rem 0.96rem;
-  border-radius: 5px;
-  font-size: 0.8rem;
-  background-color: #5865f2;
-  color: white;
-  margin-top: 2vh;
-}
-
 .dropdown {
   font-size: 1rem;
 }
