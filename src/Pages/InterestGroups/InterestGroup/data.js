@@ -54,7 +54,7 @@ const InterestGroups = [
         link: "https://www.coursera.org/specializations/iot?ranMID=40328&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-uHZ2gmIeJlrAIaNHKA5yzQ&siteID=JVFxdTr9V80-uHZ2gmIeJlrAIaNHKA5yzQ&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=JVFxdTr9V80",
         complexity: "",
         time: "",
-        karma: "",
+        karma: "400",
       }
     ],
     subcourses: [
@@ -228,13 +228,6 @@ const InterestGroups = [
         name: "Backend Development and APIs",
         link: "https://www.freecodecamp.org/learn/back-end-development-and-apis/#back-end-development-and-apis-projects",
         complexity: "4",
-        time: "",
-        karma: "400",
-      },
-      {
-        name: "Full Stack Development",
-        link: "https://www.youtube.com/watch?v=EceJQ05KTf4&list=PLwoh6bBAszPrES-EOajos_E9gvRbL27wz",
-        complexity: "5",
         time: "",
         karma: "400",
       },

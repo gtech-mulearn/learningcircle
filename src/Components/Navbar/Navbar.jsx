@@ -52,14 +52,16 @@ const Navbar = () => {
                         Events
                       </a>
                     </li>
-                  <li>
-                    <a class="dropdown-item"
+                    <li>
+                      <a
+                        class="dropdown-item"
                         target="_blank"
-                        rel="noopener noreferrer" href="https://rebrand.ly/mulearncalendar"
+                        rel="noopener noreferrer"
+                        href="https://rebrand.ly/mulearncalendar"
                       >
                         Global Calendar
                       </a>
-                  </li>
+                    </li>
                   </ul>
                 </li>
 
@@ -71,12 +73,53 @@ const Navbar = () => {
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link" href="https://learn.mulearn.org/">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="https://learn.mulearn.org/"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     {" "}
                     Interest Group{" "}
                   </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="/web">
+                        Web Development
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/android">
+                        Android Development
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/uiux">
+                        UI/UX
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/pm">
+                        Product Management
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/iot">
+                        Internet of Things
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/cybersec">
+                        Cyber Security
+                      </a>
+                    </li>
+                  </ul>
                 </li>
-
 
                 <li class="nav-item dropdown">
                   <a
