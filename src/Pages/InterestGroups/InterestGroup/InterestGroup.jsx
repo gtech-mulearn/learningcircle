@@ -117,7 +117,8 @@ const InterestGroup = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {learningpath.name}
+                      {learningpath.name} -{" "}
+                      <span className={styles.link}>Click Here</span>
                     </a>
                   </li>
                 ))}
@@ -168,7 +169,7 @@ const InterestGroup = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
-                                Click Here
+                                <span className={styles.link}>Click Here</span>
                               </a>
                             </StyledTableCell>
                             {/* <StyledTableCell align="right">
@@ -231,7 +232,7 @@ const InterestGroup = () => {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              Click Here
+                              <span className={styles.link}>Click Here</span>
                             </a>
                           </StyledTableCell>
                           {/* <StyledTableCell align="right">

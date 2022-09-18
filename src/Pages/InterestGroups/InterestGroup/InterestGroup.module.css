@@ -35,6 +35,10 @@
   border-radius: 5px;
 }
 
+.link {
+  color: #f6842c;
+}
+
 .officehrs {
   margin-top: 1rem;
   font-family: "Inter", sans-serif;
@@ -192,4 +196,3 @@
     margin: 0 1rem;
   }
 }
-
