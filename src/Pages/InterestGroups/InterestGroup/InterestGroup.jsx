@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
@@ -40,12 +41,16 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-const InterestGroup = () => {
+const InterestGroup = ({ setInterest }) => {
+  useEffect(() => {
+    setInterest(id);
+  }, []);
   let { id } = useParams();
+  const link = `/create/${id}`;
   const data = InterestGroups.filter(function (interestgroups) {
     return interestgroups.id === id;
   });
-  console.log(data);
+
   return (
     <>
       <Navbar />
@@ -66,11 +71,11 @@ const InterestGroup = () => {
               </p>
               <div className={styles.fv_buttons}>
                 {" "}
-                <a href="/create">
+                <Link to={link}>
                   <button className={styles.create}>
                     Create Learning Circles
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
 

@@ -157,7 +157,28 @@ function App() {
             }
           />
 
-          <Route path="/:id" element={<InterestGroup />} />
+          <Route
+            path="/:id"
+            element={<InterestGroup setInterest={setInterest} />}
+          />
+          <Route
+            path="/create/:id"
+            element={
+              <Create
+                interest={interest}
+                districts={districts}
+                district={district}
+                setDistrict={setDistrict}
+                setInterest={setInterest}
+                interests={interests}
+                college={college}
+                setCollege={setCollege}
+                colleges={colleges}
+                create={create}
+                setCreate={setCreate}
+              />
+            }
+          />
         </Routes>
       </Router>
     </div>
