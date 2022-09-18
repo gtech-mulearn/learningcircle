@@ -12,7 +12,6 @@ const InterestCard = ({ id, interestgroup, interestgroupdescription }) => {
           <button class={styles.icardbtn}>Checkout Group</button>
         </a>
       </div>
-      {/* <div class={styles.icarddesign}>{interestgroup}</div> */}
     </div>
   );
 };

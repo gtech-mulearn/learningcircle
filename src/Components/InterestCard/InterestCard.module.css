@@ -21,10 +21,19 @@
   margin-top: 1vh;
   padding: 0.5rem 1.85rem;
   font-size: 0.95rem;
+  color: #f59b56;
+  border: 2px solid #f59b56;
   border-radius: 5px;
 }
 
-.icardcontent{
+.icardbtn:hover{
+  background-color: #f59b56;
+  color: #ffff;
+  border: 2px solid #f59b56;
+  transition: 1s ease-in-out;
+}
+
+.icardcontent {
   font-size: 0.95rem;
 }
 
