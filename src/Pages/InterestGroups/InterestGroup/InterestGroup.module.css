@@ -196,3 +196,26 @@
     margin: 0 1rem;
   }
 }
+
+.next_previous {
+  margin: 2rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pretext{
+  text-align: left;
+}
+
+.nexttext{
+  text-align: right;
+}
+
+@media only screen and (min-width: 1000px) {
+  .next_previous {
+    margin: 6rem;
+  }
+}

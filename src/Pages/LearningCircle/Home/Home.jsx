@@ -29,6 +29,7 @@ import Pygrammers from "./assets/Others/Pygrammers.png";
 import ProductPack from "./assets/Others/ProductPack.png";
 
 import animation from "./assets/animation.webp";
+import illustrations from "./assets/illustrations.png"
 import InterestCard from "../../../Components/InterestCard/InterestCard";
 
 import InterestGroups from "./data.js";
@@ -201,7 +202,7 @@ const Home = ({
             </div>
 
             <div class={styles.fsimage}>
-              <img src={animation} alt="" class={styles.fs_img} />
+              <img src={illustrations} alt="" class={styles.fs_img} />
             </div>
           </div>
 

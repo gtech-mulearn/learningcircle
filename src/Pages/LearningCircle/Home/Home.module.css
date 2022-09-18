@@ -93,7 +93,8 @@ a {
 
   .fs_img {
     display: block;
-    width: 35vw;
+    width: 28vw;
+    margin-left: 10vw;
   }
   main {
     margin-top: 18vh;

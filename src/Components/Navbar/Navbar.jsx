@@ -90,7 +90,7 @@ const Navbar = () => {
                   >
                     <li>
                       <a class="dropdown-item" href="/">
-                       Home
+                       Home Page
                       </a>
                     </li>
                     <li>

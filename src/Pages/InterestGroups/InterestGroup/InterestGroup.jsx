@@ -50,6 +50,12 @@ const InterestGroup = ({ setInterest }) => {
   const data = InterestGroups.filter(function (interestgroups) {
     return interestgroups.id === id;
   });
+  let next = "";
+  let previous = "";
+  if (data) {
+    previous = `/${data[0].pagination[0].id}`;
+    next = `/${data[0].pagination[1].id}`;
+  }
 
   return (
     <>
@@ -257,6 +263,18 @@ const InterestGroup = ({ setInterest }) => {
               </div>
             </div>
           </div>
+        </div>
+        <div className={styles.next_previous}>
+          <Link to={previous}>
+            <div className={styles.previous}>
+              <p className={styles.pretext}>{data[0].pagination[0].name}</p>
+            </div>
+          </Link>
+          <Link to={next}>
+            <div className={styles.next}>
+              <p className={styles.nexttext}>{data[0].pagination[1].name}</p>
+            </div>
+          </Link>
         </div>
       </div>
       <Footer />

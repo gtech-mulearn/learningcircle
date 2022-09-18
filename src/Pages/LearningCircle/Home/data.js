@@ -15,6 +15,16 @@ const InterestGroups = [
       "Akshai M (Embedded Software Engineer - STABL Energy GmbH)",
       "Samuel John (Co-Founder & CEO - mistEO)",
     ],
+    pagination: [
+      {
+        id: "pm",
+        name: "< Product Management",
+      },
+      {
+        id: "uiux",
+        name: "UI/UX >",
+      },
+    ],
     learningpaths: [
       {
         name: "IOT Learning Path",
@@ -23,7 +33,7 @@ const InterestGroups = [
       {
         name: "Getting Started with IoT Development - IBM Learning Path",
         link: "https://developer.ibm.com/learningpaths/iot-getting-started-iot-development/",
-      }
+      },
     ],
     basicenablementtasks: [
       {
@@ -55,7 +65,7 @@ const InterestGroups = [
         complexity: "",
         time: "",
         karma: "400",
-      }
+      },
     ],
     subcourses: [
       {
@@ -97,12 +107,17 @@ const InterestGroups = [
     officeplace: "Gathering Field",
     community: ["FoF Kochi", "GDSC MBCET"],
     company: ["Faya", "Experion Technologies"],
-    mentors: [
-      "Michael Mathews",
-      "Salman Faariz",
-      "Rhea Merin",
-      "Nauneet",
+    pagination: [
+      {
+        id: "iot",
+        name: "< Internet of Things",
+      },
+      {
+        id: "web",
+        name: "Web Development >",
+      },
     ],
+    mentors: ["Michael Mathews", "Salman Faariz", "Rhea Merin", "Nauneet"],
     learningpaths: [
       {
         name: "User Experience Learning Path",
@@ -166,11 +181,21 @@ const InterestGroups = [
     id: "web",
     interestgroup: "Web Development",
     interestgroupdescription:
-      "Ever wondered how web applications are built? Everything sees grekk until you get to how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
+      "Ever wondered how web applications are built? Everything sees greek until you get to how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
     officetime: "Saturday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Pygrammers"],
     company: ["Travancore Analytics", "PITS"],
+    pagination: [
+      {
+        id: "uiux",
+        name: "< UI/UX",
+      },
+      {
+        id: "android",
+        name: "Android Development >",
+      },
+    ],
     mentors: ["Shaheen Hyder", "Shahanad"],
     learningpaths: [
       {
@@ -259,6 +284,16 @@ const InterestGroups = [
     community: ["Google"],
     company: ["Triassic Solutions", "PITS"],
     mentors: ["Vinu Balagopal"],
+    pagination: [
+      {
+        id: "web",
+        name: "< Web Development",
+      },
+      {
+        id: "cybersec",
+        name: "Cyber Security >",
+      },
+    ],
     learningpaths: [
       {
         name: "Kotlin",
@@ -333,6 +368,16 @@ const InterestGroups = [
     community: ["Beagle Security"],
     company: [],
     mentors: ["Rejah Rehim", "Anees"],
+    pagination: [
+      {
+        id: "android",
+        name: "< Android Development",
+      },
+      {
+        id: "pm",
+        name: "Product Management >",
+      },
+    ],
     learningpaths: [
       {
         name: "Cyber Security GTech Mulearn",
@@ -548,11 +593,21 @@ const InterestGroups = [
     interestgroup: "Product Management",
     interestgroupdescription:
       '"Product Management is deciding what to build next”. Are you interested in learning to build the right product and the product right? Join our “Product Management” interest group to learn and collaborate with peers',
-    officetime: "Monday 8:00PM",
+    officetime: "Monday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Product Pack"],
     company: ["SunTec"],
     mentors: ["Nithin Balachandran", "Vineesh U S", "Aravind", "Savio"],
+    pagination: [
+      {
+        id: "cybersec",
+        name: "< Cyber Security",
+      },
+      {
+        id: "iot",
+        name: "Internet of Things >",
+      },
+    ],
     learningpaths: [
       {
         name: "Ultimate Product Management Guide",
