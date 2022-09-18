@@ -260,7 +260,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "Git and Github",
-        link: "https://www.classcentral.com/course/udacity-version-control-with-git-8430",
+        link: "https://youtu.be/apGV9Kg7ics",
         complexity: "3",
         time: "",
         karma: "200",
@@ -344,7 +344,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "Git and Github",
-        link: "https://www.classcentral.com/course/udacity-version-control-with-git-8430",
+        link: "https://youtu.be/apGV9Kg7ics",
         complexity: "",
         time: "",
         karma: "200",
