@@ -25,7 +25,7 @@ a {
 }
 
 .fsheading span {
-  color: #f6842c;
+  color: #f78c40;
 }
 
 .fssheading {
@@ -45,7 +45,7 @@ a {
 
 .fsbtn,
 .fsobtn {
-  background: #5865f2;
+  background: #f78c40;
   color: white;
   padding: 0.6rem 1.5rem;
   margin: 0.5rem;
@@ -56,10 +56,10 @@ a {
 }
 
 .fsobtn {
-  color: #5865f2;
+  color: #f78c40;
   border: solid;
   padding: 0.5rem 1.5rem;
-  border: 2px solid #5865f2;
+  border: 2px solid #f78c40;
   margin-left: 0.5rem;
   background-color: white;
 }
@@ -131,7 +131,7 @@ a {
 }
 
 .fssheading1 span {
-  color: #f6842c;
+  color: #f78c40;
 }
 
 .form {
@@ -170,7 +170,7 @@ a {
 }
 
 .createbtn {
-  background-color: #5865f2;
+  background-color: #f78c40;
   text-align: center;
   color: white;
   border: none;
@@ -200,7 +200,7 @@ a {
 }
 
 .errorheading {
-  color: #f6842c;
+  color: #f78c40;
   margin-top: -1rem;
   font-size: 2rem;
   font-weight: 600;
@@ -317,7 +317,7 @@ a {
 }
 
 .tssheading1 span {
-  color: #f6842c;
+  color: #f78c40;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -344,7 +344,7 @@ a {
 
 .modaltext {
   border: none;
-  color: #f6842c;
+  color: #f78c40;
   font-weight: 600;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
