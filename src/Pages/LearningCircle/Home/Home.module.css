@@ -365,6 +365,7 @@ a {
 .cards_container {
   margin-top: 2rem;
   display: grid;
+   -webkit-line-clamp: 3;
   row-gap: 3vh;
   column-gap: 3vw;
 }
