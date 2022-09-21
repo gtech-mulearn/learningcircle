@@ -124,6 +124,11 @@
   font-size: 0.9rem;
 }
 
+.mentors {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
 @media only screen and (min-width: 1000px) {
   .second_view_container {
     margin: 6rem;
@@ -138,6 +143,41 @@
   .sv_content {
     margin-top: 0;
     font-size: 1.05rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors {
+    display: grid;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-columns: 45% 45%;
+   
+  }
+
+  .sv_content {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .mentors {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+
+  .sv_content {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .mentors {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .sv_content {
     width: 35%;
   }
 }

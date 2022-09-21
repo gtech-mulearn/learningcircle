@@ -4,6 +4,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import styles from "./MentorDirectory.module.css";
 
 import fvimg from "./assets/fvimg.png";
+import MentorCard from "../../Components/MentorCard/MentorCard";
 
 const MentorDirectory = () => {
   return (
@@ -41,10 +42,33 @@ const MentorDirectory = () => {
         </div>
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
-            <p className={styles.sv_heading}>Mentor Details</p>
-            <p className={styles.sv_content}>
-              We have several experienced mentors under each Interest Groups to guide, assist and mentor you thoughtout your learning journey.
-            </p>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>Mentor Details</p>
+              <p className={styles.sv_content}>
+                We have several experienced mentors under each Interest Groups
+                to guide, assist and mentor you thoughtout your learning
+                journey.
+              </p>
+            </div>
+            <div className={styles.mentor_container}>
+              <div className={styles.mentors}>
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+                <MentorCard />
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
