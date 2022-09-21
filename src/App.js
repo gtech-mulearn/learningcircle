@@ -7,6 +7,7 @@ import axios from "axios";
 import Create from "./Pages/LearningCircle/Create/Create";
 import Join from "./Pages/LearningCircle/Join/Join.jsx";
 import InterestGroup from "./Pages/InterestGroups/InterestGroup/InterestGroup";
+import MentorDirectory from "./Pages/MentorDirectory/MentorDirectory";
 
 function App() {
   //Home Page state Variables
@@ -161,6 +162,7 @@ function App() {
             path="/:id"
             element={<InterestGroup setInterest={setInterest} />}
           />
+          <Route path="/mentors" element={<MentorDirectory />} />
           <Route
             path="/create/:id"
             element={
