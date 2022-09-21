@@ -3,9 +3,12 @@
   padding: 0;
 }
 
+.main_container {
+  min-height: 100vh;
+}
+
 .first_view_container {
   margin: 2rem;
-  min-height: 100vh;
 }
 
 .fv_heading {
@@ -52,7 +55,7 @@
     margin: 6rem;
   }
 
-  .fv_texts{
+  .fv_texts {
     width: 45vw;
   }
 
@@ -65,7 +68,7 @@
     width: 80%;
   }
 
-  .fv_content{
+  .fv_content {
     font-size: 1.1rem;
   }
 
@@ -99,5 +102,42 @@
     margin-top: 0.75rem;
     font-size: 0.9rem;
     font-weight: 500;
+  }
+}
+
+/* Second Section Styles */
+
+.second_view_container {
+  margin: 2rem;
+}
+
+.sv_heading {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  color: #f78c40;
+}
+
+.sv_content {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .second_view_container {
+    margin: 6rem;
+  }
+
+  .sv_heading {
+    font-size: 2.25rem;
+    line-height: 4rem;
+    width: 60vw;
+  }
+
+  .sv_content {
+    margin-top: 0;
+    font-size: 1.05rem;
+    width: 35%;
   }
 }

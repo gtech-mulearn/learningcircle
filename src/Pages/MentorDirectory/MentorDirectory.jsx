@@ -39,6 +39,14 @@ const MentorDirectory = () => {
             </div>
           </div>
         </div>
+        <div className={styles.second_view_container}>
+          <div className={styles.second_view}>
+            <p className={styles.sv_heading}>Mentor Details</p>
+            <p className={styles.sv_content}>
+              We have several experienced mentors under each Interest Groups to guide, assist and mentor you thoughtout your learning journey.
+            </p>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
