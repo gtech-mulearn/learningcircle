@@ -14,10 +14,10 @@ const MentorDirectory = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                µLearn <span> Mentor Directory.</span>
+                µLearn <span> Mentor Directory</span>
               </p>
               <p className={styles.fv_content}>
-                Welcome to the Menotr Directory of Mulearn. Here you will be
+                Welcome to the Mentor Directory of Mulearn. Here you will be
                 able to find a mentor who has already gone down the road through
                 which you are about to embrak a journey on. Happy Learning!.
               </p>
