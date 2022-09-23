@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_container {
+  min-height: 100vh;
+}
+
+.first_view_container {
+  margin: 2rem;
+}
+
+.fv_heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #404040;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.fv_heading span,
+.orange {
+  color: #f78c40;
+}
+
+.fv_content {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.fv_image {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .first_view_container {
+    margin: 6rem;
+  }
+
+  .fv_texts {
+    width: 45vw;
+  }
+
+  .fv_heading {
+    font-size: 5rem;
+  }
+
+  .fv_content,
+  .aquote {
+    width: 80%;
+  }
+
+  .fv_content {
+    font-size: 1.1rem;
+  }
+
+  .fv_texts {
+    padding-right: 3vw;
+    color: #404040;
+  }
+
+  .fv_image {
+    display: block;
+  }
+
+  .fv_img {
+    height: 35rem;
+  }
+
+  .first_view {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .form {
+    margin-top: 2rem;
+    display: flex;
+  }
+}
+
+/* Second Section Styles */
+
+.second_view_container {
+  margin: 2rem;
+}
+
+.sv_heading {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  color: #f78c40;
+}
+
+.sv_content {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .second_view_container {
+    margin: 6rem;
+  }
+
+  .sv_texts {
+    text-align: center;
+  }
+
+  .sv_heading {
+    font-size: 2.25rem;
+    line-height: 4rem;
+  }
+
+  .sv_content {
+    margin-top: 0;
+    font-size: 1.05rem;
+  }
+}
+
+/* Ciricles Styling */
+.errorheading {
+  color: #f78c40;
+  margin-top: -1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.errortext {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 1280px) {
+  .errorheading {
+    margin-top: -1rem;
+    font-size: 2.25rem;
+  }
+
+  .fssheading1 {
+    width: 50vw;
+  }
+
+  .fsstagline {
+    width: 65%;
+  }
+
+  .errortext {
+    width: 50vw;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Circles Styles */
+
+.circles {
+  margin: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .circles {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 45% 45%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .circles_container {
+    display: block;
+    margin: auto;
+  }
+
+  .circles {
+    margin: 2rem 6rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .circles_container {
+    display: block;
+    margin: auto;
+  }
+
+  .circles {
+    margin: 2rem 6rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .circles {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    grid-template-columns: 32% 32% 32%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .circles {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    grid-template-columns: 23% 23% 23% 23%;
+  }
+
+  .fssheading1 {
+    width: 40vw;
+  }
+
+  .fsstagline {
+    width: 50%;
+  }
+}
+
+/* Third Section Styles */
+.thirdsection {
+  margin: 2rem;
+}
+
+.tssheading1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.tssheading1 span {
+  color: #f78c40;
+}
+
+@media only screen and (min-width: 1000px) {
+  .thirdsection {
+    margin: 2rem 6rem;
+  }
+  .tssheading1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 60vw;
+    margin-bottom: 1rem;
+  }
+
+  .tsstagline {
+    width: 75%;
+  }
+
+  .tsstagline {
+    width: 40vw;
+    padding-right: 3vw;
+    color: #404040;
+  }
+}
+
+.modaltext {
+  border: none;
+  color: #f78c40;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.body_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
+.errortext {
+  text-align: center;
+}
+
+/* Cards Styling */
+
+.cards_container {
+  margin-top: 2rem;
+  display: grid;
+  -webkit-line-clamp: 3;
+  row-gap: 3vh;
+  column-gap: 3vw;
+}
+
+.notfound {
+  margin: 2rem;
+  text-align: left;
+  color: #f6842c;
+}
+
+.notfound span {
+  font-weight: 500;
+}
+
+
+.createbtn {
+  background-color: #f78c40;
+  text-align: left;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 5px;
+  margin: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .cards_container {
+    margin-top: 6vh;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    row-gap: 3vh;
+    column-gap: 3vw;
+  }
+
+  .createbtn {
+    margin: 2rem 6rem;
+  }
+  
+
+  .notfound {
+    margin: 0 6rem;
+    text-align: left;
+    color: #f6842c;
+  }
+}
+
+
+

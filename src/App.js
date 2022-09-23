@@ -8,6 +8,7 @@ import Create from "./Pages/LearningCircle/Create/Create";
 import Join from "./Pages/LearningCircle/Join/Join.jsx";
 import InterestGroup from "./Pages/InterestGroups/InterestGroup/InterestGroup";
 import MentorDirectory from "./Pages/MentorDirectory/MentorDirectory";
+import Search from "./Pages/LearningCircle/Search/Search";
 
 function App() {
   //Home Page state Variables
@@ -163,6 +164,24 @@ function App() {
             element={<InterestGroup setInterest={setInterest} />}
           />
           <Route path="/mentors" element={<MentorDirectory />} />
+          <Route
+            path="/searchcircles"
+            element={
+              <Search
+                code={code}
+                setCode={setCode}
+                districts={districts}
+                district={district}
+                setDistrict={setDistrict}
+                colleges={colleges}
+                setCollege={setCollege}
+                college={college}
+                interests={interests}
+                setInterest={setInterest}
+                interest={interest}
+              />
+            }
+          />
           <Route
             path="/create/:id"
             element={
