@@ -9,7 +9,6 @@ import MentorCard from "../../Components/MentorCard/MentorCard";
 import mentorListFaya from "./mentorListFaya.js";
 
 const MentorDirectory = () => {
-  console.log(mentorListFaya[0]);
   return (
     <>
       <Navbar />
@@ -61,7 +60,7 @@ const MentorDirectory = () => {
                     designation={mentor.designation}
                     image={mentor.image}
                     linkedIn={mentor.linkedIn}
-                    // interest="Faya:80 Mentors"
+                    interest={mentor.stack ? mentor.stack : ""}
                   />
                 ))}
               </div>
