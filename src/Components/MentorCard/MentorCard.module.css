@@ -39,3 +39,17 @@
   font-family: "Poppins", sans-serif;
   font-size: 0.95rem;
 }
+
+.linkedinimg
+{
+  height: 1.75rem;
+  width: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+
+.textdiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

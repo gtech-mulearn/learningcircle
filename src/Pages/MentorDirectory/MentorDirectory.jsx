@@ -6,7 +6,10 @@ import styles from "./MentorDirectory.module.css";
 import fvimg from "./assets/fvimg.png";
 import MentorCard from "../../Components/MentorCard/MentorCard";
 
+import mentorListFaya from "./mentorListFaya.js";
+
 const MentorDirectory = () => {
+  console.log(mentorListFaya[0]);
   return (
     <>
       <Navbar />
@@ -52,21 +55,15 @@ const MentorDirectory = () => {
             </div>
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-
+                {mentorListFaya.map((mentor) => (
+                  <MentorCard
+                    name={mentor.name}
+                    designation={mentor.designation}
+                    image={mentor.image}
+                    linkedIn={mentor.linkedIn}
+                    // interest="Faya:80 Mentors"
+                  />
+                ))}
               </div>
             </div>
           </div>
