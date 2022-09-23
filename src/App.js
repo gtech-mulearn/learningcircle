@@ -9,6 +9,7 @@ import Join from "./Pages/LearningCircle/Join/Join.jsx";
 import InterestGroup from "./Pages/InterestGroups/InterestGroup/InterestGroup";
 import MentorDirectory from "./Pages/MentorDirectory/MentorDirectory";
 import Search from "./Pages/LearningCircle/Search/Search";
+import ProblemShelves from "./Pages/ProblemShelves/ProblemShelves";
 
 function App() {
   //Home Page state Variables
@@ -164,6 +165,7 @@ function App() {
             element={<InterestGroup setInterest={setInterest} />}
           />
           <Route path="/mentors" element={<MentorDirectory />} />
+          <Route path="/problemshelves" element={<ProblemShelves />} />
           <Route
             path="/searchcircles"
             element={
