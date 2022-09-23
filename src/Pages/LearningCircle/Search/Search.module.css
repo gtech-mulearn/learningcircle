@@ -29,8 +29,13 @@
   font-size: 1rem;
 }
 
-.fv_image {
-  display: none;
+.first_view{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.fv_img {
+  height: 20rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -211,7 +216,7 @@
 @media only screen and (min-width: 1600px) {
   .circles {
     display: grid;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     row-gap: 3rem;
     grid-template-columns: 23% 23% 23% 23%;
@@ -303,7 +308,6 @@
   font-weight: 500;
 }
 
-
 .createbtn {
   background-color: #f78c40;
   text-align: left;
@@ -326,7 +330,6 @@
   .createbtn {
     margin: 2rem 6rem;
   }
-  
 
   .notfound {
     margin: 0 6rem;
@@ -334,6 +337,3 @@
     color: #f6842c;
   }
 }
-
-
-
