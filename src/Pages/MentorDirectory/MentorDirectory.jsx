@@ -6,7 +6,7 @@ import styles from "./MentorDirectory.module.css";
 import fvimg from "./assets/fvimg.png";
 import MentorCard from "../../Components/MentorCard/MentorCard";
 
-import mentorListFaya from "./mentorListFaya.js";
+import MentorList from "./MentorList.js";
 
 const MentorDirectory = () => {
   return (
@@ -54,7 +54,7 @@ const MentorDirectory = () => {
             </div>
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
-                {mentorListFaya.map((mentor) => (
+                {MentorList.map((mentor) => (
                   <MentorCard
                     name={mentor.name}
                     designation={mentor.designation}
