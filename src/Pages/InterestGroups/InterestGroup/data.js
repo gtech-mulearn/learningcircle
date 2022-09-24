@@ -33,7 +33,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/jaseelpmuhammed",
         stack: "IoT",
         image:
-          "https://drive.google.com/file/d/1KrUz1CAL29aFXvbP7uuP7wFVDUqJizTm/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1KrUz1CAL29aFXvbP7uuP7wFVDUqJizTm",
       },
       {
         id: "S132",
@@ -42,7 +42,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/vijay-kumar-m-04818b",
         stack: "IoT",
         image:
-          "https://drive.google.com/file/d/1YibTLgWRtYOcp74rQkstBCcRY44m2QhM/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1YibTLgWRtYOcp74rQkstBCcRY44m2QhM",
       },
       {
         id: "S133",
@@ -51,7 +51,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/sanjumathewk",
         stack: "IoT",
         image:
-          "https://drive.google.com/file/d/1lCpWwGNe-xsEJPqOn3JBYRfmINRJ0Uo3/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1lCpWwGNe-xsEJPqOn3JBYRfmINRJ0Uo3",
       },
       {
         id: "S134",
@@ -60,7 +60,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/akshaim",
         stack: "IoT",
         image:
-          "https://drive.google.com/file/d/1Fq8-PvfeME5f78kSUydqj-zuSi9MESvI/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1Fq8-PvfeME5f78kSUydqj-zuSi9MESvI",
       },
       {
         id: "S135",
@@ -182,7 +182,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/michaelmathewsk",
         stack: "UI UX",
         image:
-          "https://drive.google.com/file/d/1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I",
       },
       {
         id: "S140",
@@ -191,7 +191,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/salman-faariz-37b892194",
         stack: "UI UX",
         image:
-          "https://drive.google.com/file/d/1oNK1QekGS6xhNU50317onjvEc82RNQ4s/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1oNK1QekGS6xhNU50317onjvEc82RNQ4s",
       },
       {
         id: "S141",
@@ -200,7 +200,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/rheamerin",
         stack: "UI UX",
         image:
-          "https://drive.google.com/file/d/1XGaSobjiNegNPTtpNSsL58aes9PN7XJ6/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1XGaSobjiNegNPTtpNSsL58aes9PN7XJ6",
       },
       {
         id: "S142",
@@ -209,7 +209,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/navaneethvenu",
         stack: "UI UX",
         image:
-          "https://drive.google.com/file/d/1wGokGAMruQul49It6LmMeMv_aaV-VN2R/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1wGokGAMruQul49It6LmMeMv_aaV-VN2R",
       },
     ],
 
@@ -304,7 +304,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/shaheen-hyder/",
         stack: "Web Development",
         image:
-          "https://drive.google.com/file/d/1WZaPnWL4eFow4tcEE7FfBzgUnycNu2mT/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1WZaPnWL4eFow4tcEE7FfBzgUnycNu2mT",
       },
       {
         id: "S144",
@@ -313,7 +313,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/shahanadvs/",
         stack: "Web Development",
         image:
-          "https://drive.google.com/file/d/1E5TuTm1nKzLvKUznuAAb6xB-f94UXTv7/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1E5TuTm1nKzLvKUznuAAb6xB-f94UXTv7",
       },
     ],
     basicenablementtasks: [
@@ -397,7 +397,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/vinubalagopalap/",
         stack: "Android Development",
         image:
-          "https://drive.google.com/file/d/1kLazNGXtS2wUKyWQ6KFQYHhuRrxbc0H8/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1kLazNGXtS2wUKyWQ6KFQYHhuRrxbc0H8",
       },
     ],
 
@@ -493,7 +493,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/rejah/",
         stack: "Cybersecurity",
         image:
-          "https://drive.google.com/file/d/1jLMLJQRC1wxfV1bNU_F8xWrybLEC-miM/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1jLMLJQRC1wxfV1bNU_F8xWrybLEC-miM",
       },
       {
         id: "S147",
@@ -502,7 +502,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/anees-pk/",
         stack: "Cybersecurity",
         image:
-          "https://drive.google.com/file/d/1kKPODk11RLRZQvpZuHN_hbXy_ddU4Kk7/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1kKPODk11RLRZQvpZuHN_hbXy_ddU4Kk7",
       },
       {
         id: "S148",
@@ -511,7 +511,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/nashns/",
         stack: "Cybersecurity",
         image:
-          "https://drive.google.com/file/d/1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
       },
     ],
     pagination: [
@@ -752,7 +752,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/nithin-balachandran",
         stack: "Product Management",
         image:
-          "https://drive.google.com/file/d/1QBNU_VN3BNTbmajursbYpdB-iDJOvppv/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1QBNU_VN3BNTbmajursbYpdB-iDJOvppv",
       },
       {
         id: "S137",
@@ -761,7 +761,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/vineeshus",
         stack: "Product Management",
         image:
-          "https://drive.google.com/file/d/1yssQ7Em7RbFv2cQ9lU75lgzTXbeqoRVe/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1yssQ7Em7RbFv2cQ9lU75lgzTXbeqoRVe",
       },
       {
         id: "S138",
@@ -770,7 +770,7 @@ const InterestGroups = [
         linkedin: "https://www.linkedin.com/in/aravindmuraleedharan",
         stack: "Product Management",
         image:
-          "https://drive.google.com/file/d/1O6HcE1RIKZ1J4cC-2BJog_Ps9F2-7KYx/view?usp=sharing",
+          "https://drive.google.com/uc?export=view&id=1O6HcE1RIKZ1J4cC-2BJog_Ps9F2-7KYx",
       },
     ],
     pagination: [

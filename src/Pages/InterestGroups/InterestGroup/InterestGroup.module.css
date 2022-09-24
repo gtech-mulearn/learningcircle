@@ -166,7 +166,7 @@
   margin: 2rem 0;
 }
 
-.learning_paths{
+.learning_paths {
   margin: 4rem 0;
 }
 
@@ -188,7 +188,7 @@
 
   .sv_content {
     font-size: 0.95rem;
-    width: 90%;
+    width: 40%;
   }
 
   .ilinks {
@@ -196,7 +196,7 @@
   }
 
   .sv_texts {
-    width: 30vw;
+    width: 100vw;
     margin: 0 1rem;
   }
 }
@@ -211,11 +211,11 @@
   align-items: center;
 }
 
-.pretext{
+.pretext {
   text-align: left;
 }
 
-.nexttext{
+.nexttext {
   text-align: right;
 }
 
@@ -223,5 +223,33 @@
   .next_previous {
     font-size: 1rem;
     margin: 6rem;
+  }
+}
+
+.mentors {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors {
+    display: grid;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-columns: 45% 45%;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .mentors {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .mentors {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
   }
 }

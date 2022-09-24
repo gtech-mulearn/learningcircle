@@ -18,6 +18,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { useParams } from "react-router-dom";
 import InterestGroups from "../../LearningCircle/Home/data";
+import MentorCard from "../../../Components/MentorCard/MentorCard";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -56,6 +57,8 @@ const InterestGroup = ({ setInterest }) => {
     previous = `/${data[0].pagination[0].id}`;
     next = `/${data[0].pagination[1].id}`;
   }
+
+  console.log(data[0].mentorscard);
 
   return (
     <>
@@ -103,15 +106,20 @@ const InterestGroup = ({ setInterest }) => {
                 doubts cleared and get to going forward. Join in for our Office
                 Hours and get all your doubts cleared.
               </p>
-              <ul className={styles.sv_lists}>
-                {data[0].mentors.map((mentor) => (
-                  <li className={styles.list_item}>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      {mentor}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+
+              <div className={styles.mentor_container}>
+                <div className={styles.mentors}>
+                  {data[0].mentorscard.map((mentor) => (
+                    <MentorCard
+                      name={mentor.name}
+                      designation={mentor.designation}
+                      image={mentor.image}
+                      linkedIn={mentor.linkedIn}
+                      interest={mentor.stack ? mentor.stack : ""}
+                    />
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>
