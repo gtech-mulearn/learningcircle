@@ -25,52 +25,6 @@ const InterestGroups = [
         name: "UI/UX >",
       },
     ],
-    mentorscard: [
-      {
-        id: "S131",
-        name: "Muhammad Jaseel P",
-        designation: "Technical Program Manager, MakerGhat",
-        linkedin: "https://www.linkedin.com/in/jaseelpmuhammed",
-        stack: "IoT",
-        image:
-          "https://drive.google.com/file/d/1KrUz1CAL29aFXvbP7uuP7wFVDUqJizTm/view?usp=sharing",
-      },
-      {
-        id: "S132",
-        name: "Vijay Kumar M",
-        designation: "CEO & MD, Webyfy Infotech Pvt Ltd",
-        linkedin: "https://www.linkedin.com/in/vijay-kumar-m-04818b",
-        stack: "IoT",
-        image:
-          "https://drive.google.com/file/d/1YibTLgWRtYOcp74rQkstBCcRY44m2QhM/view?usp=sharing",
-      },
-      {
-        id: "S133",
-        name: "Sanju Mathew",
-        designation: "Chief Executive Officer, Codeofduty",
-        linkedin: "https://www.linkedin.com/in/sanjumathewk",
-        stack: "IoT",
-        image:
-          "https://drive.google.com/file/d/1lCpWwGNe-xsEJPqOn3JBYRfmINRJ0Uo3/view?usp=sharing",
-      },
-      {
-        id: "S134",
-        name: "Akshai M",
-        designation: "Embedded Software Engineer, STABL Energy GmbH",
-        linkedin: "https://www.linkedin.com/in/akshaim",
-        stack: "IoT",
-        image:
-          "https://drive.google.com/file/d/1Fq8-PvfeME5f78kSUydqj-zuSi9MESvI/view?usp=sharing",
-      },
-      {
-        id: "S135",
-        name: "Samuel John",
-        designation: "Co-Founder & CEO, mistEO",
-        linkedin: "https://www.linkedin.com/in/samuel-john-misteo",
-        stack: "IoT",
-        image: "",
-      },
-    ],
     learningpaths: [
       {
         name: "IOT Learning Path",
@@ -174,45 +128,6 @@ const InterestGroups = [
         link: "https://brainstation.io/career-guides/how-to-become-a-ui-designer#:~:text=There%27s%20no%20single%20path%20to,design%20to%20coding%20to%20psychology.",
       },
     ],
-    mentorscard: [
-      {
-        id: "S139",
-        name: "Michael Mathews",
-        designation: "Independent consultant, TCS",
-        linkedin: "https://www.linkedin.com/in/michaelmathewsk",
-        stack: "UI UX",
-        image:
-          "https://drive.google.com/file/d/1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I/view?usp=sharing",
-      },
-      {
-        id: "S140",
-        name: "Salman Faariz",
-        designation: "Program Associate, GTech MuLearn",
-        linkedin: "https://www.linkedin.com/in/salman-faariz-37b892194",
-        stack: "UI UX",
-        image:
-          "https://drive.google.com/file/d/1oNK1QekGS6xhNU50317onjvEc82RNQ4s/view?usp=sharing",
-      },
-      {
-        id: "S141",
-        name: "Rhea Merin",
-        designation: "Program Associate, GTech MuLearn ",
-        linkedin: "https://www.linkedin.com/in/rheamerin",
-        stack: "UI UX",
-        image:
-          "https://drive.google.com/file/d/1XGaSobjiNegNPTtpNSsL58aes9PN7XJ6/view?usp=sharing",
-      },
-      {
-        id: "S142",
-        name: "Navaneeth Venu",
-        designation: "Design Lead, GDSC MBCET",
-        linkedin: "https://www.linkedin.com/in/navaneethvenu",
-        stack: "UI UX",
-        image:
-          "https://drive.google.com/file/d/1wGokGAMruQul49It6LmMeMv_aaV-VN2R/view?usp=sharing",
-      },
-    ],
-
     basicenablementtasks: [
       {
         name: "UI/UX",
@@ -296,26 +211,6 @@ const InterestGroups = [
         link: "https://denic.hashnode.dev/you-want-to-learn-html-and-css-but-dont-know-where-to-get-started",
       },
     ],
-    mentorscard: [
-      {
-        id: "S143",
-        name: "Shaheen Hyder",
-        designation: "Founder & CEO, Pygrammers",
-        linkedin: "https://www.linkedin.com/in/shaheen-hyder/",
-        stack: "Web Development",
-        image:
-          "https://drive.google.com/file/d/1WZaPnWL4eFow4tcEE7FfBzgUnycNu2mT/view?usp=sharing",
-      },
-      {
-        id: "S144",
-        name: "Shahanad V S",
-        designation: "Founder & CEO, OrionFlare",
-        linkedin: "https://www.linkedin.com/in/shahanadvs/",
-        stack: "Web Development",
-        image:
-          "https://drive.google.com/file/d/1E5TuTm1nKzLvKUznuAAb6xB-f94UXTv7/view?usp=sharing",
-      },
-    ],
     basicenablementtasks: [
       {
         name: "Create a Survey Form",
@@ -389,18 +284,6 @@ const InterestGroups = [
     community: ["Google"],
     company: ["Triassic Solutions", "PITS"],
     mentors: ["Vinu Balagopal"],
-    mentorscard: [
-      {
-        id: "S145",
-        name: "Vinu Balagopal A P",
-        designation: "Flutter Developer, Program Associate GTech MuLearn",
-        linkedin: "https://www.linkedin.com/in/vinubalagopalap/",
-        stack: "Android Development",
-        image:
-          "https://drive.google.com/file/d/1kLazNGXtS2wUKyWQ6KFQYHhuRrxbc0H8/view?usp=sharing",
-      },
-    ],
-
     pagination: [
       {
         id: "web",
@@ -485,35 +368,6 @@ const InterestGroups = [
     community: ["Beagle Security"],
     company: [],
     mentors: ["Rejah Rehim", "Anees"],
-    mentorscard: [
-      {
-        id: "S146",
-        name: "Rejah Rehim",
-        designation: "Director & Founder, Beagle Security",
-        linkedin: "https://www.linkedin.com/in/rejah/",
-        stack: "Cybersecurity",
-        image:
-          "https://drive.google.com/file/d/1jLMLJQRC1wxfV1bNU_F8xWrybLEC-miM/view?usp=sharing",
-      },
-      {
-        id: "S147",
-        name: "Anees P",
-        designation: "Senior DevSecOps Engineer, Beagle Security",
-        linkedin: "https://www.linkedin.com/in/anees-pk/",
-        stack: "Cybersecurity",
-        image:
-          "https://drive.google.com/file/d/1kKPODk11RLRZQvpZuHN_hbXy_ddU4Kk7/view?usp=sharing",
-      },
-      {
-        id: "S148",
-        name: "Nash N Sulthan",
-        designation: "Senior Security Engineer",
-        linkedin: "https://www.linkedin.com/in/nashns/",
-        stack: "Cybersecurity",
-        image:
-          "https://drive.google.com/file/d/1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U/view?usp=sharing",
-      },
-    ],
     pagination: [
       {
         id: "android",
@@ -744,35 +598,6 @@ const InterestGroups = [
     community: ["Product Pack"],
     company: ["SunTec"],
     mentors: ["Nithin Balachandran", "Vineesh U S", "Aravind", "Savio"],
-    mentorscard: [
-      {
-        id: "S136",
-        name: "Nithin Balachandran",
-        designation: "Product Manager, FAYA",
-        linkedin: "https://www.linkedin.com/in/nithin-balachandran",
-        stack: "Product Management",
-        image:
-          "https://drive.google.com/file/d/1QBNU_VN3BNTbmajursbYpdB-iDJOvppv/view?usp=sharing",
-      },
-      {
-        id: "S137",
-        name: "Vineesh U S",
-        designation: "Co-Founder, First Principle Labs",
-        linkedin: "https://www.linkedin.com/in/vineeshus",
-        stack: "Product Management",
-        image:
-          "https://drive.google.com/file/d/1yssQ7Em7RbFv2cQ9lU75lgzTXbeqoRVe/view?usp=sharing",
-      },
-      {
-        id: "S138",
-        name: "Aravind Muraleedharan",
-        designation: "Product Manager, Carestack",
-        linkedin: "https://www.linkedin.com/in/aravindmuraleedharan",
-        stack: "Product Management",
-        image:
-          "https://drive.google.com/file/d/1O6HcE1RIKZ1J4cC-2BJog_Ps9F2-7KYx/view?usp=sharing",
-      },
-    ],
     pagination: [
       {
         id: "cybersec",

@@ -166,6 +166,10 @@
   margin: 2rem 0;
 }
 
+.learning_paths{
+  margin: 4rem 0;
+}
+
 @media only screen and (min-width: 1000px) {
   .second_view_container {
     margin: 6rem;

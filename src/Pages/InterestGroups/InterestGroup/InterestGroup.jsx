@@ -113,28 +113,6 @@ const InterestGroup = ({ setInterest }) => {
                 ))}
               </ul>
             </div>
-            <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>Learning Paths</p>
-              <p className={styles.sv_content}>
-                Having a plan/roadmap before to reach the destination on time is
-                a great advantage. Here are some learning paths for you to
-                follow.
-              </p>
-              <ul className={styles.sv_lists}>
-                {data[0].learningpaths.map((learningpath) => (
-                  <li className={styles.list_item}>
-                    <a
-                      href={learningpath.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {learningpath.name} -{" "}
-                      <span className={styles.link}>Click Here</span>
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
           </div>
         </div>
 
@@ -260,6 +238,30 @@ const InterestGroup = ({ setInterest }) => {
                     </TableBody>
                   </Table>
                 </TableContainer>
+              </div>
+            </div>
+            <div className={styles.learning_paths}>
+              <div className={styles.sv_texts}>
+                <p className={styles.sv_heading}>Learning Paths</p>
+                <p className={styles.sv_content}>
+                  Having a plan/roadmap before to reach the destination on time
+                  is a great advantage. Here are some learning paths for you to
+                  follow.
+                </p>
+                <ul className={styles.sv_lists}>
+                  {data[0].learningpaths.map((learningpath) => (
+                    <li className={styles.list_item}>
+                      <a
+                        href={learningpath.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {learningpath.name} -{" "}
+                        <span className={styles.link}>Click Here</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>
