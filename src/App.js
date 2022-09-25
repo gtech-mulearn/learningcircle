@@ -165,8 +165,8 @@ function App() {
             element={<InterestGroup setInterest={setInterest} />}
           />
           <Route path="/mentors" element={<MentorDirectory />} />
-          {/* <Route path="/problemshelves" element={<ProblemShelves />} /> */}
-          {/* <Route
+          {/* <Route path="/problemshelves" element={<ProblemShelves />} />
+          <Route
             path="/searchcircles"
             element={
               <Search
