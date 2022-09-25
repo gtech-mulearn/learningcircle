@@ -33,6 +33,15 @@
   width: 150px;
 }
 
+
+.mentor_source {
+  opacity: 0.5;
+  font-size: 0.9rem;
+  text-align: left;
+  font-weight: 600;
+  width: 150px;
+}
+
 .mentor_designation {
   width: 90%;
   margin-top: 0.4rem;

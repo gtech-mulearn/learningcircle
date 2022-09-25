@@ -5,7 +5,14 @@ import Avatar from "@mui/material/Avatar";
 import linkedin from "./assets/linkedin.png";
 import placeholder from "./assets/placeholder.jpeg";
 
-const MentorCard = ({ name, designation, image, linkedIn, interest }) => {
+const MentorCard = ({
+  name,
+  designation,
+  image,
+  linkedIn,
+  interest,
+  source,
+}) => {
   return (
     <div className={styles.mentor_card_container}>
       <div className={styles.mentor_card}>
@@ -21,7 +28,9 @@ const MentorCard = ({ name, designation, image, linkedIn, interest }) => {
         </div>
 
         <p className={styles.mentor_name}>{name}</p>
+
         <p className={styles.mentor_designation}>{designation}</p>
+        <p className={styles.mentor_source}>{source}</p>
       </div>
     </div>
   );

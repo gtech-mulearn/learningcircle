@@ -61,6 +61,7 @@ const MentorDirectory = () => {
                     image={mentor.image}
                     linkedIn={mentor.linkedIn}
                     interest={mentor.stack ? mentor.stack : ""}
+                    source={mentor.source ? mentor.source : ""}
                   />
                 ))}
               </div>
