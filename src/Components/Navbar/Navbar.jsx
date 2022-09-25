@@ -45,8 +45,13 @@ const Navbar = () => {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a class="dropdown-item" href="https://rebrand.ly/mulearncalendar">
-                        Global Calendar
+                      <a class="dropdown-item" href="https://foundation.mulearn.org">
+                       Foundation
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="https://yip.mulearn.org">
+                       YIP
                       </a>
                     </li>
                   </ul>
@@ -67,9 +72,19 @@ const Navbar = () => {
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
+                     <li>
+                      <a class="dropdown-item" href="https://rebrand.ly/mulearncalendar">
+                        Global Calendar
+                      </a>
+                    </li>
                     <li>
                       <a class="dropdown-item" href="https://mulearn.org/announcements/">
                         MuAnnouncements
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="https://mulearn.org/events/isr">
+                        Inspiration Station
                       </a>
                     </li>
                     <li>
@@ -109,6 +124,11 @@ const Navbar = () => {
                     <li>
                       <a class="dropdown-item" href="/">
                        Home Page
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/mentors">
+                       Mentor Directory
                       </a>
                     </li>
                     <li>

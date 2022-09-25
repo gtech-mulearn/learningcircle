@@ -22,12 +22,12 @@ const MentorDirectory = () => {
               <p className={styles.fv_content}>
                 Welcome to the Mentor Directory of Mulearn. Here you will be
                 able to find a mentor who has already gone down the road through
-                which you are about to embrak a journey on. Happy Learning!.
+                which you are about to embark on a journey. Happy Learning!
               </p>
               <br />
               <div className={styles.quote}>
                 <p className={styles.aquote}>
-                  <span>"</span>a piece of knowledge, unlike a piece of physical
+                  <span>"</span>A piece of knowledge, unlike a piece of physical
                   property, can be shared by large groups of people without
                   making anybody poorer.<span>"</span>
                 </p>

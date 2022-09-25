@@ -165,7 +165,7 @@ function App() {
             element={<InterestGroup setInterest={setInterest} />}
           />
           <Route path="/mentors" element={<MentorDirectory />} />
-          <Route path="/problemshelves" element={<ProblemShelves />} />
+          {/* <Route path="/problemshelves" element={<ProblemShelves />} />
           <Route
             path="/searchcircles"
             element={
@@ -183,7 +183,7 @@ function App() {
                 interest={interest}
               />
             }
-          />
+          /> */}
           <Route
             path="/create/:id"
             element={

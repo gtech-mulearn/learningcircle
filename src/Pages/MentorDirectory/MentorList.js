@@ -39,8 +39,7 @@ const MentorList = [
   {
     speakerID: "S5",
     name: "Jikku Jose",
-    designation:
-      "Ruby developer running a small startup by the name Qucentis in Kerala Startup Mission",
+    designation: "Ruby Developer - Co-Founder, Qucentis",
     stack: "Blockchain",
     image: "https://www.fayaport80.com/speakers/thumb/Jikku-Jose.jpg",
     linkedIn: "https://www.linkedin.com/in/jikkujose/",
@@ -104,7 +103,7 @@ const MentorList = [
   {
     speakerID: "S12",
     name: "Amal Dev",
-    designation: "Technical Analyst, UST Global",
+    designation: "Assistant Manager - KPMG Global Services",
     stack: "Docker",
     image: "https://www.fayaport80.com/speakers/thumb/Amal-Dev.jpg",
     linkedIn: "https://www.linkedin.com/in/amaldevv/",
@@ -419,15 +418,6 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S47",
-    name: "Rejah Rehim",
-    designation: "FAYA",
-    stack: "Jenkins",
-    image: "https://www.fayaport80.com/speakers/thumb/Rejah-Rehim.jpg",
-    linkedIn: "https://www.linkedin.com/in/rejah/",
-    source: "FAYA:80",
-  },
-  {
     speakerID: "S48",
     name: "Rahul Krishnan",
     designation: "Attinad Software",
@@ -457,7 +447,7 @@ const MentorList = [
   {
     speakerID: "S51",
     name: "Madhav M Nair",
-    designation: "Sr Developer for VR-AR Tech at UST Global",
+    designation: "User Experience Designer,  Jio Tesseract",
     stack: "AR / VR / MR / CR",
     image: "https://www.fayaport80.com/speakers/thumb/Madhav-M-Nair.jpg",
     linkedIn: "https://www.linkedin.com/in/madhavmnair/",
@@ -476,7 +466,7 @@ const MentorList = [
   {
     speakerID: "S53",
     name: "Viju Chacko",
-    designation: "Senior Consultant at Tata Consultancy Services ",
+    designation: "Digital Architecture Head,  Air India Limited",
     stack: "Artificial Intelligence",
     image: "https://www.fayaport80.com/speakers/thumb/Viju-Chacko.jpg",
     linkedIn: "https://www.linkedin.com/in/vijuchacko/",
@@ -630,7 +620,7 @@ const MentorList = [
   {
     speakerID: "S70",
     name: "Anoop Ambika",
-    designation: "Founder, CLAP Research",
+    designation: "CEO, Kerala Startup Mission",
     stack: "",
     image: "https://www.fayaport80.com/speakers/thumb/anoop.jpg",
     linkedIn: "https://www.linkedin.com/in/anoopambika/?ppe=1",
@@ -683,15 +673,6 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S76",
-    name: "Jubin Jose",
-    designation: "Cedex Technologies LLP",
-    stack: "Chatbot Development",
-    image: "https://www.fayaport80.com/speakers/thumb/Jubin-Jose.jpg",
-    linkedIn: "https://www.linkedin.com/in/jubin-jose-cet/",
-    source: "FAYA:80",
-  },
-  {
     speakerID: "S77",
     name: "Gopikrishnan V",
     designation: "Founder, BuildNext",
@@ -721,7 +702,7 @@ const MentorList = [
   {
     speakerID: "S80",
     name: "Alex Devassy",
-    designation: "Senior Blockchain Engineer at Serventire Global",
+    designation: "Security Analyst, EY",
     stack: "Blockchain",
     image: "https://www.fayaport80.com/speakers/thumb/Alex-Devassy.jpg",
     linkedIn: "https://www.linkedin.com/in/alex-devassy-358421138/",
@@ -730,7 +711,7 @@ const MentorList = [
   {
     speakerID: "S81",
     name: "Fariz Rahman",
-    designation: "Deep Learning Engineer, Skymind",
+    designation: "Machine Learning Engineer, Activeloop",
     stack: "Keras",
     image: "https://www.fayaport80.com/speakers/thumb/Fariz-Rahman.jpg",
     linkedIn: "https://www.linkedin.com/in/fariz-rahman-2b20443a/",
@@ -748,7 +729,7 @@ const MentorList = [
   {
     speakerID: "S82",
     name: "Rejin Narayanan",
-    designation: "founder, Ingen Robotics.",
+    designation: "Founder, Ingen Robotics.",
     stack: "Robotics",
     image: "https://www.fayaport80.com/speakers/thumb/Rejin-Narayanan.jpg",
     linkedIn: "https://www.linkedin.com/in/rejin/",
@@ -1118,7 +1099,7 @@ const MentorList = [
     speakerID: "S122",
     name: "Amrit Sanjeev",
     designation:
-      "Staff Developer Advocate at Google and leads the developer advocacy initiatives for India.",
+      "Staff Developer Advocate, Google and Lead at Developer Advocacy Initiatives, India",
     stack: "",
     image: "https://www.fayaport80.com/speakers/thumb/amrit-sanjee.jpg",
     linkedIn:
@@ -1254,7 +1235,7 @@ const MentorList = [
   {
     id: "S136",
     name: "Nithin Balachandran",
-    designation: "Product Manager, FAYA",
+    designation: "Consulting Business Analyst, IBM",
     linkedin: "https://www.linkedin.com/in/nithin-balachandran",
     stack: "Product Management",
     image:
@@ -1378,8 +1359,8 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/nashns/",
     stack: "Cybersecurity",
     image:
-    "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
-    source: "µLearn"
+      "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
+    source: "µLearn",
   },
 ];
 
