@@ -10,6 +10,7 @@ import InterestGroup from "./Pages/InterestGroups/InterestGroup/InterestGroup";
 import MentorDirectory from "./Pages/MentorDirectory/MentorDirectory";
 import Search from "./Pages/LearningCircle/Search/Search";
 import ProblemShelves from "./Pages/ProblemShelves/ProblemShelves";
+import InternDirectory from "./Pages/InternDirectory/InternDirectory";
 
 function App() {
   //Home Page state Variables
@@ -184,6 +185,7 @@ function App() {
               />
             }
           /> */}
+          <Route path="/interns" element={<InternDirectory/>} />
           <Route
             path="/create/:id"
             element={

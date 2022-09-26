@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main_container {
+    min-height: 100vh;
+  }
+  
+  .first_view_container {
+    margin: 2rem;
+  }
+  
+  .fv_heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #404040;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 0.5rem;
+  }
+  
+  .fv_heading span,
+  .orange {
+    color: #f78c40;
+  }
+  
+  .fv_content {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+  }
+  
+  .fv_image {
+    display: none;
+  }
+  
+  .aquote {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  
+  .aquote span {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .quoteby {
+    width: 90%;
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .first_view_container {
+      margin: 6rem;
+    }
+  
+    .fv_texts {
+      width: 45vw;
+    }
+  
+    .fv_heading {
+      font-size: 5rem;
+    }
+  
+    .fv_content,
+    .aquote {
+      width: 80%;
+    }
+  
+    .fv_content {
+      font-size: 1.1rem;
+    }
+  
+    .fv_texts {
+      padding-right: 3vw;
+      color: #404040;
+    }
+  
+    .fv_image {
+      display: block;
+    }
+  
+    .fv_img {
+      height: 35rem;
+    }
+  
+    .first_view {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .aquote {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  
+    .quoteby {
+      width: 55%;
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+  }
+  
+  /* Second Section Styles */
+  
+  .second_view_container {
+    margin: 2rem;
+  }
+  
+  .sv_heading {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.75rem;
+    color: #f78c40;
+  }
+  
+  .sv_content {
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
+  }
+  
+  .mentors {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .second_view_container {
+      margin: 6rem;
+    }
+  
+    .sv_heading {
+      font-size: 2.25rem;
+      line-height: 4rem;
+      width: 60vw;
+    }
+  
+    .sv_content {
+      margin-top: 0;
+      font-size: 1.05rem;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .mentors {
+      display: grid;
+      row-gap: 1rem;
+      column-gap: 1rem;
+      grid-template-columns: 45% 45%;
+     
+    }
+  
+    .sv_content {
+      width: 60%;
+    }
+  }
+  
+  @media only screen and (min-width: 1240px) {
+    .mentors {
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+    }
+  
+    .sv_content {
+      width: 45%;
+    }
+  }
+  
+  @media only screen and (min-width: 1600px) {
+    .mentors {
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+    }
+  
+    .sv_content {
+      width: 35%;
+    }
+  }
+  
