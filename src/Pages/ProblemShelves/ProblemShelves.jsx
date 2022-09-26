@@ -23,6 +23,7 @@ const ProblemShelves = () => {
                 which you can contribute real-time and earn rewards and
                 knowledge to upskill yourself.
               </p>
+              <button className={styles.comingsoon}>Coming Soon!</button>
             </div>
             <div className={styles.fv_image}>
               <img src={fvimg} alt="" className={styles.fv_img} />
@@ -30,7 +31,7 @@ const ProblemShelves = () => {
           </div>
         </div>
 
-        <div className={styles.second_view_container}>
+        {/* <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>Problems Listings</p>
@@ -48,7 +49,7 @@ const ProblemShelves = () => {
               <ProblemCard />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </>
