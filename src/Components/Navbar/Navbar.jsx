@@ -38,20 +38,20 @@ const Navbar = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Program
+                    Search
                   </a>
                   <ul
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a class="dropdown-item" href="https://foundation.mulearn.org">
-                       Foundation
+                      <a class="dropdown-item" href="/mentors">
+                        Mentor Directory
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="https://yip.mulearn.org">
-                       YIP
+                      <a class="dropdown-item" href="/searchcircles">
+                        Existing Circles
                       </a>
                     </li>
                   </ul>
@@ -66,42 +66,37 @@ const Navbar = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Events
+                    Practice
                   </a>
                   <ul
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                     <li>
-                      <a class="dropdown-item" href="https://rebrand.ly/mulearncalendar">
-                        Global Calendar
+                    <li>
+                      <a class="dropdown-item" href="/problemshelves">
+                        Problem Shelf
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="https://mulearn.org/announcements/">
-                        MuAnnouncements
+                      <a class="dropdown-item" href="/challenge/web">
+                        µ-Challenges
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="https://mulearn.org/events/isr">
-                        Inspiration Station
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="https://events.mulearn.org/"
-                      >
-                        Events
+                      <a class="dropdown-item" href="/courses">
+                        µ-Courses
                       </a>
                     </li>
                   </ul>
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link" href="https://careers.mulearn.org/">
-                    {" "}
-                    Careers{" "}
+                  <a
+                    class="nav-link"
+                    href="https://mulearn.org/careers"
+                    target="_blank"
+                  >
+                    Careers
                   </a>
                 </li>
 
@@ -114,23 +109,12 @@ const Navbar = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    {" "}
-                    Interest Groups{" "}
+                    Interest Groups
                   </a>
                   <ul
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <li>
-                      <a class="dropdown-item" href="/">
-                       Home Page
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="/mentors">
-                       Mentor Directory
-                      </a>
-                    </li>
                     <li>
                       <a class="dropdown-item" href="/web">
                         Web Development
@@ -159,29 +143,6 @@ const Navbar = () => {
                     <li>
                       <a class="dropdown-item" href="/cybersec">
                         Cyber Security
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    About
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="https://team.mulearn.org/">
-                        Our Team
                       </a>
                     </li>
                   </ul>
