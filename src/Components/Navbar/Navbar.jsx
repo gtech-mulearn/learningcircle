@@ -92,16 +92,6 @@ const Navbar = () => {
 
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link"
-                    href="https://mulearn.org/careers"
-                    target="_blank"
-                  >
-                    Careers
-                  </a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a
                     class="nav-link dropdown-toggle"
                     href="https://learn.mulearn.org/"
                     id="navbarDropdownMenuLink"
@@ -146,6 +136,17 @@ const Navbar = () => {
                       </a>
                     </li>
                   </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="https://mulearn.org/careers"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Careers
+                  </a>
                 </li>
               </ul>
             </div>
