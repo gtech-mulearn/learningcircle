@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Mulearn from "./assets/Mulearn.png";
+import Mulearn from "./assets/µLearn.png";
 
 const Footer = () => {
   return (
@@ -13,26 +13,41 @@ const Footer = () => {
             </div>
 
             <div class="footer-links">
-              <a  href="https://careers.mulearn.org/">
+              <a
+                href="https://mulearn.org/careers"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Careers
               </a>
-              <a href="https://gtechmulearn.medium.com/">
+              <a
+                href="https://gtechmulearn.medium.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Blog
               </a>
-              <a href="https://events.mulearn.org/">
-                Events
-              </a>
+              {/* <a href="https://mulearn.org/">Events</a> */}
             </div>
 
             <div class="social-links">
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/gtechmulearn/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/gtechmulearn/"
+              >
                 <span class="iconify" data-icon="mdi:instagram"></span>
               </a>
-              <a target="_blank" rel="noreferrer" href="https://twitter.com/GtechMulearn">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/GtechMulearn"
+              >
                 <span class="iconify" data-icon="mdi:twitter"></span>
               </a>
               <a
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.youtube.com/channel/UCuBrylE2ued66MJIMpuOSQg"
               >
                 <span class="iconify" data-icon="mdi:youtube"></span>
@@ -44,7 +59,11 @@ const Footer = () => {
               >
                 <span class="iconify" data-icon="mdi:linkedin"></span>
               </a>
-              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/gtechmulearn">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.facebook.com/gtechmulearn"
+              >
                 <span class="iconify" data-icon="mdi:facebook"></span>
               </a>
             </div>
