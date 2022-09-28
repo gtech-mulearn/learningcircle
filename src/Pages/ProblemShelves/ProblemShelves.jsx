@@ -18,7 +18,7 @@ const ProblemShelves = () => {
                 <span> µLearn</span> Problem Shelves
               </p>
               <p className={styles.fv_content}>
-                Welcome to µLearn too Problem Shelves, Here you will be able to
+                Welcome to µLearn Problem Shelves, Here you will be able to
                 find real-world problems listed by various organisations to
                 which you can contribute real-time and earn rewards and
                 knowledge to upskill yourself.
