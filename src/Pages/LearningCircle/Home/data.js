@@ -251,6 +251,11 @@ const InterestGroups = [
       "Web Designer",
       "Backend Developer",
     ],
+    challenges: [
+     {
+      link: "/challenge/web'"
+     }
+    ],
     company: ["Travancore Analytics", "PITS"],
     pagination: [
       {
