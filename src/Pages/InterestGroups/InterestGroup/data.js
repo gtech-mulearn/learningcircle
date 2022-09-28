@@ -7,7 +7,12 @@ const InterestGroups = [
     officetime: "Sunday 7:30",
     officeplace: "Discord Lobby",
     community: ["Fox Lab"],
-    opportunities: ["EY Hiring IoT",'IoT Robotics Specialist',"IoT Solutions Architect",'Robotics Technician'],
+    opportunities: [
+      "EY Hiring IoT",
+      "IoT Robotics Specialist",
+      "IoT Solutions Architect",
+      "Robotics Technician",
+    ],
     company: ["Thinkpalm"],
     mentors: [
       "Jaseel (Technical Program Manager - MakerGhat)",
@@ -110,9 +115,7 @@ const InterestGroups = [
         karma: "400",
       },
     ],
-    subcourses: [
-
-    ],
+    subcourses: [],
   },
   {
     id: "uiux",
@@ -137,7 +140,12 @@ const InterestGroups = [
         name: "Web Development >",
       },
     ],
-    mentors: ["Michael Mathews", "Salman Faariz", "Rhea Merin", "Navaneeth Venu"],
+    mentors: [
+      "Michael Mathews",
+      "Salman Faariz",
+      "Rhea Merin",
+      "Navaneeth Venu",
+    ],
     learningpaths: [
       {
         name: "How to be a UX Designer?",
@@ -252,9 +260,9 @@ const InterestGroups = [
       "Backend Developer",
     ],
     challenges: [
-     {
-      link: "/challenge/web'"
-     }
+      {
+        link: "/challenge/web'",
+      },
     ],
     company: ["Travancore Analytics", "PITS"],
     pagination: [
@@ -542,13 +550,6 @@ const InterestGroups = [
         karma: "400",
       },
       {
-        name: "CCSP-Certified Cloud Security Professional",
-        link: "https://www.udemy.com/course/ccsp-cloud-security-domain-1/",
-        complexity: "",
-        time: "",
-        karma: "400",
-      },
-      {
         name: "CISM-Certified Information Security Manager",
         link: "https://www.isaca.org/credentialing/cism?utm_source=google&utm_medium=cpc&utm_campaign=CertBAU&utm_content=sem_CertBAU_certification-cism-india-product-google&cid=sem_2006846&Appeal=sem&gclid=CjwKCAjw4JWZBhApEiwAtJUN0Mf5afTjnkDIauLbz5j_Dit01l4h1yfQgQ7tXi0CrEPsSiMy2HZUGRoCN9QQAvD_BwE",
         complexity: "",
@@ -579,34 +580,7 @@ const InterestGroups = [
         time: "",
         karma: "200",
       },
-      {
-        name: "Social Engineering(Paid)",
-        link: "https://www.udemy.com/course/the-art-of-hacking-humans-intro-to-social-engineering/",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "Cryptography(Paid)",
-        link: "https://www.coursera.org/learn/crypto",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "Malware Threats(Paid)",
-        link: "https://www.udemy.com/topic/malware/",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "System Hacking(Paid)",
-        link: "https://www.udemy.com/topic/network-scanning/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.INDIA&utm_content=deal4584&utm_term=_._ag_82569850245_._ad_533220805577_._kw__._de_c_._dm__._pl__._ti_dsa-506881825874_._li_9050518_._pd__._&matchtype=&gclid=CjwKCAjw4JWZBhApEiwAtJUN0KO6jcwgAWuN6hnTa0D-31GnuZ3KpialsbsICL9qDiCSVRRqykdHfRoCK-IQAvD_BwE",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
+
       {
         name: "Footprinting and Reconnaissance",
         link: "https://www.cybrary.it/course/footprinting/",
@@ -614,27 +588,7 @@ const InterestGroups = [
         time: "",
         karma: "200",
       },
-      {
-        name: "Scanning Networks(Paid)",
-        link: "https://www.udemy.com/course/learning-practical-network-scanning",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "Enumeration(Paid)",
-        link: "https://www.udemy.com/course/enumeration-course-for-ethical-hackers/",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "Vulnerability Analysis(Paid)",
-        link: "https://www.udemy.com/course/vulnerability-analysis-course-for-ethical-hacking/",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
+
       {
         name: "Sniffing",
         link: "https://www.cybrary.it/course/sniffing/",
@@ -642,13 +596,7 @@ const InterestGroups = [
         time: "",
         karma: "200",
       },
-      {
-        name: "Denial-of-Service(Paid)",
-        link: "https://www.coursera.org/learn/ddos-attacks-and-defense",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
+
       {
         name: "Session Hijacking",
         link: "https://www.cybrary.it/course/session-hijacking/",
@@ -656,13 +604,7 @@ const InterestGroups = [
         time: "",
         karma: "200",
       },
-      {
-        name: "Hacking Web Servers(Paid)",
-        link: "https://www.udemy.com/course/hacking-web-applications-and-learn-penetration-testing/",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
+
       {
         name: "Evading IDS, Firewalls, and Honeypots",
         link: "https://www.youtube.com/watch?v=IJlFPGLLTUU",
@@ -670,13 +612,7 @@ const InterestGroups = [
         time: "",
         karma: "200",
       },
-      {
-        name: "Hacking Web Applications(Paid)",
-        link: "https://www.udemy.com/course/complete-web-application-hacking-penetration-testing/",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
+
       {
         name: "Cloud Computing",
         link: "https://www.youtube.com/watch?v=2LaAJq1lB1Q",
@@ -698,13 +634,7 @@ const InterestGroups = [
         time: "",
         karma: "200",
       },
-      {
-        name: "Threat Intelligence(Paid)",
-        link: "https://www.coursera.org/learn/ibm-cyber-threat-intelligence",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
+
       {
         name: "IoT and OT Hacking",
         link: "https://www.pluralsight.com/courses/hacking-iot-ot-ethical-hacking-ceh-cert",
