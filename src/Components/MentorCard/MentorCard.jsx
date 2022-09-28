@@ -12,6 +12,7 @@ const MentorCard = ({
   linkedIn,
   interest,
   source,
+  clink,
 }) => {
   return (
     <div className={styles.mentor_card_container}>
@@ -33,6 +34,8 @@ const MentorCard = ({
 
         <p className={styles.mentor_designation}>{designation}</p>
         <p className={styles.mentor_source}>{source}</p>
+
+        {clink && <a href={clink} target="_blank" rel="noopener noreferrer"> <button className={styles.comingsoon}>Checkout Course</button></a>}
       </div>
     </div>
   );

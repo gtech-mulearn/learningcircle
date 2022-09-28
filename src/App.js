@@ -11,6 +11,7 @@ import MentorDirectory from "./Pages/MentorDirectory/MentorDirectory";
 import Search from "./Pages/LearningCircle/Search/Search";
 import ProblemShelves from "./Pages/ProblemShelves/ProblemShelves";
 import MuChallenge from "./Pages/InterestGroups/MuChallenges/MuChallenge";
+import Courses from "./Pages/Courses/Courses"
 
 function App() {
   //Home Page state Variables
@@ -168,6 +169,7 @@ function App() {
           <Route path="/mentors" element={<MentorDirectory />} />
           <Route path="/problemshelves" element={<ProblemShelves />} />
           <Route path="/challenge/web" element={<MuChallenge />} />
+          <Route path="/courses" element={<Courses/>}/>
           <Route
             path="/searchcircles"
             element={

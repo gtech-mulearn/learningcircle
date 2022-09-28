@@ -20,6 +20,16 @@
   font-size: 1.1rem;
 }
 
+.comingsoon {
+  background-color: #f78c40;
+  color: white;
+  margin-top: 1rem;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+}
+
 .box {
   display: flex;
   justify-content: space-between;
