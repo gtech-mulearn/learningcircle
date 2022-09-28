@@ -148,7 +148,7 @@ const InterestGroups = [
     id: "uiux",
     interestgroup: "User Interface and Experience (UI/UX)",
     interestgroupdescription:
-      "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others who have common interest and get mentored by expert individuals.",
+      "Ever wondered how the vibrant apps and websites you see are designed? I want to know how to? Join our interest group to learn with others who share your passion and to be mentored by experts.Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others who have common interest and get mentored by expert individuals.",
     officetime: "Wednesday 7:30PM",
     officeplace: "Gathering Field",
     community: ["FoF Trivandrum", "GDSC MBCET"],
@@ -748,7 +748,7 @@ const InterestGroups = [
       {
         id: "S136",
         name: "Nithin Balachandran",
-        designation: "Product Manager, FAYA",
+        designation: "Consulting Business Analyst, IBM",
         linkedin: "https://www.linkedin.com/in/nithin-balachandran",
         stack: "Product Management",
         image:

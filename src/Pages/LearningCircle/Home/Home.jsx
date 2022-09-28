@@ -155,15 +155,15 @@ const Home = ({
                 Introducing <span> µlearn Learning Circles</span>
               </p>
               <p class={styles.fssheading}>
-                Android and Web Development, IOT, CyberSecurity and
-                <span> Much More....</span>
+                Android and Web Development, IoT, Cyber Security and
+                <span> much more...</span>
               </p>
               <p class={styles.fstagline}>
-                An informal mechanism for bringing together learners who are
-                interested in the same topic from across different fields and
-                disciplines. A fantastic way to spend a small amount of time
-                learning about new things with a group of people with same
-                interests!
+              An informal mechanism for bringing together learners who are
+interested in the same topic from across different fields, and
+discipline. This is a fantastic way to spend a small amount of time.
+Learning about new things with a group of people with the same
+interests!
               </p>
 
               <div class="supporters">
@@ -211,10 +211,9 @@ const Home = ({
               <span>Search</span> Existing Learning Circles.
             </div>
             <div className={styles.fsstagline}>
-              Mulearn currently has multiple active learning cirlces under
-              several interest groups fill in the these data to find out
-              existing learning circles near you so that you could also join in
-              and learn.
+            Mulearn currently has multiple active learning circles under several interest groups.
+            Fill in this data to find out about existing
+            learning circles near you so that you can also join in and learn.
             </div>
           </div>
 
@@ -290,10 +289,10 @@ const Home = ({
                 <span>Existing </span>Learning Circles.
               </div>
               <div className={styles.tsstagline}>
-                These are the existing learning circles which are present in
-                your campus. You contact the circle lead if you are interested
-                to join into the learning circles. If you are intersted to
-                create a learning circle. <a href="/create"> Click Here</a>
+              These are the existing learning circles that are present in
+              your university's campusYou contact the circle lead if you are interested.
+              to participate in the learning circlesIf you are interested in
+              It forms a learning circle.  <a href="/create"> Click Here</a>
               </div>
             </div>
           )}
@@ -364,9 +363,9 @@ const Home = ({
             <span>Existing</span> Interest Groups
           </div>
           <div className={styles.fsstagline}>
-            Learning things for which you are curious about is interesting
-            right?. What about learning the same thing along with group of
-            like-minded peer group and mentors, Much more interesting right? Join in Now and Start Learning!.
+          Learning things about which you are curious is interesting.
+         right?What about learning the same thing along with a group of
+         Much more interesting, don't you think? Join Now and Begin Learning! 
           </div>
           <div className={styles.cards_container}>
             {InterestGroups.map((InterestGroup) => (
@@ -395,9 +394,9 @@ const Home = ({
                 Encountered Technical Difficulty
               </p>
               <p className={styles.errortext}>
-                We are really sorry for the inconvience caused. Since we are
-                experiencing some technical difficulties we kindly request you
-                to check back again later or reload the page again.
+              We are really sorry for the inconvenience caused. Since we are
+              Due to technical difficulties, we kindly request that you
+              You can check back again later or reload the page again.
               </p>
             </div>
           </div>
