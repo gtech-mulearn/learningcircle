@@ -7,6 +7,7 @@ const InterestGroups = [
     officetime: "Sunday 7:30",
     officeplace: "Discord Lobby",
     community: ["Fox Lab"],
+    opportunities: ["EY Hiring IoT",'IoT Robotics Specialist',"IoT Solutions Architect",'Robotics Technician'],
     company: ["Thinkpalm"],
     mentors: [
       "Jaseel (Technical Program Manager - MakerGhat)",
@@ -73,12 +74,8 @@ const InterestGroups = [
     ],
     learningpaths: [
       {
-        name: "IOT Learning Path",
-        link: "https://paths.tinkerhub.org/iot/",
-      },
-      {
-        name: "Getting Started with IoT Development - IBM Learning Path",
-        link: "https://developer.ibm.com/learningpaths/iot-getting-started-iot-development/",
+        name: "How to become an IoT developer: 6 tips",
+        link: "https://www.techrepublic.com/article/how-to-become-an-iot-developer-6-tips/",
       },
     ],
     basicenablementtasks: [
@@ -99,49 +96,22 @@ const InterestGroups = [
     ],
     corecourses: [
       {
-        name: "28 Free IOT Courses You Can Take Right Now",
-        link: "https://www.leverege.com/blogpost/28-free-iot-courses-you-can-take-right-now",
+        name: "Kerala IoT Challenge Level 1 ",
+        link: "https://mulearn.atfg.gtechindia.org/page/iotlevel1",
         complexity: "",
         time: "",
         karma: "400",
       },
       {
-        name: "An Introduction to Programming the Internet of Things (IOT) Specialization",
-        link: "https://www.coursera.org/specializations/iot?ranMID=40328&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-uHZ2gmIeJlrAIaNHKA5yzQ&siteID=JVFxdTr9V80-uHZ2gmIeJlrAIaNHKA5yzQ&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=JVFxdTr9V80",
+        name: "Kerala IoT Challenge Level 2",
+        link: "https://mulearn.atfg.gtechindia.org/page/iotlevel2",
         complexity: "",
         time: "",
         karma: "400",
       },
     ],
     subcourses: [
-      {
-        name: "Python 3.4.3 Swayam Portal",
-        link: "https://onlinecourses.swayam2.ac.in/aic20_sp33/",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "Python for Beginners - Simplilear",
-        link: "https://www.simplilearn.com/learn-python-basics-free-course-skillup",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "Arduino Basics - Swayam Portal",
-        link: "https://onlinecourses.swayam2.ac.in/aic20_sp04/",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "Interface with Ardunio",
-        link: "https://www.classcentral.com/course/interface-with-arduino-4325",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
+
     ],
   },
   {
@@ -152,6 +122,10 @@ const InterestGroups = [
     officetime: "Wednesday 7:30PM",
     officeplace: "Gathering Field",
     community: ["FoF Trivandrum", "GDSC MBCET"],
+    opportunities: [
+      "User Interface (UI) Designer",
+      "User Experience (UX) Designer",
+    ],
     company: ["Faya", "Experion Technologies"],
     pagination: [
       {
@@ -163,15 +137,15 @@ const InterestGroups = [
         name: "Web Development >",
       },
     ],
-    mentors: ["Michael Mathews", "Salman Faariz", "Rhea Merin", "Nauneet"],
+    mentors: ["Michael Mathews", "Salman Faariz", "Rhea Merin", "Navaneeth Venu"],
     learningpaths: [
       {
-        name: "User Experience Learning Path",
-        link: "https://www.linkedin.com/learning/paths/become-a-user-experience-designer",
+        name: "How to be a UX Designer?",
+        link: "https://brainstation.io/career-guides/how-to-become-a-ux-designer",
       },
       {
-        name: "User Interface Learning Path",
-        link: "https://brainstation.io/career-guides/how-to-become-a-ui-designer#:~:text=There%27s%20no%20single%20path%20to,design%20to%20coding%20to%20psychology.",
+        name: "How to be a UI Designer?",
+        link: "https://brainstation.io/career-guides/how-to-become-a-ui-designer.",
       },
     ],
     mentorscard: [
@@ -238,15 +212,15 @@ const InterestGroups = [
     ],
     corecourses: [
       {
-        name: "My Great Learning Course",
-        link: "https://olympus.mygreatlearning.com/courses/55928",
+        name: "Product Design By Google",
+        link: "https://mulearn.notion.site/Product-Design-by-Google-79d2c2fffbf6472280aec387667b2ff0",
         complexity: "",
         time: "",
         karma: "400",
       },
       {
-        name: "UI/UX Design",
-        link: "https://www.coursera.org/specializations/ui-ux-design",
+        name: "Introduction to User Experience Design",
+        link: "https://mulearn.notion.site/Introduction-to-User-Experience-Design-c951783112da4eeead65f4b279181d21",
         complexity: "",
         time: "",
         karma: "400",
@@ -254,8 +228,8 @@ const InterestGroups = [
     ],
     subcourses: [
       {
-        name: "User Interface Design",
-        link: "https://www.shortcoursesportal.com/studies/303816/user-interface-design.html?ref=search_card",
+        name: "Figma Ultimate Crash Course",
+        link: "https://mulearn.notion.site/Figma-Crash-Course-33eba84902174f46a8ee286489f49b7d",
         complexity: "",
         time: "",
         karma: "200",
@@ -270,6 +244,18 @@ const InterestGroups = [
     officetime: "Saturday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Pygrammers"],
+    opportunities: [
+      "Full Stack Web Developer",
+      "Database Administrator",
+      "Frontend Developer",
+      "Web Designer",
+      "Backend Developer",
+    ],
+    challenges: [
+     {
+      link: "/challenge/web'"
+     }
+    ],
     company: ["Travancore Analytics", "PITS"],
     pagination: [
       {
@@ -292,7 +278,7 @@ const InterestGroups = [
         link: "https://roadmap.sh/backend",
       },
       {
-        name: "Complete Learning Path",
+        name: "Complete guide & resources",
         link: "https://denic.hashnode.dev/you-want-to-learn-html-and-css-but-dont-know-where-to-get-started",
       },
     ],
@@ -335,28 +321,28 @@ const InterestGroups = [
     corecourses: [
       {
         name: "HTML and CSS",
-        link: "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+        link: "https://mulearn.notion.site/Responsive-Web-Design-08b46a4edec54f0183d7df0bddb0084b",
         complexity: "3",
         time: "30mins",
         karma: "400",
       },
       {
         name: "Javascript Algorithms and DataStructre",
-        link: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+        link: "https://mulearn.notion.site/JavaScript-Algorithms-Data-Structures-681b6e1825f44c51902be6dbeb68ef8d",
         complexity: "4",
         time: "",
         karma: "400",
       },
       {
         name: "Frontend Development Libraries",
-        link: "https://www.freecodecamp.org/learn/front-end-development-libraries/",
+        link: "https://mulearn.notion.site/Frontend-Development-89fb7eb0944f436381e8f7080cd5a6e0",
         complexity: "4",
         time: "",
         karma: "400",
       },
       {
         name: "Backend Development and APIs",
-        link: "https://www.freecodecamp.org/learn/back-end-development-and-apis/#back-end-development-and-apis-projects",
+        link: "https://mulearn.notion.site/Backend-Development-API-s-eb52c1bcc72948a19dfca7445d1bbeac",
         complexity: "4",
         time: "",
         karma: "400",
@@ -365,14 +351,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "Git and Github",
-        link: "https://youtu.be/apGV9Kg7ics",
-        complexity: "3",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "Application Programming Interface(API)",
-        link: "https://youtu.be/GZvSYJDk-us",
+        link: "https://mulearn.notion.site/Git-GitHub-b8a840efb00845d2a2ab1c2877b1952c",
         complexity: "3",
         time: "",
         karma: "200",
@@ -387,6 +366,11 @@ const InterestGroups = [
     officetime: "Thursday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Google"],
+    opportunities: [
+      "Flutter Developer",
+      "Android Developer",
+      "React Native Developer",
+    ],
     company: ["Triassic Solutions", "PITS"],
     mentors: ["Vinu Balagopal"],
     mentorscard: [
@@ -413,16 +397,8 @@ const InterestGroups = [
     ],
     learningpaths: [
       {
-        name: "Kotlin",
+        name: "Kotlin Learning Path",
         link: "https://kotlinlang.org/docs/home.html",
-      },
-      {
-        name: "Architectures - MVP, MVC, MVVM",
-        link: "https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch10s09.html#:~:text=Both%20MVP%20and%20MVVM%20are,with%20the%20controller%20beside%20it.",
-      },
-      {
-        name: "Android",
-        link: "https://www.android.com/intl/en_in/",
       },
       {
         name: "Firebase",
@@ -431,6 +407,10 @@ const InterestGroups = [
       {
         name: "Database",
         link: "https://www.javatpoint.com/what-is-database",
+      },
+      {
+        name: "Compose",
+        link: "https://developer.android.com/jetpack/compose/tutorial",
       },
     ],
     basicenablementtasks: [
@@ -445,14 +425,14 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Introduction to Kotlin",
-        link: "https://www.youtube.com/watch?v=F9UC9DY-vIU",
+        link: "https://mulearn.notion.site/Introduction-to-Kotlin-54bfa3d91e8d4084909428b35aec937b",
         complexity: "",
         time: "",
         karma: "400",
       },
       {
-        name: "Android Development Course",
-        link: "https://www.youtube.com/watch?v=Iz08OTTjR04",
+        name: "Android Basics with Compose",
+        link: "https://mulearn.notion.site/Android-Basics-with-Compose-4d450928d9dc4fbfb9387e85d4e018f3",
         complexity: "",
         time: "",
         karma: "400",
@@ -461,14 +441,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "Git and Github",
-        link: "https://youtu.be/apGV9Kg7ics",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "Application Programming Interface(API)",
-        link: "https://youtu.be/GZvSYJDk-us",
+        link: "https://mulearn.notion.site/Git-GitHub-7eb7dc619cc347d28fe3cc9a60a72dfc",
         complexity: "",
         time: "",
         karma: "200",
@@ -483,6 +456,13 @@ const InterestGroups = [
     officetime: "Sunday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Beagle Security"],
+    opportunities: [
+      "Malware Analyst",
+      "Security Architect",
+      "Computer Forensics Analyst",
+      "Penetration Tester",
+      "Cybersecurity Engineer",
+    ],
     company: [],
     mentors: ["Rejah Rehim", "Anees"],
     mentorscard: [
@@ -742,6 +722,7 @@ const InterestGroups = [
     officetime: "Monday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Product Pack"],
+    opportunities: ["Product Manager", "Product Marketing Manager"],
     company: ["SunTec"],
     mentors: ["Nithin Balachandran", "Vineesh U S", "Aravind", "Savio"],
     mentorscard: [
@@ -785,7 +766,7 @@ const InterestGroups = [
     ],
     learningpaths: [
       {
-        name: "Ultimate Product Management Guide",
+        name: "Complete Roadmap",
         link: "https://productschool.com/blog/product-management-2/ultimate-product-management-guide/",
       },
     ],
@@ -815,7 +796,7 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Product Management Course",
-        link: "https://startinfinity.com/product-management-framework",
+        link: "https://mulearn.notion.site/Familiarisation-to-Product-management-614ed7bf861b4f2ea88fcf1f02a47784",
         complexity: "",
         time: "",
         karma: "400",
@@ -824,14 +805,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "SWOT Analysis",
-        link: "https://youtu.be/JXXHqM6RzZQ",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-      {
-        name: "Business Analysis",
-        link: "https://youtu.be/UBVzucVpG7k",
+        link: "https://mulearn.notion.site/Swot-Analysis-13b34cbf971742048dbae50d146e57ba",
         complexity: "",
         time: "",
         karma: "200",
