@@ -7,6 +7,7 @@ const InterestGroups = [
     officetime: "Sunday 7:30",
     officeplace: "Discord Lobby",
     community: ["Fox Lab"],
+    opportunities: [""],
     company: ["Thinkpalm"],
     mentors: [
       "Jaseel (Technical Program Manager - MakerGhat)",
@@ -152,6 +153,10 @@ const InterestGroups = [
     officetime: "Wednesday 7:30PM",
     officeplace: "Gathering Field",
     community: ["FoF Kochi", "GDSC MBCET"],
+    opportunities: [
+      "User Interface (UI) Designer",
+      "User Experience (UX) Designer",
+    ],
     company: ["Faya", "Experion Technologies"],
     pagination: [
       {
@@ -270,6 +275,13 @@ const InterestGroups = [
     officetime: "Saturday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Pygrammers"],
+    opportunities: [
+      "Full Stack Web Developer",
+      "Database Administrator",
+      "Frontend Developer",
+      "Web Designer",
+      "Backend Developer",
+    ],
     company: ["Travancore Analytics", "PITS"],
     pagination: [
       {
@@ -387,6 +399,11 @@ const InterestGroups = [
     officetime: "Thursday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Google"],
+    opportunities: [
+      "Flutter Developer",
+      "Android Developer",
+      "React Native Developer",
+    ],
     company: ["Triassic Solutions", "PITS"],
     mentors: ["Vinu Balagopal"],
     mentorscard: [
@@ -483,6 +500,13 @@ const InterestGroups = [
     officetime: "Sunday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Beagle Security"],
+    opportunities: [
+      "Malware Analyst",
+      "Security Architect",
+      "Computer Forensics Analyst",
+      "Penetration Tester",
+      "Cybersecurity Engineer",
+    ],
     company: [],
     mentors: ["Rejah Rehim", "Anees"],
     mentorscard: [
@@ -742,6 +766,7 @@ const InterestGroups = [
     officetime: "Monday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Product Pack"],
+    opportunities: ["Product Manager", "Product Marketing Manager"],
     company: ["SunTec"],
     mentors: ["Nithin Balachandran", "Vineesh U S", "Aravind", "Savio"],
     mentorscard: [

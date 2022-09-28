@@ -271,6 +271,19 @@ const InterestGroup = ({ setInterest }) => {
                   ))}
                 </ul>
               </div>
+              <div className={styles.sv_texts}>
+                <p className={styles.sv_heading}>Opportunities</p>
+                <p className={styles.sv_content}>
+                  Learning a new skill always brings in new opportunties. Here
+                  are some possible opportunties/roles you could grab by
+                  learning this skill.
+                </p>
+                <ul className={styles.sv_lists}>
+                  {data[0].opportunities.map((opportunity) => (
+                    <li className={styles.list_item}>{opportunity}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>

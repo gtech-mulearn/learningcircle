@@ -175,6 +175,11 @@
     margin: 6rem;
   }
 
+  .learning_paths {
+    display: flex;
+    flex-direction: row;
+  }
+
   .second_view {
     display: flex;
     flex-direction: row;
@@ -188,7 +193,7 @@
 
   .sv_content {
     font-size: 0.95rem;
-    width: 40%;
+    width: 60%;
   }
 
   .ilinks {
