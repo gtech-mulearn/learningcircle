@@ -426,7 +426,7 @@ const InterestGroups = [
         karma: "400",
       },
       {
-        name: "Compose",
+        name: "Android Basics with Compose",
         link: "https://mulearn.notion.site/Android-Basics-with-Compose-4d450928d9dc4fbfb9387e85d4e018f3",
         complexity: "",
         time: "",
