@@ -513,10 +513,7 @@ const InterestGroups = [
       },
     ],
     learningpaths: [
-      {
-        name: "Cyber Security GTech Mulearn",
-        link: "https://www.notion.so/lizchaitanya/Cybersecurity-uLearn-GTech-6ee1f80a98854de4b4774a80aa29a455",
-      },
+      
     ],
     basicenablementtasks: [
       {
