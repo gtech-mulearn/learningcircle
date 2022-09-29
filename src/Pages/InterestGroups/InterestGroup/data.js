@@ -124,7 +124,8 @@ const InterestGroups = [
       "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others who have common interest and get mentored by expert individuals.",
     officetime: "Wednesday 7:30PM",
     officeplace: "Gathering Field",
-    community: ["FoF Trivandrum", "GDSC MBCET"],
+    community: ["GDSC MBCET"],
+    // "FoF Trivandrum",
     opportunities: [
       "User Interface (UI) Designer",
       "User Experience (UX) Designer",
@@ -512,9 +513,7 @@ const InterestGroups = [
         name: "Product Management >",
       },
     ],
-    learningpaths: [
-      
-    ],
+    learningpaths: [],
     basicenablementtasks: [
       {
         name: "Command Line",
