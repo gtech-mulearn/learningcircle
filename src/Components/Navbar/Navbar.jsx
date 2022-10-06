@@ -81,6 +81,9 @@ const Navbar = () => {
                       <a class="dropdown-item" href="/challenge/web">
                         µ-Challenges
                       </a>
+                      <a class="dropdown-item" href="/challenge/typing">
+                        µ-Typing Challenge
+                      </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="/courses">

@@ -12,7 +12,6 @@ import Search from "./Pages/LearningCircle/Search/Search";
 import ProblemShelves from "./Pages/ProblemShelves/ProblemShelves";
 import MuChallenge from "./Pages/InterestGroups/MuChallenges/MuChallenge";
 import Courses from "./Pages/Courses/Courses";
-import InterestCourses from "./Pages/InterestGroups/Courses/InterestCourses";
 import TypingChallenge from "./Pages/InterestGroups/MuChallenges/TypingChallenge/TypingChallenge";
 
 function App() {
@@ -192,10 +191,6 @@ function App() {
             }
           />
           <Route
-            path="/courses/:interest/:code/:id"
-            element={<InterestCourses />}
-          />
-          <Route
             path="/create/:id"
             element={
               <Create
@@ -213,7 +208,6 @@ function App() {
               />
             }
           />
-          
         </Routes>
       </Router>
     </div>

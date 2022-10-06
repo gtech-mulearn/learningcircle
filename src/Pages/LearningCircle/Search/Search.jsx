@@ -19,8 +19,6 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import Modal from "@mui/material/Modal";
-import CircularProgress from "@mui/material/CircularProgress";
 
 const Search = ({
   code,
