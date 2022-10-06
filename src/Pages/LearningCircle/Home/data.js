@@ -84,32 +84,19 @@ const InterestGroups = [
       },
     ],
     basicenablementtasks: [
-      {
-        name: "IOT 101",
-        link: "https://mulearn.atfg.gtechindia.org/page/iot101",
-        complexity: "3",
-        time: "40mins",
-        karma: "200",
-      },
-      {
-        name: "Traffic Light Simulation",
-        link: "https://docs.google.com/document/d/1_Z5CHJ6diesFpJJ_AwEQjqElB0U0GsIbmtt963HD1m4/edit?usp=drivesdk",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
+   
     ],
     corecourses: [
       {
         name: "Kerala IoT Challenge Level 1 ",
-        link: "https://mulearn.atfg.gtechindia.org/page/iotlevel1",
+        link: "https://mulearn.notion.site/Kerala-IoT-Challenge-Level-1-7c5ee89f66204c5097fcf5695025f30e",
         complexity: "",
         time: "",
         karma: "400",
       },
       {
         name: "Kerala IoT Challenge Level 2",
-        link: "https://mulearn.atfg.gtechindia.org/page/iotlevel2",
+        link: "https://mulearn.notion.site/Kerala-IoT-Challenge-Level-2-28e6d063a458472a95066d45adcbd9d9",
         complexity: "",
         time: "",
         karma: "400",
@@ -125,7 +112,6 @@ const InterestGroups = [
     officetime: "Wednesday 7:30PM",
     officeplace: "Gathering Field",
     community: [ "GDSC MBCET"],
-    // "FoF Trivandrum",
     opportunities: [
       "User Interface (UI) Designer",
       "User Experience (UX) Designer",
@@ -197,27 +183,15 @@ const InterestGroups = [
     ],
 
     basicenablementtasks: [
-      {
-        name: "UI/UX",
-        link: "https://mulearn.atfg.gtechindia.org/page/iot101",
-        complexity: "3",
-        time: "40 mins",
-        karma: "100",
-      },
+
       {
         name: "Create a Figma Account",
-        link: "https://www.notion.so/mulearn/UI-UX-task-f21a97b9f7b042c3bfe7f5a2fa82bfbc",
+        link: "https://mulearn.notion.site/Create-a-Figma-Account-40684af82ec14953bf4355fce745fb27",
         complexity: "1",
         time: "10 mins",
         karma: "200",
       },
-      {
-        name: "Create a UI for given wireframe",
-        link: "https://www.notion.so/mulearn/UI-UX-Task-3-cab50a68b1714df79f691c7d5c099b63",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
+
     ],
     corecourses: [
       {
@@ -313,27 +287,20 @@ const InterestGroups = [
     ],
     basicenablementtasks: [
       {
-        name: "Create a Survey Form",
-        link: "https://www.notion.so/mulearn/Survey-From-139baee23b1344cb82183c9495156e81",
-        complexity: "3",
+        name: "HTML Forms",
+        link: "https://mulearn.notion.site/HTML-Forms-1b0bfd18070447e4a895c758bda5ba00",
+        complexity: "",
         time: "",
-        karma: "200",
-      },
-      {
-        name: "Recreate the given image using HTML CSS",
-        link: "https://web.fe.up.pt/~arestivo/page/exercises/css/",
-        complexity: "3",
-        time: "30 mins",
-        karma: "200",
+        karma: "",
       },
     ],
     corecourses: [
       {
-        name: "HTML and CSS",
+        name: "Responsive Web Design",
         link: "https://mulearn.notion.site/Responsive-Web-Design-08b46a4edec54f0183d7df0bddb0084b",
-        complexity: "3",
-        time: "30mins",
-        karma: "400",
+        complexity: "",
+        time: "",
+        karma: "",
       },
       {
         name: "Javascript Algorithms and DataStructre",
@@ -343,7 +310,7 @@ const InterestGroups = [
         karma: "400",
       },
       {
-        name: "Frontend Development Libraries",
+        name: "Frontend Development",
         link: "https://mulearn.notion.site/Frontend-Development-89fb7eb0944f436381e8f7080cd5a6e0",
         complexity: "4",
         time: "",
@@ -723,8 +690,8 @@ const InterestGroups = [
     ],
     corecourses: [
       {
-        name: "Product Management Course",
-        link: "https://mulearn.notion.site/Familiarisation-to-Product-management-614ed7bf861b4f2ea88fcf1f02a47784",
+        name: "Familiarization to Product Management",
+        link: "https://mulearn.notion.site/Familiarization-to-Product-management-614ed7bf861b4f2ea88fcf1f02a47784",
         complexity: "",
         time: "",
         karma: "400",
