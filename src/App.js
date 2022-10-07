@@ -171,7 +171,7 @@ function App() {
           <Route path="/mentors" element={<MentorDirectory />} />
           <Route path="/problemshelves" element={<ProblemShelves />} />
           <Route path="/challenge/web" element={<MuChallenge />} />
-          <Route path="/muchallenges" element={<MuLanding />} />
+          <Route path="/challenges" element={<MuLanding />} />
           <Route path="/challenge/typing" element={<TypingChallenge />} />
           <Route path="/courses" element={<Courses />} />
           <Route

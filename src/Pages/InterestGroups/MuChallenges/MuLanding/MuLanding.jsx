@@ -14,7 +14,7 @@ const MuLanding = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                Introducing <span>MuLearn</span> Challenges
+                Introducing <span>µLearn</span> Challenges
               </p>
               <p className={styles.fv_content}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
