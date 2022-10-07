@@ -1275,7 +1275,7 @@ const MentorList = [
   {
     id: "S140",
     name: "Salman Faariz",
-    designation: "Program Associate, GTech MuLearn",
+    designation: "Program Associate, GTech µLearn",
     linkedin: "https://www.linkedin.com/in/salman-faariz-37b892194",
     stack: "UI UX",
     image:
@@ -1285,7 +1285,7 @@ const MentorList = [
   {
     id: "S141",
     name: "Rhea Merin",
-    designation: "Program Associate, GTech MuLearn ",
+    designation: "Program Associate, GTech µLearn ",
     linkedin: "https://www.linkedin.com/in/rheamerin",
     stack: "UI UX",
     image:
@@ -1325,7 +1325,7 @@ const MentorList = [
   {
     id: "S145",
     name: "Vinu Balagopal A P",
-    designation: "Flutter Developer, Program Associate GTech MuLearn",
+    designation: "Flutter Developer, Program Associate GTech µLearn",
     linkedin: "https://www.linkedin.com/in/vinubalagopalap/",
     stack: "Android Development",
     image:

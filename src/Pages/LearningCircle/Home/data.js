@@ -83,9 +83,7 @@ const InterestGroups = [
         link: "https://www.techrepublic.com/article/how-to-become-an-iot-developer-6-tips/",
       },
     ],
-    basicenablementtasks: [
-   
-    ],
+    basicenablementtasks: [],
     corecourses: [
       {
         name: "Kerala IoT Challenge Level 1 ",
@@ -111,7 +109,7 @@ const InterestGroups = [
       "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others who have common interest and get mentored by expert individuals.",
     officetime: "Wednesday 7:30PM",
     officeplace: "Gathering Field",
-    community: [ "GDSC MBCET"],
+    community: ["GDSC MBCET"],
     opportunities: [
       "User Interface (UI) Designer",
       "User Experience (UX) Designer",
@@ -156,7 +154,7 @@ const InterestGroups = [
       {
         id: "S140",
         name: "Salman Faariz",
-        designation: "Program Associate, GTech MuLearn",
+        designation: "Program Associate, GTech µLearn",
         linkedin: "https://www.linkedin.com/in/salman-faariz-37b892194",
         stack: "UI UX",
         image:
@@ -165,7 +163,7 @@ const InterestGroups = [
       {
         id: "S141",
         name: "Rhea Merin",
-        designation: "Program Associate, GTech MuLearn ",
+        designation: "Program Associate, GTech µLearn ",
         linkedin: "https://www.linkedin.com/in/rheamerin",
         stack: "UI UX",
         image:
@@ -183,7 +181,6 @@ const InterestGroups = [
     ],
 
     basicenablementtasks: [
-
       {
         name: "Create a Figma Account",
         link: "https://mulearn.notion.site/Create-a-Figma-Account-40684af82ec14953bf4355fce745fb27",
@@ -191,7 +188,6 @@ const InterestGroups = [
         time: "10 mins",
         karma: "200",
       },
-
     ],
     corecourses: [
       {
@@ -353,7 +349,7 @@ const InterestGroups = [
       {
         id: "S145",
         name: "Vinu Balagopal A P",
-        designation: "Flutter Developer, Program Associate GTech MuLearn",
+        designation: "Flutter Developer, Program Associate GTech µLearn",
         linkedin: "https://www.linkedin.com/in/vinubalagopalap/",
         stack: "Android Development",
         image:
@@ -480,9 +476,7 @@ const InterestGroups = [
         name: "Product Management >",
       },
     ],
-    learningpaths: [
-      
-    ],
+    learningpaths: [],
     basicenablementtasks: [
       {
         name: "Command Line",

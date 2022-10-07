@@ -29,7 +29,7 @@ import Pygrammers from "./assets/Others/Pygrammers.png";
 import ProductPack from "./assets/Others/ProductPack.png";
 
 import animation from "./assets/animation.webp";
-import illustrations from "./assets/illustrations.png"
+import illustrations from "./assets/illustrations.png";
 import InterestCard from "../../../Components/InterestCard/InterestCard";
 
 import InterestGroups from "./data.js";
@@ -211,7 +211,7 @@ const Home = ({
               <span>Search</span> Existing Learning Circles.
             </div>
             <div className={styles.fsstagline}>
-              Mulearn currently has multiple active learning cirlces under
+              µLearn currently has multiple active learning cirlces under
               several interest groups fill in the these data to find out
               existing learning circles near you so that you could also join in
               and learn.
@@ -366,7 +366,8 @@ const Home = ({
           <div className={styles.fsstagline}>
             Learning things for which you are curious about is interesting
             right?. What about learning the same thing along with group of
-            like-minded peer group and mentors, Much more interesting right? Join in Now and Start Learning!.
+            like-minded peer group and mentors, Much more interesting right?
+            Join in Now and Start Learning!.
           </div>
           <div className={styles.cards_container}>
             {InterestGroups.map((InterestGroup) => (

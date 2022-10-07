@@ -74,7 +74,7 @@ const Footer = () => {
               <p class="fheadingtext">Join Our Mailing List</p>
               <p class="fparagraph">
                 Join Our Mailing List Be the first to know about upcoming coding
-                workshops, new coding tools, and other Mulearn related news.
+                workshops, new coding tools, and other µLearn related news.
               </p>
 
               <div class="invite-container">

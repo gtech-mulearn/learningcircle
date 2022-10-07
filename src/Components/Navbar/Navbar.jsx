@@ -77,14 +77,13 @@ const Navbar = () => {
                         Problem Shelf
                       </a>
                     </li>
+
                     <li>
-                      <a class="dropdown-item" href="/challenge/web">
+                      <a class="dropdown-item" href="/challenges">
                         µ-Challenges
                       </a>
-                      <a class="dropdown-item" href="/challenge/typing">
-                        µ-Typing Challenge
-                      </a>
                     </li>
+
                     <li>
                       <a class="dropdown-item" href="/courses">
                         µ-Courses
@@ -104,6 +103,7 @@ const Navbar = () => {
                   >
                     Interest Groups
                   </a>
+
                   <ul
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"

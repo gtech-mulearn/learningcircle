@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first_view_container {
+  margin: 2rem;
+}
+
+.first_view {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.fv_img {
+  display: block;
+  width: 20rem;
+}
+
+.fv_heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #404040;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.fv_heading span {
+  color: #f78c40;
+}
+
+.fv_content {
+  margin-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .first_view_container {
+    margin: 6rem;
+  }
+
+  .first_view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .fv_texts {
+    width: 35vw;
+    margin: 3rem 0;
+  }
+
+  .fv_heading {
+    font-size: 4.25rem;
+  }
+
+  .fv_content {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+
+  .fv_img {
+    display: block;
+    width: 30rem;
+  }
+}
+
+/* Second Section Styles */
+
+.second_view_container {
+  margin: 2rem;
+  margin-top: 4rem;
+}
+
+.sv_heading {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  color: #f78c40;
+}
+
+.sv_content {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.mentors {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .second_view_container {
+    margin: 6rem;
+  }
+
+  .sv_heading {
+    font-size: 2.25rem;
+    line-height: 4rem;
+    width: 60vw;
+  }
+
+  .sv_content {
+    margin-top: 0;
+    font-size: 1.05rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors {
+    display: grid;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-columns: 45% 45%;
+  }
+
+  .sv_content {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .mentors {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+
+  .sv_content {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .mentors {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .sv_content {
+    width: 35%;
+  }
+}

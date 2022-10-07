@@ -13,7 +13,7 @@ const TypingChallenge = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                <span>MuLearn</span> Typing Challenge
+                <span>µLearn</span> Typing Challenge
               </p>
               <p className={styles.fv_content}>
                 Learning to master the skill of typing is always an advantage.
@@ -85,7 +85,12 @@ const TypingChallenge = () => {
                 Hey! I’ve completed Responsive Web Design Certification. Here’s
                 is my course certificate. #web-responsive-design
               </p>
-              <img className={styles.sample_img} src="/assets/challenge/typingsample.png" alt="" srcset="" />
+              <img
+                className={styles.sample_img}
+                src="/assets/challenge/typingsample.png"
+                alt=""
+                srcset=""
+              />
             </div>
           </div>
         </div>
