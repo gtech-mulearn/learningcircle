@@ -17,9 +17,8 @@ const MuLanding = () => {
                 Introducing <span>µLearn</span> Challenges
               </p>
               <p className={styles.fv_content}>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Distinctio culpa tempora, enim animi delectus dignissimos rerum
-                autem atque tenetur expedita totam quisquam ab blanditiis natus!
+                Here we have listed some of the most popular challenges that you
+                can take up to improve your skills.
               </p>
             </div>
 
