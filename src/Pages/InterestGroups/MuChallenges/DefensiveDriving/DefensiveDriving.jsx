@@ -17,10 +17,9 @@ const DefensiveDriving = () => {
                 <span>Tata Strive</span> Defensive Driving
               </p>
               <p className={styles.fv_content}>
-                This course in this challenge is designed to educate you about
-                defensive driving & how you can use these tips and strategies to
-                create a safer place for you as drivers and all those who use
-                the roads.
+                This challenge is intended to teach you about defensive driving
+                and how you can apply its guidelines and practices to make the
+                roads a safer place for all road users.
               </p>
             </div>
 
@@ -36,7 +35,7 @@ const DefensiveDriving = () => {
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>How to the challenge?</p>
+              <p className={styles.sv_heading}>What's the challenge?</p>
               <p className={styles.sv_content}>
                 By finishing this challenge you will get a glimpse into the
                 specifics of improving your driving skills and share them with
