@@ -82,8 +82,8 @@ const TypingChallenge = () => {
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message and Image</p>
               <p className={styles.sample_message}>
-                Hey! I’ve completed Responsive Web Design Certification. Here’s
-                is my course certificate. #web-responsive-design
+                Hey! I've reached Typing Challenge Level 126. Here's my
+                progress. #typing-challenge-126
               </p>
               <img
                 className={styles.sample_img}
