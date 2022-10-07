@@ -38,6 +38,11 @@ footer a {
   color: #fd7915;
 }
 
+.fsociallinks {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
 .footer-links {
   margin: 2rem 0;
   line-height: 2rem;
@@ -168,5 +173,4 @@ button:focus {
     width: 6rem;
     margin-top: 2vh;
   }
-
 }

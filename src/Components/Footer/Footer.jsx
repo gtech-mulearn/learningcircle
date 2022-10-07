@@ -36,35 +36,55 @@ const Footer = () => {
                 rel="noreferrer"
                 href="https://www.instagram.com/gtechmulearn/"
               >
-                <span class="iconify" data-icon="mdi:instagram"></span>
+                <img
+                  src="/assets/footer/instagram.png"
+                  alt=""
+                  className="fsociallinks"
+                />
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://twitter.com/GtechMulearn"
               >
-                <span class="iconify" data-icon="mdi:twitter"></span>
+                <img
+                  src="/assets/footer/twitter.png"
+                  alt=""
+                  className="fsociallinks"
+                />
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.youtube.com/channel/UCuBrylE2ued66MJIMpuOSQg"
               >
-                <span class="iconify" data-icon="mdi:youtube"></span>
+                <img
+                  src="/assets/footer/youtube.png"
+                  alt=""
+                  className="fsociallinks"
+                />
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.linkedin.com/company/mulearn/"
               >
-                <span class="iconify" data-icon="mdi:linkedin"></span>
+                <img
+                  src="/assets/footer/linkedin.png"
+                  alt=""
+                  className="fsociallinks"
+                />
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.facebook.com/gtechmulearn"
               >
-                <span class="iconify" data-icon="mdi:facebook"></span>
+                <img
+                  src="/assets/footer/facebook.png"
+                  alt=""
+                  className="fsociallinks"
+                />
               </a>
             </div>
           </div>
