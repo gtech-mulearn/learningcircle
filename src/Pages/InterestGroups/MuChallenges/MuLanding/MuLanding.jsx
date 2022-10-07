@@ -49,7 +49,7 @@ const MuLanding = () => {
                   mclink="/challenge/web"
                 />
                 <MentorCard
-                  name="MuLearn Typing Challenge"
+                  name="µLearn Typing Challenge"
                   designation="Learning to master the skill of typing is always an advantage. It enables a person to be much more productive and use their time efficently and also increase the outlook of others on them."
                   mclink="/challenge/typing"
                 />

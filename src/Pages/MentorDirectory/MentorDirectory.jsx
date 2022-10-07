@@ -20,8 +20,8 @@ const MentorDirectory = () => {
                 <span> µLearn </span> Mentor Directory
               </p>
               <p className={styles.fv_content}>
-                Welcome to the Mentor Directory of Mulearn. Here you will be
-                able to find a mentor who has already gone down the road through
+                Welcome to the Mentor Directory of µLearn. Here you will be able
+                to find a mentor who has already gone down the road through
                 which you are about to embark on a journey. Happy Learning!
               </p>
               <br />
