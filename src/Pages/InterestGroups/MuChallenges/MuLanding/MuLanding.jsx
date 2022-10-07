@@ -52,6 +52,14 @@ const MuLanding = () => {
                   designation="Learning to master the skill of typing is always an advantage. It enables a person to be much more productive and use their time efficently and also increase the outlook of others on them."
                   mclink="/challenge/typing"
                 />
+                 <MentorCard
+                  name="Tata Strive Defensive Driving"
+                  designation="This course in this challenge is designed to educate you about
+                  defensive driving & how you can use these tips and strategies to
+                  create a safer place for you as drivers and all those who use
+                  the roads."
+                  mclink="/challenge/defensivedriving"
+                />
               </div>
             </div>
           </div>
