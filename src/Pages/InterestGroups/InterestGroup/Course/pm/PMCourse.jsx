@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../../../../../Components/Footer/Footer";
 import Navbar from "../../../../../Components/Navbar/Navbar";
-import styles from "./UIUXCourse.module.css";
+import styles from "./PMCourse.module.css";
 
-import UIUXData from "./uiux";
+import PMData from "./pm";
 import { useParams } from "react-router-dom";
 
-const UIUXCourse = () => {
+const PMCourse = () => {
   const [course, setCourse] = useState();
   const { type, id } = useParams();
 
   useEffect(() => {
     if (type === "core") {
-      setCourse(UIUXData[0].core[id - 1]);
+      setCourse(PMData[0].core[id - 1]);
     } else if (type === "sub") {
-      setCourse(UIUXData[0].sub[id - 1]);
+      setCourse(PMData[0].sub[id - 1]);
     } else if (type === "enablement") {
-      setCourse(UIUXData[0].enablement[id - 1]);
+      setCourse(PMData[0].enablement[id - 1]);
     } else {
       setCourse("Sorry!");
     }
@@ -94,4 +94,4 @@ const UIUXCourse = () => {
   );
 };
 
-export default UIUXCourse;
+export default PMCourse;
