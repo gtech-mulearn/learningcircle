@@ -8,7 +8,7 @@ const WebData = [
         description:
           "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
         link: "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-        "inner-description":
+        inner_description:
           "After course completion, post the certificate in the #web-and-mobile-app-development channel of the MuLearn Discord server with the hashtag #web-responsive-design to avail karma points.",
         example:
           "Hey! I’ve completed Responsive Web Design Certification. Here’s is my course certificate. #web-responsive-design",
@@ -20,7 +20,7 @@ const WebData = [
         description:
           "In the JavaScript Algorithm and Data Structures Certification, you'll learn the fundamentals of JavaScript including variables, arrays, objects, loops, and functions.",
         link: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript",
-        "inner-description":
+        inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of MuLearn Discord Server with hashtag #web-javascript-dsa to avail karma points.",
         example:
           "Example Message : Hey! I’ve completed JavaScript Algorithm and Data Structures Certification. Here’s is my course certificate. #web-javascript-dsa",
@@ -32,7 +32,7 @@ const WebData = [
         description:
           "In the Front End Development Libraries Certification, you'll learn how to style your site quickly with Bootstrap. You'll also learn how add logic to your CSS styles and extend them with Sass.You'll build a shopping cart and other applications to learn how to create powerful Single Page Applications (SPAs) with React and Redux.",
         link: "https://www.freecodecamp.org/learn/front-end-development-libraries/",
-        "inner-description":
+        inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of MuLearn Discord server  with hashtag #web-frontend to avail karma points.",
         example:
           "Hey! I’ve completed Front End Development Libraries Certification. Here’s is my course certificate. #web-frontend",
@@ -44,7 +44,7 @@ const WebData = [
         description:
           "In the Back End Development and APIs Certification, you'll learn how to write back end apps with Node.js and npm (Node Package Manager). You'll also build web applications with the Express framework, and build a People Finder microservice with MongoDB and the Mongoose library.",
         link: "https://www.freecodecamp.org/learn/back-end-development-and-apis/#back-end-development-and-apis-projects",
-        "inner-description":
+        inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of MuLearn Discord server  with hashtag #web-backend to avail karma points.",
         example:
           "Hey! I’ve completed Back End Development and APIs Certification. Here’s is my course certificate. #web-backend",
@@ -69,7 +69,7 @@ const WebData = [
         karma: "",
         description: "Build a HTML Survey Form that",
         link: "",
-        "inner-description": "",
+        inner_description: "",
         example: "",
       },
     ],

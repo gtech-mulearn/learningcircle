@@ -34,20 +34,11 @@ const WebCourse = () => {
               <div className={styles.fv_texts}>
                 <p className={styles.fv_heading}>{course.name}</p>
 
-                <p className={styles.fv_content}>
-                  In this Responsive Web Design Certification, you'll learn the
-                  languages that developers use to build webpages: HTML
-                  (Hypertext Markup Language) for content, and CSS (Cascading
-                  Style Sheets) for design.
-                </p>
+                <p className={styles.fv_content}>{course.description}</p>
                 <p className={styles.karma_header}>
-                  On Course Completion 400 Karma Points.
+                  On Course Completion {course.karma} Karma Points.
                 </p>
-                <a
-                  href="https://www.freecodecamp.org/learn/2022/responsive-web-design/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={course.link} target="_blank" rel="noopener noreferrer">
                   <button className={styles.view_course}>View Course</button>
                 </a>
               </div>
@@ -67,18 +58,12 @@ const WebCourse = () => {
                     Once <span>Completed.</span>
                   </p>
                   <p className={styles.sv_content}>
-                    After course completion, post the certificate in the
-                    #web-and-mobile-app-development channel of the MuLearn
-                    Discord server with the hashtag #web-responsive-design and
-                    the sample message given below to avail karma points.
+                    {course.inner_description}
                   </p>
                 </div>
                 <div className={styles.sample_container}>
                   <p className={styles.sample_header}>Example Message</p>
-                  <p className={styles.sample_message}>
-                    Hey! I’ve completed Responsive Web Design Certification.
-                    Here’s is my course certificate. #web-responsive-design
-                  </p>
+                  <p className={styles.sample_message}>{course.example}</p>
                 </div>
               </div>
             </div>
