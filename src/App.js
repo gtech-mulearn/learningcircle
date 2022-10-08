@@ -15,6 +15,7 @@ import Courses from "./Pages/Courses/Courses";
 import TypingChallenge from "./Pages/InterestGroups/MuChallenges/TypingChallenge/TypingChallenge";
 import MuLanding from "./Pages/InterestGroups/MuChallenges/MuLanding/MuLanding";
 import DefensiveDriving from "./Pages/InterestGroups/MuChallenges/DefensiveDriving/DefensiveDriving";
+import Course from "./Pages/InterestGroups/InterestGroup/Course/Course";
 
 function App() {
   //Home Page state Variables
@@ -178,6 +179,7 @@ function App() {
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}
           />
+          <Route path="/courses/:interest/:type/:id" element={<Course />} />
           <Route path="/courses" element={<Courses />} />
           <Route
             path="/searchcircles"
