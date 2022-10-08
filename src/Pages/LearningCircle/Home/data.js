@@ -87,14 +87,14 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Kerala IoT Challenge Level 1 ",
-        link: "https://mulearn.notion.site/Kerala-IoT-Challenge-Level-1-7c5ee89f66204c5097fcf5695025f30e",
+        link: "/iot/core/1",
         complexity: "",
         time: "",
         karma: "400",
       },
       {
         name: "Kerala IoT Challenge Level 2",
-        link: "https://mulearn.notion.site/Kerala-IoT-Challenge-Level-2-28e6d063a458472a95066d45adcbd9d9",
+        link: "/iot/core/2",
         complexity: "",
         time: "",
         karma: "400",
@@ -183,7 +183,7 @@ const InterestGroups = [
     basicenablementtasks: [
       {
         name: "Create a Figma Account",
-        link: "https://mulearn.notion.site/Create-a-Figma-Account-40684af82ec14953bf4355fce745fb27",
+        link: "/uiux/enablement/1",
         complexity: "1",
         time: "10 mins",
         karma: "200",
@@ -192,14 +192,14 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Product Design By Google",
-        link: "https://mulearn.notion.site/Product-Design-by-Google-79d2c2fffbf6472280aec387667b2ff0",
+        link: "/uiux/core/1",
         complexity: "",
         time: "",
         karma: "400",
       },
       {
         name: "Introduction to User Experience Design",
-        link: "https://mulearn.notion.site/Introduction-to-User-Experience-Design-c951783112da4eeead65f4b279181d21",
+        link: "/uiux/core/2",
         complexity: "",
         time: "",
         karma: "400",
@@ -208,7 +208,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "Figma Ultimate Crash Course",
-        link: "https://mulearn.notion.site/Figma-Crash-Course-33eba84902174f46a8ee286489f49b7d",
+        link: "/uiux/sub/1",
         complexity: "",
         time: "",
         karma: "200",
@@ -232,7 +232,7 @@ const InterestGroups = [
     ],
     challenges: [
       {
-        link: "/challenge/web'",
+        link: "/challenge/web",
       },
     ],
     company: ["Travancore Analytics", "PITS"],
@@ -284,7 +284,7 @@ const InterestGroups = [
     basicenablementtasks: [
       {
         name: "HTML Forms",
-        link: "https://mulearn.notion.site/HTML-Forms-1b0bfd18070447e4a895c758bda5ba00",
+        link: "/web/enablement/1",
         complexity: "",
         time: "",
         karma: "",
@@ -293,28 +293,28 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Responsive Web Design",
-        link: "https://mulearn.notion.site/Responsive-Web-Design-08b46a4edec54f0183d7df0bddb0084b",
+        link: "/web/core/1",
         complexity: "",
         time: "",
-        karma: "",
+        karma: "400",
       },
       {
         name: "Javascript Algorithms and DataStructre",
-        link: "https://mulearn.notion.site/JavaScript-Algorithms-Data-Structures-681b6e1825f44c51902be6dbeb68ef8d",
+        link: "/web/core/2",
         complexity: "4",
         time: "",
         karma: "400",
       },
       {
         name: "Frontend Development",
-        link: "https://mulearn.notion.site/Frontend-Development-89fb7eb0944f436381e8f7080cd5a6e0",
+        link: "/web/core/3",
         complexity: "4",
         time: "",
         karma: "400",
       },
       {
         name: "Backend Development and APIs",
-        link: "https://mulearn.notion.site/Backend-Development-API-s-eb52c1bcc72948a19dfca7445d1bbeac",
+        link: "/web/core/4",
         complexity: "4",
         time: "",
         karma: "400",
@@ -323,7 +323,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "Git and Github",
-        link: "https://mulearn.notion.site/Git-GitHub-b8a840efb00845d2a2ab1c2877b1952c",
+        link: "/web/sub/1",
         complexity: "3",
         time: "",
         karma: "200",
@@ -397,14 +397,14 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Introduction to Kotlin",
-        link: "https://mulearn.notion.site/Introduction-to-Kotlin-54bfa3d91e8d4084909428b35aec937b",
+        link: "/android/core/1",
         complexity: "",
         time: "",
         karma: "400",
       },
       {
         name: "Android Basics with Compose",
-        link: "https://mulearn.notion.site/Android-Basics-with-Compose-4d450928d9dc4fbfb9387e85d4e018f3",
+        link: "/android/core/2",
         complexity: "",
         time: "",
         karma: "400",
@@ -413,7 +413,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "Git and Github",
-        link: "https://mulearn.notion.site/Git-GitHub-7eb7dc619cc347d28fe3cc9a60a72dfc",
+        link: "/android/sub/1",
         complexity: "",
         time: "",
         karma: "200",
@@ -685,7 +685,7 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Familiarization to Product Management",
-        link: "https://mulearn.notion.site/Familiarization-to-Product-management-614ed7bf861b4f2ea88fcf1f02a47784",
+        link: "/pm/core/1",
         complexity: "",
         time: "",
         karma: "400",
@@ -694,7 +694,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "SWOT Analysis",
-        link: "https://mulearn.notion.site/Swot-Analysis-13b34cbf971742048dbae50d146e57ba",
+        link: "/pm/core/2",
         complexity: "",
         time: "",
         karma: "200",

@@ -290,19 +290,26 @@ const InterestGroup = ({ setInterest }) => {
                 <div className={styles.sv_texts}>
                   <p className={styles.sv_heading}>MuChallenges</p>
                   <p className={styles.sv_content}>
-                  Learning by Solving challeges is much more interesting than simply learning them. Here we have a challenge to solve and if you are ready to learn, Then come let get three lakhs buissness into production.
+                    Learning by Solving challeges is much more interesting than
+                    simply learning them. Here we have a challenge to solve and
+                    if you are ready to learn, Then come let get three lakhs
+                    buissness into production.
                   </p>
-                  <ul className={styles.sv_lists}>    
-                      <li className={styles.list_item}>
-                        <a
-                          href='/challenge/web'
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                  <ul className={styles.sv_lists}>
+                    <li className={styles.list_item}>
+                      <a
+                        href="/challenge/web"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        3 Lakhs Buissness in Production -
                           3 Lakhs Buissness in Production - 
-                          <span className={styles.link}> Click Here</span>
-                        </a>
-                      </li>
+                        3 Lakhs Buissness in Production -
+                          3 Lakhs Buissness in Production - 
+                        3 Lakhs Buissness in Production -
+                        <span className={styles.link}> Click Here</span>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
