@@ -8,7 +8,7 @@ const AndroidData = [
         description:
           "Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development.",
         link: "https://www.youtube.com/watch?v=F9UC9DY-vIU",
-        "inner-description":
+        inner_description:
           "After course completion, complete the assignment and post the Repository url in the #android-development channel of the MuLearn Discord server with the hashtag #android-kotlin-intro to avail karma points",
         assignment: [
           {
@@ -28,7 +28,7 @@ const AndroidData = [
         description:
           "In this course, you'll learn the basics of building Android apps with Jetpack Compose, the new UI toolkit for building Android apps. Along the way, you'll develop a collection of apps to start your journey as an Android developer.",
         link: "https://developer.android.com/courses/android-basics-compose/course",
-        "inner-description":
+        inner_description:
           "After course completion, share the 4 badges you’ve earned in #android-development channel of the MuLearn Discord server with the hashtag #android-compose to avail karma points.",
       },
     ],

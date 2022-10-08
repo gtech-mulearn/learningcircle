@@ -8,7 +8,7 @@ const PMData = [
         description:
           "In this Course you will be familiarized with “ What is product management ? “ and key terms related to it. ✨You will learn about the responsibilites and roles of a product manager, and different opportunities in Product management.",
         link: "https://www.udemy.com/course/product-management-a/",
-        "inner-description":
+        inner_description:
           "After course completion, post the screenshot of fully completed list of sessions from Udemy in #product-management channel of µLearn Discord server  with hashtag #product-intro to avail karma points.",
         example:
           "Hey! I’ve completed Introduction to Product management course. #product-intro",
@@ -24,7 +24,7 @@ const PMData = [
         link: "https://youtu.be/mR9eICQJLXA",
         video_description:
           "The above is a video on SWOT analysis of Starbucks. After having a good understanding of SWOT Analysis,  Prepare a SWOT analysis  for any of the following product companiesOption 1 - Boat audio devices Option 2 - Tata motors EV Option 3 - Xiomi MI India",
-        "inner-description":
+        inner_description:
           "Hey! I’ve completed SWOT analysis. Here is my analysis on <topic>. #product-swot-analysis\\",
       },
     ],

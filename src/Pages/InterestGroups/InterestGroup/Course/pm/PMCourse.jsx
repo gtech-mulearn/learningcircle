@@ -22,7 +22,6 @@ const PMCourse = () => {
     }
   }, []);
 
-  console.log(course && course);
 
   return (
     <>

@@ -22,8 +22,6 @@ const AndroidCourse = () => {
     }
   }, []);
 
-  console.log(course && course);
-
   return (
     <>
       <Navbar />
@@ -51,6 +49,26 @@ const AndroidCourse = () => {
                 />
               </div>
             </div>
+            {course.assignment && (
+              <div className={styles.second_view_container}>
+                <div className={styles.second_view}>
+                  <div className={styles.sv_texts}>
+                    <p className={styles.sv_heading}>
+                      Course <span>Assignment.</span>
+                    </p>
+                    <p className={styles.sv_content}>
+                      {course.assignment[0].assignment_description}
+                    </p>
+                  </div>
+                  <div className={styles.sample_container}>
+                    <p className={styles.sample_message}>
+                      {course.assignment[0].assignment_inner_description}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
             <div className={styles.second_view_container}>
               <div className={styles.second_view}>
                 <div className={styles.sv_texts}>
@@ -63,7 +81,10 @@ const AndroidCourse = () => {
                 </div>
                 <div className={styles.sample_container}>
                   <p className={styles.sample_header}>Example Message</p>
-                  <p className={styles.sample_message}>{course.example}</p>
+                  <p className={styles.sample_message}>
+                    {course.assignment &&
+                      (course.example || course.assignment[0].example)}
+                  </p>
                 </div>
               </div>
             </div>

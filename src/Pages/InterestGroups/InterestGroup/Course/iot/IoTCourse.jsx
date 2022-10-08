@@ -22,8 +22,6 @@ const IoTCourse = () => {
     }
   }, []);
 
-  console.log(course && course);
-
   return (
     <>
       <Navbar />

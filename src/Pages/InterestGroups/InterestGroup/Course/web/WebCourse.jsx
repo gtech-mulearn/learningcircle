@@ -22,8 +22,6 @@ const WebCourse = () => {
     }
   }, []);
 
-  console.log(course && course);
-
   return (
     <>
       <Navbar />
