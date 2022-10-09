@@ -1,5 +1,5 @@
 .mainfooter_container {
-  margin-top: 10rem;
+  margin-top: 2rem;
   background-color: #3a3a3a;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -11,8 +11,8 @@
 
 @media only screen and (min-width: 1000px) {
   .footer_container {
-    max-width: 1300px;
-    margin: auto;
+    /* max-width: 1300px; */
+    padding: 6rem ;
   }
 }
 
@@ -31,6 +31,7 @@
   margin-right: 1rem;
   font-weight: 300;
   font-size: 0.9rem;
+  color: #ffffff;
 }
 
 .line {
@@ -153,15 +154,20 @@ button:focus {
   display: flex;
   flex-direction: row;
 }
+.fs_rightside {
+  display: flex;
+}
 
 @media only screen and (min-width: 1000px) {
   .right_side {
     width: 30%;
   }
+
   .newsletter {
     width: 20rem;
     text-align: right;
   }
+
   .bottom_section {
     display: flex;
     flex-direction: row;

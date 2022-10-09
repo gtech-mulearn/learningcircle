@@ -28,6 +28,11 @@ a {
   color: #f78c40;
 }
 
+.supporters {
+  display: flex;
+  align-items: center;
+}
+
 .fssheading {
   font-size: 1.25rem;
   font-family: "Inter", sans-serif;
@@ -213,6 +218,10 @@ a {
   margin-top: 0.5rem;
 }
 
+.fsstagline {
+  font-family: "Poppins", sans-serif;
+}
+
 @media only screen and (min-width: 1280px) {
   .errorheading {
     margin-top: -1rem;
@@ -365,7 +374,7 @@ a {
 .cards_container {
   margin-top: 2rem;
   display: grid;
-   -webkit-line-clamp: 3;
+  -webkit-line-clamp: 3;
   row-gap: 3vh;
   column-gap: 3vw;
 }

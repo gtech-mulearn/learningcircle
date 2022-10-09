@@ -119,7 +119,7 @@ const Home = ({
     return (
       <>
         <Navbar />
-        
+
         {members && (
           <div>
             <Modal
@@ -166,8 +166,9 @@ const Home = ({
                 interests!
               </p>
 
-              <div class="supporters">
+              <div class={styles.supporters}>
                 <span>Supported By </span>
+
                 <img
                   src={BeagleSecurity}
                   alt="Beagle Security"
