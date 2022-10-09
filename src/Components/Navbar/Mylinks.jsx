@@ -6,17 +6,29 @@ export const links = [
       {
         Head: "The Team",
         sublink: [
-          { name: "Our Team", link: "/team" },
-          { name: "Executive Committe", link: "/team/execom" },
-          { name: "YIP Team", link: "/team/yip" },
-          { name: "Community Team", link: "/team/community" },
+          { name: "Our Team", link: "https://mulearn.org/team" },
+          {
+            name: "Executive Committe",
+            link: "https://mulearn.org/team/execom",
+          },
+          { name: "YIP Team", link: "https://mulearn.org/team/yip" },
+          {
+            name: "Community Team",
+            link: "https://mulearn.org/team/community",
+          },
         ],
       },
       {
         Head: "Partners",
         sublink: [
-          { name: "Community Partners", link: "/community-partners" },
-          { name: "Company Partners", link: "/company-partners" },
+          {
+            name: "Community Partners",
+            link: "https://mulearn.org/community-partners",
+          },
+          {
+            name: "Company Partners",
+            link: "https://mulearn.org/company-partners",
+          },
         ],
       },
     ],
@@ -37,11 +49,18 @@ export const links = [
       },
       {
         Head: "Ongoing",
-        sublink: [{ name: "Art of Teaching", link: "/artofteaching" }],
+        sublink: [
+          {
+            name: "Art of Teaching",
+            link: "https://mulearn.org/artofteaching",
+          },
+        ],
       },
       {
         Head: "Others",
-        sublink: [{ name: "Wiki Syllabus", link: "/wikisyllabus" }],
+        sublink: [
+          { name: "Wiki Syllabus", link: "https://mulearn.org/wikisyllabus" },
+        ],
       },
     ],
   },
@@ -51,15 +70,19 @@ export const links = [
     sublinks: [
       {
         Head: "Global Calendar",
-        sublink: [{ name: "Calendar", link: "/calendar" }],
+        sublink: [{ name: "Calendar", link: "https://mulearn.org/calendar" }],
       },
       {
         Head: "Announcements",
-        sublink: [{ name: "Announcements", link: "/announcements" }],
+        sublink: [
+          { name: "Announcements", link: "https://mulearn.org/announcements" },
+        ],
       },
       {
         Head: "Weekly Events",
-        sublink: [{ name: "Inspiration Station", link: "/isr" }],
+        sublink: [
+          { name: "Inspiration Station", link: "https://mulearn.org/isr" },
+        ],
       },
     ],
   },
@@ -72,7 +95,7 @@ export const links = [
         sublink: [
           {
             name: "Home",
-            link: "https://learn.mulearn.org/",
+            link: "/",
           },
         ],
       },
@@ -81,11 +104,11 @@ export const links = [
         sublink: [
           {
             name: "Mentor Directory",
-            link: "https://learn.mulearn.org/mentors",
+            link: "/mentors",
           },
           {
             name: "Existing Circles",
-            link: "https://learn.mulearn.org/searchcircles",
+            link: "/searchcircles",
           },
         ],
       },
@@ -94,15 +117,15 @@ export const links = [
         sublink: [
           {
             name: "Problem Shelf",
-            link: "https://learn.mulearn.org/problemshelves",
+            link: "/problemshelves",
           },
           {
             name: "Challenges",
-            link: "https://learn.mulearn.org/challenges",
+            link: "/challenges",
           },
           {
             name: "Courses",
-            link: "https://learn.mulearn.org/courses",
+            link: "/courses",
           },
         ],
       },
@@ -111,27 +134,27 @@ export const links = [
         sublink: [
           {
             name: "Web Development",
-            link: "https://learn.mulearn.org/web",
+            link: "/web",
           },
           {
             name: "Android Development",
-            link: "https://learn.mulearn.org/android",
+            link: "/android",
           },
           {
             name: "UI / UX",
-            link: "https://learn.mulearn.org/uiux",
+            link: "/uiux",
           },
           {
             name: "Product Management",
-            link: "https://learn.mulearn.org/pm",
+            link: "/pm",
           },
           {
             name: "IoT",
-            link: "https://learn.mulearn.org/iot",
+            link: "/iot",
           },
           {
             name: "Cyber Security",
-            link: "https://learn.mulearn.org/cybersec",
+            link: "/cybersec",
           },
         ],
       },
