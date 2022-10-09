@@ -23,7 +23,7 @@ import MentorCard from "../../../Components/MentorCard/MentorCard";
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: "#f6842c",
-    fontFamily: "Inter",
+    fontFamily: "Noto Sans",
     color: theme.palette.common.white,
   },
   [`&.${tableCellClasses.body}`]: {
