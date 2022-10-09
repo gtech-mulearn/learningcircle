@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import "./Navbar.css"
+import "./Navbar.css";
 
 import NavLinks from "./NavLinks";
 
@@ -11,13 +11,13 @@ const Navbar = () => {
     <nav className="bg-white ">
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 mt-1 lg:w-auto w-full flex justify-between">
-          <Link to="/">
+          <a href="https://mulearn.org/">
             <img
               src="/assets/navbar/µLearn.png"
               alt="logo"
               className="lg:cursor-pointer h-8"
             />
-          </Link>
+          </a>
           <div className="text-3xl lg:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
