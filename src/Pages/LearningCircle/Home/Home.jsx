@@ -169,27 +169,29 @@ const Home = ({
               <div class={styles.supporters}>
                 <span>Supported By </span>
 
-                <img
-                  src={BeagleSecurity}
-                  alt="Beagle Security"
-                  class={styles.supporter}
-                />
-                <img src={FoxLabs} alt="" class={styles.supporter} />
-                <img
-                  src={ProductPack}
-                  alt="Product Pack"
-                  class={styles.supporter}
-                />
-                <img
-                  src={Pygrammers}
-                  alt="Pygrammers"
-                  class={styles.supporter}
-                />
-                <img
-                  src={Fof}
-                  alt="Friends of Figma"
-                  class={styles.supporter}
-                />
+                <div className={styles.s_images}>
+                  <img
+                    src={BeagleSecurity}
+                    alt="Beagle Security"
+                    class={styles.supporter}
+                  />
+                  <img src={FoxLabs} alt="" class={styles.supporter} />
+                  <img
+                    src={ProductPack}
+                    alt="Product Pack"
+                    class={styles.supporter}
+                  />
+                  <img
+                    src={Pygrammers}
+                    alt="Pygrammers"
+                    class={styles.supporter}
+                  />
+                  <img
+                    src={Fof}
+                    alt="Friends of Figma"
+                    class={styles.supporter}
+                  />
+                </div>
               </div>
 
               <div class={styles.buttons}>

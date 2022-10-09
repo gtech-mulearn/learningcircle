@@ -28,9 +28,9 @@ a {
   color: #f78c40;
 }
 
-.supporters {
-  display: flex;
-  align-items: center;
+.s_images {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
 }
 
 .fssheading {
@@ -86,7 +86,7 @@ a {
 
 .supporter {
   width: 4rem;
-  margin: 0 0.5rem;
+  margin-right: 1rem;
   border-radius: 50px;
   box-shadow: 0 1px 12px 0 rgba(193, 195, 211, 0.37);
 }
@@ -94,6 +94,15 @@ a {
 @media only screen and (min-width: 1000px) {
   .fsobtn {
     margin-left: 0.5rem;
+  }
+
+  .supporters {
+    display: flex;
+    align-items: center;
+  }
+
+  .s_images {
+    display: flex;
   }
 
   .fs_img {
