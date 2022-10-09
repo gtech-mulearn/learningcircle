@@ -1,166 +1,73 @@
-import React from "react";
-import "./Navbar.css";
-import Mulearn from "./assets/Mulearn.png";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
+import "./Navbar.css"
+
+import NavLinks from "./NavLinks";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
   return (
-    <nav>
-      <div class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="https://mulearn.org">
-            <img className="mulearn-logo" src={Mulearn} alt="Mulearn" />
-          </a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div
-            class="navbar-styles collapse navbar-collapse"
-            id="navbarNavDropdown"
-          >
-            <div class="navbar-dropdowns">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Search
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="/mentors">
-                        Mentor Directory
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="/searchcircles">
-                        Existing Circles
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Practice
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="/problemshelves">
-                        Problem Shelf
-                      </a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="/challenges">
-                        µ-Challenges
-                      </a>
-                    </li>
-
-                    <li>
-                      <a class="dropdown-item" href="/courses">
-                        µ-Courses
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="https://learn.mulearn.org/"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Interest Groups
-                  </a>
-
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="/web">
-                        Web Development
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="/android">
-                        Android Development
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="/uiux">
-                        UI/UX
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="/pm">
-                        Product Management
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="/iot">
-                        Internet of Things
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="/cybersec">
-                        Cyber Security
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link"
-                    href="https://mulearn.org/careers"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Careers
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="nav-barbtn">
-              <a href="https://discord.com/invite/Jt7sv3chZP">
-                <button class="join-discord">Join Discord Server</button>
-              </a>
-            </div>
+    <nav className="bg-white ">
+      <div className="flex items-center font-medium justify-around">
+        <div className="z-50 p-5 mt-1 lg:w-auto w-full flex justify-between">
+          <Link to="/">
+            <img
+              src="/assets/navbar/µLearn.png"
+              alt="logo"
+              className="lg:cursor-pointer h-8"
+            />
+          </Link>
+          <div className="text-3xl lg:hidden" onClick={() => setOpen(!open)}>
+            <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
+        <ul className="lg:flex hidden uppercase items-center gap-8 font-[Poppins]">
+          <NavLinks />
+
+          <Link to="/careers" className="text-black py-7 px-3 inline-block">
+            Careers
+          </Link>
+        </ul>
+        <div className="lg:block hidden">
+          <a
+            href="https://discord.com/invite/Jt7sv3chZP"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-7 px-3 inline-block"
+          >
+            <button className="bg-orange-400 text-white  px-6 py-2 rounded-md">
+              Join Discord
+            </button>
+          </a>
+        </div>
+        {/* Mobile nav */}
+        <ul
+          className={`
+    lg:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
+    duration-500 ${open ? "left-0" : "left-[-100%]"}
+    `}
+        >
+          <NavLinks />
+          <li>
+            <Link to="/careers" className="py-7 px-3 inline-block">
+              Career
+            </Link>
+          </li>
+
+          <div className="grid justify-items-center">
+            <a
+              href="https://discord.com/invite/Jt7sv3chZP"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="py-7 px-28 "
+            >
+              <button className="bg-orange-400 text-white  px-6 py-2 rounded-md ">
+                Join Discord
+              </button>
+            </a>
+          </div>
+        </ul>
       </div>
     </nav>
   );

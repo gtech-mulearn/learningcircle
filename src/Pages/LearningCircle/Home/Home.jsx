@@ -119,7 +119,7 @@ const Home = ({
     return (
       <>
         <Navbar />
-
+        
         {members && (
           <div>
             <Modal
