@@ -49,6 +49,38 @@ const WebCourse = () => {
                 />
               </div>
             </div>
+
+            {course.assignment && (
+              <div className={styles.second_view_container}>
+                <div className={styles.second_view}>
+                  <div className={styles.sv_texts}>
+                    <p className={styles.sv_heading}>
+                      Course <span>Assignment.</span>
+                    </p>
+                    <p className={styles.sv_content}>
+                      {course.assignment[0].assignment_description}
+                    </p>
+                  </div>
+                  <div className={styles.sample_container}>
+                    <p className={styles.sample_message}>
+                      {course.assignment[0].assignment_inner_description}
+                    </p>
+                  </div>
+                  {course.assignment[0].link && (
+                    <a
+                      href={course.assignment[0].link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className={styles.view_course}>
+                        View Assignment
+                      </button>
+                    </a>
+                  )}
+                </div>
+              </div>
+            )}
+
             <div className={styles.second_view_container}>
               <div className={styles.second_view}>
                 <div className={styles.sv_texts}>

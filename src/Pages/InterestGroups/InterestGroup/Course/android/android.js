@@ -40,8 +40,19 @@ const AndroidData = [
         description:
           "Git is a piece of software that makes it simpler to manage different versions of your own software in a software repository.  GitHub is a place to share software repositories and collaborate with other developers. These tools make it easier for multiple people to work on the same software project. In this course you will learn about: Installing Git, Creating a Git Repository, Cloning a Git Repository, Adding and Removing from a Git repository, Using GitHub, creating pull requests, branching repositories, merging repositories.By the end of the course, you'll know way more about Git than the people in this web comic. :)",
         link: "https://www.youtube.com/watch?v=RGOj5yH7evk",
-        assignment:
-          "https://mulearn.notion.site/Assignment-6cc865e1fc85409d985fd64a4a05519a",
+        inner_description:
+          "Now if you go to the pull requests tab in GTech µLearn repo, you’ll be able to see your pull request. Open it and copy your pull request URL.",
+        example:
+          "Submit the link in #android-development channel with the hashtag, #android-git-github",
+        assignment: [
+          {
+            assignment_description:
+              "Just like knowing how to use the Command Line, Git & Github will be very important in your daily workflow as a programmer / developer. Let’s put your Git and Github skills to practice! Find the assignment below.",
+            assignment_inner_description:
+              "1. The assignment has to be done strictly in a PC. 2. You can either use WSL and ubuntu from your windows machine or use any Linux OS as standalone or use a virtualbox with any Linux OS in it.3. Do not do the assignment in **powershell or cmd.**",
+            link: "https://mulearn.notion.site/Assignment-6cc865e1fc85409d985fd64a4a05519a",
+          },
+        ],
       },
     ],
   },

@@ -22,10 +22,10 @@ const PMData = [
         description:
           "A SWOT analysis is designed to facilitate a realistic, fact-based, data-driven look at the strengths and weaknesses of an organization, initiatives, products within its industry. The organization needs to keep the analysis accurate by avoiding pre-conceived beliefs or gray areas and instead focusing on real-life contexts.",
         link: "https://youtu.be/mR9eICQJLXA",
-        video_description:
-          "The above is a video on SWOT analysis of Starbucks. After having a good understanding of SWOT Analysis,  Prepare a SWOT analysis  for any of the following product companiesOption 1 - Boat audio devices Option 2 - Tata motors EV Option 3 - Xiomi MI India",
         inner_description:
-          "Hey! I’ve completed SWOT analysis. Here is my analysis on <topic>. #product-swot-analysis\\",
+          "The above is a video on SWOT analysis of Starbucks. After having a good understanding of SWOT Analysis,  Prepare a SWOT analysis  for any of the following product companies Option 1 - Boat audio devices Option 2 - Tata motors EV Option 3 - Xiomi MI India",
+        example:
+          "Hey! I’ve completed SWOT analysis. Here is my analysis on \"topic\". #product-swot-analysis",
       },
     ],
   },

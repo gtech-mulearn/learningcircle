@@ -65,6 +65,17 @@ const AndroidCourse = () => {
                       {course.assignment[0].assignment_inner_description}
                     </p>
                   </div>
+                  {course.assignment[0].link && (
+                    <a
+                      href={course.assignment[0].link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className={styles.view_course}>
+                        View Assignment
+                      </button>
+                    </a>
+                  )}
                 </div>
               </div>
             )}

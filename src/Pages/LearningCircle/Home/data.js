@@ -694,7 +694,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "SWOT Analysis",
-        link: "/pm/core/2",
+        link: "/pm/sub/1",
         complexity: "",
         time: "",
         karma: "200",
