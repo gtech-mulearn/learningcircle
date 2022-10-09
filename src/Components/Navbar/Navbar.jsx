@@ -50,7 +50,7 @@ const Navbar = () => {
         >
           <NavLinks />
           <li>
-            <Link to="/careers" className="py-7 px-3 inline-block">
+            <Link to="/careers" className="text-black py-7 px-3 inline-block">
               Career
             </Link>
           </li>

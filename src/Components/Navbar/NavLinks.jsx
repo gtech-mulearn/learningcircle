@@ -103,8 +103,24 @@ const NavLinks = () => {
                   >
                     {slinks.sublink.map((slink) => (
                       <li className="py-3 pl-14">
-                        {/* <Link to={slink.link}>{slink.name}</Link> */}
-                        <a href={slink.link}>{slink.name}</a>
+                        {slink.foreign && (
+                          <a
+                            href={slink.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-black hover:text-orange-500"
+                          >
+                            {slink.name}
+                          </a>
+                        )}
+                        {!slink.foreign && (
+                          <a
+                            href={slink.link}
+                            className="text-black hover:text-orange-500"
+                          >
+                            {slink.name}
+                          </a>
+                        )}
                       </li>
                     ))}
                   </div>
