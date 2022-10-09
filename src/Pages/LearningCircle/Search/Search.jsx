@@ -85,10 +85,7 @@ const Search = ({
                   Search µLearn <span> Learning Circles</span>
                 </p>
                 <p className={styles.fv_content}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
-                  fugit dolor rerum, incidunt magni voluptatibus commodi
-                  expedita in repellat modi, blanditiis dolorem pariatur cumque
-                  aliquid?
+                µLearn currently has multiple active learning cirlces under several interest groups fill in the these data to find out existing learning circles near you so that you could also join in and learn.
                 </p>
                 <div className={styles.form}>
                   {districts && (
