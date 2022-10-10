@@ -25,9 +25,12 @@ const Navbar = () => {
         <ul className="lg:flex hidden uppercase items-center gap-8 font-[Poppins]">
           <NavLinks />
 
-          <Link to="/careers" className="text-black py-7 px-3 inline-block">
+          <a
+            href="https://mulearn.org/careers"
+            className="text-black py-7 px-3 inline-block"
+          >
             Careers
-          </Link>
+          </a>
         </ul>
         <div className="lg:block hidden">
           <a
