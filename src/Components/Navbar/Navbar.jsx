@@ -50,9 +50,9 @@ const Navbar = () => {
         >
           <NavLinks />
           <li>
-            <Link to="/careers" className="text-black py-7 px-3 inline-block">
+            <a to="/careers" className="text-black py-7 px-3 inline-block">
               Career
-            </Link>
+            </a>
           </li>
 
           <div className="grid justify-items-center">
