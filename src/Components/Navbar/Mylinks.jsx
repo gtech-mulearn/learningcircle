@@ -31,6 +31,15 @@ export const links = [
           },
         ],
       },
+      {
+        Head: "Gallery",
+        sublink: [
+          {
+            name: "Gallery",
+            link: "https://mulearn.org/gallery",
+          },
+        ],
+      },
     ],
   },
   {
