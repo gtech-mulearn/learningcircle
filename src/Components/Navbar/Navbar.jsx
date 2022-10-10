@@ -50,7 +50,10 @@ const Navbar = () => {
         >
           <NavLinks />
           <li>
-            <a to="/careers" className="text-black py-7 px-3 inline-block">
+            <a
+              href="https://mulearn.org/careers"
+              className="text-black py-7 px-3 inline-block"
+            >
               Career
             </a>
           </li>
