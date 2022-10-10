@@ -16,6 +16,10 @@ export const links = [
             name: "Community Team",
             link: "https://mulearn.org/team/community",
           },
+          {
+            name: "Tech Team",
+            link: "https://mulearn.org/team/tech",
+          },
         ],
       },
       {
