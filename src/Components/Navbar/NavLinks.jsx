@@ -114,12 +114,12 @@ const NavLinks = () => {
                           </a>
                         )}
                         {!slink.foreign && (
-                          <a
+                          <Link
                             href={slink.link}
                             className="text-black hover:text-orange-500"
                           >
                             {slink.name}
-                          </a>
+                          </Link>
                         )}
                       </li>
                     ))}
