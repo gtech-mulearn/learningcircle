@@ -54,25 +54,25 @@ const TypingChallenge = () => {
                   <li>
                     Post the screenshot of your progress when you reach Level
                     126 in #students channel with hashtag{" "}
-                    <b>#typing-challenge-126 </b>
+                    <b>#ge-typing-challenge-126 </b>
                     to avail <b>100 Karma Points</b>
                   </li>
                   <li>
                     Post the screenshot of your progress when you reach Level
                     285 in #students channel with hashtag{" "}
-                    <b>#typing-challenge-285 </b>
+                    <b>#ge-typing-challenge-285 </b>
                     to avail <b>100 Karma Points</b>
                   </li>
                   <li>
                     Post the screenshot of your progress when you reach Level
                     460 in #students channel with hashtag{" "}
-                    <b>#typing-challenge-460 </b>
+                    <b>#ge-typing-challenge-460 </b>
                     to avail <b>200 Karma Points</b>
                   </li>
                   <li>
                     Post the screenshot of your progress when you reach Level
                     685 in #students channel with hashtag{" "}
-                    <b>#typing-challenge-685 </b>
+                    <b>#ge-typing-challenge-685 </b>
                     to avail <b>200 Karma Points</b>
                   </li>
                 </ol>
@@ -83,7 +83,7 @@ const TypingChallenge = () => {
               <p className={styles.sample_header}>Example Message and Image</p>
               <p className={styles.sample_message}>
                 Hey! I've reached Typing Challenge Level 126. Here's my
-                progress. #typing-challenge-126
+                progress. #ge-typing-challenge-126
               </p>
               <img
                 className={styles.sample_img}

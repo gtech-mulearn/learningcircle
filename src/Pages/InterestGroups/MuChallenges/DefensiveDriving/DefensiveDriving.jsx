@@ -65,7 +65,7 @@ const DefensiveDriving = () => {
               <li>
                 After course completion, download the certificate and post it in{" "}
                 <b>#students</b> channel along with hashtag{" "}
-                <b>#defensive-driving </b>
+                <b>#ge-defensive-driving </b>
                 to avail <b> 400 Karma Points</b>
               </li>
               <img
