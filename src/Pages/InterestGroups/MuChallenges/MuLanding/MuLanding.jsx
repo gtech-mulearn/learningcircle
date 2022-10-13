@@ -48,6 +48,21 @@ const MuLanding = () => {
                   mclink="/challenge/intro-to-github"
                 />
                 <MentorCard
+                  name="Introduction to Markdown"
+                  designation="The aim of the course is to learn how to communicate using Markdown, a lightweight language for text formatting."
+                  mclink="/challenge/intro-to-markdown"
+                />
+                <MentorCard
+                  name="Introduction to Command Line"
+                  designation="Complete the course end to end, Go through all commands and try it in your own terminal"
+                  mclink="/challenge/intro-to-command-line"
+                />
+                <MentorCard
+                  name="Introduction to GitHub Pages"
+                  designation="In this course, you will learn to create a site or blog from your GitHub repositories with GitHub Pages."
+                  mclink="/challenge/intro-to-github-pages"
+                />
+                <MentorCard
                   name="1 Lakh Business in Production"
                   designation="Learning by Solving challeges is much more interesting than simply learning them. Here we have a challenge to solve and if you are ready to learn, Then come let get one lakh business into production."
                   mclink="/challenge/web"

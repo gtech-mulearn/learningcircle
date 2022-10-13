@@ -16,6 +16,9 @@ import TypingChallenge from "./Pages/InterestGroups/MuChallenges/TypingChallenge
 import MuLanding from "./Pages/InterestGroups/MuChallenges/MuLanding/MuLanding";
 import DefensiveDriving from "./Pages/InterestGroups/MuChallenges/DefensiveDriving/DefensiveDriving";
 import IntroToGithub from "./Pages/InterestGroups/MuChallenges/IntroToGithub/IntroToGithub";
+import IntroToMarkdown from "./Pages/InterestGroups/MuChallenges/IntroToMarkdown/IntroToMarkdown";
+import IntroToCommandLine from "./Pages/InterestGroups/MuChallenges/IntroToCommandLine/IntroToCommandLine";
+import IntroToGithubPages from "./Pages/InterestGroups/MuChallenges/IntroToGithubPages/IntroToGithubPages";
 import WebCourse from "./Pages/InterestGroups/InterestGroup/Course/web/WebCourse";
 import UIUXCourse from "./Pages/InterestGroups/InterestGroup/Course/uiux/UIUXCourse";
 import PMCourse from "./Pages/InterestGroups/InterestGroup/Course/pm/PMCourse";
@@ -181,6 +184,9 @@ function App() {
           <Route path="/challenges" element={<MuLanding />} />
           <Route path="/challenge/typing" element={<TypingChallenge />} />
           <Route path="/challenge/intro-to-github" element={<IntroToGithub />} />
+          <Route path="/challenge/intro-to-markdown" element={<IntroToMarkdown />} />
+          <Route path="/challenge/intro-to-command-line" element={<IntroToCommandLine />} />
+          <Route path="/challenge/intro-to-github-pages" element={<IntroToGithubPages />} />
           <Route
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}
