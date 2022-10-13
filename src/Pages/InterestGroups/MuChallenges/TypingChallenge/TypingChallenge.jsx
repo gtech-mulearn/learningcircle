@@ -34,7 +34,7 @@ const TypingChallenge = () => {
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>How to the challenge?</p>
+              <p className={styles.sv_heading}>How to do the challenge?</p>
               <p className={styles.sv_content}>
                 Do you know, The faster you type, the faster you communicate
                 with others. Let's work on our rapid fingers and earn some
@@ -73,7 +73,7 @@ const TypingChallenge = () => {
                     Post the screenshot of your progress when you reach Level
                     685 in #students channel with hashtag{" "}
                     <b>#ge-typing-challenge-685 </b>
-                    to avail <b>200 Karma Points</b>
+                    to avail <b>400 Karma Points</b>
                   </li>
                 </ol>
               </li>
