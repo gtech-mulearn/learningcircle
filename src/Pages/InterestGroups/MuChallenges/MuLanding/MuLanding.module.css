@@ -39,18 +39,18 @@
 
 @media only screen and (min-width: 1000px) {
   .first_view_container {
-    margin: 6rem;
+    margin: 2rem 6rem;
   }
 
   .first_view {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
   .fv_texts {
-    width: 35vw;
+    max-width: 40rem;
     margin: 3rem 0;
   }
 
@@ -96,7 +96,7 @@
 
 @media only screen and (min-width: 1000px) {
   .second_view_container {
-    margin: 6rem;
+    margin: 2rem 6rem;
   }
 
   .sv_heading {
