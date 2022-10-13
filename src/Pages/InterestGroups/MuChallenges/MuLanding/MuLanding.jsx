@@ -43,8 +43,8 @@ const MuLanding = () => {
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
                 <MentorCard
-                  name="3 Lakhs Buissness in Production"
-                  designation="Learning by Solving challeges is much more interesting than simply learning them. Here we have a challenge to solve and if you are ready to learn, Then come let get three lakhs buissness into production."
+                  name="1 Lakh Business in Production"
+                  designation="Learning by Solving challeges is much more interesting than simply learning them. Here we have a challenge to solve and if you are ready to learn, Then come let get one lakh business into production."
                   mclink="/challenge/web"
                 />
                 <MentorCard
@@ -52,7 +52,7 @@ const MuLanding = () => {
                   designation="Learning to master the skill of typing is always an advantage. It enables a person to be much more productive and use their time efficently and also increase the outlook of others on them."
                   mclink="/challenge/typing"
                 />
-                 <MentorCard
+                <MentorCard
                   name="Tata Strive Defensive Driving"
                   designation="This course in this challenge is designed to educate you about
                   defensive driving & how you can use these tips and strategies to

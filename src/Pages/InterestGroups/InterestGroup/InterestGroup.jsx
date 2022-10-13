@@ -292,8 +292,8 @@ const InterestGroup = ({ setInterest }) => {
                   <p className={styles.sv_content}>
                     Learning by Solving challeges is much more interesting than
                     simply learning them. Here we have a challenge to solve and
-                    if you are ready to learn, Then come let get three lakhs
-                    buissness into production.
+                    if you are ready to learn, Then come let get one lakh
+                    Business into production.
                   </p>
                   <ul className={styles.sv_lists}>
                     <li className={styles.list_item}>
@@ -302,11 +302,9 @@ const InterestGroup = ({ setInterest }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        3 Lakhs Buissness in Production -
-                          3 Lakhs Buissness in Production - 
-                        3 Lakhs Buissness in Production -
-                          3 Lakhs Buissness in Production - 
-                        3 Lakhs Buissness in Production -
+                        1 Lakh Business in Production - 1 Lakh Business in
+                        Production - 1 Lakh Business in Production - 1 Lakh
+                        Business in Production - 1 Lakh Business in Production -
                         <span className={styles.link}> Click Here</span>
                       </a>
                     </li>

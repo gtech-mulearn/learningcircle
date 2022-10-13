@@ -15,13 +15,13 @@ const MuChallenge = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                <span>3 Lakhs Buisness</span> in Production
+                <span>1 Lakh Buisness</span> in Production
               </p>
               <p className={styles.fv_content}>
                 Learning by Solving challeges is much more interesting than
                 simply learning them. Here we have a challenge to solve and if
-                you are ready to learn, Then come let get three lakhs buisness
-                into production.
+                you are ready to learn, Then come let get one lakh buisness into
+                production.
               </p>
             </div>
 
@@ -47,7 +47,7 @@ const MuChallenge = () => {
               <div className={styles.mentors}>
                 <MentorCard
                   name="What is the Challenge ?"
-                  designation="The Challenge we put forward to you is to bring one buissness near your to the web. In simple words you have make a wonderful website for them and we will assist you will all the necessary things needed to host it"
+                  designation="The Challenge we put forward to you is to bring one Business near your to the web. In simple words you have make a wonderful website for them and we will assist you will all the necessary things needed to host it"
                 />
                 <MentorCard
                   name="First Step"
@@ -59,7 +59,7 @@ const MuChallenge = () => {
                 />
                 <MentorCard
                   name="Third Step"
-                  designation="Congratulaion, Now as you have completed the website you will have to host it with the resouces that we provide and let the shop owner know that you have actually build a wonderful webpage for their buissness. "
+                  designation="Congratulaion, Now as you have completed the website you will have to host it with the resouces that we provide and let the shop owner know that you have actually build a wonderful webpage for their Business. "
                 />
               </div>
             </div>
@@ -80,7 +80,7 @@ const MuChallenge = () => {
               <div className={styles.mentors}>
                 <MentorCard
                   name="Hosting Platform"
-                  designation="We wil be providing you with the hosting platform so that you can host the buissness."
+                  designation="We wil be providing you with the hosting platform so that you can host the Business."
                 />
                 <MentorCard
                   name="Domain Name"
