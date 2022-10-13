@@ -12,7 +12,7 @@
 @media only screen and (min-width: 1000px) {
   .footer_container {
     /* max-width: 1300px; */
-    padding: 6rem ;
+    padding: 6rem;
   }
 }
 
@@ -32,6 +32,10 @@
   font-weight: 300;
   font-size: 0.9rem;
   color: #ffffff;
+}
+
+.link:hover {
+  color: #f1954a;
 }
 
 .line {
