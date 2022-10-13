@@ -42,6 +42,10 @@ export const links = [
             name: "Gallery",
             link: "https://mulearn.org/gallery",
           },
+          {
+            name: "Leaderboard",
+            link: "https://mulearn.org/leaderboard",
+          },
         ],
       },
     ],
