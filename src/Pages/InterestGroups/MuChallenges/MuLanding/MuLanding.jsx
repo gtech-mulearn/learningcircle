@@ -43,6 +43,11 @@ const MuLanding = () => {
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
                 <MentorCard
+                  name="Introduction to GitHub"
+                  designation="The aim of the course is to teach you about GitHub and its numerous tools and processes, such as Issues and Pull Requests."
+                  mclink="/challenge/intro-to-github"
+                />
+                <MentorCard
                   name="1 Lakh Business in Production"
                   designation="Learning by Solving challeges is much more interesting than simply learning them. Here we have a challenge to solve and if you are ready to learn, Then come let get one lakh business into production."
                   mclink="/challenge/web"

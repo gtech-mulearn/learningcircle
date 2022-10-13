@@ -15,6 +15,7 @@ import Courses from "./Pages/Courses/Courses";
 import TypingChallenge from "./Pages/InterestGroups/MuChallenges/TypingChallenge/TypingChallenge";
 import MuLanding from "./Pages/InterestGroups/MuChallenges/MuLanding/MuLanding";
 import DefensiveDriving from "./Pages/InterestGroups/MuChallenges/DefensiveDriving/DefensiveDriving";
+import IntroToGithub from "./Pages/InterestGroups/MuChallenges/IntroToGithub/IntroToGithub";
 import WebCourse from "./Pages/InterestGroups/InterestGroup/Course/web/WebCourse";
 import UIUXCourse from "./Pages/InterestGroups/InterestGroup/Course/uiux/UIUXCourse";
 import PMCourse from "./Pages/InterestGroups/InterestGroup/Course/pm/PMCourse";
@@ -179,6 +180,7 @@ function App() {
           <Route path="/challenge/web" element={<MuChallenge />} />
           <Route path="/challenges" element={<MuLanding />} />
           <Route path="/challenge/typing" element={<TypingChallenge />} />
+          <Route path="/challenge/intro-to-github" element={<IntroToGithub />} />
           <Route
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}
