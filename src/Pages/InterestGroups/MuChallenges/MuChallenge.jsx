@@ -15,12 +15,12 @@ const MuChallenge = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                <span>3 Lakhs Buissness</span> in Production
+                <span>3 Lakhs Buisness</span> in Production
               </p>
               <p className={styles.fv_content}>
                 Learning by Solving challeges is much more interesting than
                 simply learning them. Here we have a challenge to solve and if
-                you are ready to learn, Then come let get three lakhs buissness
+                you are ready to learn, Then come let get three lakhs buisness
                 into production.
               </p>
             </div>
@@ -51,7 +51,7 @@ const MuChallenge = () => {
                 />
                 <MentorCard
                   name="First Step"
-                  designation="Confused on how to start?. The first step is to visit a nearby lets say a tea stall and take note of the resouces necessary of building the wbesite. It could anything from the store name to the photos of that place."
+                  designation="Confused on how to start?. The first step is to visit a nearby lets say a tea stall and take note of the resouces necessary of building the website. It could anything from the store name to the photos of that place."
                 />
                 <MentorCard
                   name="Second Step"
