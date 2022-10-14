@@ -61,7 +61,7 @@ const IntroToGithub = () => {
                             <p className={styles.sample_header}>Example Message</p>
                             <p className={styles.sample_message}>
                                 Hi! I've completed the Intro to GitHub course.<br></br>
-                                My repository URL is https://github.com/Angelrose19/intro-to-github<br></br>
+                                My repository URL is <a href="https://github.com/Angelrose19/intro-to-github">https://github.com/Angelrose19/intro-to-github</a><br></br>
                                 #ge-intro-to-github
                             </p>
                         </div>

@@ -63,6 +63,11 @@ const MuLanding = () => {
                   mclink="/challenge/intro-to-github-pages"
                 />
                 <MentorCard
+                  name="Introduction to HTML"
+                  designation="In this course, you'll learn the most common HTML tags by building your own cat photo app."
+                  mclink="/challenge/intro-to-html"
+                />
+                <MentorCard
                   name="1 Lakh Business in Production"
                   designation="Learning by Solving challeges is much more interesting than simply learning them. Here we have a challenge to solve and if you are ready to learn, Then come let get one lakh business into production."
                   mclink="/challenge/web"
