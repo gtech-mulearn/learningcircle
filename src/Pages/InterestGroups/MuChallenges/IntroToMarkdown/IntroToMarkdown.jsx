@@ -49,7 +49,7 @@ const IntroToMarkdown = () => {
                                 Go through the <code>README.md</code> file. Read the instructions carefully, create the repository and complete the 5 steps.
                             </li>
                             <li>
-                                Post the repository URL of the file you've worked on in <b>#students</b>  channel and hashtag <b>#ge-intro-to-markdown</b> (see example message below)
+                                Post the repository URL of the file you've worked on in <b>#students</b>  channel with hashtag <b>#ge-intro-to-markdown</b> (see example message below)
                             </li>
 
                         </ul>

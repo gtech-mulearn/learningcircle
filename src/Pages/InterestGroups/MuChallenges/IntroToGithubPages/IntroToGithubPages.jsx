@@ -57,7 +57,7 @@ const IntroToGithubPages = () => {
                                 <img src="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F89ce8b01-7bec-445b-9368-065f779903ce%2F1233.png?table=block&id=cf04295a-c8d5-4b19-aa48-bbe91924762f&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=2000&userId=&cache=v2" alt="" />
                             </li>
                             <li>
-                                Post the GitHub Page URL you've deployed  in <b>#students</b>  channel and hashtag <b>#ge-github-pages</b>  (see example message below)
+                                Post the GitHub Page URL you've deployed  in <b>#students</b>  channel with hashtag <b>#ge-github-pages</b>  (see example message below)
                             </li>
 
                         </ul>

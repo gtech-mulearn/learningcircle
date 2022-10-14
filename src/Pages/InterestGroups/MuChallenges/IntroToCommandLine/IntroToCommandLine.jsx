@@ -63,7 +63,7 @@ const IntroToCommandLine = () => {
                                 Do a 'tree Gtech-Mulearn' from your home directory to obtain the above directory structure and take a screenshot
                             </li>
                             <li>
-                                Post a message on <b>#students</b> channel with the screenshot and hashtag <b>#ge-intro-to-command-line</b> (see example message below)
+                                Post a message on <b>#students</b> channel with the screenshot with hashtag <b>#ge-intro-to-command-line</b> (see example message below)
                             </li>
 
                         </ul>
