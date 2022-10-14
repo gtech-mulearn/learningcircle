@@ -92,6 +92,7 @@
 .mentors {
   display: grid;
   grid-template-columns: 100%;
+  justify-content: space-between;
 }
 
 @media only screen and (min-width: 1000px) {
