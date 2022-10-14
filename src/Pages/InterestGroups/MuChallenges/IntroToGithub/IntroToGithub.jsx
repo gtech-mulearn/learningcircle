@@ -52,7 +52,7 @@ const IntroToGithub = () => {
                                 Go through the <code>README.md</code> file. Read the instructions carefully, create the repository and complete the 4 steps.
                             </li>
                             <li>
-                                Post the repository URL of the file you've worked on in <b>#students</b>  channel and hashtag <b>#ge-intro-to-github</b> (see example message below)
+                                Post the repository URL of the file you've worked on in <b>#students</b>  channel with hashtag <b>#ge-intro-to-github</b> (see example message below)
                             </li>
 
                         </ul>
@@ -61,7 +61,7 @@ const IntroToGithub = () => {
                             <p className={styles.sample_header}>Example Message</p>
                             <p className={styles.sample_message}>
                                 Hi! I've completed the Intro to GitHub course.<br></br>
-                                My repository URL is https://github.com/Angelrose19/intro-to-github<br></br>
+                                My repository URL is <a href="https://github.com/Angelrose19/intro-to-github">https://github.com/Angelrose19/intro-to-github</a><br></br>
                                 #ge-intro-to-github
                             </p>
                         </div>

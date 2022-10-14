@@ -25,7 +25,7 @@ const MuLanding = () => {
             <div className={styles.fv_image}>
               <img
                 src="/assets/challenge/mulanding.gif"
-                alt="Mu Challenges"
+                alt=""
                 className={styles.fv_img}
               />
             </div>
@@ -61,6 +61,11 @@ const MuLanding = () => {
                   name="Introduction to GitHub Pages"
                   designation="In this course, you will learn to create a site or blog from your GitHub repositories with GitHub Pages."
                   mclink="/challenge/intro-to-github-pages"
+                />
+                <MentorCard
+                  name="Introduction to HTML"
+                  designation="In this course, you'll learn the most common HTML tags by building your own cat photo app."
+                  mclink="/challenge/intro-to-html"
                 />
                 <MentorCard
                   name="1 Lakh Business in Production"

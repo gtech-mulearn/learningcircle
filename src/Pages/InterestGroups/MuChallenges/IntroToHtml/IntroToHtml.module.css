@@ -14,8 +14,13 @@ a {
 
 .steps_ulist {
     list-style: disc;
-    max-width: 50rem;
     margin-left: 1.5rem;
+    max-width: 50rem;
+}
+
+.steps_ulist img {
+    margin: 1rem 0 0;
+    border-radius: 0.3rem;
 }
 
 .first_view_container {
@@ -142,6 +147,15 @@ b {
     max-width: 50rem;
 }
 
+.callout {
+    margin-top: 2rem;
+    border: 1px solid #f78c4080;
+    padding: 2rem;
+    border-radius: 0.2rem;
+    max-width: 50rem;
+
+}
+
 .sample_header {
     font-size: 1.1rem;
     font-weight: 500;
@@ -159,7 +173,9 @@ b {
 }
 
 @media only screen and (min-width: 1000px) {
-    .sample_container {
+
+    .sample_container,
+    .callout {
         margin-top: 4rem;
     }
 
@@ -174,7 +190,7 @@ b {
 
     .sample_img {
         margin-top: 1rem;
-        width: 35rem;
+        width: 15rem;
         border-radius: 5px;
     }
 }
