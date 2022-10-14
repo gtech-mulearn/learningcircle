@@ -25,7 +25,7 @@ const MuLanding = () => {
             <div className={styles.fv_image}>
               <img
                 src="/assets/challenge/mulanding.gif"
-                alt="Mu Challenges"
+                alt=""
                 className={styles.fv_img}
               />
             </div>
