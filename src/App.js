@@ -198,7 +198,7 @@ function App() {
           <Route path="/android/:type/:id" element={<AndroidCourse />} />
           <Route path="/courses" element={<Courses />} />
           <Route
-            path="/searchcircles"
+            path="searchcircles"
             element={
               <Search
                 code={code}

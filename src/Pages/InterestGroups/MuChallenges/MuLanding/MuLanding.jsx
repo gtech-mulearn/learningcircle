@@ -12,6 +12,7 @@ const MuLanding = () => {
       <div className={styles.main_container}>
         <div className={styles.first_view_container}>
           <div className={styles.first_view}>
+
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
                 Introducing <span>µLearn</span> Challenges
@@ -21,7 +22,6 @@ const MuLanding = () => {
                 can take up to improve your skills.
               </p>
             </div>
-
             <div className={styles.fv_image}>
               <img
                 src="/assets/challenge/mulanding.gif"
@@ -29,6 +29,7 @@ const MuLanding = () => {
                 className={styles.fv_img}
               />
             </div>
+
           </div>
         </div>
         <div className={styles.second_view_container}>
