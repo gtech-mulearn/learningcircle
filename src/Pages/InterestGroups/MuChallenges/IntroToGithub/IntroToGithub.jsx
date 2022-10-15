@@ -3,6 +3,7 @@ import Navbar from "../../../../Components/Navbar/Navbar";
 import Footer from "../../../../Components/Footer/Footer";
 
 import styles from "./introToGithub.module.css";
+import "../common/steps.css";
 
 const IntroToGithub = () => {
     return (
@@ -41,7 +42,7 @@ const IntroToGithub = () => {
                         </div>
                     </div>
                     <div className={styles.steps}>
-                        <ul className={styles.steps_ulist}>
+                        {/* <ul className={styles.steps_ulist}>
                             <li>
                                 Create a <a href="https://github.com/">GitHub Account</a>
                             </li>
@@ -55,7 +56,88 @@ const IntroToGithub = () => {
                                 Post the repository URL of the file you've worked on in <b>#students</b>  channel with hashtag <b>#ge-intro-to-github</b> (see example message below)
                             </li>
 
-                        </ul>
+                        </ul> */}
+
+
+
+
+                        <div className="timeline-container">
+                            <div className="timeline">
+                                <div className="timeline__event animated fadeInUp delay-3s timeline__event--type1">
+                                    <div className="timeline__event__icon">
+                                        <img
+                                            src={require("../assets/steps/github.svg").default}
+                                            alt=""
+                                        // className="lni-cake"
+                                        />
+                                    </div>
+                                    <div className="timeline__event__date">
+                                        1
+                                    </div>
+                                    <div className="timeline__event__content">
+                                        <div className="timeline__event__title">Step One</div>
+                                        <div className="timeline__event__description">
+                                            Create a <a href="https://github.com/">GitHub Account</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                                    <div className="timeline__event__icon">
+                                        <img
+                                            src={require("../assets/steps/repo.svg").default}
+                                            alt=""
+                                            className="lni-cake"
+                                        />
+                                    </div>
+                                    <div className="timeline__event__date">
+                                        2
+                                    </div>
+                                    <div className="timeline__event__content">
+                                        <div className="timeline__event__title">Step Two</div>
+                                        <div className="timeline__event__description">
+                                            Navigate to <a href="https://github.com/skills/introduction-to-github">github.com/skills/introduction-to-github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                                    <div className="timeline__event__icon">
+                                        <img
+                                            src={require("../assets/steps/readme.svg").default}
+                                            alt=""
+                                            className="lni-cake"
+                                        />
+                                    </div>
+                                    <div className="timeline__event__date">
+                                        3
+                                    </div>
+                                    <div className="timeline__event__content">
+                                        <div className="timeline__event__title">Step Three</div>
+                                        <div className="timeline__event__description">
+                                            Go through the <code>README.md</code> file. Read the instructions carefully, create the repository and complete the 4 steps.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="timeline__event animated fadeInUp timeline__event--type1">
+                                    <div className="timeline__event__icon">
+                                        <img
+                                            src={require("../assets/steps/check.svg").default}
+                                            alt=""
+                                            className="lni-cake"
+                                        />
+                                    </div>
+                                    <div className="timeline__event__date">
+                                        4
+                                    </div>
+                                    <div className="timeline__event__content">
+                                        <div className="timeline__event__title">Step Four</div>
+                                        <div className="timeline__event__description">
+                                            Post the repository URL of the file you've worked on in <b>#students</b>  channel with hashtag <b>#ge-intro-to-github</b> (see example message below)
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
 
                         <div className={styles.sample_container}>
                             <p className={styles.sample_header}>Example Message</p>
@@ -66,6 +148,8 @@ const IntroToGithub = () => {
                             </p>
                         </div>
                     </div>
+
+
                 </div>
             </div>
 
