@@ -150,8 +150,11 @@ h2 {
 }
 
 .timeline__event__icon img {
-    /* max-width: unset; */
-    display: none;
+    width: 2.5rem;
+    position: absolute;
+    height: auto;
+    height: 2.5rem;
+    opacity: .6;
 }
 
 .timeline__event__icon:before {

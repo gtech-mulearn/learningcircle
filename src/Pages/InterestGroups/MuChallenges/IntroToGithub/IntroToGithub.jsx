@@ -66,9 +66,9 @@ const IntroToGithub = () => {
                                 <div className="timeline__event animated fadeInUp delay-3s timeline__event--type1">
                                     <div className="timeline__event__icon">
                                         <img
-                                            src={require("../assets/procedure/prereg.png")}
+                                            src={require("../assets/steps/github.svg").default}
                                             alt=""
-                                            className="lni-cake"
+                                        // className="lni-cake"
                                         />
                                     </div>
                                     <div className="timeline__event__date">
@@ -84,7 +84,7 @@ const IntroToGithub = () => {
                                 <div className="timeline__event animated fadeInUp delay-2s timeline__event--type2">
                                     <div className="timeline__event__icon">
                                         <img
-                                            src={require("../assets/procedure/studentreg.png")}
+                                            src={require("../assets/steps/repo.svg").default}
                                             alt=""
                                             className="lni-cake"
                                         />
@@ -102,7 +102,7 @@ const IntroToGithub = () => {
                                 <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
                                     <div className="timeline__event__icon">
                                         <img
-                                            src={require("../assets/procedure/yip-voc.png")}
+                                            src={require("../assets/steps/readme.svg").default}
                                             alt=""
                                             className="lni-cake"
                                         />
@@ -120,7 +120,7 @@ const IntroToGithub = () => {
                                 <div className="timeline__event animated fadeInUp timeline__event--type1">
                                     <div className="timeline__event__icon">
                                         <img
-                                            src={require("../assets/procedure/team.png")}
+                                            src={require("../assets/steps/check.svg").default}
                                             alt=""
                                             className="lni-cake"
                                         />
