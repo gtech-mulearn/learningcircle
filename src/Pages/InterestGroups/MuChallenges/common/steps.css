@@ -269,7 +269,6 @@ h2 {
     }
 
     .timeline__event__icon {
-        display: none;
         border-radius: 6px 6px 0 0;
         width: 100%;
         margin: 0;
