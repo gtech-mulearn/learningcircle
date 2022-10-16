@@ -15,7 +15,8 @@
   margin-top: 1rem;
 }
 
-.label span {
+.label span,
+.readhide {
   color: #f78c40;
   font-size: 1rem;
 }
