@@ -62,8 +62,8 @@ h2 {
     z-index: -1;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    -webkit-animation: fillTop 2s forwards 4s ease-in-out;
-    animation: fillTop 2s forwards 4s ease-in-out;
+    -webkit-animation: fillTop 2s forwards 2s ease-in-out;
+    animation: fillTop 2s forwards 2s ease-in-out;
 }
 
 .timeline__event:nth-child(2n + 1) .timeline__event__icon:after {
@@ -78,8 +78,8 @@ h2 {
     left: auto;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    -webkit-animation: fillLeft 2s forwards 4s ease-in-out;
-    animation: fillLeft 2s forwards 4s ease-in-out;
+    -webkit-animation: fillLeft 2s forwards 2s ease-in-out;
+    animation: fillLeft 2s forwards 2s ease-in-out;
 }
 
 .timeline__event__title {
@@ -168,8 +168,8 @@ h2 {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    -webkit-animation: fillTop 2s forwards 4s ease-in-out;
-    animation: fillTop 2s forwards 4s ease-in-out;
+    -webkit-animation: fillTop 2s forwards 2s ease-in-out;
+    animation: fillTop 2s forwards 2s ease-in-out;
 }
 
 .timeline__event__icon:after {
@@ -183,8 +183,8 @@ h2 {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    -webkit-animation: fillLeftOdd 2s forwards 4s ease-in-out;
-    animation: fillLeftOdd 2s forwards 4s ease-in-out;
+    -webkit-animation: fillLeftOdd 2s forwards 2s ease-in-out;
+    animation: fillLeftOdd 2s forwards 2s ease-in-out;
 }
 
 .timeline__event__description {
@@ -344,5 +344,3 @@ h2 {
         left: 100%;
     }
 }
-
-/*# sourceMappingURL=steps.css.map */
