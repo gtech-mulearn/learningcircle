@@ -297,7 +297,7 @@ const InterestGroups = [
       },
       {
         id: "2",
-        keyword: "algorithm",
+        keyword: "Algorithm",
       },
       {
         id: "3",
@@ -305,15 +305,15 @@ const InterestGroups = [
       },
       {
         id: "4",
-        keyword: "datas tructure",
+        keyword: "Datastructure",
       },
       {
         id: "5",
-        keyword: "deployment",
+        keyword: "Deployment",
       },
       {
         id: "6",
-        keyword: "domain name",
+        keyword: "Domain Name",
       },
       {
         id: "7",
@@ -374,28 +374,28 @@ const InterestGroups = [
         link: "/web/core/1",
         complexity: "",
         time: "",
-        karma: "400",
+        karma: "800",
       },
       {
         name: "Javascript Algorithms and DataStructre",
         link: "/web/core/2",
         complexity: "4",
         time: "",
-        karma: "400",
+        karma: "800",
       },
       {
         name: "Frontend Development",
         link: "/web/core/3",
         complexity: "4",
         time: "",
-        karma: "400",
+        karma: "800",
       },
       {
         name: "Backend Development and APIs",
         link: "/web/core/4",
         complexity: "4",
         time: "",
-        karma: "400",
+        karma: "800",
       },
     ],
     subcourses: [
@@ -478,14 +478,14 @@ const InterestGroups = [
         link: "/android/core/1",
         complexity: "",
         time: "",
-        karma: "400",
+        karma: "800",
       },
       {
         name: "Android Basics with Compose",
         link: "/android/core/2",
         complexity: "",
         time: "",
-        karma: "400",
+        karma: "800",
       },
     ],
     subcourses: [

@@ -72,6 +72,10 @@ export const links = [
             name: "Art of Teaching",
             link: "https://mulearn.org/artofteaching",
           },
+          {
+            name: "Hacktober Fest",
+            link: "https://mulearn.org/hacktoberfest",
+          },
         ],
       },
       {
