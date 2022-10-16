@@ -4,7 +4,7 @@ const WebData = [
       {
         id: "1",
         name: "Responsive Web Design",
-        karma: "400",
+        karma: "800",
         description:
           "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
         link: "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
@@ -16,7 +16,7 @@ const WebData = [
       {
         id: "2",
         name: "JavaScript Algorithms & Data Structures",
-        karma: "400",
+        karma: "800",
         description:
           "In the JavaScript Algorithm and Data Structures Certification, you'll learn the fundamentals of JavaScript including variables, arrays, objects, loops, and functions.",
         link: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript",
@@ -28,7 +28,7 @@ const WebData = [
       {
         id: "3",
         name: "Frontend Development",
-        karma: "400",
+        karma: "800",
         description:
           "In the Front End Development Libraries Certification, you'll learn how to style your site quickly with Bootstrap. You'll also learn how add logic to your CSS styles and extend them with Sass.You'll build a shopping cart and other applications to learn how to create powerful Single Page Applications (SPAs) with React and Redux.",
         link: "https://www.freecodecamp.org/learn/front-end-development-libraries/",
@@ -40,7 +40,7 @@ const WebData = [
       {
         id: "4",
         name: "Backend Development & API’s",
-        karma: "400",
+        karma: "800",
         description:
           "In the Back End Development and APIs Certification, you'll learn how to write back end apps with Node.js and npm (Node Package Manager). You'll also build web applications with the Express framework, and build a People Finder microservice with MongoDB and the Mongoose library.",
         link: "https://www.freecodecamp.org/learn/back-end-development-and-apis/#back-end-development-and-apis-projects",
