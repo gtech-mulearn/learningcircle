@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
   }
-  
-  a {
+
+  .sample_message a {
     color: #f6842c;
-    font-weight: 500;
+    font-weight: 600;
   }
+  
   
   .first_view_container {
     margin: 2rem;

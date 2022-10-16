@@ -6,11 +6,11 @@
 .first_view_container {
   margin: 2rem;
 }
-
+/* 
 a {
   color: #f6842c;
   font-weight: 500;
-}
+} */
 
 .first_view {
   display: flex;

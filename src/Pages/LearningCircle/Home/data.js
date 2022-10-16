@@ -290,6 +290,84 @@ const InterestGroups = [
         karma: "",
       },
     ],
+    keywords: [
+      {
+        id: "1",
+        keyword: "Agile",
+      },
+      {
+        id: "2",
+        keyword: "algorithm",
+      },
+      {
+        id: "3",
+        keyword: "API",
+      },
+      {
+        id: "4",
+        keyword: "datas tructure",
+      },
+      {
+        id: "5",
+        keyword: "deployment",
+      },
+      {
+        id: "6",
+        keyword: "domain name",
+      },
+      {
+        id: "7",
+        keyword: "MVP",
+      },
+      {
+        id: "8",
+        keyword: "SSL",
+      },
+    ],
+    blogs: [
+      {
+        id: "1",
+        name: "A List Apart",
+        link: "https://alistapart.com/",
+      },
+      {
+        id: "2",
+        name: "Codrops",
+        link: "https://tympanus.net/codrops/",
+      },
+      {
+        id: "3",
+        name: "CSS Author",
+        link: "https://cssauthor.com/",
+      },
+    ],
+    people: [
+      {
+        id: "1",
+        name: "Alex Sexton",
+        link: "https://twitter.com/SlexAxton",
+      },
+      {
+        id: "2",
+        name: "Six Revisions",
+        link: "https://twitter.com/sixrevisions",
+      },
+      {
+        id: "3",
+        name: "Tim Holman",
+        link: "https://twitter.com/twholman",
+      },
+      {
+        id: "4",
+        name: "Freecodecamp",
+        link: "https://twitter.com/freeCodeCamp",
+      },
+      {
+        id: "5",
+        name: "100Daysofcode",
+        link: "https://twitter.com/_100DaysOfCode",
+      },
+    ],
     corecourses: [
       {
         name: "Responsive Web Design",

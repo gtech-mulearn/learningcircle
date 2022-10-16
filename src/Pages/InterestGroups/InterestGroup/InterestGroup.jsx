@@ -58,8 +58,6 @@ const InterestGroup = ({ setInterest }) => {
     next = `/${data[0].pagination[1].id}`;
   }
 
-  console.log(data[0].mentorscard);
-
   return (
     <>
       <Navbar />
@@ -285,6 +283,55 @@ const InterestGroup = ({ setInterest }) => {
                 </ul>
               </div>
             </div>
+            <div className={styles.learning_paths}>
+              {data[0].people && (
+                <div className={styles.sv_texts}>
+                  <p className={styles.sv_heading}>Top People to Follow</p>
+                  <p className={styles.sv_content}>
+                    These are list of people you should be following inorder to
+                    learn as well as stay updated while learning web development
+                  </p>
+                  <ul className={styles.sv_lists}>
+                    {data[0].people.map((people) => (
+                      <li className={styles.list_item}>
+                        <a
+                          href={people.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {people.name} -{" "}
+                          <span className={styles.link}>Click Here</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {data[0].blogs && (
+                <div className={styles.sv_texts}>
+                  <p className={styles.sv_heading}>Top Blogs to Follow</p>
+                  <p className={styles.sv_content}>
+                    Learning through Reading is a great method as it has many
+                    advantages. There are multiple Blogs out there with quailty
+                    content and here are few of them.
+                  </p>
+                  <ul className={styles.sv_lists}>
+                    {data[0].blogs.map((blog) => (
+                      <li className={styles.list_item}>
+                        <a
+                          href={blog.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {blog.name} -{" "}
+                          <span className={styles.link}>Click Here</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
             {data[0].challenges && (
               <div className={styles.learning_paths}>
                 <div className={styles.sv_texts}>
@@ -303,13 +350,24 @@ const InterestGroup = ({ setInterest }) => {
                         rel="noopener noreferrer"
                       >
                         1 Lakh Business in Production - 1 Lakh Business in
-                        Production - 1 Lakh Business in Production - 1 Lakh
-                        Business in Production - 1 Lakh Business in Production -
+                        Production
                         <span className={styles.link}> Click Here</span>
                       </a>
                     </li>
                   </ul>
                 </div>
+              </div>
+            )}
+            {data[0].keywords && (
+              <div className={styles.keywords_container}>
+                <p className={styles.sv_heading}>Top Keywords</p>
+                <p className={styles.sv_content}>
+                  Listed below are the top keywords that you should be looking
+                  for while learning this stack. Happy Learning!.
+                </p>
+                {data[0].keywords.map((keyword) => (
+                  <div className={styles.box}>{keyword.keyword}</div>
+                ))}
               </div>
             )}
           </div>

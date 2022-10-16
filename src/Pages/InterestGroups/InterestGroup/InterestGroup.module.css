@@ -135,7 +135,6 @@
 .sv_img {
   width: 20rem;
 }
-
 .sv_heading {
   color: #f6842c;
   font-size: 1.5rem;
@@ -224,10 +223,23 @@
   text-align: right;
 }
 
+.box {
+  display: inline-block;
+  padding: 0.25rem 1.25rem;
+  color: #404040;
+  margin: 0.5rem;
+  margin-left: 0;
+  border-radius: 5px;
+  border: 2px solid #404040;
+}
+
 @media only screen and (min-width: 1000px) {
   .next_previous {
     font-size: 1rem;
     margin: 6rem;
+  }
+  .keywords_container {
+    margin: 0 1rem;
   }
 }
 
