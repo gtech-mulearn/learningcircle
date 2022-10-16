@@ -48,8 +48,7 @@ const AndroidData = [
           {
             assignment_description:
               "Just like knowing how to use the Command Line, Git & Github will be very important in your daily workflow as a programmer / developer. Let’s put your Git and Github skills to practice! Find the assignment below.",
-            assignment_inner_description:
-              "1. The assignment has to be done strictly in a PC. 2. You can either use WSL and ubuntu from your windows machine or use any Linux OS as standalone or use a virtualbox with any Linux OS in it.3. Do not do the assignment in **powershell or cmd.**",
+            assignment_inner_description: "",
             link: "https://mulearn.notion.site/Assignment-6cc865e1fc85409d985fd64a4a05519a",
           },
         ],
