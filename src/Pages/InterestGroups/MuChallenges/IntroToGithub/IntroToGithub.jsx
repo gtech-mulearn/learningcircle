@@ -42,23 +42,6 @@ const IntroToGithub = () => {
                         </div>
                     </div>
                     <div className={styles.steps}>
-                        {/* <ul className={styles.steps_ulist}>
-                            <li>
-                                Create a <a href="https://github.com/">GitHub Account</a>
-                            </li>
-                            <li>
-                                Navigate to <a href="https://github.com/skills/introduction-to-github">github.com/skills/introduction-to-github</a>
-                            </li>
-                            <li>
-                                Go through the <code>README.md</code> file. Read the instructions carefully, create the repository and complete the 4 steps.
-                            </li>
-                            <li>
-                                Post the repository URL of the file you've worked on in <b>#students</b>  channel with hashtag <b>#ge-intro-to-github</b> (see example message below)
-                            </li>
-
-                        </ul> */}
-
-
 
 
                         <div className="timeline-container">

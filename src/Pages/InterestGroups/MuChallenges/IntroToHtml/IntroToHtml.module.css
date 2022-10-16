@@ -31,7 +31,7 @@ a {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .fv_img {
@@ -45,6 +45,7 @@ a {
     color: #404040;
     font-family: "Noto Sans", sans-serif;
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 .fv_heading span {
@@ -52,9 +53,25 @@ a {
 }
 
 .fv_content {
-    margin-top: 0.5rem;
+    margin: 0.5rem auto 0;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
+}
+
+.screenshots {
+    max-width: 50rem;
+    margin: 5rem auto 0;
+}
+
+.screenshots img {
+    margin-bottom: 3rem;
+    border-radius: .5rem;
+}
+
+.ss_title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -65,7 +82,7 @@ a {
     .first_view {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
     }
 
@@ -98,6 +115,7 @@ a {
     font-weight: 700;
     line-height: 2.75rem;
     color: #f78c40;
+    text-align: center;
 }
 
 .sv_content {
@@ -113,7 +131,6 @@ a {
     .sv_heading {
         font-size: 2.25rem;
         line-height: 4rem;
-        width: 60vw;
     }
 
     .sv_content {
@@ -139,8 +156,10 @@ b {
     margin-top: 1rem;
 }
 
+
+
 .sample_container {
-    margin-top: 2rem;
+    margin: 2rem auto 0;
     background: #f5f5f5;
     padding: 2rem;
     border-radius: 0.2rem;
@@ -148,7 +167,7 @@ b {
 }
 
 .callout {
-    margin-top: 2rem;
+    margin: 2rem auto 0;
     border: 1px solid #f78c4080;
     padding: 2rem;
     border-radius: 0.2rem;
@@ -176,7 +195,7 @@ b {
 
     .sample_container,
     .callout {
-        margin-top: 4rem;
+        margin: 4rem auto 0;
     }
 
     .steps_ulist_sub li {
