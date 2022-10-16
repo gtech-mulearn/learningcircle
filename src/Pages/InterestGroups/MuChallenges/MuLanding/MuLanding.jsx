@@ -68,9 +68,9 @@ const MuLanding = () => {
                   mclink="/challenge/intro-to-html"
                 />
                 <MentorCard
-                  name="1 Lakh Business in Production"
-                  designation="Learning by Solving challeges is much more interesting than simply learning them. Here we have a challenge to solve and if you are ready to learn, Then come let get one lakh business into production."
-                  mclink="/challenge/web"
+                  name="Bring Every Buisness Onilne"
+                  designation="Awesome aka Bring Every Business Online is an Open Source Initiative to make an open source collection of web-pages for every business out there. To contribute to the project, all you have to do is build a website for a store or business."
+                  mclink="https://awesome.mulearn.org"
                 />
                 <MentorCard
                   name="µLearn Typing Challenge"

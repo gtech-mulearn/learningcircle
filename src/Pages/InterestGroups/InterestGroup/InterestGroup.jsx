@@ -345,12 +345,11 @@ const InterestGroup = ({ setInterest }) => {
                   <ul className={styles.sv_lists}>
                     <li className={styles.list_item}>
                       <a
-                        href="/challenge/web"
+                        href="https://awesome.mulearn.org"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        1 Lakh Business in Production - 1 Lakh Business in
-                        Production
+                        Bring Every Buisness Online
                         <span className={styles.link}> Click Here</span>
                       </a>
                     </li>
