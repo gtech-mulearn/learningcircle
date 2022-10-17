@@ -96,7 +96,7 @@ const IntroToHtml = () => {
                                     <div className="timeline__event__content">
                                         <div className="timeline__event__title">Step Three</div>
                                         <div className="timeline__event__description">
-                                            Navigate to <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app">https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app</a>
+                                            Navigate to <a rel="noreferrer" target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app">https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app</a>
                                         </div>
                                     </div>
                                 </div>
