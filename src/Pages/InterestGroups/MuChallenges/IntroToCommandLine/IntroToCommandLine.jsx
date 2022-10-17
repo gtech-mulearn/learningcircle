@@ -157,7 +157,7 @@ const IntroToCommandLine = () => {
                                     <div className="timeline__event__description">
                                         {/* Post the repository URL of the file you've worked on in <b>#students</b>  channel with hashtag <b>#ge-intro-to-github</b> (see example message below) */}
                                         Once you've completed the course, prepare a directory structure in your home directory as shown in the image below<br></br>
-                                        <img src="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8e0bf7fa-faaa-4f39-85f5-22a806c58820%2Fcommand-line-tree.png?table=block&id=2dd20cc4-70c5-45e9-9074-18706a4a18e8&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=420&userId=&cache=v2" alt="" />
+                                        <br /><a href="#step4">see screenshot ↓</a>
                                     </div>
                                 </div>
                             </div>
@@ -179,7 +179,8 @@ const IntroToCommandLine = () => {
                                         {/* Once you've completed the course, prepare a directory structure in your home directory as shown in the image below<br></br>
                                             <img src="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8e0bf7fa-faaa-4f39-85f5-22a806c58820%2Fcommand-line-tree.png?table=block&id=2dd20cc4-70c5-45e9-9074-18706a4a18e8&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=420&userId=&cache=v2" alt="" /> */}
                                         Replace the directory names in the image with your details, see example image below<br></br>
-                                        <img src="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45944188-af4d-4c30-bc5f-e9cdf37ff88a%2Fcommand-line-tree-example.png?table=block&id=68f01d56-ef91-41d7-9955-93ca32f1f55e&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=410&userId=&cache=v2" alt="" />
+                                        {/* <img src="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45944188-af4d-4c30-bc5f-e9cdf37ff88a%2Fcommand-line-tree-example.png?table=block&id=68f01d56-ef91-41d7-9955-93ca32f1f55e&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=410&userId=&cache=v2" alt="" /> */}
+                                        <br /><a href="#step5">see screenshot ↓</a>
                                     </div>
                                 </div>
                             </div>
@@ -220,6 +221,14 @@ const IntroToCommandLine = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className={styles.screenshots}>
+                            <p id="step4" className={styles.ss_title}>Step 4 - Screenshot</p>
+                            <img src="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8e0bf7fa-faaa-4f39-85f5-22a806c58820%2Fcommand-line-tree.png?table=block&id=2dd20cc4-70c5-45e9-9074-18706a4a18e8&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=420&userId=&cache=v2" alt="" />
+
+                            <p id="step5" className={styles.ss_title}>Step 5 - Screenshot</p>
+                            <img src="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45944188-af4d-4c30-bc5f-e9cdf37ff88a%2Fcommand-line-tree-example.png?table=block&id=68f01d56-ef91-41d7-9955-93ca32f1f55e&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=410&userId=&cache=v2" alt="" />
+                        </div>
+
                         <div className={styles.sample_container}>
                             <p className={styles.sample_header}>Example Message</p>
                             <p className={styles.sample_message}>

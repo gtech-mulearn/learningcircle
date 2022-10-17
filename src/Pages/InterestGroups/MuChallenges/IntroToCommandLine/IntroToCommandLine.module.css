@@ -160,6 +160,23 @@ b {
     border-radius: 5px;
 }
 
+.screenshots {
+    max-width: 50rem;
+    margin: 5rem auto 0;
+    margin-left: 8rem;
+}
+
+.ss_title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.screenshots img {
+    margin-bottom: 3rem;
+    border-radius: .5rem;
+}
+
 @media only screen and (min-width: 1000px) {
     .sample_container {
         margin-top: 4rem;

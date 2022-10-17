@@ -142,6 +142,7 @@ b {
     padding: 2rem;
     border-radius: 0.2rem;
     max-width: 50rem;
+    margin-left: 14rem;
 }
 
 .sample_header {
@@ -163,6 +164,7 @@ b {
 @media only screen and (min-width: 1000px) {
     .sample_container {
         margin-top: 4rem;
+        margin-left: 6rem;
     }
 
     .steps_ulist_sub li {

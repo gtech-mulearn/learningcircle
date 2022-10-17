@@ -54,14 +54,7 @@ const IntroToMarkdown = () => {
 
                         </ul>
 
-                        <div className={styles.sample_container}>
-                            <p className={styles.sample_header}>Example Message</p>
-                            <p className={styles.sample_message}>
-                                Hi! I've completed the Intro to Markdown course.<br></br>
-                                My repository URL is https://github.com/Angelrose19/intro-to-markdown<br></br>
-                                #ge-intro-to-markdown
-                            </p>
-                        </div>
+
                     </div> */}
                     <div className="timeline-container">
                         <div className="timeline">
@@ -121,6 +114,14 @@ const IntroToMarkdown = () => {
                                         Post the repository URL of the file you've worked on in <b>#students</b>  channel with hashtag <b>#ge-intro-to-markdown</b> (see example message below)
                                     </div>
                                 </div>
+                            </div>
+                            <div className={styles.sample_container}>
+                                <p className={styles.sample_header}>Example Message</p>
+                                <p className={styles.sample_message}>
+                                    Hi! I've completed the Intro to Markdown course.<br></br>
+                                    My repository URL is https://github.com/Angelrose19/intro-to-markdown<br></br>
+                                    #ge-intro-to-markdown
+                                </p>
                             </div>
                             {/* <div className="timeline__event animated fadeInUp timeline__event--type1">
                                     <div className="timeline__event__icon">
