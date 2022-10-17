@@ -37,7 +37,7 @@ const Navbar = () => {
             href="https://discord.com/invite/Jt7sv3chZP"
             target="_blank"
             rel="noopener noreferrer"
-            className="py-7 px-3 inline-block"
+            className="py-7 px-3 inline-block overflow-visible"
           >
             <button className="bg-orange-400 text-white  px-6 py-2 rounded-md">
               Join Discord
