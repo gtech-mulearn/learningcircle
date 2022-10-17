@@ -9,7 +9,7 @@ const IoTData = [
           "Foxlab Makerspace in association with GTech - Group of Technology Companies in Kerala is launching our prestigious program “Kerala IoT Challenge 2021”, with a vision to mould 100 IoT experts in Kerala, hosting on the MuLearn platform. Kerala IoT Challenge is a program designed in 4 levels followed by a hackathon to identify and train quality industry leaders in the IoT domain, while any novice learner can start with layer 1 and others can enter laterally to the desired layer after an evaluation.",
         link: "https://mulearn.atfg.gtechindia.org/page/iotlevel1",
         inner_description:
-          "After course completion, post the certificate in the **#internet-of-things** channel of the MuLearn Discord server with the hashtag **#kerala-iot-challenge** to avail karma points.",
+          "After course completion, post the certificate in the #internet-of-things channel of the MuLearn Discord server with the hashtag #kerala-iot-challenge to avail karma points.",
         example:
           "Hey! I’ve completed Kerala IoT Challenge Level 1. Here’s is my course certificate. #kerala-iot-challenge",
       },

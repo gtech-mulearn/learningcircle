@@ -101,6 +101,79 @@ const InterestGroups = [
       },
     ],
     subcourses: [],
+    keywords: [
+      {
+        id: "1",
+        keyword: "Mobile IoT (MIoT)",
+      },
+      {
+        id: "2",
+        keyword: "Bluetooth Low Energy (BLE)",
+      },
+      {
+        id: "3",
+        keyword: "IoT Protocol",
+      },
+      {
+        id: "4",
+        keyword: "Global Navigation Satellite System (GNSS)",
+      },
+      {
+        id: "5",
+        keyword: "Narrowband IoT (NB-IoT)",
+      },
+      {
+        id: "6",
+        keyword: "Quality of Service (QoS)",
+      },
+      {
+        id: "7",
+        keyword: "Mesh Network",
+      },
+      {
+        id: "8",
+        keyword: "Telematics.",
+      },
+    ],
+    blogs: [
+      {
+        id: "1",
+        name: "The Need for Universal Standards in Internet of Things",
+        link: "https://intellipaat.com/blog/need-universal-standards-internet-things/",
+      },
+      {
+        id: "2",
+        name: "Youtube Video by Jayashankar",
+        link: "https://www.youtube.com/c/Scicopath",
+      },
+      {
+        id: "3",
+        name: "MakerGram",
+        link: "https://makergram.com/community/",
+      },
+    ],
+    people: [
+      {
+        id: "1",
+        name: "Dr. Sally Eaves",
+        link: "https://twitter.com/sallyeaves",
+      },
+      {
+        id: "2",
+        name: "Elitsa Krumova",
+        link: "https://twitter.com/Eli_Krumova",
+      },
+      {
+        id: "3",
+        name: "Chris Anderson",
+        link: "https://twitter.com/chr1sa",
+      },
+      {
+        id: "4",
+        name: "Stacey Higginbotham",
+        link: "https://twitter.com/gigastacey",
+      },
+    ],
   },
   {
     id: "uiux",
