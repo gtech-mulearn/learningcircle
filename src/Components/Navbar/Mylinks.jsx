@@ -7,19 +7,19 @@ export const links = [
         Head: "The Team",
         sublink: [
           { name: "Our Team", link: "https://mulearn.org/team" },
-          {
-            name: "Executive Committe",
-            link: "https://mulearn.org/team/execom",
-          },
-          { name: "YIP Team", link: "https://mulearn.org/team/yip" },
-          {
-            name: "Community Team",
-            link: "https://mulearn.org/team/community",
-          },
-          {
-            name: "Tech Team",
-            link: "https://mulearn.org/team/tech",
-          },
+          // {
+          //   name: "Executive Committe",
+          //   link: "https://mulearn.org/team/execom",
+          // },
+          // { name: "YIP Team", link: "https://mulearn.org/team/yip" },
+          // {
+          //   name: "Community Team",
+          //   link: "https://mulearn.org/team/community",
+          // },
+          // {
+          //   name: "Tech Team",
+          //   link: "https://mulearn.org/team/tech",
+          // },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const links = [
         ],
       },
       {
-        Head: "Gallery",
+        Head: "Media",
         sublink: [
           {
             name: "Gallery",
@@ -45,6 +45,15 @@ export const links = [
           {
             name: "Leaderboard",
             link: "https://mulearn.org/leaderboard",
+          },
+        ],
+      },
+      {
+        Head: "Campus Chapters",
+        sublink: [
+          {
+            name: "Home Page",
+            link: "https://mulearn.org/campuschapters",
           },
         ],
       },
