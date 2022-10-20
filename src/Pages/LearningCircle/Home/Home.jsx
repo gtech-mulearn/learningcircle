@@ -152,7 +152,7 @@ const Home = ({
           <div class={styles.first_section}>
             <div class={styles.fstexts}>
               <p class={styles.fsheading}>
-                Introducing <span> µlearn Learning Circles</span>
+                Introducing <span> µLearn Learning Circles</span>
               </p>
               <p class={styles.fssheading}>
                 Android and Web Development, IOT, CyberSecurity and
