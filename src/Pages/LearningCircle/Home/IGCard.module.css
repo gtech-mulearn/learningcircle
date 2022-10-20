@@ -5,6 +5,7 @@
   box-shadow: 0 1px 12px 0 rgba(193, 195, 211, 0.37);
   /* backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px); */
+  margin: 1px;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 10px;
@@ -26,7 +27,7 @@
   border-radius: 5px;
 }
 
-.icardbtn:hover{
+.icardbtn:hover {
   background-color: #f59b56;
   color: #ffff;
   border: 2px solid #f59b56;
@@ -72,5 +73,6 @@
 
   .icard {
     padding: 2rem;
+    width: 24.25rem;
   }
 }
