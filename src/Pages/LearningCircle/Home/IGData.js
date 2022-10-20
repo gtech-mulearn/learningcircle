@@ -9,7 +9,7 @@ const IGData = [
   },
   {
     id: "3",
-    interestgroup: "Block Chain",
+    interestgroup: "Blockchain",
   },
   {
     id: "4",
