@@ -7,7 +7,7 @@ const IGCard = ({ id, interestgroup, officehours }) => {
     <div class={styles.icard}>
       <div class={styles.icard_text}>
         <p class={styles.icardheading}>{interestgroup}</p>
-        <p class={styles.icardcontent}>{officehours}</p>
+        <p class={styles.icardcontent}>Office hours: {officehours}</p>
         {/* <a href={link}> */}
         <button class={styles.icardbtn}>Coming Soon!</button>
         {/* </a> */}
