@@ -9,7 +9,7 @@ const WebData = [
           "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
         link: "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
         inner_description:
-          "After course completion, post the certificate in the #web-and-mobile-app-development channel of the MuLearn Discord server with the hashtag #cl-web-responsive to avail karma points.",
+          "After course completion, post the certificate in the #web-and-mobile-app-development channel of the µLearn Discord server with the hashtag #cl-web-responsive to avail karma points.",
         example:
           "Hey! I’ve completed Responsive Web Design Certification. Here’s is my course certificate. #cl-web-responsive",
       },
@@ -21,7 +21,7 @@ const WebData = [
           "In the JavaScript Algorithm and Data Structures Certification, you'll learn the fundamentals of JavaScript including variables, arrays, objects, loops, and functions.",
         link: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript",
         inner_description:
-          "After course completion, post the certificate in #web-and-mobile-app-development channel of MuLearn Discord Server with hashtag #cl-web-javascript to avail karma points.",
+          "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord Server with hashtag #cl-web-javascript to avail karma points.",
         example:
           "Example Message : Hey! I’ve completed JavaScript Algorithm and Data Structures Certification. Here’s is my course certificate. #cl-web-javascript",
       },
@@ -33,7 +33,7 @@ const WebData = [
           "In the Front End Development Libraries Certification, you'll learn how to style your site quickly with Bootstrap. You'll also learn how add logic to your CSS styles and extend them with Sass.You'll build a shopping cart and other applications to learn how to create powerful Single Page Applications (SPAs) with React and Redux.",
         link: "https://www.freecodecamp.org/learn/front-end-development-libraries/",
         inner_description:
-          "After course completion, post the certificate in #web-and-mobile-app-development channel of MuLearn Discord server  with hashtag #cl-web-frontend to avail karma points.",
+          "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord server  with hashtag #cl-web-frontend to avail karma points.",
         example:
           "Hey! I’ve completed Front End Development Libraries Certification. Here’s is my course certificate. #cl-web-frontend",
       },
@@ -45,7 +45,7 @@ const WebData = [
           "In the Back End Development and APIs Certification, you'll learn how to write back end apps with Node.js and npm (Node Package Manager). You'll also build web applications with the Express framework, and build a People Finder microservice with MongoDB and the Mongoose library.",
         link: "https://www.freecodecamp.org/learn/back-end-development-and-apis/#back-end-development-and-apis-projects",
         inner_description:
-          "After course completion, post the certificate in #web-and-mobile-app-development channel of MuLearn Discord server  with hashtag #cl-web-backend to avail karma points.",
+          "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord server  with hashtag #cl-web-backend to avail karma points.",
         example:
           "Hey! I’ve completed Back End Development and APIs Certification. Here’s is my course certificate. #cl-web-backend",
       },
@@ -66,8 +66,7 @@ const WebData = [
           {
             assignment_description:
               "Just like knowing how to use the Command Line, Git & Github will be very important in your daily workflow as a programmer / developer. Let’s put your Git and Github skills to practice! Find the assignment below.",
-            assignment_inner_description:
-              "",
+            assignment_inner_description: "",
             link: "https://mulearn.notion.site/Assignment-6cc865e1fc85409d985fd64a4a05519a",
           },
         ],

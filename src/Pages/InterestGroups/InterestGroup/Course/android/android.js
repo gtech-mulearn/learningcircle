@@ -9,13 +9,13 @@ const AndroidData = [
           "Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development.",
         link: "https://www.youtube.com/watch?v=F9UC9DY-vIU",
         inner_description:
-          "After course completion, complete the assignment and post the Repository url in the #android-development channel of the MuLearn Discord server with the hashtag #android-kotlin-intro to avail karma points",
+          "After course completion, complete the assignment and post the Repository url in the #android-development channel of the µLearn Discord server with the hashtag #android-kotlin-intro to avail karma points",
         assignment: [
           {
             assignment_description:
               "Now that you have learnt the basics of Kotlin, it’s time to test yourselves by building a simple Todo App Manager using Kotlin. ou have all the freedom to design it however you like! Submit your completed project to the Github repository",
             assignment_inner_description:
-              "Complete the assignment and post the Repository url in the #android-development channel of the MuLearn Discord server with the hashtag #android-kotlin-intro to avail karma points.",
+              "Complete the assignment and post the Repository url in the #android-development channel of the µLearn Discord server with the hashtag #android-kotlin-intro to avail karma points.",
             example:
               "Hey I’ve completed the Intro to Kotlin Course. Check my Todo App. #android-kotlin-intro",
           },
@@ -29,7 +29,7 @@ const AndroidData = [
           "In this course, you'll learn the basics of building Android apps with Jetpack Compose, the new UI toolkit for building Android apps. Along the way, you'll develop a collection of apps to start your journey as an Android developer.",
         link: "https://developer.android.com/courses/android-basics-compose/course",
         inner_description:
-          "After course completion, share the 4 badges you’ve earned in #android-development channel of the MuLearn Discord server with the hashtag #android-compose to avail karma points.",
+          "After course completion, share the 4 badges you’ve earned in #android-development channel of the µLearn Discord server with the hashtag #android-compose to avail karma points.",
       },
     ],
     sub: [
