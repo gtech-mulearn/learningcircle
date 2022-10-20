@@ -388,6 +388,7 @@ const Home = ({
               <IGCard
                 igcard={IGData.igcard}
                 interestgroup={IGData.interestgroup}
+                officehours={IGData.officehours}
               />
             ))}
           </div>
