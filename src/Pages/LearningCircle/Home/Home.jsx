@@ -29,8 +29,10 @@ import ProductPack from "./assets/Others/ProductPack.png";
 
 import illustrations from "./assets/illustrations.png";
 import InterestCard from "../../../Components/InterestCard/InterestCard";
+import IGCard from "./IGCard";
 
 import InterestGroups from "./data.js";
+import IGCards from "./IGData";
 
 const Home = ({
   backenderr,
@@ -378,6 +380,14 @@ const Home = ({
                 interestgroupdescription={
                   InterestGroup.interestgroupdescription
                 }
+              />
+            ))}
+          </div>
+          <div className={styles.cards_container}>
+            {IGCards.map((IGData) => (
+              <IGCard
+                igcard={IGData.igcard}
+                interestgroup={IGData.interestgroup}
               />
             ))}
           </div>
