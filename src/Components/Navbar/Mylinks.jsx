@@ -122,10 +122,10 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        Head: "Home",
+        Head: "Home Page",
         sublink: [
           {
-            name: "Home Page",
+            name: "Home",
             link: "/",
           },
         ],
