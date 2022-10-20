@@ -76,10 +76,15 @@ const InterestGroup = ({ setInterest }) => {
                 <span>Community Partner</span> {data[0].community[0]}
               </p>
               <div className={styles.fv_buttons}>
-                {" "}
                 <Link to={link}>
                   <button className={styles.create}>
                     Create Learning Circles
+                  </button>
+                </Link>
+
+                <Link to={`/searchcircles`}>
+                  <button class={styles.search_button}>
+                    Search Existing Circles
                   </button>
                 </Link>
               </div>

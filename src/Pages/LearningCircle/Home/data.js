@@ -293,9 +293,9 @@ const InterestGroups = [
     interestgroup: "Web Development",
     interestgroupdescription:
       "Ever wondered how web applications are built? Everything seems Greek until you get to know how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
-    officetime: "Saturday 7:30PM",
-    officeplace: "Discord Lobby",
-    community: ["Pygrammers"],
+    officetime: ": Saturday 7:30 PM",
+    officeplace: "at Discord Lobby",
+    community: [": Pygrammers"],
     opportunities: [
       "Full Stack Web Developer",
       "Database Administrator",

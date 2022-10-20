@@ -3,7 +3,6 @@ import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
 
 import styles from "./Home.module.css";
-import learningcircles from "./assets/learningcircles.jpg";
 
 import Box from "@mui/material/Box";
 import Autocomplete from "@mui/material/Autocomplete";
@@ -28,7 +27,6 @@ import FoxLabs from "./assets/Others/FoxLabs.png";
 import Pygrammers from "./assets/Others/Pygrammers.png";
 import ProductPack from "./assets/Others/ProductPack.png";
 
-import animation from "./assets/animation.webp";
 import illustrations from "./assets/illustrations.png";
 import InterestCard from "../../../Components/InterestCard/InterestCard";
 
