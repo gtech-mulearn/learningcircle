@@ -6,7 +6,6 @@ import Footer from "../../../Components/Footer/Footer";
 import styles from "./InterestGroup.module.css";
 
 import fvimg from "./assets/fvimg.png";
-import path from "./assets/path.png";
 
 import { styled } from "@mui/material/styles";
 import Table from "@mui/material/Table";
@@ -100,9 +99,9 @@ const InterestGroup = ({ setInterest }) => {
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>Mentor Details</p>
               <p className={styles.sv_content}>
-                Having Doubts?. Our Mentors are here to help you get all your
-                doubts cleared and get to going forward. Join in for our Office
-                Hours and get all your doubts cleared.
+                Have Doubts? Our Mentors are here to help you get all your
+                doubts cleared and help you along your journey. Join in for our
+                Office Hours and get all your doubts cleared.
               </p>
 
               <div className={styles.mentor_container}>
@@ -127,8 +126,9 @@ const InterestGroup = ({ setInterest }) => {
             <div className={styles.tav_texts}>
               <p className={styles.tav_heading}>Core Tasks</p>
               <p className={styles.tav_contents}>
-                Every subject or skill has some core set of things that has to
-                be learn. Here are few resouces curated by us for learning them.
+                Every subject or skill has some core set of things to be
+                learned. Here are a few resources curated by us to understand
+                them.
               </p>
             </div>
 
@@ -138,9 +138,9 @@ const InterestGroup = ({ setInterest }) => {
                   <Table sx={{ minWidth: 700 }} aria-label="customized table">
                     <TableHead>
                       <TableRow>
-                        <StyledTableCell>Core Course Name</StyledTableCell>
+                        <StyledTableCell>Core Course's Name</StyledTableCell>
                         <StyledTableCell align="right">
-                          Core Course Link
+                          Core Course's Link
                         </StyledTableCell>
                         {/* <StyledTableCell align="right">
                           Complexity (Out of 5)
@@ -190,9 +190,9 @@ const InterestGroup = ({ setInterest }) => {
             <div className={styles.tav_texts}>
               <p className={styles.tav_heading}>Sub Courses</p>
               <p className={styles.tav_contents}>
-                These are the courses which will help to have a much more grasp
-                over your domain. Learning these will be always an important
-                advantage for your upcoming journey.
+                These courses will help you have a much better grasp over the
+                domain. Learning these will always be an important advantage for
+                your upcoming journey.
               </p>
             </div>
 
@@ -202,9 +202,9 @@ const InterestGroup = ({ setInterest }) => {
                   <Table sx={{ minWidth: 700 }} aria-label="customized table">
                     <TableHead>
                       <TableRow>
-                        <StyledTableCell>Sub Courses Name</StyledTableCell>
+                        <StyledTableCell>Sub Course's Name</StyledTableCell>
                         <StyledTableCell align="right">
-                          Sub Courses Link
+                          Sub Course's Link
                         </StyledTableCell>
                         {/* <StyledTableCell align="right">
                           Complexity (Out of 5)

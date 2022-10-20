@@ -156,7 +156,7 @@ const Home = ({
               </p>
               <p class={styles.fssheading}>
                 Android and Web Development, IOT, CyberSecurity and
-                <span> Much More....</span>
+                <span> much more....</span>
               </p>
               <p class={styles.fstagline}>
                 An informal mechanism for bringing together learners who are
@@ -214,10 +214,10 @@ const Home = ({
               <span>Search</span> Existing Learning Circles.
             </div>
             <div className={styles.fsstagline}>
-              µLearn currently has multiple active learning cirlces under
-              several interest groups fill in the these data to find out
-              existing learning circles near you so that you could also join in
-              and learn.
+              Learning things for which you are curious is interesting, right?
+              What about learning the same thing along with a group of
+              like-minded peers and mentors, Much more interesting, right? Join
+              in Now and Start Learning!
             </div>
           </div>
 
@@ -290,7 +290,7 @@ const Home = ({
           {teams.length > 0 && (
             <div className={styles.thirdsection}>
               <div className={styles.tssheading1}>
-                <span>Existing </span>Learning Circles.
+                <span>Existing </span>Learning Circles
               </div>
               <div className={styles.tsstagline}>
                 These are the existing learning circles which are present in

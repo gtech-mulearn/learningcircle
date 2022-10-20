@@ -53,7 +53,7 @@ const PMCourse = () => {
               <div className={styles.second_view}>
                 <div className={styles.sv_texts}>
                   <p className={styles.sv_heading}>
-                    Once <span>Completed.</span>
+                    Once <span>Completed</span>
                   </p>
                   <p className={styles.sv_content}>
                     {course.inner_description}

@@ -3,10 +3,10 @@ const InterestGroups = [
     id: "iot",
     interestgroup: "Internet Of Things",
     interestgroupdescription:
-      "Our life as well as the Internet is full of amazing things. From the device on which you are reading thing to the fan above your head can be connected and controlled automatically. But How?. Join in our IoT Interest Group to learn how this can be achieved.",
-    officetime: "Sunday 7:30",
-    officeplace: "Discord Lobby",
-    community: ["Fox Lab"],
+      "Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the fan above your head, almost everything can be connected and controlled automatically. But How? Join our IoT Interest Group to learn how this can be achieved.",
+    officetime: ": Sunday 7:30 PM",
+    officeplace: " at Discord Lobby",
+    community: [": Fox Lab"],
     opportunities: [
       "EY Hiring IoT",
       "IoT Robotics Specialist",
@@ -179,10 +179,10 @@ const InterestGroups = [
     id: "uiux",
     interestgroup: "User Interface and Experience (UI/UX)",
     interestgroupdescription:
-      "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others who have common interest and get mentored by expert individuals.",
-    officetime: "Wednesday 7:30PM",
-    officeplace: "Gathering Field",
-    community: ["GDSC MBCET"],
+      "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.",
+    officetime: ": Wednesday 7:30 PM",
+    officeplace: " at Gathering Field",
+    community: [": GDSC MBCET"],
     opportunities: [
       "User Interface (UI) Designer",
       "User Experience (UX) Designer",
@@ -292,7 +292,7 @@ const InterestGroups = [
     id: "web",
     interestgroup: "Web Development",
     interestgroupdescription:
-      "Ever wondered how web applications are built? Everything sees greek until you get to how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
+      "Ever wondered how web applications are built? Everything seems Greek until you get to know how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
     officetime: "Saturday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Pygrammers"],
@@ -485,7 +485,7 @@ const InterestGroups = [
     id: "android",
     interestgroup: "Android Development",
     interestgroupdescription:
-      "Everything is at your finger tips, and still don't know the working and stages of the android development? Have you ever thought of exploring with those? Don't worry; Join our Android Development Interest Group right away and start feeding your curious minds from the basics",
+      "Everything is at your fingertips, and you still don't know the working and stages of android development. Have you ever thought of exploring? Don't worry; Join our Android Development Interest Group right away and start feeding your curious minds from the basics.",
     officetime: "Thursday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Google"],
@@ -575,7 +575,7 @@ const InterestGroups = [
     id: "cybersec",
     interestgroup: "Cyber Security",
     interestgroupdescription:
-      "Having an extra layer of security is always an advantage in the current world. The best way to prevent a cyber attack is to learn how it works and block all the loopholes that allow it. Want to learn?. Join in with our Interest Group and learn from our expert mentors.",
+      "Having an extra layer of security is always an advantage in the current world. The best way to prevent a cyber attack is to learn how it works and block all the loopholes that allow it. Want to learn? Join our Interest Group and learn from our expert mentors.",
     officetime: "Sunday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Beagle Security"],
@@ -758,7 +758,7 @@ const InterestGroups = [
     id: "pm",
     interestgroup: "Product Management",
     interestgroupdescription:
-      '"Product Management is deciding what to build next”. Are you interested in learning to build the right product and the product right? Join our “Product Management” interest group to learn and collaborate with peers',
+      '"Product Management is deciding what to build next”. Are you interested in learning to build the right product and the product right? Join our “Product Management” Interest Group to learn and collaborate with peers.',
     officetime: "Monday 7:30PM",
     officeplace: "Discord Lobby",
     community: ["Product Pack"],

@@ -125,7 +125,7 @@ export const links = [
         Head: "Home",
         sublink: [
           {
-            name: "Home",
+            name: "Home Page",
             link: "/",
           },
         ],

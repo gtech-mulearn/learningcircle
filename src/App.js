@@ -1,5 +1,3 @@
-import "./App.css";
-
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/LearningCircle/Home/Home";
@@ -184,10 +182,22 @@ function App() {
           <Route path="/challenge/web" element={<MuChallenge />} />
           <Route path="/challenges" element={<MuLanding />} />
           <Route path="/challenge/typing" element={<TypingChallenge />} />
-          <Route path="/challenge/intro-to-github" element={<IntroToGithub />} />
-          <Route path="/challenge/intro-to-markdown" element={<IntroToMarkdown />} />
-          <Route path="/challenge/intro-to-command-line" element={<IntroToCommandLine />} />
-          <Route path="/challenge/intro-to-github-pages" element={<IntroToGithubPages />} />
+          <Route
+            path="/challenge/intro-to-github"
+            element={<IntroToGithub />}
+          />
+          <Route
+            path="/challenge/intro-to-markdown"
+            element={<IntroToMarkdown />}
+          />
+          <Route
+            path="/challenge/intro-to-command-line"
+            element={<IntroToCommandLine />}
+          />
+          <Route
+            path="/challenge/intro-to-github-pages"
+            element={<IntroToGithubPages />}
+          />
           <Route path="/challenge/intro-to-html" element={<IntroToHtml />} />
           <Route
             path="/challenge/defensivedriving"
