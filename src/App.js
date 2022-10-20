@@ -23,6 +23,7 @@ import UIUXCourse from "./Pages/InterestGroups/InterestGroup/Course/uiux/UIUXCou
 import PMCourse from "./Pages/InterestGroups/InterestGroup/Course/pm/PMCourse";
 import AndroidCourse from "./Pages/InterestGroups/InterestGroup/Course/android/AndroidCourse";
 import IoTCourse from "./Pages/InterestGroups/InterestGroup/Course/iot/IoTCourse";
+import CybersecCourse from "./Pages/InterestGroups/InterestGroup/Course/cybersec/CybersecCourse";
 
 function App() {
   //Home Page state Variables
@@ -208,6 +209,7 @@ function App() {
           <Route path="/pm/:type/:id" element={<PMCourse />} />
           <Route path="/iot/:type/:id" element={<IoTCourse />} />
           <Route path="/android/:type/:id" element={<AndroidCourse />} />
+          <Route path="/cybersec/:type/:id" element={<CybersecCourse />} />
           <Route path="/courses" element={<Courses />} />
           <Route
             path="/searchcircles"
