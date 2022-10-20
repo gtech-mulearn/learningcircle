@@ -54,7 +54,7 @@ const AndroidCourse = () => {
                 <div className={styles.second_view}>
                   <div className={styles.sv_texts}>
                     <p className={styles.sv_heading}>
-                      Course <span>Assignment.</span>
+                      Course <span>Assignment</span>
                     </p>
                     <p className={styles.sv_content}>
                       {course.assignment[0].assignment_description}
