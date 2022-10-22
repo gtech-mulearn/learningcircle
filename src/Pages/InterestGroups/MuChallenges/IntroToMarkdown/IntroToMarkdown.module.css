@@ -31,6 +31,8 @@
     color: #404040;
     font-family: "Noto Sans", sans-serif;
     margin-bottom: 0.5rem;
+    text-align: center;
+    margin-left: 3rem;
 }
 
 .fv_heading span {
@@ -41,6 +43,8 @@
     margin-top: 0.5rem;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
+    text-align: center;
+    margin-left: 8rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -58,11 +62,15 @@
 
     .fv_heading {
         font-size: 4.25rem;
+        text-align: center;
+        margin-left: 2.5rem;
     }
 
     .fv_content {
         width: 80%;
         font-size: 1.1rem;
+        text-align: center;
+        margin-left: 8rem;
     }
 
     .fv_img {
@@ -84,6 +92,8 @@
     font-weight: 700;
     line-height: 2.75rem;
     color: #f78c40;
+    text-align: center;
+    margin-left: 7rem;
 }
 
 .sv_content {
@@ -100,6 +110,7 @@
         font-size: 2.25rem;
         line-height: 4rem;
         width: 60vw;
+        margin-left: 12rem;
     }
 
     .sv_content {
@@ -131,6 +142,7 @@ b {
     padding: 2rem;
     border-radius: 0.2rem;
     max-width: 50rem;
+    margin-left: 14rem;
 }
 
 .sample_header {
@@ -152,6 +164,7 @@ b {
 @media only screen and (min-width: 1000px) {
     .sample_container {
         margin-top: 4rem;
+        margin-left: 6rem;
     }
 
     .steps_ulist_sub li {
