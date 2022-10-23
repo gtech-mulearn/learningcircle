@@ -43,6 +43,16 @@ const MuLanding = () => {
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
                 <MentorCard
+                  name="Self Introduction"
+                  designation="You know yourself the best, yet presenting a good self may allow others to get to know you. Posting an introduction to yourself is an important first step in connecting with the community."
+                  mclink="/common/enablement/1"
+                />
+                <MentorCard
+                  name="Introduction to Discord"
+                  designation="Are you brand new to Discord? Not to fear, we've got you covered. This course will walk you through the fundamentals to advanced features of discord."
+                  mclink="/common/enablement/2"
+                />
+                <MentorCard
                   name="Introduction to GitHub"
                   designation="The aim of the course is to teach you about GitHub and its numerous tools and processes, such as Issues and Pull Requests."
                   mclink="/challenge/intro-to-github"
