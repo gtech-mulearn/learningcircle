@@ -67,6 +67,16 @@ const MuLanding = () => {
                   designation="In this course, you'll learn the most common HTML tags by building your own cat photo app."
                   mclink="/challenge/intro-to-html"
                 />
+                <MentorCard
+                  name="IoT 101"
+                  designation="It’s possible that you are listening more and more to the term Internet of Things (IoT). But, what exactly is IoT, and most importantly, what changes will the adoption of IoT bring to households, commerce and industry?. In this course you’ll get a basic understanding on what’s IoT?"
+                  mclink="/iot/enablement/1"
+                />
+                <MentorCard
+                  name="What’s IoT?"
+                  designation="IoT is known for monitoring and controlling devices remotely, and this course aims at familiarizing you with the Internet of Things. The course starts by introducing IoT.Enroll in this IoT free course and gain a free certificate."
+                  mclink="/iot/enablement/2"
+                />
 
                 <MentorCard
                   name="Traffic Light Simulation"

@@ -26,6 +26,32 @@ const IoTData = [
           "Hey! I’ve completed Kerala IoT Challenge Level 2. Here is my course certificate. #kerala-iot-challenge",
       },
     ],
+    enablement: [
+      {
+        id: "1",
+        name: "IoT 101",
+        karma: "50",
+        description:
+          "It’s possible that you are listening more and more to the term Internet of Things (IoT). But, what exactly is IoT, and most importantly, what changes will the adoption of IoT bring to households, commerce and industry?. In this course you’ll get a basic understanding on what’s IoT? ",
+        link: "https://mulearn.atfg.gtechindia.org/page/iot101",
+        inner_description:
+          "After course completion, share the certificate in #internet-of-things channel with hashtag #ge-iot-101",
+        example:
+          "Hey I’ve completed IoT 101 course. Here’s my certificate. #ge-iot-101",
+      },
+      {
+        id: "2",
+        name: "What’s IoT?",
+        karma: "50",
+        description:
+          "IoT is known for monitoring and controlling devices remotely, and this course aims at familiarizing you with the Internet of Things. The course starts by introducing IoT.Enroll in this IoT free course and gain a free certificate.",
+        link: "https://www.mygreatlearning.com/academy/learn-for-free/courses/what-is-iot",
+        inner_description:
+          "After course completion, share the certificate in #internet-of-things channel with hashtag #ge-what-is-iot",
+        example:
+          "Hey I’ve completed What is IoT course. Here’s my course certificate.#ge-what-is-iot",
+      },
+    ],
   },
 ];
 
