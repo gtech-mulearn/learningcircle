@@ -24,6 +24,7 @@ import PMCourse from "./Pages/InterestGroups/InterestGroup/Course/pm/PMCourse";
 import AndroidCourse from "./Pages/InterestGroups/InterestGroup/Course/android/AndroidCourse";
 import IoTCourse from "./Pages/InterestGroups/InterestGroup/Course/iot/IoTCourse";
 import CybersecCourse from "./Pages/InterestGroups/InterestGroup/Course/cybersec/CybersecCourse";
+import CommonCourse from "./Pages/InterestGroups/InterestGroup/Course/common/CommonCourse";
 import TrafficLightSimulation from "./Pages/InterestGroups/MuChallenges/TrafficLightSimulation/TrafficLightSimulation";
 
 function App() {
@@ -215,6 +216,7 @@ function App() {
           <Route path="/iot/:type/:id" element={<IoTCourse />} />
           <Route path="/android/:type/:id" element={<AndroidCourse />} />
           <Route path="/cybersec/:type/:id" element={<CybersecCourse />} />
+          <Route path="/common/:type/:id" element={<CommonCourse />} />
           <Route path="/courses" element={<Courses />} />
           <Route
             path="/searchcircles"
