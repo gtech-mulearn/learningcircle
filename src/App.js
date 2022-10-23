@@ -24,6 +24,7 @@ import PMCourse from "./Pages/InterestGroups/InterestGroup/Course/pm/PMCourse";
 import AndroidCourse from "./Pages/InterestGroups/InterestGroup/Course/android/AndroidCourse";
 import IoTCourse from "./Pages/InterestGroups/InterestGroup/Course/iot/IoTCourse";
 import CybersecCourse from "./Pages/InterestGroups/InterestGroup/Course/cybersec/CybersecCourse";
+import TrafficLightSimulation from "./Pages/InterestGroups/MuChallenges/TrafficLightSimulation/TrafficLightSimulation";
 
 function App() {
   //Home Page state Variables
@@ -200,6 +201,10 @@ function App() {
             element={<IntroToGithubPages />}
           />
           <Route path="/challenge/intro-to-html" element={<IntroToHtml />} />
+          <Route
+            path="/challenge/traffic-light-simulation"
+            element={<TrafficLightSimulation />}
+          />
           <Route
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}

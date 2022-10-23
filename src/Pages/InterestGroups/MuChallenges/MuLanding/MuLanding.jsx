@@ -67,6 +67,12 @@ const MuLanding = () => {
                   designation="In this course, you'll learn the most common HTML tags by building your own cat photo app."
                   mclink="/challenge/intro-to-html"
                 />
+
+                <MentorCard
+                  name="Traffic Light Simulation"
+                  designation="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nemo eligendi labore, doloremque magnam eius!"
+                  mclink="/challenge/traffic-light-simulation"
+                />
                 <MentorCard
                   name="Bring Every Buisness Onilne"
                   designation="Awesome aka Bring Every Business Online is an Open Source Initiative to make an open source collection of web-pages for every business out there. To contribute to the project, all you have to do is build a website for a store or business."
@@ -77,6 +83,7 @@ const MuLanding = () => {
                   designation="Learning to master the skill of typing is always an advantage. It enables a person to be much more productive and use their time efficently and also increase the outlook of others on them."
                   mclink="/challenge/typing"
                 />
+
                 <MentorCard
                   name="Tata Strive Defensive Driving"
                   designation="This course in this challenge is designed to educate you about
