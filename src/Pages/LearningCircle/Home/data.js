@@ -794,8 +794,8 @@ const InterestGroups = [
         name: "< Cyber Security",
       },
       {
-        id: "iot",
-        name: "Internet of Things >",
+        id: "arvr",
+        name: "AR/VR >",
       },
     ],
     learningpaths: [
@@ -862,12 +862,12 @@ const InterestGroups = [
     mentorscard: [],
     pagination: [
       {
-        id: "cybersec",
-        name: "< Cyber Security",
+        id: "pm",
+        name: "< Product Management",
       },
       {
-        id: "iot",
-        name: "Internet of Things >",
+        id: "ai",
+        name: "Artificial Intelligence >",
       },
     ],
     learningpaths: [
@@ -976,12 +976,12 @@ const InterestGroups = [
     mentorscard: [],
     pagination: [
       {
-        id: "cybersec",
-        name: "< Cyber Security",
+        id: "arvr",
+        name: "< AR/VR",
       },
       {
-        id: "iot",
-        name: "Internet of Things >",
+        id: "blockchain",
+        name: "Blockchain >",
       },
     ],
     learningpaths: [],
@@ -1005,12 +1005,12 @@ const InterestGroups = [
     mentorscard: [],
     pagination: [
       {
-        id: "cybersec",
-        name: "< Cyber Security",
+        id: "ai",
+        name: "< Artificial Intelligence",
       },
       {
-        id: "iot",
-        name: "Internet of Things >",
+        id: "creativedesign",
+        name: "Creative Design >",
       },
     ],
     learningpaths: [],
@@ -1034,12 +1034,12 @@ const InterestGroups = [
     mentorscard: [],
     pagination: [
       {
-        id: "cybersec",
-        name: "< Cyber Security",
+        id: "blockchain",
+        name: "< BlockChain",
       },
       {
-        id: "iot",
-        name: "Internet of Things >",
+        id: "marketing",
+        name: "Marketing >",
       },
     ],
     learningpaths: [],
@@ -1063,12 +1063,12 @@ const InterestGroups = [
     mentorscard: [],
     pagination: [
       {
-        id: "cybersec",
-        name: "< Cyber Security",
+        id: "creativedesign",
+        name: "< Creative Design",
       },
       {
-        id: "iot",
-        name: "Internet of Things >",
+        id: "clouddevops",
+        name: "Cloud & DevOps >",
       },
     ],
     learningpaths: [],
@@ -1092,12 +1092,12 @@ const InterestGroups = [
     mentorscard: [],
     pagination: [
       {
-        id: "cybersec",
-        name: "< Cyber Security",
+        id: "marketing",
+        name: "< Marketing",
       },
       {
-        id: "iot",
-        name: "Internet of Things >",
+        id: "entrepreneurship",
+        name: "Entrepreneurship >",
       },
     ],
     learningpaths: [],
@@ -1121,12 +1121,12 @@ const InterestGroups = [
     mentorscard: [],
     pagination: [
       {
-        id: "cybersec",
-        name: "< Cyber Security",
+        id: "clouddevops",
+        name: "< Cloud DevOps",
       },
       {
-        id: "iot",
-        name: "Internet of Things >",
+        id: "strategicleadership",
+        name: "Strategic Leadership >",
       },
     ],
     learningpaths: [],
@@ -1150,8 +1150,8 @@ const InterestGroups = [
     mentorscard: [],
     pagination: [
       {
-        id: "cybersec",
-        name: "< Cyber Security",
+        id: "entrepreneurship",
+        name: "< Entrepreneurship",
       },
       {
         id: "iot",
