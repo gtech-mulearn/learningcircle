@@ -4,7 +4,7 @@
 }
 
 .first_view_container {
-  margin: 2rem;
+  margin: 0 2rem;
 }
 
 .sample_message a {
@@ -52,11 +52,11 @@
 
 @media only screen and (min-width: 1300px) {
   .first_view_container {
-    margin: 4rem;
+    margin: 0 4rem;
   }
 
   .first_view {
-    margin: 4rem;
+    margin: 0 4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -64,7 +64,7 @@
 
   .fv_texts {
     width: 35vw;
-    margin: 3rem 0;
+    margin: 0 0 1rem 0;
   }
 
   .fv_heading {
@@ -85,7 +85,7 @@
 /* Second Section Styles */
 
 .second_view_container {
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 .sv_heading {
@@ -103,10 +103,6 @@
 .sv_content {
   margin-top: 0.25rem;
   font-size: 0.9rem;
-}
-
-.sample_container {
-  margin-top: 2rem;
 }
 
 .sample_header {
@@ -128,7 +124,7 @@
 
 @media only screen and (min-width: 1300px) {
   .second_view_container {
-    margin: 4rem;
+    margin: 0 4rem;
   }
 
   .sv_heading {
@@ -148,11 +144,11 @@
 /* Third View Styles */
 
 .third_view_container {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 @media only screen and (min-width: 1300px) {
   .third_view_container {
-    margin: 4rem;
+    margin: 2rem 4rem;
   }
 }
