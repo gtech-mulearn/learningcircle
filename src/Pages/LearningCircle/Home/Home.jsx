@@ -186,11 +186,6 @@ const Home = ({
                     alt="Pygrammers"
                     class={styles.supporter}
                   />
-                  <img
-                    src={Fof}
-                    alt="Friends of Figma"
-                    class={styles.supporter}
-                  />
                 </div>
               </div>
 
