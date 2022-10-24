@@ -36,7 +36,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
   .first_view {
     max-width: 1300px;
     margin: auto;
@@ -82,9 +82,16 @@
   display: grid;
   row-gap: 1rem;
   column-gap: 1rem;
+  justify-items: center;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 768px) {
+  .course {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 992px) {
   .second_view_container {
     padding: 2rem;
   }
@@ -95,7 +102,7 @@
   }
 
   .course {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

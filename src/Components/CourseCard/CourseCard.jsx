@@ -7,7 +7,6 @@ const CourseCard = ({ title, desc, duration, link }) => (
       <p className='desc'>{desc}</p>
       <p className='duration'>{duration}</p>
     </div>
-    {/* button */}
     <a href={link} className='cta'>
       Checkout Course
     </a>
