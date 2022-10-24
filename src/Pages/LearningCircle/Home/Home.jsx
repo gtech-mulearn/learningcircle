@@ -21,7 +21,6 @@ import { Link } from "react-router-dom";
 import Modal from "@mui/material/Modal";
 import CircularProgress from "@mui/material/CircularProgress";
 
-import Fof from "./assets/Others/Fof.png";
 import BeagleSecurity from "./assets/Others/BeagleSecurity.png";
 import FoxLabs from "./assets/Others/FoxLabs.png";
 import Pygrammers from "./assets/Others/Pygrammers.png";
@@ -29,10 +28,8 @@ import ProductPack from "./assets/Others/ProductPack.png";
 
 import illustrations from "./assets/illustrations.png";
 import InterestCard from "../../../Components/InterestCard/InterestCard";
-import IGCard from "./IGCard";
 
 import InterestGroups from "./data.js";
-import IGCards from "./IGData";
 
 const Home = ({
   backenderr,
@@ -261,9 +258,12 @@ const Home = ({
               <Box sx={{ minWidth: 300, maxWidth: 300, marginY: 1.5 }}>
                 <Autocomplete
                   id="grouped-demo"
-                  options={options.sort(
-                    (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
-                  )}
+                  options={
+                    options &&
+                    options.sort(
+                      (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
+                    )
+                  }
                   isOptionEqualToValue={(option, value) =>
                     option.value === value.value
                   }
@@ -378,15 +378,6 @@ const Home = ({
                   InterestGroup.interestgroupdescription
                 }
                 officetime={InterestGroup.officetime}
-              />
-            ))}
-          </div>
-          <div className={styles.cards_container}>
-            {IGCards.map((IGData) => (
-              <IGCard
-                igcard={IGData.igcard}
-                interestgroup={IGData.interestgroup}
-                officehours={IGData.officehours}
               />
             ))}
           </div>

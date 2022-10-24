@@ -4,9 +4,9 @@ const InterestGroups = [
     interestgroup: "Internet Of Things",
     interestgroupdescription:
       "Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the fan above your head, almost everything can be connected and controlled automatically. But How? Join our IoT Interest Group to learn how this can be achieved.",
-    officetime: ": Sunday 7:30 PM",
+    officetime: "Sunday 7:30 PM",
     officeplace: " at Discord Lobby",
-    community: [": Fox Lab"],
+    community: ["Fox Lab"],
     opportunities: [
       "EY Hiring IoT",
       "IoT Robotics Specialist",
@@ -180,9 +180,9 @@ const InterestGroups = [
     interestgroup: "User Interface and Experience (UI/UX)",
     interestgroupdescription:
       "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.",
-    officetime: ": Wednesday 7:30 PM",
+    officetime: "Wednesday 7:30 PM",
     officeplace: " at Gathering Field",
-    community: [": GDSC MBCET"],
+    community: ["GDSC MBCET"],
     opportunities: [
       "User Interface (UI) Designer",
       "User Experience (UX) Designer",
@@ -293,9 +293,9 @@ const InterestGroups = [
     interestgroup: "Web Development",
     interestgroupdescription:
       "Ever wondered how web applications are built? Everything seems Greek until you get to know how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
-    officetime: ": Saturday 7:30 PM",
+    officetime: "Saturday 7:30 PM",
     officeplace: "at Discord Lobby",
-    community: [": Pygrammers"],
+    community: ["Pygrammers"],
     opportunities: [
       "Full Stack Web Developer",
       "Database Administrator",
@@ -487,7 +487,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Everything is at your fingertips, and you still don't know the working and stages of android development. Have you ever thought of exploring? Don't worry; Join our Android Development Interest Group right away and start feeding your curious minds from the basics.",
     officetime: "Thursday 7:30PM",
-    officeplace: "Discord Lobby",
+    officeplace: "at Discord Lobby",
     community: ["Google"],
     opportunities: [
       "Flutter Developer",
@@ -577,7 +577,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Having an extra layer of security is always an advantage in the current world. The best way to prevent a cyber attack is to learn how it works and block all the loopholes that allow it. Want to learn? Join our Interest Group and learn from our expert mentors.",
     officetime: "Sunday 7:30PM",
-    officeplace: "Discord Lobby",
+    officeplace: "at Discord Lobby",
     community: ["Beagle Security"],
     opportunities: [
       "Malware Analyst",
@@ -754,7 +754,7 @@ const InterestGroups = [
     interestgroupdescription:
       '"Product Management is deciding what to build next”. Are you interested in learning to build the right product and the product right? Join our “Product Management” Interest Group to learn and collaborate with peers.',
     officetime: "Monday 7:30PM",
-    officeplace: "Discord Lobby",
+    officeplace: " at Discord Lobby",
     community: ["Product Pack"],
     opportunities: ["Product Manager", "Product Marketing Manager"],
     company: ["SunTec"],
@@ -853,7 +853,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Augmented Reality and Virtual Reality bridge the gap between the real and digital world and help you conceive digital information in the same way you do in the real world. Join the Interest Group today to delve deeper into the Digital World!",
     officetime: "Monday 7:00pm",
-    officeplace: "Discord Lobby",
+    officeplace: " at Discord Lobby",
     community: ["XtrudAR"],
     comingsoon: "true",
     opportunities: [],

@@ -71,14 +71,14 @@ const InterestGroup = ({ setInterest }) => {
               
               {data[0].officetime && (
                 <p className={styles.officehrs}>
-                  <span>Office Hours</span> {data[0].officetime}
+                  <span>Office Hours: </span> {data[0].officetime}
                   {data[0].officeplace}
                 </p>
               )}
 
               {data[0].community[0] && (
                 <p className={styles.community}>
-                  <span>Community Partner</span> {data[0].community[0]}
+                  <span>Community Partner: </span> {data[0].community[0]}
                 </p>
               )}
 
