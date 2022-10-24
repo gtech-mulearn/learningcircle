@@ -145,7 +145,7 @@ const IntroToCommandLine = () => {
                       className='lni-cake'
                     />
                   </div>
-                  <div className='timeline__event__date'>4</div>
+                  <div className='timeline__event__date'>5</div>
                   <div className='timeline__event__content'>
                     <div className='timeline__event__title'>Step Five</div>
                     <div className='timeline__event__description'>
@@ -164,7 +164,7 @@ const IntroToCommandLine = () => {
                       className='lni-cake'
                     />
                   </div>
-                  <div className='timeline__event__date'>4</div>
+                  <div className='timeline__event__date'>6</div>
                   <div className='timeline__event__content'>
                     <div className='timeline__event__title'>Step Six</div>
                     <div className='timeline__event__description'>
@@ -181,7 +181,7 @@ const IntroToCommandLine = () => {
                       className='lni-cake'
                     />
                   </div>
-                  <div className='timeline__event__date'>4</div>
+                  <div className='timeline__event__date'>7</div>
                   <div className='timeline__event__content'>
                     <div className='timeline__event__title'>Step Seven</div>
                     <div className='timeline__event__description'>
