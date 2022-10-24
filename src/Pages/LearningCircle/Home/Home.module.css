@@ -195,8 +195,9 @@ a {
   margin-top: 1rem;
 }
 
-.createbtnalign{
-  text-align: center; 
+.createbtnalign {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .notfound {
@@ -281,6 +282,7 @@ a {
     margin: 2rem 6rem;
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 0;
   }
 }
 
