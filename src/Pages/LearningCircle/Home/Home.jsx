@@ -140,7 +140,7 @@ const Home = ({
 
                 {members.map((member, key) => (
                   <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-                    {key + 1}). {member}.
+                    {key + 1}). {member}
                   </Typography>
                 ))}
               </Box>
@@ -315,7 +315,7 @@ const Home = ({
                           Interest Group: {interest}
                         </Typography>
                         <Typography variant="h5" component="div">
-                          Circle Code: {team.code}
+                          Circle Name: {team.code}
                         </Typography>
                         <Typography sx={{ mb: 1.5 }} color="text.secondary">
                           Circle Lead: {team.lead}
@@ -382,6 +382,7 @@ const Home = ({
                 interestgroupdescription={
                   InterestGroup.interestgroupdescription
                 }
+                officetime={InterestGroup.officetime}
               />
             ))}
           </div>
