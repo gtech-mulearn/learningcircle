@@ -14,14 +14,12 @@ const TrafficLightSimulation = () => {
               <p className={styles.fv_heading}>
                 Traffic Light <span>Simulation </span>
               </p>
-              {/* <p className={styles.fv_content}>
-                HTML tags give a webpage its structure. You can use HTML tags to
-                add photos, buttons, and other elements to your webpage.
-                <br />
-                <br />
-                In this course, you'll learn the most common HTML tags by
-                building your own cat photo app.
-              </p> */}
+              <p className={styles.fv_content}>
+                As children, we've always adored Traffic lights. Ever considered
+                building a Traffic Light by yourself. In this Challenges, you
+                will use TinkerCad to create a simulation of a Traffic Light
+                Arduino project.
+              </p>
             </div>
           </div>
         </div>

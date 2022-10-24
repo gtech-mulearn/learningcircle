@@ -851,7 +851,7 @@ const InterestGroups = [
     id: "arvr",
     interestgroup: "AR/VR",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere elit nec neque venenatis egestas. Suspendisse potenti. Donec venenatis ipsum ut metus efficitur posuere. Fusce vitae ultrices metus. Aenean accumsan dui at enim consectetur pellentesque. ",
+      "Augmented Reality and Virtual Reality bridge the gap between the real and digital world and help you conceive digital information in the same way you do in the real world. Join the Interest Group today to delve deeper into the Digital World!",
     officetime: "Monday 7:00pm",
     officeplace: "Discord Lobby",
     community: ["XtrudAR"],
@@ -965,7 +965,7 @@ const InterestGroups = [
     id: "ai",
     interestgroup: "Artificial Intelligence",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere elit nec neque venenatis egestas. Suspendisse potenti. Donec venenatis ipsum ut metus efficitur posuere. Fusce vitae ultrices metus. Aenean accumsan dui at enim consectetur pellentesque. ",
+      "AI is the simulation of Human Intelligence processes by computer systems Worried if AI will take over the World in the near future? Join our AI Interest Group and learn more about Artificial Intelligence and the latest advancements in the domain.",
     officetime: "Monday 7:00pm",
     comingsoon: "true",
     officeplace: "",
@@ -994,7 +994,7 @@ const InterestGroups = [
     id: "blockchain",
     interestgroup: "Blockchain",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere elit nec neque venenatis egestas. Suspendisse potenti. Donec venenatis ipsum ut metus efficitur posuere. Fusce vitae ultrices metus. Aenean accumsan dui at enim consectetur pellentesque. ",
+      "LBlock chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
     officetime: "Tuesday 7:00pm",
     comingsoon: "true",
     officeplace: "",
@@ -1023,7 +1023,7 @@ const InterestGroups = [
     id: "creativedesign",
     interestgroup: "Creative Design",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere elit nec neque venenatis egestas. Suspendisse potenti. Donec venenatis ipsum ut metus efficitur posuere. Fusce vitae ultrices metus. Aenean accumsan dui at enim consectetur pellentesque. ",
+      "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
     officetime: "Tuesday 7:00pm",
     comingsoon: "true",
     officeplace: "",
@@ -1052,7 +1052,7 @@ const InterestGroups = [
     id: "marketing",
     interestgroup: "Marketing",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere elit nec neque venenatis egestas. Suspendisse potenti. Donec venenatis ipsum ut metus efficitur posuere. Fusce vitae ultrices metus. Aenean accumsan dui at enim consectetur pellentesque. ",
+      "Think you have the skill to market any product? Join the Marketing Interest Group to learn latest marketing strategies, interact with Marketing experts and develop some much needed experience in the field.",
     officetime: "Thursday 7:00pm",
     comingsoon: "true",
     officeplace: "",
@@ -1081,7 +1081,7 @@ const InterestGroups = [
     id: "clouddevops",
     interestgroup: "Cloud & DevOps",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere elit nec neque venenatis egestas. Suspendisse potenti. Donec venenatis ipsum ut metus efficitur posuere. Fusce vitae ultrices metus. Aenean accumsan dui at enim consectetur pellentesque. ",
+      "The emergence of Cloud technologies have changed the world forever.If you’re keen to know how the Cloud works and what DevOps is, here’s your chance to do so. Join the Cloud & DevOps Interest Group today and learn more.",
     officetime: "Friday 7:00pm",
     comingsoon: "true",
     officeplace: "",
@@ -1110,7 +1110,7 @@ const InterestGroups = [
     id: "entrepreneurship",
     interestgroup: "Entrepreneurship",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere elit nec neque venenatis egestas. Suspendisse potenti. Donec venenatis ipsum ut metus efficitur posuere. Fusce vitae ultrices metus. Aenean accumsan dui at enim consectetur pellentesque. ",
+      "The joy of starting from scratch and building something unique is special!Entrepreneurship involves understanding your business, developing it, taking risks and making good decisions. If you’ve always wanted to build something unique, Join the Entrepreneurship Interest Group today.",
     officetime: "Saturday 7:00pm",
     comingsoon: "true",
     officeplace: "",
@@ -1139,7 +1139,7 @@ const InterestGroups = [
     id: "strategicleadership",
     interestgroup: "Strategic Leadership",
     interestgroupdescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere elit nec neque venenatis egestas. Suspendisse potenti. Donec venenatis ipsum ut metus efficitur posuere. Fusce vitae ultrices metus. Aenean accumsan dui at enim consectetur pellentesque. ",
+      "Good Leaders lead the way and ensure all voices are heard.Regardless of what you do, possessing good leadership qualities is an ultimate advantage.Join the Interest Group to interact with Industry Leaders and like minded peers, and become a true leader.",
     officetime: "Sunday 7:00pm",
     comingsoon: "true",
     officeplace: "",

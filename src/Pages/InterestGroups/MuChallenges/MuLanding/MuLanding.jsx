@@ -90,7 +90,9 @@ const MuLanding = () => {
 
                 <MentorCard
                   name="Traffic Light Simulation"
-                  designation="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nemo eligendi labore, doloremque magnam eius!"
+                  designation="As children, we've always adored Traffic lights.
+                  Ever considered building a Traffic Light by yourself.
+                  In this Challenges, you will use TinkerCad to create a simulation of a Traffic Light Arduino project."
                   mclink="/challenge/traffic-light-simulation"
                 />
                 <MentorCard
