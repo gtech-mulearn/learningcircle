@@ -1,0 +1,38 @@
+.container {
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2rem;
+  border-radius: 10px;
+  gap: 1.5rem;
+
+  box-shadow: 1px 1px 45px -5px rgb(0 0 0 / 8%);
+  -webkit-box-shadow: 1px 1px 45px -5px rgb(0 0 0 / 8%);
+  -moz-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  font-size: 0.9rem;
+}
+
+.duration {
+  opacity: 0.5;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.cta {
+  background: #f78c40;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
