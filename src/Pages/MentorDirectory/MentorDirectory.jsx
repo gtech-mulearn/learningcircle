@@ -48,8 +48,8 @@ const MentorDirectory = () => {
               <p className={styles.sv_heading}>Mentor Details</p>
               <p className={styles.sv_content}>
                 We have several experienced mentors under each Interest Groups
-                to guide, assist and mentor you thoughtout your learning
-                journey.
+                to guide, assist and mentor you throughout Learn to pronounce
+                your learning journey.
               </p>
             </div>
             <div className={styles.mentor_container}>

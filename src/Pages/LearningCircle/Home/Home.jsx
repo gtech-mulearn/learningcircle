@@ -300,7 +300,14 @@ const Home = ({
               {teams.length > 0 &&
                 teams.map((team) => (
                   <>
-                    <Card sx={{ minWidth: 300, maxWidth: 300, marginY: 1 }}>
+                    <Card
+                      sx={{
+                        minWidth: 300,
+                        maxWidth: 300,
+                        marginY: 1,
+                        marginX: 1,
+                      }}
+                    >
                       <CardContent>
                         <Typography
                           sx={{ fontSize: 14 }}
