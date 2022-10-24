@@ -4,7 +4,7 @@
 }
 
 .first_view_container {
-  padding: 2rem;
+  padding: 0 2rem;
   background-color: #ffffff;
 }
 
@@ -36,7 +36,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .first_view {
     max-width: 1300px;
     margin: auto;
