@@ -196,7 +196,8 @@ a {
 }
 
 .createbtnalign {
-  text-align: center;
+  display: block;
+  margin: auto;
   margin-bottom: 3rem;
 }
 
@@ -269,7 +270,7 @@ a {
     margin: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }

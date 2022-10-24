@@ -348,6 +348,33 @@ const Home = ({
                     </Card>
                   </>
                 ))}
+              {teams.length > 0 && (
+                <Card
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    marginY: 1,
+                    marginX: 1,
+                  }}
+                >
+                  <CardContent>
+                    <Typography variant="h5" component="div">
+                      Create New Circle
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.primary">
+                      Only the Team Lead is required to create the circle.
+                    </Typography>
+                    <Typography variant="body2">
+                      Call in your friends and let's learn.
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Link to={`/create`}>
+                      <Button size="small">Create Circle Now!</Button>
+                    </Link>
+                  </CardActions>
+                </Card>
+              )}
             </>
           </div>
 
