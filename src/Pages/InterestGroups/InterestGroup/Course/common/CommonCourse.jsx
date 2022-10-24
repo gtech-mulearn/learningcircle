@@ -39,8 +39,8 @@ const CommonCourse = () => {
                 {course.link && (
                   <a
                     href={course.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <button className={styles.view_course}>View Course</button>
                   </a>
@@ -49,8 +49,8 @@ const CommonCourse = () => {
 
               <div className={styles.fv_image}>
                 <img
-                  src="/assets/icourses/fvimg.gif"
-                  alt="Group Learning"
+                  src='/assets/icourses/fvimg.gif'
+                  alt='Group Learning'
                   className={styles.fv_img}
                 />
               </div>
@@ -66,7 +66,7 @@ const CommonCourse = () => {
                   </p>
                 </div>
                 <div className={styles.sample_container}>
-                  <p className={styles.sample_header}>Example Message</p>
+                  {/* <p className={styles.sample_header}>Example Message</p> */}
                   <p className={styles.sample_message}>{course.example}</p>
                 </div>
               </div>
@@ -80,12 +80,9 @@ const CommonCourse = () => {
                   </p>
                   <p className={styles.sample_message}>
                     If you are new to µLearn, do checkout
-                    <a href="mulearn.org">&nbsp;mulearn.org</a> and join us.
-                    Watch this video if you are confused with Discord
-                    Onboarding.
-                    <a href="https://youtu.be/7Oj88zF2jY0">
-                      &nbsp;Click Here to Watch
-                    </a>
+                    <a href='mulearn.org'>&nbsp;mulearn.org</a> and join us.{" "}
+                    <a href='https://youtu.be/7Oj88zF2jY0'>Watch this video</a>{" "}
+                    if you are confused with Discord Onboarding.
                   </p>
                 </div>
               </div>
