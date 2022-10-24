@@ -287,12 +287,12 @@ const Home = ({
               <div className={styles.tssheading1}>
                 <span>Existing </span>Learning Circles
               </div>
-              <div className={styles.tsstagline}>
+              {/* <div className={styles.tsstagline}>
                 These are the existing learning circles which are present in
                 your campus. You contact the circle lead if you are interested
                 to join into the learning circles. If you are intersted to
                 create a learning circle. <a href="/create"> Click Here</a>
-              </div>
+              </div> */}
             </div>
           )}
           <div className={styles.circles}>

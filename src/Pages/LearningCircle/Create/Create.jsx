@@ -220,6 +220,82 @@ const Create = ({
         </p>
       </div>
       <div className={styles.form}>
+        {districts && (
+          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
+            <FormControl required fullWidth>
+              <InputLabel id="demo-simple-select-label">
+                Select District
+              </InputLabel>
+              <Select
+                labelId="demo-simple-select-label"
+                id="demo-simple-select"
+                label="Select District"
+                value={district}
+                onChange={(e) => {
+                  setDistrict(e.target.value);
+                }}
+              >
+                {districts.map((district) => (
+                  <MenuItem value={district}>{district}</MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          </Box>
+        )}
+
+        {colleges && options && (
+          <>
+            <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
+              <Autocomplete
+                id="grouped-demo"
+                options={options.sort(
+                  (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
+                )}
+                isOptionEqualToValue={(option, value) =>
+                  option.value === value.value
+                }
+                groupBy={(option) => option.firstLetter}
+                getOptionLabel={(option) => option.name}
+                onChange={(event, newValue) => {
+                  setCollege(newValue.code);
+                }}
+                sx={{ width: 300 }}
+                renderInput={(params) => (
+                  <TextField {...params} label="Select College" />
+                )}
+              />
+            </Box>
+          </>
+        )}
+
+        {interests && college && (
+          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
+            <FormControl required fullWidth>
+              <InputLabel id="demo-simple-select-label">
+                Select Interest Group
+              </InputLabel>
+              <Select
+                labelId="demo-simple-select-label"
+                id="demo-simple-select"
+                label="Select College"
+                name="interest"
+                value={interest}
+                onChange={(e) => {
+                  setInterest(e.target.value);
+                  setCreate((prevState) => ({
+                    ...prevState,
+                    interest: e.target.value,
+                  }));
+                }}
+              >
+                {interests.map((interest) => (
+                  <MenuItem value={interest.id}>{interest.title}</MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          </Box>
+        )}
+        
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
@@ -347,7 +423,6 @@ const Create = ({
           label="Secret Key"
           placeholder="Try to Enter a Strong Key"
           variant="outlined"
-          
           value={create.passcode}
           onChange={changeHandler}
         />
@@ -379,82 +454,6 @@ const Create = ({
             setConfirm(e.target.value);
           }}
         />
-        {districts && (
-          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-            <FormControl required fullWidth>
-              <InputLabel id="demo-simple-select-label">
-                Select District
-              </InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                label="Select District"
-                value={district}
-                onChange={(e) => {
-                  setDistrict(e.target.value);
-                }}
-              >
-                {districts.map((district) => (
-                  <MenuItem value={district}>{district}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Box>
-        )}
-
-        {colleges && options && (
-          <>
-            <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-              <Autocomplete
-                id="grouped-demo"
-                options={options.sort(
-                  (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
-                )}
-                isOptionEqualToValue={(option, value) =>
-                  option.value === value.value
-                }
-                groupBy={(option) => option.firstLetter}
-                getOptionLabel={(option) => option.name}
-                onChange={(event, newValue) => {
-                  setCollege(newValue.code);
-                }}
-                sx={{ width: 300 }}
-                renderInput={(params) => (
-                  <TextField {...params} label="Select College" />
-                )}
-              />
-            </Box>
-          </>
-        )}
-
-        {interests && college && (
-          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-            <FormControl required fullWidth>
-              <InputLabel id="demo-simple-select-label">
-                Select Interest Group
-              </InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                label="Select College"
-                name="interest"
-                value={interest}
-                onChange={(e) => {
-                  setInterest(e.target.value);
-                  setCreate((prevState) => ({
-                    ...prevState,
-                    interest: e.target.value,
-                  }));
-                }}
-              >
-                {interests.map((interest) => (
-                  <MenuItem value={interest.id}>{interest.title}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Box>
-        )}
-
         <ReCAPTCHA
           ref={recaptchaRef}
           sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"

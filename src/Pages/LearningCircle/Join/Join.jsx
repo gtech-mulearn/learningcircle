@@ -238,6 +238,19 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           onChange={changeHandler}
         />
 
+        {college && (
+          <TextField
+            sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+            required
+            disabled
+            name="college"
+            id="outlined-basic"
+            label="Select College"
+            variant="outlined"
+            value={college}
+          />
+        )}
+
         <TextField
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           required
@@ -314,7 +327,6 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           onChange={changeHandler}
         /> */}
         <TextField
-        
           sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
           name="phone"
           required
@@ -342,19 +354,6 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
           value={pass}
           onChange={(event) => setPass(event.target.value)}
         />
-
-        {college && (
-          <TextField
-            sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-            required
-            disabled
-            name="college"
-            id="outlined-basic"
-            label="Select College"
-            variant="outlined"
-            value={college}
-          />
-        )}
 
         <ReCAPTCHA
           ref={recaptchaRef}
