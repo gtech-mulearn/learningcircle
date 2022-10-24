@@ -35,6 +35,17 @@
   border-radius: 5px;
 }
 
+.search_button {
+  background-color: white;
+  color: #f78c40;
+  border: solid;
+  padding: 0.4rem 1.5rem;
+  font-size: 0.9rem;
+  border: 2px solid #f78c40;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
 .link {
   color: #f6842c;
 }
@@ -59,6 +70,11 @@
 
 .community span {
   color: #f6842c;
+}
+
+.fv_buttons {
+  /* display: flex; */
+  margin-top: 1rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -91,6 +107,10 @@
   .fv_img {
     display: block;
     width: 30vw;
+  }
+
+  .search_button {
+    margin-left: 0.5rem;
   }
 }
 

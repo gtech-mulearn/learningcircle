@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
 }
-.sample_message a {
-  color: #f6842c;
-  font-weight: 600;
-}
 
 .first_view_container {
   margin: 2rem;
+}
+
+.sample_message a {
+  color: #f6842c;
+  font-weight: 600;
 }
 
 .first_view {
@@ -44,7 +45,6 @@
 .view_course {
   background-color: #f78c40;
   color: white;
-  margin-top: 1rem;
   border: none;
   padding: 0.65rem 2rem;
   border-radius: 5px;
@@ -121,6 +121,7 @@
 
 .karma_header {
   margin-top: 1rem;
+  margin-bottom: 1rem;
   color: #f6842c;
   font-weight: 500;
 }

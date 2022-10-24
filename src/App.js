@@ -1,5 +1,3 @@
-import "./App.css";
-
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/LearningCircle/Home/Home";
@@ -25,6 +23,9 @@ import UIUXCourse from "./Pages/InterestGroups/InterestGroup/Course/uiux/UIUXCou
 import PMCourse from "./Pages/InterestGroups/InterestGroup/Course/pm/PMCourse";
 import AndroidCourse from "./Pages/InterestGroups/InterestGroup/Course/android/AndroidCourse";
 import IoTCourse from "./Pages/InterestGroups/InterestGroup/Course/iot/IoTCourse";
+import CybersecCourse from "./Pages/InterestGroups/InterestGroup/Course/cybersec/CybersecCourse";
+import CommonCourse from "./Pages/InterestGroups/InterestGroup/Course/common/CommonCourse";
+import TrafficLightSimulation from "./Pages/InterestGroups/MuChallenges/TrafficLightSimulation/TrafficLightSimulation";
 
 function App() {
   //Home Page state Variables
@@ -184,11 +185,27 @@ function App() {
           <Route path="/challenge/web" element={<MuChallenge />} />
           <Route path="/challenges" element={<MuLanding />} />
           <Route path="/challenge/typing" element={<TypingChallenge />} />
-          <Route path="/challenge/intro-to-github" element={<IntroToGithub />} />
-          <Route path="/challenge/intro-to-markdown" element={<IntroToMarkdown />} />
-          <Route path="/challenge/intro-to-command-line" element={<IntroToCommandLine />} />
-          <Route path="/challenge/intro-to-github-pages" element={<IntroToGithubPages />} />
+          <Route
+            path="/challenge/intro-to-github"
+            element={<IntroToGithub />}
+          />
+          <Route
+            path="/challenge/intro-to-markdown"
+            element={<IntroToMarkdown />}
+          />
+          <Route
+            path="/challenge/intro-to-command-line"
+            element={<IntroToCommandLine />}
+          />
+          <Route
+            path="/challenge/intro-to-github-pages"
+            element={<IntroToGithubPages />}
+          />
           <Route path="/challenge/intro-to-html" element={<IntroToHtml />} />
+          <Route
+            path="/challenge/traffic-light-simulation"
+            element={<TrafficLightSimulation />}
+          />
           <Route
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}
@@ -198,6 +215,8 @@ function App() {
           <Route path="/pm/:type/:id" element={<PMCourse />} />
           <Route path="/iot/:type/:id" element={<IoTCourse />} />
           <Route path="/android/:type/:id" element={<AndroidCourse />} />
+          <Route path="/cybersec/:type/:id" element={<CybersecCourse />} />
+          <Route path="/common/:type/:id" element={<CommonCourse />} />
           <Route path="/courses" element={<Courses />} />
           <Route
             path="/searchcircles"

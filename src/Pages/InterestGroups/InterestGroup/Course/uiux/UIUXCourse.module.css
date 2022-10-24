@@ -1,160 +1,158 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.first_view_container {
+  margin: 2rem;
+}
+
+.sample_message a {
+  color: #f6842c;
+  font-weight: 600;
+}
+
+.first_view {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.fv_img {
+  display: block;
+  width: 20rem;
+}
+
+.fv_heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #404040;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.fv_heading span {
+  color: #f6842c;
+}
+
+.fv_content {
+  margin-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.view_course {
+  background-color: #f78c40;
+  color: white;
+  border: none;
+  padding: 0.65rem 2rem;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 1300px) {
+  .first_view_container {
+    margin: 4rem;
   }
 
-  .sample_message a {
-    color: #f6842c;
-    font-weight: 600;
-  }
-  
-  
-  .first_view_container {
-    margin: 2rem;
-  }
-  
   .first_view {
+    margin: 4rem;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
   }
-  
+
+  .fv_texts {
+    width: 35vw;
+    margin: 3rem 0;
+  }
+
+  .fv_heading {
+    font-size: 4.25rem;
+  }
+
+  .fv_content {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+
   .fv_img {
     display: block;
-    width: 20rem;
+    width: 30rem;
   }
-  
-  .fv_heading {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #404040;
-    font-family: "Noto Sans", sans-serif;
-    margin-bottom: 0.5rem;
-  }
-  
-  .fv_heading span {
-    color: #f6842c;
-  }
-  
-  .fv_content {
-    margin-top: 0.5rem;
-    font-family: "Poppins", sans-serif;
-    font-size: 1rem;
-  }
-  
-  .view_course {
-    background-color: #f78c40;
-    color: white;
-    margin-top: 1rem;
-    border: none;
-    padding: 0.65rem 2rem;
-    border-radius: 5px;
-  }
-  
-  @media only screen and (min-width: 1300px) {
-    .first_view_container {
-      margin: 4rem;
-    }
-  
-    .first_view {
-      margin: 4rem;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  
-    .fv_texts {
-      width: 35vw;
-      margin: 3rem 0;
-    }
-  
-    .fv_heading {
-      font-size: 4.25rem;
-    }
-  
-    .fv_content {
-      width: 80%;
-      font-size: 1.1rem;
-    }
-  
-    .fv_img {
-      display: block;
-      width: 30rem;
-    }
-  }
-  
-  /* Second Section Styles */
-  
+}
+
+/* Second Section Styles */
+
+.second_view_container {
+  margin-top: 4rem;
+}
+
+.sv_heading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  color: #404040;
+}
+
+.sv_heading span {
+  color: #f6842c;
+}
+
+.sv_content {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.sample_container {
+  margin-top: 2rem;
+}
+
+.sample_header {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #404040;
+}
+
+.sample_message {
+  margin: 0.5rem 0;
+}
+
+.karma_header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #f6842c;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1300px) {
   .second_view_container {
-    margin-top: 4rem;
+    margin: 4rem;
   }
-  
+
   .sv_heading {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 2.75rem;
-    color: #404040;
+    font-size: 2.25rem;
+    line-height: 4rem;
+    width: 60vw;
   }
-  
-  .sv_heading span {
-    color: #f6842c;
-  }
-  
-  .sv_content {
-    margin-top: 0.25rem;
-    font-size: 0.9rem;
-  }
-  
-  .sample_container {
-    margin-top: 2rem;
-  }
-  
-  .sample_header {
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: #404040;
-  }
-  
+
+  .sv_content,
   .sample_message {
-    margin: 0.5rem 0;
+    margin-top: 0;
+    font-size: 1.05rem;
+    width: 45%;
   }
-  
-  .karma_header {
-    margin-top: 1rem;
-    color: #f6842c;
-    font-weight: 500;
-  }
-  
-  @media only screen and (min-width: 1300px) {
-    .second_view_container {
-      margin: 4rem;
-    }
-  
-    .sv_heading {
-      font-size: 2.25rem;
-      line-height: 4rem;
-      width: 60vw;
-    }
-  
-    .sv_content,
-    .sample_message {
-      margin-top: 0;
-      font-size: 1.05rem;
-      width: 45%;
-    }
-  }
-  
-  /* Third View Styles */
-  
+}
+
+/* Third View Styles */
+
+.third_view_container {
+  margin-top: 4rem;
+}
+
+@media only screen and (min-width: 1300px) {
   .third_view_container {
-    margin-top: 4rem;
+    margin: 4rem;
   }
-  
-  @media only screen and (min-width: 1300px) {
-    .third_view_container {
-      margin: 4rem;
-    }
-  }
-  
+}

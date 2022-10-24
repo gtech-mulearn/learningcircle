@@ -34,10 +34,10 @@ const Navbar = () => {
         </ul>
         <div className="lg:block hidden">
           <a
-            href="https://discord.com/invite/Jt7sv3chZP"
+            href="https://discord.mulearn.org/"
             target="_blank"
             rel="noopener noreferrer"
-            className="py-7 px-3 inline-block"
+            className="py-7 px-3 inline-block overflow-visible"
           >
             <button className="bg-orange-400 text-white  px-6 py-2 rounded-md">
               Join Discord
@@ -63,7 +63,7 @@ const Navbar = () => {
 
           <div className="grid justify-items-center">
             <a
-              href="https://discord.com/invite/Jt7sv3chZP"
+              href="https://discord.mulearn.org/"
               target="_blank"
               rel="noopener noreferrer"
               className="py-7 px-28 "

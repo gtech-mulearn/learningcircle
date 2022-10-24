@@ -43,6 +43,16 @@ const MuLanding = () => {
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
                 <MentorCard
+                  name="Self Introduction"
+                  designation="You know yourself the best, yet presenting a good self may allow others to get to know you. Posting an introduction to yourself is an important first step in connecting with the community."
+                  mclink="/common/enablement/1"
+                />
+                <MentorCard
+                  name="Introduction to Discord"
+                  designation="Are you brand new to Discord? Not to fear, we've got you covered. This course will walk you through the fundamentals to advanced features of discord."
+                  mclink="/common/enablement/2"
+                />
+                <MentorCard
                   name="Introduction to GitHub"
                   designation="The aim of the course is to teach you about GitHub and its numerous tools and processes, such as Issues and Pull Requests."
                   mclink="/challenge/intro-to-github"
@@ -68,6 +78,24 @@ const MuLanding = () => {
                   mclink="/challenge/intro-to-html"
                 />
                 <MentorCard
+                  name="IoT 101"
+                  designation="It’s possible that you are listening more and more to the term Internet of Things (IoT). But, what exactly is IoT, and most importantly, what changes will the adoption of IoT bring to households, commerce and industry?. In this course you’ll get a basic understanding on what’s IoT?"
+                  mclink="/iot/enablement/1"
+                />
+                <MentorCard
+                  name="What’s IoT?"
+                  designation="IoT is known for monitoring and controlling devices remotely, and this course aims at familiarizing you with the Internet of Things. The course starts by introducing IoT.Enroll in this IoT free course and gain a free certificate."
+                  mclink="/iot/enablement/2"
+                />
+
+                <MentorCard
+                  name="Traffic Light Simulation"
+                  designation="As children, we've always adored Traffic lights.
+                  Ever considered building a Traffic Light by yourself.
+                  In this Challenges, you will use TinkerCad to create a simulation of a Traffic Light Arduino project."
+                  mclink="/challenge/traffic-light-simulation"
+                />
+                <MentorCard
                   name="Bring Every Buisness Onilne"
                   designation="Awesome aka Bring Every Business Online is an Open Source Initiative to make an open source collection of web-pages for every business out there. To contribute to the project, all you have to do is build a website for a store or business."
                   mclink="https://awesome.mulearn.org"
@@ -77,6 +105,7 @@ const MuLanding = () => {
                   designation="Learning to master the skill of typing is always an advantage. It enables a person to be much more productive and use their time efficently and also increase the outlook of others on them."
                   mclink="/challenge/typing"
                 />
+
                 <MentorCard
                   name="Tata Strive Defensive Driving"
                   designation="This course in this challenge is designed to educate you about

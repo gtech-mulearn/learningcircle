@@ -23,7 +23,6 @@
 .comingsoon {
   background-color: #f78c40;
   color: white;
-  margin-top: 1rem;
   padding: 0.5rem 1.25rem;
   font-size: 0.9rem;
   border: none;
@@ -43,17 +42,18 @@
   width: 150px;
 }
 
-
 .mentor_source {
   opacity: 0.5;
   font-size: 0.9rem;
   text-align: left;
   font-weight: 600;
+  margin-bottom: 0.75rem;
   width: 150px;
 }
 
 .mentor_designation {
   width: 90%;
+  margin-bottom: 0.75rem;
   margin-top: 0.4rem;
   font-family: "Poppins", sans-serif;
   font-size: 0.95rem;
@@ -64,7 +64,6 @@
   width: 1.75rem;
   margin-top: 0.5rem;
 }
-
 
 .textdiv {
   display: flex;

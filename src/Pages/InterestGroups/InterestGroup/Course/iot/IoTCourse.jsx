@@ -53,7 +53,7 @@ const IoTCourse = () => {
               <div className={styles.second_view}>
                 <div className={styles.sv_texts}>
                   <p className={styles.sv_heading}>
-                    Once <span>Completed.</span>
+                    Once <span>Completed</span>
                   </p>
                   <p className={styles.sv_content}>
                     {course.inner_description}
@@ -73,8 +73,8 @@ const IoTCourse = () => {
                     <span>Need </span> Help ?
                   </p>
                   <p className={styles.sample_message}>
-                    If you are new to MuLearn, do checkout
-                    <a href="mulearn.org">&nbsp;MuLearn.org</a> and join us.
+                    If you are new to µLearn, do checkout
+                    <a href="mulearn.org">&nbsp;mulearn.org</a> and join us.
                     Watch this video if you are confused with Discord
                     Onboarding.
                     <a href="https://youtu.be/7Oj88zF2jY0">

@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: bottom;
+  white-space: nowrap;
+  max-width: 90%;
+}
+
 .steps_ulist {
   list-style: disc;
   margin-left: 1.5rem;
@@ -18,18 +27,11 @@
   margin: 2rem;
 }
 
-.ss_title {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-.callout {
-  margin: 2rem auto 0;
-  border: 1px solid #f78c4080;
-  padding: 2rem;
-  border-radius: 0.2rem;
-  max-width: 50rem;
+.first_view {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .fv_img {
@@ -51,26 +53,51 @@
 }
 
 .fv_content {
-  margin-top: 0.5rem;
+  margin: 0.5rem auto 0;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  text-align: center;
+}
+
+.screenshots {
+  max-width: 50rem;
+  margin: 5rem auto 0;
+}
+
+.screenshots img {
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+}
+
+.ss_title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 1000px) {
   .first_view_container {
-    display: block;
     margin: 6rem;
+  }
+
+  .first_view {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .fv_heading {
     font-size: 4.25rem;
-    text-align: center;
   }
 
   .fv_content {
+    width: 80%;
     font-size: 1.1rem;
-    text-align: center;
+  }
+
+  .fv_img {
+    display: block;
+    width: 30rem;
   }
 }
 
@@ -90,16 +117,6 @@
   text-align: center;
 }
 
-.screenshots {
-  max-width: 50rem;
-  margin: 5rem auto 0;
-}
-
-.screenshots img {
-  margin-bottom: 3rem;
-  border-radius: 0.5rem;
-}
-
 .sv_content {
   margin-top: 0.25rem;
   font-size: 0.9rem;
@@ -111,8 +128,6 @@
   }
 
   .sv_heading {
-    display: block;
-    margin: auto;
     font-size: 2.25rem;
     line-height: 4rem;
   }
@@ -141,8 +156,16 @@ b {
 }
 
 .sample_container {
-  margin-top: 2rem;
+  margin: 2rem auto 0;
   background: #f5f5f5;
+  padding: 2rem;
+  border-radius: 0.2rem;
+  max-width: 50rem;
+}
+
+.callout {
+  margin: 2rem auto 0;
+  border: 1px solid #f78c4080;
   padding: 2rem;
   border-radius: 0.2rem;
   max-width: 50rem;
@@ -165,10 +188,9 @@ b {
 }
 
 @media only screen and (min-width: 1000px) {
-  .sample_container {
-    display: block;
-    margin: auto;
-    margin-top: 4rem;
+  .sample_container,
+  .callout {
+    margin: 4rem auto 0;
   }
 
   .steps_ulist_sub li {

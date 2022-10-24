@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../../../../../Components/Footer/Footer";
 import Navbar from "../../../../../Components/Navbar/Navbar";
-import styles from "./PMCourse.module.css";
+import styles from "./CommonCourse.module.css";
 
-import PMData from "./pm";
+import CommonData from "./common";
 import { useParams } from "react-router-dom";
 
-const PMCourse = () => {
+const CommonCourse = () => {
   const [course, setCourse] = useState();
   const { type, id } = useParams();
 
   useEffect(() => {
     if (type === "core") {
-      setCourse(PMData[0].core[id - 1]);
+      setCourse(CommonData[0].core[id - 1]);
     } else if (type === "sub") {
-      setCourse(PMData[0].sub[id - 1]);
+      setCourse(CommonData[0].sub[id - 1]);
     } else if (type === "enablement") {
-      setCourse(PMData[0].enablement[id - 1]);
+      setCourse(CommonData[0].enablement[id - 1]);
     } else {
       setCourse("Sorry!");
     }
@@ -36,9 +36,15 @@ const PMCourse = () => {
                 <p className={styles.karma_header}>
                   On Course Completion {course.karma} Karma Points.
                 </p>
-                <a href={course.link} target="_blank" rel="noopener noreferrer">
-                  <button className={styles.view_course}>View Course</button>
-                </a>
+                {course.link && (
+                  <a
+                    href={course.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className={styles.view_course}>View Course</button>
+                  </a>
+                )}
               </div>
 
               <div className={styles.fv_image}>
@@ -92,4 +98,4 @@ const PMCourse = () => {
   );
 };
 
-export default PMCourse;
+export default CommonCourse;

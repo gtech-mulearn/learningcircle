@@ -1,14 +1,14 @@
 const courses = [
-  {
-    id: "1",
-    categrory: "artificial_intelligence",
-    coursername: "Data Analyst Associate (DA-100)",
-    coursedetails:
-      "Data Analyst Associate pathway will help learners to get skilled on concepts like preparing data for analysis, data modelling...",
-    duration: "18 Hours 41 Minutes",
-    companyname: "Microsoft",
-    link: "https://futureskillsprime.in/courses/data-analyst-associate-da-1",
-  },
+  // {
+  //   id: "1",
+  //   categrory: "artificial_intelligence",
+  //   coursername: "Data Analyst Associate (DA-100)",
+  //   coursedetails:
+  //     "Data Analyst Associate pathway will help learners to get skilled on concepts like preparing data for analysis, data modelling...",
+  //   duration: "18 Hours 41 Minutes",
+  //   companyname: "Microsoft",
+  //   link: "https://futureskillsprime.in/courses/data-analyst-associate-da-1",
+  // },
   {
     id: "2",
     categrory: "artificial_intelligence",
@@ -39,16 +39,16 @@ const courses = [
     companyname: "B∞RD",
     link: "https://futureskillsprime.in/course/data-science-for-beginners",
   },
-  {
-    id: "5",
-    categrory: "artificial_intelligence",
-    coursername: "SQL Fundamentals",
-    coursedetails:
-      "This course oers you informative web links, hands-on exercises, and quizzes to work with the MySQL database.",
-    duration: "8 Hours",
-    companyname: "Accenture",
-    link: "Introduction to SQL Fundamentals | FutureSkills Prime",
-  },
+  // {
+  //   id: "5",
+  //   categrory: "artificial_intelligence",
+  //   coursername: "SQL Fundamentals",
+  //   coursedetails:
+  //     "This course oers you informative web links, hands-on exercises, and quizzes to work with the MySQL database.",
+  //   duration: "8 Hours",
+  //   companyname: "Accenture",
+  //   link: "Introduction to SQL Fundamentals | FutureSkills Prime",
+  // },
   {
     id: "6",
     categrory: "big_data_analytics",
@@ -131,16 +131,16 @@ const courses = [
     companyname: "Microsoft",
     link: "https://futureskillsprime.in/courses/security-administrator-associate-ms-500",
   },
-  {
-    id: "14",
-    categrory: "cybersecurity",
-    coursername: "Programming Basics for Cyber Security Engineers",
-    coursedetails:
-      "Learn & Code programming basics for Cyber Security domain that aids the learner become a Cyber Security Engineer by practicing coding on...",
-    duration: "10 Hours",
-    companyname: "terv",
-    link: "Learn key coding essentials in our cyber security course (futureskillsprime.in)",
-  },
+  // {
+  //   id: "14",
+  //   categrory: "cybersecurity",
+  //   coursername: "Programming Basics for Cyber Security Engineers",
+  //   coursedetails:
+  //     "Learn & Code programming basics for Cyber Security domain that aids the learner become a Cyber Security Engineer by practicing coding on...",
+  //   duration: "10 Hours",
+  //   companyname: "terv",
+  //   link: "Learn key coding essentials in our cyber security course (futureskillsprime.in)",
+  // },
   {
     id: "15",
     categrory: "cybersecurity",
@@ -151,15 +151,15 @@ const courses = [
     companyname: "CISCO Networking Acadamey",
     link: "https://futureskillsprime.in/course/cisco-netacad%E2%80%93introduction-to-cyber-security",
   },
-  {
-    id: "16",
-    categrory: "cybersecurity",
-    coursername: "Cybersecurity Essentials",
-    coursedetails: "Learn the basics to fight Cybercrime.",
-    duration: "30 Hours",
-    companyname: "",
-    link: "",
-  },
+  // {
+  //   id: "16",
+  //   categrory: "cybersecurity",
+  //   coursername: "Cybersecurity Essentials",
+  //   coursedetails: "Learn the basics to fight Cybercrime.",
+  //   duration: "30 Hours",
+  //   companyname: "",
+  //   link: "",
+  // },
   {
     id: "17",
     categrory: "internet_of_things",

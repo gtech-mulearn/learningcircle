@@ -3,7 +3,6 @@ import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
 
 import styles from "./Home.module.css";
-import learningcircles from "./assets/learningcircles.jpg";
 
 import Box from "@mui/material/Box";
 import Autocomplete from "@mui/material/Autocomplete";
@@ -22,13 +21,11 @@ import { Link } from "react-router-dom";
 import Modal from "@mui/material/Modal";
 import CircularProgress from "@mui/material/CircularProgress";
 
-import Fof from "./assets/Others/Fof.png";
 import BeagleSecurity from "./assets/Others/BeagleSecurity.png";
 import FoxLabs from "./assets/Others/FoxLabs.png";
 import Pygrammers from "./assets/Others/Pygrammers.png";
 import ProductPack from "./assets/Others/ProductPack.png";
 
-import animation from "./assets/animation.webp";
 import illustrations from "./assets/illustrations.png";
 import InterestCard from "../../../Components/InterestCard/InterestCard";
 
@@ -140,7 +137,7 @@ const Home = ({
 
                 {members.map((member, key) => (
                   <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-                    {key + 1}). {member}.
+                    {key + 1}). {member}
                   </Typography>
                 ))}
               </Box>
@@ -152,11 +149,11 @@ const Home = ({
           <div class={styles.first_section}>
             <div class={styles.fstexts}>
               <p class={styles.fsheading}>
-                Introducing <span> µlearn Learning Circles</span>
+                Introducing <span> µLearn Learning Circles</span>
               </p>
               <p class={styles.fssheading}>
                 Android and Web Development, IOT, CyberSecurity and
-                <span> Much More....</span>
+                <span> much more....</span>
               </p>
               <p class={styles.fstagline}>
                 An informal mechanism for bringing together learners who are
@@ -186,11 +183,6 @@ const Home = ({
                     alt="Pygrammers"
                     class={styles.supporter}
                   />
-                  <img
-                    src={Fof}
-                    alt="Friends of Figma"
-                    class={styles.supporter}
-                  />
                 </div>
               </div>
 
@@ -214,10 +206,10 @@ const Home = ({
               <span>Search</span> Existing Learning Circles.
             </div>
             <div className={styles.fsstagline}>
-              µLearn currently has multiple active learning cirlces under
-              several interest groups fill in the these data to find out
-              existing learning circles near you so that you could also join in
-              and learn.
+              Learning things for which you are curious is interesting, right?
+              What about learning the same thing along with a group of
+              like-minded peers and mentors, Much more interesting, right? Join
+              in Now and Start Learning!
             </div>
           </div>
 
@@ -266,9 +258,12 @@ const Home = ({
               <Box sx={{ minWidth: 300, maxWidth: 300, marginY: 1.5 }}>
                 <Autocomplete
                   id="grouped-demo"
-                  options={options.sort(
-                    (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
-                  )}
+                  options={
+                    options &&
+                    options.sort(
+                      (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
+                    )
+                  }
                   isOptionEqualToValue={(option, value) =>
                     option.value === value.value
                   }
@@ -290,14 +285,14 @@ const Home = ({
           {teams.length > 0 && (
             <div className={styles.thirdsection}>
               <div className={styles.tssheading1}>
-                <span>Existing </span>Learning Circles.
+                <span>Existing </span>Learning Circles
               </div>
-              <div className={styles.tsstagline}>
+              {/* <div className={styles.tsstagline}>
                 These are the existing learning circles which are present in
                 your campus. You contact the circle lead if you are interested
                 to join into the learning circles. If you are intersted to
                 create a learning circle. <a href="/create"> Click Here</a>
-              </div>
+              </div> */}
             </div>
           )}
           <div className={styles.circles}>
@@ -305,7 +300,14 @@ const Home = ({
               {teams.length > 0 &&
                 teams.map((team) => (
                   <>
-                    <Card sx={{ minWidth: 300, maxWidth: 300, marginY: 1 }}>
+                    <Card
+                      sx={{
+                        minWidth: 300,
+                        maxWidth: 300,
+                        marginY: 1,
+                        marginX: 1,
+                      }}
+                    >
                       <CardContent>
                         <Typography
                           sx={{ fontSize: 14 }}
@@ -315,7 +317,7 @@ const Home = ({
                           Interest Group: {interest}
                         </Typography>
                         <Typography variant="h5" component="div">
-                          Circle Code: {team.code}
+                          Circle Name: {team.code}
                         </Typography>
                         <Typography sx={{ mb: 1.5 }} color="text.secondary">
                           Circle Lead: {team.lead}
@@ -346,6 +348,33 @@ const Home = ({
                     </Card>
                   </>
                 ))}
+              {teams.length > 0 && (
+                <Card
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    marginY: 1,
+                    marginX: 1,
+                  }}
+                >
+                  <CardContent>
+                    <Typography variant="h5" component="div">
+                      Create New Circle
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.primary">
+                      Only the Team Lead is required to create the circle.
+                    </Typography>
+                    <Typography variant="body2">
+                      Call in your friends and let's learn.
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Link to={`/create`}>
+                      <Button size="small">Create Circle Now!</Button>
+                    </Link>
+                  </CardActions>
+                </Card>
+              )}
             </>
           </div>
 
@@ -355,9 +384,11 @@ const Home = ({
                 It seems there is <span>No Learning Cirlces</span> in your
                 college. <span> Come Lets Create One.</span>
               </p>
-              <Link to={`/create`}>
-                <button class={styles.createbtn}>Create Circles</button>
-              </Link>
+              <div className={styles.createbtnalign}>
+                <Link to={`/create`}>
+                  <button className={styles.createbtn}>Create Circles</button>
+                </Link>
+              </div>
             </>
           )}
         </div>
@@ -380,6 +411,7 @@ const Home = ({
                 interestgroupdescription={
                   InterestGroup.interestgroupdescription
                 }
+                officetime={InterestGroup.officetime}
               />
             ))}
           </div>

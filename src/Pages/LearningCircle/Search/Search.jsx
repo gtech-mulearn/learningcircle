@@ -56,7 +56,6 @@ const Search = ({
     }
   }, [colleges]);
 
-
   useEffect(() => {
     if (college && interest) {
       axios
@@ -72,7 +71,6 @@ const Search = ({
     }
   }, [college, interest]);
 
-
   return (
     <>
       <Navbar />
@@ -85,7 +83,10 @@ const Search = ({
                   Search µLearn <span> Learning Circles</span>
                 </p>
                 <p className={styles.fv_content}>
-                µLearn currently has multiple active learning cirlces under several interest groups fill in the these data to find out existing learning circles near you so that you could also join in and learn.
+                  Learning things for which you are curious is interesting,
+                  right? What about learning the same thing along with a group
+                  of like-minded peers and mentors, Much more interesting,
+                  right? Join in Now and Start Learning!
                 </p>
                 <div className={styles.form}>
                   {districts && (
