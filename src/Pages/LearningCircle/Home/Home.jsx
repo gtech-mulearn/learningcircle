@@ -122,21 +122,21 @@ const Home = ({
             <Modal
               open={open}
               onClose={handleClose}
-              aria-labelledby="modal-modal-title"
-              aria-describedby="modal-modal-description"
+              aria-labelledby='modal-modal-title'
+              aria-describedby='modal-modal-description'
             >
               <Box sx={style}>
                 <Typography
-                  id="modal-modal-title"
-                  variant="h6"
-                  component="h2"
+                  id='modal-modal-title'
+                  variant='h6'
+                  component='h2'
                   className={styles.modaltext}
                 >
                   Members in your Circle
                 </Typography>
 
                 {members.map((member, key) => (
-                  <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                  <Typography id='modal-modal-description' sx={{ mt: 1 }}>
                     {key + 1}). {member}
                   </Typography>
                 ))}
@@ -169,18 +169,18 @@ const Home = ({
                 <div className={styles.s_images}>
                   <img
                     src={BeagleSecurity}
-                    alt="Beagle Security"
+                    alt='Beagle Security'
                     class={styles.supporter}
                   />
-                  <img src={FoxLabs} alt="" class={styles.supporter} />
+                  <img src={FoxLabs} alt='' class={styles.supporter} />
                   <img
                     src={ProductPack}
-                    alt="Product Pack"
+                    alt='Product Pack'
                     class={styles.supporter}
                   />
                   <img
                     src={Pygrammers}
-                    alt="Pygrammers"
+                    alt='Pygrammers'
                     class={styles.supporter}
                   />
                 </div>
@@ -197,7 +197,7 @@ const Home = ({
             </div>
 
             <div class={styles.fsimage}>
-              <img src={illustrations} alt="" class={styles.fs_img} />
+              <img src={illustrations} alt='' class={styles.fs_img} />
             </div>
           </div>
 
@@ -216,13 +216,13 @@ const Home = ({
           <div className={styles.form}>
             <Box sx={{ minWidth: 300, maxWidth: 300, marginY: 1.5 }}>
               <FormControl fullWidth>
-                <InputLabel id="demo-simple-select-label">
+                <InputLabel id='demo-simple-select-label'>
                   Select District
                 </InputLabel>
                 <Select
-                  labelId="demo-simple-select-label"
-                  id="demo-simple-select"
-                  label="Select District"
+                  labelId='demo-simple-select-label'
+                  id='demo-simple-select'
+                  label='Select District'
                   value={district}
                   onChange={(e) => setDistrict(e.target.value)}
                 >
@@ -236,13 +236,13 @@ const Home = ({
             {interests && district && (
               <Box sx={{ minWidth: 300, maxWidth: 300, marginY: 1.5 }}>
                 <FormControl fullWidth>
-                  <InputLabel id="demo-simple-select-label">
+                  <InputLabel id='demo-simple-select-label'>
                     Select Interest Group
                   </InputLabel>
                   <Select
-                    labelId="demo-simple-select-label"
-                    id="demo-simple-select"
-                    label="Select College"
+                    labelId='demo-simple-select-label'
+                    id='demo-simple-select'
+                    label='Select College'
                     value={interest}
                     onChange={(e) => setInterest(e.target.value)}
                   >
@@ -257,7 +257,7 @@ const Home = ({
             {colleges && interest && (
               <Box sx={{ minWidth: 300, maxWidth: 300, marginY: 1.5 }}>
                 <Autocomplete
-                  id="grouped-demo"
+                  id='grouped-demo'
                   options={
                     options &&
                     options.sort(
@@ -274,7 +274,7 @@ const Home = ({
                   }}
                   sx={{ width: 300 }}
                   renderInput={(params) => (
-                    <TextField {...params} label="Select College" />
+                    <TextField {...params} label='Select College' />
                   )}
                 />
               </Box>
@@ -311,18 +311,18 @@ const Home = ({
                       <CardContent>
                         <Typography
                           sx={{ fontSize: 14 }}
-                          color="text.secondary"
+                          color='text.secondary'
                           gutterBottom
                         >
                           Interest Group: {interest}
                         </Typography>
-                        <Typography variant="h5" component="div">
+                        <Typography variant='h5' component='div'>
                           Circle Name: {team.code}
                         </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        <Typography sx={{ mb: 1.5 }} color='text.secondary'>
                           Circle Lead: {team.lead}
                         </Typography>
-                        <Typography variant="body2">
+                        <Typography variant='body2'>
                           Member Count: {team.count}
                         </Typography>
                       </CardContent>
@@ -330,7 +330,7 @@ const Home = ({
                         <Link to={`/join`}>
                           <Button
                             onClick={() => setCode(team.code)}
-                            size="small"
+                            size='small'
                           >
                             Join Group Now!
                           </Button>
@@ -340,7 +340,7 @@ const Home = ({
                             setCode(team.code);
                             handleOpen();
                           }}
-                          size="small"
+                          size='small'
                         >
                           View Members
                         </Button>
@@ -358,19 +358,19 @@ const Home = ({
                   }}
                 >
                   <CardContent>
-                    <Typography variant="h5" component="div">
+                    <Typography variant='h5' component='div'>
                       Create New Circle
                     </Typography>
-                    <Typography sx={{ mb: 1.5 }} color="text.primary">
+                    <Typography sx={{ mb: 1.5 }} color='text.primary'>
                       Only the Team Lead is required to create the circle.
                     </Typography>
-                    <Typography variant="body2">
+                    <Typography variant='body2'>
                       Call in your friends and let's learn.
                     </Typography>
                   </CardContent>
                   <CardActions>
                     <Link to={`/create`}>
-                      <Button size="small">Create Circle Now!</Button>
+                      <Button size='small'>Create Circle Now!</Button>
                     </Link>
                   </CardActions>
                 </Card>
@@ -379,7 +379,7 @@ const Home = ({
           </div>
 
           {college && teams.length === 0 && (
-            <>
+            <div className={styles.no_circle}>
               <p className={styles.notfound}>
                 It seems there is <span>No Learning Cirlces</span> in your
                 college. <span> Come Lets Create One.</span>
@@ -389,7 +389,7 @@ const Home = ({
                   <button className={styles.createbtn}>Create Circles</button>
                 </Link>
               </div>
-            </>
+            </div>
           )}
         </div>
 
