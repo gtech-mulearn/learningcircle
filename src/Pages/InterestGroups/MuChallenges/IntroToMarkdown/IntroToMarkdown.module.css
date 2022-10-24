@@ -140,49 +140,8 @@ b {
   margin-top: 1rem;
 }
 
-.sample_container {
-  margin-top: 2rem;
-  background: #f5f5f5;
-  padding: 2rem;
-  border-radius: 0.2rem;
-  max-width: 50rem;
-}
-
-.sample_header {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #404040;
-}
-
-.sample_message {
-  margin: 0.5rem 0;
-}
-
-.sample_img {
-  margin-top: 1rem;
-  width: 20rem;
-  border-radius: 5px;
-}
-
 @media only screen and (min-width: 1000px) {
-  .sample_container {
-    display: block;
-    margin: auto;
-    margin-top: 4rem;
-  }
-
   .steps_ulist_sub li {
     width: 45%;
-  }
-
-  .sample_message {
-    margin-top: 0;
-    font-size: 1.05rem;
-  }
-
-  .sample_img {
-    margin-top: 1rem;
-    width: 35rem;
-    border-radius: 5px;
   }
 }

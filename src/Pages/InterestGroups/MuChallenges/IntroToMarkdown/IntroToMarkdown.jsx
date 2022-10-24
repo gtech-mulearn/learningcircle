@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../../../Components/Navbar/Navbar";
 import Footer from "../../../../Components/Footer/Footer";
+import ExampleMsg from "../../../../Components/ExampleMsg/ExampleMsg";
 
 import styles from "./IntroToMarkdown.module.css";
 
@@ -68,7 +69,7 @@ const IntroToMarkdown = () => {
                 <div className='timeline__event animated fadeInUp delay-2s timeline__event--type2'>
                   <div className='timeline__event__icon'>
                     <img
-                      src={require("../assets/steps/repo.svg").default}
+                      src={require("../assets/steps/readme.svg").default}
                       alt=''
                       className='lni-cake'
                     />
@@ -105,18 +106,11 @@ const IntroToMarkdown = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.sample_container}>
-              <p className={styles.sample_header}>Example Message</p>
-              <p className={styles.sample_message}>
-                Hi! I've completed the Intro to Markdown course.<br></br>
-                My repository URL is{" "}
-                <a href='https://github.com/Angelrose19/intro-to-markdown'>
-                  https://github.com/Angelrose19/intro-to-markdown
-                </a>
-                <br />
-                #ge-intro-to-markdown
-              </p>
-            </div>
+            <ExampleMsg
+              course='Intro to Markdown course'
+              link='https://github.com/Angelrose19/intro-to-markdown'
+              hashtag='#ge-intro-to-markdown'
+            />
           </div>
         </div>
       </div>
