@@ -143,17 +143,15 @@ const IntroToHtml = () => {
 
                         <div className={styles.screenshots}>
                             <p id="step2" className={styles.ss_title}>Step 2 - Screenshot</p>
-                            <img src="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe525e638-932f-4f4e-8671-76b246cd70e7%2Ff8.png?table=block&id=8a0f7b22-3954-4641-85c1-b599fc458571&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=2000&userId=&cache=v2" alt="" />
+                            <img src={require("./imgs/html-2-ss.png")} alt="" />
 
                             <p id="step5" className={styles.ss_title}>Step 5 - Screenshot</p>
-                            <img src="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc0e4f5f2-4fc3-43fa-9078-ee54fe3b0538%2Ff9.png?table=block&id=0ec8e095-5055-47bb-8d11-af71d57fe2ce&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=2000&userId=&cache=v2" alt="" />
+                            <img src={require("./imgs/html-5-ss.png")} alt="" />
                         </div>
 
 
 
-                        <div className={styles.callout}>
-                            Complete the full FreeCodeCamp Responsive Web Design Course and avail 400 karma points. Checkout <a href="https://learn.mulearn.org/web/core/1">https://learn.mulearn.org/web/core/1</a>
-                        </div>
+
 
                         <div className={styles.sample_container}>
                             <p className={styles.sample_header}>Example Message</p>
@@ -168,6 +166,9 @@ const IntroToHtml = () => {
                                 alt=""
                                 srcset=""
                             /> */}
+                        </div>
+                        <div className={styles.callout}>
+                            Complete the full FreeCodeCamp Responsive Web Design Course and avail 400 karma points. Checkout <a href="https://learn.mulearn.org/web/core/1">https://learn.mulearn.org/web/core/1</a>
                         </div>
                     </div>
                 </div>

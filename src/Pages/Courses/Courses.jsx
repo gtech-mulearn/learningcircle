@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import CourseCard from "../../Components/CourseCard/CourseCard";
 import Footer from "../../Components/Footer/Footer";
 import MentorCard from "../../Components/MentorCard/MentorCard";
 import Navbar from "../../Components/Navbar/Navbar";
@@ -24,8 +25,8 @@ const Courses = () => {
             </div>
             <div className={styles.fv_images}>
               <img
-                src="/assets/courses/fvimg.gif"
-                alt=""
+                src='/assets/courses/fvimg.gif'
+                alt=''
                 className={styles.fv_img}
               />
             </div>
@@ -38,11 +39,11 @@ const Courses = () => {
               <div className={styles.course}>
                 {courses.map((course) => {
                   return (
-                    <MentorCard
-                      name={course.coursername}
-                      designation={course.coursedetails}
-                      source={course.duration}
-                      clink={course.link}
+                    <CourseCard
+                      title={course.coursername}
+                      desc={course.coursedetails}
+                      duration={course.duration}
+                      link={course.link}
                     />
                   );
                 })}

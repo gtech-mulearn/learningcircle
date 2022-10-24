@@ -91,7 +91,7 @@ a {
   box-shadow: 0 1px 12px 0 rgba(193, 195, 211, 0.37);
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
   .fsobtn {
     margin-left: 0.5rem;
   }
@@ -133,7 +133,6 @@ a {
 
 .secondsection {
   margin: 2rem;
-  margin-top: 3rem;
 }
 
 .fssheading1 {
@@ -149,10 +148,18 @@ a {
 }
 
 .form {
-  margin: 2rem;
+  display: flex;
+  column-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 2rem;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
   .secondsection {
     margin: 1.5rem 6rem;
     display: flex;
@@ -174,13 +181,6 @@ a {
     font-size: 1;
     text-align: center;
   }
-
-  .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 .createbtn {
@@ -198,6 +198,7 @@ a {
 .createbtnalign {
   display: block;
   margin: auto;
+  text-align: center;
   margin-bottom: 3rem;
 }
 
@@ -261,8 +262,12 @@ a {
 
 /* Circles Styles */
 
+.no_circle {
+  margin: 0 2rem;
+}
+
 .circles {
-  margin: 2rem;
+  margin: 1rem 2rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -276,7 +281,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
   .circles_container {
     display: block;
     margin: auto;
@@ -333,7 +338,7 @@ a {
 
 /* Third Section Styles */
 .thirdsection {
-  margin: 2rem;
+  margin: 2rem 2rem 1rem;
 }
 
 .tssheading1 {
@@ -348,7 +353,7 @@ a {
   color: #f78c40;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
   .thirdsection {
     margin: 2rem 6rem;
   }
@@ -398,7 +403,7 @@ a {
   column-gap: 3vw;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
   .cards_container {
     margin-top: 6vh;
     display: grid;
