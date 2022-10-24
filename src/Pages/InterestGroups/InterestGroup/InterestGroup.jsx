@@ -68,26 +68,40 @@ const InterestGroup = ({ setInterest }) => {
               <p className={styles.fv_content}>
                 {data[0].interestgroupdescription}
               </p>
-              <p className={styles.officehrs}>
-                <span>Office Hours</span> {data[0].officetime} at{" "}
-                {data[0].officeplace}
-              </p>
-              <p className={styles.community}>
-                <span>Community Partner</span> {data[0].community[0]}
-              </p>
-              <div className={styles.fv_buttons}>
-                <Link to={link}>
-                  <button className={styles.create}>
-                    Create Learning Circles
-                  </button>
-                </Link>
+              
+              {data[0].officetime && (
+                <p className={styles.officehrs}>
+                  <span>Office Hours</span> {data[0].officetime}
+                  {data[0].officeplace}
+                </p>
+              )}
 
-                <Link to={`/searchcircles`}>
-                  <button class={styles.search_button}>
-                    Search Existing Circles
-                  </button>
-                </Link>
-              </div>
+              {data[0].community[0] && (
+                <p className={styles.community}>
+                  <span>Community Partner</span> {data[0].community[0]}
+                </p>
+              )}
+
+              {!data[0].comingsoon && (
+                <div className={styles.fv_buttons}>
+                  <Link to={link}>
+                    <button className={styles.create}>
+                      Create Learning Circles
+                    </button>
+                  </Link>
+
+                  <Link to={`/searchcircles`}>
+                    <button class={styles.search_button}>
+                      Search Existing Circles
+                    </button>
+                  </Link>
+                </div>
+              )}
+              {data[0].comingsoon && (
+                <div className={styles.fv_buttons}>
+                  <button className={styles.create}>Coming Soon</button>
+                </div>
+              )}
             </div>
 
             <div className={styles.fv_image}>
@@ -99,73 +113,147 @@ const InterestGroup = ({ setInterest }) => {
             </div>
           </div>
         </div>
-        <div className={styles.second_view_container}>
-          <div className={styles.second_view}>
-            <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>Mentor Details</p>
-              <p className={styles.sv_content}>
-                Have Doubts? Our Mentors are here to help you get all your
-                doubts cleared and help you along your journey. Join in for our
-                Office Hours and get all your doubts cleared.
-              </p>
 
-              <div className={styles.mentor_container}>
-                <div className={styles.mentors}>
-                  {data[0].mentorscard.map((mentor) => (
-                    <MentorCard
-                      name={mentor.name}
-                      designation={mentor.designation}
-                      image={mentor.image}
-                      linkedIn={mentor.linkedIn}
-                      interest={mentor.stack ? mentor.stack : ""}
-                    />
-                  ))}
+        {data[0].mentors && data[0].mentors[0] && (
+          <div className={styles.second_view_container}>
+            <div className={styles.second_view}>
+              <div className={styles.sv_texts}>
+                <p className={styles.sv_heading}>Mentor Details</p>
+                <p className={styles.sv_content}>
+                  Have Doubts? Our Mentors are here to help you get all your
+                  doubts cleared and help you along your journey. Join in for
+                  our Office Hours and get all your doubts cleared.
+                </p>
+
+                <div className={styles.mentor_container}>
+                  <div className={styles.mentors}>
+                    {data[0].mentorscard.map((mentor) => (
+                      <MentorCard
+                        name={mentor.name}
+                        designation={mentor.designation}
+                        image={mentor.image}
+                        linkedIn={mentor.linkedIn}
+                        interest={mentor.stack ? mentor.stack : ""}
+                      />
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        )}
+
+        {data[0].corecourses && data[0].corecourses[0] && (
+          <div className={styles.table_view_container}>
+            <div className={styles.table_view}>
+              <div className={styles.tav_texts}>
+                <p className={styles.tav_heading}>Core Tasks</p>
+                <p className={styles.tav_contents}>
+                  Every subject or skill has some core set of things to be
+                  learned. Here are a few resources curated by us to understand
+                  them.
+                </p>
+              </div>
+
+              <div className={styles.tav_tasks_container}>
+                <div className={styles.tav_tasks}>
+                  <TableContainer component={Paper}>
+                    <Table sx={{ minWidth: 700 }} aria-label="customized table">
+                      <TableHead>
+                        <TableRow>
+                          <StyledTableCell>Core Course's Name</StyledTableCell>
+                          <StyledTableCell align="right">
+                            Core Course's Link
+                          </StyledTableCell>
+                          {/* <StyledTableCell align="right">
+                          Complexity (Out of 5)
+                        </StyledTableCell> */}
+                          <StyledTableCell align="right">
+                            Karma Points
+                          </StyledTableCell>
+                          {/* <StyledTableCell align="right">Time</StyledTableCell> */}
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {data[0].corecourses &&
+                          data[0].corecourses.map((corecourse) => (
+                            <StyledTableRow key={corecourse.name}>
+                              <StyledTableCell component="th" scope="row">
+                                {corecourse.name}
+                              </StyledTableCell>
+                              <StyledTableCell align="right">
+                                <a
+                                  href={corecourse.link}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <span className={styles.link}>
+                                    Click Here
+                                  </span>
+                                </a>
+                              </StyledTableCell>
+                              {/* <StyledTableCell align="right">
+                              {corecourse.complexity}
+                            </StyledTableCell> */}
+                              <StyledTableCell align="right">
+                                {corecourse.karma}
+                              </StyledTableCell>
+                              {/* <StyledTableCell align="right">
+                              {corecourse.time}
+                            </StyledTableCell> */}
+                            </StyledTableRow>
+                          ))}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         <div className={styles.table_view_container}>
           <div className={styles.table_view}>
-            <div className={styles.tav_texts}>
-              <p className={styles.tav_heading}>Core Tasks</p>
-              <p className={styles.tav_contents}>
-                Every subject or skill has some core set of things to be
-                learned. Here are a few resources curated by us to understand
-                them.
-              </p>
-            </div>
+            {data[0].subcourses && data[0].subcourses[0] && (
+              <div className={styles.tav_texts}>
+                <p className={styles.tav_heading}>Sub Courses</p>
+                <p className={styles.tav_contents}>
+                  These courses will help you have a much better grasp over the
+                  domain. Learning these will always be an important advantage
+                  for your upcoming journey.
+                </p>
+              </div>
+            )}
 
-            <div className={styles.tav_tasks_container}>
-              <div className={styles.tav_tasks}>
-                <TableContainer component={Paper}>
-                  <Table sx={{ minWidth: 700 }} aria-label="customized table">
-                    <TableHead>
-                      <TableRow>
-                        <StyledTableCell>Core Course's Name</StyledTableCell>
-                        <StyledTableCell align="right">
-                          Core Course's Link
-                        </StyledTableCell>
-                        {/* <StyledTableCell align="right">
+            {data[0].subcourses && data[0].subcourses[0] && (
+              <div className={styles.tav_tasks_container}>
+                <div className={styles.tav_tasks}>
+                  <TableContainer component={Paper}>
+                    <Table sx={{ minWidth: 700 }} aria-label="customized table">
+                      <TableHead>
+                        <TableRow>
+                          <StyledTableCell>Sub Course's Name</StyledTableCell>
+                          <StyledTableCell align="right">
+                            Sub Course's Link
+                          </StyledTableCell>
+                          {/* <StyledTableCell align="right">
                           Complexity (Out of 5)
                         </StyledTableCell> */}
-                        <StyledTableCell align="right">
-                          Karma Points
-                        </StyledTableCell>
-                        {/* <StyledTableCell align="right">Time</StyledTableCell> */}
-                      </TableRow>
-                    </TableHead>
-                    <TableBody>
-                      {data[0].corecourses &&
-                        data[0].corecourses.map((corecourse) => (
-                          <StyledTableRow key={corecourse.name}>
+                          <StyledTableCell align="right">
+                            Karma Points
+                          </StyledTableCell>
+                          {/* <StyledTableCell align="right">Time</StyledTableCell> */}
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {data[0].subcourses.map((subcourse) => (
+                          <StyledTableRow key={subcourse.name}>
                             <StyledTableCell component="th" scope="row">
-                              {corecourse.name}
+                              {subcourse.name}
                             </StyledTableCell>
                             <StyledTableCell align="right">
                               <a
-                                href={corecourse.link}
+                                href={subcourse.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
@@ -173,120 +261,63 @@ const InterestGroup = ({ setInterest }) => {
                               </a>
                             </StyledTableCell>
                             {/* <StyledTableCell align="right">
-                              {corecourse.complexity}
-                            </StyledTableCell> */}
-                            <StyledTableCell align="right">
-                              {corecourse.karma}
-                            </StyledTableCell>
-                            {/* <StyledTableCell align="right">
-                              {corecourse.time}
-                            </StyledTableCell> */}
-                          </StyledTableRow>
-                        ))}
-                    </TableBody>
-                  </Table>
-                </TableContainer>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.table_view_container}>
-          <div className={styles.table_view}>
-            <div className={styles.tav_texts}>
-              <p className={styles.tav_heading}>Sub Courses</p>
-              <p className={styles.tav_contents}>
-                These courses will help you have a much better grasp over the
-                domain. Learning these will always be an important advantage for
-                your upcoming journey.
-              </p>
-            </div>
-
-            <div className={styles.tav_tasks_container}>
-              <div className={styles.tav_tasks}>
-                <TableContainer component={Paper}>
-                  <Table sx={{ minWidth: 700 }} aria-label="customized table">
-                    <TableHead>
-                      <TableRow>
-                        <StyledTableCell>Sub Course's Name</StyledTableCell>
-                        <StyledTableCell align="right">
-                          Sub Course's Link
-                        </StyledTableCell>
-                        {/* <StyledTableCell align="right">
-                          Complexity (Out of 5)
-                        </StyledTableCell> */}
-                        <StyledTableCell align="right">
-                          Karma Points
-                        </StyledTableCell>
-                        {/* <StyledTableCell align="right">Time</StyledTableCell> */}
-                      </TableRow>
-                    </TableHead>
-                    <TableBody>
-                      {data[0].subcourses.map((subcourse) => (
-                        <StyledTableRow key={subcourse.name}>
-                          <StyledTableCell component="th" scope="row">
-                            {subcourse.name}
-                          </StyledTableCell>
-                          <StyledTableCell align="right">
-                            <a
-                              href={subcourse.link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className={styles.link}>Click Here</span>
-                            </a>
-                          </StyledTableCell>
-                          {/* <StyledTableCell align="right">
                             {subcourse.complexity}
                           </StyledTableCell> */}
-                          <StyledTableCell align="right">
-                            {subcourse.karma}
-                          </StyledTableCell>
-                          {/* <StyledTableCell align="right">
+                            <StyledTableCell align="right">
+                              {subcourse.karma}
+                            </StyledTableCell>
+                            {/* <StyledTableCell align="right">
                             {subcourse.time}
                           </StyledTableCell> */}
-                        </StyledTableRow>
-                      ))}
-                    </TableBody>
-                  </Table>
-                </TableContainer>
+                          </StyledTableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                </div>
               </div>
-            </div>
+            )}
+
             <div className={styles.learning_paths}>
-              <div className={styles.sv_texts}>
-                <p className={styles.sv_heading}>Learning Paths</p>
-                <p className={styles.sv_content}>
-                  Having a plan/roadmap before to reach the destination on time
-                  is a great advantage. Here are some learning paths for you to
-                  follow.
-                </p>
-                <ul className={styles.sv_lists}>
-                  {data[0].learningpaths.map((learningpath) => (
-                    <li className={styles.list_item}>
-                      <a
-                        href={learningpath.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {learningpath.name} -{" "}
-                        <span className={styles.link}>Click Here</span>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className={styles.sv_texts}>
-                <p className={styles.sv_heading}>Opportunities</p>
-                <p className={styles.sv_content}>
-                  Learning a new skill always brings in new opportunties. Here
-                  are some possible opportunties/roles you could grab by
-                  learning this skill.
-                </p>
-                <ul className={styles.sv_lists}>
-                  {data[0].opportunities.map((opportunity) => (
-                    <li className={styles.list_item}>{opportunity}</li>
-                  ))}
-                </ul>
-              </div>
+              {data[0].learningpaths && data[0].learningpaths[0] && (
+                <div className={styles.sv_texts}>
+                  <p className={styles.sv_heading}>Learning Paths</p>
+                  <p className={styles.sv_content}>
+                    Having a plan/roadmap before to reach the destination on
+                    time is a great advantage. Here are some learning paths for
+                    you to follow.
+                  </p>
+                  <ul className={styles.sv_lists}>
+                    {data[0].learningpaths.map((learningpath) => (
+                      <li className={styles.list_item}>
+                        <a
+                          href={learningpath.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {learningpath.name} -{" "}
+                          <span className={styles.link}>Click Here</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {data[0].opportunities && data[0].opportunities[0] && (
+                <div className={styles.sv_texts}>
+                  <p className={styles.sv_heading}>Opportunities</p>
+                  <p className={styles.sv_content}>
+                    Learning a new skill always brings in new opportunties. Here
+                    are some possible opportunties/roles you could grab by
+                    learning this skill.
+                  </p>
+                  <ul className={styles.sv_lists}>
+                    {data[0].opportunities.map((opportunity) => (
+                      <li className={styles.list_item}>{opportunity}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
             <div className={styles.learning_paths}>
               {data[0].people && (
