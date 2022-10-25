@@ -294,7 +294,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Ever wondered how web applications are built? Everything seems Greek until you get to know how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
     officetime: "Saturday 7:30 PM",
-    officeplace: "at Discord Lobby",
+    officeplace: " at Discord Lobby",
     community: ["Pygrammers"],
     opportunities: [
       "Full Stack Web Developer",
@@ -487,7 +487,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Everything is at your fingertips, and you still don't know the working and stages of android development. Have you ever thought of exploring? Don't worry; Join our Android Development Interest Group right away and start feeding your curious minds from the basics.",
     officetime: "Thursday 7:30PM",
-    officeplace: "at Discord Lobby",
+    officeplace: " at Discord Lobby",
     community: ["Google"],
     opportunities: [
       "Flutter Developer",
@@ -577,7 +577,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Having an extra layer of security is always an advantage in the current world. The best way to prevent a cyber attack is to learn how it works and block all the loopholes that allow it. Want to learn? Join our Interest Group and learn from our expert mentors.",
     officetime: "Sunday 7:30PM",
-    officeplace: "at Discord Lobby",
+    officeplace: " at Discord Lobby",
     community: ["Beagle Security"],
     opportunities: [
       "Malware Analyst",

@@ -19,6 +19,14 @@
   font-weight: 700;
 }
 
+.fv_heading_entre{
+  font-family: "Noto Sans", sans-serif;
+  color: #f6842c;
+  font-size: 2.25rem;
+  line-height: 4rem;
+  font-weight: 700;
+}
+
 .fv_content {
   margin-top: 0.5rem;
   font-family: "Poppins", sans-serif;
@@ -94,7 +102,7 @@
     margin: 3rem 0;
   }
 
-  .fv_heading {
+  .fv_heading,  .fv_heading_entre {
     font-size: 4.25rem;
   }
 
