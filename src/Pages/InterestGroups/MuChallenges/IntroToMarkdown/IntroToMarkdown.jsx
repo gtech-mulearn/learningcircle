@@ -97,7 +97,6 @@ const IntroToMarkdown = () => {
                   <div className='timeline__event__content'>
                     <div className='timeline__event__title'>Step Three</div>
                     <div className='timeline__event__description'>
-                      {/* Go through the <code>README.md</code> file. Read the instructions carefully, create the repository and complete the 4 steps. */}
                       Post the repository URL of the file you've worked on in{" "}
                       <b>#students</b> channel with hashtag{" "}
                       <b>#ge-intro-to-markdown</b> (see example message below)
@@ -107,7 +106,7 @@ const IntroToMarkdown = () => {
               </div>
             </div>
             <ExampleMsg
-              course='Intro to Markdown course'
+              linkText="Hi! I've completed the Intro to Markdown course."
               link='https://github.com/Angelrose19/intro-to-markdown'
               hashtag='#ge-intro-to-markdown'
             />

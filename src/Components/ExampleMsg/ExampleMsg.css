@@ -18,8 +18,8 @@
 
 .sample_img {
   margin-top: 1rem;
-  width: 20rem;
   border-radius: 5px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -42,7 +42,6 @@
 
   .sample_img {
     margin-top: 1rem;
-    width: 35rem;
     border-radius: 5px;
   }
 }
