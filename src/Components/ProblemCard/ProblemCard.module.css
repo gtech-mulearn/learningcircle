@@ -19,6 +19,7 @@
 .readhide {
   color: #f78c40;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .contribute {
