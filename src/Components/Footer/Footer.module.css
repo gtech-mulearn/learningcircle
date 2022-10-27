@@ -57,17 +57,29 @@
   color: #f1954a;
 }
 
-.social {
+/* .social{
   width: 2rem;
   margin-top: 2rem;
   margin-right: 1rem;
+  fill: white;
+  
 }
 
 .social:hover{
--webkit-transform: scale(0.8);
--ms-transform: scale(0.8);
-transform: scale(0.8);
-transition: 0.5s ease;
+fill: #f78c40 !important;
+} */
+
+svg {
+  width: 2.2rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  fill: white;
+  border-radius: 2px;
+
+}
+svg:hover {
+  fill: #f78c40 !important;
+
 }
 
 @media only screen and (min-width: 1000px) {
