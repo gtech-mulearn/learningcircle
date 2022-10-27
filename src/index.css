@@ -5,3 +5,7 @@
 html {
     scroll-behavior: smooth;
 }
+
+.text-lg a:hover {
+    color: black;
+}
