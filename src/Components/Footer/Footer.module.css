@@ -57,19 +57,55 @@
   color: #f1954a;
 }
 
-.social {
+.social_tw {
   width: 2rem;
   margin-top: 2rem;
   margin-right: 1rem;
 }
 
-.social:hover{
--webkit-transform: scale(0.8);
--ms-transform: scale(0.8);
-transform: scale(0.8);
-transition: 0.5s ease;
+.social_tw:hover{
+content: url(/public/assets/footer/twitter-2.png);
 }
 
+.social_in {
+  width: 2rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.social_in:hover{
+content: url(/public/assets/footer/instagram-2.png);
+}
+
+.social_ln {
+  width: 2rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.social_ln:hover{
+content: url(/public/assets/footer/linkedin-2.png);
+}
+
+.social_yt {
+  width: 2rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.social_yt:hover{
+content: url(/public/assets/footer/youtube-2.png);
+}
+
+.social_fb {
+  width: 2rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.social_fb:hover{
+content: url(/public/assets/footer/facebook-2.png);
+}
 @media only screen and (min-width: 1000px) {
   .first_section {
     display: flex;
