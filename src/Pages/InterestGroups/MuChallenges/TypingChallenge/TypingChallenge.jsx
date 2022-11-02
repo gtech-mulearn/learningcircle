@@ -87,7 +87,7 @@ const TypingChallenge = () => {
               </p>
               <img
                 className={styles.sample_img}
-                src="/assets/challenge/typingsample.png"
+                src="/assets/challenge/typingsample.webp"
                 alt=""
                 srcset=""
               />
