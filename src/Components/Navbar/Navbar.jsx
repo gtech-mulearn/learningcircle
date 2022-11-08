@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="z-50 p-5 mt-1 lg:w-auto w-full flex justify-between">
           <a href="https://mulearn.org/">
             <img
-              src="/assets/navbar/µLearn.png"
+              src="/assets/navbar/µLearn.webp"
               alt="logo"
               className="lg:cursor-pointer h-8"
             />

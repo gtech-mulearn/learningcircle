@@ -81,16 +81,16 @@ export const links = [
             name: "Art of Teaching",
             link: "https://mulearn.org/artofteaching",
           },
-          {
-            name: "Hacktober Fest",
-            link: "https://mulearn.org/hacktoberfest",
-          },
         ],
       },
       {
         Head: "Others",
         sublink: [
           { name: "Wiki Syllabus", link: "https://mulearn.org/wikisyllabus" },
+          {
+            name: "Hacktober Fest",
+            link: "https://mulearn.org/hacktoberfest",
+          },
         ],
       },
     ],
