@@ -39,7 +39,7 @@ const Footer = () => {
               <img
                 src="/assets/footer/twitter.webp"
                 alt=""
-                className={styles.social}
+                className={styles.social_tw}
               />
             </a>
             <a
@@ -50,7 +50,7 @@ const Footer = () => {
               <img
                 src="/assets/footer/instagram.webp"
                 alt="ig"
-                className={styles.social}
+                className={styles.social_in}
               />
             </a>
             <a
@@ -61,7 +61,7 @@ const Footer = () => {
               <img
                 src="/assets/footer/linkedin.webp"
                 alt="li"
-                className={styles.social}
+                className={styles.social_ln}
               />
             </a>
             <a
@@ -72,7 +72,7 @@ const Footer = () => {
               <img
                 src="/assets/footer/youtube.webp"
                 alt="yt"
-                className={styles.social}
+                className={styles.social_yt}
               />
             </a>
             <a
@@ -83,7 +83,7 @@ const Footer = () => {
               <img
                 src="/assets/footer/facebook.webp"
                 alt="fb"
-                className={styles.social}
+                className={styles.social_fb}
               />
             </a>
           </div>
