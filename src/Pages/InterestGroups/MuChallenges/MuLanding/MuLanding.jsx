@@ -53,6 +53,11 @@ const MuLanding = () => {
                   mclink="/common/enablement/2"
                 />
                 <MentorCard
+                  name="Intro to µLearn"
+                  designation="Welcome to the Land of μLearn. Time to start your µ-Journey! "
+                  mclink="/challenge/intro-to-mulearn"
+                />
+                <MentorCard
                   name="Introduction to GitHub"
                   designation="The aim of the course is to teach you about GitHub and its numerous tools and processes, such as Issues and Pull Requests."
                   mclink="/challenge/intro-to-github"
