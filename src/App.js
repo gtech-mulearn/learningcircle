@@ -26,6 +26,7 @@ import IoTCourse from "./Pages/InterestGroups/InterestGroup/Course/iot/IoTCourse
 import CybersecCourse from "./Pages/InterestGroups/InterestGroup/Course/cybersec/CybersecCourse";
 import CommonCourse from "./Pages/InterestGroups/InterestGroup/Course/common/CommonCourse";
 import TrafficLightSimulation from "./Pages/InterestGroups/MuChallenges/TrafficLightSimulation/TrafficLightSimulation";
+import IntroToMulearn from "./Pages/InterestGroups/MuChallenges/IntroToMuLearn/IntroToMuLearn";
 
 function App() {
   //Home Page state Variables
@@ -188,6 +189,10 @@ function App() {
           <Route
             path="/challenge/intro-to-github"
             element={<IntroToGithub />}
+          />
+          <Route
+            path="/challenge/intro-to-mulearn"
+            element={<IntroToMulearn />}
           />
           <Route
             path="/challenge/intro-to-markdown"
