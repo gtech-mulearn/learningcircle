@@ -55,13 +55,13 @@ const TypingChallenge = () => {
                     Post the screenshot of your progress when you reach Level
                     126 in #students channel with hashtag{" "}
                     <b>#ge-typing-challenge-126 </b>
-                    to avail <b>100 Karma Points</b>
+                    to avail <b>200 Karma Points</b>
                   </li>
                   <li>
                     Post the screenshot of your progress when you reach Level
                     285 in #students channel with hashtag{" "}
                     <b>#ge-typing-challenge-285 </b>
-                    to avail <b>100 Karma Points</b>
+                    to avail <b>200 Karma Points</b>
                   </li>
                   <li>
                     Post the screenshot of your progress when you reach Level
