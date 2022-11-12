@@ -100,10 +100,7 @@ const Footer = () => {
               </p>
 
               <p className={styles.mail}>
-                <a
-                  style={{ fontWeight: 500 }}
-                  href="mailto:mulearn@gtechindia.org"
-                >
+                <a href="mailto:mulearn@gtechindia.org">
                   mulearn@gtechindia.org
                 </a>
               </p>
@@ -128,6 +125,10 @@ const Footer = () => {
             </div>
           </div> */}
         </div>
+      </div>
+      <div className={styles.bottomcopyright}>
+        <div className={styles.line2}></div>
+        <p>GTech µLearn | Copyright © 2022 All rights reserved.</p>
       </div>
     </div>
   );
