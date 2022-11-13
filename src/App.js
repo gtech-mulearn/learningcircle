@@ -27,6 +27,7 @@ import CybersecCourse from "./Pages/InterestGroups/InterestGroup/Course/cybersec
 import CommonCourse from "./Pages/InterestGroups/InterestGroup/Course/common/CommonCourse";
 import TrafficLightSimulation from "./Pages/InterestGroups/MuChallenges/TrafficLightSimulation/TrafficLightSimulation";
 import IntroToMulearn from "./Pages/InterestGroups/MuChallenges/IntroToMuLearn/IntroToMuLearn";
+import APISetu from "./Pages/APISetu/APISetu";
 
 function App() {
   //Home Page state Variables
@@ -223,6 +224,7 @@ function App() {
           <Route path="/cybersec/:type/:id" element={<CybersecCourse />} />
           <Route path="/common/:type/:id" element={<CommonCourse />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/apisetu" element={<APISetu />} />
           <Route
             path="/searchcircles"
             element={

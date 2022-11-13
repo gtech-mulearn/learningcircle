@@ -1,0 +1,39 @@
+.problem_card_container {
+  width: 325px;
+  margin: 2rem 0;
+  box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  padding: 25px 25px;
+  border-radius: 10px;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  margin-top: 1rem;
+}
+
+.label span,
+.readhide {
+  color: #f78c40;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contribute {
+  font-size: 0.9rem;
+  padding: 0.25rem 2rem;
+  margin-top: 0.75rem;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #f78c40;
+}
+
+@media only screen and (min-width: 1000px) {
+  .problem_card_container {
+    width: 400px;
+  }
+}
