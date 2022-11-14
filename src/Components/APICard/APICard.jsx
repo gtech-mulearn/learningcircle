@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./APICard.module.css";
 
-const APICard = ({id, api, details, link}) => {
+const APICard = ({ id, api, details, link }) => {
   const ReadMore = ({ children }) => {
     const text = children;
     const [isReadMore, setIsReadMore] = useState(true);
@@ -27,7 +27,11 @@ const APICard = ({id, api, details, link}) => {
           <p className={styles.label}>{api}</p>
           <p className={styles.label}>API Description</p>
           <ReadMore>{details}</ReadMore>
-          {link && <button className={styles.contribute}>Try Out</button>}
+          {link && (
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <button className={styles.contribute}>Try Out</button>
+            </a>
+          )}
         </div>
       </div>
     </div>

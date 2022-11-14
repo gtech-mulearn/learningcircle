@@ -158,6 +158,10 @@ export const links = [
             name: "Courses",
             link: "/courses",
           },
+          {
+            name: "APISetu",
+            link: "/apisetu",
+          },
         ],
       },
       {
