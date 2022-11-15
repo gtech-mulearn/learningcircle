@@ -57,8 +57,12 @@ const IntroToMulearn = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step One</div>
                     <div className="timeline__event__description">
-                      Login to{" "}
-                      <a href="https://mulearn.atfg.gtechindia.org/page/intro-to-mulearn">
+                      Register an account on{" "}
+                      <a
+                        href="https://mulearn.atfg.gtechindia.org/page/intro-to-mulearn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         mulearn.atfg.gtechindia.org
                       </a>
                     </div>
@@ -76,16 +80,21 @@ const IntroToMulearn = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Two</div>
                     <div className="timeline__event__description">
-                      Save the changes After course completion, share the
-                      certificate in <b>#students</b> channel with hashtag{" "}
-                      <b>#ge-intro-to-mulearn</b> and also mention the name of
-                      the Learning circle you have created.
+                      You’ll receive a login code in your{" "}
+                      <a
+                        href="https://mail.google.com/mail/u/0/#inbox"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        mail
+                      </a>{" "}
+                      to activate your account.
                       {/* <br />
                       <a href="#step2">see screenshot ↓</a> */}
                     </div>
                   </div>
                 </div>
-                {/* <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
                   <div className="timeline__event__icon">
                     <img
                       src={require("../assets/steps/freecodecamp.svg").default}
@@ -97,13 +106,13 @@ const IntroToMulearn = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Three</div>
                     <div className="timeline__event__description">
-                      Navigate to{" "}
+                      After activating the account, log onto
                       <a
-                        rel="noreferrer"
+                        href=" https://mulearn.atfg.gtechindia.org/page/intro-to-mulearn"
                         target="_blank"
-                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app"
+                        rel="noopener noreferrer"
                       >
-                        https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app
+                        mulearn.atfg.gtechindia.org/page/intro-to-mulearn
                       </a>
                     </div>
                   </div>
@@ -120,8 +129,8 @@ const IntroToMulearn = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Four</div>
                     <div className="timeline__event__description">
-                      Complete the{" "}
-                      <b>Learn HTML by building a Cat Photo App course</b>
+                      <b>Create a learning circle inside your campus</b>,
+                      complete the course, and download the certificate.
                     </div>
                   </div>
                 </div>
@@ -137,15 +146,14 @@ const IntroToMulearn = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Five</div>
                     <div className="timeline__event__description">
-                      After course completion, share the certificate in
+                      After course completion, share the certificate in{" "}
                       <b>#students</b> channel with hashtag{" "}
-                      <b>#ge-intro-to-html</b> to avail karma points. (see
-                      example message below)
-                      <br />
-                      <a href="#step5">see screenshot ↓</a>
+                      <b>#ge-intro-to-mulearn</b> and also mention the name of
+                      the learning circle you have created.
+                      {/* <a href="#step5">see screenshot ↓</a> */}
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
 
