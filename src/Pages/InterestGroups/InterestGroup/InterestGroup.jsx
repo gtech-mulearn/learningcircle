@@ -65,7 +65,9 @@ const InterestGroup = ({ setInterest }) => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               {data[0].interestgroup === "Entrepreneurship" && (
-                <p className={styles.fv_heading_entre}>{data[0].interestgroup}</p>
+                <p className={styles.fv_heading_entre}>
+                  {data[0].interestgroup}
+                </p>
               )}
               {!(data[0].interestgroup === "Entrepreneurship") && (
                 <p className={styles.fv_heading}>{data[0].interestgroup}</p>
@@ -96,11 +98,15 @@ const InterestGroup = ({ setInterest }) => {
                     </button>
                   </Link>
 
-                  <Link to={`/searchcircles`}>
+                  <a
+                    href="https://learn.mulearn.org/searchcircles"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button class={styles.search_button}>
                       Search Existing Circles
                     </button>
-                  </Link>
+                  </a>
                 </div>
               )}
               {data[0].comingsoon && (
