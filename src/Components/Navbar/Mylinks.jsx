@@ -36,6 +36,15 @@ export const links = [
         ],
       },
       {
+        Head: "Leaderboard",
+        sublink: [
+          {
+            name: "Leaderboards",
+            link: "https://mulearn.org/leaderboard",
+          },
+        ],
+      },
+      {
         Head: "Media",
         sublink: [
           {
@@ -43,8 +52,8 @@ export const links = [
             link: "https://mulearn.org/gallery",
           },
           {
-            name: "Leaderboard",
-            link: "https://mulearn.org/leaderboard",
+            name: "News",
+            link: "https://mulearn.org/news",
           },
         ],
       },
@@ -128,6 +137,30 @@ export const links = [
             name: "Home",
             link: "/",
           },
+          {
+            name: "Web Development",
+            link: "/web",
+          },
+          {
+            name: "Android Development",
+            link: "/android",
+          },
+          {
+            name: "UI / UX",
+            link: "/uiux",
+          },
+          {
+            name: "Product Management",
+            link: "/pm",
+          },
+          {
+            name: "IoT",
+            link: "/iot",
+          },
+          {
+            name: "Cyber Security",
+            link: "/cybersec",
+          },
         ],
       },
       {
@@ -161,35 +194,6 @@ export const links = [
           {
             name: "APISetu",
             link: "/apisetu",
-          },
-        ],
-      },
-      {
-        Head: "Interest Groups",
-        sublink: [
-          {
-            name: "Web Development",
-            link: "/web",
-          },
-          {
-            name: "Android Development",
-            link: "/android",
-          },
-          {
-            name: "UI / UX",
-            link: "/uiux",
-          },
-          {
-            name: "Product Management",
-            link: "/pm",
-          },
-          {
-            name: "IoT",
-            link: "/iot",
-          },
-          {
-            name: "Cyber Security",
-            link: "/cybersec",
           },
         ],
       },
