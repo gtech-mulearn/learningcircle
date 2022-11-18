@@ -40,13 +40,13 @@ const MentorCard = ({
             <button className={styles.comingsoon}>Checkout Course</button>
           </a>
         )}
-        {mclink && (
-          <a href={mclink}>
-            {" "}
-            <button className={styles.comingsoon}>Checkout Challenge</button>
-          </a>
-        )}
       </div>
+      {mclink && (
+        <a href={mclink}>
+          {" "}
+          <button className={styles.comingsoon}>Checkout Challenge</button>
+        </a>
+      )}
     </div>
   );
 };
