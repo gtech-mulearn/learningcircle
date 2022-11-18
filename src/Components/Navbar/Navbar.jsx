@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 
-import "./Navbar.css";
-
 import NavLinks from "./NavLinks";
-
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-white ">
-      <div className="flex items-center font-medium justify-around">
-        <div className="z-50 p-5 mt-1 lg:w-auto w-full flex justify-between">
+    <nav className="bg-white z-50 border-b">
+      <div className=" flex items-center font-medium justify-around">
+        <div className={`z-30 p-5 mt-1 lg:w-auto w-full flex justify-between ${open ? "fixed top-1" : ""}`}>
           <a href="https://mulearn.org/">
             <img
               src="/assets/navbar/µLearn.webp"
@@ -46,7 +43,7 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul
           className={`
-    lg:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
+    lg:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 
     duration-500 ${open ? "left-0" : "left-[-100%]"}
     `}
         >
@@ -54,7 +51,7 @@ const Navbar = () => {
           <li>
             <a
               href="https://mulearn.org/careers"
-              className="text-black py-7 px-3 inline-block"
+              className="text-black py-7 px-7 inline-block uppercase hover:text-orange-500"
             >
               Career
             </a>

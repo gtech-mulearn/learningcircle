@@ -10,10 +10,6 @@ h2 {
     font-weight: 100;
 }
 
-a {
-    color: #f78c40;
-}
-
 .timeline {
     display: -webkit-box;
     display: -ms-flexbox;
