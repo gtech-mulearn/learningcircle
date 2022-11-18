@@ -20,7 +20,7 @@ const IoTCourse = () => {
     } else {
       setCourse("Sorry!");
     }
-  }, []);
+  }, [type, id]);
 
   return (
     <>

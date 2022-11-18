@@ -20,7 +20,7 @@ const UIUXCourse = () => {
     } else {
       setCourse("Sorry!");
     }
-  }, []);
+  }, [type, id]);
 
   return (
     <>

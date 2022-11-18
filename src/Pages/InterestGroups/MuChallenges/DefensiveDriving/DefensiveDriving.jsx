@@ -26,7 +26,7 @@ const DefensiveDriving = () => {
             <div className={styles.fv_image}>
               <img
                 src="/assets/challenge/ddriving.gif"
-                alt="Group Learning Image"
+                alt="Group Learning Pic"
                 className={styles.fv_img}
               />
             </div>
@@ -71,7 +71,7 @@ const DefensiveDriving = () => {
               <img
                 className={styles.sample_img}
                 src="/assets/challenge/ddrivingsample.png"
-                alt=""
+                alt="pic"
                 srcset=""
               />
             </ol>

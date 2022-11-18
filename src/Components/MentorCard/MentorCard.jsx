@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./MentorCard.module.css";
-import Avatar from "@mui/material/Avatar";
 
 import linkedin from "./assets/linkedin.png";
-import placeholder from "./assets/placeholder.jpeg";
 
 const MentorCard = ({
   name,

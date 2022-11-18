@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useHistory, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import learningcircles from "./assets/learningcircles.jpg";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
@@ -72,7 +72,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
     }, 3000);
 
     return () => clearTimeout(delayDebounceFn);
-  }, [join.code, setCollege]);
+  }, [join.code, setCollege, setMembers, setValid, code, id]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -80,7 +80,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
     if (id && code === "") {
       setCode(id);
     }
-  }, []);
+  }, [id, code, setCode]);
 
   const postData = () => {
     if (token) {

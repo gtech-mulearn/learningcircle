@@ -25,7 +25,7 @@ const IntroToMarkdown = () => {
             {/* <div className={styles.fv_image}>
                             <img
                                 src="/assets/challenge/typing.gif"
-                                alt="Group Learning Image"
+                                alt="Group Learning Pic"
                                 className={styles.fv_img}
                             />
                         </div> */}
@@ -44,40 +44,40 @@ const IntroToMarkdown = () => {
           </div>
 
           <div className={styles.steps}>
-            <div className='timeline-container'>
-              <div className='timeline'>
-                <div className='timeline__event animated fadeInUp delay-3s timeline__event--type1'>
-                  <div className='timeline__event__icon'>
+            <div className="timeline-container">
+              <div className="timeline">
+                <div className="timeline__event animated fadeInUp delay-3s timeline__event--type1">
+                  <div className="timeline__event__icon">
                     <img
                       src={require("../assets/steps/github.svg").default}
-                      alt=''
+                      alt=""
                       // className="lni-cake"
                     />
                   </div>
-                  <div className='timeline__event__date'>1</div>
-                  <div className='timeline__event__content'>
-                    <div className='timeline__event__title'>Step One</div>
-                    <div className='timeline__event__description'>
+                  <div className="timeline__event__date">1</div>
+                  <div className="timeline__event__content">
+                    <div className="timeline__event__title">Step One</div>
+                    <div className="timeline__event__description">
                       {/* Create a <a href="https://github.com/">GitHub Account</a> */}
                       Navigate to{" "}
-                      <a href='https://github.com/skills/communicate-using-markdown'>
+                      <a href="https://github.com/skills/communicate-using-markdown">
                         github.com/skills/communicate-using-markdown
                       </a>
                     </div>
                   </div>
                 </div>
-                <div className='timeline__event animated fadeInUp delay-2s timeline__event--type2'>
-                  <div className='timeline__event__icon'>
+                <div className="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                  <div className="timeline__event__icon">
                     <img
                       src={require("../assets/steps/readme.svg").default}
-                      alt=''
-                      className='lni-cake'
+                      alt=""
+                      className="lni-cake"
                     />
                   </div>
-                  <div className='timeline__event__date'>2</div>
-                  <div className='timeline__event__content'>
-                    <div className='timeline__event__title'>Step Two</div>
-                    <div className='timeline__event__description'>
+                  <div className="timeline__event__date">2</div>
+                  <div className="timeline__event__content">
+                    <div className="timeline__event__title">Step Two</div>
+                    <div className="timeline__event__description">
                       {/* Navigate to <a href="https://github.com/skills/introduction-to-github">github.com/skills/introduction-to-github</a> */}
                       Go through the <code>README.md</code> file. Read the
                       instructions carefully, create the repository and complete
@@ -85,18 +85,18 @@ const IntroToMarkdown = () => {
                     </div>
                   </div>
                 </div>
-                <div className='timeline__event animated fadeInUp delay-1s timeline__event--type3'>
-                  <div className='timeline__event__icon'>
+                <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                  <div className="timeline__event__icon">
                     <img
                       src={require("../assets/steps/check.svg").default}
-                      alt=''
-                      className='lni-cake'
+                      alt=""
+                      className="lni-cake"
                     />
                   </div>
-                  <div className='timeline__event__date'>3</div>
-                  <div className='timeline__event__content'>
-                    <div className='timeline__event__title'>Step Three</div>
-                    <div className='timeline__event__description'>
+                  <div className="timeline__event__date">3</div>
+                  <div className="timeline__event__content">
+                    <div className="timeline__event__title">Step Three</div>
+                    <div className="timeline__event__description">
                       Post the repository URL of the file you've worked on in{" "}
                       <b>#students</b> channel with hashtag{" "}
                       <b>#ge-intro-to-markdown</b> (see example message below)
@@ -107,8 +107,8 @@ const IntroToMarkdown = () => {
             </div>
             <ExampleMsg
               linkText="Hi! I've completed the Intro to Markdown course."
-              link='https://github.com/Angelrose19/intro-to-markdown'
-              hashtag='#ge-intro-to-markdown'
+              link="https://github.com/Angelrose19/intro-to-markdown"
+              hashtag="#ge-intro-to-markdown"
             />
           </div>
         </div>

@@ -20,7 +20,7 @@ const WebCourse = () => {
     } else {
       setCourse("Sorry!");
     }
-  }, []);
+  }, [type, id]);
 
   return (
     <>

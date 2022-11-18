@@ -28,7 +28,7 @@ const MuChallenge = () => {
             <div className={styles.fv_image}>
               <img
                 src={fvimg}
-                alt="Group Learning Image"
+                alt="Group Learning Pic"
                 className={styles.fv_img}
               />
             </div>

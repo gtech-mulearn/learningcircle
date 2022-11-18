@@ -25,7 +25,7 @@ const IntroToMulearn = () => {
             {/* <div className={styles.fv_image}>
                             <img
                                 src="/assets/challenge/typing.gif"
-                                alt="Group Learning Image"
+                                alt="Group Learning Pic"
                                 className={styles.fv_img}
                             />
                         </div> */}

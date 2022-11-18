@@ -29,7 +29,7 @@
   font-size: 1rem;
 }
 
-.first_view{
+.first_view {
   display: flex;
   flex-direction: column-reverse;
 }
