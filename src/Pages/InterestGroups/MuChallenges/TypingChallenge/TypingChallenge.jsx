@@ -25,7 +25,7 @@ const TypingChallenge = () => {
             <div className={styles.fv_image}>
               <img
                 src="/assets/challenge/typing.gif"
-                alt="Group Learning Image"
+                alt="Group Learning Pic"
                 className={styles.fv_img}
               />
             </div>
@@ -88,7 +88,7 @@ const TypingChallenge = () => {
               <img
                 className={styles.sample_img}
                 src="/assets/challenge/typingsample.webp"
-                alt=""
+                alt="pic"
                 srcset=""
               />
             </div>

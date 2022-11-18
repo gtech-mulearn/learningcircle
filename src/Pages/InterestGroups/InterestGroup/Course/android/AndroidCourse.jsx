@@ -20,7 +20,7 @@ const AndroidCourse = () => {
     } else {
       setCourse("Sorry!");
     }
-  }, []);
+  }, [type, id]);
 
   return (
     <>

@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import CourseCard from "../../Components/CourseCard/CourseCard";
 import Footer from "../../Components/Footer/Footer";
-import MentorCard from "../../Components/MentorCard/MentorCard";
+
 import Navbar from "../../Components/Navbar/Navbar";
 import styles from "./Courses.module.css";
 
@@ -25,8 +25,8 @@ const Courses = () => {
             </div>
             <div className={styles.fv_images}>
               <img
-                src='/assets/courses/fvimg.gif'
-                alt=''
+                src="/assets/courses/fvimg.gif"
+                alt=""
                 className={styles.fv_img}
               />
             </div>

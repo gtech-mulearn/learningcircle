@@ -20,7 +20,7 @@ const CybersecCourse = () => {
     } else {
       setCourse("Sorry!");
     }
-  }, []);
+  }, [type, id]);
 
   return (
     <>

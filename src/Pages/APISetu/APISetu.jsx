@@ -19,7 +19,14 @@ const APISetu = () => {
                 <span> µLearn</span> APISetu
               </p>
               <p className={styles.fv_content}>
-               API Setu provides access to information from multiple sources through a single platform. You can use APIs for a variety of use cases such KYC, university admissions and employment.An open API (often referred to as a public API) is a publicly available application programming interface that provides developers with programmatic access to a proprietary software application or web service. APIs are sets of requirements that govern how one application can communicate and interact with another.
+                API Setu provides access to information from multiple sources
+                through a single platform. You can use APIs for a variety of use
+                cases such KYC, university admissions and employment.An open API
+                (often referred to as a public API) is a publicly available
+                application programming interface that provides developers with
+                programmatic access to a proprietary software application or web
+                service. APIs are sets of requirements that govern how one
+                application can communicate and interact with another.
               </p>
             </div>
             <div className={styles.fv_image}>

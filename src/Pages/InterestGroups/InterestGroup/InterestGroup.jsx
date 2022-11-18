@@ -44,7 +44,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 const InterestGroup = ({ setInterest }) => {
   useEffect(() => {
     setInterest(id);
-  }, []);
+  }, [setInterest]);
   let { id } = useParams();
   const link = `/create/${id}`;
   const data = InterestGroups.filter(function (interestgroups) {
@@ -119,7 +119,7 @@ const InterestGroup = ({ setInterest }) => {
             <div className={styles.fv_image}>
               <img
                 src={fvimg}
-                alt="Group Learning Image"
+                alt="Group Learning pic"
                 className={styles.fv_img}
               />
             </div>

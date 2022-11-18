@@ -81,7 +81,7 @@
   }
 }
 
-.comingsoon{
+.comingsoon {
   background-color: #f78c40;
   color: white;
   margin-top: 1rem;
@@ -128,13 +128,13 @@
   }
 }
 
-.problem_list_container{
+.problem_list_container {
   display: grid;
   grid-template-columns: 90%;
 }
 
 @media only screen and (min-width: 1000px) {
-  .problem_list_container{
+  .problem_list_container {
     display: grid;
     grid-template-columns: 50% 50%;
     row-gap: 1rem;
@@ -143,7 +143,7 @@
 }
 
 @media only screen and (min-width: 1500px) {
-  .problem_list_container{
+  .problem_list_container {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     row-gap: 1rem;
