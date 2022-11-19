@@ -16,7 +16,7 @@ const APISetu = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                <span> µLearn</span> APISetu
+                <span> µLearn</span> API Setu
               </p>
               <p className={styles.fv_content}>
                 API Setu provides access to information from multiple sources
