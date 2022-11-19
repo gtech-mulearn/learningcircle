@@ -33,13 +33,18 @@ const Search = ({
   setInterest,
   interest,
 }) => {
+  // eslint-disable-next-line no-unused-vars
   const [options, setOptions] = useState("");
   const [teams, setTeams] = useState("");
 
+  // eslint-disable-next-line no-unused-vars
   const [members, setMembers] = useState("");
 
+  // eslint-disable-next-line no-unused-vars
   const [open, setOpen] = React.useState(false);
+  // eslint-disable-next-line no-unused-vars
   const handleOpen = () => setOpen(true);
+  // eslint-disable-next-line no-unused-vars
   const handleClose = () => setOpen(false);
 
   useEffect(() => {
