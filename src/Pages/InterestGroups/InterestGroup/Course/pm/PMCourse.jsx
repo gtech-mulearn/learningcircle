@@ -74,10 +74,20 @@ const PMCourse = () => {
                   </p>
                   <p className={styles.sample_message}>
                     If you are new to µLearn, do checkout
-                    <a href="mulearn.org">&nbsp;mulearn.org</a> and join us.
-                    Watch this video if you are confused with Discord
-                    Onboarding.
-                    <a href="https://youtu.be/7Oj88zF2jY0">
+                    <a
+                      href="https://mulearn.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      &nbsp;mulearn.org
+                    </a>{" "}
+                    and join us. Watch this video if you are confused with
+                    Discord Onboarding.
+                    <a
+                      href="https://youtu.be/7Oj88zF2jY0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       &nbsp;Click Here to Watch
                     </a>
                   </p>
