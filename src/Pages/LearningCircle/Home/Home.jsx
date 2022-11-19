@@ -416,7 +416,7 @@ const Home = ({
             ))}
             <div class={styles.icard}>
               <div class={styles.icard_text}>
-                <p class={styles.icardheading}>Interest Group Request</p>
+                <p class={styles.icardheading}>Interest Group Request Form</p>
                 <p class={styles.icardcontent}>
                 Your Interest Group is not listed there. No worries, you can request the formation of a new Interest Group. We will analyse it from our perspective and see whether there is a majority for a certain interest. It will be made available with all of the necessary resources.
                 </p>
