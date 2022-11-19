@@ -1,6 +1,5 @@
 .problem_card_container {
-  width: 325px;
-  margin: 2rem 0;
+  width: 100%;
   box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
   -webkit-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
@@ -30,10 +29,4 @@
   border-radius: 3px;
   color: white;
   background-color: #f78c40;
-}
-
-@media only screen and (min-width: 1000px) {
-  .problem_card_container {
-    width: 400px;
-  }
 }
