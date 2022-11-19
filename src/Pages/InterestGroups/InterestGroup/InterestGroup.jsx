@@ -321,6 +321,7 @@ const InterestGroup = ({ setInterest }) => {
                   <p className={styles.sv_content}>
                     Learning a new skill always brings in new opportunities.
                     Here are some possible opportunities/roles you could grab by
+
                     learning this skill.
                   </p>
                   <ul className={styles.sv_lists}>
