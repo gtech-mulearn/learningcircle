@@ -319,8 +319,8 @@ const InterestGroup = ({ setInterest }) => {
                 <div className={styles.sv_texts}>
                   <p className={styles.sv_heading}>Opportunities</p>
                   <p className={styles.sv_content}>
-                    Learning a new skill always brings in new opportunties. Here
-                    are some possible opportunties/roles you could grab by
+                    Learning a new skill always brings in new opportunities.
+                    Here are some possible opportunities/roles you could grab by
                     learning this skill.
                   </p>
                   <ul className={styles.sv_lists}>
@@ -397,7 +397,7 @@ const InterestGroup = ({ setInterest }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Bring Every Buisness Online
+                        Bring Every Business Online
                         <span className={styles.link}> Click Here</span>
                       </a>
                     </li>

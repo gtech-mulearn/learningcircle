@@ -44,7 +44,7 @@ const IoTData = [
         name: "What’s IoT?",
         karma: "50",
         description:
-          "IoT is known for monitoring and controlling devices remotely, and this course aims at familiarizing you with the Internet of Things. The course starts by introducing IoT.Enroll in this IoT free course and gain a free certificate.",
+          "IoT is known for monitoring and controlling devices remotely, and this course aims at familiarizing you with the Internet of Things. The course starts by introducing IoT. Enroll in this IoT free course and gain a free certificate.",
         link: "https://www.mygreatlearning.com/academy/learn-for-free/courses/what-is-iot",
         inner_description:
           "After course completion, share the certificate in #internet-of-things channel with hashtag #ge-what-is-iot",
