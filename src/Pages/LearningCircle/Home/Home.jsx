@@ -414,6 +414,23 @@ const Home = ({
                 officetime={InterestGroup.officetime}
               />
             ))}
+            <div class={styles.icard}>
+              <div class={styles.icard_text}>
+                <p class={styles.icardheading}>Interest Group Request</p>
+                <p class={styles.icardcontent}>
+                Your Interest Group is not listed there. No worries, you can request the formation of a new Interest Group. We will analyse it from our perspective and see whether there is a majority for a certain interest. It will be made available with all of the necessary resources.
+                </p>
+                {/* <p class={styles.icardcontent}>Office Hours: {officetime}</p> */}
+
+                <a
+                  href="https://airtable.com/shriAaNO6q4cQzKKl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class={styles.icardbtn}>Submit Request</button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
