@@ -44,6 +44,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 const InterestGroup = ({ setInterest }) => {
   useEffect(() => {
     setInterest(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [setInterest]);
   let { id } = useParams();
   const link = `/create/${id}`;
@@ -321,7 +322,6 @@ const InterestGroup = ({ setInterest }) => {
                   <p className={styles.sv_content}>
                     Learning a new skill always brings in new opportunities.
                     Here are some possible opportunities/roles you could grab by
-
                     learning this skill.
                   </p>
                   <ul className={styles.sv_lists}>
