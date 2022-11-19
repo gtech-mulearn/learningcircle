@@ -1079,7 +1079,7 @@ const MentorList = [
   {
     speakerID: "S120",
     name: "Robin Tommy",
-    designation: "Incubation Lab Head, Tata Consultancy Services",
+    designation: "Incubation Lab Head, TATA Consultancy Services",
     stack: "",
     image: "https://www.fayaport80.com/speakers/thumb/Robin-Tommy.jpg",
     linkedIn: "https://www.linkedin.com/in/robintommy/",

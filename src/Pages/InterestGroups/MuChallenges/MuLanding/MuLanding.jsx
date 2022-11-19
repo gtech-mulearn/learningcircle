@@ -89,7 +89,7 @@ const MuLanding = () => {
                 />
                 <MentorCard
                   name="What’s IoT?"
-                  designation="IoT is known for monitoring and controlling devices remotely, and this course aims at familiarizing you with the Internet of Things. The course starts by introducing IoT.Enroll in this IoT free course and gain a free certificate."
+                  designation="IoT is known for monitoring and controlling devices remotely, and this course aims at familiarizing you with the Internet of Things. The course starts by introducing IoT. Enroll in this IoT free course and gain a free certificate."
                   mclink="/iot/enablement/2"
                 />
 
@@ -101,18 +101,18 @@ const MuLanding = () => {
                   mclink="/challenge/traffic-light-simulation"
                 />
                 <MentorCard
-                  name="Bring Every Buisness Onilne"
+                  name="Bring Every Business Online"
                   designation="Awesome aka Bring Every Business Online is an Open Source Initiative to make an open source collection of web-pages for every business out there. To contribute to the project, all you have to do is build a website for a store or business."
                   mclink="https://awesome.mulearn.org"
                 />
                 <MentorCard
                   name="µLearn Typing Challenge"
-                  designation="Learning to master the skill of typing is always an advantage. It enables a person to be much more productive and use their time efficently and also increase the outlook of others on them."
+                  designation="Learning to master the skill of typing is always an advantage. It enables a person to be much more productive and use their time efficiently and also increase the outlook of others on them."
                   mclink="/challenge/typing"
                 />
 
                 <MentorCard
-                  name="Tata Strive Defensive Driving"
+                  name="TATA Strive Defensive Driving"
                   designation="This course in this challenge is designed to educate you about
                   defensive driving & how you can use these tips and strategies to
                   create a safer place for you as drivers and all those who use
