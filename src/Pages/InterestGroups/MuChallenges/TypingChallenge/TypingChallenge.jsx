@@ -18,7 +18,8 @@ const TypingChallenge = () => {
               <p className={styles.fv_content}>
                 Learning to master the skill of typing is always an advantage.
                 It enables a person to be much more productive and use their
-                time efficently and also increase the outlook of others on them.
+                time efficiently and also increase the outlook of others on
+                them.
               </p>
             </div>
 

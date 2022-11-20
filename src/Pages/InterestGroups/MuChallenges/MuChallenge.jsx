@@ -15,12 +15,12 @@ const MuChallenge = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                <span>1 Lakh Buisness</span> in Production
+                <span>1 Lakh Business</span> in Production
               </p>
               <p className={styles.fv_content}>
                 Learning by Solving challeges is much more interesting than
                 simply learning them. Here we have a challenge to solve and if
-                you are ready to learn, Then come let get one lakh buisness into
+                you are ready to learn, Then come let get one lakh Business into
                 production.
               </p>
             </div>

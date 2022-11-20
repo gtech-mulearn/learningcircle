@@ -412,3 +412,82 @@ a {
     column-gap: 3vw;
   }
 }
+
+/* Interest Group Card Style for Request Card */
+.icard {
+  position: relative;
+  padding: 3rem 2rem;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 1px 12px 0 rgba(193, 195, 211, 0.37);
+  /* backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px); */
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+}
+
+.icardheading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.icardbtn {
+  background-color: #fff;
+  margin-top: 1vh;
+  padding: 0.5rem 1.85rem;
+  font-size: 0.95rem;
+  color: #f59b56;
+  border: 2px solid #f59b56;
+  border-radius: 5px;
+}
+
+.icardbtn:hover {
+  background-color: #f59b56;
+  color: #ffff;
+  border: 2px solid #f59b56;
+  transition: 1s ease-in-out;
+}
+
+.icardcontent {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.icarddesign {
+  display: none;
+}
+
+@media only screen and (min-width: 1580px) {
+  .icarddesign {
+    display: block;
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(235, 235, 235);
+    padding-right: 20px;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+/* .cards-container {
+  display: grid;
+  row-gap: 3vh;
+  column-gap: 3vw;
+} */
+
+@media only screen and (min-width: 1000px) {
+  /* .cards-container {
+    margin-top: 6vh;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    row-gap: 3vh;
+    column-gap: 3vw;
+  } */
+
+  .icard {
+    padding: 2rem;
+  }
+}

@@ -173,7 +173,7 @@ const IntroToMulearn = () => {
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
                 Hey! I've completed the Intro to µLearn task and created a
-                learning circle named "Technos". <br />
+                learning circle named "Enter your Circle Name Here". <br />
                 Here's my course certificate.
                 {/* <a href="https://www.freecodecamp.org/fccf7560df4-0e1a-4d83-b820-e55c2e47a19d">
                   https://www.freecodecamp.org/fccf7560df4-0e1a-4d83-b820-e55c2e47a19d{" "}

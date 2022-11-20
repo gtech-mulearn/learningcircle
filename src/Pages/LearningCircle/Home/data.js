@@ -450,7 +450,7 @@ const InterestGroups = [
         karma: "800",
       },
       {
-        name: "Javascript Algorithms and DataStructre",
+        name: "Javascript Algorithms and Data Structure",
         link: "/web/core/2",
         complexity: "4",
         time: "",
