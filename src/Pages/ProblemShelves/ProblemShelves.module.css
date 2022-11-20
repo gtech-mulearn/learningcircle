@@ -40,7 +40,7 @@
 
 @media only screen and (min-width: 1000px) {
   .first_view_container {
-    margin: 1rem 6rem;
+    margin: 0 6rem;
   }
 
   .fv_texts {
@@ -141,7 +141,7 @@
   }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1280px) {
   .problem_list_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

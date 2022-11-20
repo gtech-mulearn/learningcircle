@@ -1,16 +1,20 @@
 .problem_card_container {
+  font-family: Poppins, sans-serif;
   width: 100%;
-  box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
-  -webkit-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
-  -moz-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  border: 2px solid var(--color-primary);
   padding: 25px 25px;
   border-radius: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.problem_card_container:hover {
+  transform: translateY(-0.5px);
 }
 
 .label {
-  font-weight: 600;
-  font-size: 1rem;
-  font-family: "Noto Sans", sans-serif;
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 1.1rem;
   margin-top: 1rem;
 }
 
