@@ -40,7 +40,7 @@
 
 @media only screen and (min-width: 1000px) {
   .first_view_container {
-    margin: 2rem 6rem;
+    margin: 0 6rem;
   }
 
   .fv_texts {
@@ -102,7 +102,7 @@
 
 @media only screen and (min-width: 1000px) {
   .second_view_container {
-    margin: 6rem;
+    margin: 1rem 6rem 2rem;
   }
 
   .sv_heading {
