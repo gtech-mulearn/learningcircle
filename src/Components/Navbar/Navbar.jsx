@@ -11,7 +11,7 @@ const Navbar = () => {
             <img
               src="/assets/navbar/µLearn.webp"
               alt="logo"
-              className="lg:cursor-pointer h-8"
+              className="lg:cursor-pointer w-32"
             />
           </a>
           <div className="text-3xl lg:hidden" onClick={() => setOpen(!open)}>
