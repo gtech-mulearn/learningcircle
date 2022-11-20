@@ -95,10 +95,10 @@ const courses = [
     categrory: "cloud_computing",
     coursername: "Salesforce Developer Catalyst",
     coursedetails:
-      "Describe key features of Salesforce technology using dierent programming languages.",
+      "Describe key features of Salesforce technology using different programming languages.",
     duration: "53 Hours 53 Minutes",
     companyname: "salesforce",
-    link: "Salesforce Developer: Certified programming course (futureskillsprime.in)",
+    link: "https://futureskillsprime.in/course/salesforce-developer-catalyst",
   },
   {
     id: "11",
