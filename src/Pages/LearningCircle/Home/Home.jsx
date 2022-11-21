@@ -19,7 +19,6 @@ import Typography from "@mui/material/Typography";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import Modal from "@mui/material/Modal";
-import CircularProgress from "@mui/material/CircularProgress";
 
 import BeagleSecurity from "./assets/Others/BeagleSecurity.png";
 import FoxLabs from "./assets/Others/FoxLabs.png";
@@ -30,6 +29,7 @@ import illustrations from "./assets/illustrations.png";
 import InterestCard from "../../../Components/InterestCard/InterestCard";
 
 import InterestGroups from "./data.js";
+import Preloader from "../../../Components/Preloader/Preloader";
 
 const Home = ({
   backenderr,
@@ -418,7 +418,11 @@ const Home = ({
               <div class={styles.icard_text}>
                 <p class={styles.icardheading}>Interest Group Request Form</p>
                 <p class={styles.icardcontent}>
-                Your Interest Group is not listed there. No worries, you can request the formation of a new Interest Group. We will analyse it from our perspective and see whether there is a majority for a certain interest. It will be made available with all of the necessary resources.
+                  Your Interest Group is not listed there. No worries, you can
+                  request the formation of a new Interest Group. We will analyse
+                  it from our perspective and see whether there is a majority
+                  for a certain interest. It will be made available with all of
+                  the necessary resources.
                 </p>
                 {/* <p class={styles.icardcontent}>Office Hours: {officetime}</p> */}
 
@@ -470,11 +474,7 @@ const Home = ({
             alignItems: "center",
           }}
         >
-          <CircularProgress />
-          <br />
-          <p className={styles.loading}>
-            Learning is Being Loaded, Please Wait!
-          </p>
+          <Preloader />
         </Box>
       </>
     );
