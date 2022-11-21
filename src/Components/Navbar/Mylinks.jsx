@@ -43,8 +43,12 @@ export const links = [
         submenu: true,
         sublinks: [
           {
-            name: "Leaderboards",
+            name: "Overall Leaderboards",
             link: mainlink + "/leaderboard",
+          },
+          {
+            name: "Monthly Leaderboards",
+            link: mainlink + "/leaderboard/monthly",
           },
         ],
       },
