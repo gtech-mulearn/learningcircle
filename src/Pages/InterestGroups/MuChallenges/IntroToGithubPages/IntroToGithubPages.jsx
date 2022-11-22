@@ -80,7 +80,11 @@ const IntroToGithubPages = () => {
                     <div className="timeline__event__description">
                       {/* Login to  <a href="https://www.freecodecamp.org/">freecodecamp.org</a> */}
                       Navigate to{" "}
-                      <a href="https://github.com/skills/github-pages">
+                      <a
+                        href="https://github.com/skills/github-pages"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         https://github.com/skills/github-pages
                       </a>
                     </div>

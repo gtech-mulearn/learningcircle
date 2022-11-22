@@ -46,7 +46,14 @@ const TypingChallenge = () => {
           <div className={styles.steps}>
             <ol className={styles.steps_olist}>
               <li>
-                Login to <a href="https://www.typingclub.com/">Typing Club</a>
+                Login to{" "}
+                <a
+                  href="https://www.typingclub.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Typing Club
+                </a>
               </li>
               <li>Start your typing lessons.</li>
               <li>

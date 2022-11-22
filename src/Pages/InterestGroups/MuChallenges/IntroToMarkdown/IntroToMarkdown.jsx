@@ -60,7 +60,11 @@ const IntroToMarkdown = () => {
                     <div className="timeline__event__description">
                       {/* Create a <a href="https://github.com/">GitHub Account</a> */}
                       Navigate to{" "}
-                      <a href="https://github.com/skills/communicate-using-markdown">
+                      <a
+                        href="https://github.com/skills/communicate-using-markdown"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         github.com/skills/communicate-using-markdown
                       </a>
                     </div>

@@ -44,7 +44,13 @@ const TrafficLightSimulation = () => {
                     <div className="timeline__event__title">Step One</div>
                     <div className="timeline__event__description">
                       Create a simulation of the following Arduino project in{" "}
-                      <a href="https://www.tinkercad.com/login">Tinkercard</a>
+                      <a
+                        href="https://www.tinkercad.com/login"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Tinkercard
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -116,8 +122,8 @@ const TrafficLightSimulation = () => {
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
-                Submit the project link from Tinkercad in #students channel
-                with the hashtag #ge-iot-traffic-light
+                Submit the project link from Tinkercad in #students channel with
+                the hashtag #ge-iot-traffic-light
               </p>
             </div>
           </div>

@@ -74,7 +74,11 @@ const IntroToCommandLine = () => {
                     <div className="timeline__event__description">
                       Complete the course end to end, Go through all commands
                       and try it in your own terminal{" "}
-                      <a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">
+                      <a
+                        href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         - Intro to Command Line
                       </a>
                     </div>
