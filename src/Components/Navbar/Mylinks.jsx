@@ -15,7 +15,7 @@ export const links = [
             sublinks: [],
             link: mainlink + "/team",
             foreign: false,
-          }
+          },
         ],
       },
       {
@@ -69,7 +69,7 @@ export const links = [
             sublinks: [],
             link: mainlink + "/news",
             foreign: false,
-          }
+          },
         ],
       },
       {
@@ -83,7 +83,7 @@ export const links = [
             link: mainlink + "/campuschapters",
             foreign: false,
           },
-        ]
+        ],
       },
     ],
   },
@@ -124,7 +124,8 @@ export const links = [
             sublinks: [],
             link: mainlink + "/artofteaching",
             foreign: false,
-          }],
+          },
+        ],
       },
       {
         head: 1,
@@ -165,7 +166,7 @@ export const links = [
             submenu: false,
             sublinks: [],
             foreign: false,
-          }
+          },
         ],
       },
       {
@@ -179,7 +180,7 @@ export const links = [
             submenu: false,
             sublinks: [],
             foreign: false,
-          }
+          },
         ],
       },
       {
@@ -193,7 +194,7 @@ export const links = [
             submenu: false,
             sublinks: [],
             foreign: false,
-          }
+          },
         ],
       },
     ],
@@ -309,6 +310,27 @@ export const links = [
           {
             name: "API Setu",
             link: "/apisetu",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+        ],
+      },
+      {
+        head: 3,
+        name: "Learning Circles",
+        submenu: true,
+        sublinks: [
+          {
+            name: "Create Circle",
+            link: "/create",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Join Circles",
+            link: "/join",
             submenu: false,
             sublinks: [],
             foreign: false,
