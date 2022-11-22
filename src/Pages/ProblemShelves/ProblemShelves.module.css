@@ -40,7 +40,7 @@
 
 @media only screen and (min-width: 1000px) {
   .first_view_container {
-    margin: 6rem;
+    margin: 0 6rem;
   }
 
   .fv_texts {
@@ -95,6 +95,7 @@
 
 .second_view_container {
   margin: 2rem;
+  max-width: 1300px;
 }
 
 .sv_heading {
@@ -103,6 +104,7 @@
   font-weight: 700;
   line-height: 2.75rem;
   color: #f78c40;
+  margin-bottom: 1rem;
 }
 
 .sv_content {
@@ -112,7 +114,7 @@
 
 @media only screen and (min-width: 1000px) {
   .second_view_container {
-    margin: 6rem;
+    margin: 3rem 6rem;
   }
 
   .sv_heading {
@@ -130,23 +132,18 @@
 
 .problem_list_container {
   display: grid;
-  grid-template-columns: 90%;
+  gap: 2rem;
 }
 
-@media only screen and (min-width: 1000px) {
+@media (min-width: 768px) {
   .problem_list_container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    row-gap: 1rem;
-    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1280px) {
   .problem_list_container {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    row-gap: 1rem;
-    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

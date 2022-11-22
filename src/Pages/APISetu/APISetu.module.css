@@ -40,7 +40,7 @@
 
 @media only screen and (min-width: 1000px) {
   .first_view_container {
-    margin: 6rem;
+    margin: 0 6rem;
   }
 
   .fv_texts {
@@ -102,7 +102,7 @@
 
 @media only screen and (min-width: 1000px) {
   .second_view_container {
-    margin: 6rem;
+    margin: 1rem 6rem 2rem;
   }
 
   .sv_heading {
@@ -120,23 +120,18 @@
 
 .problem_list_container {
   display: grid;
-  grid-template-columns: 90%;
+  margin-top: 2rem;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 768px) {
   .problem_list_container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    row-gap: 0.5rem;
-    column-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
   }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1300px) {
   .problem_list_container {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    row-gap: 0.5rem;
-    column-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
