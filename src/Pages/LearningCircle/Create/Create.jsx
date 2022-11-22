@@ -111,8 +111,11 @@ const Create = ({
           phone: create.phone,
           recaptcha: token,
           interest: create.interest || interest,
+          meet_place: create.meet_place,
+          meet_time: create.meet_time,
         })
         .then((response) => {
+          console.log(response);
           if (response.data.status === "success") {
             setCreate({
               code: "",
@@ -124,6 +127,8 @@ const Create = ({
               college: college,
               phone: "",
               interest: interest,
+              meet_place: "",
+              meet_time: "",
             });
             setErrors("");
             setCompleted(true);
@@ -404,6 +409,26 @@ const Create = ({
           label="Phone"
           variant="outlined"
           value={create.phone}
+          onChange={changeHandler}
+        />
+        <TextField
+          required
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          name="meet_place"
+          id="outlined-basic"
+          label="Meet Place"
+          variant="outlined"
+          value={create.meet_place}
+          onChange={changeHandler}
+        />
+        <TextField
+          required
+          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
+          name="meet_time"
+          id="outlined-basic"
+          label="Meet Time"
+          variant="outlined"
+          value={create.meet_time}
           onChange={changeHandler}
         />
 

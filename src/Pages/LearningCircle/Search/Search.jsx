@@ -225,6 +225,12 @@ const Search = ({
                           <Typography variant="body2">
                             Member Count: {team.count}
                           </Typography>
+                          <Typography variant="body2">
+                            Member Place: {team.meet_place}
+                          </Typography>
+                          <Typography variant="body2">
+                            Member Time: {team.meet_time}
+                          </Typography>
                         </CardContent>
                         <CardActions>
                           <Link to={`/join`}>

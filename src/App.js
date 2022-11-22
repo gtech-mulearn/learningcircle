@@ -59,6 +59,8 @@ function App() {
     college: college,
     phone: "",
     interest: interest,
+    meet_time: "",
+    meet_place: "",
   });
 
   //Join page State Variable
