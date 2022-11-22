@@ -59,7 +59,14 @@ const IntroToGithub = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step One</div>
                     <div className="timeline__event__description">
-                      Create a <a href="https://github.com/">GitHub Account</a>
+                      Create a{" "}
+                      <a
+                        href="https://github.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        GitHub Account
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -76,7 +83,11 @@ const IntroToGithub = () => {
                     <div className="timeline__event__title">Step Two</div>
                     <div className="timeline__event__description">
                       Navigate to{" "}
-                      <a href="https://github.com/skills/introduction-to-github">
+                      <a
+                        href="https://github.com/skills/introduction-to-github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         github.com/skills/introduction-to-github
                       </a>
                     </div>

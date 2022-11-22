@@ -47,7 +47,11 @@ const DefensiveDriving = () => {
             <ol className={styles.steps_olist}>
               <li>
                 Visit{" "}
-                <a href="http://defensivedriving.tatastrive.com">
+                <a
+                  href="http://defensivedriving.tatastrive.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Defensive Driving
                 </a>{" "}
                 and Click on the ‘Open App’ option.

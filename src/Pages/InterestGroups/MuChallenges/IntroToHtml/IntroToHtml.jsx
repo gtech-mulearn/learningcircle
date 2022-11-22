@@ -61,7 +61,11 @@ const IntroToHtml = () => {
                     <div className="timeline__event__title">Step One</div>
                     <div className="timeline__event__description">
                       Login to{" "}
-                      <a href="https://www.freecodecamp.org/">
+                      <a
+                        href="https://www.freecodecamp.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         freecodecamp.org
                       </a>
                     </div>
@@ -166,7 +170,11 @@ const IntroToHtml = () => {
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
                 Hey! I built a Cat Photo App. <br />
-                <a href="https://www.freecodecamp.org/fccf7560df4-0e1a-4d83-b820-e55c2e47a19d">
+                <a
+                  href="https://www.freecodecamp.org/fccf7560df4-0e1a-4d83-b820-e55c2e47a19d"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   https://www.freecodecamp.org/fccf7560df4-0e1a-4d83-b820-e55c2e47a19d{" "}
                 </a>
                 <br />
