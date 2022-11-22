@@ -1,7 +1,7 @@
 .problem_card_container {
   font-family: Poppins, sans-serif;
   width: 100%;
-  border: 2px solid var(--color-primary);
+  border: 2px solid #dcdcdc;
   padding: 25px 25px;
   border-radius: 10px;
   transition: all 0.3s ease-out;
@@ -12,9 +12,10 @@
 }
 
 .label {
-  color: var(--color-primary);
-  font-weight: 500;
-  font-size: 1.1rem;
+  /* color: var(--color-primary); */
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
   margin-top: 1rem;
 }
 
