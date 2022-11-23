@@ -213,10 +213,7 @@ const Create = ({
       <div className={styles.fsview}>
         <p className={styles.fsheading}>Create Learning Circles</p>
         <p className={styles.fstagline}>
-          Learning Circles are a fantastic way to learn a new skill or
-          technology. You get you learn from the different perspectives of the
-          learners in the circle. So what are you waiting for click and create a
-          circle now.
+        Learning Circles are a fantastic way to learn a new skill or technology. You get to learn from the different perspectives of the learners in the circle. So what are you waiting for? Click and create a circle now.
         </p>
       </div>
       <div className={styles.form}>

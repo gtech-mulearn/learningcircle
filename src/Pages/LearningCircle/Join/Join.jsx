@@ -202,10 +202,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
       <div className={styles.fsview}>
         <p className={styles.fsheading}>Join Learning Circles</p>
         <p className={styles.fstagline}>
-          In order to join a learning circle, you need to enter the circle code
-          as well as a secret key. Both of these credentials can be retrived
-          from your circle lead. If you already have them fill them out and you
-          are good to go!.
+        In order to join a learning circle, you need to enter the circle code as well as a secret key. Both of these credentials can be retrieved from your circle lead. If you already have them fill them out, and you are good to go!
         </p>
       </div>
 

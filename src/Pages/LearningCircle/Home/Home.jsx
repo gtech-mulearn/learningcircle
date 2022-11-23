@@ -203,13 +203,13 @@ const Home = ({
 
           <div className={styles.secondsection}>
             <div className={styles.fssheading1}>
-              <span>Search</span> Existing Learning Circles.
+              <span>Search</span> Existing Learning Circles
             </div>
             <div className={styles.fsstagline}>
-              Learning things for which you are curious is interesting, right?
-              What about learning the same thing along with a group of
-              like-minded peers and mentors, Much more interesting, right? Join
-              in Now and Start Learning!
+              µLearn currently has multiple active learning circles under
+              several interest groups. Fill in the following data to find out
+              existing learning circles near you so you can also join in and
+              learn.
             </div>
           </div>
 
@@ -398,10 +398,10 @@ const Home = ({
             <span>Existing</span> Interest Groups
           </div>
           <div className={styles.fsstagline}>
-            Learning things for which you are curious about is interesting
-            right?. What about learning the same thing along with group of
-            like-minded peer group and mentors, Much more interesting right?
-            Join in Now and Start Learning!.
+            Learning things for which you are curious is interesting, right?
+            What about learning the same thing along with a group of like-minded
+            peers and mentors, Much more interesting, right? Join in Now and
+            Start Learning!
           </div>
           <div className={styles.cards_container}>
             {InterestGroups.map((InterestGroup) => (
