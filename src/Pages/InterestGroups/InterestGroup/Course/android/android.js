@@ -13,9 +13,7 @@ const AndroidData = [
         assignment: [
           {
             assignment_description:
-              "Now that you have learnt the basics of Kotlin, it’s time to test yourselves by building a simple Todo App Manager using Kotlin. ou have all the freedom to design it however you like! Submit your completed project to the Github repository",
-            assignment_inner_description:
-              "Complete the assignment and post the Repository url in the #android-development channel of the µLearn Discord server with the hashtag #android-kotlin-intro to avail karma points.",
+              "Now that you have learnt the basics of Kotlin, it’s time to test yourselves by building a simple Todo App Manager using Kotlin. You have all the freedom to design it however you like! Submit your completed project to the Github repository",
             example:
               "Hey I’ve completed the Intro to Kotlin Course. Check my Todo App. #android-kotlin-intro",
           },

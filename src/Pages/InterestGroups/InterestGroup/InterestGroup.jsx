@@ -164,7 +164,7 @@ const InterestGroup = ({ setInterest }) => {
                 <p className={styles.tav_contents}>
                   Every subject or skill has some core set of things to be
                   learned. Here are a few resources curated by us to understand
-                  them.
+                  them
                 </p>
               </div>
 
@@ -384,12 +384,12 @@ const InterestGroup = ({ setInterest }) => {
             {data[0].challenges && (
               <div className={styles.learning_paths}>
                 <div className={styles.sv_texts}>
-                  <p className={styles.sv_heading}>MuChallenges</p>
+                  <p className={styles.sv_heading}>μChallenges</p>
                   <p className={styles.sv_content}>
-                    Learning by Solving challeges is much more interesting than
-                    simply learning them. Here we have a challenge to solve and
-                    if you are ready to learn, Then come let get one lakh
-                    Business into production.
+                    Learning by Solving challenges is much more interesting than
+                    simply learning. Here we have a challenge to solve and if
+                    you are ready to learn, then together let’s get one lakh
+                    Businesses into production.
                   </p>
                   <ul className={styles.sv_lists}>
                     <li className={styles.list_item}>
