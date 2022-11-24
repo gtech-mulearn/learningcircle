@@ -161,24 +161,27 @@ const Search = ({
                         marginRight: 1.5,
                       }}
                     >
-                      <Autocomplete
-                        id="grouped-demo"
-                        options={options.sort(
-                          (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
-                        )}
-                        isOptionEqualToValue={(option, value) =>
-                          option.value === value.value
-                        }
-                        groupBy={(option) => option.firstLetter}
-                        getOptionLabel={(option) => option.name}
-                        onChange={(event, newValue) => {
-                          setCollege(newValue.code);
-                        }}
-                        sx={{ width: 300 }}
-                        renderInput={(params) => (
-                          <TextField {...params} label="Select College" />
-                        )}
-                      />
+                      {options && (
+                        <Autocomplete
+                          id="grouped-demo"
+                          options={options.sort(
+                            (a, b) =>
+                              -b.firstLetter.localeCompare(a.firstLetter)
+                          )}
+                          isOptionEqualToValue={(option, value) =>
+                            option.value === value.value
+                          }
+                          groupBy={(option) => option.firstLetter}
+                          getOptionLabel={(option) => option.name}
+                          onChange={(event, newValue) => {
+                            setCollege(newValue.code);
+                          }}
+                          sx={{ width: 300 }}
+                          renderInput={(params) => (
+                            <TextField {...params} label="Select College" />
+                          )}
+                        />
+                      )}
                     </Box>
                   )}
                 </div>

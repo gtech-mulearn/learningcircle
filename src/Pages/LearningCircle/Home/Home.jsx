@@ -250,7 +250,7 @@ const Home = ({
               </Box>
             )}
 
-            {colleges && interest && (
+            {colleges && interest && options && (
               <Box sx={{ minWidth: 300, maxWidth: 300, marginY: 1.5 }}>
                 <Autocomplete
                   id="grouped-demo"
