@@ -325,16 +325,6 @@ const Home = ({
                         <p className={styles.circle_name}>{team.code}</p>
                         <p className={styles.circle_lead}>Lead: {team.lead}</p>
                         <p className={styles.circle_member}>Members: 10</p>
-                        {team.meet_place !== "No Data" && (
-                          <p className={styles.circle_place}>
-                            Meet Place: {team.meet_place}
-                          </p>
-                        )}
-                        {team.meet_time !== "No Data" && (
-                          <p className={styles.circle_time}>
-                            Meet Time: {team.meet_time}
-                          </p>
-                        )}
                       </div>
                       <div className={styles.buttons}>
                         <Link to={`/join`}>
