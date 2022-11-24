@@ -12,13 +12,10 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { Modal } from "@mui/material";
 
 const Search = ({
   code,
@@ -33,6 +30,18 @@ const Search = ({
   setInterest,
   interest,
 }) => {
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 400,
+    bgcolor: "background.paper",
+    boxShadow: 24,
+    borderRadius: "5px",
+    p: 4,
+  };
+
   // eslint-disable-next-line no-unused-vars
   const [options, setOptions] = useState("");
   const [teams, setTeams] = useState("");
@@ -76,9 +85,49 @@ const Search = ({
     }
   }, [college, interest]);
 
+  useEffect(() => {
+    if (code) {
+      axios
+        .get(`${process.env.REACT_APP_BACKEND_URL}/team/${code}`)
+        .then(function (response) {
+          setMembers(response.data.data.members);
+        })
+        .catch(function (error) {
+          // console.log(error);
+        });
+    }
+  }, [code]);
+
   return (
     <>
       <Navbar />
+      {members && (
+        <div>
+          <Modal
+            open={open}
+            onClose={handleClose}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            <Box sx={style}>
+              <Typography
+                id="modal-modal-title"
+                variant="h6"
+                component="h2"
+                className={styles.modaltext}
+              >
+                Members in your Circle
+              </Typography>
+
+              {members.map((member, key) => (
+                <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                  {key + 1}). {member}
+                </Typography>
+              ))}
+            </Box>
+          </Modal>
+        </div>
+      )}
       <div className={styles.main_container}>
         <div className={styles.search_container}>
           <div className={styles.first_view_container}>
@@ -236,6 +285,15 @@ const Search = ({
                               Join Circle
                             </button>
                           </Link>
+                          <button
+                            onClick={() => {
+                              setCode(team.code);
+                              handleOpen();
+                            }}
+                            className={styles.view_members}
+                          >
+                            View Members
+                          </button>
                         </div>
                       </div>
                     </>
