@@ -45,6 +45,8 @@ const Search = ({
   // eslint-disable-next-line no-unused-vars
   const [options, setOptions] = useState("");
   const [teams, setTeams] = useState("");
+  const [place, setPlace] = useState("No Data");
+  const [time, setTime] = useState("No Data");
 
   // eslint-disable-next-line no-unused-vars
   const [members, setMembers] = useState("");
@@ -69,6 +71,19 @@ const Search = ({
       );
     }
   }, [colleges]);
+
+  useEffect(() => {
+    if (code) {
+      axios
+        .get(`${process.env.REACT_APP_BACKEND_URL}/team/${code}`)
+        .then(function (response) {
+          setMembers(response.data.data.members);
+        })
+        .catch(function (error) {
+          // console.log(error);
+        });
+    }
+  }, [code]);
 
   useEffect(() => {
     if (college && interest) {
@@ -124,6 +139,22 @@ const Search = ({
                   {key + 1}). {member}
                 </Typography>
               ))}
+
+              <br />
+              <Typography
+                id="modal-modal-title"
+                variant="h6"
+                component="h2"
+                className={styles.modaltext}
+              >
+                Circle Details
+              </Typography>
+              <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                Meet Place: {place}
+              </Typography>
+              <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                Meet Place: {time}
+              </Typography>
             </Box>
           </Modal>
         </div>
@@ -269,12 +300,16 @@ const Search = ({
                             Lead: {team.lead}
                           </p>
                           <p className={styles.circle_member}>Members: 10</p>
-                          <p className={styles.circle_place}>
-                            Meet Place: {team.meet_place}
-                          </p>
-                          <p className={styles.circle_time}>
-                            Meet Time: {team.meet_time}
-                          </p>
+                          {team.meet_place !== "No Data" && (
+                            <p className={styles.circle_place}>
+                              Meet Place: {team.meet_place}
+                            </p>
+                          )}
+                          {team.meet_time !== "No Data" && (
+                            <p className={styles.circle_time}>
+                              Meet Time: {team.meet_time}
+                            </p>
+                          )}
                         </div>
                         <div className={styles.buttons}>
                           <Link to={`/join`}>
@@ -287,6 +322,8 @@ const Search = ({
                           </Link>
                           <button
                             onClick={() => {
+                              setPlace(team.meet_place);
+                              setTime(team.meet_time);
                               setCode(team.code);
                               handleOpen();
                             }}
