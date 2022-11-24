@@ -188,7 +188,7 @@ const Search = ({
               </div>
             </div>
           </div>
-          <div className={styles.circles_cointainer}>
+          <div className={styles.circles_container}>
             {teams.length > 0 && (
               <div className={styles.thirdsection}>
                 <div className={styles.tssheading1}>
@@ -207,53 +207,60 @@ const Search = ({
                 {teams.length > 0 &&
                   teams.map((team) => (
                     <>
-                      <Card sx={{ minWidth: 300, maxWidth: 300, marginY: 1 }}>
-                        <CardContent>
-                          <Typography
-                            sx={{ fontSize: 14 }}
-                            color="text.secondary"
-                            gutterBottom
-                          >
-                            Interest Group: {interest}
-                          </Typography>
-                          <Typography variant="h5" component="div">
-                            Circle Code: {team.code}
-                          </Typography>
-                          <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            Circle Lead: {team.lead}
-                          </Typography>
-                          <Typography variant="body2">
-                            Member Count: {team.count}
-                          </Typography>
-                          <Typography variant="body2">
-                            Member Place: {team.meet_place}
-                          </Typography>
-                          <Typography variant="body2">
-                            Member Time: {team.meet_time}
-                          </Typography>
-                        </CardContent>
-                        <CardActions>
+                      <div className={styles.circles_card}>
+                        <div className={styles.circle_text}>
+                          <p className={styles.interest}>
+                            Interest: {interest}
+                          </p>
+                          <p className={styles.circle_name}>{team.code}</p>
+                          <p className={styles.circle_lead}>
+                            Lead: {team.lead}
+                          </p>
+                          <p className={styles.circle_member}>Members: 10</p>
+                          <p className={styles.circle_place}>
+                            Meet Place: {team.meet_place}
+                          </p>
+                          <p className={styles.circle_time}>
+                            Meet Time: {team.meet_time}
+                          </p>
+                        </div>
+                        <div className={styles.buttons}>
                           <Link to={`/join`}>
-                            <Button
+                            <button
                               onClick={() => setCode(team.code)}
-                              size="small"
+                              className={styles.join_circle}
                             >
-                              Join Group Now!
-                            </Button>
+                              Join Circle
+                            </button>
                           </Link>
-                          {/* <Button
-                            onClick={() => {
-                              setCode(team.code);
-                              handleOpen();
-                            }}
-                            size="small"
-                          >
-                            View Members
-                          </Button> */}
-                        </CardActions>
-                      </Card>
+                        </div>
+                      </div>
                     </>
                   ))}
+
+                {teams.length > 0 && (
+                  <div className={styles.circles_card}>
+                    <div className={styles.circle_text}>
+                      <p className={styles.circle_name}>Create New Circle</p>
+                      <p className={styles.circle_lead}>
+                        Only the Team Lead is required to create the circle.
+                      </p>
+                      <br />
+                      <p className={styles.circle_member}>
+                        {" "}
+                        Call in your friends and let's learn.
+                      </p>
+                    </div>
+
+                    <div className={styles.buttons}>
+                      <Link to={`/create`}>
+                        <button className={styles.view_members}>
+                          Create Circle Now!
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                )}
               </>
             </div>
 
