@@ -325,6 +325,12 @@ const Home = ({
                         <Typography variant="body2">
                           Member Count: {team.count}
                         </Typography>
+                        <Typography variant="body2">
+                          Meet Place: {team.meet_place}
+                        </Typography>
+                        <Typography variant="body2">
+                          Meet Time: {team.meet_time}
+                        </Typography>
                       </CardContent>
                       <CardActions>
                         <Link to={`/join`}>
