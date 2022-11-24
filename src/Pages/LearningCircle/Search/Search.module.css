@@ -317,13 +317,14 @@
   margin-right: 0.75rem;
   font-size: 0.9rem;
   margin-top: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .view_members {
   font-family: "Noto Sans", sans-serif;
-  margin-bottom: 0.25rem;
   border: 2px solid #f78c40;
   padding: 0.5rem 1.25rem;
   border-radius: 5px;
   font-size: 0.9rem;
+  margin-bottom: 0.25rem;
 }

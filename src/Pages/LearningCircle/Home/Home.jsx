@@ -57,6 +57,8 @@ const Home = ({
   const [options, setOptions] = useState("");
 
   const [members, setMembers] = useState("");
+  const [place, setPlace] = useState("No Data");
+  const [time, setTime] = useState("No Data");
 
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -136,6 +138,27 @@ const Home = ({
                     {key + 1}). {member}
                   </Typography>
                 ))}
+                <br />
+                {(place !== "No Data" || time !== "No Data") && (
+                  <Typography
+                    id="modal-modal-title"
+                    variant="h6"
+                    component="h2"
+                    className={styles.modaltext}
+                  >
+                    Circle Details
+                  </Typography>
+                )}
+                {place !== "No Data" && (
+                  <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                    Meet Place: {place}
+                  </Typography>
+                )}
+                {time !== "No Data" && (
+                  <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                    Meet Time: {time}
+                  </Typography>
+                )}
               </Box>
             </Modal>
           </div>
@@ -302,12 +325,16 @@ const Home = ({
                         <p className={styles.circle_name}>{team.code}</p>
                         <p className={styles.circle_lead}>Lead: {team.lead}</p>
                         <p className={styles.circle_member}>Members: 10</p>
-                        <p className={styles.circle_place}>
-                          Meet Place: {team.meet_place}
-                        </p>
-                        <p className={styles.circle_time}>
-                          Meet Time: {team.meet_time}
-                        </p>
+                        {team.meet_place !== "No Data" && (
+                          <p className={styles.circle_place}>
+                            Meet Place: {team.meet_place}
+                          </p>
+                        )}
+                        {team.meet_time !== "No Data" && (
+                          <p className={styles.circle_time}>
+                            Meet Time: {team.meet_time}
+                          </p>
+                        )}
                       </div>
                       <div className={styles.buttons}>
                         <Link to={`/join`}>
@@ -320,6 +347,8 @@ const Home = ({
                         </Link>
                         <button
                           onClick={() => {
+                            setPlace(team.meet_place);
+                            setTime(team.meet_time);
                             setCode(team.code);
                             handleOpen();
                           }}
