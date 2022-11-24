@@ -139,20 +139,26 @@ const Home = ({
                   </Typography>
                 ))}
                 <br />
-                <Typography
-                  id="modal-modal-title"
-                  variant="h6"
-                  component="h2"
-                  className={styles.modaltext}
-                >
-                  Circle Details
-                </Typography>
-                <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-                  Meet Place: {place}
-                </Typography>
-                <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-                  Meet Place: {time}
-                </Typography>
+                {(place !== "No Data" || time !== "No Data") && (
+                  <Typography
+                    id="modal-modal-title"
+                    variant="h6"
+                    component="h2"
+                    className={styles.modaltext}
+                  >
+                    Circle Details
+                  </Typography>
+                )}
+                {place !== "No Data" && (
+                  <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                    Meet Place: {place}
+                  </Typography>
+                )}
+                {time !== "No Data" && (
+                  <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                    Meet Time: {time}
+                  </Typography>
+                )}
               </Box>
             </Modal>
           </div>

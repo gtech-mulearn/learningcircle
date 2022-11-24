@@ -45,8 +45,8 @@ const Search = ({
   // eslint-disable-next-line no-unused-vars
   const [options, setOptions] = useState("");
   const [teams, setTeams] = useState("");
-  const [place, setPlace] = useState("No Data");
-  const [time, setTime] = useState("No Data");
+  const [place, setPlace] = useState("");
+  const [time, setTime] = useState("");
 
   // eslint-disable-next-line no-unused-vars
   const [members, setMembers] = useState("");
@@ -141,20 +141,26 @@ const Search = ({
               ))}
 
               <br />
-              <Typography
-                id="modal-modal-title"
-                variant="h6"
-                component="h2"
-                className={styles.modaltext}
-              >
-                Circle Details
-              </Typography>
-              <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-                Meet Place: {place}
-              </Typography>
-              <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-                Meet Place: {time}
-              </Typography>
+              {(place !== "No Data" || time !== "No Data") && (
+                <Typography
+                  id="modal-modal-title"
+                  variant="h6"
+                  component="h2"
+                  className={styles.modaltext}
+                >
+                  Circle Details
+                </Typography>
+              )}
+              {place !== "No Data" && (
+                <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                  Meet Place: {place}
+                </Typography>
+              )}
+              {time !== "No Data" && (
+                <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                  Meet Time: {time}
+                </Typography>
+              )}
             </Box>
           </Modal>
         </div>
