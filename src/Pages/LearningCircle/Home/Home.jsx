@@ -11,10 +11,6 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
 import { Link } from "react-router-dom";
@@ -254,7 +250,7 @@ const Home = ({
               </Box>
             )}
 
-            {colleges && interest && (
+            {colleges && interest && options && (
               <Box sx={{ minWidth: 300, maxWidth: 300, marginY: 1.5 }}>
                 <Autocomplete
                   id="grouped-demo"
@@ -300,86 +296,64 @@ const Home = ({
               {teams.length > 0 &&
                 teams.map((team) => (
                   <>
-                    <Card
-                      sx={{
-                        minWidth: 300,
-                        maxWidth: 300,
-                        marginY: 1,
-                        marginX: 1,
-                      }}
-                    >
-                      <CardContent>
-                        <Typography
-                          sx={{ fontSize: 14 }}
-                          color="text.secondary"
-                          gutterBottom
-                        >
-                          Interest Group: {interest}
-                        </Typography>
-                        <Typography variant="h5" component="div">
-                          Circle Name: {team.code}
-                        </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                          Circle Lead: {team.lead}
-                        </Typography>
-                        <Typography variant="body2">
-                          Member Count: {team.count}
-                        </Typography>
-                        <Typography variant="body2">
+                    <div className={styles.circles_card}>
+                      <div className={styles.circle_text}>
+                        <p className={styles.interest}>Interest: {interest}</p>
+                        <p className={styles.circle_name}>{team.code}</p>
+                        <p className={styles.circle_lead}>Lead: {team.lead}</p>
+                        <p className={styles.circle_member}>Members: 10</p>
+                        <p className={styles.circle_place}>
                           Meet Place: {team.meet_place}
-                        </Typography>
-                        <Typography variant="body2">
+                        </p>
+                        <p className={styles.circle_time}>
                           Meet Time: {team.meet_time}
-                        </Typography>
-                      </CardContent>
-                      <CardActions>
+                        </p>
+                      </div>
+                      <div className={styles.buttons}>
                         <Link to={`/join`}>
-                          <Button
+                          <button
                             onClick={() => setCode(team.code)}
-                            size="small"
+                            className={styles.join_circle}
                           >
-                            Join Group Now!
-                          </Button>
+                            Join Circle
+                          </button>
                         </Link>
-                        <Button
+                        <button
                           onClick={() => {
                             setCode(team.code);
                             handleOpen();
                           }}
-                          size="small"
+                          className={styles.view_members}
                         >
                           View Members
-                        </Button>
-                      </CardActions>
-                    </Card>
+                        </button>
+                      </div>
+                    </div>
                   </>
                 ))}
+
               {teams.length > 0 && (
-                <Card
-                  sx={{
-                    minWidth: 300,
-                    maxWidth: 300,
-                    marginY: 1,
-                    marginX: 1,
-                  }}
-                >
-                  <CardContent>
-                    <Typography variant="h5" component="div">
-                      Create New Circle
-                    </Typography>
-                    <Typography sx={{ mb: 1.5 }} color="text.primary">
+                <div className={styles.circles_card}>
+                  <div className={styles.circle_text}>
+                    <p className={styles.circle_name}>Create New Circle</p>
+                    <p className={styles.circle_lead}>
                       Only the Team Lead is required to create the circle.
-                    </Typography>
-                    <Typography variant="body2">
+                    </p>
+                    <br />
+                    <p className={styles.circle_member}>
+                      {" "}
                       Call in your friends and let's learn.
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
+                    </p>
+                  </div>
+
+                  <div className={styles.buttons}>
                     <Link to={`/create`}>
-                      <Button size="small">Create Circle Now!</Button>
+                      <button className={styles.view_members}>
+                        Create Circle Now!
+                      </button>
                     </Link>
-                  </CardActions>
-                </Card>
+                  </div>
+                </div>
               )}
             </>
           </div>
