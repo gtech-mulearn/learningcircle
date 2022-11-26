@@ -83,6 +83,13 @@ export const links = [
             link: mainlink + "/campuschapters",
             foreign: false,
           },
+          {
+            name: "Success Stories",
+            submenu: false,
+            sublinks: [],
+            link: mainlink + "/blogs",
+            foreign: false,
+          },
         ],
       },
     ],
