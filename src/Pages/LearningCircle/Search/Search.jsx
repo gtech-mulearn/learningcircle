@@ -305,7 +305,7 @@ const Search = ({
                           <p className={styles.circle_lead}>
                             Lead: {team.lead}
                           </p>
-                          <p className={styles.circle_member}>Members: 10</p>
+                          <p className={styles.circle_member}>Members: {team.count}</p>
                         </div>
                         <div className={styles.buttons}>
                           <Link to={`/join`}>
