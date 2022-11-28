@@ -6,10 +6,16 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [notificationOpen, setNotificationOpen] = useState(false);
+  function handleScrolling(setter) {
+    if (setter)
+      document.body.style.overflow = "unset";
+    else
+      document.body.style.overflow = 'hidden';
+  }
   return (
     <nav className="bg-white z-50 border-b">
       <div className=" flex items-center font-medium justify-around">
-        <div className={`z-30 p-5 mt-1 bg-white lg:w-auto w-full flex justify-between ${open ? "fixed top-1" : ""}`}>
+        <div className={`nav-mob lg:w-auto w-full flex  ${open ? "fixed top-1" : ""}`}>
           <a href="https://mulearn.org/">
             <img
               src="/assets/navbar/µLearn.webp"
@@ -23,6 +29,7 @@ const Navbar = () => {
               onClick={() => {
                 setNotificationOpen(!notificationOpen);
                 setOpen(false);
+                handleScrolling(true);
               }}>
 
               <div className={`text-3xl ${notificationOpen ? ' text-orange-500' : 'text-black'}`}>
@@ -36,7 +43,12 @@ const Navbar = () => {
 
             </div >
             {/* Menu */}
-            <div className="text-3xl lg:hidden" onClick={() => { setOpen(!open); setNotificationOpen(false) }}>
+            <div className="text-3xl lg:hidden"
+              onClick={() => {
+                setOpen(!open);
+                setNotificationOpen(false);
+                handleScrolling(open);
+              }}>
               <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
             </div>
           </div>
