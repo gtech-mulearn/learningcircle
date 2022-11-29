@@ -17,3 +17,12 @@ a {
 a:hover {
   color: rgb(249 115 22);
 }
+
+.nav-mob {
+  z-index: 30;
+  padding: 20px;
+  margin-top: 4px;
+  background-color: white;
+  justify-content: space-between;
+  z-index: 999;
+}
