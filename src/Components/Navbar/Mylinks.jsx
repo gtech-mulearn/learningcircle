@@ -70,6 +70,13 @@ export const links = [
             link: mainlink + "/news",
             foreign: false,
           },
+          {
+            name: "Blogs",
+            submenu: false,
+            sublinks: [],
+            link: mainlink + "/blogs",
+            foreign: false,
+          },
         ],
       },
       {
