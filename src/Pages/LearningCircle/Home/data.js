@@ -287,6 +287,69 @@ const InterestGroups = [
         karma: "200",
       },
     ],
+    keywords: [
+      {
+        id: "1",
+        keyword: "User-Centered Design.",
+      },
+      {
+        id: "2",
+        keyword: "Wireframes",
+      },
+      {
+        id: "3",
+        keyword: "Interaction Design",
+      },
+      {
+        id: "4",
+        keyword: "Storyboarding",
+      },
+      {
+        id: "5",
+        keyword: "User Interface Design",
+      },
+      {
+        id: "6",
+        keyword: "Figma",
+      },
+      {
+        id: "7",
+        keyword: "Prototype",
+      },
+      {
+        id: "8",
+        keyword: "Adobe XD",
+      },
+    ],
+    blogs: [
+      {
+        id: "1",
+        name: "Interaction Design",
+        link: "https://www.interaction-design.org/literature",
+      },
+      {
+        id: "2",
+        name: "UX Design",
+        link: "https://uxdesign.cc/",
+      },
+    ],
+    people: [
+      {
+        id: "1",
+        name: "Two Habits Design",
+        link: "https://www.instagram.com/twohabitsdesign/",
+      },
+      {
+        id: "2",
+        name: "UI UX Web Design Inspiration",
+        link: "https://www.instagram.com/dailywebdesign/",
+      },
+      {
+        id: "3",
+        name: "Zander Whitehurst",
+        link: "https://www.instagram.com/zanderwhitehurst/",
+      },
+    ],
   },
   {
     id: "web",
@@ -570,6 +633,105 @@ const InterestGroups = [
         karma: "200",
       },
     ],
+    blogs: [
+      {
+        id: "1",
+        name: "Android Developers Blog",
+        link: "https://android-developers.googleblog.com/",
+      },
+      {
+        id: "2",
+        name: "Android Guys",
+        link: "https://www.androidguys.com/",
+      },
+      {
+        id: "3",
+        name: "gizmodo",
+        link: "https://gizmodo.com/tag/android",
+      },
+      {
+        id: "4",
+        name: "Vogella",
+        link: "https://www.vogella.com/tutorials/android.html",
+      },
+      {
+        id: "5",
+        name: "Android",
+        link: "https://source.android.com/",
+      },
+      {
+        id: "6",
+        name: "Android Police",
+        link: "https://www.androidpolice.com/",
+      },
+      {
+        id: "7",
+        name: "tutsplus",
+        link: "https://code.tutsplus.com/categories/android",
+      },
+      {
+        id: "8",
+        name: "Android Arsenal",
+        link: "https://android-arsenal.com/",
+      },
+      {
+        id: "9",
+        name: "bongizmo",
+        link: "https://www.bongizmo.com/blog/android-resources-each-developer-should-know/",
+      },
+    ],
+    people: [
+      {
+        id: "1",
+        name: "Jake Wharton",
+        link: "https://twitter.com/JakeWharton",
+      },
+      {
+        id: "2",
+        name: "Chiu-Ki Chan",
+        link: "https://twitter.com/chiuki",
+      },
+      {
+        id: "3",
+        name: "Kaushik Gopal",
+        link: "https://twitter.com/kaushikgopal",
+      },
+      {
+        id: "4",
+        name: "Andy Rubin",
+        link: "https://twitter.com/Arubin",
+      },
+      {
+        id: "5",
+        name: "Juhani Lehtimäki",
+        link: "https://twitter.com/lehtimaeki",
+      },
+      {
+        id: "6",
+        name: "Xavier Ducrohet",
+        link: "https://twitter.com/droidxav",
+      },
+      {
+        id: "7",
+        name: "Amrit Sanjeev",
+        link: "https://twitter.com/amsanjeev",
+      },
+      {
+        id: "8",
+        name: "Dave Smith",
+        link: "https://twitter.com/devunwired",
+      },
+      {
+        id: "9",
+        name: "Chris Banes",
+        link: "https://twitter.com/chrisbanes",
+      },
+      {
+        id: "10",
+        name: "Romain Guy",
+        link: "https://twitter.com/romainguy",
+      },
+    ],
   },
   {
     id: "cybersec",
@@ -843,6 +1005,77 @@ const InterestGroups = [
         complexity: "",
         time: "",
         karma: "200",
+      },
+    ],
+    keywords: [
+      {
+        id: "1",
+        keyword: "Product Management",
+      },
+      {
+        id: "2",
+        keyword: "Agile Methodologies",
+      },
+      {
+        id: "3",
+        keyword: "Product Marketing",
+      },
+      {
+        id: "4",
+        keyword: "Digital product development",
+      },
+      {
+        id: "5",
+        keyword: "Product Strategy",
+      },
+      {
+        id: "6",
+        keyword: "Software Development Life Cycle (SDLC)",
+      },
+      {
+        id: "7",
+        keyword: "Scrum and integration",
+      },
+      {
+        id: "8",
+        keyword: "Product Vision",
+      },
+      {
+        id: "9",
+        keyword: "Product Strategy",
+      },
+      {
+        id: "10",
+        keyword: "Product Roadmap",
+      },
+    ],
+    blogs: [
+      {
+        id: "1",
+        name: "PM School",
+        link: "https://blog.pmschool.io/post/product-manager-and-the-software-product-lifecycle",
+      },
+      {
+        id: "2",
+        name: "BlackBox of PM",
+        link: "https://blackboxofpm.com/",
+      },
+      {
+        id: "3",
+        name: "Department of Product",
+        link: "https://www.departmentofproduct.com/blog/",
+      },
+    ],
+    people: [
+      {
+        id: "1",
+        name: "Tim Herbig",
+        link: "https://twitter.com/herbigt",
+      },
+      {
+        id: "2",
+        name: "Daniel Elizalde",
+        link: "https://twitter.com/delizalde",
       },
     ],
     "": {},
