@@ -909,6 +909,48 @@ const InterestGroups = [
       //   karma: "200",
       // },
     ],
+    keywords: [
+      {
+        id: "1",
+        keyword: "Metasploit",
+      },
+      {
+        id: "2",
+        keyword: "Wireshark",
+      },
+      {
+        id: "3",
+        keyword: "Ettercap",
+      },
+      {
+        id: "4",
+        keyword: "Snort",
+      },
+      {
+        id: "5",
+        keyword: "OpenVAS",
+      },
+      {
+        id: "6",
+        keyword: "Burp Suite",
+      },
+      {
+        id: "7",
+        keyword: "Kali Linux",
+      },
+      {
+        id: "8",
+        keyword: "VirtualBox",
+      },
+      {
+        id: "9",
+        keyword: "Docker",
+      },
+      {
+        id: "9",
+        keyword: "VMWare",
+      },
+    ],
   },
   {
     id: "pm",
