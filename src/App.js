@@ -28,6 +28,7 @@ import CommonCourse from "./Pages/InterestGroups/InterestGroup/Course/common/Com
 import TrafficLightSimulation from "./Pages/InterestGroups/MuChallenges/TrafficLightSimulation/TrafficLightSimulation";
 import IntroToMulearn from "./Pages/InterestGroups/MuChallenges/IntroToMuLearn/IntroToMuLearn";
 import APISetu from "./Pages/APISetu/APISetu";
+import IndividualPage from "./Pages/ProblemShelves/IndividualPage/IndividualPage";
 
 function App() {
   //Home Page state Variables
@@ -187,6 +188,7 @@ function App() {
           />
           <Route path="/mentors" element={<MentorDirectory />} />
           <Route path="/problemshelves" element={<ProblemShelves />} />
+          <Route path="/problemshelves/:id" element={<IndividualPage />} />
           <Route path="/challenge/web" element={<MuChallenge />} />
           <Route path="/challenges" element={<MuLanding />} />
           <Route path="/challenge/typing" element={<TypingChallenge />} />

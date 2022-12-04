@@ -35,7 +35,7 @@
 }
 
 .fv_img {
-  height: 20rem;
+  width: 20rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -70,7 +70,7 @@
   }
 
   .fv_img {
-    height: 35rem;
+    width: 35rem;
   }
 
   .first_view {
@@ -95,6 +95,7 @@
 
 .second_view_container {
   margin: 2rem;
+  max-width: 1300px;
 }
 
 .sv_heading {
@@ -103,7 +104,6 @@
   font-weight: 700;
   line-height: 2.75rem;
   color: #f78c40;
-  margin-bottom: 1rem;
 }
 
 .sv_content {
@@ -129,29 +129,14 @@
   }
 }
 
-.problem_list_container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  row-gap: 2rem;
-  column-gap: 2rem;
+.problem_detail {
+  margin-top: 2rem;
 }
 
-/* .problem_list_container {
-  display: grid;
-  gap: 2rem;
+.pd_heading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  color: #404040;
 }
-
-@media (min-width: 768px) {
-  .problem_list_container {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .problem_list_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-} */
