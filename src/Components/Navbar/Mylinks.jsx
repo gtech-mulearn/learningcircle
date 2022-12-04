@@ -139,6 +139,13 @@ export const links = [
             link: mainlink + "/artofteaching",
             foreign: false,
           },
+          {
+            name: "Build For Team",
+            submenu: false,
+            sublinks: [],
+            link: mainlink + "/BuildForTeam",
+            foreign: false,
+          },
         ],
       },
       {
