@@ -39,6 +39,19 @@ export const links = [
         ],
       },
       {
+        name: "Participate",
+        submenu: true,
+        sublinks: [
+          {
+            name: "Enablers & Mentor",
+            submenu: false,
+            sublinks: [],
+            link: mainlink + "/participate",
+            foreign: false,
+          },
+        ],
+      },
+      {
         name: "Leaderboard",
         submenu: true,
         sublinks: [
