@@ -1,0 +1,39 @@
+{
+  "repositories": [
+    {
+      "id": "1",
+      "title": "GTech µLearn Website",
+      "organisation": "GTech µLearn",
+      "description": "µLearn is a synergic philosophy of education, with a culture of mutual learning through micro groups of peers. µLearn is here to assist you in breaking through the echo chambers and free you from the shackles that have you grounded.",
+      "url": "https://github.com/gtech-mulearn/mulearn"
+    },
+    {
+      "id": "2",
+      "title": "GTech µLearn Learning Circles",
+      "organisation": "GTech µLearn",
+      "description": "An informal mechanism for bringing together learners who are interested in the same topic from across different fields and disciplines. A fantastic way to spend a small amount of time learning about new things with a group of people with same interests!",
+      "url": "https://github.com/gtech-mulearn/learningcircle"
+    },
+    {
+      "id": "3",
+      "title": "GTech µLearn Learning Circles",
+      "organisation": "GTech µLearn",
+      "description": "Techmyrmidon is a virtual technology icon who keeps itself updated with current technologies, changes its tools to match the trends, follows right experts, and, the best blogs on a particular field of interest",
+      "url": "https://github.com/gtech-mulearn/tech-myrmidons"
+    },
+    {
+      "id": "4",
+      "title": "Pygrammers Road-to-OSS",
+      "organisation": "Pygrammers",
+      "description": "Road-to-OSS is an open source initative by pygrammers to promote open source contributions. This open source project has received more than 100 contributions until now and is still active.",
+      "url": "https://github.com/pygrammers-org/Road-to-OSS"
+    },
+    {
+      "id": "5",
+      "title": "Project Awesome",
+      "organisation": "GTech µLearn",
+      "description": "Awesome aka Bring Every Business Online is an Open Source Initiative to make an open source collection of web-pages for every business out there. To contribute to the project, all you have to do is build a website for a store or business.",
+      "url": "https://github.com/gtech-mulearn/bring-every-business-online"
+    }
+  ]
+}

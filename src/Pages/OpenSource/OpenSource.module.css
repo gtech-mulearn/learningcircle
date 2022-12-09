@@ -95,7 +95,6 @@
 
 .second_view_container {
   margin: 2rem;
-  max-width: 1300px;
 }
 
 .sv_heading {
@@ -139,4 +138,51 @@
   font-weight: 700;
   line-height: 2.75rem;
   color: #404040;
+}
+
+/* Second Section Styles */
+
+.second_view_container {
+  margin: 2rem;
+}
+
+.sv_heading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  color: #f78c40;
+  margin-bottom: 1rem;
+}
+
+.sv_content {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .second_view_container {
+    margin: 3rem 6rem;
+  }
+
+  .sv_heading {
+    font-size: 2.25rem;
+    line-height: 4rem;
+    width: 60vw;
+  }
+
+  .sv_content {
+    width: 40%;
+    margin-top: 0;
+    font-size: 1.05rem;
+  }
+}
+
+.problem_list_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  column-gap: 2rem;
 }
