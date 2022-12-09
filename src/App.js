@@ -29,6 +29,7 @@ import TrafficLightSimulation from "./Pages/InterestGroups/MuChallenges/TrafficL
 import IntroToMulearn from "./Pages/InterestGroups/MuChallenges/IntroToMuLearn/IntroToMuLearn";
 import APISetu from "./Pages/APISetu/APISetu";
 import IndividualPage from "./Pages/ProblemShelves/IndividualPage/IndividualPage";
+import OpenSource from "./Pages/OpenSource/OpenSource";
 
 function App() {
   //Home Page state Variables
@@ -188,6 +189,7 @@ function App() {
           />
           <Route path="/mentors" element={<MentorDirectory />} />
           <Route path="/problemshelves" element={<ProblemShelves />} />
+          <Route path="/opensource" element={<OpenSource />} />
           <Route path="/problemshelves/:id" element={<IndividualPage />} />
           <Route path="/challenge/web" element={<MuChallenge />} />
           <Route path="/challenges" element={<MuLanding />} />

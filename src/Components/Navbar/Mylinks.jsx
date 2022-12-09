@@ -362,6 +362,13 @@ export const links = [
             sublinks: [],
             foreign: false,
           },
+          {
+            name: "API Setu",
+            link: "/opensource",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
         ],
       },
       {
