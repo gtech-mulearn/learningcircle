@@ -335,6 +335,13 @@ export const links = [
         submenu: true,
         sublinks: [
           {
+            name: "OpenSource Projects",
+            link: "/opensource",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
             name: "Problem Shelf",
             link: "/problemshelves",
             submenu: false,
@@ -358,13 +365,6 @@ export const links = [
           {
             name: "API Setu",
             link: "/apisetu",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
-          {
-            name: "API Setu",
-            link: "/opensource",
             submenu: false,
             sublinks: [],
             foreign: false,
