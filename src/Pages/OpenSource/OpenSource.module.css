@@ -14,6 +14,7 @@
 .first_view {
   display: flex;
   flex-direction: column-reverse;
+  margin: 2rem;
 }
 
 .fv_heading {

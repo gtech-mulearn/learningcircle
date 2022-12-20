@@ -17,10 +17,9 @@ const OpenSource = () => {
               <span> µLearn</span> Open Source Projects
             </p>
             <p className={styles.fv_content}>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Assumenda, voluptate id? Culpa quo maxime excepturi sed eum,
-              adipisci fugiat, iste expedita quidem repellendus quod voluptates
-              doloribus. Iusto, esse! Reprehenderit, perspiciatis.
+              Welcome toµLearn Open Source Projects, Listed below are the
+              various projects which are open for contribution. learn and
+              upskill youselves by contributing to opensource repositories.
             </p>
           </div>
           <div className={styles.fv_image}>
