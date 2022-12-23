@@ -1362,6 +1362,16 @@ const MentorList = [
       "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
     source: "µLearn",
   },
+
+  {
+    id: "S149",
+    name: "Don Peter",
+    designation: "Cofounder and CTO, Finotes Inc",
+    linkedin: "https://www.linkedin.com/in/donpeter06/",
+    stack: "Android Development",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQFTWXQV9_kCig/profile-displayphoto-shrink_400_400/0/1602424880405?e=1677110400&v=beta&t=qTwBc4iPF-YlH40OfibU0PkSS9YVRW-R8HxrssZAgj8",
+  },
 ];
 
 export default MentorList;

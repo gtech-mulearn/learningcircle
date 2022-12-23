@@ -569,6 +569,24 @@ const InterestGroups = [
         image:
           "https://drive.google.com/uc?export=view&id=1kLazNGXtS2wUKyWQ6KFQYHhuRrxbc0H8",
       },
+      {
+        id: "S149",
+        name: "Amrit Sanjeev",
+        designation: "Staff Developer Advocate, Google",
+        linkedin: "https://www.linkedin.com/in/amrit-sanjeev-a4984438/",
+        stack: "Android Development",
+        image:
+          "https://media.licdn.com/dms/image/C5603AQHYTANACzF_rw/profile-displayphoto-shrink_400_400/0/1516798684291?e=1677110400&v=beta&t=7slsRAWEt5WQ4NUM6DPrG27TXiUWhFG5GGiUZFl6NS4",
+      },
+      {
+        id: "S150",
+        name: "Don Peter",
+        designation: "Cofounder and CTO, Finotes Inc",
+        linkedin: "https://www.linkedin.com/in/donpeter06/",
+        stack: "Android Development",
+        image:
+          "https://media.licdn.com/dms/image/C5603AQFTWXQV9_kCig/profile-displayphoto-shrink_400_400/0/1602424880405?e=1677110400&v=beta&t=qTwBc4iPF-YlH40OfibU0PkSS9YVRW-R8HxrssZAgj8",
+      },
     ],
 
     pagination: [
