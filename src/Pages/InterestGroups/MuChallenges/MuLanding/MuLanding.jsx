@@ -43,6 +43,11 @@ const MuLanding = () => {
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
                 <MentorCard
+                  name="Build For Team"
+                  designation="GTech μLearn in association with Pygrammers present BuildForTeam, your chance to build your favourite team’s website. With your favourite teams battling it out on the Football field, it’s up to you to build them an awesome website."
+                  mclink="https://mulearn.org/BuildForTeam"
+                />
+                <MentorCard
                   name="Self Introduction"
                   designation="You know yourself the best, yet presenting a good self may allow others to get to know you. Posting an introduction to yourself is an important first step in connecting with the community."
                   mclink="/common/enablement/1"
