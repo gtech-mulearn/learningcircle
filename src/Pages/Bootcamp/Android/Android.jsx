@@ -201,16 +201,16 @@ const Android = () => {
                         Exercism Sample Profile
                       </p>
                     </b>
-                    <a
-                      href="https://exercism.org/profiles/BijoMathewJose"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <p className={styles.sample_message}>
-                        Click Here to view an example for an exercism sample
-                        profile.
-                      </p>
-                    </a>
+                    <p className={styles.sample_message}>
+                      <a
+                        href="https://exercism.org/profiles/BijoMathewJose"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Click Here &nbsp;
+                      </a>
+                      to view an example for an exercism sample profile.
+                    </p>
                   </div>
                 </div>
               </div>
