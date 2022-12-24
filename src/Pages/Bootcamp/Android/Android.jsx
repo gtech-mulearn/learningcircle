@@ -15,16 +15,16 @@ const Android = () => {
               <p className={styles.fv_heading}>
                 <span> Android </span> Bootcamp
               </p>
-              <p className={styles.fv_content}>
+              {/* <p className={styles.fv_content}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
                 iste quia ipsam voluptatem nobis consequuntur dolorem cumque
                 provident quidem ratione..
-              </p>
+              </p> */}
               {/* <button className={styles.comingsoon}>Coming Soon!</button> */}
             </div>
             <div className={styles.fv_image}>
               <img
-                src="/assets/bootcamp/android/fvimg.gif"
+                src="/assets/bootcamp/android/fvimg.png"
                 alt=""
                 className={styles.fv_img}
               />
@@ -49,13 +49,12 @@ const Android = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step One</div>
                       <div className="timeline__event__description">
-                        Navigate to{" "}
                         <a
-                          href="https://github.com/skills/github-pages"
+                          href="https://youtu.be/va6LLfdhvGM"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          https://github.com/skills/github-pages
+                          Learn Git and Github.
                         </a>
                       </div>
                     </div>
@@ -72,9 +71,15 @@ const Android = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step Two</div>
                       <div className="timeline__event__description">
-                        Go through the <b>README.md</b> file. Read the
-                        instructions carefully, create the repository and
-                        complete the 6 steps.
+                        Navigate to
+                        <a
+                          href="https://developer.android.com/studio/install"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          &nbsp;Android Studio
+                        </a>
+                        , Download and Install it.
                       </div>
                     </div>
                   </div>
@@ -92,8 +97,15 @@ const Android = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step Three</div>
                       <div className="timeline__event__description">
-                        If you still seem to have doubts, feel free to ask in
-                        the #students channel
+                        Learn&nbsp;
+                        <a
+                          href="https://exercism.org/tracks/kotlin"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Kotlin
+                        </a>
+                        &nbsp;through exercism platform.
                       </div>
                     </div>
                   </div>
@@ -109,10 +121,11 @@ const Android = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step Four</div>
                       <div className="timeline__event__description">
-                        You can find your GitHub Page URL from github-pages &gt;
-                        view deployment<br></br>
+                        Post the screenshot of your profile/link when you reach
+                        level 21 in #students channel with hashtag{" "}
+                        <b>#ge-exercism-kotlin-21</b> to avail{" "}
+                        <b>200 karma points.</b>
                         <br />
-                        <a href="#step4">see screenshot ↓</a>
                       </div>
                     </div>
                   </div>
@@ -127,9 +140,46 @@ const Android = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step Five</div>
                       <div className="timeline__event__description">
-                        Post the GitHub Page URL you've deployed in{" "}
-                        <b>#students</b> channel with hashtag{" "}
-                        <b>#ge-github-pages</b> (see example message below)
+                        Post the screenshot of your profile/link when you reach
+                        level 42 in #students channel with hashtag
+                        <b>#ge-exercism-kotlin-42</b> to avail{" "}
+                        <b>200 karma points.</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
+                    <div className="timeline__event__icon">
+                      <img
+                        src={require("../assets/steps/check.svg").default}
+                        alt=""
+                      />
+                    </div>
+                    <div className="timeline__event__date">6</div>
+                    <div className="timeline__event__content">
+                      <div className="timeline__event__title">Step Six</div>
+                      <div className="timeline__event__description">
+                        Post the screenshot of your profile/link when you reach
+                        level 63 in #students channel with hashtag
+                        <b>#ge-exercism-kotlin-63</b> to avail{" "}
+                        <b>200 karma points.</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
+                    <div className="timeline__event__icon">
+                      <img
+                        src={require("../assets/steps/check.svg").default}
+                        alt=""
+                      />
+                    </div>
+                    <div className="timeline__event__date">7</div>
+                    <div className="timeline__event__content">
+                      <div className="timeline__event__title">Step Seven</div>
+                      <div className="timeline__event__description">
+                        Post the screenshot of your profile/link when you reach
+                        level 84 in #students channel with hashtag
+                        <b>#ge-exercism-kotlin-63</b> to avail{" "}
+                        <b>200 karma points.</b>
                       </div>
                     </div>
                   </div>
