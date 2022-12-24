@@ -184,15 +184,6 @@ const Android = () => {
                     </div>
                   </div>
 
-                  <div className={styles.screenshots}>
-                    <p id="step4" className={styles.ss_title}>
-                      Exercism Sample Profile
-                    </p>
-                    <img
-                      src="/assets/bootcamp/android/exercismprofile.png"
-                      alt=""
-                    />
-                  </div>
                   <div className={styles.sample_container}>
                     <b>
                       <p className={styles.sample_header}>
@@ -203,6 +194,23 @@ const Android = () => {
                       Detailed details about the bootcamp lessons will be added
                       on shortly.
                     </p>
+                  </div>
+                  <div className={styles.sample_container}>
+                    <b>
+                      <p className={styles.sample_header}>
+                        Exercism Sample Profile
+                      </p>
+                    </b>
+                    <a
+                      href="https://exercism.org/profiles/BijoMathewJose"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <p className={styles.sample_message}>
+                        Click Here to view an example for an exercism sample
+                        profile.
+                      </p>
+                    </a>
                   </div>
                 </div>
               </div>
