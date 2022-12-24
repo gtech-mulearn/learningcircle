@@ -149,3 +149,11 @@ b {
 .steps_ulist li {
   margin-top: 1rem;
 }
+
+.sample_container {
+    margin: 2rem auto 0;
+    background: #f5f5f5;
+    padding: 2rem;
+    border-radius: 0.2rem;
+    max-width: 50rem;
+  }

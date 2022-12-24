@@ -183,6 +183,27 @@ const Android = () => {
                       </div>
                     </div>
                   </div>
+
+                  <div className={styles.screenshots}>
+                    <p id="step4" className={styles.ss_title}>
+                      Exercism Sample Profile
+                    </p>
+                    <img
+                      src="/assets/bootcamp/android/exercismprofile.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className={styles.sample_container}>
+                    <b>
+                      <p className={styles.sample_header}>
+                        Will Update Shortly!
+                      </p>
+                    </b>
+                    <p className={styles.sample_message}>
+                      Detailed details about the bootcamp lessons will be added
+                      on shortly.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
