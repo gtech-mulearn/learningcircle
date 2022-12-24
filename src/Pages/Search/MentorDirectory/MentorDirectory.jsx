@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "../../Components/Footer/Footer";
-import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./MentorDirectory.module.css";
 
 import fvimg from "./assets/fvimg.png";
-import MentorCard from "../../Components/MentorCard/MentorCard";
+import MentorCard from "../../../Components/MentorCard/MentorCard";
 
 import MentorList from "./MentorList.js";
 

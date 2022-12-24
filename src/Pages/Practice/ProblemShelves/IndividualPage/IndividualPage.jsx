@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./IndividualPage.module.css";
-import Navbar from "../../../Components/Navbar/Navbar";
-import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../../Components/Navbar/Navbar";
+import Footer from "../../../../Components/Footer/Footer";
 
 import problems from "../problems";
 import { useParams } from "react-router-dom";

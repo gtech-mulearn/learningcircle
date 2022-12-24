@@ -1,11 +1,11 @@
 import React from "react";
-import Footer from "../../Components/Footer/Footer";
-import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./ProblemShelves.module.css";
 
 import fvimg from "./assets/fvimg.png";
 import problems from "./problems";
-import ProblemCard from "../../Components/ProblemCard/ProblemCard";
+import ProblemCard from "../../../Components/ProblemCard/ProblemCard";
 
 const ProblemShelves = () => {
   return (

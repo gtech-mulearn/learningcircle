@@ -1,8 +1,8 @@
 import React from "react";
-import CourseCard from "../../Components/CourseCard/CourseCard";
-import Footer from "../../Components/Footer/Footer";
+import CourseCard from "../../../Components/CourseCard/CourseCard";
+import Footer from "../../../Components/Footer/Footer";
 
-import Navbar from "../../Components/Navbar/Navbar";
+import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./Courses.module.css";
 
 import courses from "./data/courses";

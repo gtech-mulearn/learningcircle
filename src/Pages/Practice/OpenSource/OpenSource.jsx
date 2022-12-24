@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./OpenSource.module.css";
 
-import Navbar from "../../Components/Navbar/Navbar";
-import Footer from "../../Components/Footer/Footer";
-import OpenSourceCard from "../../Components/OpenSourceCard/OpenSourceCard";
+import Navbar from "../../../Components/Navbar/Navbar";
+import Footer from "../../../Components/Footer/Footer";
+import OpenSourceCard from "../../../Components/OpenSourceCard/OpenSourceCard";
 
 const OpenSource = () => {
   const projects = require("./data.json");

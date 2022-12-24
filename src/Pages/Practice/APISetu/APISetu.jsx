@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/Navbar";
-import Footer from "../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar";
+import Footer from "../../../Components/Footer/Footer";
 import styles from "./APISetu.module.css";
 
 import APISetudata from "./APISetudata";
 
-import APICard from "../../Components/APICard/APICard";
+import APICard from "../../../Components/APICard/APICard";
 
 const APISetu = () => {
   return (

@@ -5,11 +5,11 @@ import axios from "axios";
 import Create from "./Pages/LearningCircle/Create/Create";
 import Join from "./Pages/LearningCircle/Join/Join.jsx";
 import InterestGroup from "./Pages/InterestGroups/InterestGroup/InterestGroup";
-import MentorDirectory from "./Pages/MentorDirectory/MentorDirectory";
+import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
 import Search from "./Pages/LearningCircle/Search/Search";
-import ProblemShelves from "./Pages/ProblemShelves/ProblemShelves";
+import ProblemShelves from "./Pages/Practice/ProblemShelves/ProblemShelves";
 import MuChallenge from "./Pages/InterestGroups/MuChallenges/MuChallenge";
-import Courses from "./Pages/Courses/Courses";
+import Courses from "./Pages/Practice/Courses/Courses";
 import TypingChallenge from "./Pages/InterestGroups/MuChallenges/TypingChallenge/TypingChallenge";
 import MuLanding from "./Pages/InterestGroups/MuChallenges/MuLanding/MuLanding";
 import DefensiveDriving from "./Pages/InterestGroups/MuChallenges/DefensiveDriving/DefensiveDriving";
@@ -27,9 +27,9 @@ import CybersecCourse from "./Pages/InterestGroups/InterestGroup/Course/cybersec
 import CommonCourse from "./Pages/InterestGroups/InterestGroup/Course/common/CommonCourse";
 import TrafficLightSimulation from "./Pages/InterestGroups/MuChallenges/TrafficLightSimulation/TrafficLightSimulation";
 import IntroToMulearn from "./Pages/InterestGroups/MuChallenges/IntroToMuLearn/IntroToMuLearn";
-import APISetu from "./Pages/APISetu/APISetu";
-import IndividualPage from "./Pages/ProblemShelves/IndividualPage/IndividualPage";
-import OpenSource from "./Pages/OpenSource/OpenSource";
+import APISetu from "./Pages/Practice/APISetu/APISetu";
+import IndividualPage from "./Pages/Practice/ProblemShelves/IndividualPage/IndividualPage";
+import OpenSource from "./Pages/Practice/OpenSource/OpenSource";
 import Android from "./Pages/Bootcamp/Android/Android";
 
 function App() {
