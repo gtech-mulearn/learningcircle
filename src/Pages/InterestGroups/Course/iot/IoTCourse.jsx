@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
-import Footer from "../../../../../Components/Footer/Footer";
-import Navbar from "../../../../../Components/Navbar/Navbar";
-import styles from "./PMCourse.module.css";
+import Footer from "../../../../Components/Footer/Footer";
+import Navbar from "../../../../Components/Navbar/Navbar";
+import styles from "./IoTCourse.module.css";
 
-import PMData from "./pm";
+import IoTData from "./iot";
 import { useParams } from "react-router-dom";
 
-const PMCourse = () => {
+const IoTCourse = () => {
   const [course, setCourse] = useState();
   const { type, id } = useParams();
 
   useEffect(() => {
     if (type === "core") {
-      setCourse(PMData[0].core[id - 1]);
+      setCourse(IoTData[0].core[id - 1]);
     } else if (type === "sub") {
-      setCourse(PMData[0].sub[id - 1]);
+      setCourse(IoTData[0].sub[id - 1]);
     } else if (type === "enablement") {
-      setCourse(PMData[0].enablement[id - 1]);
+      setCourse(IoTData[0].enablement[id - 1]);
     } else {
       setCourse("Sorry!");
     }
@@ -102,4 +102,4 @@ const PMCourse = () => {
   );
 };
 
-export default PMCourse;
+export default IoTCourse;

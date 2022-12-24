@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
-import Footer from "../../../../../Components/Footer/Footer";
-import Navbar from "../../../../../Components/Navbar/Navbar";
-import styles from "./AndroidCourse.module.css";
+import Footer from "../../../../Components/Footer/Footer";
+import Navbar from "../../../../Components/Navbar/Navbar";
+import styles from "./PMCourse.module.css";
 
-import AndroidData from "./android";
+import PMData from "./pm";
 import { useParams } from "react-router-dom";
 
-const AndroidCourse = () => {
+const PMCourse = () => {
   const [course, setCourse] = useState();
   const { type, id } = useParams();
 
   useEffect(() => {
     if (type === "core") {
-      setCourse(AndroidData[0].core[id - 1]);
+      setCourse(PMData[0].core[id - 1]);
     } else if (type === "sub") {
-      setCourse(AndroidData[0].sub[id - 1]);
+      setCourse(PMData[0].sub[id - 1]);
     } else if (type === "enablement") {
-      setCourse(AndroidData[0].enablement[id - 1]);
+      setCourse(PMData[0].enablement[id - 1]);
     } else {
       setCourse("Sorry!");
     }
@@ -49,37 +49,6 @@ const AndroidCourse = () => {
                 />
               </div>
             </div>
-            {course.assignment && (
-              <div className={styles.second_view_container}>
-                <div className={styles.second_view}>
-                  <div className={styles.sv_texts}>
-                    <p className={styles.sv_heading}>
-                      Course <span>Assignment</span>
-                    </p>
-                    <p className={styles.sv_content}>
-                      {course.assignment[0].assignment_description}
-                    </p>
-                  </div>
-                  <div className={styles.sample_container}>
-                    <p className={styles.sample_message}>
-                      {course.assignment[0].assignment_inner_description}
-                    </p>
-                  </div>
-                  {course.assignment[0].link && (
-                    <a
-                      href={course.assignment[0].link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className={styles.view_course}>
-                        View Assignment
-                      </button>
-                    </a>
-                  )}
-                </div>
-              </div>
-            )}
-
             <div className={styles.second_view_container}>
               <div className={styles.second_view}>
                 <div className={styles.sv_texts}>
@@ -92,10 +61,7 @@ const AndroidCourse = () => {
                 </div>
                 <div className={styles.sample_container}>
                   <p className={styles.sample_header}>Example Message</p>
-                  <p className={styles.sample_message}>
-                    {course.assignment &&
-                      (course.example || course.assignment[0].example)}
-                  </p>
+                  <p className={styles.sample_message}>{course.example}</p>
                 </div>
               </div>
             </div>
@@ -136,4 +102,4 @@ const AndroidCourse = () => {
   );
 };
 
-export default AndroidCourse;
+export default PMCourse;

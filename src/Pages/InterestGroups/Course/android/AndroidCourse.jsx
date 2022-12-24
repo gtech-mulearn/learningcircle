@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
-import Footer from "../../../../../Components/Footer/Footer";
-import Navbar from "../../../../../Components/Navbar/Navbar";
-import styles from "./UIUXCourse.module.css";
+import Footer from "../../../../Components/Footer/Footer";
+import Navbar from "../../../../Components/Navbar/Navbar";
+import styles from "./AndroidCourse.module.css";
 
-import UIUXData from "./uiux";
+import AndroidData from "./android";
 import { useParams } from "react-router-dom";
 
-const UIUXCourse = () => {
+const AndroidCourse = () => {
   const [course, setCourse] = useState();
   const { type, id } = useParams();
 
   useEffect(() => {
     if (type === "core") {
-      setCourse(UIUXData[0].core[id - 1]);
+      setCourse(AndroidData[0].core[id - 1]);
     } else if (type === "sub") {
-      setCourse(UIUXData[0].sub[id - 1]);
+      setCourse(AndroidData[0].sub[id - 1]);
     } else if (type === "enablement") {
-      setCourse(UIUXData[0].enablement[id - 1]);
+      setCourse(AndroidData[0].enablement[id - 1]);
     } else {
       setCourse("Sorry!");
     }
@@ -49,7 +49,6 @@ const UIUXCourse = () => {
                 />
               </div>
             </div>
-
             {course.assignment && (
               <div className={styles.second_view_container}>
                 <div className={styles.second_view}>
@@ -66,6 +65,17 @@ const UIUXCourse = () => {
                       {course.assignment[0].assignment_inner_description}
                     </p>
                   </div>
+                  {course.assignment[0].link && (
+                    <a
+                      href={course.assignment[0].link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className={styles.view_course}>
+                        View Assignment
+                      </button>
+                    </a>
+                  )}
                 </div>
               </div>
             )}
@@ -126,4 +136,4 @@ const UIUXCourse = () => {
   );
 };
 
-export default UIUXCourse;
+export default AndroidCourse;

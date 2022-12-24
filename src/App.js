@@ -1,24 +1,28 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Pages/LearningCircle/Home/Home";
 import axios from "axios";
-import Create from "./Pages/LearningCircle/Create/Create";
-import Join from "./Pages/LearningCircle/Join/Join.jsx";
-import InterestGroup from "./Pages/InterestGroups/InterestGroup/InterestGroup";
-import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
-import Search from "./Pages/LearningCircle/Search/Search";
 
-import WebCourse from "./Pages/InterestGroups/InterestGroup/Course/web/WebCourse";
-import UIUXCourse from "./Pages/InterestGroups/InterestGroup/Course/uiux/UIUXCourse";
-import PMCourse from "./Pages/InterestGroups/InterestGroup/Course/pm/PMCourse";
-import AndroidCourse from "./Pages/InterestGroups/InterestGroup/Course/android/AndroidCourse";
-import IoTCourse from "./Pages/InterestGroups/InterestGroup/Course/iot/IoTCourse";
-import CybersecCourse from "./Pages/InterestGroups/InterestGroup/Course/cybersec/CybersecCourse";
-import CommonCourse from "./Pages/InterestGroups/InterestGroup/Course/common/CommonCourse";
+//LearningCirlces Section
+import Home from "./Pages/LearningCircles/Home/Home";
+import Create from "./Pages/LearningCircles/Create/Create";
+import Join from "./Pages/LearningCircles/Join/Join.jsx";
 
+import InterestGroup from "./Pages/InterestGroups/InterestGroup";
+import WebCourse from "./Pages/InterestGroups/Course/web/WebCourse";
+import UIUXCourse from "./Pages/InterestGroups/Course/uiux/UIUXCourse";
+import PMCourse from "./Pages/InterestGroups/Course/pm/PMCourse";
+import AndroidCourse from "./Pages/InterestGroups/Course/android/AndroidCourse";
+import IoTCourse from "./Pages/InterestGroups/Course/iot/IoTCourse";
+import CybersecCourse from "./Pages/InterestGroups/Course/cybersec/CybersecCourse";
+import CommonCourse from "./Pages/InterestGroups/Course/common/CommonCourse";
 
 import Android from "./Pages/Bootcamp/Android/Android";
 
+//Search Section
+import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
+import Search from "./Pages/Search/Search/Search";
+
+// Practice Section
 import ProblemShelves from "./Pages/Practice/ProblemShelves/ProblemShelves";
 import OpenSource from "./Pages/Practice/OpenSource/OpenSource";
 import APISetu from "./Pages/Practice/APISetu/APISetu";

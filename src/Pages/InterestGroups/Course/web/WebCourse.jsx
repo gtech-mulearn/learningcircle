@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
-import Footer from "../../../../../Components/Footer/Footer";
-import Navbar from "../../../../../Components/Navbar/Navbar";
-import styles from "./IoTCourse.module.css";
+import Footer from "../../../../Components/Footer/Footer";
+import Navbar from "../../../../Components/Navbar/Navbar";
+import styles from "./WebCourse.module.css";
 
-import IoTData from "./iot";
+import WebData from "./web";
 import { useParams } from "react-router-dom";
 
-const IoTCourse = () => {
+const WebCourse = () => {
   const [course, setCourse] = useState();
   const { type, id } = useParams();
 
   useEffect(() => {
     if (type === "core") {
-      setCourse(IoTData[0].core[id - 1]);
+      setCourse(WebData[0].core[id - 1]);
     } else if (type === "sub") {
-      setCourse(IoTData[0].sub[id - 1]);
+      setCourse(WebData[0].sub[id - 1]);
     } else if (type === "enablement") {
-      setCourse(IoTData[0].enablement[id - 1]);
+      setCourse(WebData[0].enablement[id - 1]);
     } else {
       setCourse("Sorry!");
     }
@@ -49,6 +49,38 @@ const IoTCourse = () => {
                 />
               </div>
             </div>
+
+            {course.assignment && (
+              <div className={styles.second_view_container}>
+                <div className={styles.second_view}>
+                  <div className={styles.sv_texts}>
+                    <p className={styles.sv_heading}>
+                      Course <span>Assignment</span>
+                    </p>
+                    <p className={styles.sv_content}>
+                      {course.assignment[0].assignment_description}
+                    </p>
+                  </div>
+                  <div className={styles.sample_container}>
+                    <p className={styles.sample_message}>
+                      {course.assignment[0].assignment_inner_description}
+                    </p>
+                  </div>
+                  {course.assignment[0].link && (
+                    <a
+                      href={course.assignment[0].link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className={styles.view_course}>
+                        View Assignment
+                      </button>
+                    </a>
+                  )}
+                </div>
+              </div>
+            )}
+
             <div className={styles.second_view_container}>
               <div className={styles.second_view}>
                 <div className={styles.sv_texts}>
@@ -102,4 +134,4 @@ const IoTCourse = () => {
   );
 };
 
-export default IoTCourse;
+export default WebCourse;

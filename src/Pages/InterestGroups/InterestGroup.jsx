@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import Navbar from "../../../Components/Navbar/Navbar";
-import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 import styles from "./InterestGroup.module.css";
 
 import fvimg from "./assets/fvimg.png";
@@ -16,8 +16,8 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { useParams } from "react-router-dom";
-import InterestGroups from "../../LearningCircle/Home/data";
-import MentorCard from "../../../Components/MentorCard/MentorCard";
+import InterestGroups from "../LearningCircles/Home/data";
+import MentorCard from "../../Components/MentorCard/MentorCard";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {

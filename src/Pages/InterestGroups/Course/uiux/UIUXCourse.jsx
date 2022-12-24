@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
-import Footer from "../../../../../Components/Footer/Footer";
-import Navbar from "../../../../../Components/Navbar/Navbar";
-import styles from "./CybersecCourse.module.css";
+import Footer from "../../../../Components/Footer/Footer";
+import Navbar from "../../../../Components/Navbar/Navbar";
+import styles from "./UIUXCourse.module.css";
 
-import CybersecData from "./cybersec";
+import UIUXData from "./uiux";
 import { useParams } from "react-router-dom";
 
-const CybersecCourse = () => {
+const UIUXCourse = () => {
   const [course, setCourse] = useState();
   const { type, id } = useParams();
 
   useEffect(() => {
     if (type === "core") {
-      setCourse(CybersecData[0].core[id - 1]);
+      setCourse(UIUXData[0].core[id - 1]);
     } else if (type === "sub") {
-      setCourse(CybersecData[0].sub[id - 1]);
+      setCourse(UIUXData[0].sub[id - 1]);
     } else if (type === "enablement") {
-      setCourse(CybersecData[0].enablement[id - 1]);
+      setCourse(UIUXData[0].enablement[id - 1]);
     } else {
       setCourse("Sorry!");
     }
@@ -49,7 +49,8 @@ const CybersecCourse = () => {
                 />
               </div>
             </div>
-            {/* {course.assignment && (
+
+            {course.assignment && (
               <div className={styles.second_view_container}>
                 <div className={styles.second_view}>
                   <div className={styles.sv_texts}>
@@ -65,20 +66,9 @@ const CybersecCourse = () => {
                       {course.assignment[0].assignment_inner_description}
                     </p>
                   </div>
-                  {course.assignment[0].link && (
-                    <a
-                      href={course.assignment[0].link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className={styles.view_course}>
-                        View Assignment
-                      </button>
-                    </a>
-                  )}
                 </div>
               </div>
-            )} */}
+            )}
 
             <div className={styles.second_view_container}>
               <div className={styles.second_view}>
@@ -136,4 +126,4 @@ const CybersecCourse = () => {
   );
 };
 
-export default CybersecCourse;
+export default UIUXCourse;
