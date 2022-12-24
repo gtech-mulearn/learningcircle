@@ -184,6 +184,7 @@ const IntroToGithubPages = () => {
               />
             </div>
           </div>
+          
           <div className={styles.sample_container}>
             <p className={styles.sample_header}>Example Message</p>
             <p className={styles.sample_message}>

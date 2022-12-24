@@ -30,6 +30,7 @@ import IntroToMulearn from "./Pages/InterestGroups/MuChallenges/IntroToMuLearn/I
 import APISetu from "./Pages/APISetu/APISetu";
 import IndividualPage from "./Pages/ProblemShelves/IndividualPage/IndividualPage";
 import OpenSource from "./Pages/OpenSource/OpenSource";
+import Android from "./Pages/Bootcamp/Android/Android";
 
 function App() {
   //Home Page state Variables
@@ -232,6 +233,7 @@ function App() {
           <Route path="/common/:type/:id" element={<CommonCourse />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />
+          <Route path="/bootcamp/android" element={<Android />} />
           <Route
             path="/searchcircles"
             element={
