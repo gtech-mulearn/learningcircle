@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../../../../Components/Navbar/Navbar";
-import Footer from "../../../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar";
+import Footer from "../../../Components/Footer/Footer";
 
 import styles from "./MuLanding.module.css";
-import MentorCard from "../../../../Components/MentorCard/MentorCard";
+import MentorCard from "../../../Components/MentorCard/MentorCard";
 
 const MuLanding = () => {
   return (

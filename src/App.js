@@ -7,17 +7,7 @@ import Join from "./Pages/LearningCircle/Join/Join.jsx";
 import InterestGroup from "./Pages/InterestGroups/InterestGroup/InterestGroup";
 import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
 import Search from "./Pages/LearningCircle/Search/Search";
-import ProblemShelves from "./Pages/Practice/ProblemShelves/ProblemShelves";
-import MuChallenge from "./Pages/InterestGroups/MuChallenges/MuChallenge";
-import Courses from "./Pages/Practice/Courses/Courses";
-import TypingChallenge from "./Pages/InterestGroups/MuChallenges/TypingChallenge/TypingChallenge";
-import MuLanding from "./Pages/InterestGroups/MuChallenges/MuLanding/MuLanding";
-import DefensiveDriving from "./Pages/InterestGroups/MuChallenges/DefensiveDriving/DefensiveDriving";
-import IntroToGithub from "./Pages/InterestGroups/MuChallenges/IntroToGithub/IntroToGithub";
-import IntroToMarkdown from "./Pages/InterestGroups/MuChallenges/IntroToMarkdown/IntroToMarkdown";
-import IntroToCommandLine from "./Pages/InterestGroups/MuChallenges/IntroToCommandLine/IntroToCommandLine";
-import IntroToGithubPages from "./Pages/InterestGroups/MuChallenges/IntroToGithubPages/IntroToGithubPages";
-import IntroToHtml from "./Pages/InterestGroups/MuChallenges/IntroToHtml/IntroToHtml";
+
 import WebCourse from "./Pages/InterestGroups/InterestGroup/Course/web/WebCourse";
 import UIUXCourse from "./Pages/InterestGroups/InterestGroup/Course/uiux/UIUXCourse";
 import PMCourse from "./Pages/InterestGroups/InterestGroup/Course/pm/PMCourse";
@@ -25,12 +15,27 @@ import AndroidCourse from "./Pages/InterestGroups/InterestGroup/Course/android/A
 import IoTCourse from "./Pages/InterestGroups/InterestGroup/Course/iot/IoTCourse";
 import CybersecCourse from "./Pages/InterestGroups/InterestGroup/Course/cybersec/CybersecCourse";
 import CommonCourse from "./Pages/InterestGroups/InterestGroup/Course/common/CommonCourse";
-import TrafficLightSimulation from "./Pages/InterestGroups/MuChallenges/TrafficLightSimulation/TrafficLightSimulation";
-import IntroToMulearn from "./Pages/InterestGroups/MuChallenges/IntroToMuLearn/IntroToMuLearn";
-import APISetu from "./Pages/Practice/APISetu/APISetu";
-import IndividualPage from "./Pages/Practice/ProblemShelves/IndividualPage/IndividualPage";
-import OpenSource from "./Pages/Practice/OpenSource/OpenSource";
+
+
 import Android from "./Pages/Bootcamp/Android/Android";
+
+import ProblemShelves from "./Pages/Practice/ProblemShelves/ProblemShelves";
+import OpenSource from "./Pages/Practice/OpenSource/OpenSource";
+import APISetu from "./Pages/Practice/APISetu/APISetu";
+import Courses from "./Pages/Practice/Courses/Courses";
+import IndividualPage from "./Pages/Practice/ProblemShelves/IndividualPage/IndividualPage";
+
+//Practice => Challenges
+import TypingChallenge from "./Pages/Practice/Challenges/TypingChallenge/TypingChallenge";
+import MuLanding from "./Pages/Practice/Challenges/MuLanding";
+import DefensiveDriving from "./Pages/Practice/Challenges/DefensiveDriving/DefensiveDriving";
+import IntroToGithub from "./Pages/Practice/Challenges/IntroToGithub/IntroToGithub";
+import IntroToMarkdown from "./Pages/Practice/Challenges/IntroToMarkdown/IntroToMarkdown";
+import IntroToCommandLine from "./Pages/Practice/Challenges/IntroToCommandLine/IntroToCommandLine";
+import IntroToGithubPages from "./Pages/Practice/Challenges/IntroToGithubPages/IntroToGithubPages";
+import IntroToHtml from "./Pages/Practice/Challenges/IntroToHtml/IntroToHtml";
+import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimulation/TrafficLightSimulation";
+import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn";
 
 function App() {
   //Home Page state Variables
@@ -192,7 +197,6 @@ function App() {
           <Route path="/problemshelves" element={<ProblemShelves />} />
           <Route path="/opensource" element={<OpenSource />} />
           <Route path="/problemshelves/:id" element={<IndividualPage />} />
-          <Route path="/challenge/web" element={<MuChallenge />} />
           <Route path="/challenges" element={<MuLanding />} />
           <Route path="/challenge/typing" element={<TypingChallenge />} />
           <Route

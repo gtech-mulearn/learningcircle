@@ -28,7 +28,7 @@
 }
 
 .fv_heading span {
-  color: #f6842c;
+  color: #f78c40;
 }
 
 .fv_content {
@@ -39,18 +39,18 @@
 
 @media only screen and (min-width: 1000px) {
   .first_view_container {
-    margin: 6rem;
+    margin: 2rem 6rem;
   }
 
   .first_view {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
   }
 
   .fv_texts {
-    width: 35vw;
+    max-width: 40rem;
     margin: 3rem 0;
   }
 
@@ -92,11 +92,12 @@
 .mentors {
   display: grid;
   grid-template-columns: 100%;
+  justify-content: space-between;
 }
 
 @media only screen and (min-width: 1000px) {
   .second_view_container {
-    margin: 6rem;
+    margin: 2rem 6rem;
   }
 
   .sv_heading {
