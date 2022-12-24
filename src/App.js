@@ -7,6 +7,7 @@ import Home from "./Pages/LearningCircles/Home/Home";
 import Create from "./Pages/LearningCircles/Create/Create";
 import Join from "./Pages/LearningCircles/Join/Join.jsx";
 
+//InterestGroups
 import InterestGroup from "./Pages/InterestGroups/InterestGroup";
 import WebCourse from "./Pages/InterestGroups/Course/web/WebCourse";
 import UIUXCourse from "./Pages/InterestGroups/Course/uiux/UIUXCourse";
@@ -16,6 +17,7 @@ import IoTCourse from "./Pages/InterestGroups/Course/iot/IoTCourse";
 import CybersecCourse from "./Pages/InterestGroups/Course/cybersec/CybersecCourse";
 import CommonCourse from "./Pages/InterestGroups/Course/common/CommonCourse";
 
+//Bootcamp Section
 import Android from "./Pages/Bootcamp/Android/Android";
 
 //Search Section
