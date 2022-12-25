@@ -39,6 +39,59 @@ const CTFPage = () => {
             </div>
           </div>
         </div>
+        <div className={styles.second_view_container}>
+          <div className={styles.second_view}>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>
+                Getting <span> Started</span>
+              </p>
+              <p className={styles.sv_content}>
+                This workshop is divided into 2 parts. The learning section and
+                the challenge section
+              </p>
+            </div>
+            <div className={styles.sv_section_one}>
+              <div className={styles.svs_texts}>
+                <p className={styles.section_preheading}>ONLINE</p>
+                <p className={styles.section_heading}>Part One</p>
+              </div>
+              <div className={styles.svs_boxes}>
+                <div className={styles.svs_box}>
+                  <p className={styles.box_header}>Day 01</p>
+                  <ul>
+                    <li>Introduction to Fundamentals of Cyber Security.</li>
+                  </ul>
+                </div>
+                <div className={styles.svs_box}>
+                  <p className={styles.box_header}>Day 02</p>
+                  <ul>
+                    <li>Linux OS Basics</li>
+                    <li>Introduction to Netowrk</li>
+                  </ul>
+                </div>
+                <div className={styles.svs_box}>
+                  <p className={styles.box_header}>Day 03</p>
+                  <ul>
+                    <li>Introduction to Network</li>
+                    <li>5 Stages of Hacking</li>
+                  </ul>
+                </div>
+                <div className={styles.svs_box}>
+                  <p className={styles.box_header}>Day 04</p>
+                  <ul>
+                    <li>5 Stages of Hacking</li>
+                  </ul>
+                </div>
+                <div className={styles.svs_box}>
+                  <p className={styles.box_header}>Day 05</p>
+                  <ul>
+                    <li>Exploitation Basics</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
