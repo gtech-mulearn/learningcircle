@@ -4,6 +4,7 @@ import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./CTFPage.module.css";
 
 const CTFPage = () => {
+  const data = require("./data.json");
   return (
     <>
       <Navbar />
@@ -123,106 +124,105 @@ const CTFPage = () => {
               <p className={styles.plan_header}>
                 Workshop <span>Plan</span>
               </p>
-              <p className={styles.plan_day}>Day 1</p>
+
               <div className={styles.tv_plan_structure}>
                 <div className={styles.detailed_structure}>
-                  <p className={styles.plan_title}>
-                    Online /Introduction to Fundamentals of Cyber Security
-                  </p>
+                  <p className={styles.plan_day}>Day 1</p>
+                  <p className={styles.plan_title}>{data.day1[0].title}</p>
                   <div className={styles.topics}>
                     <div className={styles.topic}>
                       <span className={styles.topic_number}>01</span>
                       <div>
                         <p className={styles.topic_title}>
                           {" "}
-                          Cyber Secruity, a walk-through
+                          {data.day1[0].p1[0]}
                         </p>
                         <p className={styles.topic_subtitle}>
-                          Intro to Cyber World & Cyber Security
+                          {data.day1[0].p1[1]}
                         </p>
                       </div>
                     </div>
                     <div className={styles.topic}>
-                      <span className={styles.topic_number}>01</span>
+                      <span className={styles.topic_number}>02</span>
                       <div>
                         <p className={styles.topic_title}>
                           {" "}
-                          Cyber Secruity, a walk-through
+                          {data.day1[0].p2[0]}
                         </p>
                         <p className={styles.topic_subtitle}>
-                          Intro to Cyber World & Cyber Security
+                          {data.day1[0].p2[1]}
                         </p>
                       </div>
                     </div>
                     <div className={styles.topic}>
-                      <span className={styles.topic_number}>01</span>
+                      <span className={styles.topic_number}>03</span>
                       <div>
                         <p className={styles.topic_title}>
                           {" "}
-                          Cyber Secruity, a walk-through
+                          {data.day1[0].p3[0]}
                         </p>
                         <p className={styles.topic_subtitle}>
-                          Intro to Cyber World & Cyber Security
+                          {data.day1[0].p3[1]}
                         </p>
                       </div>
                     </div>
                     <div className={styles.topic}>
-                      <span className={styles.topic_number}>01</span>
+                      <span className={styles.topic_number}>04</span>
                       <div>
                         <p className={styles.topic_title}>
                           {" "}
-                          Cyber Secruity, a walk-through
+                          {data.day1[0].p4[0]}
                         </p>
                         <p className={styles.topic_subtitle}>
-                          Intro to Cyber World & Cyber Security
+                          {data.day1[0].p4[1]}
                         </p>
                       </div>
                     </div>
                     <div className={styles.topic}>
-                      <span className={styles.topic_number}>01</span>
+                      <span className={styles.topic_number}>05</span>
                       <div>
                         <p className={styles.topic_title}>
                           {" "}
-                          Cyber Secruity, a walk-through
+                          {data.day1[0].p5[0]}
                         </p>
                         <p className={styles.topic_subtitle}>
-                          Intro to Cyber World & Cyber Security
+                          {data.day1[0].p5[1]}
                         </p>
                       </div>
                     </div>
                     <div className={styles.topic}>
-                      <span className={styles.topic_number}>01</span>
+                      <span className={styles.topic_number}>06</span>
                       <div>
                         <p className={styles.topic_title}>
                           {" "}
-                          Cyber Secruity, a walk-through
+                          {data.day1[0].p6[0]}
                         </p>
                         <p className={styles.topic_subtitle}>
-                          Intro to Cyber World & Cyber Security
+                          {data.day1[0].p6[1]}
                         </p>
                       </div>
                     </div>
                     <div className={styles.topic}>
-                      <span className={styles.topic_number}>01</span>
+                      <span className={styles.topic_number}>07</span>
                       <div>
                         <p className={styles.topic_title}>
                           {" "}
-                          Cyber Secruity, a walk-through
+                          {data.day1[0].p7[0]}
                         </p>
                         <p className={styles.topic_subtitle}>
-                          Intro to Cyber World & Cyber Security
+                          {data.day1[0].p7[1]}
                         </p>
                       </div>
                     </div>
                     <div className={styles.topic}>
-                      <span className={styles.topic_number}>01</span>
+                      <span className={styles.topic_number}>08</span>
                       <div>
                         <p className={styles.topic_title}>
                           {" "}
-                          Cyber Secruity, a walk-through
+                          {data.day1[0].p8[0]}
                         </p>
                         <p className={styles.topic_subtitle}>
-                          Intro to Cyber World & Cyber Security
+                          {data.day1[0].p8[1]}
                         </p>
                       </div>
                     </div>

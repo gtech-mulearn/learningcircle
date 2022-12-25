@@ -1,5 +1,5 @@
 {
-  "day01": [
+  "day1": [
     {
       "id": "1",
       "title": "Introduction & Fundamentals of Cyber Security",
@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "day02": [
+  "day2": [
     {
       "id": "1",
       "title": "Linux OS Basics",
@@ -74,7 +74,7 @@
       "p6": ["Subnetting", "The term subnetting and it's working"]
     }
   ],
-  "day03": [
+  "day3": [
     {
       "id": "1",
       "title": "Introduction to Network",
@@ -100,7 +100,7 @@
       ]
     }
   ],
-  "day04": [
+  "day4": [
     {
       "id": "1",
       "title": "5 Stages of Hacking",
@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "day05": [
+  "day5": [
     {
       "id": "1",
       "title": "5 Stages of Hacking",
