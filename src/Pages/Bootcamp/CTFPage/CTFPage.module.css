@@ -128,7 +128,7 @@ ul {
 
 @media only screen and (min-width: 1000px) {
   .second_view_container {
-    margin: 0 12rem;
+    margin: 0 6rem;
   }
 }
 
@@ -154,8 +154,15 @@ ul {
   }
 }
 
+.sv_sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .sv_section_one {
   margin-top: 2rem;
+  width: 80rem;
 }
 
 .section_preheading {
@@ -188,7 +195,7 @@ ul {
   box-shadow: 0 1px 12px 0 rgb(193 195 211 / 37%);
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 10px;
-  width: 22rem;
+  width: 21rem;
 }
 
 .svs_box ul {
@@ -201,4 +208,9 @@ ul {
   font-size: 1.2rem;
   color: #00bc83;
   font-weight: 400;
+}
+
+.sv_section_second {
+  margin-top: 2rem;
+  width: 20rem;
 }

@@ -50,43 +50,59 @@ const CTFPage = () => {
                 the challenge section
               </p>
             </div>
-            <div className={styles.sv_section_one}>
-              <div className={styles.svs_texts}>
-                <p className={styles.section_preheading}>ONLINE</p>
-                <p className={styles.section_heading}>Part One</p>
+            <div className={styles.sv_sections}>
+              <div className={styles.sv_section_one}>
+                <div className={styles.svs_texts}>
+                  <p className={styles.section_preheading}>ONLINE</p>
+                  <p className={styles.section_heading}>Part One</p>
+                </div>
+                <div className={styles.svs_boxes}>
+                  <div className={styles.svs_box}>
+                    <p className={styles.box_header}>Day 01</p>
+                    <ul>
+                      <li>Introduction to Fundamentals of Cyber Security.</li>
+                    </ul>
+                  </div>
+                  <div className={styles.svs_box}>
+                    <p className={styles.box_header}>Day 02</p>
+                    <ul>
+                      <li>Linux OS Basics</li>
+                      <li>Introduction to Netowrk</li>
+                    </ul>
+                  </div>
+                  <div className={styles.svs_box}>
+                    <p className={styles.box_header}>Day 03</p>
+                    <ul>
+                      <li>Introduction to Network</li>
+                      <li>5 Stages of Hacking</li>
+                    </ul>
+                  </div>
+                  <div className={styles.svs_box}>
+                    <p className={styles.box_header}>Day 04</p>
+                    <ul>
+                      <li>5 Stages of Hacking</li>
+                    </ul>
+                  </div>
+                  <div className={styles.svs_box}>
+                    <p className={styles.box_header}>Day 05</p>
+                    <ul>
+                      <li>Exploitation Basics</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div className={styles.svs_boxes}>
-                <div className={styles.svs_box}>
-                  <p className={styles.box_header}>Day 01</p>
-                  <ul>
-                    <li>Introduction to Fundamentals of Cyber Security.</li>
-                  </ul>
+              <div className={styles.sv_section_second}>
+                <div className={styles.svs_texts}>
+                  <p className={styles.section_preheading}>OFFLINE</p>
+                  <p className={styles.section_heading}>Part Two</p>
                 </div>
-                <div className={styles.svs_box}>
-                  <p className={styles.box_header}>Day 02</p>
-                  <ul>
-                    <li>Linux OS Basics</li>
-                    <li>Introduction to Netowrk</li>
-                  </ul>
-                </div>
-                <div className={styles.svs_box}>
-                  <p className={styles.box_header}>Day 03</p>
-                  <ul>
-                    <li>Introduction to Network</li>
-                    <li>5 Stages of Hacking</li>
-                  </ul>
-                </div>
-                <div className={styles.svs_box}>
-                  <p className={styles.box_header}>Day 04</p>
-                  <ul>
-                    <li>5 Stages of Hacking</li>
-                  </ul>
-                </div>
-                <div className={styles.svs_box}>
-                  <p className={styles.box_header}>Day 05</p>
-                  <ul>
-                    <li>Exploitation Basics</li>
-                  </ul>
+                <div className={styles.svs_boxes}>
+                  <div className={styles.svs_box}>
+                    <p className={styles.box_header}>Challenge</p>
+                    <ul>
+                      <li>CTF Challenge</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
