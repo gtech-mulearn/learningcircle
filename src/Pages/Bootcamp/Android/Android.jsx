@@ -17,8 +17,10 @@ const Android = () => {
               </p>
               <p className={styles.fv_content}>
                 Learn Android Development in Kotlin hands-on so that you may
-                integrate it on your campuses for your colleagues who are eager
-                to enter the area of Android Development in Kotlin.
+                integrate it in your campus for your peers who are eeager to
+                venture into Android Development with Kotlin.This Boot-camp aims
+                to minimize the learning process into micro-steps to enhance
+                your learning curve
               </p>
               <button className={styles.register}>Starting Soon!</button>
             </div>
@@ -123,7 +125,7 @@ const Android = () => {
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 21 in #students channel with hashtag{" "}
-                        <b>&nbsp;#bc-exercism-kotlin-21</b> to avail{" "}
+                        <b>&nbsp;#cl-exercism-kotlin-21</b> to avail{" "}
                         <b>200 karma points.</b>
                         <br />
                       </div>
@@ -142,7 +144,7 @@ const Android = () => {
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 42 in #students channel with hashtag
-                        <b>&nbsp;#bc-exercism-kotlin-42</b> to avail{" "}
+                        <b>&nbsp;#cl-exercism-kotlin-42</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
                     </div>
@@ -160,7 +162,7 @@ const Android = () => {
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 63 in #students channel with hashtag
-                        <b>&nbsp;#bc-exercism-kotlin-63</b> to avail{" "}
+                        <b>&nbsp;#cl-exercism-kotlin-63</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
                     </div>
@@ -178,7 +180,7 @@ const Android = () => {
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 85 in #students channel with hashtag
-                        <b>&nbsp;#bc-exercism-kotlin-85</b> to avail{" "}
+                        <b>&nbsp;#cl-exercism-kotlin-85</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
                     </div>
@@ -186,29 +188,21 @@ const Android = () => {
                   <div className={styles.sample_container}>
                     <b>
                       <p className={styles.sample_header}>
-                        New lessons will update shortly!
+                        New lessons will be update shortly!
                       </p>
                     </b>
-                    <p className={styles.sample_message}>
-                      Detailed details about the bootcamp lessons will be added
-                      on shortly.
-                    </p>
                   </div>
                   <div className={styles.sample_container}>
                     <b>
                       <p className={styles.sample_header}>
-                        Exercism Sample Profile
+                        Exercism Message and Image
                       </p>
                     </b>
                     <p className={styles.sample_message}>
-                      <a
-                        href="https://exercism.org/profiles/BijoMathewJose"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Click Here &nbsp;
-                      </a>
-                      to view an example for an exercism sample profile.
+                      Hey! I've reached Android Bootcamp Exercise 21. Here's my
+                      progress. <br />
+                      exercism.org/profiles/BijoMathewJose
+                      #cl-exercism-kotlin-21.
                     </p>
                     <br />
                     <img

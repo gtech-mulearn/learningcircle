@@ -243,7 +243,7 @@ function App() {
           <Route path="/common/:type/:id" element={<CommonCourse />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />
-          <Route path="/bootcamp/android" element={<Android />} />
+          <Route path="/bootcamps/android" element={<Android />} />
           <Route
             path="/searchcircles"
             element={
