@@ -183,7 +183,17 @@ const Android = () => {
                       </div>
                     </div>
                   </div>
-
+                  <div className={styles.sample_container}>
+                    <b>
+                      <p className={styles.sample_header}>
+                        New lessons will update shortly!
+                      </p>
+                    </b>
+                    <p className={styles.sample_message}>
+                      Detailed details about the bootcamp lessons will be added
+                      on shortly.
+                    </p>
+                  </div>
                   <div className={styles.sample_container}>
                     <b>
                       <p className={styles.sample_header}>
@@ -207,18 +217,6 @@ const Android = () => {
                       alt="pic"
                       srcset=""
                     />
-                  </div>
-
-                  <div className={styles.sample_container}>
-                    <b>
-                      <p className={styles.sample_header}>
-                        Will Update Shortly!
-                      </p>
-                    </b>
-                    <p className={styles.sample_message}>
-                      Detailed details about the bootcamp lessons will be added
-                      on shortly.
-                    </p>
                   </div>
                 </div>
               </div>
