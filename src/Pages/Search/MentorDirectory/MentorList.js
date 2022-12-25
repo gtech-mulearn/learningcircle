@@ -1190,7 +1190,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/jaseelpmuhammed",
     stack: "IoT",
     image:
-      "https://drive.google.com/uc?export=view&id=1KrUz1CAL29aFXvbP7uuP7wFVDUqJizTm",
+      "/assets/mentors/Muhammad Jaseel P.webp",
     source: "µLearn",
   },
   {
@@ -1200,7 +1200,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/vijay-kumar-m-04818b",
     stack: "IoT",
     image:
-      "https://drive.google.com/uc?export=view&id=1YibTLgWRtYOcp74rQkstBCcRY44m2QhM",
+      "/assets/mentors/Vijay Kumar M.webp",
     source: "µLearn",
   },
   {
@@ -1210,7 +1210,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/sanjumathewk",
     stack: "IoT",
     image:
-      "https://drive.google.com/uc?export=view&id=1lCpWwGNe-xsEJPqOn3JBYRfmINRJ0Uo3",
+      "/assets/mentors/Sanju Mathew.webp",
     source: "µLearn",
   },
   {
@@ -1220,7 +1220,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/akshaim",
     stack: "IoT",
     image:
-      "https://drive.google.com/uc?export=view&id=1Fq8-PvfeME5f78kSUydqj-zuSi9MESvI",
+      "/assets/mentors/Akshai M.webp",
     source: "µLearn",
   },
   {
@@ -1239,7 +1239,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/nithin-balachandran",
     stack: "Product Management",
     image:
-      "https://drive.google.com/uc?export=view&id=1QBNU_VN3BNTbmajursbYpdB-iDJOvppv",
+      "/assets/mentors/Nithin Balachandran.webp",
     source: "µLearn",
   },
   {
@@ -1249,7 +1249,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/vineeshus",
     stack: "Product Management",
     image:
-      "https://drive.google.com/uc?export=view&id=1yssQ7Em7RbFv2cQ9lU75lgzTXbeqoRVe",
+      "/assets/mentors/Vineesh U S.webp",
     source: "µLearn",
   },
   {
@@ -1259,7 +1259,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/aravindmuraleedharan",
     stack: "Product Management",
     image:
-      "https://drive.google.com/uc?export=view&id=1O6HcE1RIKZ1J4cC-2BJog_Ps9F2-7KYx",
+      "/assets/mentors/Aravind Muraleedharan.webp",
     source: "µLearn",
   },
   {
@@ -1269,7 +1269,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/michaelmathewsk",
     stack: "UI UX",
     image:
-      "https://drive.google.com/uc?export=view&id=1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I",
+      "/assets/mentors/Michael Mathews.webp",
     source: "µLearn",
   },
   {
@@ -1279,7 +1279,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/salman-faariz-37b892194",
     stack: "UI UX",
     image:
-      "https://drive.google.com/uc?export=view&id=1oNK1QekGS6xhNU50317onjvEc82RNQ4s",
+      "/assets/mentors/Salman Faariz.webp",
     source: "µLearn",
   },
   {
@@ -1289,7 +1289,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/rheamerin",
     stack: "UI UX",
     image:
-      "https://drive.google.com/uc?export=view&id=1XGaSobjiNegNPTtpNSsL58aes9PN7XJ6",
+      "/assets/mentors/Rhea Merin.webp",
     source: "µLearn",
   },
   {
@@ -1299,7 +1299,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/navaneethvenu",
     stack: "UI UX",
     image:
-      "https://drive.google.com/uc?export=view&id=1wGokGAMruQul49It6LmMeMv_aaV-VN2R",
+      "/assets/mentors/Navaneeth Venu.webp",
     source: "µLearn",
   },
   {
@@ -1309,7 +1309,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/shaheen-hyder/",
     stack: "Web Development",
     image:
-      "https://drive.google.com/uc?export=view&id=1WZaPnWL4eFow4tcEE7FfBzgUnycNu2mT",
+      "/assets/mentors/Shaheen Hyder.webp",
     source: "µLearn",
   },
   {
@@ -1319,7 +1319,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/shahanadvs/",
     stack: "Web Development",
     image:
-      "https://drive.google.com/uc?export=view&id=1E5TuTm1nKzLvKUznuAAb6xB-f94UXTv7",
+      "/assets/mentors/Shahanad V S.webp",
     source: "µLearn",
   },
   {
@@ -1329,7 +1329,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/vinubalagopalap/",
     stack: "Android Development",
     image:
-      "https://drive.google.com/uc?export=view&id=1kLazNGXtS2wUKyWQ6KFQYHhuRrxbc0H8",
+      "/assets/mentors/Vinu Balagopal A P.webp",
     source: "µLearn",
   },
   {
@@ -1339,7 +1339,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/rejah/",
     stack: "Cybersecurity",
     image:
-      "https://drive.google.com/uc?export=view&id=1jLMLJQRC1wxfV1bNU_F8xWrybLEC-miM",
+      "/assets/mentors/Rejah Rehim.webp",
     source: "µLearn",
   },
   {
@@ -1349,7 +1349,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/anees-pk/",
     stack: "Cybersecurity",
     image:
-      "https://drive.google.com/uc?export=view&id=1kKPODk11RLRZQvpZuHN_hbXy_ddU4Kk7",
+      "/assets/mentors/Anees P.webp",
     source: "µLearn",
   },
   {
@@ -1359,7 +1359,7 @@ const MentorList = [
     linkedin: "https://www.linkedin.com/in/nashns/",
     stack: "Cybersecurity",
     image:
-      "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
+      "/assets/mentors/Nash N Sulthan.webp",
     source: "µLearn",
   },
 
@@ -1389,7 +1389,7 @@ const MentorList = [
       "Gurudath is the founder of 'Videogrammer' - a Microsoft-funded project for Startups.",
     stack: "",
     linkedIn: "https://www.linkedin.com/in/gurudath-sadanandan",
-    image: "https://www.fayaport80.com/speakers/thumb/gurudath-sadanandan.png/",
+    image: "https://www.fayaport80.com/speakers/thumb/gurudath-sadanandan.png",
     source: "FAYA:80",
   },
   {
