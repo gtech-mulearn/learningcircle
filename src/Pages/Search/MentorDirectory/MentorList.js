@@ -1,6 +1,6 @@
 const MentorList = [
   {
-    speakerID: "S1",
+    id: "S1",
     name: "Sony John Bronzon",
     designation: "Heads Training and Development at ALLONTM.",
     stack: "Design Thinking",
@@ -9,7 +9,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S2",
+    id: "S2",
     name: "Madhusudan Shekar",
     designation: "Chief Evangelist of Amazon Web Services, Amazon India",
     stack: "AWS Lambda",
@@ -18,7 +18,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S3",
+    id: "S3",
     name: "Janeesh Uthuppan",
     designation:
       "digital marketing professional and the Founding Partner of Webdura Technologies",
@@ -28,7 +28,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S4",
+    id: "S4",
     name: "Rakesh B S",
     designation: "Co-Founders of Qucentis & BIGOrg",
     stack: "Blockchain",
@@ -37,7 +37,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S5",
+    id: "S5",
     name: "Jikku Jose",
     designation: "Ruby Developer - Co-Founder, Qucentis",
     stack: "Blockchain",
@@ -46,7 +46,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S6",
+    id: "S6",
     name: "Krishnakumar S",
     designation:
       "Senior Consultant-Database Administration at EnvestNet Trivandrum",
@@ -56,7 +56,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S7",
+    id: "S7",
     name: "Jeswin Simon",
     designation: "Senior Engineer - Product, Envestnet",
     stack: "Swift 4",
@@ -65,7 +65,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S8",
+    id: "S8",
     name: "Jaydev S V",
     designation: "Founder of volvox",
     stack: "Singularity Series",
@@ -74,7 +74,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S9",
+    id: "S9",
     name: "Hrishi Olickel",
     designation: "Founder of volvox",
     stack: "Singularity Series",
@@ -83,7 +83,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S10",
+    id: "S10",
     name: "Manuyash Chaudhary",
     designation: "AI & NLP Developer & Researcher, Accubits Technologies",
     stack: "Deep Learning",
@@ -92,7 +92,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S11",
+    id: "S11",
     name: "Suchit Majumdar",
     designation: "Chief Data Science Evangelist, UpX Academy, Hyderabad",
     stack: "Artificial Intelligence",
@@ -101,7 +101,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S12",
+    id: "S12",
     name: "Amal Dev",
     designation: "Assistant Manager - KPMG Global Services",
     stack: "Docker",
@@ -110,7 +110,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S13",
+    id: "S13",
     name: "Shine Xavier",
     designation: "Senior Architect, UST Global",
     stack: "JavaScript",
@@ -119,7 +119,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S14",
+    id: "S14",
     name: "Amal Shehu",
     designation: "JS Frontend Engineers, FAYA Innovations",
     stack: "Angular 4",
@@ -128,7 +128,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S15",
+    id: "S15",
     name: "Vijay Kumar M",
     designation: "CEO & MD – Webyfy Infotech Pvt Ltd",
     stack: "IOT",
@@ -137,7 +137,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S16",
+    id: "S16",
     name: "Anand Ramkumar",
     designation: "Senior Test Engineer, Experion Technologies, Trivandrum",
     stack: "AWS farm",
@@ -146,7 +146,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S17",
+    id: "S17",
     name: "Sarath Varma Asokan",
     designation: "Senior Consultant (Software Testing), Se-Mentor, Trivandrum.",
     stack: "",
@@ -155,7 +155,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S18",
+    id: "S18",
     name: "Praseed Pai",
     designation: "software architect working in UST Global",
     stack: "Blockchain",
@@ -164,7 +164,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S19",
+    id: "S19",
     name: "Deepak Varma",
     designation: "Director, Technospirit Consulting, Cochin",
     stack: "Big Data",
@@ -173,7 +173,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S20",
+    id: "S20",
     name: "Nikhil Krishna",
     designation: "Solutions Architect working in UST Global",
     stack: "Kubernetes",
@@ -182,7 +182,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S21",
+    id: "S21",
     name: "Sarath C",
     designation: "Architect at Experion Technologies, Technopark, Trivandrum",
     stack: "fastlane tools,Swift",
@@ -191,7 +191,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S22",
+    id: "S22",
     name: "Priya Sivakumar",
     designation: "Delivery Head, TATA Elxsi",
     stack: "DevOps",
@@ -200,7 +200,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S23",
+    id: "S23",
     name: "Vijay Dev",
     designation: "Lead Front-End Developer of Qburst",
     stack: "React.js",
@@ -209,7 +209,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S24",
+    id: "S24",
     name: "Nikhil Raj R",
     designation: "Senior SEO Engineer at Alamy Images India Pvt.Ltd.",
     stack: "SEO",
@@ -218,7 +218,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S25",
+    id: "S25",
     name: "Aneesh Sreedharan",
     designation:
       "Chief Exicutive & Technology Enthusiast, 2Hats Logic Solutions, Kochi",
@@ -228,7 +228,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S26",
+    id: "S26",
     name: "Liju Pillai",
     designation: "Co-founder & CEO of Perfomatix Solutions Pvt Ltd",
     stack: "Angular JS",
@@ -237,7 +237,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S27",
+    id: "S27",
     name: "Ashik Ajith",
     designation: "Software Engineer, Ruby Software India Pvt.Ltd.",
     stack: "Ruby",
@@ -246,7 +246,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S28",
+    id: "S28",
     name: "Rajeev J Sebastian",
     designation: "CEO, Alokin Software",
     stack: "Python",
@@ -255,7 +255,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S29",
+    id: "S29",
     name: "Faiz Mohamed Haneef",
     designation: "Director - Neoito Technologies Pvt Ltd",
     stack: "Angular",
@@ -264,7 +264,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S30",
+    id: "S30",
     name: "Deepu S Nath",
     designation: "Managing Director - Tech Faya Innovations Pvt Ltd",
     stack: " JavaScript,Angular",
@@ -273,7 +273,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S31",
+    id: "S31",
     name: "Nithin S",
     designation: "",
     stack: "JavaScript",
@@ -282,7 +282,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S32",
+    id: "S32",
     name: "Shiraz Samad",
     designation: "Front End Developer at DBG",
     stack: "JavaScript",
@@ -291,7 +291,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S33",
+    id: "S33",
     name: "Lakshmikant Deshpande",
     designation: "Neoito Technologies",
     stack: "Angular",
@@ -301,7 +301,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S34",
+    id: "S34",
     name: "Mohana Kumar",
     designation: "Senior Software Developer",
     stack: "Big Data Analytics",
@@ -310,7 +310,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S35",
+    id: "S35",
     name: "Aromal Sasidharan",
     designation: "IOS developer at DBG",
     stack: "Switch",
@@ -319,7 +319,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S36",
+    id: "S36",
     name: "Thahir Maheen",
     designation: "IOS developer at DBG",
     stack: "Swift",
@@ -328,7 +328,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S37",
+    id: "S37",
     name: "Adarsh V C",
     designation: "IOS developer(Team Lead) at DBG",
     stack: "MBaaS",
@@ -337,7 +337,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S38",
+    id: "S38",
     name: "Praveen Vijayan",
     designation: "Front-end developer at Flip Media",
     stack: "Web App Developers",
@@ -346,7 +346,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S39",
+    id: "S39",
     name: "Dr. Jayaraj Poroor",
     designation: "Founder of DependSoft Consulting",
     stack: "Node.JS Express",
@@ -355,7 +355,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S40",
+    id: "S40",
     name: "Shameer B",
     designation: "UI Lead at FAYA",
     stack: "HTML5 & CSS",
@@ -364,7 +364,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S41",
+    id: "S41",
     name: "Rahul Raj",
     designation: "UX Lead at FAYA",
     stack: "Mastering HTML5 & CSS3",
@@ -373,7 +373,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S42",
+    id: "S42",
     name: "Sumil K S",
     designation: "UI Developer at FAYA",
     stack: "Mastering HTML5 & CSS3",
@@ -382,7 +382,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S43",
+    id: "S43",
     name: "Ganesh Kumar G",
     designation: "Senior UI Developer at McFadyen Digital",
     stack: "",
@@ -391,7 +391,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S44",
+    id: "S44",
     name: "Haneefa T P",
     designation: "Developer at FAYA",
     stack: "Angular JS,Knockout JS",
@@ -400,7 +400,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S45",
+    id: "S45",
     name: "Sreenath Sasikumar",
     designation: "Developer at FAYA",
     stack: "Angular JS,Knockout JS",
@@ -409,7 +409,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S46",
+    id: "S46",
     name: "Suresh Babu",
     designation: "Firmusoft Pvt. Ltd",
     stack: "Angular JS,Knockout JS",
@@ -418,7 +418,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S48",
+    id: "S48",
     name: "Rahul Krishnan",
     designation: "Attinad Software",
     stack: "",
@@ -427,7 +427,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S49",
+    id: "S49",
     name: "Sudhahar Viswanathan",
     designation: "QA Lead at FAYA",
     stack: "",
@@ -436,7 +436,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S50",
+    id: "S50",
     name: "Sajin T M",
     designation: "FAYA",
     stack: "Apache Solr",
@@ -445,7 +445,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S51",
+    id: "S51",
     name: "Madhav M Nair",
     designation: "User Experience Designer,  Jio Tesseract",
     stack: "AR / VR / MR / CR",
@@ -454,7 +454,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S52",
+    id: "S52",
     name: "Savio Victor",
     designation:
       "AI enthusiast and entrepreneur, co-founder of air.ai and KnightClan.",
@@ -464,7 +464,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S53",
+    id: "S53",
     name: "Viju Chacko",
     designation: "Digital Architecture Head,  Air India Limited",
     stack: "Artificial Intelligence",
@@ -473,7 +473,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S54",
+    id: "S54",
     name: "Charles Andrews",
     designation: "Singularity evangelist and entrepreneur",
     stack: "Singularity Series",
@@ -482,7 +482,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S55",
+    id: "S55",
     name: "Amarnath Sankar",
     designation: "CEO at CAT Entertainments Pvt Ltd & Co-Founder at TastySpots",
     stack: "Crowdfunding",
@@ -491,7 +491,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S56",
+    id: "S56",
     name: "Abdul Muhyami Arif",
     designation: "Mobile developer at FantaCode",
     stack: "Xamarin",
@@ -500,7 +500,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S57",
+    id: "S57",
     name: "Pranoy Radhakrishnan",
     designation: "Deep Learning researcher and co-founder of air.ai",
     stack: "Artificial Intelligence",
@@ -509,7 +509,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S58",
+    id: "S58",
     name: "Michael Gord",
     designation: "Founder & CEO, MLG Blockchain Consulting",
     stack: "",
@@ -518,7 +518,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S59",
+    id: "S59",
     name: "Satish Babu",
     designation: "Chair, APRALO - ICANN",
     stack: "FOSS",
@@ -527,7 +527,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S60",
+    id: "S60",
     name: "Venkatramanan P R",
     designation: "Data Scientist, Thought Works",
     stack: "Machine Learning Systems",
@@ -536,7 +536,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S61",
+    id: "S61",
     name: "Professor Nandini Vaidyanathan",
     designation: "Chairman and M D, CARMa Venture Services",
     stack: "",
@@ -545,7 +545,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S62",
+    id: "S62",
     name: "Rama Brahmam Aleti",
     designation: "Co-Founder & UX Strategist, Think Design Collaborative",
     stack: "UX",
@@ -554,7 +554,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S63",
+    id: "S63",
     name: "Sanju Mathew",
     designation: "CEO, Onbyz",
     stack: "Smarter Wearables",
@@ -563,7 +563,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S64",
+    id: "S64",
     name: "Abhilash Ashok",
     designation: "Senior Lead, UX Development, Valorem",
     stack: "VR, AR & MR",
@@ -572,7 +572,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S65",
+    id: "S65",
     name: "Anivar Aravind",
     designation: "Founder Executive Director, Indic Project",
     stack: "Civic Technologies",
@@ -581,7 +581,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S66",
+    id: "S66",
     name: "Mohammed Rafi T F",
     designation:
       "Behavioural Scientist, Life Transformation Specialist and International Master Trainer, Neuro Lingusitic Programme",
@@ -591,7 +591,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S67",
+    id: "S67",
     name: "M Sivasankar IAS",
     designation: "IT Secretary, Government of Kerala",
     stack: "",
@@ -600,7 +600,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S68",
+    id: "S68",
     name: "Dr. Asharaf S",
     designation: "Associate Professor, IIITMK",
     stack: "",
@@ -609,7 +609,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S69",
+    id: "S69",
     name: "Rahul Alex Panicker",
     designation: "Co-founder & President, Embrace Innovations",
     stack: "",
@@ -618,7 +618,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S70",
+    id: "S70",
     name: "Anoop Ambika",
     designation: "CEO, Kerala Startup Mission",
     stack: "",
@@ -627,7 +627,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S71",
+    id: "S71",
     name: "Pinaki Krishna Pillai",
     designation: "Founder, Microm CRM",
     stack: "Digital Marketing",
@@ -637,7 +637,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S72",
+    id: "S72",
     name: "Dilip Mathew Thomas",
     designation: "Independent Consultant- Deep Learning",
     stack: "Deep Learning",
@@ -646,7 +646,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S73",
+    id: "S73",
     name: "Sreeraj S",
     designation: "Chief Architect of Servntire Global",
     stack: " Ethereum and DAPPs.",
@@ -655,7 +655,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S74",
+    id: "S74",
     name: "Sarath Soman",
     designation: "Software Engineer at Hifx",
     stack: "Java Virtual Machine 101",
@@ -664,7 +664,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S75",
+    id: "S75",
     name: "Mahroof K",
     designation: "Cedex Technologies LLP",
     stack: "chatbots",
@@ -673,7 +673,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S77",
+    id: "S77",
     name: "Gopikrishnan V",
     designation: "Founder, BuildNext",
     stack: "VR",
@@ -682,7 +682,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S78",
+    id: "S78",
     name: "Manu Krishnan",
     designation: "Co-founder of DayScholars Innovations Pvt. Ltd",
     stack: "Laravel",
@@ -691,7 +691,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S79",
+    id: "S79",
     name: "Abhiram A",
     designation: "Unity3D Ambassador, Unity India",
     stack: "AR,VR,MR",
@@ -700,7 +700,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S80",
+    id: "S80",
     name: "Alex Devassy",
     designation: "Security Analyst, EY",
     stack: "Blockchain",
@@ -709,7 +709,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S81",
+    id: "S81",
     name: "Fariz Rahman",
     designation: "Machine Learning Engineer, Activeloop",
     stack: "Keras",
@@ -718,7 +718,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S82",
+    id: "S82",
     name: "Hari S. Pillai",
     designation: "Technical Lead at Perfomatix",
     stack: "Angular 6",
@@ -727,7 +727,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S82",
+    id: "S82",
     name: "Rejin Narayanan",
     designation: "Founder, Ingen Robotics.",
     stack: "Robotics",
@@ -736,7 +736,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S83",
+    id: "S83",
     name: "Ajith Kumar M",
     designation: "Robotics Developer at TCS-ILP Innovations Lab",
     stack: "Robot operating system",
@@ -745,7 +745,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S84",
+    id: "S84",
     name: "Sanu George",
     designation: "Senior consultant for Usability engineering at IBS",
     stack: "UX",
@@ -754,7 +754,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S85",
+    id: "S85",
     name: "Ajith V Giri",
     designation: "Mobile App Developer working at SoftFrit Solutions",
     stack: "Firebase",
@@ -763,7 +763,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S86",
+    id: "S86",
     name: "Noufal Ibrahim",
     designation: "Founder and Director of Hamon Technologies, LLP, Kozhikode",
     stack: " Data Structures with Python",
@@ -772,7 +772,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S87",
+    id: "S87",
     name: "Renjith Raj",
     designation: "Chief Technical Officer at SayOne Technologies",
     stack: "Flutter",
@@ -781,7 +781,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S88",
+    id: "S88",
     name: "Ravi Padmaraj",
     designation: "Architect at QBurst Technologies",
     stack: "Spark and Scala",
@@ -790,7 +790,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S89",
+    id: "S89",
     name: "Jobin C S",
     designation: "Co-Founder & CEO of Tenderwoods",
     stack: "Cordova",
@@ -799,7 +799,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S90",
+    id: "S90",
     name: "Paul Emil Johnson",
     designation: "Founder – AwesomeDaddies Interactive",
     stack: "Product Development",
@@ -808,7 +808,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S91",
+    id: "S91",
     name: "Roel Vlemmings",
     designation:
       "Founding Partner and the Chief Product Officer at RedBlack Software",
@@ -818,7 +818,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S92",
+    id: "S92",
     name: "Suresh Balasubramanian",
     designation: "Co-founder & CEO at ExpressBase Systems",
     stack: "Rapid application Development",
@@ -828,7 +828,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S93",
+    id: "S93",
     name: "Afsal Muttikkal",
     designation: "Automation Head at Genrobotic Innovations",
     stack: "Mechatronics",
@@ -837,7 +837,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S94",
+    id: "S94",
     name: "GeorgeKutty George",
     designation: "CEO, Lookings Soft.<br>Mentor, Reacthub",
     stack: "React Native",
@@ -846,7 +846,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S95",
+    id: "S95",
     name: "Simsarul Haq Vengasseri",
     designation: "Quantum Computing Researcher, Infinity Labs, UST",
     stack: "Quantum Computing",
@@ -855,7 +855,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S96",
+    id: "S96",
     name: "Sabeer Sulaiman",
     designation: "Technical lead, Fantacode",
     stack: " Angular 7",
@@ -864,7 +864,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S97",
+    id: "S97",
     name: "Mahroof Ali",
     designation: "Founder, Tensorbot Innovations",
     stack: "IOT",
@@ -873,7 +873,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S98",
+    id: "S98",
     name: "Nirmal Vyas",
     designation:
       "Web designer and developer<br>Consultant, passionate coder and name",
@@ -883,7 +883,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S99",
+    id: "S99",
     name: "Rijin Ramesh",
     designation:
       "Co-founder and head of product and technology, Articbot Pvt Ltd",
@@ -893,7 +893,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S100",
+    id: "S100",
     name: "Ashik Salman",
     designation: "Co-founder at Ecart.chat",
     stack: "Ruby",
@@ -902,7 +902,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S101",
+    id: "S101",
     name: "Asif Mohammed",
     designation: "JS Frontend Engineer, FAYA Innovations",
     stack: "",
@@ -911,7 +911,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S102",
+    id: "S102",
     name: "Deepu Xavier",
     designation: "Co-founder, ZappyHire",
     stack: "",
@@ -920,7 +920,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S103",
+    id: "S103",
     name: "Sreelakshmy P",
     designation: "Assistant Manager at Deloitte India",
     stack: "",
@@ -929,7 +929,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S104",
+    id: "S104",
     name: "Karthik Kalathil",
     designation:
       "CTO and Co-founder at Wattlecorp | Security Consultant | Cybersecurity Product Innovation Manager | name",
@@ -939,7 +939,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S105",
+    id: "S105",
     name: "Srinivas P",
     designation: "Centre Head @ Alamy India",
     stack: "",
@@ -948,7 +948,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S106",
+    id: "S106",
     name: "Suresh Kumar M",
     designation: "Sr. Principal Manager – Product Development @ Alamy India",
     stack: "",
@@ -958,7 +958,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S107",
+    id: "S107",
     name: "Jeswin S George",
     designation: "Quality Assurance Engineer, Qburst Technologies",
     stack: "",
@@ -967,7 +967,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S108",
+    id: "S108",
     name: "Cipson Thomas",
     designation: "Agile & Kanban Coach, Trainer & Consultant",
     stack: "",
@@ -976,7 +976,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S109",
+    id: "S109",
     name: "Sijil Salim",
     designation: "Lead Engineer, IBS",
     stack: "",
@@ -985,7 +985,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S110",
+    id: "S110",
     name: "Akshai M",
     designation: "Senior Research Fellow, ICFOSS",
     stack: "",
@@ -994,7 +994,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S111",
+    id: "S111",
     name: "Hari Shankar R",
     designation: "Technical Support Engineer, Automattic",
     stack: "",
@@ -1003,7 +1003,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S112",
+    id: "S112",
     name: "Jubin Jose",
     designation: "Senior NLP engineer, Cedex Technologies",
     stack: "",
@@ -1012,7 +1012,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S113",
+    id: "S113",
     name: "Amar C.P",
     designation:
       "Co-founder & CTO , VinamSolutions Pvt Ltd & Luvia Global Marketing Agency",
@@ -1022,7 +1022,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S114",
+    id: "S114",
     name: "Biju K Nair",
     designation:
       "Independent Lawyer, Consultant with Open Invention Network and License on Transfer Network",
@@ -1032,7 +1032,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S115",
+    id: "S115",
     name: "Arun Sasi",
     designation: "Joomla Template developer & Lead designer, IBS Software",
     stack: "",
@@ -1041,7 +1041,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S116",
+    id: "S116",
     name: "Samuel",
     designation: "Cofounder of MistEO",
     stack: "",
@@ -1050,7 +1050,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S117",
+    id: "S117",
     name: "Liji Thomas",
     designation: "Technical Manager, Valorem Reply",
     stack: "",
@@ -1059,7 +1059,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S118",
+    id: "S118",
     name: "Shahul E S",
     designation: "Co-founder at alrt.ai",
     stack: "",
@@ -1068,7 +1068,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S119",
+    id: "S119",
     name: "Vinesh S",
     designation: "Senior Frontend Engineer, QBurst",
     stack: "",
@@ -1077,7 +1077,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S120",
+    id: "S120",
     name: "Robin Tommy",
     designation: "Incubation Lab Head, TATA Consultancy Services",
     stack: "",
@@ -1086,7 +1086,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S121",
+    id: "S121",
     name: "Vinod Narayan",
     designation:
       "Agile Coach | SAFe® SPC | Educator, Founder, Penpositive Inc.",
@@ -1096,7 +1096,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S122",
+    id: "S122",
     name: "Amrit Sanjeev",
     designation:
       "Staff Developer Advocate, Google and Lead at Developer Advocacy Initiatives, India",
@@ -1107,7 +1107,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S123",
+    id: "S123",
     name: "Mandar Patil ",
     designation:
       "Senior Solutions Architecture at Amazon Internet Services Private Limited.",
@@ -1117,7 +1117,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S124",
+    id: "S124",
     name: "Nikhil Chandran",
     designation: "Founder & Ceo - Tiltlabs ",
     stack: "",
@@ -1126,7 +1126,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S125",
+    id: "S125",
     name: "Joel Zachariah",
     designation: "Creative Director - Tiltlabs ",
     stack: "",
@@ -1135,7 +1135,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S126",
+    id: "S126",
     name: "Melvin Thambi",
     designation: "Artist | Designer & Creative Entrepreneur from Texas",
     stack: "",
@@ -1144,7 +1144,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S127",
+    id: "S127",
     name: "Anantha Krishnan Nadamel",
     designation: "NFT Artist | Visual Designer UXD at TCS Interactive",
     stack: "",
@@ -1155,7 +1155,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S128",
+    id: "S128",
     name: "Adeeb Abdul Salam",
     designation: "Computer Engineer from IITD | Blockchain Researcher",
     stack: "",
@@ -1165,7 +1165,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S129",
+    id: "S129",
     name: "Dr. Koshy P. Vaidyan",
     designation: "CEO, TrEST Research Park",
     stack: "",
@@ -1175,7 +1175,7 @@ const MentorList = [
     source: "FAYA:80",
   },
   {
-    speakerID: "S130",
+    id: "S130",
     name: "Gautam S.T.",
     designation: "Director, Gyanoholic International Pvt. Ltd.",
     stack: "",
@@ -1371,6 +1371,44 @@ const MentorList = [
     stack: "Android Development",
     image:
       "https://media.licdn.com/dms/image/C5603AQFTWXQV9_kCig/profile-displayphoto-shrink_400_400/0/1602424880405?e=1677110400&v=beta&t=qTwBc4iPF-YlH40OfibU0PkSS9YVRW-R8HxrssZAgj8",
+  },
+
+  {
+    id: "S150",
+    name: "Abhaya Kumar K R",
+    designation: "Senior Manager (Product Management), Edgeverve BFSI",
+    stack: "",
+    linkedIn: "https://www.linkedin.com/in/abhaya-kumar-k-r-b94370",
+    image: "https://www.fayaport80.com/speakers/thumb/abhaya-kumar.jpg",
+    source: "FAYA:80",
+  },
+  {
+    id: "S151",
+    name: "Gurudath Sadanandan",
+    designation:
+      "Gurudath is the founder of 'Videogrammer' - a Microsoft-funded project for Startups.",
+    stack: "",
+    linkedIn: "https://www.linkedin.com/in/gurudath-sadanandan",
+    image: "https://www.fayaport80.com/speakers/thumb/gurudath-sadanandan.png/",
+    source: "FAYA:80",
+  },
+  {
+    id: "S152",
+    name: "Mr. Andrew Bastin",
+    designation: "Co-Founder CTO, Hoppscotch.",
+    stack: "",
+    linkedIn: "https://www.linkedin.com/in/andrew-bastin-7456771a8",
+    image: "https://www.fayaport80.com/speakers/thumb/andrew-bastin.jpg",
+    source: "FAYA:80",
+  },
+  {
+    id: "S153",
+    name: "Sujith S",
+    designation: "Partner Senior AI/ML Solution Architect, Zackriya Solutions.",
+    stack: "",
+    linkedIn: "https://www.linkedin.com/in/sujithx007",
+    image: "https://www.fayaport80.com/speakers/thumb/sujith-s.jpg",
+    source: "FAYA:80",
   },
 ];
 
