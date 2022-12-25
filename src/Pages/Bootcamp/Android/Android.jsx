@@ -123,7 +123,7 @@ const Android = () => {
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 21 in #students channel with hashtag{" "}
-                        <b>#ge-exercism-kotlin-21</b> to avail{" "}
+                        <b>&nbsp;#bc-exercism-kotlin-21</b> to avail{" "}
                         <b>200 karma points.</b>
                         <br />
                       </div>
@@ -142,7 +142,7 @@ const Android = () => {
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 42 in #students channel with hashtag
-                        <b>#ge-exercism-kotlin-42</b> to avail{" "}
+                        <b>&nbsp;#bc-exercism-kotlin-42</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
                     </div>
@@ -160,7 +160,7 @@ const Android = () => {
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 63 in #students channel with hashtag
-                        <b>#ge-exercism-kotlin-63</b> to avail{" "}
+                        <b>&nbsp;#bc-exercism-kotlin-63</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
                     </div>
@@ -178,7 +178,7 @@ const Android = () => {
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 85 in #students channel with hashtag
-                        <b>#ge-exercism-kotlin-85</b> to avail{" "}
+                        <b>&nbsp;#bc-exercism-kotlin-85</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
                     </div>
