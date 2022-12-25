@@ -35,7 +35,7 @@
 }
 
 .fv_img {
-  height: 20rem;
+  width: 25rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -70,7 +70,7 @@
   }
 
   .fv_img {
-    height: 35rem;
+    width: 35rem;
   }
 
   .first_view {
@@ -110,10 +110,40 @@
   max-width: 50rem;
 }
 
+.register {
+  background-color: #39b47e;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  margin-top: 1rem;
+}
+
 @media only screen and (min-width: 1000px) {
   .first_view_container {
     display: block;
     margin: 6rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .fv_img {
+    display: block;
+    margin: auto;
+  }
+
+  .fv_heading {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+
+  .fv_content {
+    text-align: center;
+  }
+
+  .register {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
   }
 }
 
@@ -151,9 +181,9 @@ b {
 }
 
 .sample_container {
-    margin: 2rem auto 0;
-    background: #f5f5f5;
-    padding: 2rem;
-    border-radius: 0.2rem;
-    max-width: 50rem;
-  }
+  margin: 2rem auto 0;
+  background: #f5f5f5;
+  padding: 2rem;
+  border-radius: 0.2rem;
+  max-width: 50rem;
+}

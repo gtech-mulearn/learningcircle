@@ -15,12 +15,12 @@ const Android = () => {
               <p className={styles.fv_heading}>
                 <span> Android </span> Bootcamp
               </p>
-              {/* <p className={styles.fv_content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                iste quia ipsam voluptatem nobis consequuntur dolorem cumque
-                provident quidem ratione..
-              </p> */}
-              {/* <button className={styles.comingsoon}>Coming Soon!</button> */}
+              <p className={styles.fv_content}>
+                Learn Android Development in Kotlin hands-on so that you may
+                integrate it on your campuses for your colleagues who are eager
+                to enter the area of Android Development in Kotlin.
+              </p>
+              <button className={styles.register}>Starting Soon!</button>
             </div>
             <div className={styles.fv_image}>
               <img
@@ -187,17 +187,6 @@ const Android = () => {
                   <div className={styles.sample_container}>
                     <b>
                       <p className={styles.sample_header}>
-                        Will Update Shortly!
-                      </p>
-                    </b>
-                    <p className={styles.sample_message}>
-                      Detailed details about the bootcamp lessons will be added
-                      on shortly.
-                    </p>
-                  </div>
-                  <div className={styles.sample_container}>
-                    <b>
-                      <p className={styles.sample_header}>
                         Exercism Sample Profile
                       </p>
                     </b>
@@ -210,6 +199,25 @@ const Android = () => {
                         Click Here &nbsp;
                       </a>
                       to view an example for an exercism sample profile.
+                    </p>
+                    <br />
+                    <img
+                      className={styles.sample_img}
+                      src="/assets/bootcamp/android/exercismprofile.png"
+                      alt="pic"
+                      srcset=""
+                    />
+                  </div>
+
+                  <div className={styles.sample_container}>
+                    <b>
+                      <p className={styles.sample_header}>
+                        Will Update Shortly!
+                      </p>
+                    </b>
+                    <p className={styles.sample_message}>
+                      Detailed details about the bootcamp lessons will be added
+                      on shortly.
                     </p>
                   </div>
                 </div>
