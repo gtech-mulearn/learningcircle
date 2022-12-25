@@ -188,7 +188,7 @@ const Android = () => {
                   <div className={styles.sample_container}>
                     <b>
                       <p className={styles.sample_header}>
-                      New lessons arriving shortly!
+                        New lessons arriving shortly!
                       </p>
                     </b>
                   </div>
@@ -201,8 +201,9 @@ const Android = () => {
                     <p className={styles.sample_message}>
                       Hey! I've reached Android Bootcamp Exercise 21. Here's my
                       progress. <br />
-                      exercism.org/profiles/BijoMathewJose
-                      #cl-exercism-kotlin-21.
+                      <b> https://exercism.org/profiles/ BijoMathewJose</b>
+                      <br />
+                      <b>#cl-exercism-kotlin-21.</b>
                     </p>
                     <br />
                     <img
