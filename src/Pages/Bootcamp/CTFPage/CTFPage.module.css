@@ -292,3 +292,10 @@ ul {
   font-family: "Noto Sans";
   font-size: 0.95rem;
 }
+
+.tv_plan_structure {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+}

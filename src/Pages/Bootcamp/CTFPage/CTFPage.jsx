@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./CTFPage.module.css";
 
 const CTFPage = () => {
-  const data = require("./data.json");
+  const [data, setData] = useState();
+  useEffect(() => {
+    setData(require("./newdata.json"));
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -126,108 +130,118 @@ const CTFPage = () => {
               </p>
 
               <div className={styles.tv_plan_structure}>
-                <div className={styles.detailed_structure}>
-                  <p className={styles.plan_day}>Day 1</p>
-                  <p className={styles.plan_title}>{data.day1[0].title}</p>
-                  <div className={styles.topics}>
-                    <div className={styles.topic}>
-                      <span className={styles.topic_number}>01</span>
-                      <div>
-                        <p className={styles.topic_title}>
-                          {" "}
-                          {data.day1[0].p1[0]}
-                        </p>
-                        <p className={styles.topic_subtitle}>
-                          {data.day1[0].p1[1]}
-                        </p>
-                      </div>
+                {data &&
+                  data.plan &&
+                  data.plan.map((day) => (
+                    <div className={styles.detailed_structure}>
+                      <p className={styles.plan_day}>Day {day.day}</p>
+                      <p className={styles.plan_title}>{day.title}</p>
+                      {day.p1 && (
+                        <div className={styles.topics}>
+                          <div className={styles.topic}>
+                            <span className={styles.topic_number}>01</span>
+                            <div>
+                              <p className={styles.topic_title}> {day.p1[0]}</p>
+                              <p className={styles.topic_subtitle}>
+                                {day.p1[1]}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                      {day.p2 && (
+                        <div className={styles.topics}>
+                          <div className={styles.topic}>
+                            <span className={styles.topic_number}>02</span>
+                            <div>
+                              <p className={styles.topic_title}> {day.p2[0]}</p>
+                              <p className={styles.topic_subtitle}>
+                                {day.p2[1]}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                      {day.p3 && (
+                        <div className={styles.topics}>
+                          <div className={styles.topic}>
+                            <span className={styles.topic_number}>03</span>
+                            <div>
+                              <p className={styles.topic_title}> {day.p3[0]}</p>
+                              <p className={styles.topic_subtitle}>
+                                {day.p3[1]}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                      {day.p4 && (
+                        <div className={styles.topics}>
+                          <div className={styles.topic}>
+                            <span className={styles.topic_number}>04</span>
+                            <div>
+                              <p className={styles.topic_title}> {day.p4[0]}</p>
+                              <p className={styles.topic_subtitle}>
+                                {day.p4[1]}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                      {day.p5 && (
+                        <div className={styles.topics}>
+                          <div className={styles.topic}>
+                            <span className={styles.topic_number}>05</span>
+                            <div>
+                              <p className={styles.topic_title}> {day.p5[0]}</p>
+                              <p className={styles.topic_subtitle}>
+                                {day.p5[1]}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                      {day.p6 && (
+                        <div className={styles.topics}>
+                          <div className={styles.topic}>
+                            <span className={styles.topic_number}>06</span>
+                            <div>
+                              <p className={styles.topic_title}> {day.p6[0]}</p>
+                              <p className={styles.topic_subtitle}>
+                                {day.p6[1]}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                      {day.p7 && (
+                        <div className={styles.topics}>
+                          <div className={styles.topic}>
+                            <span className={styles.topic_number}>07</span>
+                            <div>
+                              <p className={styles.topic_title}> {day.p7[0]}</p>
+                              <p className={styles.topic_subtitle}>
+                                {day.p7[1]}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                      {day.p8 && (
+                        <div className={styles.topics}>
+                          <div className={styles.topic}>
+                            <span className={styles.topic_number}>08</span>
+                            <div>
+                              <p className={styles.topic_title}> {day.p8[0]}</p>
+                              <p className={styles.topic_subtitle}>
+                                {day.p8[1]}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
                     </div>
-                    <div className={styles.topic}>
-                      <span className={styles.topic_number}>02</span>
-                      <div>
-                        <p className={styles.topic_title}>
-                          {" "}
-                          {data.day1[0].p2[0]}
-                        </p>
-                        <p className={styles.topic_subtitle}>
-                          {data.day1[0].p2[1]}
-                        </p>
-                      </div>
-                    </div>
-                    <div className={styles.topic}>
-                      <span className={styles.topic_number}>03</span>
-                      <div>
-                        <p className={styles.topic_title}>
-                          {" "}
-                          {data.day1[0].p3[0]}
-                        </p>
-                        <p className={styles.topic_subtitle}>
-                          {data.day1[0].p3[1]}
-                        </p>
-                      </div>
-                    </div>
-                    <div className={styles.topic}>
-                      <span className={styles.topic_number}>04</span>
-                      <div>
-                        <p className={styles.topic_title}>
-                          {" "}
-                          {data.day1[0].p4[0]}
-                        </p>
-                        <p className={styles.topic_subtitle}>
-                          {data.day1[0].p4[1]}
-                        </p>
-                      </div>
-                    </div>
-                    <div className={styles.topic}>
-                      <span className={styles.topic_number}>05</span>
-                      <div>
-                        <p className={styles.topic_title}>
-                          {" "}
-                          {data.day1[0].p5[0]}
-                        </p>
-                        <p className={styles.topic_subtitle}>
-                          {data.day1[0].p5[1]}
-                        </p>
-                      </div>
-                    </div>
-                    <div className={styles.topic}>
-                      <span className={styles.topic_number}>06</span>
-                      <div>
-                        <p className={styles.topic_title}>
-                          {" "}
-                          {data.day1[0].p6[0]}
-                        </p>
-                        <p className={styles.topic_subtitle}>
-                          {data.day1[0].p6[1]}
-                        </p>
-                      </div>
-                    </div>
-                    <div className={styles.topic}>
-                      <span className={styles.topic_number}>07</span>
-                      <div>
-                        <p className={styles.topic_title}>
-                          {" "}
-                          {data.day1[0].p7[0]}
-                        </p>
-                        <p className={styles.topic_subtitle}>
-                          {data.day1[0].p7[1]}
-                        </p>
-                      </div>
-                    </div>
-                    <div className={styles.topic}>
-                      <span className={styles.topic_number}>08</span>
-                      <div>
-                        <p className={styles.topic_title}>
-                          {" "}
-                          {data.day1[0].p8[0]}
-                        </p>
-                        <p className={styles.topic_subtitle}>
-                          {data.day1[0].p8[1]}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  ))}
               </div>
             </div>
           </div>
