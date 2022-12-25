@@ -188,7 +188,7 @@ const Android = () => {
                   <div className={styles.sample_container}>
                     <b>
                       <p className={styles.sample_header}>
-                        New lessons will be update shortly!
+                      New lessons arriving shortly!
                       </p>
                     </b>
                   </div>
