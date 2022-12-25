@@ -150,7 +150,10 @@ ul {
 
 @media only screen and (min-width: 1000px) {
   .sv_heading {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+  .sv_content {
+    width: 30%;
   }
 }
 
@@ -213,4 +216,79 @@ ul {
 .sv_section_second {
   margin-top: 2rem;
   width: 20rem;
+}
+
+/* Third View Styles */
+.third_view_container {
+  margin: 2rem;
+}
+
+.third_view {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1000px) {
+  .third_view_container {
+    margin: 0 6rem;
+    margin-top: 2rem;
+  }
+}
+
+.detailed_structure {
+  padding: 15px 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease-out;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 1px 12px 0 rgb(193 195 211 / 37%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  margin-top: 1rem;
+  max-width: 22rem;
+}
+
+.plan_header {
+  margin-top: 2.25rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.plan_header span {
+  color: #404040;
+  font-weight: 600;
+}
+
+.plan_day {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.plan_title {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  color: #00bc83;
+}
+
+.topic {
+  margin: 1rem;
+  color: #404040;
+}
+
+.topic_number {
+  font-family: "Poppins";
+  color: #00bc83;
+  font-size: 1.2rem;
+}
+
+.topic_title {
+  font-size: 1.1rem;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.topic_subtitle {
+  font-family: "Noto Sans";
+  font-size: 0.95rem;
 }

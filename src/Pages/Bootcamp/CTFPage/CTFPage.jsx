@@ -108,6 +108,130 @@ const CTFPage = () => {
             </div>
           </div>
         </div>
+        <div className={styles.third_view_container}>
+          <div className={styles.third_view}>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>
+                Detailed <span> Plan Structure</span>
+              </p>
+              <p className={styles.sv_content}>
+                Shown below are the detailed plan structure for each day. Click
+                above cards to view the plan for each day.
+              </p>
+            </div>
+            <div className={styles.tv_plan_structures}>
+              <p className={styles.plan_header}>
+                Workshop <span>Plan</span>
+              </p>
+              <p className={styles.plan_day}>Day 1</p>
+              <div className={styles.tv_plan_structure}>
+                <div className={styles.detailed_structure}>
+                  <p className={styles.plan_title}>
+                    Online /Introduction to Fundamentals of Cyber Security
+                  </p>
+                  <div className={styles.topics}>
+                    <div className={styles.topic}>
+                      <span className={styles.topic_number}>01</span>
+                      <div>
+                        <p className={styles.topic_title}>
+                          {" "}
+                          Cyber Secruity, a walk-through
+                        </p>
+                        <p className={styles.topic_subtitle}>
+                          Intro to Cyber World & Cyber Security
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.topic}>
+                      <span className={styles.topic_number}>01</span>
+                      <div>
+                        <p className={styles.topic_title}>
+                          {" "}
+                          Cyber Secruity, a walk-through
+                        </p>
+                        <p className={styles.topic_subtitle}>
+                          Intro to Cyber World & Cyber Security
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.topic}>
+                      <span className={styles.topic_number}>01</span>
+                      <div>
+                        <p className={styles.topic_title}>
+                          {" "}
+                          Cyber Secruity, a walk-through
+                        </p>
+                        <p className={styles.topic_subtitle}>
+                          Intro to Cyber World & Cyber Security
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.topic}>
+                      <span className={styles.topic_number}>01</span>
+                      <div>
+                        <p className={styles.topic_title}>
+                          {" "}
+                          Cyber Secruity, a walk-through
+                        </p>
+                        <p className={styles.topic_subtitle}>
+                          Intro to Cyber World & Cyber Security
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.topic}>
+                      <span className={styles.topic_number}>01</span>
+                      <div>
+                        <p className={styles.topic_title}>
+                          {" "}
+                          Cyber Secruity, a walk-through
+                        </p>
+                        <p className={styles.topic_subtitle}>
+                          Intro to Cyber World & Cyber Security
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.topic}>
+                      <span className={styles.topic_number}>01</span>
+                      <div>
+                        <p className={styles.topic_title}>
+                          {" "}
+                          Cyber Secruity, a walk-through
+                        </p>
+                        <p className={styles.topic_subtitle}>
+                          Intro to Cyber World & Cyber Security
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.topic}>
+                      <span className={styles.topic_number}>01</span>
+                      <div>
+                        <p className={styles.topic_title}>
+                          {" "}
+                          Cyber Secruity, a walk-through
+                        </p>
+                        <p className={styles.topic_subtitle}>
+                          Intro to Cyber World & Cyber Security
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.topic}>
+                      <span className={styles.topic_number}>01</span>
+                      <div>
+                        <p className={styles.topic_title}>
+                          {" "}
+                          Cyber Secruity, a walk-through
+                        </p>
+                        <p className={styles.topic_subtitle}>
+                          Intro to Cyber World & Cyber Security
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
