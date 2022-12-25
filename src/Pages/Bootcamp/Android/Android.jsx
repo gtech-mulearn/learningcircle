@@ -97,7 +97,7 @@ const Android = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step Three</div>
                       <div className="timeline__event__description">
-                        Learn&nbsp;
+                        Practice&nbsp;
                         <a
                           href="https://exercism.org/tracks/kotlin"
                           target="_blank"
@@ -177,8 +177,8 @@ const Android = () => {
                       <div className="timeline__event__title">Step Seven</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 84 in #students channel with hashtag
-                        <b>#ge-exercism-kotlin-63</b> to avail{" "}
+                        level 85 in #students channel with hashtag
+                        <b>#ge-exercism-kotlin-85</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
                     </div>
