@@ -33,6 +33,36 @@ const CTFPage = () => {
                 those who are looking to pursue the OSCP certification, as it is
                 considered to be beginner-friendly
               </p>
+              <div class={styles.supporters}>
+                <span>Supported By </span>
+
+                <div className={styles.s_images}>
+                  <a
+                    href="https://lyminal.space/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/assets/bootcamp/ctf/lyminal.png"
+                      alt="Lyminal"
+                      class={styles.supporter}
+                    />
+                  </a>
+                </div>
+                <div className={styles.s_images}>
+                  <a
+                    href="https://www.riglabs.co/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/assets/bootcamp/ctf/riglabs.png"
+                      alt="Riglabs"
+                      class={styles.supporter}
+                    />
+                  </a>
+                </div>
+              </div>
               <button className={styles.register}>Starting Soon!</button>
             </div>
             <div className={styles.fv_image}>
