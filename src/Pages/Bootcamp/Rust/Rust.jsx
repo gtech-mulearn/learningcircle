@@ -16,10 +16,10 @@ const Rust = () => {
                 <span> Rust </span> Bootcamp
               </p>
               <p className={styles.fv_content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam suscipit, maiores eligendi voluptatem, ex vel quos
-                eius blanditiis eos praesentium commodi temporibus omnis!
-                Tempore reprehenderit hic voluptates fugiat perspiciatis id.
+                Learn Rust hands-on so that you may integrate it in your campus
+                for your peers who are eager to venture into learning Rust.This
+                Boot-camp aims to minimize the learning process into micro-steps
+                to enhance your learning curve.
               </p>
               <button className={styles.register}>Starting Soon!</button>
             </div>
@@ -37,7 +37,7 @@ const Rust = () => {
             <div className={styles.steps}>
               <div className="timeline-container">
                 <div className="timeline">
-                  <div className="timeline__event animated fadeInUp delay-2s timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp delay-2s timeline__event--type4">
                     <div className="timeline__event__icon">
                       <img
                         src={require("../assets/steps/privacy.svg").default}
@@ -49,18 +49,19 @@ const Rust = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step One</div>
                       <div className="timeline__event__description">
-                        Download and Install any standard
+                        Download and Install the required
                         <a
-                          href="https://code.visualstudio.com/"
+                          href="https://www.rust-lang.org/tools/install"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          &nbsp;Code Editor
+                          &nbsp;Tools&nbsp;
                         </a>
+                         for Rust.
                       </div>
                     </div>
                   </div>
-                  <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp delay-1s timeline__event--type4">
                     <div className="timeline__event__icon">
                       <img
                         src={
@@ -86,7 +87,7 @@ const Rust = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="timeline__event animated fadeInUp timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp timeline__event--type4">
                     <div className="timeline__event__icon">
                       <img
                         src={require("../assets/steps/html-tag.svg").default}
@@ -106,7 +107,7 @@ const Rust = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type4">
                     <div className="timeline__event__icon">
                       <img
                         src={require("../assets/steps/check.svg").default}
@@ -124,7 +125,7 @@ const Rust = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type4">
                     <div className="timeline__event__icon">
                       <img
                         src={require("../assets/steps/check.svg").default}
@@ -142,7 +143,7 @@ const Rust = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type4">
                     <div className="timeline__event__icon">
                       <img
                         src={require("../assets/steps/check.svg").default}

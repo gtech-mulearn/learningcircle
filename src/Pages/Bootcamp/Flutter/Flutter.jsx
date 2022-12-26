@@ -17,10 +17,10 @@ const Flutter = () => {
                   <span> Flutter </span> Bootcamp
                 </p>
                 <p className={styles.fv_content}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quibusdam suscipit, maiores eligendi voluptatem, ex vel quos
-                  eius blanditiis eos praesentium commodi temporibus omnis!
-                  Tempore reprehenderit hic voluptates fugiat perspiciatis id.
+                  Learn Flutter hands-on so that you may integrate it in your
+                  campus for your peers who are eager to venture into learning
+                  Flutter.This Boot-camp aims to minimize the learning process
+                  into micro-steps to enhance your learning curve.
                 </p>
                 <button className={styles.register}>Starting Soon!</button>
               </div>

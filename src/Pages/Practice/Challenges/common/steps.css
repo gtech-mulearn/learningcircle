@@ -248,6 +248,35 @@ h2 {
     color: #24b47e;
 }
 
+
+.timeline__event--type4:after {
+    background: #606060;
+}
+
+.timeline__event--type4 .timeline__event__date {
+    color: #828282;
+    background-color: #606060;
+}
+
+.timeline__event--type4:nth-child(2n + 1) .timeline__event__icon:before,
+.timeline__event--type4:nth-child(2n + 1) .timeline__event__icon:after {
+    background: #828282;
+}
+
+.timeline__event--type4 .timeline__event__icon {
+    background: #828282;
+    color: #24b47e;
+}
+
+.timeline__event--type4 .timeline__event__icon:before,
+.timeline__event--type4 .timeline__event__icon:after {
+    background: #828282;
+}
+
+.timeline__event--type3 .timeline__event__title {
+    color: #606060;
+}
+
 .timeline__event:last-child .timeline__event__icon:before {
     content: none;
 }
