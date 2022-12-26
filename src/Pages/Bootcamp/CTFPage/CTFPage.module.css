@@ -2,7 +2,8 @@
   margin: 2rem;
 }
 
-ul {
+.svs_box,
+.requirements ul {
   list-style: disc;
 }
 
@@ -218,6 +219,28 @@ ul {
   width: 20rem;
 }
 
+@media only screen and (max-width: 1000px) {
+  .sv_texts {
+    text-align: center;
+  }
+
+  .sv_section_second {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .sv_section_one {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .svs_box {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+}
+
 /* Third View Styles */
 .third_view_container {
   margin: 2rem;
@@ -298,4 +321,44 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1.6rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .detailed_structure {
+    max-width: 30rem;
+  }
+}
+
+/* Fourth View Styles */
+
+.fourth_view_container {
+  margin: 2rem;
+}
+
+.fourth_view {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1000px) {
+  .fourth_view_container {
+    margin: 0 6rem;
+    margin-top: 2rem;
+  }
+}
+
+.requirements ul {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.requirements ul li {
+  margin-top: 0.25rem;
+  font-family: "Poppins";
+  color: #404040;
+}
+
+.requirements ul span {
+  color: #00bc83;
+  font-family: "Noto Sans";
 }

@@ -134,7 +134,7 @@ const CTFPage = () => {
                   data.plan &&
                   data.plan.map((day) => (
                     <div className={styles.detailed_structure}>
-                      <p className={styles.plan_day}>Day {day.day}</p>
+                      <p className={styles.plan_day}>Day 0{day.day}</p>
                       <p className={styles.plan_title}>{day.title}</p>
                       {day.p1 && (
                         <div className={styles.topics}>
@@ -242,6 +242,42 @@ const CTFPage = () => {
                       )}
                     </div>
                   ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.fourth_view_container}>
+          <div className={styles.fourth_view}>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>
+                Minimum <span> System Requirements</span>
+              </p>
+              <p className={styles.sv_content}>
+                For having a smooth experience throughout this bootcamp. You
+                will need to have a system with the following requirements.
+              </p>
+            </div>
+            <div className={styles.requirements_container}>
+              <div className={styles.requirements}>
+                <ul>
+                  <li>
+                    <span>CPU:</span> 2Core, 2.8GHz - Intel/AMD
+                  </li>
+                  <li>
+                    <span>RAM:</span> 4GB DDR3 (8 GB DDR3 Recommended)
+                  </li>
+                  <li>
+                    <span>Storage:</span> 40GB HDD
+                  </li>
+                  <li>
+                    <span>Operating System:</span> Windows 64-bit, Kali
+                    Linux(VMWare), Ralph OS(VMWare)
+                  </li>
+                  <li>
+                    <span>Misc:</span> Support for Virtualization enabled via
+                    BIOS
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
