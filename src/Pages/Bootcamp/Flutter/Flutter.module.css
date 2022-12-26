@@ -26,7 +26,7 @@
 
 .fv_heading span,
 .orange {
-  color: #39b47e;
+  color: #87BBFE;
 }
 
 .fv_content {
@@ -104,14 +104,14 @@
 
 .callout {
   margin: 2rem auto 0;
-  border: 1px solid #a4c639;
+  border: 1px solid #87BBFE;
   padding: 2rem;
   border-radius: 0.2rem;
   max-width: 50rem;
 }
 
 .register {
-  background-color: #39b47e;
+  background-color: #87BBFE;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   color: white;
