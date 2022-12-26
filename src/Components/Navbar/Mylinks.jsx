@@ -310,19 +310,19 @@ export const links = [
       },
       {
         head: 3,
-        name: "Search",
+        name: "Bootcamps",
         submenu: true,
         sublinks: [
           {
-            name: "Mentor Directory",
-            link: "/mentors",
+            name: "Android",
+            link: "/bootcamps/android",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "Existing Circles",
-            link: "/searchcircles",
+            name: "CTF",
+            link: "/bootcamps/ctf",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -394,19 +394,19 @@ export const links = [
       },
       {
         head: 3,
-        name: "Bootcamps",
+        name: "Search",
         submenu: true,
         sublinks: [
           {
-            name: "Android",
-            link: "/bootcamps/android",
+            name: "Mentor Directory",
+            link: "/mentors",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "CTF",
-            link: "/bootcamps/ctf",
+            name: "Existing Circles",
+            link: "/searchcircles",
             submenu: false,
             sublinks: [],
             foreign: false,

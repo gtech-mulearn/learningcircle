@@ -50,6 +50,19 @@ const CTFPage = () => {
                 </div>
                 <div className={styles.s_images}>
                   <a
+                    href="https://linktr.ee/Nixie_Bytes"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/assets/bootcamp/ctf/Nixie.png"
+                      alt="Lyminal"
+                      class={styles.supporter}
+                    />
+                  </a>
+                </div>
+                <div className={styles.s_images}>
+                  <a
                     href="https://lyminal.space/"
                     target="_blank"
                     rel="noopener noreferrer"
