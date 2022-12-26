@@ -35,20 +35,6 @@ const CTFPage = () => {
               </p>
               <div class={styles.supporters}>
                 <span>Supported By </span>
-
-                <div className={styles.s_images}>
-                  <a
-                    href="https://lyminal.space/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src="/assets/bootcamp/ctf/lyminal.png"
-                      alt="Lyminal"
-                      class={styles.supporter}
-                    />
-                  </a>
-                </div>
                 <div className={styles.s_images}>
                   <a
                     href="https://www.riglabs.co/"
@@ -58,6 +44,19 @@ const CTFPage = () => {
                     <img
                       src="/assets/bootcamp/ctf/riglabs.png"
                       alt="Riglabs"
+                      class={styles.supporter}
+                    />
+                  </a>
+                </div>
+                <div className={styles.s_images}>
+                  <a
+                    href="https://lyminal.space/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/assets/bootcamp/ctf/lyminal.png"
+                      alt="Lyminal"
                       class={styles.supporter}
                     />
                   </a>
