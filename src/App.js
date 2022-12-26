@@ -19,6 +19,8 @@ import CommonCourse from "./Pages/InterestGroups/Course/common/CommonCourse";
 
 //Bootcamp Section
 import Android from "./Pages/Bootcamp/Android/Android";
+import Rust from "./Pages/Bootcamp/Rust/Rust";
+import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
 import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
 
 //Search Section
@@ -43,7 +45,6 @@ import IntroToGithubPages from "./Pages/Practice/Challenges/IntroToGithubPages/I
 import IntroToHtml from "./Pages/Practice/Challenges/IntroToHtml/IntroToHtml";
 import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimulation/TrafficLightSimulation";
 import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn";
-
 
 function App() {
   //Home Page state Variables
@@ -247,6 +248,8 @@ function App() {
           <Route path="/apisetu" element={<APISetu />} />
           <Route path="/bootcamps/android" element={<Android />} />
           <Route path="/bootcamps/ctf" element={<CTFPage />} />
+          <Route path="/bootcamps/rust" element={<Rust />} />
+          <Route path="/bootcamps/flutter" element={<Flutter />} />
           <Route
             path="/searchcircles"
             element={
