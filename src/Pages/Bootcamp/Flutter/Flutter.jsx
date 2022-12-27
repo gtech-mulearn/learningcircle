@@ -19,8 +19,8 @@ const Flutter = () => {
                 <p className={styles.fv_content}>
                   Learn Dart hands-on so that you may integrate it in your
                   campus for your peers who are eager to venture into learning
-                  Dart.This Boot-camp aims to minimize the learning process
-                  into micro-steps to enhance your learning curve.
+                  Dart.This Boot-camp aims to minimize the learning process into
+                  micro-steps to enhance your learning curve.
                 </p>
                 <button className={styles.register}>Starting Soon!</button>
               </div>
@@ -57,6 +57,14 @@ const Flutter = () => {
                             rel="noopener noreferrer"
                           >
                             &nbsp;Code Editor
+                          </a>
+                          &nbsp;as well as the{" "}
+                          <a
+                            href="https://dart.dev/get-dart"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Dart SDK
                           </a>
                         </div>
                       </div>
@@ -175,8 +183,8 @@ const Flutter = () => {
                         </p>
                       </b>
                       <p className={styles.sample_message}>
-                        Hey! I've reached Dart Bootcamp Exercise 21. Here's
-                        my progress. <br />
+                        Hey! I've reached Dart Bootcamp Exercise 21. Here's my
+                        progress. <br />
                         <b> https://exercism.org/profiles/ BijoMathewJose</b>
                         <br />
                         <b>#cl-exercism-dart-10</b>
