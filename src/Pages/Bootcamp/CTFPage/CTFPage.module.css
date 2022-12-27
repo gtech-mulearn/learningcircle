@@ -75,10 +75,25 @@
   margin-bottom: 1rem;
 }
 
+.startingdate {
+  margin-top: 1rem;
+  font-family: "Noto Sans";
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.startingdate span {
+  color: #00bc83;
+}
+
 @media only screen and (max-width: 1000px) {
   .fv_img {
     display: block;
     margin: auto;
+  }
+
+  .startingdate {
+    text-align: center;
   }
 
   .fv_subheading {
