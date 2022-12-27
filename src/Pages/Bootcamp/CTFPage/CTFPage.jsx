@@ -23,11 +23,11 @@ const CTFPage = () => {
               <p className={styles.fv_content}>
                 Pentesting is a hard thing. It's even harder to figure out how
                 to get started on this journey. This workshop is aimed toward
-                absolute begineers and to give them an easy understanding
+                absolute beginners and to give them an easy understanding
                 learning path.
                 <br />
                 <br />
-                We are focused on cracking OSCP like Kioptrix Kioptrix
+                We are focused on cracking OSCP like Kioptrix. Kioptrix
                 boot-to-root VMs are well known as a good starting vulnerable
                 machines for hacking challenges. This is especially true for
                 those who are looking to pursue the OSCP certification, as it is
