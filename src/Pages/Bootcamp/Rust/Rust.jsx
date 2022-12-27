@@ -57,7 +57,7 @@ const Rust = () => {
                         >
                           &nbsp;Tools&nbsp;
                         </a>
-                         for Rust.
+                        for Rust.
                       </div>
                     </div>
                   </div>
@@ -175,11 +175,11 @@ const Rust = () => {
                       </p>
                     </b>
                     <p className={styles.sample_message}>
-                      Hey! I've reached Android Bootcamp Exercise 21. Here's my
+                      Hey! I've reached Rust Bootcamp Exercise 21. Here's my
                       progress. <br />
                       <b> https://exercism.org/profiles/ BijoMathewJose</b>
                       <br />
-                      <b>#cl-exercism-rust-25.</b>
+                      <b>#cl-exercism-rust-25</b>
                     </p>
                     <br />
                     <img

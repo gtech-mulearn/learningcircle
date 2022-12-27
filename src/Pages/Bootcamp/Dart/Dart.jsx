@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./Flutter.module.css";
+import styles from "./Dart.module.css";
 
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
 
-const Flutter = () => {
+const Dart = () => {
   return (
     <>
       <Navbar />
@@ -14,19 +14,19 @@ const Flutter = () => {
             <div className={styles.first_view}>
               <div className={styles.fv_texts}>
                 <p className={styles.fv_heading}>
-                  <span> Flutter </span> Bootcamp
+                  <span> Dart </span> Bootcamp
                 </p>
                 <p className={styles.fv_content}>
-                  Learn Flutter hands-on so that you may integrate it in your
+                  Learn Dart hands-on so that you may integrate it in your
                   campus for your peers who are eager to venture into learning
-                  Flutter.This Boot-camp aims to minimize the learning process
+                  Dart.This Boot-camp aims to minimize the learning process
                   into micro-steps to enhance your learning curve.
                 </p>
                 <button className={styles.register}>Starting Soon!</button>
               </div>
               <div className={styles.fv_image}>
                 <img
-                  src="/assets/bootcamp/flutter/fvimg.png"
+                  src="/assets/bootcamp/dart/fvimg.png"
                   alt=""
                   className={styles.fv_img}
                 />
@@ -81,7 +81,7 @@ const Flutter = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Flutter
+                            Dart
                           </a>
                           &nbsp;through exercism platform.
                         </div>
@@ -101,7 +101,7 @@ const Flutter = () => {
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
                           reach level 10 in #students channel with hashtag{" "}
-                          <b>&nbsp;#cl-exercism-flutter-10</b> to avail{" "}
+                          <b>&nbsp;#cl-exercism-dart-10</b> to avail{" "}
                           <b>200 karma points.</b>
                           <br />
                         </div>
@@ -120,7 +120,7 @@ const Flutter = () => {
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
                           reach level 20 in #students channel with hashtag
-                          <b>&nbsp;#cl-exercism-flutter-20</b> to avail{" "}
+                          <b>&nbsp;#cl-exercism-dart-20</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
                       </div>
@@ -138,7 +138,7 @@ const Flutter = () => {
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
                           reach level 30 in #students channel with hashtag
-                          <b>&nbsp;#cl-exercism-flutter-30</b> to avail{" "}
+                          <b>&nbsp;#cl-exercism-dart-30</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
                       </div>
@@ -156,7 +156,7 @@ const Flutter = () => {
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
                           reach level 41 in #students channel with hashtag
-                          <b>&nbsp;#cl-exercism-flutter-41</b> to avail{" "}
+                          <b>&nbsp;#cl-exercism-dart-41</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
                       </div>
@@ -175,11 +175,11 @@ const Flutter = () => {
                         </p>
                       </b>
                       <p className={styles.sample_message}>
-                        Hey! I've reached Android Bootcamp Exercise 21. Here's
+                        Hey! I've reached Dart Bootcamp Exercise 21. Here's
                         my progress. <br />
                         <b> https://exercism.org/profiles/ BijoMathewJose</b>
                         <br />
-                        <b>#cl-exercism-flutter-10</b>
+                        <b>#cl-exercism-dart-10</b>
                       </p>
                       <br />
                       <img
@@ -201,4 +201,4 @@ const Flutter = () => {
   );
 };
 
-export default Flutter;
+export default Dart;

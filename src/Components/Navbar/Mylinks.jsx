@@ -328,8 +328,8 @@ export const links = [
             foreign: false,
           },
           {
-            name: "Flutter",
-            link: "/bootcamps/flutter",
+            name: "Dart",
+            link: "/bootcamps/dart",
             submenu: false,
             sublinks: [],
             foreign: false,

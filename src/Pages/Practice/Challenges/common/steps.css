@@ -193,12 +193,12 @@ h2 {
 }
 
 .timeline__event--type2:after {
-    background: #555ac0;
+    background: #1C589C;
 }
 
 .timeline__event--type2 .timeline__event__date {
     color: #87bbfe;
-    background: #555ac0;
+    background: #1C589C;
 }
 
 .timeline__event--type2:nth-child(2n + 1) .timeline__event__icon:before,
@@ -208,7 +208,7 @@ h2 {
 
 .timeline__event--type2 .timeline__event__icon {
     background: #87bbfe;
-    color: #555ac0;
+    color: #1C589C;
 }
 
 .timeline__event--type2 .timeline__event__icon:before,
@@ -217,7 +217,7 @@ h2 {
 }
 
 .timeline__event--type2 .timeline__event__title {
-    color: #555ac0;
+    color: #1C589C;
 }
 
 .timeline__event--type3:after {
