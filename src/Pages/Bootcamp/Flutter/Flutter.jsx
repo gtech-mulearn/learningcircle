@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./Dart.module.css";
+import styles from "./Flutter.module.css";
 
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
 
-const Dart = () => {
+const Flutter = () => {
   return (
     <>
       <Navbar />
@@ -14,7 +14,7 @@ const Dart = () => {
             <div className={styles.first_view}>
               <div className={styles.fv_texts}>
                 <p className={styles.fv_heading}>
-                  <span> Dart </span> Bootcamp
+                  <span> Dart & Flutter </span> Bootcamp
                 </p>
                 <p className={styles.fv_content}>
                   Learn Dart hands-on so that you may integrate it in your
@@ -201,4 +201,4 @@ const Dart = () => {
   );
 };
 
-export default Dart;
+export default Flutter;
