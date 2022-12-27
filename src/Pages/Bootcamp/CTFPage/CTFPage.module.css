@@ -94,6 +94,13 @@
     text-align: center;
   }
 
+  .atag {
+    display: initial;
+    vertical-align: initial;
+    white-space: initial;
+    max-width: 100%;
+  }
+
   .register {
     display: block;
     margin: auto;
@@ -356,11 +363,6 @@
 @media only screen and (max-width: 1000px) {
   .detailed_structure {
     max-width: 30rem;
-  }
-
-  .register {
-    display: block;
-    margin: auto;
   }
 }
 
