@@ -357,6 +357,11 @@
   .detailed_structure {
     max-width: 30rem;
   }
+
+  .register {
+    display: block;
+    margin: auto;
+  }
 }
 
 /* Fourth View Styles */
