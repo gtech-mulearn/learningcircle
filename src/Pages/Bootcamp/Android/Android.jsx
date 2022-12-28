@@ -49,16 +49,20 @@ const Android = () => {
                     </div>
                     <div className="timeline__event__date">1</div>
                     <div className="timeline__event__content">
-                      <div className="timeline__event__title">Step One</div>
+                      <div className="timeline__event__title">Part One</div>
                       <div className="timeline__event__description">
                         <a
                           href="https://youtu.be/va6LLfdhvGM"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Learn Git and Github.
+                          Learn Git and Github.&nbsp;
                         </a>
+                        and post a screenshot of your github readme along with
+                        the hastag <b>#cl-github-readme</b> at #students
+                        channel.
                       </div>
+                      <a href="#githubreadme">See Screenshot ↓</a>
                     </div>
                   </div>
                   <div className="timeline__event animated fadeInUp delay-2s timeline__event--type3">
@@ -69,9 +73,11 @@ const Android = () => {
                         className="lni-cake"
                       />
                     </div>
-                    <div className="timeline__event__date">2</div>
+                    <div className="timeline__event__date">1</div>
                     <div className="timeline__event__content">
-                      <div className="timeline__event__title">Step Two</div>
+                      <div className="timeline__event__title">
+                        Part TWO(Step 1)
+                      </div>
                       <div className="timeline__event__description">
                         Navigate to
                         <a
@@ -95,9 +101,9 @@ const Android = () => {
                         className="lni-cake"
                       />
                     </div>
-                    <div className="timeline__event__date">3</div>
+                    <div className="timeline__event__date">2</div>
                     <div className="timeline__event__content">
-                      <div className="timeline__event__title">Step Three</div>
+                      <div className="timeline__event__title">Step Two</div>
                       <div className="timeline__event__description">
                         Practice&nbsp;
                         <a
@@ -119,15 +125,34 @@ const Android = () => {
                         className="lni-cake"
                       />
                     </div>
-                    <div className="timeline__event__date">4</div>
+                    <div className="timeline__event__date">3</div>
                     <div className="timeline__event__content">
-                      <div className="timeline__event__title">Step Four</div>
+                      <div className="timeline__event__title">Step Three</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 21 in #students channel with hashtag{" "}
                         <b>&nbsp;#cl-exercism-kotlin-21</b> to avail{" "}
                         <b>200 karma points.</b>
                         <br />
+                        <a href="#exercism">See Screenshot ↓</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
+                    <div className="timeline__event__icon">
+                      <img
+                        src={require("../assets/steps/check.svg").default}
+                        alt=""
+                      />
+                    </div>
+                    <div className="timeline__event__date">4</div>
+                    <div className="timeline__event__content">
+                      <div className="timeline__event__title">Step Four</div>
+                      <div className="timeline__event__description">
+                        Post the screenshot of your profile/link when you reach
+                        level 42 in #students channel with hashtag
+                        <b>&nbsp;#cl-exercism-kotlin-42</b> to avail{" "}
+                        <b>200 karma points.</b>
                       </div>
                     </div>
                   </div>
@@ -143,8 +168,8 @@ const Android = () => {
                       <div className="timeline__event__title">Step Five</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 42 in #students channel with hashtag
-                        <b>&nbsp;#cl-exercism-kotlin-42</b> to avail{" "}
+                        level 63 in #students channel with hashtag
+                        <b>&nbsp;#cl-exercism-kotlin-63</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
                     </div>
@@ -161,24 +186,6 @@ const Android = () => {
                       <div className="timeline__event__title">Step Six</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 63 in #students channel with hashtag
-                        <b>&nbsp;#cl-exercism-kotlin-63</b> to avail{" "}
-                        <b>200 karma points.</b>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
-                    <div className="timeline__event__icon">
-                      <img
-                        src={require("../assets/steps/check.svg").default}
-                        alt=""
-                      />
-                    </div>
-                    <div className="timeline__event__date">7</div>
-                    <div className="timeline__event__content">
-                      <div className="timeline__event__title">Step Seven</div>
-                      <div className="timeline__event__description">
-                        Post the screenshot of your profile/link when you reach
                         level 85 in #students channel with hashtag
                         <b>&nbsp;#cl-exercism-kotlin-85</b> to avail{" "}
                         <b>200 karma points.</b>
@@ -192,7 +199,28 @@ const Android = () => {
                       </p>
                     </b>
                   </div>
-                  <div className={styles.sample_container}>
+                  <div id="githubreadme" className={styles.sample_container}>
+                    <b>
+                      <p className={styles.sample_header}>
+                        Github Message and Image
+                      </p>
+                    </b>
+                    <p className={styles.sample_message}>
+                      Hey! I've completed my GitHub readme. Here's my profile.{" "}
+                      <br />
+                      <b> https://github.com/Dexters-Hub</b>
+                      <br />
+                      <b>#cl-github-readme</b>
+                    </p>
+                    <br />
+                    <img
+                      className={styles.sample_img}
+                      src="/assets/bootcamp/android/githubreadme.png"
+                      alt="pic"
+                      srcset=""
+                    />
+                  </div>
+                  <div id="exercism" className={styles.sample_container}>
                     <b>
                       <p className={styles.sample_header}>
                         Exercism Message and Image
