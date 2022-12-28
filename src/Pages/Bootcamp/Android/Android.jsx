@@ -34,6 +34,12 @@ const Android = () => {
           </div>
         </div>
         <div className={styles.second_view_container}>
+          <p className={styles.sv_header}>Git & Github</p>
+          <p className={styles.sv_content}>
+            This bootcamp is divided into two stages, the first of which
+            requires you to learn Git and GitHub and build a decent GitHub
+            readme. By watching the video provided below.
+          </p>
           <div className={styles.second_view}>
             <div className={styles.steps}>
               <div className="timeline-container">
@@ -56,7 +62,7 @@ const Android = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Learn Git and Github.&nbsp;
+                          Learn Git & Github&nbsp;
                         </a>
                         and post a screenshot of your github readme along with
                         the hastag <b>#cl-github-readme</b> at #students
@@ -65,6 +71,44 @@ const Android = () => {
                       <a href="#githubreadme">See Screenshot ↓</a>
                     </div>
                   </div>
+
+                  <div id="githubreadme" className={styles.sample_container}>
+                    <b>
+                      <p className={styles.sample_header}>
+                        Github Message and Image
+                      </p>
+                    </b>
+                    <p className={styles.sample_message}>
+                      Hey! I've completed my GitHub readme. Here's my profile.{" "}
+                      <br />
+                      <b> https://github.com/Dexters-Hub</b>
+                      <br />
+                      <b>#cl-github-readme</b>
+                    </p>
+                    <br />
+                    <img
+                      className={styles.sample_img}
+                      src="/assets/bootcamp/android/githubreadme.png"
+                      alt="pic"
+                      srcset=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.second_view_container}>
+          <p className={styles.sv_header}>Practice Kotlin</p>
+          <p className={styles.sv_content}>
+            To complete this bootcamp, you must complete all of the exercises on
+            the exercism platform. After completing a series of exercises, you
+            will be rewarded karma points.
+          </p>
+          <div className={styles.second_view}>
+            <div className={styles.steps}>
+              <div className="timeline-container">
+                <div className="timeline">
                   <div className="timeline__event animated fadeInUp delay-2s timeline__event--type3">
                     <div className="timeline__event__icon">
                       <img
@@ -199,27 +243,7 @@ const Android = () => {
                       </p>
                     </b>
                   </div>
-                  <div id="githubreadme" className={styles.sample_container}>
-                    <b>
-                      <p className={styles.sample_header}>
-                        Github Message and Image
-                      </p>
-                    </b>
-                    <p className={styles.sample_message}>
-                      Hey! I've completed my GitHub readme. Here's my profile.{" "}
-                      <br />
-                      <b> https://github.com/Dexters-Hub</b>
-                      <br />
-                      <b>#cl-github-readme</b>
-                    </p>
-                    <br />
-                    <img
-                      className={styles.sample_img}
-                      src="/assets/bootcamp/android/githubreadme.png"
-                      alt="pic"
-                      srcset=""
-                    />
-                  </div>
+
                   <div id="exercism" className={styles.sample_container}>
                     <b>
                       <p className={styles.sample_header}>
