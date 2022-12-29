@@ -107,6 +107,7 @@ const Android = () => {
                       <b> https://github.com/Dexters-Hub</b>
                       <br />
                       <b>#cl-github-readme</b>
+                      in the #students channel.
                     </p>
                     <br />
                     <img
@@ -197,7 +198,7 @@ const Android = () => {
                       <div className="timeline__event__title">Step Three</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 21 in #students channel with hashtag{" "}
+                        level 21 in #android-development channel with hashtag{" "}
                         <b>&nbsp;#cl-exercism-kotlin-21</b> to avail{" "}
                         <b>200 karma points.</b>
                         <br />
@@ -217,7 +218,7 @@ const Android = () => {
                       <div className="timeline__event__title">Step Four</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 42 in #students channel with hashtag
+                        level 42 in #android-development channel with hashtag
                         <b>&nbsp;#cl-exercism-kotlin-42</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
@@ -235,7 +236,7 @@ const Android = () => {
                       <div className="timeline__event__title">Step Five</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 63 in #students channel with hashtag
+                        level 63 in #android-development channel with hashtag
                         <b>&nbsp;#cl-exercism-kotlin-63</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
@@ -253,7 +254,7 @@ const Android = () => {
                       <div className="timeline__event__title">Step Six</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 85 in #students channel with hashtag
+                        level 85 in #android-development channel with hashtag
                         <b>&nbsp;#cl-exercism-kotlin-85</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
