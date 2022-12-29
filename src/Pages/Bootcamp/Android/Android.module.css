@@ -7,6 +7,33 @@
   color: orange;
 }
 
+.supporters {
+  color: #404040;
+  margin-top: 1rem;
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.supporters span {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.1rem;
+  display: block;
+  width: 9rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.supporter {
+  height: 3rem;
+  padding-left: 1rem;
+
+  margin-right: 1rem;
+  border-radius: 50px;
+  box-shadow: 0 1px 12px 0 rgba(193, 195, 211, 0.37);
+}
+
 .first_view_container {
   margin: 2rem;
 }
@@ -118,6 +145,14 @@
   margin-top: 1rem;
 }
 
+
+.atag {
+  display: initial;
+  vertical-align: initial;
+  white-space: initial;
+  max-width: 100%;
+}
+
 @media only screen and (min-width: 1000px) {
   .first_view_container {
     display: block;
@@ -144,6 +179,10 @@
     display: block;
     margin: auto;
     margin-top: 1rem;
+  }
+
+  .supporters {
+    justify-content: center;
   }
 }
 

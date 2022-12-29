@@ -22,7 +22,30 @@ const Android = () => {
                 to minimize the learning process into micro-steps to enhance
                 your learning curve
               </p>
-              <button className={styles.register}>Starting Soon!</button>
+              <div class={styles.supporters}>
+                <span>Supported By </span>
+                <div className={styles.s_images}>
+                  <a
+                    href="https://developer.android.com/teach"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/assets/bootcamp/android/androideducators.png"
+                      alt="Riglabs"
+                      class={styles.supporter}
+                    />
+                  </a>
+                </div>
+              </div>
+              <a
+                href="https://airtable.com/shrACkBZBdJbya6or"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.atag}
+              >
+                <button className={styles.register}>Register Now!</button>
+              </a>
             </div>
             <div className={styles.fv_image}>
               <img
