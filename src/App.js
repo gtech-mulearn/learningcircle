@@ -18,6 +18,7 @@ import CybersecCourse from "./Pages/InterestGroups/Course/cybersec/CybersecCours
 import CommonCourse from "./Pages/InterestGroups/Course/common/CommonCourse";
 
 //Bootcamp Section
+import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome";
 import Android from "./Pages/Bootcamp/Android/Android";
 import Rust from "./Pages/Bootcamp/Rust/Rust";
 import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
@@ -246,6 +247,7 @@ function App() {
           <Route path="/common/:type/:id" element={<CommonCourse />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />
+          <Route path="/bootcamps" element={<BootcampsHome />} />
           <Route path="/bootcamps/android" element={<Android />} />
           <Route path="/bootcamps/ctf" element={<CTFPage />} />
           <Route path="/bootcamps/rust" element={<Rust />} />
