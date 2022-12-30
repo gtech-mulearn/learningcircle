@@ -23,6 +23,7 @@ import Android from "./Pages/Bootcamp/Android/Android";
 import Rust from "./Pages/Bootcamp/Rust/Rust";
 import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
 import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
+import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
 
 //Search Section
 import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
@@ -46,6 +47,7 @@ import IntroToGithubPages from "./Pages/Practice/Challenges/IntroToGithubPages/I
 import IntroToHtml from "./Pages/Practice/Challenges/IntroToHtml/IntroToHtml";
 import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimulation/TrafficLightSimulation";
 import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn";
+
 
 function App() {
   //Home Page state Variables
@@ -252,6 +254,7 @@ function App() {
           <Route path="/bootcamps/ctf" element={<CTFPage />} />
           <Route path="/bootcamps/rust" element={<Rust />} />
           <Route path="/bootcamps/flutter" element={<Flutter />} />
+          <Route path="/bootcamps/javascript" element={<JavaScript />} />
           <Route
             path="/searchcircles"
             element={
