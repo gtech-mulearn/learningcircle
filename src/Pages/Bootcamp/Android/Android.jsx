@@ -227,7 +227,7 @@ const Android = () => {
                   <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
                     <div className="timeline__event__icon">
                       <img
-                        src={require("../assets/steps/check.svg").default}
+                        src={require("../assets/steps/monitor.svg").default}
                         alt=""
                       />
                     </div>
@@ -245,7 +245,7 @@ const Android = () => {
                   <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
                     <div className="timeline__event__icon">
                       <img
-                        src={require("../assets/steps/check.svg").default}
+                        src={require("../assets/steps/repo.svg").default}
                         alt=""
                       />
                     </div>

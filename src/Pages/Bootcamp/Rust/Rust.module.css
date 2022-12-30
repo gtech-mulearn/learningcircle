@@ -24,6 +24,14 @@
   margin-bottom: 0.5rem;
 }
 
+
+.atag {
+  display: initial;
+  vertical-align: initial;
+  white-space: initial;
+  max-width: 100%;
+}
+
 .fv_heading span,
 .orange {
   color: #828282;
