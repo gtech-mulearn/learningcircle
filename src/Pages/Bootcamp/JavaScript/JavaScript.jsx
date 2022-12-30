@@ -137,8 +137,8 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Five</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 105 in #students channel with hashtag
-                          <b>&nbsp;#cl-exercism-javascript-105</b> to avail{" "}
+                          reach level 84 in #students channel with hashtag
+                          <b>&nbsp;#cl-exercism-javascript-84</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
                       </div>
@@ -155,8 +155,8 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Six</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 84 in #students channel with hashtag
-                          <b>&nbsp;#cl-exercism-javascript-84</b> to avail{" "}
+                          reach level 112 in #students channel with hashtag
+                          <b>&nbsp;#cl-exercism-javascript-112</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
                       </div>
@@ -171,24 +171,6 @@ const JavaScript = () => {
                       <div className="timeline__event__date">7</div>
                       <div className="timeline__event__content">
                         <div className="timeline__event__title">Step Seven</div>
-                        <div className="timeline__event__description">
-                          Post the screenshot of your profile/link when you
-                          reach level 112 in #students channel with hashtag
-                          <b>&nbsp;#cl-exercism-javascript-112</b> to avail{" "}
-                          <b>200 karma points.</b>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="timeline__event animated fadeInUp delay-3s timeline__event--type5">
-                      <div className="timeline__event__icon">
-                        <img
-                          src={require("../assets/steps/check.svg").default}
-                          alt=""
-                        />
-                      </div>
-                      <div className="timeline__event__date">8</div>
-                      <div className="timeline__event__content">
-                        <div className="timeline__event__title">Step Eigth</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
                           reach level 140 in #students channel with hashtag
@@ -211,11 +193,11 @@ const JavaScript = () => {
                         </p>
                       </b>
                       <p className={styles.sample_message}>
-                        Hey! I've reached JavaScript Bootcamp Exercise 35.
+                        Hey! I've reached JavaScript Bootcamp Exercise 28.
                         Here's my progress. <br />
                         <b> https://exercism.org/profiles/ BijoMathewJose</b>
                         <br />
-                        <b>#cl-exercism-javascript-35</b>
+                        <b>#cl-exercism-javascript-28</b>
                       </p>
                       <br />
                       <img
