@@ -5,6 +5,8 @@ import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
 
 const Python = () => {
+  const data = require("./data.json");
+
   return (
     <>
       <Navbar />
@@ -17,10 +19,10 @@ const Python = () => {
               </p>
               <p className={styles.fv_subheading}>20-Day Bootcamp</p>
               <p className={styles.fv_content}>
-                Pentesting is a hard thing. It's even harder to figure out how
-                to get started on this journey. This workshop is aimed toward
-                absolute beginners and to give them an easy understanding
-                learning path.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+                voluptas sit magni sapiente odit autem? Inventore aut sint
+                voluptate veritatis deleniti, sapiente pariatur repellat quasi
+                quaerat placeat, totam reprehenderit corrupti.
               </p>
               <p class={styles.startingdate}>
                 Starting On <span>1st January 2023</span>
@@ -56,6 +58,43 @@ const Python = () => {
                 alt=""
                 className={styles.fv_img}
               />
+            </div>
+          </div>
+        </div>
+        <div className={styles.second_view_container}>
+          <div className={styles.second_view}>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>
+                Bootcamp<span> Structure</span>
+              </p>
+              <p className={styles.sv_content}>
+                This Bootcamps is divided into a total of 20 days which includes
+                Python Basics, Git and Projects Based on Python.
+              </p>
+            </div>
+            <div className={styles.sv_days_container}>
+              <div className={styles.sv_days}>
+                {data.plan.map((day) => {
+                  if (day.karma == undefined) {
+                    return (
+                      <div className={styles.day}>
+                        <p className={styles.svd_name}>Day {day.id}</p>
+                        <p className={styles.svd_topic}>{day.topic}</p>
+                      </div>
+                    );
+                  } else {
+                    return (
+                      <div className={styles.bday}>
+                        <p className={styles.svd_name}>Day {day.id}</p>
+                        <p className={styles.svd_topic}>{day.topic}</p>
+                        <p className={styles.svd_karma}>
+                          +{day.karma} Karma Points
+                        </p>
+                      </div>
+                    );
+                  }
+                })}
+              </div>
             </div>
           </div>
         </div>

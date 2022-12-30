@@ -1,168 +1,249 @@
 .first_view_container {
-    margin: 2rem;
-  }
-  
-  .supporters {
-    color: #404040;
-    margin-top: 1rem;
-    margin-bottom: 2vh;
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-  }
-  
-  .supporters span {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 1.1rem;
+  margin: 2rem;
+}
+
+.supporters {
+  color: #404040;
+  margin-top: 1rem;
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.supporters span {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.1rem;
+  display: block;
+  width: 9rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.supporter {
+  width: 4rem;
+  margin-right: 1rem;
+  border-radius: 50px;
+  box-shadow: 0 1px 12px 0 rgba(193, 195, 211, 0.37);
+}
+
+.svs_box,
+.requirements ul {
+  list-style: disc;
+}
+
+.first_view {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.fv_heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #404040;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.fv_heading span,
+.orange {
+  color: #4b8bbe;
+}
+
+.fv_content {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95rem;
+}
+
+.fv_img {
+  width: 25rem;
+}
+
+.register {
+  background-color: #4b8bbe;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  margin-top: 1rem;
+}
+
+.fv_subheading {
+  color: #4b8bbe;
+  font-family: "Poppins", sans-serif;
+  margin-top: -1.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.startingdate {
+  margin-top: 1rem;
+  font-family: "Noto Sans";
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.startingdate span {
+  color: #4b8bbe;
+}
+
+@media only screen and (max-width: 1000px) {
+  .fv_img {
     display: block;
-    width: 9rem;
-    font-weight: 600;
-    margin-right: 1rem;
+    margin: auto;
   }
-  
-  .supporter {
-    width: 4rem;
-    margin-right: 1rem;
-    border-radius: 50px;
-    box-shadow: 0 1px 12px 0 rgba(193, 195, 211, 0.37);
+
+  .startingdate {
+    text-align: center;
   }
-  
-  .svs_box,
-  .requirements ul {
-    list-style: disc;
+
+  .fv_subheading {
+    text-align: center;
   }
-  
+
+  .fv_heading {
+    text-align: center;
+    font-size: 3.25rem;
+  }
+
+  .fv_content {
+    text-align: center;
+  }
+
+  .atag {
+    display: initial;
+    vertical-align: initial;
+    white-space: initial;
+    max-width: 100%;
+  }
+
+  .register {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  .supporters {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .first_view_container {
+    margin: 0 6rem;
+  }
+
+  .fv_texts {
+    width: 45vw;
+  }
+
+  .fv_heading {
+    font-size: 5rem;
+  }
+
+  .fv_content {
+    width: 80%;
+
+    font-size: 1.1rem;
+  }
+
+  .fv_texts {
+    padding-right: 3vw;
+    color: #404040;
+  }
+
+  .fv_image {
+    display: block;
+  }
+
+  .fv_img {
+    width: 35rem;
+  }
+
   .first_view {
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
   }
-  
-  .fv_heading {
-    font-size: 2.4rem;
-    font-weight: 700;
-    color: #404040;
-    font-family: "Noto Sans", sans-serif;
-    margin-bottom: 0.5rem;
+}
+
+/* Second View Styles */
+
+.second_view_container {
+  margin: 2rem;
+}
+
+.second_view {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1000px) {
+  .second_view_container {
+    margin: 0 6rem;
+    margin-top: 2rem;
   }
-  
-  .fv_heading span,
-  .orange {
-    color: #4B8BBE;
+}
+
+.sv_heading {
+  font-size: 2rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #404040;
+}
+
+.sv_content {
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+
+.sv_heading span {
+  color: #4b8bbe;
+}
+
+@media only screen and (min-width: 1000px) {
+  .sv_heading {
+    font-size: 2rem;
   }
-  
-  .fv_content {
-    font-family: "Poppins", sans-serif;
-    font-size: 0.95rem;
+  .sv_content {
+    width: 30%;
   }
-  
-  .fv_img {
-    width: 25rem;
-  }
-  
-  .register {
-    background-color: #4B8BBE;
-    padding: 0.5rem 1.5rem;
-    border-radius: 5px;
-    color: white;
-    margin-top: 1rem;
-  }
-  
-  .fv_subheading {
-    color: #4B8BBE;
-    font-family: "Poppins", sans-serif;
-    margin-top: -1.5rem;
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-  }
-  
-  .startingdate {
-    margin-top: 1rem;
-    font-family: "Noto Sans";
-    font-size: 1.1rem;
-    font-weight: 500;
-  }
-  
-  .startingdate span {
-    color: #4B8BBE;
-  }
-  
-  @media only screen and (max-width: 1000px) {
-    .fv_img {
-      display: block;
-      margin: auto;
-    }
-  
-    .startingdate {
-      text-align: center;
-    }
-  
-    .fv_subheading {
-      text-align: center;
-    }
-  
-    .fv_heading {
-      text-align: center;
-      font-size: 3.5rem;
-    }
-  
-    .fv_content {
-      text-align: center;
-    }
-  
-    .atag {
-      display: initial;
-      vertical-align: initial;
-      white-space: initial;
-      max-width: 100%;
-    }
-  
-    .register {
-      display: block;
-      margin: auto;
-      margin-top: 1rem;
-    }
-  
-    .supporters {
-      justify-content: center;
-    }
-  }
-  
-  @media only screen and (min-width: 1000px) {
-    .first_view_container {
-      margin: 0 6rem;
-    }
-  
-    .fv_texts {
-      width: 45vw;
-    }
-  
-    .fv_heading {
-      font-size: 5rem;
-    }
-  
-    .fv_content {
-      width: 80%;
-  
-      font-size: 1.1rem;
-    }
-  
-    .fv_texts {
-      padding-right: 3vw;
-      color: #404040;
-    }
-  
-    .fv_image {
-      display: block;
-    }
-  
-    .fv_img {
-      width: 35rem;
-    }
-  
-    .first_view {
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: row;
-      align-items: center;
-    }
-  }
+}
+
+.sv_days_container {
+  margin-top: 2rem;
+}
+
+.sv_days {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.svd_name {
+  font-family: "Noto Sans";
+  font-size: 1.25rem;
+  color: #4b8bbe;
+}
+
+.svd_topic,
+.svd_karma {
+  font-family: "Poppins";
+  color: #404040;
+}
+
+.day,
+.bday {
+  padding: 25px 25px;
+  border-radius: 10px;
+  transition: all 0.3s ease-out;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 1px 12px 0 rgb(193 195 211 / 37%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  width: 21rem;
+}
+
+.bday {
+  border: 2px solid #69a2d1;
+}

@@ -1,0 +1,88 @@
+{
+  "plan": [
+    {
+      "id": "1",
+      "topic": "Input, Print and Number"
+    },
+    {
+      "id": "2",
+      "topic": "Integers & Float Numbers"
+    },
+    {
+      "id": "3",
+      "topic": "Conditions: if, then, else"
+    },
+    {
+      "id": "4",
+      "topic": "For Loop with Range"
+    },
+    {
+      "id": "5",
+      "topic": "Strings"
+    },
+    {
+      "id": "6",
+      "topic": "While Loop",
+      "karma": 200
+    },
+    {
+      "id": "7",
+      "topic": "Lists"
+    },
+    {
+      "id": "8",
+      "topic": "Function, Local and Global Variables"
+    },
+    {
+      "id": "9",
+      "topic": "Sets"
+    },
+    {
+      "id": "10",
+      "topic": "Dictionary"
+    },
+    {
+      "id": "11",
+      "topic": "pip, modules and import statements",
+      "karma": 200
+    },
+    {
+      "id": "12",
+      "topic": "Revision"
+    },
+    {
+      "id": "13",
+      "topic": "Dice Roller & Git"
+    },
+    {
+      "id": "14",
+      "topic": "Dice Roller & Git"
+    },
+    {
+      "id": "15",
+      "topic": "Number Game"
+    },
+    {
+      "id": "16",
+      "topic": "Number Game"
+    },
+    {
+      "id": "17",
+      "topic": "QR Generator"
+    },
+    {
+      "id": "18",
+      "topic": "QR Generator",
+      "karma": 200
+    },
+    {
+      "id": "19",
+      "topic": "Invoice Generator"
+    },
+    {
+      "id": "20",
+      "topic": "Invoice Generator",
+      "karma": 200
+    }
+  ]
+}
