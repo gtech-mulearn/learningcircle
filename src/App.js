@@ -24,6 +24,7 @@ import Rust from "./Pages/Bootcamp/Rust/Rust";
 import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
 import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
 import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
+import Python from "./Pages/Bootcamp/Python/Python"
 
 //Search Section
 import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
@@ -255,6 +256,7 @@ function App() {
           <Route path="/bootcamps/rust" element={<Rust />} />
           <Route path="/bootcamps/flutter" element={<Flutter />} />
           <Route path="/bootcamps/javascript" element={<JavaScript />} />
+          <Route path="/bootcamps/python" element={<Python />} />
           <Route
             path="/searchcircles"
             element={
