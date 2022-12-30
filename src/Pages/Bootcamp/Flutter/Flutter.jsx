@@ -22,7 +22,14 @@ const Flutter = () => {
                   Dart.This Boot-camp aims to minimize the learning process into
                   micro-steps to enhance your learning curve.
                 </p>
-                <button className={styles.register}>Starting Soon!</button>
+                <a
+                  href="https://airtable.com/shrRElDWCjn1KszVz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.atag}
+                >
+                  <button className={styles.register}>Register Now!</button>
+                </a>
               </div>
               <div className={styles.fv_image}>
                 <img
@@ -108,7 +115,7 @@ const Flutter = () => {
                         <div className="timeline__event__title">Step Three</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 10 in #students channel with hashtag{" "}
+                          reach level 10 in #web-and-mobile-app-development channel with hashtag{" "}
                           <b>&nbsp;#cl-exercism-dart-10</b> to avail{" "}
                           <b>200 karma points.</b>
                           <br />
@@ -127,7 +134,7 @@ const Flutter = () => {
                         <div className="timeline__event__title">Step Four</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 20 in #students channel with hashtag
+                          reach level 20 in #web-and-mobile-app-development channel with hashtag
                           <b>&nbsp;#cl-exercism-dart-20</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
@@ -136,7 +143,7 @@ const Flutter = () => {
                     <div className="timeline__event animated fadeInUp delay-3s timeline__event--type2">
                       <div className="timeline__event__icon">
                         <img
-                          src={require("../assets/steps/check.svg").default}
+                          src={require("../assets/steps/repo.svg").default}
                           alt=""
                         />
                       </div>
@@ -145,7 +152,7 @@ const Flutter = () => {
                         <div className="timeline__event__title">Step Five</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 30 in #students channel with hashtag
+                          reach level 30 in #web-and-mobile-app-development channel with hashtag
                           <b>&nbsp;#cl-exercism-dart-30</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
@@ -154,7 +161,7 @@ const Flutter = () => {
                     <div className="timeline__event animated fadeInUp delay-3s timeline__event--type2">
                       <div className="timeline__event__icon">
                         <img
-                          src={require("../assets/steps/check.svg").default}
+                          src={require("../assets/steps/monitor.svg").default}
                           alt=""
                         />
                       </div>
@@ -163,7 +170,7 @@ const Flutter = () => {
                         <div className="timeline__event__title">Step Six</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 41 in #students channel with hashtag
+                          reach level 41 in #web-and-mobile-app-development channel with hashtag
                           <b>&nbsp;#cl-exercism-dart-41</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>

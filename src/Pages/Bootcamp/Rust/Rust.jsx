@@ -21,7 +21,14 @@ const Rust = () => {
                 Boot-camp aims to minimize the learning process into micro-steps
                 to enhance your learning curve.
               </p>
-              <button className={styles.register}>Starting Soon!</button>
+              <a
+                href="https://airtable.com/shrKuAMR1ZdOVBa9S"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.atag}
+              >
+                <button className={styles.register}>Register Now!</button>
+              </a>
             </div>
             <div className={styles.fv_image}>
               <img
@@ -128,7 +135,7 @@ const Rust = () => {
                   <div className="timeline__event animated fadeInUp delay-3s timeline__event--type4">
                     <div className="timeline__event__icon">
                       <img
-                        src={require("../assets/steps/check.svg").default}
+                        src={require("../assets/steps/repo.svg").default}
                         alt=""
                       />
                     </div>
@@ -146,7 +153,7 @@ const Rust = () => {
                   <div className="timeline__event animated fadeInUp delay-3s timeline__event--type4">
                     <div className="timeline__event__icon">
                       <img
-                        src={require("../assets/steps/check.svg").default}
+                        src={require("../assets/steps/monitor.svg").default}
                         alt=""
                       />
                     </div>

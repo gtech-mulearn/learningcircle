@@ -197,12 +197,12 @@ h2 {
 }
 
 .timeline__event--type2:after {
-  background: #1c589c;
+    background: #43D0FC;
 }
 
 .timeline__event--type2 .timeline__event__date {
-  color: #87bbfe;
-  background: #1c589c;
+    color: rgb(250, 251, 252);;
+    background: #43D0FC;
 }
 
 .timeline__event--type2:nth-child(2n + 1) .timeline__event__icon:before,
@@ -211,8 +211,8 @@ h2 {
 }
 
 .timeline__event--type2 .timeline__event__icon {
-  background: #87bbfe;
-  color: #1c589c;
+    background: #FFFFFF;
+    color:#43D0FC;
 }
 
 .timeline__event--type2 .timeline__event__icon:before,
@@ -221,7 +221,7 @@ h2 {
 }
 
 .timeline__event--type2 .timeline__event__title {
-  color: #1c589c;
+    color: #43D0FC;
 }
 
 .timeline__event--type3:after {
@@ -239,8 +239,8 @@ h2 {
 }
 
 .timeline__event--type3 .timeline__event__icon {
-  background: #aff1b6;
-  color: #24b47e;
+    background: #FFFFFF;
+    color: #24b47e;
 }
 
 .timeline__event--type3 .timeline__event__icon:before,
@@ -257,8 +257,8 @@ h2 {
 }
 
 .timeline__event--type4 .timeline__event__date {
-  color: #828282;
-  background-color: #606060;
+    color: #FFF;
+    background-color: #606060;
 }
 
 .timeline__event--type4:nth-child(2n + 1) .timeline__event__icon:before,
@@ -267,8 +267,8 @@ h2 {
 }
 
 .timeline__event--type4 .timeline__event__icon {
-  background: #828282;
-  color: #24b47e;
+    background: #FFFFFF;
+    color: #FFFF;
 }
 
 .timeline__event--type4 .timeline__event__icon:before,
@@ -276,8 +276,8 @@ h2 {
   background: #828282;
 }
 
-.timeline__event--type3 .timeline__event__title {
-  color: #606060;
+.timeline__event--type4 .timeline__event__title {
+    color: #606060;
 }
 
 .timeline__event:last-child .timeline__event__icon:before {
