@@ -24,9 +24,16 @@
   margin-bottom: 0.5rem;
 }
 
+.atag {
+  display: initial;
+  vertical-align: initial;
+  white-space: initial;
+  max-width: 100%;
+}
+
 .fv_heading span,
 .orange {
-  color: #1C589C;
+  color: #1c589c;
 }
 
 .fv_content {
@@ -104,14 +111,14 @@
 
 .callout {
   margin: 2rem auto 0;
-  border: 1px solid #87BBFE;
+  border: 1px solid #87bbfe;
   padding: 2rem;
   border-radius: 0.2rem;
   max-width: 50rem;
 }
 
 .register {
-  background-color: #1C589C;
+  background-color: #1c589c;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   color: white;
