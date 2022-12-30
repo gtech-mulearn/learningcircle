@@ -36,7 +36,7 @@ const Python = () => {
                     rel="noopener noreferrer"
                   >
                     <img
-                      src="/assets/bootcamp/ctf/riglabs.png"
+                      src="/assets/bootcamp/python/pygrammers.webp"
                       alt="Riglabs"
                       class={styles.supporter}
                     />

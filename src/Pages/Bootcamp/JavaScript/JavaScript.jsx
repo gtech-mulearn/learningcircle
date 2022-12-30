@@ -163,8 +163,8 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Six</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 105 in #students channel with hashtag
-                          <b>&nbsp;#cl-exercism-javascript-105</b> to avail{" "}
+                          reach level 140 in #students channel with hashtag
+                          <b>&nbsp;#cl-exercism-javascript-140</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
                       </div>
