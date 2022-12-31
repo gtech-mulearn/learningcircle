@@ -105,15 +105,17 @@ const BootcampsHome = () => {
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>
-              {/* <div className={styles.bootcamp}>
+              <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>Python Bootcamp</p>
                 <p className={styles.b_tagline}>
-                  Learn Android Development in Kotlin hands-on so that you may
-                  integrate it in your campus for your peers who are eager to
-                  venture into Android Development with Kotlin.
+                  22 days python bootcamp with complete mentor support. The
+                  event is designed for entire beginers. We will also be doing
+                  some projects and making it public in github.
                 </p>
-                <button className={styles.b_button}>Join Now!</button>
-              </div> */}
+                <Link to="/bootcamps/python">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
