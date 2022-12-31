@@ -36,7 +36,7 @@ const Python = () => {
                 </div>
               </div>
               <a
-                href="#"
+                href="https://airtable.com/shrefJHb9pHx6ihv5"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.atag}
