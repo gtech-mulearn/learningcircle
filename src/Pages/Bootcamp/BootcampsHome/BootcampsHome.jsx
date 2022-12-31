@@ -41,8 +41,8 @@ const BootcampsHome = () => {
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>Bootcamps</p>
               <p className={styles.sv_content}>
-                The bootcamps shown below are going to accept registrations. You
-                may join them in learning a new skill this year.
+                The bootcamps shown below are open to all. You can join them now
+                and learn a new skill this ne year.
               </p>
             </div>
             <div className={styles.bootcamps}>
@@ -93,16 +93,19 @@ const BootcampsHome = () => {
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>
-              {/* <div className={styles.bootcamp}>
+              <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>JavaScript Bootcamp</p>
                 <p className={styles.b_tagline}>
-                  Learn Android Development in Kotlin hands-on so that you may
-                  integrate it in your campus for your peers who are eager to
-                  venture into Android Development with Kotlin.
+                  Learn JavaScript hands-on so that you may integrate it in your
+                  campus for your peers who are eager to venture into learning
+                  JavaScript.This Boot-camp aims to minimize the learning
+                  process into micro-steps to enhance your learning curve.
                 </p>
-                <button className={styles.b_button}>Join Now!</button>
+                <Link to="/bootcamps/javascript">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
               </div>
-              <div className={styles.bootcamp}>
+              {/* <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>Python Bootcamp</p>
                 <p className={styles.b_tagline}>
                   Learn Android Development in Kotlin hands-on so that you may

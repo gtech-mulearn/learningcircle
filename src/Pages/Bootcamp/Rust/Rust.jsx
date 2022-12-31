@@ -107,7 +107,7 @@ const Rust = () => {
                       <div className="timeline__event__title">Step Three</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 25 in #students channel with hashtag{" "}
+                        level 25 in #cloud-and-devops channel with hashtag{" "}
                         <b>&nbsp;#cl-exercism-rust-25</b> to avail{" "}
                         <b>200 karma points.</b>
                         <br />
@@ -126,7 +126,7 @@ const Rust = () => {
                       <div className="timeline__event__title">Step Four</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 51 in #students channel with hashtag
+                        level 51 in #cloud-and-devops channel with hashtag
                         <b>&nbsp;#cl-exercism-rust-51</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
@@ -144,7 +144,7 @@ const Rust = () => {
                       <div className="timeline__event__title">Step Six</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 77 in #students channel with hashtag
+                        level 77 in #cloud-and-devops channel with hashtag
                         <b>&nbsp;#cl-exercism-rust-77</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
@@ -162,7 +162,7 @@ const Rust = () => {
                       <div className="timeline__event__title">Step Seven</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 103 in #students channel with hashtag
+                        level 103 in #cloud-and-devops channel with hashtag
                         <b>&nbsp;#cl-exercism-rust-103</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
@@ -182,7 +182,7 @@ const Rust = () => {
                       </p>
                     </b>
                     <p className={styles.sample_message}>
-                      Hey! I've reached Rust Bootcamp Exercise 21. Here's my
+                      Hey! I've reached Rust Bootcamp Exercise 25. Here's my
                       progress. <br />
                       <b> https://exercism.org/profiles/ BijoMathewJose</b>
                       <br />

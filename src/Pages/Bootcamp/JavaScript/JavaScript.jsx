@@ -23,7 +23,7 @@ const JavaScript = () => {
                   process into micro-steps to enhance your learning curve.
                 </p>
                 <a
-                  href="#"
+                  href="https://airtable.com/shr82OZNBqnbEcZTq"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.atag}
@@ -107,7 +107,7 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Three</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 28 in #students channel with hashtag{" "}
+                          reach level 28 in #web-and-mobile-app-development channel with hashtag{" "}
                           <b>&nbsp;#cl-exercism-javascript-28</b> to avail{" "}
                           <b>200 karma points.</b>
                           <br />
@@ -126,7 +126,7 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Four</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 56 in #students channel with hashtag
+                          reach level 56 in #web-and-mobile-app-development channel with hashtag
                           <b>&nbsp;#cl-exercism-javascript-56</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
@@ -135,7 +135,7 @@ const JavaScript = () => {
                     <div className="timeline__event animated fadeInUp delay-3s timeline__event--type5">
                       <div className="timeline__event__icon">
                         <img
-                          src={require("../assets/steps/check.svg").default}
+                          src={require("../assets/steps/msg.svg").default}
                           alt=""
                         />
                       </div>
@@ -144,7 +144,7 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Five</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 84 in #students channel with hashtag
+                          reach level 84 in #web-and-mobile-app-development channel with hashtag
                           <b>&nbsp;#cl-exercism-javascript-84</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
@@ -153,7 +153,7 @@ const JavaScript = () => {
                     <div className="timeline__event animated fadeInUp delay-3s timeline__event--type5">
                       <div className="timeline__event__icon">
                         <img
-                          src={require("../assets/steps/check.svg").default}
+                          src={require("../assets/steps/repo.svg").default}
                           alt=""
                         />
                       </div>
@@ -162,7 +162,7 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Six</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 112 in #students channel with hashtag
+                          reach level 112 in #web-and-mobile-app-development channel with hashtag
                           <b>&nbsp;#cl-exercism-javascript-112</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
@@ -171,7 +171,7 @@ const JavaScript = () => {
                     <div className="timeline__event animated fadeInUp delay-3s timeline__event--type5">
                       <div className="timeline__event__icon">
                         <img
-                          src={require("../assets/steps/check.svg").default}
+                          src={require("../assets/steps/monitor.svg").default}
                           alt=""
                         />
                       </div>
@@ -180,7 +180,7 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Seven</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 140 in #students channel with hashtag
+                          reach level 140 in #web-and-mobile-app-development channel with hashtag
                           <b>&nbsp;#cl-exercism-javascript-140</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
