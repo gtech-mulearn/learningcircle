@@ -60,7 +60,7 @@ const Python = () => {
                 Bootcamp<span> Structure</span>
               </p>
               <p className={styles.sv_content}>
-                This Bootcamps is divided into a total of 20 days which includes
+                This Bootcamps is divided into a total of 22 days which includes
                 Python Basics, Git and Projects Based on Python.
               </p>
             </div>
