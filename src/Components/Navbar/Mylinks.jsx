@@ -152,6 +152,13 @@ export const links = [
             link: mainlink + "/artofteaching",
             foreign: false,
           },
+          {
+            name: "Bootcamps",
+            submenu: false,
+            sublinks: [],
+            link: "/bootcamps",
+            foreign: false,
+          },
         ],
       },
       {
