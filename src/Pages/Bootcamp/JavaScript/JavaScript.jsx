@@ -22,7 +22,14 @@ const JavaScript = () => {
                   JavaScript.This Boot-camp aims to minimize the learning
                   process into micro-steps to enhance your learning curve.
                 </p>
-                <button className={styles.register}>Starting Soon!</button>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.atag}
+                >
+                  <button className={styles.register}>Register Now!</button>
+                </a>
               </div>
               <div className={styles.fv_image}>
                 <img

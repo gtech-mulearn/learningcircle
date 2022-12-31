@@ -348,6 +348,13 @@ export const links = [
             sublinks: [],
             foreign: false,
           },
+          {
+            name: "JavaScript",
+            link: "/bootcamps/javascript",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
         ],
       },
       {

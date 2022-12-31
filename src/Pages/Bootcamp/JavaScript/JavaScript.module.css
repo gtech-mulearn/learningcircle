@@ -33,6 +33,13 @@
   .fv_img {
     width: 25rem;
   }
+
+  .atag {
+    display: initial;
+    vertical-align: initial;
+    white-space: initial;
+    max-width: 100%;
+  }
   
   @media only screen and (min-width: 1000px) {
     .first_view_container {
@@ -107,10 +114,10 @@
   }
   
   .register {
-    color:#F0DB4F;
+    background-color:#F0DB4F;
     padding: 0.5rem 1.5rem;
     border-radius: 5px;
-    color: white;
+    color: #404040;
     margin-top: 1rem;
   }
   
