@@ -92,7 +92,6 @@
 @media only screen and (min-width: 1000px) {
   .first_view_container {
     display: block;
-    margin: 6rem;
   }
 }
 
@@ -143,6 +142,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
+  margin-top: 2rem;
 }
 
 @media only screen and (min-width: 1000px) {
