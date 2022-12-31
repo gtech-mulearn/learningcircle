@@ -46,7 +46,7 @@
 
 .fv_heading span,
 .orange {
-  color: #4b8bbe;
+  color: #448AFF;
 }
 
 .fv_content {
@@ -59,7 +59,7 @@
 }
 
 .register {
-  background-color: #4b8bbe;
+  background-color: #448AFF;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   color: white;
@@ -67,7 +67,7 @@
 }
 
 .fv_subheading {
-  color: #4b8bbe;
+  color: #448AFF;
   font-family: "Poppins", sans-serif;
   margin-top: -1.5rem;
   font-size: 1.25rem;
@@ -82,7 +82,7 @@
 }
 
 .startingdate span {
-  color: #4b8bbe;
+  color: #448AFF;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -197,7 +197,7 @@
 }
 
 .sv_heading span {
-  color: #4b8bbe;
+  color: #448AFF;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -222,7 +222,7 @@
 .svd_name {
   font-family: "Noto Sans";
   font-size: 1.25rem;
-  color: #4b8bbe;
+  color: #448AFF;
 }
 
 .svd_topic,

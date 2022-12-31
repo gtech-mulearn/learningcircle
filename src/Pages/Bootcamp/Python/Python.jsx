@@ -17,34 +17,26 @@ const Python = () => {
               <p className={styles.fv_heading}>
                 <span> Padikkam</span>.py
               </p>
-              <p className={styles.fv_subheading}>20-Day Bootcamp</p>
               <p className={styles.fv_content}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-                voluptas sit magni sapiente odit autem? Inventore aut sint
-                voluptate veritatis deleniti, sapiente pariatur repellat quasi
-                quaerat placeat, totam reprehenderit corrupti.
+                22 days python bootcamp with complete mentor support. The event
+                is designed for entire beginers. We will also be doing some
+                projects and making it public in github.
               </p>
               <p class={styles.startingdate}>
-                Starting On <span>1st January 2023</span>
+                Starting On <span>4th January 2023</span>
               </p>
               <div class={styles.supporters}>
                 <span>Supported By </span>
                 <div className={styles.s_images}>
-                  <a
-                    href="https://www.riglabs.co/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src="/assets/bootcamp/python/pygrammers.webp"
-                      alt="Riglabs"
-                      class={styles.supporter}
-                    />
-                  </a>
+                  <img
+                    src="/assets/bootcamp/python/pygrammers.webp"
+                    alt="Pygrammers"
+                    class={styles.supporter}
+                  />
                 </div>
               </div>
               <a
-                href="https://airtable.com/shr49OGWEpaUr62az"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.atag}

@@ -256,7 +256,7 @@ function App() {
           <Route path="/bootcamps/rust" element={<Rust />} />
           <Route path="/bootcamps/flutter" element={<Flutter />} />
           <Route path="/bootcamps/javascript" element={<JavaScript />} />
-          {/* <Route path="/bootcamps/python" element={<Python />} /> */}
+          <Route path="/bootcamps/python" element={<Python />} />
           <Route
             path="/searchcircles"
             element={
