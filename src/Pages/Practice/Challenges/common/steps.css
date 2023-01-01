@@ -229,7 +229,7 @@ h2 {
 }
 
 .timeline__event--type3 .timeline__event__date {
-  color: #aff1b6;
+  color: #FFFFFF;
   background-color: #24b47e;
 }
 
@@ -291,11 +291,6 @@ h2 {
 
 .timeline__event--type5.timeline__event--type4 {
   background: #f0db4f;
-}
-
-.timeline__event--type3 .timeline__event__date {
-  color: #fced8b;
-  background-color: #f0db4f;
 }
 
 .timeline__event--type5:nth-child(2n + 1) .timeline__event__icon:before,
