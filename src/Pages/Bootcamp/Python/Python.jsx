@@ -35,14 +35,8 @@ const Python = () => {
                   />
                 </div>
               </div>
-              <a
-                href="https://airtable.com/shrefJHb9pHx6ihv5"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.atag}
-              >
-                <button className={styles.register}>Register Now!</button>
-              </a>
+
+              <button className={styles.register}>Registrations Closed</button>
             </div>
             <div className={styles.fv_image}>
               <img
@@ -67,7 +61,7 @@ const Python = () => {
             <div className={styles.sv_days_container}>
               <div className={styles.sv_days}>
                 {data.plan.map((day) => {
-                  if (day.karma == undefined) {
+                  if (day.karma === undefined) {
                     return (
                       <div className={styles.day}>
                         <p className={styles.svd_name}>Day {day.id}</p>
