@@ -76,14 +76,7 @@ const CTFPage = () => {
                   </a>
                 </div>
               </div>
-              <a
-                href="https://airtable.com/shr49OGWEpaUr62az"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.atag}
-              >
-                <button className={styles.register}>Register Now!</button>
-              </a>
+                <button className={styles.register}>Registrations Closed</button>
             </div>
             <div className={styles.fv_image}>
               <img
