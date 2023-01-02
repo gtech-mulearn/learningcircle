@@ -24,7 +24,10 @@ import Rust from "./Pages/Bootcamp/Rust/Rust";
 import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
 import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
 import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
-import Python from "./Pages/Bootcamp/Python/Python"
+import Python from "./Pages/Bootcamp/Python/Python";
+
+//Miscellaneous
+import NotFound from "./Pages/Misc/404/NotFound";
 
 //Search Section
 import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
@@ -48,7 +51,6 @@ import IntroToGithubPages from "./Pages/Practice/Challenges/IntroToGithubPages/I
 import IntroToHtml from "./Pages/Practice/Challenges/IntroToHtml/IntroToHtml";
 import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimulation/TrafficLightSimulation";
 import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn";
-
 
 function App() {
   //Home Page state Variables
@@ -136,6 +138,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
+          <Route path="*" element={<NotFound />} />
           <Route
             path="/"
             element={
@@ -206,6 +209,7 @@ function App() {
             path="/:id"
             element={<InterestGroup setInterest={setInterest} />}
           />
+
           <Route path="/mentors" element={<MentorDirectory />} />
           <Route path="/problemshelves" element={<ProblemShelves />} />
           <Route path="/opensource" element={<OpenSource />} />
