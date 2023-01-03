@@ -1602,15 +1602,48 @@ const InterestGroups = [
         name: "Daniel Elizalde",
         link: "https://twitter.com/delizalde",
       },
+      {
+        id: "3",
+        name: "John Carter",
+        link: "https://www.linkedin.com/in/jcartertcgen/",
+      },
+      {
+        id: "4",
+        name: "Charles Du",
+        link: "https://www.linkedin.com/in/thecharles/?originalSubdomain=tw",
+      },
     ],
-    "": {},
+    challenges: [{
+      id: "1",
+      name: "Estimate the number of restaurants in New York",
+    },
+    {
+      id: "2",
+      name: "You're the new product manager for Instagram and you notice a drop in user engagement by 15% over the past two weeks. What do you do?",
+    },
+    {
+      id: "3",
+      name: "There is a data point that indicates that there are more Uber drop-offs at the airport than pick-ups from the airport. Why is this the case and what would you do within the product to change that?",
+    },
+    {
+      id: "4",
+      name: "Friend requests are down by 10%. Evaluate why.",
+    },
+    {
+      id: "5",
+      name: "Youtube clone",
+    },],
+    resources: [{
+      name: "Execution questions",
+      link: "https://www.productmanagementexercises.com/interview-questions/execution",
+    },]
   },
   {
     id: "arvr",
     interestgroup: "AR/VR",
     interestgroupdescription:
       "Augmented Reality and Virtual Reality bridge the gap between the real and digital world and help you conceive digital information in the same way you do in the real world. Join the Interest Group today to delve deeper into the Digital World!",
-    officetime: "Monday 7:00pm",
+    officetime: "Sunday 08:30 PM",
     officeplace: " at Discord Lobby",
     community: ["XtrudAR"],
     comingsoon: "true",
@@ -1676,6 +1709,11 @@ const InterestGroups = [
         complexity: "",
         time: "",
         karma: "",
+      },
+      {
+        id: "4",
+        name: "Download Blender 3D",
+        link: "https://www.blender.org/",
       },
     ],
     corecourses: [
@@ -1875,14 +1913,68 @@ const InterestGroups = [
     interestgroup: "Cloud & DevOps",
     interestgroupdescription:
       "The emergence of Cloud technologies have changed the world forever.If you’re keen to know how the Cloud works and what DevOps is, here’s your chance to do so. Join the Cloud & DevOps Interest Group today and learn more.",
+    leads: [],
+    basicenablementtasks: [{
+      name: "Dockerize an application",
+    },
+    {
+      name: "Create CI/CD pipeline to test, build and deploy a software",
+    },
+    {
+      name: "Serve an application ensuring high availability with load balancers",
+    },
+    {
+      name: "Setup application log management, monitoring and alerting",
+    },],
+    learningpaths: [{
+      id: "1",
+      name: "DevOps Roadmap",
+      link: "https://roadmap.sh/devops",
+    },
+    {
+      id: "2",
+      name: "DevOps Engineer Roadmap - YouTube",
+      link: "https://www.youtube.com/watch?v=9pZ2xmsSDdo",
+    },],
+    corecourses: [{
+      id: "1",
+      name: "Philosophy: The DevOps Handbook",
+      link: "https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/",
+    },
+    {
+      id: "2",
+      name: "Foundation: DevOps YouTube Playlist",
+      link: "https://www.youtube.com/playlist?list=PLlVtbbG169nFr8RzQ4GIxUEznpNR53ERq",
+    },
+    {
+      id: "3",
+      name: "Practical DevOps YouTube Playlist",
+      link: "https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak",
+    },],
+    subcourses: [{
+      id: "1",
+      name: "AWS Developer Associate",
+      link: "https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/",
+    },
+    {
+      id: "2",
+      name: "CKA, CKAD",
+      link: "https://kubernetes.io/training/",
+    },],
+    mentors: [
+      "Vivek",
+    ],
+    mentorscard: [{
+      id: "1",
+      name: "Vivek",
+      stack: "",
+    },],
     officetime: "Friday 7:00pm",
     comingsoon: "true",
     officeplace: "",
     community: [],
     opportunities: [],
     company: [],
-    mentors: [],
-    mentorscard: [],
     pagination: [
       {
         id: "marketing",
@@ -1893,11 +1985,6 @@ const InterestGroups = [
         name: "Entrepreneurship >",
       },
     ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
   },
   {
     id: "entrepreneurship",
