@@ -4,6 +4,23 @@ const InterestGroups = [
     interestgroup: "Internet Of Things",
     interestgroupdescription:
       "Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the fan above your head, almost everything can be connected and controlled automatically. But How? Join our IoT Interest Group to learn how this can be achieved.",
+    leads: [{
+      id: "1",
+      name: "Albin Mathews",
+      college: "College of Engineering, Aranmula",
+      phone: "9961019157",
+    },
+    {
+      id: "2",
+      name: "Milan Deepak",
+      college: "MITS",
+    },
+    {
+      id: "3",
+      name: "Jovit",
+      college: "SJCET",
+      phone: "9400937046",
+    },],
     officetime: "Sunday 7:30 PM",
     officeplace: " at Discord Lobby",
     community: ["Fox Lab"],
@@ -13,6 +30,38 @@ const InterestGroups = [
       "IoT Solutions Architect",
       "Robotics Technician",
     ],
+    basicenablementtasks: [{
+      id: "1",
+      name: "What is IoT - Greatlearning",
+      link: "https://www.mygreatlearning.com/academy/learn-for-free/courses/what-is-iot",
+      time: "1 Hours",
+      complexity: "3",
+      karma: "50",
+    },
+    {
+      id: "2",
+      name: "IoT 101",
+      link: "https://mulearn.atfg.gtechindia.org/page/iot101",
+      time: "1 Hour",
+      complexity: "3",
+      karma: "50",
+    },
+    {
+      id: "3",
+      name: "Traffic light simulation ",
+      link: "https://docs.google.com/document/d/1_Z5CHJ6diesFpJJ_AwEQjqElB0U0GsIbmtt963HD1m4/edit?usp=drivesdk",
+      time: "1 Hour",
+      complexity: "4",
+      karma: "100",
+    },
+    {
+      id: "4",
+      name: "Learn IoT Basics - Simplelearn",
+      link: "https://skillsforall.com/course/introduction-iot",
+      time: "2 Hours",
+      complexity: "4",
+      karma: "200",
+    },],
     company: ["Thinkpalm"],
     mentors: [
       "Jaseel (Technical Program Manager - MakerGhat)",
@@ -83,24 +132,36 @@ const InterestGroups = [
         link: "https://www.techrepublic.com/article/how-to-become-an-iot-developer-6-tips/",
       },
     ],
-    basicenablementtasks: [],
     corecourses: [
       {
+        id: "1",
         name: "Kerala IoT Challenge Level 1 ",
-        link: "/iot/core/1",
-        complexity: "",
-        time: "",
+        link: "https://mulearn.notion.site/Kerala-IoT-Challenge-Level-1-7c5ee89f66204c5097fcf5695025f30e",
+        time: "10 Hours",
+        complexity: "7",
         karma: "400",
       },
       {
+        id: "2",
         name: "Kerala IoT Challenge Level 2",
-        link: "/iot/core/2",
-        complexity: "",
-        time: "",
-        karma: "400",
+        link: "https://mulearn.notion.site/Kerala-IoT-Challenge-Level-2-28e6d063a458472a95066d45adcbd9d9",
+        time: "12 Hours",
+        complexity: "8",
+        karma: "800",
+      },
+      {
+        id: "3",
+        name: "Introduction to IOT - Cisco Networking Acdemy",
+        link: "https://www.netacad.com/courses/iot/introduction-iot",
+        time: "20 Hours",
+        complexity: "6",
+        karma: "800",
       },
     ],
-    subcourses: [],
+    subcourses: [{
+      name: "Arduino Swayam Portal ",
+      link: "https://onlinecourses.swayam2.ac.in/aic20_sp04/preview",
+    },],
     keywords: [
       {
         id: "1",
@@ -174,6 +235,57 @@ const InterestGroups = [
         link: "https://twitter.com/gigastacey",
       },
     ],
+    challenges: [{
+      id: "1",
+      link: "https://github.com/ACANETS/iot-labs",
+    },
+    {
+      id: "2",
+      link: "https://create.arduino.cc/projecthub/projects/tags/iot",
+    },
+    {
+      id: "3",
+      name: "Write a blog on Furture of IoT",
+    },],
+    trending: [
+      {
+        id: "1",
+        name: "Get started developing IoT solutions by building a simple home automation system",
+        link: "https://developer.ibm.com/tutorials/iot-lp101-get-started-develop-iot-home-automation/"
+      },
+      {
+        id: "2",
+        name: "Mining Worker Safety Helmet",
+      },
+      {
+        id: "3",
+        name: "Smart Cradle System",
+      },
+      {
+        id: "4",
+        name: "Smart Traffic Management System",
+      },
+      {
+        id: "5",
+        name: "Air Pollution Monitoring System",
+      },
+      {
+        id: "6",
+        name: "Smart Energy Grid",
+      },
+    ],
+    resources: [
+      {
+        id: "1",
+        name: "Learn C Language",
+        link: "https://www.studytonight.com/c/"
+      },
+      {
+        id: "2",
+        name: "Learn Python",
+        link: "https://www.studytonight.com/python//"
+      },
+    ]
   },
   {
     id: "uiux",
