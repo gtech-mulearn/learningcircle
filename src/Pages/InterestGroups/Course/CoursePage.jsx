@@ -19,7 +19,7 @@ const CoursePage = ({ CourseData }) => {
         } else {
             setCourse("Sorry!");
         }
-    }, [type, id]);
+    }, [type, id, CourseData]);
 
     return (
         <>
