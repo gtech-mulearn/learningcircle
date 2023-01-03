@@ -293,8 +293,8 @@ const InterestGroups = [
     interestgroupdescription:
       "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.",
     officetime: "Wednesday 7:30 PM",
-    officeplace: " at Gathering Field",
-    community: ["GDSC MBCET"],
+    officeplace: " at Discord Lobby",
+    community: ["GDSC MBCET", "FoF Kochi"],
     opportunities: [
       "User Interface (UI) Designer",
       "User Experience (UX) Designer",
@@ -337,6 +337,11 @@ const InterestGroups = [
           "https://drive.google.com/uc?export=view&id=1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I",
       },
       {
+        id: "",
+        name: "Madhav M Nair",
+        stack: "UI UX",
+      },
+      {
         id: "S140",
         name: "Salman Faariz",
         designation: "Program Associate, GTech µLearn",
@@ -372,6 +377,11 @@ const InterestGroups = [
         complexity: "1",
         time: "10 mins",
         karma: "200",
+      },
+      {
+        id: "3",
+        name: "Create an UI for given wireframe",
+        link: "https://www.notion.so/mulearn/UI-UX-Task-3-cab50a68b1714df79f691c7d5c099b63",
       },
     ],
     corecourses: [
@@ -444,6 +454,11 @@ const InterestGroups = [
         name: "UX Design",
         link: "https://uxdesign.cc/",
       },
+      {
+        id: "2",
+        name: "The UX Collective Newsletter",
+        link: "https://newsletter.uxdesign.cc/",
+      }
     ],
     people: [
       {
@@ -461,7 +476,64 @@ const InterestGroups = [
         name: "Zander Whitehurst",
         link: "https://www.instagram.com/zanderwhitehurst/",
       },
+      {
+        id: "4",
+        name: "Yaël Levey",
+        link: "https://twitter.com/yaellevey",
+      },
     ],
+    challenges: [
+      {
+        id: "1",
+        name: "Create Hambuger animation in figma",
+      },
+      {
+        id: "2",
+        name: "Create Loding animation in figma",
+      },
+      {
+        id: "3",
+        name: "100 Daily UI Challenge (Community) – Figma",
+        link: "https://www.figma.com/file/qy2lGPLBBko6asJA0uxLAO/100-Daily-UI-Challenge-(Community)?node-id=0%3A1",
+      },
+      {
+        id: "4",
+        name: "DailyUI – A list of every DailyUI design challenge · GitHub",
+        link: "https://gist.github.com/Pustur/3b2bee790d2c8a966136d76a9157d5e4",
+      },
+    ],
+    trending: [{
+      id: "1",
+      name: "Abstract Data Visualization",
+    },
+    {
+      id: "2",
+      name: "Surreal Product Photographs",
+    },
+    {
+      id: "3",
+      name: "Realistic Textures",
+    },
+    {
+      id: "4",
+      name: "Illustrated Animations",
+    },
+    {
+      id: "5",
+      name: "Air Gesture Control",
+    },
+    {
+      id: "6",
+      name: "Voice User Interface",
+    },],
+    resources: [
+      {
+        id: "",
+        name: "Assignment by Cleartrip",
+        description: "",
+        link: "https://www.designassignments.com/assignments?recordId=recwTp10P14EIBQ2g",
+      },
+    ]
   },
   {
     id: "web",
