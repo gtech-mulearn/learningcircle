@@ -1371,9 +1371,19 @@ const InterestGroups = [
     interestgroup: "Artificial Intelligence",
     interestgroupdescription:
       "AI is the simulation of Human Intelligence processes by computer systems Worried if AI will take over the World in the near future? Join our AI Interest Group and learn more about Artificial Intelligence and the latest advancements in the domain.",
+    leads: [{ "id": 1, name: "Arjun M S", college: "Jyothi Engineering College, Thrissur" }],
+    basicenablementtasks: [
+      {
+        name: "Create a dataset",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
     officetime: "Monday 7:00pm",
     comingsoon: "true",
-    officeplace: "",
+    officeplace: "Discord Lobby",
     community: [],
     opportunities: [],
     company: [],
@@ -1389,11 +1399,36 @@ const InterestGroups = [
         name: "Blockchain >",
       },
     ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
+    learningpaths: [
+      {
+        name: "I am AI",
+        link: "https://i.am.ai/roadmap"
+      },
+    ],
+
+    corecourses: [{
+      id: "1",
+      name: "Intro to Machine Learning",
+      link: "https://www.kaggle.com/learn/intro-to-machine-learning",
+    },
+    {
+      id: "2",
+      name: "Intermediate Machine Learning",
+      link: "https://www.kaggle.com/learn/intermediate-machine-learning",
+    },
+    {
+      id: "3",
+      name: "FreeCodeCamp Machine Learning with Python",
+      link: "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+    },
+    {
+      id: "4",
+    },],
+    subcourses: [{
+      id: "1",
+      name: "Kaggle Learn",
+      link: "https://www.kaggle.com/learn",
+    },],
   },
   {
     id: "blockchain",
