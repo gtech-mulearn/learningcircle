@@ -1569,6 +1569,430 @@ const InterestGroups = [
     subcourses: [],
     "": {},
   },
+  {
+    id: 'innovation',
+    interestgroup: "Innovation",
+    interestgroupdescription: "test description",
+    basicenablementtasks: [
+      {
+        name: "Revenue Models Matching Card Game",
+        link: "https://www.teachingentrepreneurship.org/category/exercises/",
+        complexity: "",
+        time: "",
+        karma: "",
+      },],
+    corecourses: [
+      {
+        name: "StartUp India Learning Program ",
+        link: "https://www.startupindia.gov.in/content/sih/en/learning-and-development_v2.html",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+      {
+        name: "Understanding Design Thinking",
+        link: "https://nptel.ac.in/courses/109104109",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+      {
+        name: "StartUp School by Y-Combinator",
+        link: "https://www.startupschool.org/",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+      {
+        name: "Becoming a Social Entrepreneur",
+        link: "https://www.startupschool.org/",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+      {
+        name: "The Global Financial Crisis",
+        link: "https://www.startupschool.org/",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    mentors: [
+      "Deepu S Nath",
+      "Micle"
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "Deepu S Nath",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+      {
+        id: "",
+        name: "Micle",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Friday 7:00 PM",
+    officeplace: " at Discord Lobby",
+    challenges: [
+      {
+        name: "Plan a business.",
+        link: "https://venturelab.org/planner/home",
+        description: ""
+      },
+      {
+        name: "Create a pitch.",
+        link: "https://venturelab.org/pitch/home",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: ['IEDC'],
+    company: [],
+    blogs: [
+      {
+        id: "1",
+        name: "TechCrunch",
+        link: "https://techcrunch.com/tag/entrepreneurship/",
+      },
+      {
+        id: "2",
+        name: "Both Sides of the Table",
+        link: "https://bothsidesofthetable.com/?gi=d8e49a1fcdb",
+      },
+      {
+        id: "3",
+        name: "Forbes",
+        link: "https://www.forbes.com/?sh=2944b3502254",
+      },
+      {
+        id: "4",
+        name: "Inc.Magazine",
+        link: "https://www.inc.com/",
+      },
+      {
+        id: "5",
+        name: "She Owns It",
+        link: "https://sheownsit.com/",
+      },
+      {
+        id: "6",
+        name: "Noobpreneur",
+        link: "https://www.noobpreneur.com/",
+      },
+      {
+        id: "7",
+        name: "Chris Ducker",
+        link: "https://www.chrisducker.com/blog/",
+      },
+      {
+        id: "8",
+        name: "Mashable",
+        link: "https://in.mashable.com/",
+      },
+      {
+        id: "9",
+        name: "Seth Godin",
+        link: "https://seths.blog/",
+      },
+      {
+        id: "10",
+        name: "Gaping Void",
+        link: "https://www.gapingvoid.com/blog/",
+      },
+    ],
+    people: [
+      {
+        id: "1",
+        name: "Elon Musk",
+        link: "https://twitter.com/elonmusk?s=20&t=G4Tlr3s5h_uGEyP-lD2IqQ",
+      },
+      {
+        id: "2",
+        name: "Gary Vaynerchuk",
+        link: "https://twitter.com/garyvee",
+      },
+      {
+        id: "3",
+        name: "James Altucher",
+        link: "https://twitter.com/jaltucher",
+      },
+      {
+        id: "4",
+        name: "DAVE MORIN",
+        link: "https://twitter.com/davemorin",
+      },
+      {
+        id: "5",
+        name: "Biz Stone",
+        link: "https://twitter.com/biz",
+      },
+    ],
+    trending: [
+      {
+        id: "1",
+        name: "Entrepreneurs Move Into IoT",
+      },
+      {
+        id: "2",
+        name: "No-Code Web Apps Become More Mainstream",
+      },
+      {
+        id: "3",
+        name: "Email Makes A Comeback",
+      },
+      {
+        id: "4",
+        name: "Micro-Influencers Come Into The Spotlight",
+      },
+      {
+        id: "5",
+        name: "Content Becomes Omnichannel",
+      },
+      {
+        id: "6",
+        name: "Capital Flows Into Climate Tech Startups",
+      },
+      {
+        id: "7",
+        name: "Increased Demand For Super-Specialized Skills",
+      },
+      {
+        id: "8",
+        name: "Entrepreneur Communities Flourish",
+      },
+      {
+        id: "9",
+        name: "Business From Home",
+      },
+      {
+        id: "10",
+        name: "Globalized Business Powered By  Remote Work",
+      },
+    ],
+    keywords: [
+      {
+        id: "1",
+        keyword: "Design Thinking",
+      },
+      {
+        id: "2",
+        keyword: "Collaboration",
+      },
+      {
+        id: "3",
+        keyword: "Brainstorming",
+      },
+      {
+        id: "4",
+        keyword: "Business Model Canvas",
+      },
+      {
+        id: "5",
+        keyword: "End-User",
+      },
+      {
+        id: "6",
+        keyword: "Idea",
+      },
+      {
+        id: "7",
+        keyword: "Pitch",
+      },
+      {
+        id: "8",
+        keyword: "Ideation",
+      },
+      {
+        id: "9",
+        keyword: "Intellectual Property",
+      },
+      {
+        id: "10",
+        keyword: "Strategic Thinking",
+      },
+    ],
+    resources: [
+      {
+        id: "1",
+        name: "y combi",
+        description: "",
+        link: "https://www.startupschool.org/curriculum",
+      },
+    ],
+    pagination: [
+      {
+        id: "strategicleadership",
+        name: "< Strategic Leadership",
+      },
+      {
+        id: "uiux",
+        name: "Needs Change>",
+      },
+    ],
+  },
+  {
+    comingsoon: "true",
+    id: "projectmanagment",
+    interestgroup: "Project Managment",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        id: "1",
+        name: "Foundations of Project Management",
+        link: "https://www.coursera.org/learn/project-management-foundations",
+      },
+      {
+        id: "2",
+        name: "Project Initiation: Starting a Successful Project",
+        link: "https://www.coursera.org/learn/project-initiation-google",
+      },
+      {
+        id: "3",
+        name: "Project Planning: Putting It All Together",
+        link: "https://www.coursera.org/learn/project-planning-google",
+      },
+      {
+        id: "4",
+        name: "Project Execution: Running the Project",
+        link: "https://www.coursera.org/learn/project-execution-google",
+      },
+      {
+        id: "5",
+        name: "Agile Project Management",
+        link: "https://www.coursera.org/learn/agile-project-management",
+      },
+      {
+        id: "6",
+        name: "Capstone: Applying Project Management in the Real World",
+        link: "https://www.coursera.org/learn/applying-project-management",
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "",
+        link: ""
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "1",
+        name: "Farish C V",
+        designation: "Google",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "day time",
+    officeplace: "Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "1",
+        name: "Rebel’s Guide To PM",
+        link: "https://rebelsguidetopm.com/category/productive/",
+      },
+      {
+        id: "2",
+        name: "Project management.com",
+        link: "https://www.projectmanagement.com/blogs/",
+      },
+      {
+        id: "3",
+        name: "Work Life by Atlassian",
+        link: "https://www.atlassian.com/blog",
+      },
+    ],
+    people: [
+      {
+        id: "1",
+        name: "Jeff Sutherland",
+        link: "https://twitter.com/jeffsutherland",
+      },
+      {
+        id: "2",
+        name: "David Allen",
+        link: "https://twitter.com/gtdguy",
+      },
+      {
+        id: "3",
+        name: "Martin Fowler",
+        link: "https://twitter.com/martinfowler",
+      },
+      {
+        id: "4",
+        name: "Rebels Guide to PM",
+        link: "https://twitter.com/rebelsguidetopm",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
 ];
 
 export default InterestGroups;
