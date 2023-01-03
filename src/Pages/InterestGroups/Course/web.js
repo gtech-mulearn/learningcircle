@@ -23,7 +23,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord Server with hashtag #cl-web-javascript to avail karma points.",
         example:
-          "Example Message : Hey! I’ve completed JavaScript Algorithm and Data Structures Certification. Here’s is my course certificate. #cl-web-javascript",
+          "Hey! I’ve completed JavaScript Algorithm and Data Structures Certification. Here’s is my course certificate. #cl-web-javascript",
       },
       {
         id: "3",

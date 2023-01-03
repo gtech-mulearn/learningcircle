@@ -92,7 +92,7 @@ const CoursePage = ({ CourseData }) => {
                                 <div className={styles.sample_container}>
                                     <p className={styles.sample_header}>Example Message</p>
                                     <p className={styles.sample_message}>
-                                        {course.assignment &&
+                                        {
                                             (course.example || course.assignment[0].example)}
                                     </p>
                                 </div>
