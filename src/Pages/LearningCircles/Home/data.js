@@ -468,6 +468,25 @@ const InterestGroups = [
     interestgroup: "Web Development",
     interestgroupdescription:
       "Ever wondered how web applications are built? Everything seems Greek until you get to know how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
+    leads: [
+      {
+        id: "1",
+        name: "Sreelakshmi S",
+        college: "Carmel College of Engineering & Technology",
+      },
+      {
+        id: "2",
+        name: "Nithin ",
+        college: "College of Engineering Aranmula",
+        phone: "8078945336",
+      },
+      {
+        id: "3",
+        name: "Neeraj",
+        college: "SCMS College of Technology & Management",
+        phone: "8943243637",
+      },
+    ],
     officetime: "Saturday 7:30 PM",
     officeplace: " at Discord Lobby",
     community: ["Pygrammers"],
@@ -481,6 +500,16 @@ const InterestGroups = [
     challenges: [
       {
         link: "/challenge/web",
+      },
+      {
+        id: "3",
+        name: "The challenge is to build out a product preview card component ",
+        link: "https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa",
+      },
+      {
+        id: "4",
+        name: "The challenge is to build out a preview card component",
+        link: "https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U",
       },
     ],
     company: ["Travancore Analytics", "PITS"],
@@ -655,6 +684,32 @@ const InterestGroups = [
         karma: "200",
       },
     ],
+    trending: [{
+      id: "1",
+      name: "Progressive Web Apps (PWA)",
+    },
+    {
+      id: "2",
+      name: "Single Page Application (SPA)",
+    },
+    {
+      id: "3",
+      name: "Voice Search Optimization.",
+    },
+    {
+      id: "4",
+      name: "Motion UI.",
+    },
+    {
+      id: "5",
+      name: "Automation Testing",
+    },],
+    resources: [{
+      id: "1",
+      description: "Everything you need to know before getting started as a developer",
+      link: "https://careerfoundry.com/en/blog/web-development/what-does-it-take-to-become-a-web-developer-everything-you-need-to-know-before-getting-started/",
+    },],
+
   },
   {
     id: "android",
