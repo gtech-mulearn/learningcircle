@@ -85,6 +85,31 @@ const PostCircleCreation = () => {
               </div>
             </div>
           </div>
+          <div className={styles.steps_view}>
+            <div className={styles.v_image}>
+              <img
+                src="/assets/postcirclecreation/communcation.gif"
+                alt=""
+                className={styles.v2_img}
+              />
+            </div>
+
+            <div className={styles.ssv_texts}>
+              <p className={styles.ssv_heading}>
+                Step 2: Join <span>Whatsapp Group</span>
+              </p>
+              <p className={styles.ssv_content}>
+                To stay connected and receive updates, we encourage you to join
+                our WhatsApp group. Simply click on the link provided below to
+                be added to the group.
+                <br />
+                <br />
+                We look forward to seeing you in the group and engaging in
+                meaningful discussions and learning opportunities.
+              </p>
+              <button className={styles.button}>Join Whatsapp Group</button>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
