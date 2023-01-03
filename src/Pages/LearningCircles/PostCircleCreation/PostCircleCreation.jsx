@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useParams, Link } from "react-router-dom";
 import styles from "./PostCircleCreatio.module.css";
 
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
 
-const PostCircleCreation = () => {
+import confetti from "canvas-confetti";
+import axios from "axios";
+
+const PostCircleCreation = ({ create, wlink, join }) => {
+  const { id } = useParams();
+  const [circledata, setCircleData] = useState();
+  useEffect(() => {
+    axios
+      .get(
+        `${process.env.REACT_APP_BACKEND_URL}/team/${
+          join.code || create.code || id
+        }`
+      )
+      .then(function (response) {
+        confetti();
+        setCircleData(response.data.data);
+      })
+      .catch(function (error) {});
+  }, [id]);
+
   return (
     <>
       <Navbar />
@@ -23,7 +43,9 @@ const PostCircleCreation = () => {
                 for your learning sessions, and share resources and knowledge
                 with other members.
               </p>
-              <button className={styles.button}>Join Whatsapp Group</button>
+              <a href={wlink} target="_blank" rel="noopener noreferrer">
+                <button className={styles.button}>Join Whatsapp Group</button>
+              </a>
             </div>
             <div className={styles.v_image}>
               <img
@@ -46,45 +68,60 @@ const PostCircleCreation = () => {
               </p>
             </div>
           </div>
-          <div className={styles.steps_view}>
-            <div className={styles.ssv_texts}>
-              <p className={styles.ssv_heading}>
-                Step 1: <span>Invite</span> Your Peers
-              </p>
-              <p className={styles.ssv_content}>
-                learning circles can be a great way to learn and grow with
-                others, and can help you stay motivated and accountable as you
-                work towards your learning goals. So, the first thing you need
-                to do is invite your friends to join your group.
-                <br />
-                <br />
-                You can share you circle details along with your secret key to
-                invite your friends.If you have any questions or need help
-                getting started, don't hesitate to reach out to us.
-              </p>
-            </div>
+          {circledata && (
+            <div className={styles.steps_view}>
+              <div className={styles.ssv_texts}>
+                <p className={styles.ssv_heading}>
+                  <span>Invite</span> Your Peers
+                </p>
+                <p className={styles.ssv_content}>
+                  learning circles can be a great way to learn and grow with
+                  others, and can help you stay motivated and accountable as you
+                  work towards your learning goals. So, the first thing you need
+                  to do is invite your friends to join your group.
+                  <br />
+                  <br />
+                  You can share you circle details along with your secret key to
+                  invite your friends.If you have any questions or need help
+                  getting started, don't hesitate to reach out to us.
+                </p>
+              </div>
 
-            <div>
-              <div className={styles.circle_details}>
-                <p className={styles.circle_name}>
-                  <span>Circle Name:</span> Learning Cirlce
-                </p>
-                <p className={styles.circle_interest}>
-                  <span>Interest Group:</span> Web Development
-                </p>
-                <p className={styles.circle_team_pass}>
-                  <span>Team Passcode: </span> 78945296
-                </p>
-                <p className={styles.circle_lead}>
-                  <span>Team Lead:</span> Aswin Asok
-                </p>
-                <p className={styles.circle_college}>
-                  <span>College Name:</span> Marian Engineering College
-                </p>
-                <button className={styles.button}>Copy Team Link</button>
+              <div>
+                <div className={styles.circle_details}>
+                  <p className={styles.circle_name}>
+                    <span>Circle Name:</span> {id}
+                  </p>
+                  <p className={styles.circle_interest}>
+                    <span>Interest Group: </span>
+                    {circledata.interest}
+                  </p>
+                  {create && create.passcode && (
+                    <p className={styles.circle_team_pass}>
+                      <span>Team Passcode: </span> {create.passcode}
+                    </p>
+                  )}
+                  <p className={styles.circle_lead}>
+                    <span>Team Lead:</span> {circledata.members[0]}
+                  </p>
+                  <p className={styles.circle_college}>
+                    <span>College Name:</span> {circledata.college.name}
+                  </p>
+                  {circledata.meet_place !== "No Data" && (
+                    <p className={styles.circle_college}>
+                      <span>Meet Place</span> {circledata.meet_place}
+                    </p>
+                  )}
+                  {circledata.meet_time !== "No Data" && (
+                    <p className={styles.circle_college}>
+                      <span>Meet Time:</span> {circledata.meet_time}
+                    </p>
+                  )}
+                  <button className={styles.button}>Copy Team Link</button>
+                </div>
               </div>
             </div>
-          </div>
+          )}
           <div className={styles.steps_view}>
             <div className={styles.v_image}>
               <img
@@ -96,7 +133,7 @@ const PostCircleCreation = () => {
 
             <div className={styles.ssv_texts}>
               <p className={styles.ssv_heading}>
-                Step 2: Join <span>Whatsapp Group</span>
+                Join <span>Whatsapp Group</span>
               </p>
               <p className={styles.ssv_content}>
                 To stay connected and receive updates, we encourage you to join
@@ -107,13 +144,15 @@ const PostCircleCreation = () => {
                 We look forward to seeing you in the group and engaging in
                 meaningful discussions and learning opportunities.
               </p>
-              <button className={styles.button}>Join Whatsapp Group</button>
+              <a href={wlink} target="_blank" rel="noopener noreferrer">
+                <button className={styles.button}>Join Whatsapp Group</button>
+              </a>
             </div>
           </div>
           <div className={styles.steps_view}>
             <div className={styles.ssv_texts}>
               <p className={styles.ssv_heading}>
-                Step 3: Start <span>Learning</span>
+                Start <span>Learning</span>
               </p>
               <p className={styles.ssv_content}>
                 Check out the free learning resources for your interest group
@@ -126,7 +165,11 @@ const PostCircleCreation = () => {
                 Join in on the regularly scheduled office hours at the mulearn
                 discord server if you have any questions or need mentor help.
               </p>
-              <button className={styles.button}>Checkout Resources</button>
+              {circledata && (
+                <Link to={`/${circledata.interest}`}>
+                  <button className={styles.button}>Checkout Resources</button>
+                </Link>
+              )}
             </div>
 
             <div className={styles.v_image}>

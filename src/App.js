@@ -50,7 +50,6 @@ import IntroToHtml from "./Pages/Practice/Challenges/IntroToHtml/IntroToHtml";
 import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimulation/TrafficLightSimulation";
 import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn";
 
-
 function App() {
   //Home Page state Variables
   const [districts, setDistricts] = useState("");
@@ -69,6 +68,7 @@ function App() {
   const [backenderr, setBackenderr] = useState(false);
 
   //Create Page State Variables
+  const [wlink, setWLink] = useState();
   const [create, setCreate] = useState({
     code: "",
     lead: {
@@ -171,6 +171,7 @@ function App() {
                 colleges={colleges}
                 create={create}
                 setCreate={setCreate}
+                setWLink={setWLink}
               />
             }
           />
@@ -185,6 +186,7 @@ function App() {
                 setJoin={setJoin}
                 college={college}
                 setCollege={setCollege}
+                setWLink={setWLink}
               />
             }
           />
@@ -199,11 +201,24 @@ function App() {
                 setJoin={setJoin}
                 college={college}
                 setCollege={setCollege}
+                setWLink={setWLink}
               />
             }
           />
 
-          <Route path="/created" element={<PostCircleCreation />} />
+          <Route
+            path="/created"
+            element={
+              <PostCircleCreation create={create} wlink={wlink} join={join} />
+            }
+          />
+
+          <Route
+            path="/created/:id"
+            element={
+              <PostCircleCreation create={create} wlink={wlink} join={join} />
+            }
+          />
 
           <Route
             path="/:id"
