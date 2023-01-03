@@ -1047,8 +1047,8 @@ const InterestGroups = [
       "Penetration Tester",
       "Cybersecurity Engineer",
     ],
-    company: [],
-    mentors: ["Rejah Rehim", "Anees"],
+    company: ["Beagle Security"],
+    mentors: ["Rejah Rehim", "Anees", "Nash N Sulthan", " Manindar"],
     mentorscard: [
       {
         id: "S146",
@@ -1077,6 +1077,14 @@ const InterestGroups = [
         image:
           "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
       },
+      {
+        id: '',
+        name: 'Manindar ',
+        designation: 'Beagle Security',
+        linkedin: '',
+        stack: 'Cybersecurity',
+        image: ''
+      }
     ],
     pagination: [
       {
@@ -1088,8 +1096,33 @@ const InterestGroups = [
         name: "Product Management >",
       },
     ],
-    learningpaths: [],
+    learningpaths: [{
+      id: "1",
+      name: "Learning Path",
+      link: "https://www.youtube.com/watch?v=yq561bLg10A&t=195s",
+    },
+    {
+      id: "2",
+      name: "Topics to Get Started",
+      link: "https://www.youtube.com/watch?v=Kx4y9c7w2JQ",
+    },
+    ],
     basicenablementtasks: [
+      {
+        id: "1",
+        name: "Introduction to Cyber Security",
+        link: "https://www.cybrary.it/course/introduction-to-it-and-cybersecurity/",
+      },
+      {
+        id: "2",
+        name: "Introduction to Operating System",
+        link: "https://www.sans.org/cyberaces/introduction-to-operating-systems/",
+      },
+      {
+        id: "3",
+        name: "Introduction to networking",
+        link: "https://www.sans.org/cyberaces/networking/",
+      },
       {
         name: "Command Line",
         link: "https://www.youtube.com/watch?v=YHFzr-akOas",
@@ -1120,6 +1153,16 @@ const InterestGroups = [
         time: "",
         karma: "200",
       },
+      {
+        id: "1",
+        name: "Web Pentesting",
+        link: "https://www.youtube.com/watch?v=X4eRbHgRawI&t=22s",
+      },
+      {
+        id: "2",
+        name: "Spring Board Course",
+        link: "https://www.springboard.com/resources/learning-paths/cybersecurity-foundations/",
+      },
       // {
       //   name: "CISM-Certified Information Security Manager",
       //   link: "https://www.isaca.org/credentialing/cism?utm_source=google&utm_medium=cpc&utm_campaign=CertBAU&utm_content=sem_CertBAU_certification-cism-india-product-google&cid=sem_2006846&Appeal=sem&gclid=CjwKCAjw4JWZBhApEiwAtJUN0Mf5afTjnkDIauLbz5j_Dit01l4h1yfQgQ7tXi0CrEPsSiMy2HZUGRoCN9QQAvD_BwE",
@@ -1143,7 +1186,33 @@ const InterestGroups = [
       //   karma: "400",
       // },
     ],
-    subcourses: [
+    subcourses: [{
+      id: "1",
+      name: "Internal/External Infrastructure Penetration Testing.",
+      link: "https://www.youtube.com/watch?v=8a1yTN2kFNw",
+    },
+    {
+      id: "2",
+      name: "Wireless Penetration Testing.",
+      link: "https://www.youtube.com/watch?v=UiCx2K1vSI8&list=PLrrgFyE6PtlbhCflEC4QQKt6ZlQBVHq4z",
+    },
+    {
+      id: "3",
+      name: "Web Application Testing.",
+      link: "https://www.youtube.com/watch?v=X4eRbHgRawI",
+    },
+    {
+      id: "4",
+      name: "Mobile Application Testing.",
+    },
+    {
+      id: "5",
+      name: "Build and Configuration Review.",
+    },
+    {
+      id: "6",
+      name: "Social Engineering.",
+    },
       // {
       //   name: "SQL Injection",
       //   link: "",
@@ -1250,6 +1319,121 @@ const InterestGroups = [
         keyword: "VMWare",
       },
     ],
+    challenges: [
+      {
+        id: "1",
+        name: "Real-Life Case Studies",
+      },
+      {
+        id: "2",
+        name: "Phishing Attacks",
+      },
+      {
+        id: "3",
+        name: "Software Vulnerabilities",
+      },
+      {
+        id: "4",
+        name: "Cryptography Attacks",
+      },
+      {
+        id: "5",
+        name: "IoT Attacks",
+      },
+      {
+        id: "6",
+        name: "System Hacking",
+      },
+    ],
+    leads: [{
+      id: "1",
+      name: "Aaron",
+      college: "MBCET",
+    },],
+    trending: [{
+      name: "Anomaly detection, intrusion and its prevention",
+    },
+    {
+      name: "Stalking threats and instance responding",
+    },
+    {
+      name: "Detecting or mitigating compromising indicators",
+    },
+    {
+      name: "Intelligence analyzing factors of ethical, privacy and  legal",
+    },
+    {
+      name: "Research on relevant Geopolitical Cyber security",
+    },
+    {
+      name: "Cyber security data analytics",
+    },
+    {
+      name: "Data demonstration, fusion and semantic modeling",
+    },
+    {
+      name: "Forecasting models on cyber-attacks and control measures",
+    },
+    {
+      name: "Intelligence in cyber threat",
+    },
+    {
+      name: "Models that concern Deception and Improbability in cyber-attack acknowledgement",
+    },
+    {
+      name: "Visualizing intelligence analysis and investigation techniques",
+    },
+    {
+      name: "Cybercrime monetization and orchestration and automating security",
+    },],
+    specialization: [{
+      id: "1",
+      name: "Application security",
+    },
+    {
+      id: "2",
+      name: "Cryptography & key management",
+    },
+    {
+      id: "3",
+      name: "Cyber law & contracts",
+    },
+    {
+      id: "4",
+      name: "Forensics",
+    },
+    {
+      id: "5",
+      name: "Network security (firewalls etc.)",
+    },
+    {
+      id: "6",
+      name: "Penetration testing & red teaming",
+    },
+    {
+      id: "7",
+      name: "Policy management & governance",
+    },
+    {
+      id: "8",
+      name: "Risk assessment & governance",
+    },
+    {
+      id: "9",
+      name: "Security architecure",
+    },
+    {
+      id: "10",
+      name: "Security education & awareness",
+    },
+    {
+      id: "11",
+      name: "Security operations",
+    },
+    {
+      id: "12",
+      name: "Security systems engineering",
+    },]
   },
   {
     id: "pm",
