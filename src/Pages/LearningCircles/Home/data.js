@@ -989,6 +989,48 @@ const InterestGroups = [
         link: "https://twitter.com/romainguy",
       },
     ],
+    challenges: [{
+      id: "1",
+      name: "build a todo app",
+      link: "null",
+    },
+    {
+      id: "2",
+      name: "Kotlin Quiz",
+      link: "https://kotlinquiz.com/",
+    },
+    {
+      id: "3",
+      name: "First App in Kotlin",
+      link: "https://www.raywenderlich.com/30498263-your-first-kotlin-android-app-an-app-from-scratch",
+    },
+    {
+      id: "4",
+      name: "build a simple app that will serve up some fun facts when you tap on a button.",
+      link: "https://teamtreehouse.com/library/build-a-simple-android-app-with-kotlin",
+    },],
+    leads: [
+      {
+        id: "1",
+        name: "Mariya Merlin ",
+        college: "Kristujyoti College of Management and Technology, Changannacherry",
+      },
+      {
+        id: "2",
+        name: "Ben George",
+        college: "Mar Baselios College of Engineering and Technology, Trivandrum",
+      },
+    ],
+    resources: [{
+      id: "1",
+      link: "https://www.youtube.com/watch?v=x0uinJvhNxI",
+      name: "Flutter",
+    },
+    {
+      id: "2",
+      link: "https://youtu.be/3xyDEw3iVo4",
+      name: "Flutter",
+    },]
   },
   {
     id: "cybersec",
