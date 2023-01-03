@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import learningcircles from "./assets/learningcircles.jpg";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
@@ -118,13 +118,13 @@ const Join = ({
         )
         .then((response) => {
           if (response.data.status === "success") {
-            setJoin({
-              code: "",
-              name: "",
-              email: "",
-              college: "",
-              phone: "",
-            });
+            // setJoin({
+            //   code: "",
+            //   name: "",
+            //   email: "",
+            //   college: "",
+            //   phone: "",
+            // });
             setErrors("");
             setCompleted(true);
             setWLink(response.data.wa_url);
@@ -152,10 +152,13 @@ const Join = ({
   return (
     <>
       {completed && (
-        <CustomizedSnackbars
-          severity="success"
-          message="Circle Joined Successfully"
-        />
+        <>
+          <CustomizedSnackbars
+            severity="success"
+            message="Circle Joined Successfully"
+          />
+          <Navigate to={`/gettingstarted/${join.code}`} replace={true} />;
+        </>
       )}
 
       {valid && (

@@ -33,7 +33,8 @@ const PostCircleCreation = ({ create, wlink, join }) => {
           <div className={styles.view}>
             <div className={styles.v_texts}>
               <p className={styles.v_heading}>
-                <span>Learning Circle</span> Created
+                <span>Congratulation </span>
+                {id}
               </p>
               <p className={styles.v_content}>
                 Congratulations! Your learning circle has been successfully
@@ -63,7 +64,7 @@ const PostCircleCreation = ({ create, wlink, join }) => {
                 Getting <span>Started</span>
               </p>
               <p className={styles.sv_content}>
-                Since you've made your learning circle, follow the steps below
+                Since you've made Joined learning circle, follow the steps below
                 to find out what you need to do next.
               </p>
             </div>
@@ -117,7 +118,17 @@ const PostCircleCreation = ({ create, wlink, join }) => {
                       <span>Meet Time:</span> {circledata.meet_time}
                     </p>
                   )}
-                  <button className={styles.button}>Copy Team Link</button>
+
+                  <button
+                    onClick={() =>
+                      navigator.clipboard.writeText(
+                        `https://learn.mulearn.org/join/${id}`
+                      )
+                    }
+                    className={styles.button}
+                  >
+                    Copy Invite Link
+                  </button>
                 </div>
               </div>
             </div>

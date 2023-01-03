@@ -207,14 +207,7 @@ function App() {
           />
 
           <Route
-            path="/created"
-            element={
-              <PostCircleCreation create={create} wlink={wlink} join={join} />
-            }
-          />
-
-          <Route
-            path="/created/:id"
+            path="/gettingstarted/:id"
             element={
               <PostCircleCreation create={create} wlink={wlink} join={join} />
             }

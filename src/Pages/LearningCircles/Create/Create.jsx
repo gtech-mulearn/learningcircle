@@ -173,7 +173,7 @@ const Create = ({
             severity="success"
             message="Circle Created Successfully"
           />
-          <Navigate to={`/created/${create.code}`} replace={true} />;
+          <Navigate to={`/gettingstarted/${create.code}`} replace={true} />;
         </>
       )}
 

@@ -49,7 +49,7 @@
   font-family: "Noto Sans";
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .view_container {
     margin: 0 6rem;
     margin-top: 2rem;
@@ -85,7 +85,6 @@
   }
 
   .v_img {
-    height: 35rem;
     width: auto;
   }
 
@@ -118,7 +117,7 @@
   font-family: "Poppins";
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .second_view_container {
     margin: 0 6rem;
     margin-top: 2rem;
@@ -199,7 +198,7 @@
   margin: 0.5rem 0;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .circle_details {
     font-size: 1rem;
   }
