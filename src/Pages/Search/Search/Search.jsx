@@ -308,7 +308,7 @@ const Search = ({
                           <p className={styles.circle_member}>
                             Members: {team.count}
                           </p>
-                          {team.meet_place != "No Data" && (
+                          {team.meet_place !== "No Data" && (
                             <>
                               <p className={styles.circle_member}>
                                 Meet Place: {team.meet_place}

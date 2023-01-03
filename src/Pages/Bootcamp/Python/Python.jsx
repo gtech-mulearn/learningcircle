@@ -67,7 +67,7 @@ const Python = () => {
             <div className={styles.sv_days_container}>
               <div className={styles.sv_days}>
                 {data.plan.map((day) => {
-                  if (day.karma == undefined) {
+                  if (day.karma === undefined) {
                     return (
                       <div className={styles.day}>
                         <p className={styles.svd_name}>Day {day.id}</p>
