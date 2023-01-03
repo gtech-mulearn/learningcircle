@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Navigate } from "react-router-dom";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
 import learningcircles from "./assets/learningcircles.jpg";
@@ -33,6 +34,7 @@ const Create = ({
   districts,
   district,
   setDistrict,
+  setWLink,
 }) => {
   const recaptchaRef = React.createRef();
   const [errors, setErrors] = useState();
@@ -49,7 +51,7 @@ const Create = ({
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const [wlink, setWLink] = useState();
+  // const [wlink, setWLink] = useState();
 
   const style = {
     position: "absolute",
@@ -117,19 +119,19 @@ const Create = ({
         .then((response) => {
           console.log(response);
           if (response.data.status === "success") {
-            setCreate({
-              code: "",
-              lead: {
-                name: "",
-                email: "",
-              },
-              passcode: "",
-              college: college,
-              phone: "",
-              interest: interest,
-              meet_place: "",
-              meet_time: "",
-            });
+            // setCreate({
+            //   code: "",
+            //   lead: {
+            //     name: "",
+            //     email: "",
+            //   },
+            //   passcode: "",
+            //   college: college,
+            //   phone: "",
+            //   interest: interest,
+            //   meet_place: "",
+            //   meet_time: "",
+            // });
             setErrors("");
             setCompleted(true);
             setWLink(response.data.wa_url);
@@ -166,17 +168,20 @@ const Create = ({
   return (
     <>
       {completed && (
-        <CustomizedSnackbars
-          severity="success"
-          message="Circle Created Successfully"
-        />
+        <>
+          <CustomizedSnackbars
+            severity="success"
+            message="Circle Created Successfully"
+          />
+          <Navigate to={`/gettingstarted/${create.code}`} replace={true} />;
+        </>
       )}
 
       {snackerror && (
         <CustomizedSnackbars severity="error" message={snackerror} />
       )}
 
-      {completed && wlink && (
+      {/* {completed && wlink && (
         <div>
           <Modal
             open={open}
@@ -211,14 +216,17 @@ const Create = ({
             </Box>
           </Modal>
         </div>
-      )}
+      )} */}
 
       <Navbar />
       <img src={learningcircles} alt="" className={styles.mimage} />
       <div className={styles.fsview}>
         <p className={styles.fsheading}>Create Learning Circles</p>
         <p className={styles.fstagline}>
-        Learning Circles are a fantastic way to learn a new skill or technology. You get to learn from the different perspectives of the learners in the circle. So what are you waiting for? Click and create a circle now.
+          Learning Circles are a fantastic way to learn a new skill or
+          technology. You get to learn from the different perspectives of the
+          learners in the circle. So what are you waiting for? Click and create
+          a circle now.
         </p>
       </div>
       <div className={styles.form}>

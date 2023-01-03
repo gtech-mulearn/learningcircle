@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import learningcircles from "./assets/learningcircles.jpg";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
@@ -17,7 +17,15 @@ import CheckIcon from "@mui/icons-material/Check";
 import { red } from "@mui/material/colors";
 import confetti from "canvas-confetti";
 
-const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
+const Join = ({
+  code,
+  setCode,
+  join,
+  setJoin,
+  college,
+  setCollege,
+  setWLink,
+}) => {
   const style = {
     position: "absolute",
     top: "50%",
@@ -45,7 +53,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const [wlink, setWLink] = useState();
+
   const changeHandler = (event) => {
     setJoin((prevState) => ({
       ...prevState,
@@ -110,13 +118,13 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
         )
         .then((response) => {
           if (response.data.status === "success") {
-            setJoin({
-              code: "",
-              name: "",
-              email: "",
-              college: "",
-              phone: "",
-            });
+            // setJoin({
+            //   code: "",
+            //   name: "",
+            //   email: "",
+            //   college: "",
+            //   phone: "",
+            // });
             setErrors("");
             setCompleted(true);
             setWLink(response.data.wa_url);
@@ -144,10 +152,13 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
   return (
     <>
       {completed && (
-        <CustomizedSnackbars
-          severity="success"
-          message="Circle Joined Successfully"
-        />
+        <>
+          <CustomizedSnackbars
+            severity="success"
+            message="Circle Joined Successfully"
+          />
+          <Navigate to={`/gettingstarted/${join.code}`} replace={true} />;
+        </>
       )}
 
       {valid && (
@@ -161,7 +172,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
         <CustomizedSnackbars severity="error" message={snackerror} />
       )}
 
-      {completed && wlink && (
+      {/* {completed && wlink && (
         <div>
           <Modal
             open={open}
@@ -195,14 +206,17 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
             </Box>
           </Modal>
         </div>
-      )}
+      )} */}
 
       <Navbar />
       <img src={learningcircles} alt="" className={styles.mimage} />
       <div className={styles.fsview}>
         <p className={styles.fsheading}>Join Learning Circles</p>
         <p className={styles.fstagline}>
-        In order to join a learning circle, you need to enter the circle code as well as a secret key. Both of these credentials can be retrieved from your circle lead. If you already have them fill them out, and you are good to go!
+          In order to join a learning circle, you need to enter the circle code
+          as well as a secret key. Both of these credentials can be retrieved
+          from your circle lead. If you already have them fill them out, and you
+          are good to go!
         </p>
       </div>
 

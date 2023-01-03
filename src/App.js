@@ -6,6 +6,7 @@ import axios from "axios";
 import Home from "./Pages/LearningCircles/Home/Home";
 import Create from "./Pages/LearningCircles/Create/Create";
 import Join from "./Pages/LearningCircles/Join/Join.jsx";
+import PostCircleCreation from "./Pages/LearningCircles/PostCircleCreation/PostCircleCreation";
 
 //InterestGroups
 import InterestGroup from "./Pages/InterestGroups/InterestGroup";
@@ -27,7 +28,7 @@ import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
 import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
 import Python from "./Pages/Bootcamp/Python/Python";
 
-//Miscellaneous
+//Misc
 import NotFound from "./Pages/Misc/404/NotFound";
 
 //Search Section
@@ -71,6 +72,7 @@ function App() {
   const [backenderr, setBackenderr] = useState(false);
 
   //Create Page State Variables
+  const [wlink, setWLink] = useState();
   const [create, setCreate] = useState({
     code: "",
     lead: {
@@ -174,6 +176,7 @@ function App() {
                 colleges={colleges}
                 create={create}
                 setCreate={setCreate}
+                setWLink={setWLink}
               />
             }
           />
@@ -188,6 +191,7 @@ function App() {
                 setJoin={setJoin}
                 college={college}
                 setCollege={setCollege}
+                setWLink={setWLink}
               />
             }
           />
@@ -202,7 +206,15 @@ function App() {
                 setJoin={setJoin}
                 college={college}
                 setCollege={setCollege}
+                setWLink={setWLink}
               />
+            }
+          />
+
+          <Route
+            path="/gettingstarted/:id"
+            element={
+              <PostCircleCreation create={create} wlink={wlink} join={join} />
             }
           />
 
