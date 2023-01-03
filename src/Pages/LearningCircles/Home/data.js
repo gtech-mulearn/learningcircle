@@ -2741,6 +2741,351 @@ const InterestGroups = [
       },
     ]
   },
+  {
+    commingsoon: true,
+    id: "cdpsd",
+    interestgroup: "Creative Design : Photoshop",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - Photoshop",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+      {
+        name: "Create a design as per requirements",
+        link: "https://mulearn.notion.site/Photoshop-Task-1-28ae5a2c4d154dd08a90238a28370e53",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Class Central",
+        link: "https://www.classcentral.com/subject/adobe-photoshop"
+      },
+      {
+        id: "",
+        name: "Adobe",
+        link: "https://helpx.adobe.com/in/photoshop/tutorials.html"
+      },
+      {
+        id: "",
+        name: "Udemy",
+        link: "https://www.udemy.com/topic/photoshop/free/"
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Thursday 8.30 PM",
+    officeplace: "Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "3dp",
+    interestgroup: "3D-Printing",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - 3D Printing",
+        link: " https://mulearn.atfg.gtechindia.org/page/3dprinting101 ",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "",
+        link: ""
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "3D Clay Printing",
+      link: "https://www.udemy.com/course/introduction-to-3d-clay-printing/",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "day time",
+    officeplace: "eg: Discord Lobby",
+    challenges: [
+      {
+        name: "3D Printing In Windows",
+        link: "https://alison.com/course/3d-printing-with-windows-10?utm_source=alison_user&utm_medium=affiliates&utm_campaign=26639001",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "cdai",
+    interestgroup: "Creative Design : Illustrator",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - ",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+      {
+        name: "Create a design as per instructions",
+        link: "https://mulearn.notion.site/Illustrator-2b5df3d2593e4ea6bbec05bf9eab2d2b",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Adobe Tutorials",
+        link: "https://helpx.adobe.com/in/illustrator/view-all-tutorials.html"
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Saturday 8.30 PM",
+    officeplace: "eg: Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  }
 ];
 
 export default InterestGroups;
