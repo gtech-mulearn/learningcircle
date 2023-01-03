@@ -2613,7 +2613,134 @@ const InterestGroups = [
         name: "",
       },
     ]
-  }
+  },
+  {
+    commingsoon: true,
+    id: "pcbd",
+    interestgroup: "PCB Desigining",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - PCB Designing",
+        link: " https://mulearn.atfg.gtechindia.org/page/pcbdesign101 ",
+        complexity: "",
+        time: "6 hour",
+        karma: "800"
+      },
+      {
+        id: "2",
+        name: "Design a Board Layout for a PCB",
+        link: "https://www.notion.so/PCB-Designing-163783ca830a49eeb044139532a307f6",
+      },
+      {
+        id: "3",
+        name: "Design a simple LED circuit and PCB",
+        link: "https://www.notion.so/PCB-Designing-163783ca830a49eeb044139532a307f6",
+      },
+      {
+        id: "4",
+        name: "Design a PCB Enclosure",
+        link: "https://www.notion.so/PCB-Designing-163783ca830a49eeb044139532a307f6",
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "",
+        link: ""
+      },
+    ],
+    corecourses: [
+      // {
+      //   name: "",
+      //   link: "",
+      //   complexity: "",
+      //   time: "",
+      //   karma: "",
+      // },
+      {
+        id: "1",
+        name: "PCB Design with Eagle",
+        link: "https://www.udemy.com/course/pcb-design-eagle/",
+      },
+    ],
+    // subcourses: [{
+    //   name: "",
+    //   link: "",
+    //   complexity: "",
+    //   time: "",
+    //   karma: "",
+    // },
+    // ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Wedensday 8.30 PM",
+    officeplace: " Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
 ];
 
 export default InterestGroups;
