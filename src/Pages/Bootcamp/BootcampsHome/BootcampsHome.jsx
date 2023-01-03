@@ -23,9 +23,6 @@ const BootcampsHome = () => {
                 below links and Master your next skill starting 1st January
                 2023. #NewYearNewSkill #ResolutionsRequireResolve
               </p>
-              <button className={styles.register}>
-                Starting on 1st Janurary
-              </button>
             </div>
             <div className={styles.fv_image}>
               <img
@@ -57,18 +54,7 @@ const BootcampsHome = () => {
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>
-              <div className={styles.bootcamp}>
-                <p className={styles.b_heading}>Capture the Flag</p>
-                <p className={styles.b_tagline}>
-                  Pentesting is a hard thing. It's even harder to figure out how
-                  to get started on this journey. This workshop is aimed toward
-                  absolute beginners and to give them an easy understanding
-                  learning path.
-                </p>
-                <Link to="/bootcamps/ctf">
-                  <button className={styles.b_button}>Join Now!</button>
-                </Link>
-              </div>
+
               <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>Rust Bootcamp</p>
                 <p className={styles.b_tagline}>
@@ -105,6 +91,7 @@ const BootcampsHome = () => {
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>
+
               <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>Python Bootcamp</p>
                 <p className={styles.b_tagline}>
@@ -113,7 +100,19 @@ const BootcampsHome = () => {
                   some projects and making it public in github.
                 </p>
                 <Link to="/bootcamps/python">
-                  <button className={styles.b_button}>Join Now!</button>
+                  <button className={styles.b_button}>View Details</button>
+                </Link>
+              </div>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Capture the Flag</p>
+                <p className={styles.b_tagline}>
+                  Pentesting is a hard thing. It's even harder to figure out how
+                  to get started on this journey. This workshop is aimed toward
+                  absolute beginners and to give them an easy understanding
+                  learning path.
+                </p>
+                <Link to="/bootcamps/ctf">
+                  <button className={styles.b_button}>View Details</button>
                 </Link>
               </div>
             </div>

@@ -35,14 +35,8 @@ const Python = () => {
                   />
                 </div>
               </div>
-              <a
-                href="https://airtable.com/shrefJHb9pHx6ihv5"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.atag}
-              >
-                <button className={styles.register}>Register Now!</button>
-              </a>
+
+              <button className={styles.register}>Registrations Closed</button>
             </div>
             <div className={styles.fv_image}>
               <img
@@ -87,6 +81,47 @@ const Python = () => {
                   }
                 })}
               </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.thrid_view_container}>
+          <div className={styles.third_view}>
+            <div className={styles.tv_texts}>
+              <p className={styles.tv_heading}>
+                Getting <span>Karma Points</span>
+              </p>
+              <p className={styles.tv_content}>
+                You may earn karma points by submitting a screenshot or
+                assignment link in the #pygrammers channel of our discord
+                server, along with the appropriate hashtag.
+              </p>
+            </div>
+            <div className={styles.hastags}>
+              <ul>
+                <li className={styles.level}>
+                  - Post the screenshot of your assignent when you reach Day-6
+                  in #pygrammers channel with hashtag <b>#cl-padikka-py-1</b> to
+                  avail 200 karma points.
+                </li>
+                <li className={styles.level}>
+                  {" "}
+                  - Post the screenshot of your assignent when you reach Day-12
+                  in #pygrammers channel with hashtag <b>#cl-padikka-py-2</b> to
+                  avail 200 karma points.
+                </li>
+                <li className={styles.level}>
+                  {" "}
+                  - Post the screenshot of your assignent when you reach Day-18
+                  in #pygrammers channel with hashtag <b>#cl-padikka-py-3</b> to
+                  avail 200 karma points.
+                </li>
+                <li className={styles.level}>
+                  {" "}
+                  - Post the screenshot of your assignent when you reach Day-22
+                  in #pygrammers channel with hashtag <b>#cl-padikka-py-4</b> to
+                  avail 200 karma points.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

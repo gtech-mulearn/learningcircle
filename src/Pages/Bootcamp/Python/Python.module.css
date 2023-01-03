@@ -39,14 +39,14 @@
 .fv_heading {
   font-size: 2.4rem;
   font-weight: 700;
-  color: #F7BE10;
+  color: #f7be10;
   font-family: "Noto Sans", sans-serif;
   margin-bottom: 0.5rem;
 }
 
 .fv_heading span,
 .orange {
-  color: #448AFF;
+  color: #448aff;
 }
 
 .fv_content {
@@ -59,7 +59,7 @@
 }
 
 .register {
-  background-color: #448AFF;
+  background-color: #448aff;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   color: white;
@@ -67,7 +67,7 @@
 }
 
 .fv_subheading {
-  color: #448AFF;
+  color: #448aff;
   font-family: "Poppins", sans-serif;
   margin-top: -1.5rem;
   font-size: 1.25rem;
@@ -82,7 +82,7 @@
 }
 
 .startingdate span {
-  color: #448AFF;
+  color: #448aff;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -197,7 +197,7 @@
 }
 
 .sv_heading span {
-  color: #448AFF;
+  color: #448aff;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -222,7 +222,7 @@
 .svd_name {
   font-family: "Noto Sans";
   font-size: 1.25rem;
-  color: #448AFF;
+  color: #448aff;
 }
 
 .svd_topic,
@@ -245,4 +245,57 @@
 
 .bday {
   border: 2px solid #69a2d1;
+}
+
+/* Third Section Styles */
+
+/* Second View Styles */
+
+.thrid_view_container {
+  margin: 2rem;
+}
+
+.thrid_view {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1000px) {
+  .thrid_view_container {
+    margin: 0 6rem;
+    margin-top: 2rem;
+  }
+}
+
+.tv_heading {
+  font-size: 2rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #404040;
+}
+
+.tv_content {
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+
+.tv_heading span {
+  color: #448aff;
+}
+.level {
+  font-family: "Poppins";
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .tv_heading {
+    font-size: 2rem;
+  }
+  .tv_content {
+    width: 30%;
+  }
+
+  .level {
+    width: 40%;
+  }
 }
