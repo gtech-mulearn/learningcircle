@@ -23,6 +23,7 @@ const PostCircleCreation = () => {
                 for your learning sessions, and share resources and knowledge
                 with other members.
               </p>
+              <button className={styles.button}>Join Whatsapp Group</button>
             </div>
             <div className={styles.v_image}>
               <img
@@ -33,13 +34,56 @@ const PostCircleCreation = () => {
             </div>
           </div>
         </div>
-        <div className={styles.vertical_view_container}>
-          <div className={styles.vertical_view}>
-            <p className={styles.v_subheading}>Getting Started</p>
-            <p className={styles.v_subcontent}>
-              Since you've made your learning circle, follow the steps below to
-              find out what you need to do next.
-            </p>
+        <div className={styles.second_view_container}>
+          <div className={styles.second_view}>
+            <div>
+              <p className={styles.sv_heading}>
+                Getting <span>Started</span>
+              </p>
+              <p className={styles.sv_content}>
+                Since you've made your learning circle, follow the steps below
+                to find out what you need to do next.
+              </p>
+            </div>
+          </div>
+          <div className={styles.steps_view}>
+            <div className={styles.ssv_texts}>
+              <p className={styles.ssv_heading}>
+                Step 1: <span>Invite</span> Your Peers
+              </p>
+              <p className={styles.ssv_content}>
+                learning circles can be a great way to learn and grow with
+                others, and can help you stay motivated and accountable as you
+                work towards your learning goals. So, the first thing you need
+                to do is invite your friends to join your group.
+                <br />
+                <br />
+                You can share you circle details along with your secret key to
+                invite your friends.If you have any questions or need help
+                getting started, don't hesitate to reach out to us.
+              </p>
+            </div>
+
+            <div>
+              <div className={styles.circle_details}>
+                <p className={styles.circle_name}>
+                  <span>Circle Name:</span> Learning Cirlce
+                </p>
+                <p className={styles.circle_interest}>
+                  <span>Interest Group:</span> Web Development
+                </p>
+                <p className={styles.circle_team_pass}>
+                  <span>Team Passcode: </span> 78945296
+                </p>
+                <p className={styles.circle_lead}>
+                  <span>Team Lead:</span> Aswin Asok
+                </p>
+                <p className={styles.circle_college}>
+                  <span>College Name:</span> Marian Engineering College
+                </p>
+                <button className={styles.button}>Copy Team Link</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

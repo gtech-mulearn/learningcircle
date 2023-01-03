@@ -2,18 +2,18 @@
   min-height: 100vh;
 }
 
-.view_container,
-.vertical_view {
+.view_container {
   margin: 2rem;
   margin-top: 0;
 }
 
 .view {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .v_heading {
@@ -38,10 +38,21 @@
   font-size: 1rem;
 }
 
+.button {
+  font-size: 0.9rem;
+  padding: 0.5rem 2rem;
+  margin-top: 0.75rem;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #f78c40;
+  font-family: "Noto Sans";
+}
+
 @media only screen and (min-width: 1000px) {
-  .view_container,
-  .vertical_view {
+  .view_container {
     margin: 0 6rem;
+    margin-top: 2rem;
   }
 
   .view {
@@ -85,31 +96,117 @@
   }
 }
 
-.v_subheading {
-  font-size: 1.75rem;
-  color: #f78c40;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 500;
+.second_view_container {
+  margin: 2rem;
+  margin-top: 0;
 }
 
-.v_subcontent {
+.sv_heading {
+  font-size: 2rem;
+  font-family: "Noto Sans";
+  font-weight: 700;
+  color: #404040;
+}
+
+.sv_heading span {
+  color: #f78c40;
+}
+
+.sv_content {
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 
 @media only screen and (min-width: 1000px) {
-  .vertical_view {
-    display: flex;
-    flex-direction: column;
+  .second_view_container {
+    margin: 0 6rem;
+    margin-top: 2rem;
   }
 
-  .v_subheading {
-    font-size: 2.5rem;
+  .second_view {
+    text-align: initial;
   }
 
-  .v_subcontent {
+  .sv_content {
+    max-width: 35rem;
+  }
+
+  .sv_heading {
+    font-size: 2.25rem;
+  }
+
+  .sv_content {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+
+  .sv_texts {
+    padding-right: 3vw;
+    color: #404040;
+  }
+}
+
+.steps_view {
+  color: #404040;
+  margin-top: 2rem;
+}
+
+.ssv_heading {
+  font-family: "Noto Sans";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.ssv_heading span {
+  color: #f78c40;
+}
+
+.ssv_content {
+  font-family: "Poppins";
+  max-width: 35rem;
+}
+
+/* Card Styles */
+
+.circle_details {
+  margin-top: 1rem;
+  font-family: "Noto Sans";
+  color: #404040;
+  padding: 25px 25px;
+  border-radius: 10px;
+  transition: all 0.3s ease-out;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 1px 12px 0 rgb(193 195 211 / 37%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  max-width: 35rem;
+}
+
+.circle_content {
+  max-width: 35rem;
+}
+
+.circle_details span {
+  color: #f78c40;
+}
+
+.circle_details p {
+  margin: 0.5rem 0;
+}
+
+@media only screen and (min-width: 1000px) {
+  .circle_details {
     font-size: 1rem;
-    font-family: "Poppins", sans-serif;
-    max-width: 30rem;
+  }
+
+  .steps_view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .circle_details {
+    width: 35rem;
   }
 }
