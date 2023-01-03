@@ -6,6 +6,7 @@ import axios from "axios";
 import Home from "./Pages/LearningCircles/Home/Home";
 import Create from "./Pages/LearningCircles/Create/Create";
 import Join from "./Pages/LearningCircles/Join/Join.jsx";
+import PostCircleCreation from "./Pages/LearningCircles/PostCircleCreation/PostCircleCreation";
 
 //InterestGroups
 import InterestGroup from "./Pages/InterestGroups/InterestGroup";
@@ -24,7 +25,7 @@ import Rust from "./Pages/Bootcamp/Rust/Rust";
 import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
 import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
 import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
-import Python from "./Pages/Bootcamp/Python/Python"
+import Python from "./Pages/Bootcamp/Python/Python";
 
 //Search Section
 import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
@@ -201,6 +202,8 @@ function App() {
               />
             }
           />
+
+          <Route path="/created" element={<PostCircleCreation />} />
 
           <Route
             path="/:id"
