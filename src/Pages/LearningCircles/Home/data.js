@@ -3085,7 +3085,340 @@ const InterestGroups = [
         name: "",
       },
     ]
-  }
+  },
+  {
+    commingsoon: true,
+    id: "cdpp",
+    interestgroup: " Premier Pro    ",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - Premier pro",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+      {
+        name: "Create a Video as per instructions",
+        link: "https://mulearn.notion.site/Premier-Pro-Task-1-f12e0296a9fd4bf3ace3eeccf336a44f",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Premiere PRO Tutorials",
+        link: "https://helpx.adobe.com/in/premiere-pro/premiere-pro-cs6-tutorials.html"
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Sunday 9.00 PM",
+    officeplace: "Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "autocad",
+    interestgroup: "",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Create a Plan as per instructions",
+        link: "https://mulearn.notion.site/AutoCAD-Task-1-b01306b2af874c7d899a45b72cf7a3c6",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Autodesk Courses",
+        link: "https://www.autodesk.com/certification/learn/catalog/product/AutoCAD"
+      },
+      {
+        id: "",
+        name: "AutoCad Design Drafts",
+        link: "https://www.autodesk.com/certification/learn/catalog/product/AutoCAD"
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Monday 9.00 PM",
+    officeplace: " Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "revit",
+    interestgroup: "",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Create a Plan as per instructions",
+        link: "https://mulearn.notion.site/Revit-Task-1-70060b2526c54383a54078c5f873a739",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Autodesk Courses",
+        link: "https://www.autodesk.com/certification/learn/catalog/product/Revit"
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Wednesday 9.00 PM",
+    officeplace: "Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
 ];
 
 export default InterestGroups;
