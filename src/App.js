@@ -10,13 +10,14 @@ import PostCircleCreation from "./Pages/LearningCircles/PostCircleCreation/PostC
 
 //InterestGroups
 import InterestGroup from "./Pages/InterestGroups/InterestGroup";
-import WebCourse from "./Pages/InterestGroups/Course/web/WebCourse";
-import UIUXCourse from "./Pages/InterestGroups/Course/uiux/UIUXCourse";
-import PMCourse from "./Pages/InterestGroups/Course/pm/PMCourse";
-import AndroidCourse from "./Pages/InterestGroups/Course/android/AndroidCourse";
-import IoTCourse from "./Pages/InterestGroups/Course/iot/IoTCourse";
-import CybersecCourse from "./Pages/InterestGroups/Course/cybersec/CybersecCourse";
-import CommonCourse from "./Pages/InterestGroups/Course/common/CommonCourse";
+import CoursePage from "./Pages/InterestGroups/Course/CoursePage"
+import WebData from './Pages/InterestGroups/Course/web';
+import AndroidData from './Pages/InterestGroups/Course/android';
+import CommonData from './Pages/InterestGroups/Course/common';
+import IoTData from "./Pages/InterestGroups/Course/iot";
+import CybersecData from "./Pages/InterestGroups/Course/cybersec";
+import PmData from './Pages/InterestGroups/Course/pm';
+import UiuxData from './Pages/InterestGroups/Course/uiux'
 
 //Bootcamp Section
 import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome";
@@ -26,6 +27,9 @@ import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
 import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
 import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
 import Python from "./Pages/Bootcamp/Python/Python";
+
+//Misc
+import NotFound from "./Pages/Misc/404/NotFound";
 
 //Search Section
 import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
@@ -137,6 +141,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
+          <Route path="*" element={<NotFound />} />
           <Route
             path="/"
             element={
@@ -217,6 +222,7 @@ function App() {
             path="/:id"
             element={<InterestGroup setInterest={setInterest} />}
           />
+
           <Route path="/mentors" element={<MentorDirectory />} />
           <Route path="/problemshelves" element={<ProblemShelves />} />
           <Route path="/opensource" element={<OpenSource />} />
@@ -252,13 +258,14 @@ function App() {
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}
           />
-          <Route path="/web/:type/:id" element={<WebCourse />} />
-          <Route path="/uiux/:type/:id" element={<UIUXCourse />} />
-          <Route path="/pm/:type/:id" element={<PMCourse />} />
-          <Route path="/iot/:type/:id" element={<IoTCourse />} />
-          <Route path="/android/:type/:id" element={<AndroidCourse />} />
-          <Route path="/cybersec/:type/:id" element={<CybersecCourse />} />
-          <Route path="/common/:type/:id" element={<CommonCourse />} />
+          <Route path="/web/:type/:id" element={<CoursePage CourseData={WebData} />} />
+          <Route path="/uiux/:type/:id" element={<CoursePage CourseData={UiuxData} />} />
+          <Route path="/pm/:type/:id" element={<CoursePage CourseData={PmData} />} />
+          <Route path="/iot/:type/:id" element={<CoursePage CourseData={IoTData} />} />
+          <Route path="/android/:type/:id" element={<CoursePage CourseData={AndroidData} />} />
+          <Route path="/cybersec/:type/:id" element={<CoursePage CourseData={CybersecData} />} />
+          <Route path="/common/:type/:id" element={<CoursePage CourseData={CommonData} />} />
+
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />
           <Route path="/bootcamps" element={<BootcampsHome />} />

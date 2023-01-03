@@ -4,6 +4,23 @@ const InterestGroups = [
     interestgroup: "Internet Of Things",
     interestgroupdescription:
       "Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the fan above your head, almost everything can be connected and controlled automatically. But How? Join our IoT Interest Group to learn how this can be achieved.",
+    leads: [{
+      id: "1",
+      name: "Albin Mathews",
+      college: "College of Engineering, Aranmula",
+      phone: "9961019157",
+    },
+    {
+      id: "2",
+      name: "Milan Deepak",
+      college: "MITS",
+    },
+    {
+      id: "3",
+      name: "Jovit",
+      college: "SJCET",
+      phone: "9400937046",
+    },],
     officetime: "Sunday 7:30 PM",
     officeplace: " at Discord Lobby",
     community: ["Fox Lab"],
@@ -13,6 +30,38 @@ const InterestGroups = [
       "IoT Solutions Architect",
       "Robotics Technician",
     ],
+    basicenablementtasks: [{
+      id: "1",
+      name: "What is IoT - Greatlearning",
+      link: "https://www.mygreatlearning.com/academy/learn-for-free/courses/what-is-iot",
+      time: "1 Hours",
+      complexity: "3",
+      karma: "50",
+    },
+    {
+      id: "2",
+      name: "IoT 101",
+      link: "https://mulearn.atfg.gtechindia.org/page/iot101",
+      time: "1 Hour",
+      complexity: "3",
+      karma: "50",
+    },
+    {
+      id: "3",
+      name: "Traffic light simulation ",
+      link: "https://docs.google.com/document/d/1_Z5CHJ6diesFpJJ_AwEQjqElB0U0GsIbmtt963HD1m4/edit?usp=drivesdk",
+      time: "1 Hour",
+      complexity: "4",
+      karma: "100",
+    },
+    {
+      id: "4",
+      name: "Learn IoT Basics - Simplelearn",
+      link: "https://skillsforall.com/course/introduction-iot",
+      time: "2 Hours",
+      complexity: "4",
+      karma: "200",
+    },],
     company: ["Thinkpalm"],
     mentors: [
       "Jaseel (Technical Program Manager - MakerGhat)",
@@ -83,24 +132,36 @@ const InterestGroups = [
         link: "https://www.techrepublic.com/article/how-to-become-an-iot-developer-6-tips/",
       },
     ],
-    basicenablementtasks: [],
     corecourses: [
       {
+        id: "1",
         name: "Kerala IoT Challenge Level 1 ",
-        link: "/iot/core/1",
-        complexity: "",
-        time: "",
+        link: "https://mulearn.notion.site/Kerala-IoT-Challenge-Level-1-7c5ee89f66204c5097fcf5695025f30e",
+        time: "10 Hours",
+        complexity: "7",
         karma: "400",
       },
       {
+        id: "2",
         name: "Kerala IoT Challenge Level 2",
-        link: "/iot/core/2",
-        complexity: "",
-        time: "",
-        karma: "400",
+        link: "https://mulearn.notion.site/Kerala-IoT-Challenge-Level-2-28e6d063a458472a95066d45adcbd9d9",
+        time: "12 Hours",
+        complexity: "8",
+        karma: "800",
+      },
+      {
+        id: "3",
+        name: "Introduction to IOT - Cisco Networking Acdemy",
+        link: "https://www.netacad.com/courses/iot/introduction-iot",
+        time: "20 Hours",
+        complexity: "6",
+        karma: "800",
       },
     ],
-    subcourses: [],
+    subcourses: [{
+      name: "Arduino Swayam Portal ",
+      link: "https://onlinecourses.swayam2.ac.in/aic20_sp04/preview",
+    },],
     keywords: [
       {
         id: "1",
@@ -174,6 +235,57 @@ const InterestGroups = [
         link: "https://twitter.com/gigastacey",
       },
     ],
+    challenges: [{
+      id: "1",
+      link: "https://github.com/ACANETS/iot-labs",
+    },
+    {
+      id: "2",
+      link: "https://create.arduino.cc/projecthub/projects/tags/iot",
+    },
+    {
+      id: "3",
+      name: "Write a blog on Furture of IoT",
+    },],
+    trending: [
+      {
+        id: "1",
+        name: "Get started developing IoT solutions by building a simple home automation system",
+        link: "https://developer.ibm.com/tutorials/iot-lp101-get-started-develop-iot-home-automation/"
+      },
+      {
+        id: "2",
+        name: "Mining Worker Safety Helmet",
+      },
+      {
+        id: "3",
+        name: "Smart Cradle System",
+      },
+      {
+        id: "4",
+        name: "Smart Traffic Management System",
+      },
+      {
+        id: "5",
+        name: "Air Pollution Monitoring System",
+      },
+      {
+        id: "6",
+        name: "Smart Energy Grid",
+      },
+    ],
+    resources: [
+      {
+        id: "1",
+        name: "Learn C Language",
+        link: "https://www.studytonight.com/c/"
+      },
+      {
+        id: "2",
+        name: "Learn Python",
+        link: "https://www.studytonight.com/python//"
+      },
+    ]
   },
   {
     id: "uiux",
@@ -181,8 +293,8 @@ const InterestGroups = [
     interestgroupdescription:
       "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.",
     officetime: "Wednesday 7:30 PM",
-    officeplace: " at Gathering Field",
-    community: ["GDSC MBCET"],
+    officeplace: " at Discord Lobby",
+    community: ["GDSC MBCET", "FoF Kochi"],
     opportunities: [
       "User Interface (UI) Designer",
       "User Experience (UX) Designer",
@@ -225,6 +337,11 @@ const InterestGroups = [
           "https://drive.google.com/uc?export=view&id=1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I",
       },
       {
+        id: "",
+        name: "Madhav M Nair",
+        stack: "UI UX",
+      },
+      {
         id: "S140",
         name: "Salman Faariz",
         designation: "Program Associate, GTech µLearn",
@@ -260,6 +377,11 @@ const InterestGroups = [
         complexity: "1",
         time: "10 mins",
         karma: "200",
+      },
+      {
+        id: "3",
+        name: "Create an UI for given wireframe",
+        link: "https://www.notion.so/mulearn/UI-UX-Task-3-cab50a68b1714df79f691c7d5c099b63",
       },
     ],
     corecourses: [
@@ -332,6 +454,11 @@ const InterestGroups = [
         name: "UX Design",
         link: "https://uxdesign.cc/",
       },
+      {
+        id: "2",
+        name: "The UX Collective Newsletter",
+        link: "https://newsletter.uxdesign.cc/",
+      }
     ],
     people: [
       {
@@ -349,13 +476,89 @@ const InterestGroups = [
         name: "Zander Whitehurst",
         link: "https://www.instagram.com/zanderwhitehurst/",
       },
+      {
+        id: "4",
+        name: "Yaël Levey",
+        link: "https://twitter.com/yaellevey",
+      },
     ],
+    challenges: [
+      {
+        id: "1",
+        name: "Create Hambuger animation in figma",
+      },
+      {
+        id: "2",
+        name: "Create Loding animation in figma",
+      },
+      {
+        id: "3",
+        name: "100 Daily UI Challenge (Community) – Figma",
+        link: "https://www.figma.com/file/qy2lGPLBBko6asJA0uxLAO/100-Daily-UI-Challenge-(Community)?node-id=0%3A1",
+      },
+      {
+        id: "4",
+        name: "DailyUI – A list of every DailyUI design challenge · GitHub",
+        link: "https://gist.github.com/Pustur/3b2bee790d2c8a966136d76a9157d5e4",
+      },
+    ],
+    trending: [{
+      id: "1",
+      name: "Abstract Data Visualization",
+    },
+    {
+      id: "2",
+      name: "Surreal Product Photographs",
+    },
+    {
+      id: "3",
+      name: "Realistic Textures",
+    },
+    {
+      id: "4",
+      name: "Illustrated Animations",
+    },
+    {
+      id: "5",
+      name: "Air Gesture Control",
+    },
+    {
+      id: "6",
+      name: "Voice User Interface",
+    },],
+    resources: [
+      {
+        id: "",
+        name: "Assignment by Cleartrip",
+        description: "",
+        link: "https://www.designassignments.com/assignments?recordId=recwTp10P14EIBQ2g",
+      },
+    ]
   },
   {
     id: "web",
     interestgroup: "Web Development",
     interestgroupdescription:
       "Ever wondered how web applications are built? Everything seems Greek until you get to know how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
+    leads: [
+      {
+        id: "1",
+        name: "Sreelakshmi S",
+        college: "Carmel College of Engineering & Technology",
+      },
+      {
+        id: "2",
+        name: "Nithin ",
+        college: "College of Engineering Aranmula",
+        phone: "8078945336",
+      },
+      {
+        id: "3",
+        name: "Neeraj",
+        college: "SCMS College of Technology & Management",
+        phone: "8943243637",
+      },
+    ],
     officetime: "Saturday 7:30 PM",
     officeplace: " at Discord Lobby",
     community: ["Pygrammers"],
@@ -369,6 +572,16 @@ const InterestGroups = [
     challenges: [
       {
         link: "/challenge/web",
+      },
+      {
+        id: "3",
+        name: "The challenge is to build out a product preview card component ",
+        link: "https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa",
+      },
+      {
+        id: "4",
+        name: "The challenge is to build out a preview card component",
+        link: "https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U",
       },
     ],
     company: ["Travancore Analytics", "PITS"],
@@ -543,6 +756,32 @@ const InterestGroups = [
         karma: "200",
       },
     ],
+    trending: [{
+      id: "1",
+      name: "Progressive Web Apps (PWA)",
+    },
+    {
+      id: "2",
+      name: "Single Page Application (SPA)",
+    },
+    {
+      id: "3",
+      name: "Voice Search Optimization.",
+    },
+    {
+      id: "4",
+      name: "Motion UI.",
+    },
+    {
+      id: "5",
+      name: "Automation Testing",
+    },],
+    resources: [{
+      id: "1",
+      description: "Everything you need to know before getting started as a developer",
+      link: "https://careerfoundry.com/en/blog/web-development/what-does-it-take-to-become-a-web-developer-everything-you-need-to-know-before-getting-started/",
+    },],
+
   },
   {
     id: "android",
@@ -750,6 +989,48 @@ const InterestGroups = [
         link: "https://twitter.com/romainguy",
       },
     ],
+    challenges: [{
+      id: "1",
+      name: "build a todo app",
+      link: "null",
+    },
+    {
+      id: "2",
+      name: "Kotlin Quiz",
+      link: "https://kotlinquiz.com/",
+    },
+    {
+      id: "3",
+      name: "First App in Kotlin",
+      link: "https://www.raywenderlich.com/30498263-your-first-kotlin-android-app-an-app-from-scratch",
+    },
+    {
+      id: "4",
+      name: "build a simple app that will serve up some fun facts when you tap on a button.",
+      link: "https://teamtreehouse.com/library/build-a-simple-android-app-with-kotlin",
+    },],
+    leads: [
+      {
+        id: "1",
+        name: "Mariya Merlin ",
+        college: "Kristujyoti College of Management and Technology, Changannacherry",
+      },
+      {
+        id: "2",
+        name: "Ben George",
+        college: "Mar Baselios College of Engineering and Technology, Trivandrum",
+      },
+    ],
+    resources: [{
+      id: "1",
+      link: "https://www.youtube.com/watch?v=x0uinJvhNxI",
+      name: "Flutter",
+    },
+    {
+      id: "2",
+      link: "https://youtu.be/3xyDEw3iVo4",
+      name: "Flutter",
+    },]
   },
   {
     id: "cybersec",
@@ -766,8 +1047,8 @@ const InterestGroups = [
       "Penetration Tester",
       "Cybersecurity Engineer",
     ],
-    company: [],
-    mentors: ["Rejah Rehim", "Anees"],
+    company: ["Beagle Security"],
+    mentors: ["Rejah Rehim", "Anees", "Nash N Sulthan", " Manindar"],
     mentorscard: [
       {
         id: "S146",
@@ -796,6 +1077,14 @@ const InterestGroups = [
         image:
           "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
       },
+      {
+        id: '',
+        name: 'Manindar ',
+        designation: 'Beagle Security',
+        linkedin: '',
+        stack: 'Cybersecurity',
+        image: ''
+      }
     ],
     pagination: [
       {
@@ -807,8 +1096,33 @@ const InterestGroups = [
         name: "Product Management >",
       },
     ],
-    learningpaths: [],
+    learningpaths: [{
+      id: "1",
+      name: "Learning Path",
+      link: "https://www.youtube.com/watch?v=yq561bLg10A&t=195s",
+    },
+    {
+      id: "2",
+      name: "Topics to Get Started",
+      link: "https://www.youtube.com/watch?v=Kx4y9c7w2JQ",
+    },
+    ],
     basicenablementtasks: [
+      {
+        id: "1",
+        name: "Introduction to Cyber Security",
+        link: "https://www.cybrary.it/course/introduction-to-it-and-cybersecurity/",
+      },
+      {
+        id: "2",
+        name: "Introduction to Operating System",
+        link: "https://www.sans.org/cyberaces/introduction-to-operating-systems/",
+      },
+      {
+        id: "3",
+        name: "Introduction to networking",
+        link: "https://www.sans.org/cyberaces/networking/",
+      },
       {
         name: "Command Line",
         link: "https://www.youtube.com/watch?v=YHFzr-akOas",
@@ -839,6 +1153,16 @@ const InterestGroups = [
         time: "",
         karma: "200",
       },
+      {
+        id: "1",
+        name: "Web Pentesting",
+        link: "https://www.youtube.com/watch?v=X4eRbHgRawI&t=22s",
+      },
+      {
+        id: "2",
+        name: "Spring Board Course",
+        link: "https://www.springboard.com/resources/learning-paths/cybersecurity-foundations/",
+      },
       // {
       //   name: "CISM-Certified Information Security Manager",
       //   link: "https://www.isaca.org/credentialing/cism?utm_source=google&utm_medium=cpc&utm_campaign=CertBAU&utm_content=sem_CertBAU_certification-cism-india-product-google&cid=sem_2006846&Appeal=sem&gclid=CjwKCAjw4JWZBhApEiwAtJUN0Mf5afTjnkDIauLbz5j_Dit01l4h1yfQgQ7tXi0CrEPsSiMy2HZUGRoCN9QQAvD_BwE",
@@ -862,7 +1186,33 @@ const InterestGroups = [
       //   karma: "400",
       // },
     ],
-    subcourses: [
+    subcourses: [{
+      id: "1",
+      name: "Internal/External Infrastructure Penetration Testing.",
+      link: "https://www.youtube.com/watch?v=8a1yTN2kFNw",
+    },
+    {
+      id: "2",
+      name: "Wireless Penetration Testing.",
+      link: "https://www.youtube.com/watch?v=UiCx2K1vSI8&list=PLrrgFyE6PtlbhCflEC4QQKt6ZlQBVHq4z",
+    },
+    {
+      id: "3",
+      name: "Web Application Testing.",
+      link: "https://www.youtube.com/watch?v=X4eRbHgRawI",
+    },
+    {
+      id: "4",
+      name: "Mobile Application Testing.",
+    },
+    {
+      id: "5",
+      name: "Build and Configuration Review.",
+    },
+    {
+      id: "6",
+      name: "Social Engineering.",
+    },
       // {
       //   name: "SQL Injection",
       //   link: "",
@@ -969,6 +1319,121 @@ const InterestGroups = [
         keyword: "VMWare",
       },
     ],
+    challenges: [
+      {
+        id: "1",
+        name: "Real-Life Case Studies",
+      },
+      {
+        id: "2",
+        name: "Phishing Attacks",
+      },
+      {
+        id: "3",
+        name: "Software Vulnerabilities",
+      },
+      {
+        id: "4",
+        name: "Cryptography Attacks",
+      },
+      {
+        id: "5",
+        name: "IoT Attacks",
+      },
+      {
+        id: "6",
+        name: "System Hacking",
+      },
+    ],
+    leads: [{
+      id: "1",
+      name: "Aaron",
+      college: "MBCET",
+    },],
+    trending: [{
+      name: "Anomaly detection, intrusion and its prevention",
+    },
+    {
+      name: "Stalking threats and instance responding",
+    },
+    {
+      name: "Detecting or mitigating compromising indicators",
+    },
+    {
+      name: "Intelligence analyzing factors of ethical, privacy and  legal",
+    },
+    {
+      name: "Research on relevant Geopolitical Cyber security",
+    },
+    {
+      name: "Cyber security data analytics",
+    },
+    {
+      name: "Data demonstration, fusion and semantic modeling",
+    },
+    {
+      name: "Forecasting models on cyber-attacks and control measures",
+    },
+    {
+      name: "Intelligence in cyber threat",
+    },
+    {
+      name: "Models that concern Deception and Improbability in cyber-attack acknowledgement",
+    },
+    {
+      name: "Visualizing intelligence analysis and investigation techniques",
+    },
+    {
+      name: "Cybercrime monetization and orchestration and automating security",
+    },],
+    specialization: [{
+      id: "1",
+      name: "Application security",
+    },
+    {
+      id: "2",
+      name: "Cryptography & key management",
+    },
+    {
+      id: "3",
+      name: "Cyber law & contracts",
+    },
+    {
+      id: "4",
+      name: "Forensics",
+    },
+    {
+      id: "5",
+      name: "Network security (firewalls etc.)",
+    },
+    {
+      id: "6",
+      name: "Penetration testing & red teaming",
+    },
+    {
+      id: "7",
+      name: "Policy management & governance",
+    },
+    {
+      id: "8",
+      name: "Risk assessment & governance",
+    },
+    {
+      id: "9",
+      name: "Security architecure",
+    },
+    {
+      id: "10",
+      name: "Security education & awareness",
+    },
+    {
+      id: "11",
+      name: "Security operations",
+    },
+    {
+      id: "12",
+      name: "Security systems engineering",
+    },]
   },
   {
     id: "pm",
@@ -1137,15 +1602,48 @@ const InterestGroups = [
         name: "Daniel Elizalde",
         link: "https://twitter.com/delizalde",
       },
+      {
+        id: "3",
+        name: "John Carter",
+        link: "https://www.linkedin.com/in/jcartertcgen/",
+      },
+      {
+        id: "4",
+        name: "Charles Du",
+        link: "https://www.linkedin.com/in/thecharles/?originalSubdomain=tw",
+      },
     ],
-    "": {},
+    challenges: [{
+      id: "1",
+      name: "Estimate the number of restaurants in New York",
+    },
+    {
+      id: "2",
+      name: "You're the new product manager for Instagram and you notice a drop in user engagement by 15% over the past two weeks. What do you do?",
+    },
+    {
+      id: "3",
+      name: "There is a data point that indicates that there are more Uber drop-offs at the airport than pick-ups from the airport. Why is this the case and what would you do within the product to change that?",
+    },
+    {
+      id: "4",
+      name: "Friend requests are down by 10%. Evaluate why.",
+    },
+    {
+      id: "5",
+      name: "Youtube clone",
+    },],
+    resources: [{
+      name: "Execution questions",
+      link: "https://www.productmanagementexercises.com/interview-questions/execution",
+    },]
   },
   {
     id: "arvr",
     interestgroup: "AR/VR",
     interestgroupdescription:
       "Augmented Reality and Virtual Reality bridge the gap between the real and digital world and help you conceive digital information in the same way you do in the real world. Join the Interest Group today to delve deeper into the Digital World!",
-    officetime: "Monday 7:00pm",
+    officetime: "Sunday 08:30 PM",
     officeplace: " at Discord Lobby",
     community: ["XtrudAR"],
     comingsoon: "true",
@@ -1212,6 +1710,11 @@ const InterestGroups = [
         time: "",
         karma: "",
       },
+      {
+        id: "4",
+        name: "Download Blender 3D",
+        link: "https://www.blender.org/",
+      },
     ],
     corecourses: [
       {
@@ -1259,9 +1762,19 @@ const InterestGroups = [
     interestgroup: "Artificial Intelligence",
     interestgroupdescription:
       "AI is the simulation of Human Intelligence processes by computer systems Worried if AI will take over the World in the near future? Join our AI Interest Group and learn more about Artificial Intelligence and the latest advancements in the domain.",
+    leads: [{ "id": 1, name: "Arjun M S", college: "Jyothi Engineering College, Thrissur" }],
+    basicenablementtasks: [
+      {
+        name: "Create a dataset",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
     officetime: "Monday 7:00pm",
     comingsoon: "true",
-    officeplace: "",
+    officeplace: "Discord Lobby",
     community: [],
     opportunities: [],
     company: [],
@@ -1277,21 +1790,46 @@ const InterestGroups = [
         name: "Blockchain >",
       },
     ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
+    learningpaths: [
+      {
+        name: "I am AI",
+        link: "https://i.am.ai/roadmap"
+      },
+    ],
+
+    corecourses: [{
+      id: "1",
+      name: "Intro to Machine Learning",
+      link: "https://www.kaggle.com/learn/intro-to-machine-learning",
+    },
+    {
+      id: "2",
+      name: "Intermediate Machine Learning",
+      link: "https://www.kaggle.com/learn/intermediate-machine-learning",
+    },
+    {
+      id: "3",
+      name: "FreeCodeCamp Machine Learning with Python",
+      link: "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+    },
+    {
+      id: "4",
+    },],
+    subcourses: [{
+      id: "1",
+      name: "Kaggle Learn",
+      link: "https://www.kaggle.com/learn",
+    },],
   },
   {
     id: "blockchain",
     interestgroup: "Blockchain",
     interestgroupdescription:
       "LBlock chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
-    officetime: "Tuesday 7:00pm",
+    officetime: "Monday 8.30 PM",
     comingsoon: "true",
-    officeplace: "",
-    community: [],
+    officeplace: "Discord Lobby",
+    community: ["KBA"],
     opportunities: [],
     company: [],
     mentors: [],
@@ -1306,9 +1844,17 @@ const InterestGroups = [
         name: "Creative Design >",
       },
     ],
-    learningpaths: [],
+    learningpaths: [{
+      id: "1",
+      name: "Blockchain - Coding Ninjas",
+      link: "https://www.codingninjas.com/codestudio/guided-paths/blockchain",
+    },],
     basicenablementtasks: [],
-    corecourses: [],
+    corecourses: [{
+      id: "1",
+      name: "Learn Blockchain, Solidity, and Full Stack JavaScript Development",
+      link: "https://www.freecodecamp.org/news/learn-blockchain-solidity-full-stack-javascript-development/",
+    },],
     subcourses: [],
     "": {},
   },
@@ -1375,14 +1921,68 @@ const InterestGroups = [
     interestgroup: "Cloud & DevOps",
     interestgroupdescription:
       "The emergence of Cloud technologies have changed the world forever.If you’re keen to know how the Cloud works and what DevOps is, here’s your chance to do so. Join the Cloud & DevOps Interest Group today and learn more.",
+    leads: [],
+    basicenablementtasks: [{
+      name: "Dockerize an application",
+    },
+    {
+      name: "Create CI/CD pipeline to test, build and deploy a software",
+    },
+    {
+      name: "Serve an application ensuring high availability with load balancers",
+    },
+    {
+      name: "Setup application log management, monitoring and alerting",
+    },],
+    learningpaths: [{
+      id: "1",
+      name: "DevOps Roadmap",
+      link: "https://roadmap.sh/devops",
+    },
+    {
+      id: "2",
+      name: "DevOps Engineer Roadmap - YouTube",
+      link: "https://www.youtube.com/watch?v=9pZ2xmsSDdo",
+    },],
+    corecourses: [{
+      id: "1",
+      name: "Philosophy: The DevOps Handbook",
+      link: "https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/",
+    },
+    {
+      id: "2",
+      name: "Foundation: DevOps YouTube Playlist",
+      link: "https://www.youtube.com/playlist?list=PLlVtbbG169nFr8RzQ4GIxUEznpNR53ERq",
+    },
+    {
+      id: "3",
+      name: "Practical DevOps YouTube Playlist",
+      link: "https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak",
+    },],
+    subcourses: [{
+      id: "1",
+      name: "AWS Developer Associate",
+      link: "https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/",
+    },
+    {
+      id: "2",
+      name: "CKA, CKAD",
+      link: "https://kubernetes.io/training/",
+    },],
+    mentors: [
+      "Vivek",
+    ],
+    mentorscard: [{
+      id: "1",
+      name: "Vivek",
+      stack: "",
+    },],
     officetime: "Friday 7:00pm",
     comingsoon: "true",
     officeplace: "",
     community: [],
     opportunities: [],
     company: [],
-    mentors: [],
-    mentorscard: [],
     pagination: [
       {
         id: "marketing",
@@ -1393,11 +1993,6 @@ const InterestGroups = [
         name: "Entrepreneurship >",
       },
     ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
   },
   {
     id: "entrepreneurship",
@@ -1456,6 +2051,1373 @@ const InterestGroups = [
     corecourses: [],
     subcourses: [],
     "": {},
+  },
+  {
+    id: 'innovation',
+    interestgroup: "Innovation",
+    interestgroupdescription: "test description",
+    basicenablementtasks: [
+      {
+        name: "Revenue Models Matching Card Game",
+        link: "https://www.teachingentrepreneurship.org/category/exercises/",
+        complexity: "",
+        time: "",
+        karma: "",
+      },],
+    corecourses: [
+      {
+        name: "StartUp India Learning Program ",
+        link: "https://www.startupindia.gov.in/content/sih/en/learning-and-development_v2.html",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+      {
+        name: "Understanding Design Thinking",
+        link: "https://nptel.ac.in/courses/109104109",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+      {
+        name: "StartUp School by Y-Combinator",
+        link: "https://www.startupschool.org/",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+      {
+        name: "Becoming a Social Entrepreneur",
+        link: "https://www.startupschool.org/",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+      {
+        name: "The Global Financial Crisis",
+        link: "https://www.startupschool.org/",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    mentors: [
+      "Deepu S Nath",
+      "Micle"
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "Deepu S Nath",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+      {
+        id: "",
+        name: "Micle",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Friday 7:00 PM",
+    officeplace: " at Discord Lobby",
+    challenges: [
+      {
+        name: "Plan a business.",
+        link: "https://venturelab.org/planner/home",
+        description: ""
+      },
+      {
+        name: "Create a pitch.",
+        link: "https://venturelab.org/pitch/home",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: ['IEDC'],
+    company: [],
+    blogs: [
+      {
+        id: "1",
+        name: "TechCrunch",
+        link: "https://techcrunch.com/tag/entrepreneurship/",
+      },
+      {
+        id: "2",
+        name: "Both Sides of the Table",
+        link: "https://bothsidesofthetable.com/?gi=d8e49a1fcdb",
+      },
+      {
+        id: "3",
+        name: "Forbes",
+        link: "https://www.forbes.com/?sh=2944b3502254",
+      },
+      {
+        id: "4",
+        name: "Inc.Magazine",
+        link: "https://www.inc.com/",
+      },
+      {
+        id: "5",
+        name: "She Owns It",
+        link: "https://sheownsit.com/",
+      },
+      {
+        id: "6",
+        name: "Noobpreneur",
+        link: "https://www.noobpreneur.com/",
+      },
+      {
+        id: "7",
+        name: "Chris Ducker",
+        link: "https://www.chrisducker.com/blog/",
+      },
+      {
+        id: "8",
+        name: "Mashable",
+        link: "https://in.mashable.com/",
+      },
+      {
+        id: "9",
+        name: "Seth Godin",
+        link: "https://seths.blog/",
+      },
+      {
+        id: "10",
+        name: "Gaping Void",
+        link: "https://www.gapingvoid.com/blog/",
+      },
+    ],
+    people: [
+      {
+        id: "1",
+        name: "Elon Musk",
+        link: "https://twitter.com/elonmusk?s=20&t=G4Tlr3s5h_uGEyP-lD2IqQ",
+      },
+      {
+        id: "2",
+        name: "Gary Vaynerchuk",
+        link: "https://twitter.com/garyvee",
+      },
+      {
+        id: "3",
+        name: "James Altucher",
+        link: "https://twitter.com/jaltucher",
+      },
+      {
+        id: "4",
+        name: "DAVE MORIN",
+        link: "https://twitter.com/davemorin",
+      },
+      {
+        id: "5",
+        name: "Biz Stone",
+        link: "https://twitter.com/biz",
+      },
+    ],
+    trending: [
+      {
+        id: "1",
+        name: "Entrepreneurs Move Into IoT",
+      },
+      {
+        id: "2",
+        name: "No-Code Web Apps Become More Mainstream",
+      },
+      {
+        id: "3",
+        name: "Email Makes A Comeback",
+      },
+      {
+        id: "4",
+        name: "Micro-Influencers Come Into The Spotlight",
+      },
+      {
+        id: "5",
+        name: "Content Becomes Omnichannel",
+      },
+      {
+        id: "6",
+        name: "Capital Flows Into Climate Tech Startups",
+      },
+      {
+        id: "7",
+        name: "Increased Demand For Super-Specialized Skills",
+      },
+      {
+        id: "8",
+        name: "Entrepreneur Communities Flourish",
+      },
+      {
+        id: "9",
+        name: "Business From Home",
+      },
+      {
+        id: "10",
+        name: "Globalized Business Powered By  Remote Work",
+      },
+    ],
+    keywords: [
+      {
+        id: "1",
+        keyword: "Design Thinking",
+      },
+      {
+        id: "2",
+        keyword: "Collaboration",
+      },
+      {
+        id: "3",
+        keyword: "Brainstorming",
+      },
+      {
+        id: "4",
+        keyword: "Business Model Canvas",
+      },
+      {
+        id: "5",
+        keyword: "End-User",
+      },
+      {
+        id: "6",
+        keyword: "Idea",
+      },
+      {
+        id: "7",
+        keyword: "Pitch",
+      },
+      {
+        id: "8",
+        keyword: "Ideation",
+      },
+      {
+        id: "9",
+        keyword: "Intellectual Property",
+      },
+      {
+        id: "10",
+        keyword: "Strategic Thinking",
+      },
+    ],
+    resources: [
+      {
+        id: "1",
+        name: "y combi",
+        description: "",
+        link: "https://www.startupschool.org/curriculum",
+      },
+    ],
+    pagination: [
+      {
+        id: "strategicleadership",
+        name: "< Strategic Leadership",
+      },
+      {
+        id: "uiux",
+        name: "Needs Change>",
+      },
+    ],
+  },
+  {
+    comingsoon: "true",
+    id: "projectmanagment",
+    interestgroup: "Project Managment",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        id: "1",
+        name: "Foundations of Project Management",
+        link: "https://www.coursera.org/learn/project-management-foundations",
+      },
+      {
+        id: "2",
+        name: "Project Initiation: Starting a Successful Project",
+        link: "https://www.coursera.org/learn/project-initiation-google",
+      },
+      {
+        id: "3",
+        name: "Project Planning: Putting It All Together",
+        link: "https://www.coursera.org/learn/project-planning-google",
+      },
+      {
+        id: "4",
+        name: "Project Execution: Running the Project",
+        link: "https://www.coursera.org/learn/project-execution-google",
+      },
+      {
+        id: "5",
+        name: "Agile Project Management",
+        link: "https://www.coursera.org/learn/agile-project-management",
+      },
+      {
+        id: "6",
+        name: "Capstone: Applying Project Management in the Real World",
+        link: "https://www.coursera.org/learn/applying-project-management",
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "",
+        link: ""
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "1",
+        name: "Farish C V",
+        designation: "Google",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "day time",
+    officeplace: "Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "1",
+        name: "Rebel’s Guide To PM",
+        link: "https://rebelsguidetopm.com/category/productive/",
+      },
+      {
+        id: "2",
+        name: "Project management.com",
+        link: "https://www.projectmanagement.com/blogs/",
+      },
+      {
+        id: "3",
+        name: "Work Life by Atlassian",
+        link: "https://www.atlassian.com/blog",
+      },
+    ],
+    people: [
+      {
+        id: "1",
+        name: "Jeff Sutherland",
+        link: "https://twitter.com/jeffsutherland",
+      },
+      {
+        id: "2",
+        name: "David Allen",
+        link: "https://twitter.com/gtdguy",
+      },
+      {
+        id: "3",
+        name: "Martin Fowler",
+        link: "https://twitter.com/martinfowler",
+      },
+      {
+        id: "4",
+        name: "Rebels Guide to PM",
+        link: "https://twitter.com/rebelsguidetopm",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "f360",
+    interestgroup: "FUSION 360",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - Fusion 360",
+        link: " https://mulearn.acadle.com/page/fusion360101 ",
+        complexity: "",
+        time: "45 hours",
+        karma: "800"
+      },
+      {
+        id: "2",
+        name: "Create a design as per requirements",
+        link: "https://mulearn.notion.site/Fusion360-Task-1-dd8d1ee39357485b8b347fc61fa137f2",
+      },
+      {
+        id: "3",
+        name: "Designing a Tea Cup",
+        link: "https://www.notion.so/Fusion-360-Task-1-e517db2006314f09a069328f88dd93e3",
+      },
+      {
+        id: "4",
+        name: "Designing a Spanner",
+        link: "https://www.notion.so/Fusion-360-Task-1-e517db2006314f09a069328f88dd93e3",
+      },
+      {
+        id: "5",
+        name: "Designing a Plier",
+        link: "https://www.notion.so/Fusion-360-Task-1-e517db2006314f09a069328f88dd93e3",
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Autodesk Certification Courses",
+        link: "https://www.autodesk.com/certification/learn/catalog/product/Fusion%20360"
+      },
+    ],
+    corecourses: [
+      {
+        name: "AutoCAD: Beginner to Professional Training ",
+        link: "https://alison.com/course/autocad-beginner-to-professional-training?utm_source=alison_user&utm_medium=affiliates&utm_campaign=26639001",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentors: ["Jogin", "Minshad Babu"],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+      {
+        id: "",
+        name: "Jogin",
+        designation: "Fablab Kerala",
+      },
+      {
+        id: "",
+        name: "Minshad Babu",
+        designation: "Fablab Kerala",
+      },
+    ],
+    officetime: "Tuesday 8.30 PM",
+    officeplace: "Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "pcbd",
+    interestgroup: "PCB Desigining",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - PCB Designing",
+        link: " https://mulearn.atfg.gtechindia.org/page/pcbdesign101 ",
+        complexity: "",
+        time: "6 hour",
+        karma: "800"
+      },
+      {
+        id: "2",
+        name: "Design a Board Layout for a PCB",
+        link: "https://www.notion.so/PCB-Designing-163783ca830a49eeb044139532a307f6",
+      },
+      {
+        id: "3",
+        name: "Design a simple LED circuit and PCB",
+        link: "https://www.notion.so/PCB-Designing-163783ca830a49eeb044139532a307f6",
+      },
+      {
+        id: "4",
+        name: "Design a PCB Enclosure",
+        link: "https://www.notion.so/PCB-Designing-163783ca830a49eeb044139532a307f6",
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "",
+        link: ""
+      },
+    ],
+    corecourses: [
+      // {
+      //   name: "",
+      //   link: "",
+      //   complexity: "",
+      //   time: "",
+      //   karma: "",
+      // },
+      {
+        id: "1",
+        name: "PCB Design with Eagle",
+        link: "https://www.udemy.com/course/pcb-design-eagle/",
+      },
+    ],
+    // subcourses: [{
+    //   name: "",
+    //   link: "",
+    //   complexity: "",
+    //   time: "",
+    //   karma: "",
+    // },
+    // ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Wedensday 8.30 PM",
+    officeplace: " Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "cdpsd",
+    interestgroup: "Creative Design : Photoshop",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - Photoshop",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+      {
+        name: "Create a design as per requirements",
+        link: "https://mulearn.notion.site/Photoshop-Task-1-28ae5a2c4d154dd08a90238a28370e53",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Class Central",
+        link: "https://www.classcentral.com/subject/adobe-photoshop"
+      },
+      {
+        id: "",
+        name: "Adobe",
+        link: "https://helpx.adobe.com/in/photoshop/tutorials.html"
+      },
+      {
+        id: "",
+        name: "Udemy",
+        link: "https://www.udemy.com/topic/photoshop/free/"
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Thursday 8.30 PM",
+    officeplace: "Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "3dp",
+    interestgroup: "3D-Printing",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - 3D Printing",
+        link: " https://mulearn.atfg.gtechindia.org/page/3dprinting101 ",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "",
+        link: ""
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "3D Clay Printing",
+      link: "https://www.udemy.com/course/introduction-to-3d-clay-printing/",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "day time",
+    officeplace: "eg: Discord Lobby",
+    challenges: [
+      {
+        name: "3D Printing In Windows",
+        link: "https://alison.com/course/3d-printing-with-windows-10?utm_source=alison_user&utm_medium=affiliates&utm_campaign=26639001",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "cdai",
+    interestgroup: "Creative Design : Illustrator",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - ",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+      {
+        name: "Create a design as per instructions",
+        link: "https://mulearn.notion.site/Illustrator-2b5df3d2593e4ea6bbec05bf9eab2d2b",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Adobe Tutorials",
+        link: "https://helpx.adobe.com/in/illustrator/view-all-tutorials.html"
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Saturday 8.30 PM",
+    officeplace: "eg: Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "cdpp",
+    interestgroup: " Premier Pro    ",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - Premier pro",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+      {
+        name: "Create a Video as per instructions",
+        link: "https://mulearn.notion.site/Premier-Pro-Task-1-f12e0296a9fd4bf3ace3eeccf336a44f",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Premiere PRO Tutorials",
+        link: "https://helpx.adobe.com/in/premiere-pro/premiere-pro-cs6-tutorials.html"
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Sunday 9.00 PM",
+    officeplace: "Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "autocad",
+    interestgroup: "",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Create a Plan as per instructions",
+        link: "https://mulearn.notion.site/AutoCAD-Task-1-b01306b2af874c7d899a45b72cf7a3c6",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Autodesk Courses",
+        link: "https://www.autodesk.com/certification/learn/catalog/product/AutoCAD"
+      },
+      {
+        id: "",
+        name: "AutoCad Design Drafts",
+        link: "https://www.autodesk.com/certification/learn/catalog/product/AutoCAD"
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Monday 9.00 PM",
+    officeplace: " Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  },
+  {
+    commingsoon: true,
+    id: "revit",
+    interestgroup: "",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Create a Plan as per instructions",
+        link: "https://mulearn.notion.site/Revit-Task-1-70060b2526c54383a54078c5f873a739",
+        complexity: "",
+        time: "",
+        karma: ""
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Autodesk Courses",
+        link: "https://www.autodesk.com/certification/learn/catalog/product/Revit"
+      },
+    ],
+    corecourses: [
+      {
+        name: "",
+        link: "",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    officetime: "Wednesday 9.00 PM",
+    officeplace: "Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
   },
 ];
 
