@@ -30,7 +30,7 @@
 
 .v_img {
   margin-bottom: -2.5rem;
-  height: 25rem;
+  width: 25rem;
 }
 
 .v_content {
@@ -86,6 +86,7 @@
 
   .v_img {
     height: 35rem;
+    width: auto;
   }
 
   .view {

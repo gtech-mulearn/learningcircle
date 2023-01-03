@@ -110,6 +110,33 @@ const PostCircleCreation = () => {
               <button className={styles.button}>Join Whatsapp Group</button>
             </div>
           </div>
+          <div className={styles.steps_view}>
+            <div className={styles.ssv_texts}>
+              <p className={styles.ssv_heading}>
+                Step 3: Start <span>Learning</span>
+              </p>
+              <p className={styles.ssv_content}>
+                Check out the free learning resources for your interest group
+                and start learning them with your circle! There is a wide range
+                of courses available, from basics to advanced, and it's a great
+                way to gain new knowledge, skills and karma points with the
+                support of your peers.
+                <br />
+                <br />
+                Join in on the regularly scheduled office hours at the mulearn
+                discord server if you have any questions or need mentor help.
+              </p>
+              <button className={styles.button}>Checkout Resources</button>
+            </div>
+
+            <div className={styles.v_image}>
+              <img
+                src="/assets/postcirclecreation/learning.gif"
+                alt=""
+                className={styles.v_img}
+              />
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
