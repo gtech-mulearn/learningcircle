@@ -2476,6 +2476,144 @@ const InterestGroups = [
       },
     ]
   },
+  {
+    commingsoon: true,
+    id: "f360",
+    interestgroup: "FUSION 360",
+    interestgroupdescription: "",
+    leads: [],
+    basicenablementtasks: [
+      {
+        name: "Basic Enablemnt Task - Fusion 360",
+        link: " https://mulearn.acadle.com/page/fusion360101 ",
+        complexity: "",
+        time: "45 hours",
+        karma: "800"
+      },
+      {
+        id: "2",
+        name: "Create a design as per requirements",
+        link: "https://mulearn.notion.site/Fusion360-Task-1-dd8d1ee39357485b8b347fc61fa137f2",
+      },
+      {
+        id: "3",
+        name: "Designing a Tea Cup",
+        link: "https://www.notion.so/Fusion-360-Task-1-e517db2006314f09a069328f88dd93e3",
+      },
+      {
+        id: "4",
+        name: "Designing a Spanner",
+        link: "https://www.notion.so/Fusion-360-Task-1-e517db2006314f09a069328f88dd93e3",
+      },
+      {
+        id: "5",
+        name: "Designing a Plier",
+        link: "https://www.notion.so/Fusion-360-Task-1-e517db2006314f09a069328f88dd93e3",
+      },
+    ],
+    learningpaths: [
+      {
+        id: "",
+        name: "Autodesk Certification Courses",
+        link: "https://www.autodesk.com/certification/learn/catalog/product/Fusion%20360"
+      },
+    ],
+    corecourses: [
+      {
+        name: "AutoCAD: Beginner to Professional Training ",
+        link: "https://alison.com/course/autocad-beginner-to-professional-training?utm_source=alison_user&utm_medium=affiliates&utm_campaign=26639001",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+    ],
+    subcourses: [{
+      name: "",
+      link: "",
+      complexity: "",
+      time: "",
+      karma: "",
+    },
+    ],
+    mentors: ["Jogin", "Minshad Babu"],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedin: "",
+        stack: "",
+        image: "",
+      },
+      {
+        id: "",
+        name: "Jogin",
+        designation: "Fablab Kerala",
+      },
+      {
+        id: "",
+        name: "Minshad Babu",
+        designation: "Fablab Kerala",
+      },
+    ],
+    officetime: "Tuesday 8.30 PM",
+    officeplace: "Discord Lobby",
+    challenges: [
+      {
+        name: "",
+        link: "/challenge/web",
+        description: ""
+      },
+    ],
+    opportunities: [],
+    community: [],
+    company: [""],
+    blogs: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      }
+    ],
+    people: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+    ],
+    trending: [
+      {
+        id: "",
+        name: "",
+        link: "",
+      },
+
+    ],
+    keywords: [
+      {
+        id: "",
+        keyword: "",
+      },],
+    resources: [
+      {
+        id: "",
+        name: "",
+        description: "",
+        link: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "",
+        name: "",
+      },
+      {
+        id: "",
+        name: "",
+      },
+    ]
+  }
 ];
 
 export default InterestGroups;
