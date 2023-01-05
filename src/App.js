@@ -6,7 +6,7 @@ import axios from "axios";
 import Home from "./Pages/LearningCircles/Home/Home";
 import Create from "./Pages/LearningCircles/Create/Create";
 import Join from "./Pages/LearningCircles/Join/Join.jsx";
-import PostCircleCreation from "./Pages/LearningCircles/PostCircleCreation/PostCircleCreation";
+import GettingStarted from "./Pages/LearningCircles/GettingStarted/GettingStarted";
 
 //InterestGroups
 import InterestGroup from "./Pages/InterestGroups/InterestGroup";
@@ -214,7 +214,7 @@ function App() {
           <Route
             path="/gettingstarted/:id"
             element={
-              <PostCircleCreation create={create} wlink={wlink} join={join} />
+              <GettingStarted create={create} wlink={wlink} join={join} />
             }
           />
 

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "rust",
+    "name": "Rust Bootcamp",
+    "wlink": "rust-whatsapp"
+  },
+  {
+    "id": "python",
+    "name": "Python Bootcamp",
+    "wlink": "python-ig-whatsapp"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript Bootcamp",
+    "wlink": "javascript-ig-whatsapp"
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter",
+    "wlink": "flutter-whatsapp"
+  },
+  {
+    "id": "cybersec",
+    "name": "Cyber Security",
+    "wlink": "cybersec-whatsapp"
+  },
+  {
+    "id": "web",
+    "name": "Web Development",
+    "wlink": "bootcamps/javascript"
+  },
+  {
+    "id": "android",
+    "name": "Android Development",
+    "wlink": "android-whatsapp"
+  },
+  {
+    "id": "pwl",
+    "name": "Papers We Love",
+    "wlink": "pwl-ig-whatsapp"
+  },
+  {
+    "id": "blockchain",
+    "name": "Blockchain",
+    "wlink": "blockchain-ig-whatsapp"
+  },
+  {
+    "id": "pm",
+    "name": "Product Management",
+    "wlink": "pm-ig-whatsapp"
+  },
+  {
+    "id": "devops",
+    "name": "DevOps",
+    "wlink": "devops-ig-whatsapp"
+  }
+]

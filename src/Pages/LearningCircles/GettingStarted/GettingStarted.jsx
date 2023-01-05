@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import styles from "./PostCircleCreatio.module.css";
+import styles from "./GettingStarted.module.css";
 
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
 
-import confetti from "canvas-confetti";
 import axios from "axios";
 
-const PostCircleCreation = ({ create, wlink, join }) => {
+const GettingStarted = ({ create, wlink, join }) => {
   const { id } = useParams();
+  const [localWLink, setLocalWLink] = useState();
   const [circledata, setCircleData] = useState();
   useEffect(() => {
     axios
@@ -19,11 +19,23 @@ const PostCircleCreation = ({ create, wlink, join }) => {
         }`
       )
       .then(function (response) {
-        confetti();
         setCircleData(response.data.data);
       })
-      .catch(function (error) {});
-  }, [id]);
+      .catch(function (error) {
+        console.log(error);
+      });
+  }, [id, create, join]);
+
+  useEffect(() => {
+    if (wlink === undefined && circledata) {
+      const data = require("./igwlinks.json");
+      const filteredData = data.filter(
+        (element) => element.id === circledata.interest
+      );
+
+      setLocalWLink(`https://mulearn.org/${filteredData[0].wlink}`);
+    }
+  }, [circledata, wlink]);
 
   return (
     <>
@@ -44,7 +56,11 @@ const PostCircleCreation = ({ create, wlink, join }) => {
                 for your learning sessions, and share resources and knowledge
                 with other members.
               </p>
-              <a href={wlink} target="_blank" rel="noopener noreferrer">
+              <a
+                href={wlink || localWLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button className={styles.button}>Join Whatsapp Group</button>
               </a>
             </div>
@@ -155,7 +171,11 @@ const PostCircleCreation = ({ create, wlink, join }) => {
                 We look forward to seeing you in the group and engaging in
                 meaningful discussions and learning opportunities.
               </p>
-              <a href={wlink} target="_blank" rel="noopener noreferrer">
+              <a
+                href={wlink || localWLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button className={styles.button}>Join Whatsapp Group</button>
               </a>
             </div>
@@ -198,4 +218,4 @@ const PostCircleCreation = ({ create, wlink, join }) => {
   );
 };
 
-export default PostCircleCreation;
+export default GettingStarted;
