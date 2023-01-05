@@ -2107,6 +2107,7 @@ const InterestGroups = [
     "": {},
   },
   {
+    comingsoon: "true",
     id: "innovation",
     interestgroup: "Innovation",
     interestgroupdescription:
@@ -2160,20 +2161,20 @@ const InterestGroups = [
     mentors: ["Deepu S Nath", "Micle"],
     mentorscard: [
       {
-        id: "",
+        id: "S30",
         name: "Deepu S Nath",
-        designation: "",
-        linkedin: "",
-        stack: "",
-        image: "",
+        designation: "Managing Director - Tech Faya Innovations Pvt Ltd",
+        stack: " JavaScript,Angular",
+        image: "https://www.fayaport80.com/speakers/thumb/Deepu-S-Nath.jpg",
+        linkedIn: "https://www.linkedin.com/in/deepusnath/",
       },
       {
-        id: "",
-        name: "Micle",
-        designation: "",
-        linkedin: "",
-        stack: "",
-        image: "",
+        id: "S139",
+        name: "Michael Mathews",
+        designation: "Independent consultant, TCS",
+        linkedin: "https://www.linkedin.com/in/michaelmathewsk",
+        stack: "UI UX",
+        image: "/assets/mentors/Michael Mathews.webp",
       },
     ],
     officetime: "Friday 7:00 PM",
@@ -2414,31 +2415,8 @@ const InterestGroups = [
         link: "https://www.coursera.org/learn/applying-project-management",
       },
     ],
-    learningpaths: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    corecourses: [
-      {
-        name: "",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
-    subcourses: [
-      {
-        name: "",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    corecourses: [],
+    subcourses: [],
     mentorscard: [
       {
         id: "1",
@@ -2448,8 +2426,8 @@ const InterestGroups = [
         image: "",
       },
     ],
-    officetime: "day time",
-    officeplace: "Discord Lobby",
+    officetime: "NaN",
+    officeplace: "NaN",
     opportunities: [],
     community: [],
     company: [""],
@@ -2499,12 +2477,6 @@ const InterestGroups = [
         link: "",
       },
     ],
-    keywords: [
-      {
-        id: "",
-        keyword: "",
-      },
-    ],
     resources: [
       {
         id: "",
@@ -2526,7 +2498,6 @@ const InterestGroups = [
   },
 
   {
-    commingsoon: true,
     id: "3dp",
     interestgroup: "3D-Printing",
     interestgroupdescription:
@@ -2541,22 +2512,8 @@ const InterestGroups = [
         karma: "",
       },
     ],
-    learningpaths: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    corecourses: [
-      {
-        name: "",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    learningpaths: [],
+    corecourses: [],
     subcourses: [
       {
         name: "3D Clay Printing",
@@ -2576,53 +2533,13 @@ const InterestGroups = [
         image: "",
       },
     ],
-    officetime: "day time",
-    officeplace: "eg: Discord Lobby",
-    challenges: [
-      {
-        name: "3D Printing In Windows",
-        link: "https://alison.com/course/3d-printing-with-windows-10?utm_source=alison_user&utm_medium=affiliates&utm_campaign=26639001",
-        description: "",
-      },
-    ],
-    opportunities: [],
+    officetime: "NaN",
+    officeplace: "NaN",
     community: [],
     company: [""],
-    blogs: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    people: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    trending: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    keywords: [
-      {
-        id: "",
-        keyword: "",
-      },
-    ],
-    resources: [
-      {
-        id: "",
-        name: "",
-        description: "",
-        link: "",
-      },
-    ],
+    trending: [],
+    comingsoon: "true",
+    resources: [],
     pagination: [
       {
         id: "",
@@ -2635,7 +2552,6 @@ const InterestGroups = [
     ],
   },
   {
-    commingsoon: true,
     id: "autocad",
     interestgroup: "AutoCAD",
     interestgroupdescription:
@@ -2662,24 +2578,9 @@ const InterestGroups = [
         link: "https://www.autodesk.com/certification/learn/catalog/product/AutoCAD",
       },
     ],
-    corecourses: [
-      {
-        name: "",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
-    subcourses: [
-      {
-        name: "",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    corecourses: [],
+    subcourses: [],
+    comingsoon: true,
     mentorscard: [
       {
         id: "",
@@ -2695,41 +2596,6 @@ const InterestGroups = [
     opportunities: [],
     community: [],
     company: [""],
-    blogs: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    people: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    trending: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    keywords: [
-      {
-        id: "",
-        keyword: "",
-      },
-    ],
-    resources: [
-      {
-        id: "",
-        name: "",
-        description: "",
-        link: "",
-      },
-    ],
     pagination: [
       {
         id: "",
@@ -2742,7 +2608,7 @@ const InterestGroups = [
     ],
   },
   {
-    commingsoon: true,
+    comingsoon: true,
     id: "revit",
     interestgroup: "Autodesk Revit",
     interestgroupdescription:
@@ -2764,74 +2630,15 @@ const InterestGroups = [
         link: "https://www.autodesk.com/certification/learn/catalog/product/Revit",
       },
     ],
-    corecourses: [
-      {
-        name: "",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
-    subcourses: [
-      {
-        name: "",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
-    mentorscard: [
-      {
-        id: "",
-        name: "",
-        designation: "",
-        linkedin: "",
-        stack: "",
-        image: "",
-      },
-    ],
+    corecourses: [],
+    subcourses: [],
+    mentorscard: [],
     officetime: "NaN",
     officeplace: "NaN",
     opportunities: [],
     community: [],
     company: [""],
-    blogs: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    people: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    trending: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    keywords: [
-      {
-        id: "",
-        keyword: "",
-      },
-    ],
-    resources: [
-      {
-        id: "",
-        name: "",
-        description: "",
-        link: "",
-      },
-    ],
+    resources: [],
     pagination: [
       {
         id: "",
