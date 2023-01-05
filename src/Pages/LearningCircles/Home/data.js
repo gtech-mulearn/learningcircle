@@ -254,7 +254,7 @@ const InterestGroups = [
       },
       {
         id: "3",
-        name: "Write a blog on Furture of IoT",
+        name: "Write a Blog on Furture of IoT",
       },
     ],
     trendingprojectsprojects: [
@@ -2017,7 +2017,7 @@ const InterestGroups = [
     id: "innovation",
     interestgroup: "Innovation",
     interestgroupdescription:
-      "Startups bring new ideas and challenge established players, driving innovation in business. Innovation helps startups succeed and differentiate themselves. Startups explore cutting-edge technology and novel business models to solve problems and meet customer needs. Join our interest group to learn more about this dynamic field.",
+      "Startups drive innovation by introducing new ideas and challenging established players. They utilize cutting-edge technology and unique business models to solve problems and meet customer needs. Join our interest group to learn more about this dynamic field.",
     basicenablementtasks: [
       {
         name: "Revenue Models Matching Card Game",
@@ -2087,12 +2087,14 @@ const InterestGroups = [
     officeplace: " at Discord Lobby",
     challenges: [
       {
-        name: "Plan a business.",
+        id: "1",
+        name: "Plan a business",
         link: "https://venturelab.org/planner/home",
         description: "",
       },
       {
-        name: "Create a pitch.",
+        id: "2",
+        name: "Create a pitch",
         link: "https://venturelab.org/pitch/home",
         description: "",
       },
@@ -2287,7 +2289,7 @@ const InterestGroups = [
     id: "projectmanagment",
     interestgroup: "Project Management",
     interestgroupdescription:
-      "Effective project management is critical to the success of any project, large or small. It involves setting clear goals, establishing a plan to achieve those goals, and coordinating resources and team members to ensure that the project is completed on time and within budget. Good project management skills are essential for anyone looking to take on leadership roles in their organization. Join our interest group to learn more about project management techniques and best practices",
+      "Effective project management involves setting goals, creating a plan, and coordinating resources to ensure successful project completion. Join our interest group to learn more about these techniques and best practices.",
 
     basicenablementtasks: [
       {
@@ -2402,12 +2404,11 @@ const InterestGroups = [
       },
     ],
   },
-
   {
     id: "3dp",
     interestgroup: "3D-Printing",
     interestgroupdescription:
-      "3D printing is a manufacturing process that creates three-dimensional objects by building up successive layers of material under computer control. It allows for the creation of complex shapes and designs that might not be possible with traditional manufacturing methods.Join the 3D printing interest group to learn more about this exciting technology and how it is changing the way we design and manufacture products!",
+      "3D printing is a manufacturing process that creates objects by building successive layers of material under computer control, allowing for the creation of complex shapes and designs. Join the 3D printing interest group to learn more about this technology and its impact on design and manufacturing.",
 
     basicenablementtasks: [
       {
@@ -2461,7 +2462,7 @@ const InterestGroups = [
     id: "autocad",
     interestgroup: "AutoCAD",
     interestgroupdescription:
-      "AutoCAD is a professional drafting and design software used by architects, engineers, and construction professionals to create accurate 2D and 3D drawings and documents. It offers a wide range of powerful tools and features for creating precise technical drawings, 3D models, and visualizations.Join our AutoCAD interest group to learn from experts, collaborate with peers, and advance your skills in this industry-leading drafting and design software.",
+      "AutoCAD is a professional drafting and design software used to create accurate 2D and 3D drawings and documents. Join our AutoCAD interest group to learn from experts and advance your skills in this industry-leading software.",
 
     basicenablementtasks: [
       {
@@ -2518,7 +2519,7 @@ const InterestGroups = [
     id: "revit",
     interestgroup: "Autodesk Revit",
     interestgroupdescription:
-      "Revit is a building information modeling (BIM) software used by architects, engineers, and construction professionals to design, construct, and manage buildings and infrastructure.Join our Revit Interest group to learn, collaborate, and share your expertise with other professionals using this powerful building information modeling software.",
+      "Revit is a building information modeling (BIM) software used to design and manage buildings and infrastructure. Join our Revit interest group to learn and collaborate with other professionals.",
 
     basicenablementtasks: [
       {

@@ -44,6 +44,10 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 
 const InterestGroup = ({ setInterest }) => {
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     setInterest(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [setInterest]);
@@ -399,23 +403,32 @@ const InterestGroup = ({ setInterest }) => {
                   <div className={styles.sv_texts}>
                     <p className={styles.sv_heading}>μChallenges</p>
                     <p className={styles.sv_content}>
-                      Learning by Solving challenges is much more interesting
-                      than simply learning. Here we have a challenge to solve
-                      and if you are ready to learn, then together let’s get one
-                      lakh Businesses into production.
+                      Solving challenges while learning can be more engaging. A
+                      specific problem presents an opportunity for hands-on
+                      learning and skill development. If you are ready to take
+                      on this learning approach, there is a challenge waiting
+                      for you.
                     </p>
-                    <ul className={styles.sv_lists}>
-                      <li className={styles.list_item}>
-                        <a
-                          href="https://awesome.mulearn.org"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Bring Every Business Online
-                          <span className={styles.link}> Click Here</span>
-                        </a>
-                      </li>
-                    </ul>
+                    {data[0].challenges.map((challenge) => (
+                      <ul className={styles.sv_lists}>
+                        <li className={styles.list_item}>
+                          <b>Challenge {challenge.id}: </b>
+                          {challenge.name}
+                          {challenge.link && (
+                            <a
+                              href={challenge.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className={styles.link}>
+                                {" "}
+                                :&nbsp;Click Here
+                              </span>
+                            </a>
+                          )}
+                        </li>
+                      </ul>
+                    ))}
                   </div>
                 </div>
               )}
