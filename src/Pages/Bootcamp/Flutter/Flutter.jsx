@@ -73,7 +73,7 @@ const Flutter = () => {
                           >
                             Dart SDK
                           </a>
-                          For more useablity and easiness, install the following
+                          For more usablity and easiness, install the following
                           extension for the VSCode Marketplace/Code Editor.
                           Error Lens, Dart, Flutter, Prettier Material Icons,
                           Night Owl Theme(Optional)
