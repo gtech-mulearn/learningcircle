@@ -162,6 +162,34 @@ const InterestGroup = ({ setInterest }) => {
             </div>
           )}
 
+          {data[0].leads && data[0].leads[0] && (
+            <div className={styles.second_view_container}>
+              <div className={styles.second_view}>
+                <div className={styles.sv_texts}>
+                  <p className={styles.sv_heading}>Interest Group Leads</p>
+                  <p className={styles.sv_content}>
+                    Interest group leads manage the activities and events within
+                    interest groups and serve as a point of contact for students
+                    interested in getting involved. Students can connect with
+                    these leads to learn about opportunities within their
+                    interests.
+                  </p>
+
+                  <div className={styles.mentor_container}>
+                    <div className={styles.mentors}>
+                      {data[0].leads.map((lead) => (
+                        <MentorCard
+                          name={lead.name}
+                          designation={lead.college}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
           {data[0].corecourses && data[0].corecourses[0] && (
             <div className={styles.table_view_container}>
               <div className={styles.table_view}>
