@@ -76,12 +76,12 @@ const InterestGroups = [
     ],
     pagination: [
       {
-        id: "pm",
-        name: "< Product Management",
+        id: "innovation",
+        name: "< Innovation",
       },
       {
-        id: "uiux",
-        name: "UI/UX >",
+        id: "web",
+        name: "Web Development >",
       },
     ],
     mentorscard: [
@@ -298,260 +298,6 @@ const InterestGroups = [
     ],
   },
   {
-    comingsoon: "true",
-    id: "uiux",
-    interestgroup: "User Interface and Experience (UI/UX)",
-    interestgroupdescription:
-      "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.",
-    officetime: "Wednesday 7:30 PM",
-    officeplace: " at Discord Lobby",
-    community: ["GDSC MBCET", "FoF Kochi"],
-    opportunities: [
-      "User Interface (UI) Designer",
-      "User Experience (UX) Designer",
-    ],
-    company: ["Faya", "Experion Technologies"],
-    pagination: [
-      {
-        id: "iot",
-        name: "< Internet of Things",
-      },
-      {
-        id: "web",
-        name: "Web Development >",
-      },
-    ],
-    mentors: [
-      "Michael Mathews",
-      "Salman Faariz",
-      "Rhea Merin",
-      "Navaneeth Venu",
-    ],
-    learningpaths: [
-      {
-        name: "How to be a UX Designer?",
-        link: "https://brainstation.io/career-guides/how-to-become-a-ux-designer",
-      },
-      {
-        name: "How to be a UI Designer?",
-        link: "https://brainstation.io/career-guides/how-to-become-a-ui-designer.",
-      },
-    ],
-    mentorscard: [
-      {
-        id: "S139",
-        name: "Michael Mathews",
-        designation: "Independent consultant, TCS",
-        linkedIn: "https://www.linkedIn.com/in/michaelmathewsk",
-        stack: "UI UX",
-        image:
-          "https://drive.google.com/uc?export=view&id=1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I",
-      },
-      {
-        id: "S51",
-        name: "Madhav M Nair",
-        designation: "User Experience Designer,  Jio Tesseract",
-        stack: "AR / VR / MR / CR",
-        image: "https://www.fayaport80.com/speakers/thumb/Madhav-M-Nair.jpg",
-        linkedIn: "https://www.linkedIn.com/in/madhavmnair/",
-      },
-      {
-        id: "S140",
-        name: "Salman Faariz",
-        designation: "Program Associate, GTech µLearn",
-        linkedIn: "https://www.linkedIn.com/in/salman-faariz-37b892194",
-        stack: "UI UX",
-        image:
-          "https://drive.google.com/uc?export=view&id=1oNK1QekGS6xhNU50317onjvEc82RNQ4s",
-      },
-      {
-        id: "S141",
-        name: "Rhea Merin",
-        designation: "Program Associate, GTech µLearn ",
-        linkedIn: "https://www.linkedIn.com/in/rheamerin",
-        stack: "UI UX",
-        image:
-          "https://drive.google.com/uc?export=view&id=1XGaSobjiNegNPTtpNSsL58aes9PN7XJ6",
-      },
-      {
-        id: "S142",
-        name: "Navaneeth Venu",
-        designation: "Design Lead, GDSC MBCET",
-        linkedIn: "https://www.linkedIn.com/in/navaneethvenu",
-        stack: "UI UX",
-        image:
-          "https://drive.google.com/uc?export=view&id=1wGokGAMruQul49It6LmMeMv_aaV-VN2R",
-      },
-    ],
-
-    basicenablementtasks: [
-      {
-        name: "Create a Figma Account",
-        link: "/uiux/enablement/1",
-        complexity: "1",
-        time: "10 mins",
-        karma: "200",
-      },
-      {
-        id: "3",
-        name: "Create an UI for given wireframe",
-        link: "https://www.notion.so/mulearn/UI-UX-Task-3-cab50a68b1714df79f691c7d5c099b63",
-      },
-    ],
-    corecourses: [
-      {
-        name: "Product Design By Google",
-        link: "/uiux/core/1",
-        complexity: "",
-        time: "",
-        karma: "400",
-      },
-      {
-        name: "Introduction to User Experience Design",
-        link: "/uiux/core/2",
-        complexity: "",
-        time: "",
-        karma: "400",
-      },
-    ],
-    subcourses: [
-      {
-        name: "Figma Ultimate Crash Course",
-        link: "/uiux/sub/1",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-    ],
-    keywords: [
-      {
-        id: "1",
-        keyword: "User-Centered Design.",
-      },
-      {
-        id: "2",
-        keyword: "Wireframes",
-      },
-      {
-        id: "3",
-        keyword: "Interaction Design",
-      },
-      {
-        id: "4",
-        keyword: "Storyboarding",
-      },
-      {
-        id: "5",
-        keyword: "User Interface Design",
-      },
-      {
-        id: "6",
-        keyword: "Figma",
-      },
-      {
-        id: "7",
-        keyword: "Prototype",
-      },
-      {
-        id: "8",
-        keyword: "Adobe XD",
-      },
-    ],
-    blogs: [
-      {
-        id: "1",
-        name: "Interaction Design",
-        link: "https://www.interaction-design.org/literature",
-      },
-      {
-        id: "2",
-        name: "UX Design",
-        link: "https://uxdesign.cc/",
-      },
-      {
-        id: "2",
-        name: "The UX Collective Newsletter",
-        link: "https://newsletter.uxdesign.cc/",
-      },
-    ],
-    people: [
-      {
-        id: "1",
-        name: "Two Habits Design",
-        link: "https://www.instagram.com/twohabitsdesign/",
-      },
-      {
-        id: "2",
-        name: "UI UX Web Design Inspiration",
-        link: "https://www.instagram.com/dailywebdesign/",
-      },
-      {
-        id: "3",
-        name: "Zander Whitehurst",
-        link: "https://www.instagram.com/zanderwhitehurst/",
-      },
-      {
-        id: "4",
-        name: "Yaël Levey",
-        link: "https://twitter.com/yaellevey",
-      },
-    ],
-    challenges: [
-      {
-        id: "1",
-        name: "Create Hambuger Animation in Figma",
-      },
-      {
-        id: "2",
-        name: "Create Loding Animation in Figma",
-      },
-      {
-        id: "3",
-        name: "100 Daily UI Challenge (Community) – Figma",
-        link: "https://www.figma.com/file/qy2lGPLBBko6asJA0uxLAO/100-Daily-UI-Challenge-(Community)?node-id=0%3A1",
-      },
-      {
-        id: "4",
-        name: "DailyUI – A list of every DailyUI design challenge · GitHub",
-        link: "https://gist.github.com/Pustur/3b2bee790d2c8a966136d76a9157d5e4",
-      },
-    ],
-    trendingprojects: [
-      {
-        id: "1",
-        name: "Abstract Data Visualization",
-      },
-      {
-        id: "2",
-        name: "Surreal Product Photographs",
-      },
-      {
-        id: "3",
-        name: "Realistic Textures",
-      },
-      {
-        id: "4",
-        name: "Illustrated Animations",
-      },
-      {
-        id: "5",
-        name: "Air Gesture Control",
-      },
-      {
-        id: "6",
-        name: "Voice User Interface",
-      },
-    ],
-    resources: [
-      {
-        id: "1",
-        name: "Assignment by Cleartrip",
-        description: "",
-        link: "https://www.designassignments.com/assignments?recordId=recwTp10P14EIBQ2g",
-      },
-    ],
-  },
-  {
     id: "web",
     interestgroup: "Web Development",
     interestgroupdescription:
@@ -605,8 +351,8 @@ const InterestGroups = [
     company: ["Travancore Analytics", "PITS"],
     pagination: [
       {
-        id: "uiux",
-        name: "< UI/UX",
+        id: "iot",
+        name: "< IoT",
       },
       {
         id: "android",
@@ -1420,8 +1166,8 @@ const InterestGroups = [
         name: "< Cyber Security",
       },
       {
-        id: "arvr",
-        name: "AR/VR >",
+        id: "uiux",
+        name: "UI/UX >",
       },
     ],
     learningpaths: [
@@ -1582,6 +1328,260 @@ const InterestGroups = [
     ],
   },
   {
+    comingsoon: "true",
+    id: "uiux",
+    interestgroup: "User Interface and Experience (UI/UX)",
+    interestgroupdescription:
+      "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.",
+    officetime: "Wednesday 7:30 PM",
+    officeplace: " at Discord Lobby",
+    community: ["GDSC MBCET", "FoF Kochi"],
+    opportunities: [
+      "User Interface (UI) Designer",
+      "User Experience (UX) Designer",
+    ],
+    company: ["Faya", "Experion Technologies"],
+    pagination: [
+      {
+        id: "pm",
+        name: "< Product Management",
+      },
+      {
+        id: "arvr",
+        name: "AR/VR >",
+      },
+    ],
+    mentors: [
+      "Michael Mathews",
+      "Salman Faariz",
+      "Rhea Merin",
+      "Navaneeth Venu",
+    ],
+    learningpaths: [
+      {
+        name: "How to be a UX Designer?",
+        link: "https://brainstation.io/career-guides/how-to-become-a-ux-designer",
+      },
+      {
+        name: "How to be a UI Designer?",
+        link: "https://brainstation.io/career-guides/how-to-become-a-ui-designer.",
+      },
+    ],
+    mentorscard: [
+      {
+        id: "S139",
+        name: "Michael Mathews",
+        designation: "Independent consultant, TCS",
+        linkedIn: "https://www.linkedIn.com/in/michaelmathewsk",
+        stack: "UI UX",
+        image:
+          "https://drive.google.com/uc?export=view&id=1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I",
+      },
+      {
+        id: "S51",
+        name: "Madhav M Nair",
+        designation: "User Experience Designer,  Jio Tesseract",
+        stack: "AR / VR / MR / CR",
+        image: "https://www.fayaport80.com/speakers/thumb/Madhav-M-Nair.jpg",
+        linkedIn: "https://www.linkedIn.com/in/madhavmnair/",
+      },
+      {
+        id: "S140",
+        name: "Salman Faariz",
+        designation: "Program Associate, GTech µLearn",
+        linkedIn: "https://www.linkedIn.com/in/salman-faariz-37b892194",
+        stack: "UI UX",
+        image:
+          "https://drive.google.com/uc?export=view&id=1oNK1QekGS6xhNU50317onjvEc82RNQ4s",
+      },
+      {
+        id: "S141",
+        name: "Rhea Merin",
+        designation: "Program Associate, GTech µLearn ",
+        linkedIn: "https://www.linkedIn.com/in/rheamerin",
+        stack: "UI UX",
+        image:
+          "https://drive.google.com/uc?export=view&id=1XGaSobjiNegNPTtpNSsL58aes9PN7XJ6",
+      },
+      {
+        id: "S142",
+        name: "Navaneeth Venu",
+        designation: "Design Lead, GDSC MBCET",
+        linkedIn: "https://www.linkedIn.com/in/navaneethvenu",
+        stack: "UI UX",
+        image:
+          "https://drive.google.com/uc?export=view&id=1wGokGAMruQul49It6LmMeMv_aaV-VN2R",
+      },
+    ],
+
+    basicenablementtasks: [
+      {
+        name: "Create a Figma Account",
+        link: "/uiux/enablement/1",
+        complexity: "1",
+        time: "10 mins",
+        karma: "200",
+      },
+      {
+        id: "3",
+        name: "Create an UI for given wireframe",
+        link: "https://www.notion.so/mulearn/UI-UX-Task-3-cab50a68b1714df79f691c7d5c099b63",
+      },
+    ],
+    corecourses: [
+      {
+        name: "Product Design By Google",
+        link: "/uiux/core/1",
+        complexity: "",
+        time: "",
+        karma: "400",
+      },
+      {
+        name: "Introduction to User Experience Design",
+        link: "/uiux/core/2",
+        complexity: "",
+        time: "",
+        karma: "400",
+      },
+    ],
+    subcourses: [
+      {
+        name: "Figma Ultimate Crash Course",
+        link: "/uiux/sub/1",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+    ],
+    keywords: [
+      {
+        id: "1",
+        keyword: "User-Centered Design.",
+      },
+      {
+        id: "2",
+        keyword: "Wireframes",
+      },
+      {
+        id: "3",
+        keyword: "Interaction Design",
+      },
+      {
+        id: "4",
+        keyword: "Storyboarding",
+      },
+      {
+        id: "5",
+        keyword: "User Interface Design",
+      },
+      {
+        id: "6",
+        keyword: "Figma",
+      },
+      {
+        id: "7",
+        keyword: "Prototype",
+      },
+      {
+        id: "8",
+        keyword: "Adobe XD",
+      },
+    ],
+    blogs: [
+      {
+        id: "1",
+        name: "Interaction Design",
+        link: "https://www.interaction-design.org/literature",
+      },
+      {
+        id: "2",
+        name: "UX Design",
+        link: "https://uxdesign.cc/",
+      },
+      {
+        id: "2",
+        name: "The UX Collective Newsletter",
+        link: "https://newsletter.uxdesign.cc/",
+      },
+    ],
+    people: [
+      {
+        id: "1",
+        name: "Two Habits Design",
+        link: "https://www.instagram.com/twohabitsdesign/",
+      },
+      {
+        id: "2",
+        name: "UI UX Web Design Inspiration",
+        link: "https://www.instagram.com/dailywebdesign/",
+      },
+      {
+        id: "3",
+        name: "Zander Whitehurst",
+        link: "https://www.instagram.com/zanderwhitehurst/",
+      },
+      {
+        id: "4",
+        name: "Yaël Levey",
+        link: "https://twitter.com/yaellevey",
+      },
+    ],
+    challenges: [
+      {
+        id: "1",
+        name: "Create Hambuger Animation in Figma",
+      },
+      {
+        id: "2",
+        name: "Create Loding Animation in Figma",
+      },
+      {
+        id: "3",
+        name: "100 Daily UI Challenge (Community) – Figma",
+        link: "https://www.figma.com/file/qy2lGPLBBko6asJA0uxLAO/100-Daily-UI-Challenge-(Community)?node-id=0%3A1",
+      },
+      {
+        id: "4",
+        name: "DailyUI – A list of every DailyUI design challenge · GitHub",
+        link: "https://gist.github.com/Pustur/3b2bee790d2c8a966136d76a9157d5e4",
+      },
+    ],
+    trendingprojects: [
+      {
+        id: "1",
+        name: "Abstract Data Visualization",
+      },
+      {
+        id: "2",
+        name: "Surreal Product Photographs",
+      },
+      {
+        id: "3",
+        name: "Realistic Textures",
+      },
+      {
+        id: "4",
+        name: "Illustrated Animations",
+      },
+      {
+        id: "5",
+        name: "Air Gesture Control",
+      },
+      {
+        id: "6",
+        name: "Voice User Interface",
+      },
+    ],
+    resources: [
+      {
+        id: "1",
+        name: "Assignment by Cleartrip",
+        description: "",
+        link: "https://www.designassignments.com/assignments?recordId=recwTp10P14EIBQ2g",
+      },
+    ],
+  },
+  {
     id: "arvr",
     interestgroup: "AR/VR",
     interestgroupdescription:
@@ -1596,8 +1596,8 @@ const InterestGroups = [
     mentorscard: [],
     pagination: [
       {
-        id: "pm",
-        name: "< Product Management",
+        id: "uiux",
+        name: "< UI/UX",
       },
       {
         id: "ai",
@@ -1789,8 +1789,8 @@ const InterestGroups = [
         name: "< Artificial Intelligence",
       },
       {
-        id: "creativedesign",
-        name: "Creative Design >",
+        id: "clouddevops",
+        name: "Cloud & DevOps >",
       },
     ],
     learningpaths: [
@@ -1808,64 +1808,6 @@ const InterestGroups = [
         link: "https://www.freecodecamp.org/news/learn-blockchain-solidity-full-stack-javascript-development/",
       },
     ],
-    subcourses: [],
-    "": {},
-  },
-  {
-    id: "creativedesign",
-    interestgroup: "Creative Design",
-    interestgroupdescription:
-      "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
-    officetime: "Tuesday 7:00pm",
-    comingsoon: "true",
-    officeplace: "",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "blockchain",
-        name: "< BlockChain",
-      },
-      {
-        id: "marketing",
-        name: "Marketing >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
-  },
-  {
-    id: "marketing",
-    interestgroup: "Marketing",
-    interestgroupdescription:
-      "Think you have the skill to market any product? Join the Marketing Interest Group to learn latest marketing strategies, interact with Marketing experts and develop some much needed experience in the field.",
-    officetime: "Thursday 7:00pm",
-    comingsoon: "true",
-    officeplace: "",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "creativedesign",
-        name: "< Creative Design",
-      },
-      {
-        id: "clouddevops",
-        name: "Cloud & DevOps >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
     subcourses: [],
     "": {},
   },
@@ -1945,72 +1887,14 @@ const InterestGroups = [
     company: [],
     pagination: [
       {
-        id: "marketing",
-        name: "< Marketing",
+        id: "blockchain",
+        name: "< Blockchain",
       },
       {
-        id: "entrepreneurship",
-        name: "Entrepreneurship >",
+        id: "innovation",
+        name: "Innovation >",
       },
     ],
-  },
-  {
-    id: "entrepreneurship",
-    interestgroup: "Entrepreneurship",
-    interestgroupdescription:
-      "The joy of starting from scratch and building something unique is special!Entrepreneurship involves understanding your business, developing it, taking risks and making good decisions. If you’ve always wanted to build something unique, Join the Entrepreneurship Interest Group today.",
-    officetime: "Saturday 7:00pm",
-    comingsoon: "true",
-    officeplace: "",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "clouddevops",
-        name: "< Cloud DevOps",
-      },
-      {
-        id: "strategicleadership",
-        name: "Strategic Leadership >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
-  },
-  {
-    id: "strategicleadership",
-    interestgroup: "Strategic Leadership",
-    interestgroupdescription:
-      "Good Leaders lead the way and ensure all voices are heard.Regardless of what you do, possessing good leadership qualities is an ultimate advantage.Join the Interest Group to interact with Industry Leaders and like minded peers, and become a true leader.",
-    officetime: "Sunday 7:00pm",
-    comingsoon: "true",
-    officeplace: "",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "entrepreneurship",
-        name: "< Entrepreneurship",
-      },
-      {
-        id: "iot",
-        name: "Internet of Things >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
   },
   {
     comingsoon: "true",
@@ -2275,14 +2159,130 @@ const InterestGroups = [
     ],
     pagination: [
       {
-        id: "strategicleadership",
-        name: "< Strategic Leadership",
+        id: "clouddevops",
+        name: "< Cloud & DevOps",
       },
       {
-        id: "uiux",
-        name: "Needs Change>",
+        id: "creativedesign",
+        name: "Creative Design",
       },
     ],
+  },
+  {
+    id: "creativedesign",
+    interestgroup: "Creative Design",
+    interestgroupdescription:
+      "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
+    officetime: "Tuesday 7:00pm",
+    comingsoon: "true",
+    officeplace: "",
+    community: [],
+    opportunities: [],
+    company: [],
+    mentors: [],
+    mentorscard: [],
+    pagination: [
+      {
+        id: "innovation",
+        name: "< Innovation",
+      },
+      {
+        id: "marketing",
+        name: "Marketing >",
+      },
+    ],
+    learningpaths: [],
+    basicenablementtasks: [],
+    corecourses: [],
+    subcourses: [],
+    "": {},
+  },
+  {
+    id: "marketing",
+    interestgroup: "Marketing",
+    interestgroupdescription:
+      "Think you have the skill to market any product? Join the Marketing Interest Group to learn latest marketing strategies, interact with Marketing experts and develop some much needed experience in the field.",
+    officetime: "Thursday 7:00pm",
+    comingsoon: "true",
+    officeplace: "",
+    community: [],
+    opportunities: [],
+    company: [],
+    mentors: [],
+    mentorscard: [],
+    pagination: [
+      {
+        id: "creativedesign",
+        name: "< Creative Design",
+      },
+      {
+        id: "entrepreneurship",
+        name: "Entrepreneurship >",
+      },
+    ],
+    learningpaths: [],
+    basicenablementtasks: [],
+    corecourses: [],
+    subcourses: [],
+    "": {},
+  },
+  {
+    id: "entrepreneurship",
+    interestgroup: "Entrepreneurship",
+    interestgroupdescription:
+      "The joy of starting from scratch and building something unique is special!Entrepreneurship involves understanding your business, developing it, taking risks and making good decisions. If you’ve always wanted to build something unique, Join the Entrepreneurship Interest Group today.",
+    officetime: "Saturday 7:00pm",
+    comingsoon: "true",
+    officeplace: "",
+    community: [],
+    opportunities: [],
+    company: [],
+    mentors: [],
+    mentorscard: [],
+    pagination: [
+      {
+        id: "marketing",
+        name: "< Marketing",
+      },
+      {
+        id: "strategicleadership",
+        name: "Strategic Leadership >",
+      },
+    ],
+    learningpaths: [],
+    basicenablementtasks: [],
+    corecourses: [],
+    subcourses: [],
+    "": {},
+  },
+  {
+    id: "strategicleadership",
+    interestgroup: "Strategic Leadership",
+    interestgroupdescription:
+      "Good Leaders lead the way and ensure all voices are heard.Regardless of what you do, possessing good leadership qualities is an ultimate advantage.Join the Interest Group to interact with Industry Leaders and like minded peers, and become a true leader.",
+    officetime: "Sunday 7:00pm",
+    comingsoon: "true",
+    officeplace: "",
+    community: [],
+    opportunities: [],
+    company: [],
+    mentors: [],
+    mentorscard: [],
+    pagination: [
+      {
+        id: "entrepreneurship",
+        name: "< Entrepreneurship",
+      },
+      {
+        id: "projectmanagment",
+        name: "Project Management >",
+      },
+    ],
+    learningpaths: [],
+    basicenablementtasks: [],
+    corecourses: [],
+    subcourses: [],
+    "": {},
   },
   {
     comingsoon: "true",
@@ -2395,17 +2395,17 @@ const InterestGroups = [
     ],
     pagination: [
       {
-        id: "",
-        name: "",
+        id: "strategicleadership",
+        name: "< Strategic Leadership",
       },
       {
-        id: "",
-        name: "",
+        id: "3dprint",
+        name: "3D-Printing >",
       },
     ],
   },
   {
-    id: "3dp",
+    id: "3dprint",
     interestgroup: "3D-Printing",
     interestgroupdescription:
       "3D printing is a manufacturing process that creates objects by building successive layers of material under computer control, allowing for the creation of complex shapes and designs. Join the 3D printing interest group to learn more about this technology and its impact on design and manufacturing.",
@@ -2449,12 +2449,12 @@ const InterestGroups = [
     resources: [],
     pagination: [
       {
-        id: "",
-        name: "",
+        id: "projectmanagment",
+        name: "< Project Management",
       },
       {
-        id: "",
-        name: "",
+        id: "autocad",
+        name: "AutoCAD >",
       },
     ],
   },
@@ -2505,12 +2505,12 @@ const InterestGroups = [
     company: [""],
     pagination: [
       {
-        id: "",
-        name: "",
+        id: "3dprint",
+        name: "< 3D Printing",
       },
       {
-        id: "",
-        name: "",
+        id: "revit",
+        name: "AutoDesk Revit >",
       },
     ],
   },
@@ -2548,12 +2548,12 @@ const InterestGroups = [
     resources: [],
     pagination: [
       {
-        id: "",
-        name: "",
+        id: "autocad",
+        name: "< AutoCAD",
       },
       {
-        id: "",
-        name: "",
+        id: "iot",
+        name: "IOT >",
       },
     ],
   },
