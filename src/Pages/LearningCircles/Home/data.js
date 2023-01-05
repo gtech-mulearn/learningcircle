@@ -89,7 +89,7 @@ const InterestGroups = [
         id: "S131",
         name: "Muhammad Jaseel P",
         designation: "Technical Program Manager, MakerGhat",
-        linkedin: "https://www.linkedin.com/in/jaseelpmuhammed",
+        linkedIn: "https://www.linkedIn.com/in/jaseelpmuhammed",
         stack: "IoT",
         image:
           "https://drive.google.com/uc?export=view&id=1KrUz1CAL29aFXvbP7uuP7wFVDUqJizTm",
@@ -98,7 +98,7 @@ const InterestGroups = [
         id: "S132",
         name: "Vijay Kumar M",
         designation: "CEO & MD, Webyfy Infotech Pvt Ltd",
-        linkedin: "https://www.linkedin.com/in/vijay-kumar-m-04818b",
+        linkedIn: "https://www.linkedIn.com/in/vijay-kumar-m-04818b",
         stack: "IoT",
         image:
           "https://drive.google.com/uc?export=view&id=1YibTLgWRtYOcp74rQkstBCcRY44m2QhM",
@@ -107,7 +107,7 @@ const InterestGroups = [
         id: "S133",
         name: "Sanju Mathew",
         designation: "Chief Executive Officer, Codeofduty",
-        linkedin: "https://www.linkedin.com/in/sanjumathewk",
+        linkedIn: "https://www.linkedIn.com/in/sanjumathewk",
         stack: "IoT",
         image:
           "https://drive.google.com/uc?export=view&id=1lCpWwGNe-xsEJPqOn3JBYRfmINRJ0Uo3",
@@ -116,7 +116,7 @@ const InterestGroups = [
         id: "S134",
         name: "Akshai M",
         designation: "Embedded Software Engineer, STABL Energy GmbH",
-        linkedin: "https://www.linkedin.com/in/akshaim",
+        linkedIn: "https://www.linkedIn.com/in/akshaim",
         stack: "IoT",
         image:
           "https://drive.google.com/uc?export=view&id=1Fq8-PvfeME5f78kSUydqj-zuSi9MESvI",
@@ -125,9 +125,9 @@ const InterestGroups = [
         id: "S135",
         name: "Samuel John",
         designation: "Co-Founder & CEO, mistEO",
-        linkedin: "https://www.linkedin.com/in/samuel-john-misteo",
+        linkedIn: "https://www.linkedIn.com/in/samuel-john-misteo",
         stack: "IoT",
-        image: "",
+        image: "/assets/mentors/Samuel John.webp",
       },
     ],
     learningpaths: [
@@ -140,7 +140,7 @@ const InterestGroups = [
       {
         id: "1",
         name: "Kerala IoT Challenge Level 1 ",
-        link: "https://mulearn.notion.site/Kerala-IoT-Challenge-Level-1-7c5ee89f66204c5097fcf5695025f30e",
+        link: "/iot/core/1",
         time: "10 Hours",
         complexity: "7",
         karma: "400",
@@ -148,7 +148,7 @@ const InterestGroups = [
       {
         id: "2",
         name: "Kerala IoT Challenge Level 2",
-        link: "https://mulearn.notion.site/Kerala-IoT-Challenge-Level-2-28e6d063a458472a95066d45adcbd9d9",
+        link: "/iot/core/2",
         time: "12 Hours",
         complexity: "8",
         karma: "800",
@@ -244,10 +244,12 @@ const InterestGroups = [
     challenges: [
       {
         id: "1",
+        name: "Iot-Labs Challenge",
         link: "https://github.com/ACANETS/iot-labs",
       },
       {
         id: "2",
+        name: "Project Hub Challenges",
         link: "https://create.arduino.cc/projecthub/projects/tags/iot",
       },
       {
@@ -255,7 +257,7 @@ const InterestGroups = [
         name: "Write a blog on Furture of IoT",
       },
     ],
-    trending: [
+    trendingprojectsprojects: [
       {
         id: "1",
         name: "Get started developing IoT solutions by building a simple home automation system",
@@ -282,7 +284,7 @@ const InterestGroups = [
         name: "Smart Energy Grid",
       },
     ],
-    resources: [
+    otherresources: [
       {
         id: "1",
         name: "Learn C Language",
@@ -296,6 +298,7 @@ const InterestGroups = [
     ],
   },
   {
+    comingsoon: "true",
     id: "uiux",
     interestgroup: "User Interface and Experience (UI/UX)",
     interestgroupdescription:
@@ -339,21 +342,24 @@ const InterestGroups = [
         id: "S139",
         name: "Michael Mathews",
         designation: "Independent consultant, TCS",
-        linkedin: "https://www.linkedin.com/in/michaelmathewsk",
+        linkedIn: "https://www.linkedIn.com/in/michaelmathewsk",
         stack: "UI UX",
         image:
           "https://drive.google.com/uc?export=view&id=1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I",
       },
       {
-        id: "",
+        id: "S51",
         name: "Madhav M Nair",
-        stack: "UI UX",
+        designation: "User Experience Designer,  Jio Tesseract",
+        stack: "AR / VR / MR / CR",
+        image: "https://www.fayaport80.com/speakers/thumb/Madhav-M-Nair.jpg",
+        linkedIn: "https://www.linkedIn.com/in/madhavmnair/",
       },
       {
         id: "S140",
         name: "Salman Faariz",
         designation: "Program Associate, GTech µLearn",
-        linkedin: "https://www.linkedin.com/in/salman-faariz-37b892194",
+        linkedIn: "https://www.linkedIn.com/in/salman-faariz-37b892194",
         stack: "UI UX",
         image:
           "https://drive.google.com/uc?export=view&id=1oNK1QekGS6xhNU50317onjvEc82RNQ4s",
@@ -362,7 +368,7 @@ const InterestGroups = [
         id: "S141",
         name: "Rhea Merin",
         designation: "Program Associate, GTech µLearn ",
-        linkedin: "https://www.linkedin.com/in/rheamerin",
+        linkedIn: "https://www.linkedIn.com/in/rheamerin",
         stack: "UI UX",
         image:
           "https://drive.google.com/uc?export=view&id=1XGaSobjiNegNPTtpNSsL58aes9PN7XJ6",
@@ -371,7 +377,7 @@ const InterestGroups = [
         id: "S142",
         name: "Navaneeth Venu",
         designation: "Design Lead, GDSC MBCET",
-        linkedin: "https://www.linkedin.com/in/navaneethvenu",
+        linkedIn: "https://www.linkedIn.com/in/navaneethvenu",
         stack: "UI UX",
         image:
           "https://drive.google.com/uc?export=view&id=1wGokGAMruQul49It6LmMeMv_aaV-VN2R",
@@ -493,11 +499,11 @@ const InterestGroups = [
     challenges: [
       {
         id: "1",
-        name: "Create Hambuger animation in figma",
+        name: "Create Hambuger Animation in Figma",
       },
       {
         id: "2",
-        name: "Create Loding animation in figma",
+        name: "Create Loding Animation in Figma",
       },
       {
         id: "3",
@@ -510,7 +516,7 @@ const InterestGroups = [
         link: "https://gist.github.com/Pustur/3b2bee790d2c8a966136d76a9157d5e4",
       },
     ],
-    trending: [
+    trendingprojects: [
       {
         id: "1",
         name: "Abstract Data Visualization",
@@ -538,7 +544,7 @@ const InterestGroups = [
     ],
     resources: [
       {
-        id: "",
+        id: "1",
         name: "Assignment by Cleartrip",
         description: "",
         link: "https://www.designassignments.com/assignments?recordId=recwTp10P14EIBQ2g",
@@ -581,15 +587,17 @@ const InterestGroups = [
     ],
     challenges: [
       {
-        link: "/challenge/web",
+        id: "1",
+        name: "Bring A Buisness Online",
+        link: "https://awesome.mulearn.org/",
       },
       {
-        id: "3",
+        id: "2",
         name: "The challenge is to build out a product preview card component ",
         link: "https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa",
       },
       {
-        id: "4",
+        id: "3",
         name: "The challenge is to build out a preview card component",
         link: "https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U",
       },
@@ -625,7 +633,7 @@ const InterestGroups = [
         id: "S143",
         name: "Shaheen Hyder",
         designation: "Founder & CEO, Pygrammers",
-        linkedin: "https://www.linkedin.com/in/shaheen-hyder/",
+        linkedIn: "https://www.linkedIn.com/in/shaheen-hyder/",
         stack: "Web Development",
         image:
           "https://drive.google.com/uc?export=view&id=1WZaPnWL4eFow4tcEE7FfBzgUnycNu2mT",
@@ -634,7 +642,7 @@ const InterestGroups = [
         id: "S144",
         name: "Shahanad V S",
         designation: "Founder & CEO, OrionFlare",
-        linkedin: "https://www.linkedin.com/in/shahanadvs/",
+        linkedIn: "https://www.linkedIn.com/in/shahanadvs/",
         stack: "Web Development",
         image:
           "https://drive.google.com/uc?export=view&id=1E5TuTm1nKzLvKUznuAAb6xB-f94UXTv7",
@@ -766,7 +774,7 @@ const InterestGroups = [
         karma: "200",
       },
     ],
-    trending: [
+    trendingprojects: [
       {
         id: "1",
         name: "Progressive Web Apps (PWA)",
@@ -817,7 +825,7 @@ const InterestGroups = [
         id: "S145",
         name: "Vinu Balagopal A P",
         designation: "Flutter Developer, Program Associate GTech µLearn",
-        linkedin: "https://www.linkedin.com/in/vinubalagopalap/",
+        linkedIn: "https://www.linkedIn.com/in/vinubalagopalap/",
         stack: "Android Development",
         image:
           "https://drive.google.com/uc?export=view&id=1kLazNGXtS2wUKyWQ6KFQYHhuRrxbc0H8",
@@ -826,7 +834,7 @@ const InterestGroups = [
         id: "S149",
         name: "Amrit Sanjeev",
         designation: "Staff Developer Advocate, Google",
-        linkedin: "https://www.linkedin.com/in/amrit-sanjeev-a4984438/",
+        linkedIn: "https://www.linkedIn.com/in/amrit-sanjeev-a4984438/",
         stack: "Android Development",
         image:
           "https://media.licdn.com/dms/image/C5603AQHYTANACzF_rw/profile-displayphoto-shrink_400_400/0/1516798684291?e=1677110400&v=beta&t=7slsRAWEt5WQ4NUM6DPrG27TXiUWhFG5GGiUZFl6NS4",
@@ -835,7 +843,7 @@ const InterestGroups = [
         id: "S150",
         name: "Don Peter",
         designation: "Cofounder and CTO, Finotes Inc",
-        linkedin: "https://www.linkedin.com/in/donpeter06/",
+        linkedIn: "https://www.linkedIn.com/in/donpeter06/",
         stack: "Android Development",
         image:
           "https://media.licdn.com/dms/image/C5603AQFTWXQV9_kCig/profile-displayphoto-shrink_400_400/0/1602424880405?e=1677110400&v=beta&t=qTwBc4iPF-YlH40OfibU0PkSS9YVRW-R8HxrssZAgj8",
@@ -1006,7 +1014,7 @@ const InterestGroups = [
     challenges: [
       {
         id: "1",
-        name: "build a todo app",
+        name: "Build a Todo App",
         link: "null",
       },
       {
@@ -1074,7 +1082,7 @@ const InterestGroups = [
         id: "S146",
         name: "Rejah Rehim",
         designation: "Director & Founder, Beagle Security",
-        linkedin: "https://www.linkedin.com/in/rejah/",
+        linkedIn: "https://www.linkedIn.com/in/rejah/",
         stack: "Cybersecurity",
         image:
           "https://drive.google.com/uc?export=view&id=1jLMLJQRC1wxfV1bNU_F8xWrybLEC-miM",
@@ -1083,7 +1091,7 @@ const InterestGroups = [
         id: "S147",
         name: "Anees P",
         designation: "Senior DevSecOps Engineer, Beagle Security",
-        linkedin: "https://www.linkedin.com/in/anees-pk/",
+        linkedIn: "https://www.linkedIn.com/in/anees-pk/",
         stack: "Cybersecurity",
         image:
           "https://drive.google.com/uc?export=view&id=1kKPODk11RLRZQvpZuHN_hbXy_ddU4Kk7",
@@ -1092,7 +1100,7 @@ const InterestGroups = [
         id: "S148",
         name: "Nash N Sulthan",
         designation: "Senior Security Engineer",
-        linkedin: "https://www.linkedin.com/in/nashns/",
+        linkedIn: "https://www.linkedIn.com/in/nashns/",
         stack: "Cybersecurity",
         image:
           "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
@@ -1101,7 +1109,7 @@ const InterestGroups = [
         id: "",
         name: "Manindar ",
         designation: "Beagle Security",
-        linkedin: "",
+        linkedIn: "",
         stack: "Cybersecurity",
         image: "",
       },
@@ -1184,28 +1192,6 @@ const InterestGroups = [
         name: "Spring Board Course",
         link: "https://www.springboard.com/resources/learning-paths/cybersecurity-foundations/",
       },
-      // {
-      //   name: "CISM-Certified Information Security Manager",
-      //   link: "https://www.isaca.org/credentialing/cism?utm_source=google&utm_medium=cpc&utm_campaign=CertBAU&utm_content=sem_CertBAU_certification-cism-india-product-google&cid=sem_2006846&Appeal=sem&gclid=CjwKCAjw4JWZBhApEiwAtJUN0Mf5afTjnkDIauLbz5j_Dit01l4h1yfQgQ7tXi0CrEPsSiMy2HZUGRoCN9QQAvD_BwE",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "400",
-      // },
-      // {
-      //   name: "CIA-Certified Internal Auditor",
-      //   link: "https://www.theiia.org/en/certifications/cia/",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "400",
-      // },
-      // {
-      //   name: "CEH-Certified Ethical Hacker",
-      //   link: "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/",
-      //   complexity:
-      //     "https://www.udemy.com/course/sql-injection-ethical-hacking/",
-      //   time: "",
-      //   karma: "400",
-      // },
     ],
     subcourses: [
       {
@@ -1223,81 +1209,6 @@ const InterestGroups = [
         name: "Web Application Testing.",
         link: "https://www.youtube.com/watch?v=X4eRbHgRawI",
       },
-      {
-        id: "4",
-        name: "Mobile Application Testing.",
-      },
-      {
-        id: "5",
-        name: "Build and Configuration Review.",
-      },
-      {
-        id: "6",
-        name: "Social Engineering.",
-      },
-      // {
-      //   name: "SQL Injection",
-      //   link: "",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "200",
-      // },
-      // {
-      //   name: "Footprinting and Reconnaissance",
-      //   link: "https://www.cybrary.it/course/footprinting/",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "200",
-      // },
-      // {
-      //   name: "Sniffing",
-      //   link: "https://www.cybrary.it/course/sniffing/",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "200",
-      // },
-      // {
-      //   name: "Session Hijacking",
-      //   link: "https://www.cybrary.it/course/session-hijacking/",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "200",
-      // },
-      // {
-      //   name: "Evading IDS, Firewalls, and Honeypots",
-      //   link: "https://www.youtube.com/watch?v=IJlFPGLLTUU",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "200",
-      // },
-      // {
-      //   name: "Cloud Computing",
-      //   link: "https://www.youtube.com/watch?v=2LaAJq1lB1Q",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "200",
-      // },
-      // {
-      //   name: "Hacking Wireless Networks",
-      //   link: "https://www.mygreatlearning.com/academy/learn-for-free/courses/ethical-hacking-mobile-platforms-and-network-architecture",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "200",
-      // },
-      // {
-      //   name: "Hacking Mobile Platforms",
-      //   link: "https://www.mygreatlearning.com/academy/learn-for-free/courses/ethical-hacking-mobile-platforms-and-network-architecture",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "200",
-      // },
-      // {
-      //   name: "IoT and OT Hacking",
-      //   link: "https://www.pluralsight.com/courses/hacking-iot-ot-ethical-hacking-ceh-cert",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "200",
-      // },
     ],
     keywords: [
       {
@@ -1374,7 +1285,7 @@ const InterestGroups = [
         college: "MBCET",
       },
     ],
-    trending: [
+    trendingprojectsprojects: [
       {
         name: "Anomaly detection, intrusion and its prevention",
       },
@@ -1479,7 +1390,7 @@ const InterestGroups = [
         id: "S136",
         name: "Nithin Balachandran",
         designation: "Product Manager, FAYA",
-        linkedin: "https://www.linkedin.com/in/nithin-balachandran",
+        linkedIn: "https://www.linkedIn.com/in/nithin-balachandran",
         stack: "Product Management",
         image:
           "https://drive.google.com/uc?export=view&id=1QBNU_VN3BNTbmajursbYpdB-iDJOvppv",
@@ -1488,7 +1399,7 @@ const InterestGroups = [
         id: "S137",
         name: "Vineesh U S",
         designation: "Co-Founder, First Principle Labs",
-        linkedin: "https://www.linkedin.com/in/vineeshus",
+        linkedIn: "https://www.linkedIn.com/in/vineeshus",
         stack: "Product Management",
         image:
           "https://drive.google.com/uc?export=view&id=1yssQ7Em7RbFv2cQ9lU75lgzTXbeqoRVe",
@@ -1497,7 +1408,7 @@ const InterestGroups = [
         id: "S138",
         name: "Aravind Muraleedharan",
         designation: "Product Manager, Carestack",
-        linkedin: "https://www.linkedin.com/in/aravindmuraleedharan",
+        linkedIn: "https://www.linkedIn.com/in/aravindmuraleedharan",
         stack: "Product Management",
         image:
           "https://drive.google.com/uc?export=view&id=1O6HcE1RIKZ1J4cC-2BJog_Ps9F2-7KYx",
@@ -1633,12 +1544,12 @@ const InterestGroups = [
       {
         id: "3",
         name: "John Carter",
-        link: "https://www.linkedin.com/in/jcartertcgen/",
+        link: "https://www.linkedIn.com/in/jcartertcgen/",
       },
       {
         id: "4",
         name: "Charles Du",
-        link: "https://www.linkedin.com/in/thecharles/?originalSubdomain=tw",
+        link: "https://www.linkedIn.com/in/thecharles/?originalSubdomain=tw",
       },
     ],
     challenges: [
@@ -1851,9 +1762,6 @@ const InterestGroups = [
         name: "FreeCodeCamp Machine Learning with Python",
         link: "https://www.freecodecamp.org/learn/machine-learning-with-python/",
       },
-      {
-        id: "4",
-      },
     ],
     subcourses: [
       {
@@ -1869,7 +1777,6 @@ const InterestGroups = [
     interestgroupdescription:
       "LBlock chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
     officetime: "Monday 8.30 PM",
-    comingsoon: "true",
     officeplace: "Discord Lobby",
     community: ["KBA"],
     opportunities: [],
@@ -1967,7 +1874,6 @@ const InterestGroups = [
     interestgroup: "Cloud & DevOps",
     interestgroupdescription:
       "The emergence of Cloud technologies have changed the world forever.If you’re keen to know how the Cloud works and what DevOps is, here’s your chance to do so. Join the Cloud & DevOps Interest Group today and learn more.",
-    leads: [],
     basicenablementtasks: [
       {
         name: "Dockerize an application",
@@ -2166,13 +2072,13 @@ const InterestGroups = [
         designation: "Managing Director - Tech Faya Innovations Pvt Ltd",
         stack: " JavaScript,Angular",
         image: "https://www.fayaport80.com/speakers/thumb/Deepu-S-Nath.jpg",
-        linkedIn: "https://www.linkedin.com/in/deepusnath/",
+        linkedIn: "https://www.linkedIn.com/in/deepusnath/",
       },
       {
         id: "S139",
         name: "Michael Mathews",
         designation: "Independent consultant, TCS",
-        linkedin: "https://www.linkedin.com/in/michaelmathewsk",
+        linkedIn: "https://www.linkedIn.com/in/michaelmathewsk",
         stack: "UI UX",
         image: "/assets/mentors/Michael Mathews.webp",
       },
@@ -2273,7 +2179,7 @@ const InterestGroups = [
         link: "https://twitter.com/biz",
       },
     ],
-    trending: [
+    trendingprojects: [
       {
         id: "1",
         name: "Entrepreneurs Move Into IoT",
@@ -2382,7 +2288,7 @@ const InterestGroups = [
     interestgroup: "Project Management",
     interestgroupdescription:
       "Effective project management is critical to the success of any project, large or small. It involves setting clear goals, establishing a plan to achieve those goals, and coordinating resources and team members to ensure that the project is completed on time and within budget. Good project management skills are essential for anyone looking to take on leadership roles in their organization. Join our interest group to learn more about project management techniques and best practices",
-    leads: [],
+
     basicenablementtasks: [
       {
         id: "1",
@@ -2470,7 +2376,7 @@ const InterestGroups = [
         link: "https://twitter.com/rebelsguidetopm",
       },
     ],
-    trending: [
+    trendingprojects: [
       {
         id: "",
         name: "",
@@ -2502,7 +2408,7 @@ const InterestGroups = [
     interestgroup: "3D-Printing",
     interestgroupdescription:
       "3D printing is a manufacturing process that creates three-dimensional objects by building up successive layers of material under computer control. It allows for the creation of complex shapes and designs that might not be possible with traditional manufacturing methods.Join the 3D printing interest group to learn more about this exciting technology and how it is changing the way we design and manufacture products!",
-    leads: [],
+
     basicenablementtasks: [
       {
         name: "Basic Enablemnt Task - 3D Printing",
@@ -2528,7 +2434,7 @@ const InterestGroups = [
         id: "",
         name: "",
         designation: "",
-        linkedin: "",
+        linkedIn: "",
         stack: "",
         image: "",
       },
@@ -2537,7 +2443,7 @@ const InterestGroups = [
     officeplace: "NaN",
     community: [],
     company: [""],
-    trending: [],
+    trendingprojects: [],
     comingsoon: "true",
     resources: [],
     pagination: [
@@ -2556,7 +2462,7 @@ const InterestGroups = [
     interestgroup: "AutoCAD",
     interestgroupdescription:
       "AutoCAD is a professional drafting and design software used by architects, engineers, and construction professionals to create accurate 2D and 3D drawings and documents. It offers a wide range of powerful tools and features for creating precise technical drawings, 3D models, and visualizations.Join our AutoCAD interest group to learn from experts, collaborate with peers, and advance your skills in this industry-leading drafting and design software.",
-    leads: [],
+
     basicenablementtasks: [
       {
         name: "Create a Plan as per instructions",
@@ -2586,7 +2492,7 @@ const InterestGroups = [
         id: "",
         name: "",
         designation: "",
-        linkedin: "",
+        linkedIn: "",
         stack: "",
         image: "",
       },
@@ -2613,7 +2519,7 @@ const InterestGroups = [
     interestgroup: "Autodesk Revit",
     interestgroupdescription:
       "Revit is a building information modeling (BIM) software used by architects, engineers, and construction professionals to design, construct, and manage buildings and infrastructure.Join our Revit Interest group to learn, collaborate, and share your expertise with other professionals using this powerful building information modeling software.",
-    leads: [],
+
     basicenablementtasks: [
       {
         name: "Create a Plan as per instructions",
