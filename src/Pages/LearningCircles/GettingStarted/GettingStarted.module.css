@@ -93,7 +93,6 @@
     width: auto;
   }
 
-
   .view {
     display: flex;
     justify-content: space-evenly;
@@ -212,13 +211,31 @@
   .steps_view {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
   .circle_details {
     width: 30rem;
     margin-left: 2rem;
+  }
+
+  .ssv_content {
+    font-size: 1.1rem;
+  }
+
+  .reverse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
@@ -229,4 +246,3 @@
 .v3_img {
   width: 30rem;
 }
-
