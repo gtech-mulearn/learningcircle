@@ -102,7 +102,7 @@ const Flutter = () => {
                           >
                             Dart
                           </a>
-                          &nbsp;through exercism platform. Refer these vidoes
+                          &nbsp;through exercism platform. Refer these videos
                           for Exerism Dart Installation.{" "}
                           <a
                             href="https://screenrec.com/share/3hxdq2gYsp"
