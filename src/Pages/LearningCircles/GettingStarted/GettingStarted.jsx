@@ -7,6 +7,8 @@ import Footer from "../../../Components/Footer/Footer";
 
 import axios from "axios";
 import InterestGroups from "../Home/data";
+import { Box } from "@mui/system";
+import Preloader from "../../../Components/Preloader/Preloader";
 
 const GettingStarted = ({ create, wlink, join }) => {
   const { id } = useParams();
@@ -35,14 +37,16 @@ const GettingStarted = ({ create, wlink, join }) => {
       .catch(function (error) {
         console.log(error);
         setRedirect(true);
+        setCircleData(true);
       });
   }, [id, create, join]);
 
-  return (
-    <>
-      {redirect && <Navigate to={`/notfound`} replace={true} />}
-      <Navbar />
-      {!redirect && circledata && (
+  if (!redirect && circledata) {
+    return (
+      <>
+        {redirect && <Navigate to={`/notfound`} replace={true} />}
+        <Navbar />
+
         <div className={styles.main_container}>
           <div className={styles.view_container}>
             <div className={styles.view}>
@@ -278,10 +282,29 @@ const GettingStarted = ({ create, wlink, join }) => {
             </div>
           </div>
         </div>
-      )}
-      <Footer />
-    </>
-  );
+
+        <Footer />
+      </>
+    );
+  } else {
+    return (
+      <>
+        {redirect && circledata && <Navigate to={`/notfound`} replace={true} />}
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            minHeight: "100vh",
+            justifyContent: "center",
+            alignItems: "center",
+            zIndex: "1000",
+          }}
+        >
+          <Preloader />
+        </Box>
+      </>
+    );
+  }
 };
 
 export default GettingStarted;
