@@ -7,8 +7,6 @@ import styles from "./Create.module.css";
 
 import TextField from "@mui/material/TextField";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
@@ -47,23 +45,7 @@ const Create = ({
   const [token, setToken] = useState("");
 
   const [options, setOptions] = useState("");
-
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
   // const [wlink, setWLink] = useState();
-
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 400,
-    bgcolor: "background.paper",
-    boxShadow: 24,
-    borderRadius: "5px",
-    p: 4,
-  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -135,7 +117,6 @@ const Create = ({
             setErrors("");
             setCompleted(true);
             setWLink(response.data.wa_url);
-            handleOpen();
             confetti();
           }
         })

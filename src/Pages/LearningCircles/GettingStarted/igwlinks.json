@@ -2,56 +2,61 @@
   {
     "id": "rust",
     "name": "Rust Bootcamp",
-    "wlink": "rust-whatsapp"
+    "wlink": "https://chat.whatsapp.com/LpW6Dou0GeQ9AHOvATdoT1"
+  },
+  {
+    "id": "iot",
+    "name": "IoT",
+    "wlink": "https://chat.whatsapp.com/HaC3rdfT5sEAO3oqKea0JG"
   },
   {
     "id": "python",
     "name": "Python Bootcamp",
-    "wlink": "python-ig-whatsapp"
+    "wlink": "https://mulearn.org/python-ig-whatsapp"
   },
   {
     "id": "javascript",
     "name": "JavaScript Bootcamp",
-    "wlink": "javascript-ig-whatsapp"
+    "wlink": "https://mulearn.org/javascript-ig-whatsapp"
   },
   {
     "id": "flutter",
     "name": "Flutter",
-    "wlink": "flutter-whatsapp"
+    "wlink": "https://chat.whatsapp.com/EdTVYMeI89Q5HsQqXMD0My"
   },
   {
     "id": "cybersec",
     "name": "Cyber Security",
-    "wlink": "cybersec-whatsapp"
+    "wlink": "https://chat.whatsapp.com/KICYWlH5GFBCfFGcEpYElG"
   },
   {
     "id": "web",
     "name": "Web Development",
-    "wlink": "bootcamps/javascript"
+    "wlink": "https://chat.whatsapp.com/Gnetrtt9AAC9Wet50r5kuQ"
   },
   {
     "id": "android",
     "name": "Android Development",
-    "wlink": "android-whatsapp"
+    "wlink": "https://chat.whatsapp.com/IvMd2T9IUxk8gpwm5MtAM7"
   },
   {
     "id": "pwl",
     "name": "Papers We Love",
-    "wlink": "pwl-ig-whatsapp"
+    "wlink": "https://chat.whatsapp.com/LDWmn6nCeOP81HnfRLff1y"
   },
   {
     "id": "blockchain",
     "name": "Blockchain",
-    "wlink": "blockchain-ig-whatsapp"
+    "wlink": "https://chat.whatsapp.com/DVCTo1LsFtq2oOGF7CCrxL"
   },
   {
     "id": "pm",
     "name": "Product Management",
-    "wlink": "pm-ig-whatsapp"
+    "wlink": "https://chat.whatsapp.com/FUEeMiNsEcKDpq4ztThTiI"
   },
   {
     "id": "devops",
     "name": "DevOps",
-    "wlink": "devops-ig-whatsapp"
+    "wlink": "https://chat.whatsapp.com/BwsJ5tEnS3o5XVfVR3IUBN"
   }
 ]

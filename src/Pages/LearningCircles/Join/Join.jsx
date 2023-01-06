@@ -6,9 +6,6 @@ import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./Join.module.css";
 
 import TextField from "@mui/material/TextField";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -26,18 +23,6 @@ const Join = ({
   setCollege,
   setWLink,
 }) => {
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 350,
-    bgcolor: "background.paper",
-    boxShadow: 24,
-    borderRadius: "5px",
-    p: 4,
-  };
-
   const { id } = useParams();
   const recaptchaRef = React.createRef();
   const [pass, setPass] = useState("");
@@ -50,9 +35,6 @@ const Join = ({
 
   const [verify, setVerify] = useState(false);
   const [token, setToken] = useState();
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
 
   const changeHandler = (event) => {
     setJoin((prevState) => ({
@@ -128,7 +110,6 @@ const Join = ({
             setErrors("");
             setCompleted(true);
             setWLink(response.data.wa_url);
-            handleOpen();
             setPass("");
             confetti();
           }

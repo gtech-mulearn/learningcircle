@@ -33,6 +33,11 @@
   width: 25rem;
 }
 
+.v2_img {
+  /* margin-bottom: -2.5rem; */
+  width: 35rem;
+}
+
 .v_content {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -87,6 +92,7 @@
   .v_img {
     width: auto;
   }
+
 
   .view {
     display: flex;
@@ -219,3 +225,8 @@
 .v2_img {
   width: 25rem;
 }
+
+.v3_img {
+  width: 30rem;
+}
+

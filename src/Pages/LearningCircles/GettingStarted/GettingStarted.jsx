@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, Navigate } from "react-router-dom";
 import styles from "./GettingStarted.module.css";
 
 import Navbar from "../../../Components/Navbar/Navbar";
@@ -11,6 +11,7 @@ const GettingStarted = ({ create, wlink, join }) => {
   const { id } = useParams();
   const [localWLink, setLocalWLink] = useState();
   const [circledata, setCircleData] = useState();
+  const [redirect, setRedirect] = useState(false);
   useEffect(() => {
     axios
       .get(
@@ -20,9 +21,11 @@ const GettingStarted = ({ create, wlink, join }) => {
       )
       .then(function (response) {
         setCircleData(response.data.data);
+        setRedirect(false);
       })
       .catch(function (error) {
         console.log(error);
+        setRedirect(true);
       });
   }, [id, create, join]);
 
@@ -33,12 +36,13 @@ const GettingStarted = ({ create, wlink, join }) => {
         (element) => element.id === circledata.interest
       );
 
-      setLocalWLink(`https://mulearn.org/${filteredData[0].wlink}`);
+      setLocalWLink(filteredData[0].wlink);
     }
   }, [circledata, wlink]);
 
   return (
     <>
+      {redirect && <Navigate to={`/notfound`} replace={true} />}
       <Navbar />
       <div className={styles.main_container}>
         <div className={styles.view_container}>
@@ -207,7 +211,7 @@ const GettingStarted = ({ create, wlink, join }) => {
               <img
                 src="/assets/postcirclecreation/learning.gif"
                 alt=""
-                className={styles.v_img}
+                className={styles.v3_img}
               />
             </div>
           </div>
