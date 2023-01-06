@@ -11,6 +11,7 @@ const GettingStarted = ({ create, wlink, join }) => {
   const { id } = useParams();
   const [circledata, setCircleData] = useState();
   const [redirect, setRedirect] = useState(false);
+  const [buttontext, setButtonText] = useState("Copy Joining Link");
   useEffect(() => {
     axios
       .get(
@@ -36,9 +37,11 @@ const GettingStarted = ({ create, wlink, join }) => {
         <div className={styles.view_container}>
           <div className={styles.view}>
             <div className={styles.v_texts}>
-              <p className={styles.v_heading}>
-                <span>Getting</span>&nbsp;Started
-              </p>
+              {circledata && (
+                <p className={styles.v_heading}>
+                  <span>{id}</span>
+                </p>
+              )}
               {create && create.code && (
                 <p className={styles.v_content}>
                   Congratulations! Your learning circle has been successfully
@@ -60,7 +63,7 @@ const GettingStarted = ({ create, wlink, join }) => {
               )}
               {!(create && create.code) && !(join && join.code) && (
                 <p className={styles.v_content}>
-                  Welcome to the learning circle on MuLearn! We're glad to have
+                  Welcome to the learning circle on µLearn! We're glad to have
                   you here as we work towards our learning goals together. You
                   can find resources and connect with other members on our
                   Discord server as you progress on your learning journey. We
@@ -74,7 +77,11 @@ const GettingStarted = ({ create, wlink, join }) => {
                 </a>
               )}
               {!(wlink && wlink.length > 0) && circledata && (
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a
+                  href={`https://learn.mulearn.org/join/${id}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className={styles.button}>
                     Join Learning Circle
                   </button>
@@ -142,14 +149,15 @@ const GettingStarted = ({ create, wlink, join }) => {
                   )}
 
                   <button
-                    onClick={() =>
+                    onClick={() => {
                       navigator.clipboard.writeText(
                         `https://learn.mulearn.org/join/${id}`
-                      )
-                    }
+                      );
+                      setButtonText("Link Copied");
+                    }}
                     className={styles.button}
                   >
-                    Copy Invite Link
+                    {buttontext}
                   </button>
                 </div>
               </div>

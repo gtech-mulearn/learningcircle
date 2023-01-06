@@ -60,6 +60,12 @@
     margin-top: 2rem;
   }
 
+  .main_container {
+    max-width: 1700px;
+    display: block;
+    margin: auto;
+  }
+
   .view {
     text-align: initial;
   }
@@ -95,7 +101,7 @@
 
   .view {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
   }
@@ -189,6 +195,8 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 10px;
   max-width: 35rem;
+  position: relative;
+  z-index: 100;
 }
 
 .circle_content {
@@ -236,6 +244,35 @@
   .reverse {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .main_container {
+    text-align: center;
+  }
+
+  .ssv_content {
+    display: block;
+    margin: auto;
+  }
+
+  .v2_img {
+    display: block;
+    margin: auto;
+  }
+
+  .v3_img {
+    display: block;
+    margin: auto;
+  }
+
+  .v1_img {
+    display: block;
+    margin: auto;
+  }
+
+  .circle_details {
+    display: block;
+    margin: auto;
   }
 }
 
