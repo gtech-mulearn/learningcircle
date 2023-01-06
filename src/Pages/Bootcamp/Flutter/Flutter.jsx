@@ -73,6 +73,10 @@ const Flutter = () => {
                           >
                             Dart SDK
                           </a>
+                          For more usablity and easiness, install the following
+                          extension for the VSCode Marketplace/Code Editor.
+                          Error Lens, Dart, Flutter, Prettier Material Icons,
+                          Night Owl Theme(Optional)
                         </div>
                       </div>
                     </div>
@@ -98,7 +102,23 @@ const Flutter = () => {
                           >
                             Dart
                           </a>
-                          &nbsp;through exercism platform.
+                          &nbsp;through exercism platform. Refer these vidoes
+                          for Exerism Dart Installation.{" "}
+                          <a
+                            href="https://screenrec.com/share/3hxdq2gYsp"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Installation Part 1&nbsp;
+                          </a>
+                          &
+                          <a
+                            href="https://screenrec.com/share/3swkuYxalX"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            &nbsp;Installation Part 2
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -115,9 +135,9 @@ const Flutter = () => {
                         <div className="timeline__event__title">Step Three</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 10 in #web-and-mobile-app-development channel with hashtag{" "}
-                          <b>&nbsp;#cl-exercism-dart-10</b> to avail{" "}
-                          <b>200 karma points.</b>
+                          reach level 10 in #web-and-mobile-app-development
+                          channel with hashtag <b>&nbsp;#cl-exercism-dart-10</b>{" "}
+                          to avail <b>200 karma points.</b>
                           <br />
                         </div>
                       </div>
@@ -134,7 +154,8 @@ const Flutter = () => {
                         <div className="timeline__event__title">Step Four</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 20 in #web-and-mobile-app-development channel with hashtag
+                          reach level 20 in #web-and-mobile-app-development
+                          channel with hashtag
                           <b>&nbsp;#cl-exercism-dart-20</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
@@ -152,7 +173,8 @@ const Flutter = () => {
                         <div className="timeline__event__title">Step Five</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 30 in #web-and-mobile-app-development channel with hashtag
+                          reach level 30 in #web-and-mobile-app-development
+                          channel with hashtag
                           <b>&nbsp;#cl-exercism-dart-30</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
@@ -170,7 +192,8 @@ const Flutter = () => {
                         <div className="timeline__event__title">Step Six</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 41 in #web-and-mobile-app-development channel with hashtag
+                          reach level 41 in #web-and-mobile-app-development
+                          channel with hashtag
                           <b>&nbsp;#cl-exercism-dart-41</b> to avail{" "}
                           <b>200 karma points.</b>
                         </div>
