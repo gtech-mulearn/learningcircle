@@ -138,7 +138,7 @@ const Join = ({
             severity="success"
             message="Circle Joined Successfully"
           />
-          <Navigate to={`/gettingstarted/${join.code}`} replace={true} />;
+          <Navigate to={`/gettingstarted/${join.code || code}`} replace={true} />;
         </>
       )}
 
