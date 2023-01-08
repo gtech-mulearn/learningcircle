@@ -10,14 +10,8 @@ const CybersecData = [
         link: "https://app.cybrary.it/browse/course/introduction-to-it-and-cybersecurity/",
         inner_description:
           "After course completion, share the certificate in #cybersecurity channel with hashtag #cl-cybersecurity-intro to avail 200 Karma Points",
-        assignment: [
-          {
-            assignment_description: "",
-            assignment_inner_description: "",
-            example:
-              "Hey I’ve completed the Introduction to Cybersecurity course. Here’s my certificate. #cl-cybersecurity-intro",
-          },
-        ],
+        example:
+          "Hey I’ve completed the Introduction to Cybersecurity course. Here’s my certificate. #cl-cybersecurity-intro",
       },
       // {
       //   id: "2",
