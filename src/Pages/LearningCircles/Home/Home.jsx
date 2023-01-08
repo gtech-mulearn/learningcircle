@@ -324,7 +324,19 @@ const Home = ({
                         <p className={styles.interest}>Interest: {interest}</p>
                         <p className={styles.circle_name}>{team.code}</p>
                         <p className={styles.circle_lead}>Lead: {team.lead}</p>
-                        <p className={styles.circle_member}>Members: {team.count}</p>
+                        <p className={styles.circle_member}>
+                          Members: {team.count}
+                        </p>
+                        {team.meet_place !== "No Data" && (
+                          <p className={styles.circle_member}>
+                            Meet Place: {team.meet_place}
+                          </p>
+                        )}
+                        {team.meet_time !== "No Data" && (
+                          <p className={styles.circle_member}>
+                            Meet Time: {team.meet_time}
+                          </p>
+                        )}
                       </div>
                       <div className={styles.buttons}>
                         <Link to={`/join`}>
