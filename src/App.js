@@ -6,16 +6,18 @@ import axios from "axios";
 import Home from "./Pages/LearningCircles/Home/Home";
 import Create from "./Pages/LearningCircles/Create/Create";
 import Join from "./Pages/LearningCircles/Join/Join.jsx";
+import GettingStarted from "./Pages/LearningCircles/GettingStarted/GettingStarted";
 
 //InterestGroups
 import InterestGroup from "./Pages/InterestGroups/InterestGroup";
-import WebCourse from "./Pages/InterestGroups/Course/web/WebCourse";
-import UIUXCourse from "./Pages/InterestGroups/Course/uiux/UIUXCourse";
-import PMCourse from "./Pages/InterestGroups/Course/pm/PMCourse";
-import AndroidCourse from "./Pages/InterestGroups/Course/android/AndroidCourse";
-import IoTCourse from "./Pages/InterestGroups/Course/iot/IoTCourse";
-import CybersecCourse from "./Pages/InterestGroups/Course/cybersec/CybersecCourse";
-import CommonCourse from "./Pages/InterestGroups/Course/common/CommonCourse";
+import CoursePage from "./Pages/InterestGroups/Course/CoursePage"
+import WebData from './Pages/InterestGroups/Course/web';
+import AndroidData from './Pages/InterestGroups/Course/android';
+import CommonData from './Pages/InterestGroups/Course/common';
+import IoTData from "./Pages/InterestGroups/Course/iot";
+import CybersecData from "./Pages/InterestGroups/Course/cybersec";
+import PmData from './Pages/InterestGroups/Course/pm';
+import UiuxData from './Pages/InterestGroups/Course/uiux'
 
 //Bootcamp Section
 import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome";
@@ -26,7 +28,7 @@ import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
 import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
 import Python from "./Pages/Bootcamp/Python/Python";
 
-//Miscellaneous
+//Misc
 import NotFound from "./Pages/Misc/404/NotFound";
 
 //Search Section
@@ -70,6 +72,7 @@ function App() {
   const [backenderr, setBackenderr] = useState(false);
 
   //Create Page State Variables
+  const [wlink, setWLink] = useState();
   const [create, setCreate] = useState({
     code: "",
     lead: {
@@ -173,6 +176,7 @@ function App() {
                 colleges={colleges}
                 create={create}
                 setCreate={setCreate}
+                setWLink={setWLink}
               />
             }
           />
@@ -187,6 +191,7 @@ function App() {
                 setJoin={setJoin}
                 college={college}
                 setCollege={setCollege}
+                setWLink={setWLink}
               />
             }
           />
@@ -201,7 +206,15 @@ function App() {
                 setJoin={setJoin}
                 college={college}
                 setCollege={setCollege}
+                setWLink={setWLink}
               />
+            }
+          />
+
+          <Route
+            path="/gettingstarted/:id"
+            element={
+              <GettingStarted create={create} wlink={wlink} join={join} />
             }
           />
 
@@ -245,13 +258,14 @@ function App() {
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}
           />
-          <Route path="/web/:type/:id" element={<WebCourse />} />
-          <Route path="/uiux/:type/:id" element={<UIUXCourse />} />
-          <Route path="/pm/:type/:id" element={<PMCourse />} />
-          <Route path="/iot/:type/:id" element={<IoTCourse />} />
-          <Route path="/android/:type/:id" element={<AndroidCourse />} />
-          <Route path="/cybersec/:type/:id" element={<CybersecCourse />} />
-          <Route path="/common/:type/:id" element={<CommonCourse />} />
+          <Route path="/web/:type/:id" element={<CoursePage CourseData={WebData} />} />
+          <Route path="/uiux/:type/:id" element={<CoursePage CourseData={UiuxData} />} />
+          <Route path="/pm/:type/:id" element={<CoursePage CourseData={PmData} />} />
+          <Route path="/iot/:type/:id" element={<CoursePage CourseData={IoTData} />} />
+          <Route path="/android/:type/:id" element={<CoursePage CourseData={AndroidData} />} />
+          <Route path="/cybersec/:type/:id" element={<CoursePage CourseData={CybersecData} />} />
+          <Route path="/common/:type/:id" element={<CoursePage CourseData={CommonData} />} />
+
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />
           <Route path="/bootcamps" element={<BootcampsHome />} />

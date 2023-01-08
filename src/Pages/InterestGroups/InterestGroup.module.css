@@ -19,7 +19,7 @@
   font-weight: 700;
 }
 
-.fv_heading_entre{
+.fv_heading_entre {
   font-family: "Noto Sans", sans-serif;
   color: #f6842c;
   font-size: 2.25rem;
@@ -102,7 +102,8 @@
     margin: 3rem 0;
   }
 
-  .fv_heading,  .fv_heading_entre {
+  .fv_heading,
+  .fv_heading_entre {
     font-size: 4.25rem;
   }
 
@@ -220,6 +221,7 @@
 
   .sv_content {
     font-size: 0.95rem;
+    font-family: "Poppins";
     width: 60%;
   }
 
@@ -230,6 +232,10 @@
   .sv_texts {
     width: 100vw;
     margin: 0 1rem;
+  }
+
+  .list_item {
+    max-width: 35rem;
   }
 }
 

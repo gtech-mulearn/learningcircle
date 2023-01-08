@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import learningcircles from "./assets/learningcircles.jpg";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./Join.module.css";
 
 import TextField from "@mui/material/TextField";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -17,19 +14,15 @@ import CheckIcon from "@mui/icons-material/Check";
 import { red } from "@mui/material/colors";
 import confetti from "canvas-confetti";
 
-const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 350,
-    bgcolor: "background.paper",
-    boxShadow: 24,
-    borderRadius: "5px",
-    p: 4,
-  };
-
+const Join = ({
+  code,
+  setCode,
+  join,
+  setJoin,
+  college,
+  setCollege,
+  setWLink,
+}) => {
   const { id } = useParams();
   const recaptchaRef = React.createRef();
   const [pass, setPass] = useState("");
@@ -42,10 +35,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
 
   const [verify, setVerify] = useState(false);
   const [token, setToken] = useState();
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-  const [wlink, setWLink] = useState();
+
   const changeHandler = (event) => {
     setJoin((prevState) => ({
       ...prevState,
@@ -110,17 +100,16 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
         )
         .then((response) => {
           if (response.data.status === "success") {
-            setJoin({
-              code: "",
-              name: "",
-              email: "",
-              college: "",
-              phone: "",
-            });
+            // setJoin({
+            //   code: "",
+            //   name: "",
+            //   email: "",
+            //   college: "",
+            //   phone: "",
+            // });
             setErrors("");
             setCompleted(true);
             setWLink(response.data.wa_url);
-            handleOpen();
             setPass("");
             confetti();
           }
@@ -144,10 +133,13 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
   return (
     <>
       {completed && (
-        <CustomizedSnackbars
-          severity="success"
-          message="Circle Joined Successfully"
-        />
+        <>
+          <CustomizedSnackbars
+            severity="success"
+            message="Circle Joined Successfully"
+          />
+          <Navigate to={`/gettingstarted/${join.code || code}`} replace={true} />;
+        </>
       )}
 
       {valid && (
@@ -161,7 +153,7 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
         <CustomizedSnackbars severity="error" message={snackerror} />
       )}
 
-      {completed && wlink && (
+      {/* {completed && wlink && (
         <div>
           <Modal
             open={open}
@@ -195,14 +187,17 @@ const Join = ({ code, setCode, join, setJoin, college, setCollege }) => {
             </Box>
           </Modal>
         </div>
-      )}
+      )} */}
 
       <Navbar />
       <img src={learningcircles} alt="" className={styles.mimage} />
       <div className={styles.fsview}>
         <p className={styles.fsheading}>Join Learning Circles</p>
         <p className={styles.fstagline}>
-        In order to join a learning circle, you need to enter the circle code as well as a secret key. Both of these credentials can be retrieved from your circle lead. If you already have them fill them out, and you are good to go!
+          In order to join a learning circle, you need to enter the circle code
+          as well as a secret key. Both of these credentials can be retrieved
+          from your circle lead. If you already have them fill them out, and you
+          are good to go!
         </p>
       </div>
 
