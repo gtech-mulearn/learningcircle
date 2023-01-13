@@ -2467,7 +2467,7 @@ const InterestGroups = [
     basicenablementtasks: [
       {
         name: "Create a Plan as per instructions",
-        link: "https://mulearn.notion.site/AutoCAD-Task-1-b01306b2af874c7d899a45b72cf7a3c6",
+        // link: "https://mulearn.notion.site/AutoCAD-Task-1-b01306b2af874c7d899a45b72cf7a3c6",
         complexity: "",
         time: "",
         karma: "",
@@ -2524,7 +2524,7 @@ const InterestGroups = [
     basicenablementtasks: [
       {
         name: "Create a Plan as per instructions",
-        link: "https://mulearn.notion.site/Revit-Task-1-70060b2526c54383a54078c5f873a739",
+        // link: "https://mulearn.notion.site/Revit-Task-1-70060b2526c54383a54078c5f873a739",
         complexity: "",
         time: "",
         karma: "",
