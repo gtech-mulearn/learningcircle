@@ -76,7 +76,7 @@ const CTFPage = () => {
                   </a>
                 </div>
               </div>
-                <button className={styles.register}>Registrations Closed</button>
+              <button className={styles.register}>Registrations Closed</button>
             </div>
             <div className={styles.fv_image}>
               <img

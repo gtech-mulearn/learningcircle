@@ -59,7 +59,8 @@
 }
 
 .register {
-  background-color: #448aff;
+  user-select: none;
+  background-color: #b1b1b1;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   color: white;
@@ -204,6 +205,7 @@
   .sv_heading {
     font-size: 2rem;
   }
+
   .sv_content {
     width: 30%;
   }
@@ -282,6 +284,7 @@
 .tv_heading span {
   color: #448aff;
 }
+
 .level {
   font-family: "Poppins";
   margin-top: 1rem;
@@ -291,6 +294,7 @@
   .tv_heading {
     font-size: 2rem;
   }
+
   .tv_content {
     width: 30%;
   }
