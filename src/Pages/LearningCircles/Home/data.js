@@ -6,22 +6,11 @@ const InterestGroups = [
       "Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the fan above your head, almost everything can be connected and controlled automatically. But How? Join our IoT Interest Group to learn how this can be achieved.",
     leads: [
       {
-        id: "1",
-        name: "Albin Mathews",
-        college: "College of Engineering, Aranmula",
-        phone: "9961019157",
-      },
-      {
-        id: "2",
-        name: "Milan Deepak",
-        college: "Muthoot Institute of Technology and Science",
-      },
-      {
-        id: "3",
-        name: "Jovit",
-        college: "St. Joseph's College of Engineering and Technology",
-        phone: "9400937046",
-      },
+        id: 1,
+        name: "Jeevan Joseph",
+        college: "Kristu Jyoti College of Management & Technology,Kottayam",
+        images: "assets/interestGroups/jeevanJoseph.webp",
+      }
     ],
     officetime: "Sunday 7:30 PM",
     officeplace: " at Discord Lobby",
@@ -305,20 +294,21 @@ const InterestGroups = [
     leads: [
       {
         id: "1",
-        name: "Sreelakshmi S",
-        college: "Carmel College of Engineering & Technology",
+        name: "Aswin Asok",
+        college: "Marian Engineering College,Thiruvananthapuram",
+        images: "assets/interestGroups/Aswin Asok.webp",
       },
       {
         id: "2",
-        name: "Nithin ",
-        college: "College of Engineering Aranmula",
-        phone: "8078945336",
+        name: "Adil S ",
+        college: "Govt. Engineering College,Idukki",
+        images: "assets/interestGroups/Adil S.webp",
       },
       {
         id: "3",
-        name: "Neeraj",
-        college: "SCMS College of Technology & Management",
-        phone: "8943243637",
+        name: "Alwin John",
+        college: "College of Engineering Chengannur,Alappuzha ",
+        images: "assets/interestGroups/Alwin John .webp",
       },
     ],
     officetime: "Saturday 7:30 PM",
@@ -553,7 +543,7 @@ const InterestGroups = [
   },
   {
     id: "android",
-    interestgroup: "Android Development",
+    interestgroup: "Mobile App Development",
     interestgroupdescription:
       "Everything is at your fingertips, and you still don't know the working and stages of android development. Have you ever thought of exploring? Don't worry; Join our Android Development Interest Group right away and start feeding your curious minds from the basics.",
     officetime: "Thursday 7:30PM",
@@ -783,6 +773,7 @@ const InterestGroups = [
       {
         id: "1",
         name: "Mariya Merlin ",
+        images: "assets/interestGroups/mariya.webp",
         college:
           "Kristujyoti College of Management and Technology, Changannacherry",
       },
@@ -791,7 +782,21 @@ const InterestGroups = [
         name: "Ben George",
         college:
           "Mar Baselios College of Engineering and Technology, Trivandrum",
+        images: "assets/interestGroups/ben.webp",
       },
+      {
+        id: 3,
+        name: "Basith P",
+        college: "KMCT Engineering College,Kozhikode",
+        images: "assets/interestGroups/Basith P.webp",
+
+      },
+      {
+        id: 4,
+        name: "Zohil P K",
+        college: "AWH Engineering College,Kozhikode",
+        images: "",
+      }
     ],
     resources: [
       {
@@ -1024,13 +1029,6 @@ const InterestGroups = [
         name: "System Hacking",
       },
     ],
-    leads: [
-      {
-        id: "1",
-        name: "Aaron K",
-        college: "Mar Baselios College of Engineering and Technology (Autonomous)",
-      },
-    ],
     trendingprojectsprojects: [
       {
         name: "Anomaly detection, intrusion and its prevention",
@@ -1117,6 +1115,20 @@ const InterestGroups = [
       {
         id: "12",
         name: "Security systems engineering",
+      },
+    ],
+    leads: [
+      {
+        id: "1",
+        name: "Abhishek Santhosh",
+        // images: "assets/interestGroups/aaronk.webp",
+        college: "Carmel College of Engineering and Technology,Punnapra",
+      },
+      {
+        id: "2",
+        name: "Sooraj Mathew",
+        images: "assets/interestGroups/Sooraj.webp",
+        college: "College of Engineering Trivandrum",
       },
     ],
   },
@@ -1367,6 +1379,14 @@ const InterestGroups = [
         link: "https://brainstation.io/career-guides/how-to-become-a-ui-designer.",
       },
     ],
+    leads: [
+      {
+        id: 1,
+        name: "Salman Faariz",
+        college: "Mar Baselios College of Engineering and Technology,Trivandrum",
+        images: "assets/interestGroups/Salman Faariz.webp ",
+        linkedIn: "https://www.linkedIn.com/in/salman-faariz-37b892194",
+      },],
     mentorscard: [
       {
         id: "S139",
@@ -1589,6 +1609,14 @@ const InterestGroups = [
     officetime: "Sunday 08:30 PM",
     officeplace: " at Discord Lobby",
     community: ["XtrudAR"],
+    leads: [
+      {
+        id: 1,
+        name: "Vishnu Prathab",
+        college: "COLLEGE OF ENGINEERING ,MUNNAR ",
+        // images: "",
+      }
+    ],
     comingsoon: "true",
     opportunities: [],
     company: [],
@@ -1698,7 +1726,6 @@ const InterestGroups = [
         karma: "",
       },
     ],
-    "": {},
   },
   {
     id: "ai",
@@ -1710,6 +1737,13 @@ const InterestGroups = [
         id: 1,
         name: "Arjun M S",
         college: "Jyothi Engineering College, Thrissur",
+        images: "assets/interestGroups/arjunms.webp",
+      },
+      {
+        id: 2,
+        name: "Zafar",
+        college: "KMCT Engineering College,Kozhikode",
+        images: "assets/interestGroups/Zafar.webp",
       },
     ],
     basicenablementtasks: [
@@ -1809,7 +1843,14 @@ const InterestGroups = [
       },
     ],
     subcourses: [],
-    "": {},
+    leads: [
+      {
+        id: 1,
+        name: 'Alekshay S Rajan',
+        college: "College of applied science perissery",
+        images: "assets/interestGroups/akshay.webp",
+      }
+    ]
   },
   {
     id: "clouddevops",

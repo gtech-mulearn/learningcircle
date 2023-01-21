@@ -17,7 +17,7 @@ const MentorCard = ({
     <div className={styles.mentor_card_container}>
       <div className={styles.mentor_card}>
         <div className={styles.box}>
-          {image && <img src={image} alt="" className={styles.mentorimg} />}
+          {image && <div className={styles.imagesHolder}><img src={image} alt="" width="100%" height="100%" className={styles.mentorimg} /></div>}
           <div className={styles.textdiv}>
             {interest && <p className={styles.mentor_interest}>{interest}</p>}
 
