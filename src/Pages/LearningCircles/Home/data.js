@@ -573,8 +573,7 @@ const InterestGroups = [
         designation: "Staff Developer Advocate, Google",
         linkedIn: "https://www.linkedIn.com/in/amrit-sanjeev-a4984438/",
         stack: "Android Development",
-        image:
-          "https://media.licdn.com/dms/image/C5603AQHYTANACzF_rw/profile-displayphoto-shrink_400_400/0/1516798684291?e=1677110400&v=beta&t=7slsRAWEt5WQ4NUM6DPrG27TXiUWhFG5GGiUZFl6NS4",
+        image: "https://www.fayaport80.com/speakers/thumb/amrit-sanjee.jpg",
       },
       {
         id: "S150",
@@ -582,8 +581,7 @@ const InterestGroups = [
         designation: "Cofounder and CTO, Finotes Inc",
         linkedIn: "https://www.linkedIn.com/in/donpeter06/",
         stack: "Android Development",
-        image:
-          "https://media.licdn.com/dms/image/C5603AQFTWXQV9_kCig/profile-displayphoto-shrink_400_400/0/1602424880405?e=1677110400&v=beta&t=qTwBc4iPF-YlH40OfibU0PkSS9YVRW-R8HxrssZAgj8",
+        image: "/assets//mentors/Don-Peter.webp",
       },
     ],
 
@@ -1869,7 +1867,8 @@ const InterestGroups = [
         id: "1",
         name: "Vivek R",
         stack: "Distributed Systems, Networks, Security",
-        linkedIn: "https://www.linkedin.com/in/123vivekr/"
+        linkedIn: "https://www.linkedin.com/in/123vivekr/",
+        image: "/assets/mentors/Vivek-R.webp",
       },
     ],
     officetime: "Friday 7:00pm",
