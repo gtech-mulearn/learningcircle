@@ -1772,7 +1772,6 @@ const InterestGroups = [
       },
     ],
   },
-  { a: "breakout" },
   {
     id: "ai",
     interestgroup: "Artificial Intelligence",
@@ -1988,7 +1987,6 @@ const InterestGroups = [
       }
     ]
   },
-  { a: "breakout" },
   {
     id: "blockchain",
     interestgroup: "Blockchain",
