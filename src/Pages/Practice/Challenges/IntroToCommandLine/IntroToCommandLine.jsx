@@ -16,47 +16,18 @@ const IntroToCommandLine = () => {
               <p className={styles.fv_heading}>
                 Introduction to <span>Command Line</span>
               </p>
-              {/* <p className={styles.fv_content}>
-                                The aim of the course is to teach you about GitHub and its numerous tools and processes, such as Issues and Pull Requests.
-                            </p> */}
+              <p className={styles.fv_content_karma}>
+              On Course Completion 200 Karma Points.
+              </p>
             </div>
-
-            {/* <div className={styles.fv_image}>
-                            <img
-                                src="/assets/challenge/typing.gif"
-                                alt="Group Learning Pic"
-                                className={styles.fv_img}
-                            />
-                        </div> */}
           </div>
         </div>
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>How to do the challenge?</p>
-              {/* <p className={styles.sv_content}>
-                                Do you know, The faster you type, the faster you communicate
-                                with others. Let's work on our rapid fingers and earn some
-                                karma.
-                            </p> */}
             </div>
           </div>
-          {/*
-
-                        <div className={styles.sample_container}>
-                            <p className={styles.sample_header}>Example Message</p>
-                            <p className={styles.sample_message}>
-                                Hey! I've completed the Intro to Command Line course. I'm a command line Ninja!<br></br>
-                                #ge-intro-to-command-line
-                            </p>
-                            <img
-                                className={styles.sample_img}
-                                src="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F451e8af7-8155-41fd-a608-6284cfd1b82c%2Fcommand-line-tree-example_(1).png?table=block&id=576fbb3b-f951-4108-b233-259a90e1f76a&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=410&userId=&cache=v2"
-                                alt=""
-                                srcset=""
-                            />
-                        </div>
-                    </div> */}
           <div className={styles.steps}>
             <div className="timeline-container">
               <div className="timeline">
@@ -65,7 +36,7 @@ const IntroToCommandLine = () => {
                     <img
                       src={require("../assets/steps/cli.svg").default}
                       alt=""
-                      // className="lni-cake"
+                      className="lni-cake"
                     />
                   </div>
                   <div className="timeline__event__date">1</div>

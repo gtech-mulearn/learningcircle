@@ -48,7 +48,7 @@
   }
 
   .fv_heading {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .fv_content,
@@ -109,6 +109,7 @@
 .sv_content {
   margin-top: 0.25rem;
   font-size: 0.9rem;
+  font-family: "Poppins";
 }
 
 @media only screen and (min-width: 1000px) {
@@ -131,6 +132,10 @@
 
 .problem_detail {
   margin-top: 2rem;
+}
+
+.pd_content {
+  font-family: "Poppins";
 }
 
 .pd_heading {

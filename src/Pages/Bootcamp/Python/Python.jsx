@@ -23,7 +23,7 @@ const Python = () => {
                 projects and making it public in github.
               </p>
               <p class={styles.startingdate}>
-                Starting On <span>4th January 2023</span>
+                Started On <span>4th January 2023</span>
               </p>
               <div class={styles.supporters}>
                 <span>Supported By </span>

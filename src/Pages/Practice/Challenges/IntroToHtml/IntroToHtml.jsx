@@ -23,26 +23,17 @@ const IntroToHtml = () => {
                 In this course, you'll learn the most common HTML tags by
                 building your own cat photo app.
               </p>
+              <p className={styles.fv_content_karma}>
+                On Completion Earn 100 Karma Points
+              </p>
             </div>
 
-            {/* <div className={styles.fv_image}>
-                            <img
-                                src="/assets/challenge/typing.gif"
-                                alt="Group Learning Pic"
-                                className={styles.fv_img}
-                            />
-                        </div> */}
           </div>
         </div>
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>How to do the challenge?</p>
-              {/* <p className={styles.sv_content}>
-                                Do you know, The faster you type, the faster you communicate
-                                with others. Let's work on our rapid fingers and earn some
-                                karma.
-                            </p> */}
             </div>
           </div>
           <div className={styles.steps}>
@@ -53,7 +44,7 @@ const IntroToHtml = () => {
                     <img
                       src={require("../assets/steps/freecodecamp.svg").default}
                       alt=""
-                      // className="lni-cake"
+                      className="lni-cake"
                     />
                   </div>
                   <div className="timeline__event__date">1</div>
@@ -108,7 +99,7 @@ const IntroToHtml = () => {
                         target="_blank"
                         href="https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app"
                       >
-                        https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app
+                        Learn HTML by Building a Cat Photo App 
                       </a>
                     </div>
                   </div>
@@ -126,7 +117,7 @@ const IntroToHtml = () => {
                     <div className="timeline__event__title">Step Four</div>
                     <div className="timeline__event__description">
                       Complete the{" "}
-                      <b>Learn HTML by building a Cat Photo App course</b>
+                      <b>Learn HTML by Building a Cat Photo App</b>
                     </div>
                   </div>
                 </div>
@@ -183,7 +174,7 @@ const IntroToHtml = () => {
             </div>
             <div className={styles.callout}>
               Complete the full FreeCodeCamp Responsive Web Design Course and
-              avail 400 karma points. Checkout{" "}
+              avail 800 karma points. Checkout{" "}
               <a href="https://learn.mulearn.org/web/core/1">
                 https://learn.mulearn.org/web/core/1
               </a>

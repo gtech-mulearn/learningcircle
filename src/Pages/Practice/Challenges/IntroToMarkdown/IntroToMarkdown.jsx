@@ -21,25 +21,12 @@ const IntroToMarkdown = () => {
                 Markdown, a lightweight language for text formatting.
               </p>
             </div>
-
-            {/* <div className={styles.fv_image}>
-                            <img
-                                src="/assets/challenge/typing.gif"
-                                alt="Group Learning Pic"
-                                className={styles.fv_img}
-                            />
-                        </div> */}
           </div>
         </div>
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>How to do the challenge?</p>
-              {/* <p className={styles.sv_content}>
-                                Do you know, The faster you type, the faster you communicate
-                                with others. Let's work on our rapid fingers and earn some
-                                karma.
-                            </p> */}
             </div>
           </div>
 
@@ -51,21 +38,20 @@ const IntroToMarkdown = () => {
                     <img
                       src={require("../assets/steps/github.svg").default}
                       alt=""
-                      // className="lni-cake"
+                      className="lni-cake"
                     />
                   </div>
                   <div className="timeline__event__date">1</div>
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step One</div>
                     <div className="timeline__event__description">
-                      {/* Create a <a href="https://github.com/">GitHub Account</a> */}
                       Navigate to{" "}
                       <a
                         href="https://github.com/skills/communicate-using-markdown"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        github.com/skills/communicate-using-markdown
+                        Github Skills
                       </a>
                     </div>
                   </div>
@@ -82,7 +68,6 @@ const IntroToMarkdown = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Two</div>
                     <div className="timeline__event__description">
-                      {/* Navigate to <a href="https://github.com/skills/introduction-to-github">github.com/skills/introduction-to-github</a> */}
                       Go through the <code>README.md</code> file. Read the
                       instructions carefully, create the repository and complete
                       the 5 steps.

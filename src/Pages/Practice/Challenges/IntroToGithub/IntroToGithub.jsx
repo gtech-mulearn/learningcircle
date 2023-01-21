@@ -21,26 +21,16 @@ const IntroToGithub = () => {
                 The aim of the course is to teach you about GitHub and its
                 numerous tools and processes, such as Issues and Pull Requests.
               </p>
+              <p className={styles.fv_content_karma}>
+                On Completion Earn 200 Karma Points
+              </p>
             </div>
-
-            {/* <div className={styles.fv_image}>
-                            <img
-                                src="/assets/challenge/typing.gif"
-                                alt="Group Learning Pic"
-                                className={styles.fv_img}
-                            />
-                        </div> */}
           </div>
         </div>
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>How to do the challenge?</p>
-              {/* <p className={styles.sv_content}>
-                                Do you know, The faster you type, the faster you communicate
-                                with others. Let's work on our rapid fingers and earn some
-                                karma.
-                            </p> */}
             </div>
           </div>
 
@@ -52,7 +42,7 @@ const IntroToGithub = () => {
                     <img
                       src={require("../assets/steps/github.svg").default}
                       alt=""
-                      // className="lni-cake"
+                      className="lni-cake"
                     />
                   </div>
                   <div className="timeline__event__date">1</div>

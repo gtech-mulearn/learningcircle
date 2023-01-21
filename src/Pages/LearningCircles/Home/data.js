@@ -118,6 +118,14 @@ const InterestGroups = [
         stack: "IoT",
         image: "/assets/mentors/Samuel John.webp",
       },
+      {
+        id: "",
+        name: "Minshad Babu",
+        designation: "Robotics Engineer-Fablab",
+        linkedIn: "https://www.linkedin.com/in/minshad-babu-427b26220/",
+        stack: "IoT",
+        image: "/assets/mentors/Minshad Babu.webp",
+      },
     ],
     learningpaths: [
       {
@@ -349,7 +357,7 @@ const InterestGroups = [
         name: "Android Development >",
       },
     ],
-    mentors: ["Shaheen Hyder", "Shahanad"],
+    mentors: ["Shaheen Hyder"],
     learningpaths: [
       {
         name: "Front End Learning Path",
@@ -375,13 +383,20 @@ const InterestGroups = [
           "https://drive.google.com/uc?export=view&id=1WZaPnWL4eFow4tcEE7FfBzgUnycNu2mT",
       },
       {
-        id: "S144",
-        name: "Shahanad V S",
-        designation: "Founder & CEO, OrionFlare",
-        linkedIn: "https://www.linkedIn.com/in/shahanadvs/",
+        id: "",
+        name: "Arjun A G",
+        designation: "Software Engineer Zoonida | Pygrammers",
+        linkedIn: "https://www.linkedin.com/in/agarjun007/",
         stack: "Web Development",
-        image:
-          "https://drive.google.com/uc?export=view&id=1E5TuTm1nKzLvKUznuAAb6xB-f94UXTv7",
+        image: "/assets/mentors/Arjun A G.webp",
+      },
+      {
+        id: "",
+        name: "Binoop M J",
+        designation: "User Interface Lead Faya",
+        linkedIn: "https://www.linkedin.com/in/binoop-m-j",
+        stack: "Web Development",
+        image: "/assets/mentors/Binoop M J.webp",
       },
     ],
     basicenablementtasks: [
@@ -572,8 +587,7 @@ const InterestGroups = [
         designation: "Staff Developer Advocate, Google",
         linkedIn: "https://www.linkedIn.com/in/amrit-sanjeev-a4984438/",
         stack: "Android Development",
-        image:
-          "https://media.licdn.com/dms/image/C5603AQHYTANACzF_rw/profile-displayphoto-shrink_400_400/0/1516798684291?e=1677110400&v=beta&t=7slsRAWEt5WQ4NUM6DPrG27TXiUWhFG5GGiUZFl6NS4",
+        image: "https://www.fayaport80.com/speakers/thumb/amrit-sanjee.jpg",
       },
       {
         id: "S150",
@@ -581,8 +595,31 @@ const InterestGroups = [
         designation: "Cofounder and CTO, Finotes Inc",
         linkedIn: "https://www.linkedIn.com/in/donpeter06/",
         stack: "Android Development",
-        image:
-          "https://media.licdn.com/dms/image/C5603AQFTWXQV9_kCig/profile-displayphoto-shrink_400_400/0/1602424880405?e=1677110400&v=beta&t=qTwBc4iPF-YlH40OfibU0PkSS9YVRW-R8HxrssZAgj8",
+        image: "/assets//mentors/Don-Peter.webp",
+      },
+      {
+        id: "",
+        name: "Bibin Sebastian",
+        designation: "Developer, Deloitte",
+        linkedIn: "https://www.linkedin.com/in/bibin-sebastian/",
+        stack: "Flutter Developer",
+        image: "/assets//mentors/Bibin Sebastian.webp",
+      },
+      {
+        id: "",
+        name: "Aswin Gopinathan",
+        designation: "SDE-1 Mobile @ ZestMoney",
+        linkedIn: "https://www.linkedin.com/in/aswin-gopinathan-69556716a/",
+        stack: "Flutter Developer",
+        image: "/assets//mentors/Aswin Gopinathan.webp",
+      },
+      {
+        id: "",
+        name: "Sreelal TS",
+        designation: "Flutter Developer, YCorp",
+        linkedIn: "https://www.linkedin.com/in/aswin-gopinathan-69556716a/",
+        stack: "Flutter Developer",
+        image: "/assets//mentors/Sreelal TS.webp",
       },
     ],
 
@@ -1611,8 +1648,25 @@ const InterestGroups = [
     comingsoon: "true",
     opportunities: [],
     company: [],
-    mentors: [],
-    mentorscard: [],
+    mentors: ["Vishnu Vijayan", "Akshay Jose"],
+    mentorscard: [
+      {
+        id: "",
+        name: "Vishnu Vijayan",
+        designation: "Alliances Manager, Zilicon Technologies Pvt.Ltd",
+        linkedIn: "https://www.linkedin.com/in/vishnu-vijayan-vs/",
+        stack: "AR/VR",
+        image: "/assets/mentors/Vishnu Vijayan.webp",
+      },
+      {
+        id: "",
+        name: "Akshay Jose",
+        designation: "Creative Designer, Xena Intelligence",
+        linkedIn: "https://www.linkedin.com/in/akshay-jose-700025124/",
+        stack: "AR/VR",
+        image: "/assets/mentors/Akshay Jose.webp",
+      },
+    ],
     pagination: [
       {
         id: "uiux",
@@ -1771,24 +1825,24 @@ const InterestGroups = [
       "ML Ops Engineer",
     ],
     company: [],
-    mentors: [
-      "Niyas", "Robin Tommy"
-    ],
+    mentors: ["Niyas Mohammed", "Robin Tommy"],
     mentorscard: [
       {
-        "id": "1",
-        "name": "Niyas",
-        "designation": "Litmus7",
-        linkedIn: "https://www.linkedin.com/in/niyasmohammed/?originalSubdomain=in",
-        image: "assets/mentors/niyas.webp"
+        id: "",
+        name: "Niyas Mohammed",
+        designation: "Technology Specialist - AI",
+        linkedIn: "https://www.linkedin.com/in/niyasmohammed/",
+        stack: "Artifical Intelligence",
+        image: "/assets/mentors/Niyas Mohammed.webp",
       },
       {
-        "id": "2",
-        "name": "Robin Tommy",
-        "designation": "TCS",
-        linkedIn: "https://www.linkedin.com/in/robintommy/?originalSubdomain=in",
-        image: "assets/mentors/robin.webp"
-      }
+        id: "",
+        name: "Robin Tommy",
+        designation: "Social Innovation and Startup Mentor TCS ",
+        linkedIn: "https://www.linkedin.com/in/niyasmohammed/",
+        stack: "Artifical Intelligence",
+        image: "/assets/mentors/Robin Tommy.webp",
+      },
     ],
     pagination: [
       {
@@ -1939,9 +1993,9 @@ const InterestGroups = [
     id: "blockchain",
     interestgroup: "Blockchain",
     interestgroupdescription:
-      "LBlock chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
+      "Block chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
     officetime: "Monday 8.30 PM",
-    officeplace: "Discord Lobby",
+    officeplace: " Discord Lobby",
     community: ["KBA"],
     opportunities: [],
     company: [],
@@ -2046,8 +2100,10 @@ const InterestGroups = [
     mentorscard: [
       {
         id: "1",
-        name: "Vivek",
-        stack: "",
+        name: "Vivek R",
+        stack: "Distributed Systems, Networks, Security",
+        linkedIn: "https://www.linkedin.com/in/123vivekr/",
+        image: "/assets/mentors/Vivek-R.webp",
       },
     ],
     officetime: "Friday 7:00pm",

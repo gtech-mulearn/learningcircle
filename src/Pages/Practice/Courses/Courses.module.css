@@ -74,6 +74,7 @@
 /* Second View Styles */
 
 .second_view_container {
+  margin-top: 3rem;
   padding: 2rem;
   background-color: #ffffff;
 }
