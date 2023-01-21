@@ -384,15 +384,6 @@ const InterestGroups = [
         image:
           "https://drive.google.com/uc?export=view&id=1WZaPnWL4eFow4tcEE7FfBzgUnycNu2mT",
       },
-      {
-        id: "S144",
-        name: "Shahanad V S",
-        designation: "Founder & CEO, OrionFlare",
-        linkedIn: "https://www.linkedIn.com/in/shahanadvs/",
-        stack: "Web Development",
-        image:
-          "https://drive.google.com/uc?export=view&id=1E5TuTm1nKzLvKUznuAAb6xB-f94UXTv7",
-      },
     ],
     basicenablementtasks: [
       {
@@ -853,9 +844,9 @@ const InterestGroups = [
       },
       {
         id: "",
-        name: "Manindar ",
+        name: "Manindar Mohan",
         designation: "Beagle Security",
-        linkedIn: "",
+        linkedIn: "https://www.linkedin.com/in/manindar-m/",
         stack: "Cybersecurity",
         image: "",
       },
@@ -1028,7 +1019,8 @@ const InterestGroups = [
       {
         id: "1",
         name: "Aaron K",
-        college: "Mar Baselios College of Engineering and Technology (Autonomous)",
+        college:
+          "Mar Baselios College of Engineering and Technology (Autonomous)",
       },
     ],
     trendingprojectsprojects: [
@@ -1775,9 +1767,9 @@ const InterestGroups = [
     id: "blockchain",
     interestgroup: "Blockchain",
     interestgroupdescription:
-      "LBlock chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
+      "Block chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
     officetime: "Monday 8.30 PM",
-    officeplace: "Discord Lobby",
+    officeplace: " Discord Lobby",
     community: ["KBA"],
     opportunities: [],
     company: [],
@@ -1875,8 +1867,9 @@ const InterestGroups = [
     mentorscard: [
       {
         id: "1",
-        name: "Vivek",
-        stack: "",
+        name: "Vivek R",
+        stack: "Distributed Systems, Networks, Security",
+        linkedIn: "https://www.linkedin.com/in/123vivekr/"
       },
     ],
     officetime: "Friday 7:00pm",

@@ -41,6 +41,7 @@
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
   border-radius: 5px;
+  margin-right: 0.75rem;
 }
 
 .search_button {
@@ -138,6 +139,7 @@
 
 .tav_contents {
   margin-bottom: 1rem;
+  font-family: "Poppins";
 }
 
 @media only screen and (min-width: 1000px) {
@@ -171,8 +173,11 @@
   font-weight: 600;
 }
 
-.sv_contents {
+.sv_content {
+  font-size: 1rem;
   margin-bottom: 1rem;
+  font-family: "Poppins";
+  max-width: 40rem;
 }
 
 .sv_lists {
