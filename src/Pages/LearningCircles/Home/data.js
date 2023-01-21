@@ -129,6 +129,14 @@ const InterestGroups = [
         stack: "IoT",
         image: "/assets/mentors/Samuel John.webp",
       },
+      {
+        id: "",
+        name: "Minshad Babu",
+        designation: "Robotics Engineer-Fablab",
+        linkedIn: "https://www.linkedin.com/in/minshad-babu-427b26220/",
+        stack: "IoT",
+        image: "/assets/mentors/Minshad Babu.webp",
+      },
     ],
     learningpaths: [
       {
@@ -359,7 +367,7 @@ const InterestGroups = [
         name: "Android Development >",
       },
     ],
-    mentors: ["Shaheen Hyder", "Shahanad"],
+    mentors: ["Shaheen Hyder"],
     learningpaths: [
       {
         name: "Front End Learning Path",
@@ -383,6 +391,22 @@ const InterestGroups = [
         stack: "Web Development",
         image:
           "https://drive.google.com/uc?export=view&id=1WZaPnWL4eFow4tcEE7FfBzgUnycNu2mT",
+      },
+      {
+        id: "",
+        name: "Arjun A G",
+        designation: "Software Engineer Zoonida | Pygrammers",
+        linkedIn: "https://www.linkedin.com/in/agarjun007/",
+        stack: "Web Development",
+        image: "/assets/mentors/Arjun A G.webp",
+      },
+      {
+        id: "",
+        name: "Binoop M J",
+        designation: "User Interface Lead Faya",
+        linkedIn: "https://www.linkedin.com/in/binoop-m-j",
+        stack: "Web Development",
+        image: "/assets/mentors/Binoop M J.webp",
       },
     ],
     basicenablementtasks: [
@@ -582,6 +606,30 @@ const InterestGroups = [
         linkedIn: "https://www.linkedIn.com/in/donpeter06/",
         stack: "Android Development",
         image: "/assets//mentors/Don-Peter.webp",
+      },
+      {
+        id: "",
+        name: "Bibin Sebastian",
+        designation: "Developer, Deloitte",
+        linkedIn: "https://www.linkedin.com/in/bibin-sebastian/",
+        stack: "Flutter Developer",
+        image: "/assets//mentors/Bibin Sebastian.webp",
+      },
+      {
+        id: "",
+        name: "Aswin Gopinathan",
+        designation: "SDE-1 Mobile @ ZestMoney",
+        linkedIn: "https://www.linkedin.com/in/aswin-gopinathan-69556716a/",
+        stack: "Flutter Developer",
+        image: "/assets//mentors/Aswin Gopinathan.webp",
+      },
+      {
+        id: "",
+        name: "Sreelal TS",
+        designation: "Flutter Developer, YCorp",
+        linkedIn: "https://www.linkedin.com/in/aswin-gopinathan-69556716a/",
+        stack: "Flutter Developer",
+        image: "/assets//mentors/Sreelal TS.webp",
       },
     ],
 
@@ -846,7 +894,7 @@ const InterestGroups = [
         designation: "Beagle Security",
         linkedIn: "https://www.linkedin.com/in/manindar-m/",
         stack: "Cybersecurity",
-        image: "",
+        image: "/assets/mentors/Manindar Mohan.webp",
       },
     ],
     pagination: [
@@ -1582,8 +1630,25 @@ const InterestGroups = [
     comingsoon: "true",
     opportunities: [],
     company: [],
-    mentors: [],
-    mentorscard: [],
+    mentors: ["Vishnu Vijayan","Akshay Jose"],
+    mentorscard: [
+       {
+        id: "",
+        name: "Vishnu Vijayan",
+        designation: "Alliances Manager, Zilicon Technologies Pvt.Ltd",
+        linkedIn: "https://www.linkedin.com/in/vishnu-vijayan-vs/",
+        stack: "AR/VR",
+        image: "/assets/mentors/Vishnu Vijayan.webp",
+      },
+      {
+        id: "",
+        name: "Akshay Jose",
+        designation: "Creative Designer, Xena Intelligence",
+        linkedIn: "https://www.linkedin.com/in/akshay-jose-700025124/",
+        stack: "AR/VR",
+        image: "/assets/mentors/Akshay Jose.webp",
+      },
+    ],
     pagination: [
       {
         id: "uiux",
@@ -1717,8 +1782,25 @@ const InterestGroups = [
     community: [],
     opportunities: [],
     company: [],
-    mentors: [],
-    mentorscard: [],
+    mentors: ["Niyas Mohammed", "Robin Tommy"],
+    mentorscard: [
+      {
+        id: "",
+        name: "Niyas Mohammed",
+        designation: "Technology Specialist - AI",
+        linkedIn: "https://www.linkedin.com/in/niyasmohammed/",
+        stack: "Artifical Intelligence",
+        image: "/assets/mentors/Niyas Mohammed.webp",
+      },
+      {
+        id: "",
+        name: "Robin Tommy",
+        designation: "Social Innovation and Startup Mentor TCS ",
+        linkedIn: "https://www.linkedin.com/in/niyasmohammed/",
+        stack: "Artifical Intelligence",
+        image: "/assets/mentors/Robin Tommy.webp",
+      },
+    ],
     pagination: [
       {
         id: "arvr",
