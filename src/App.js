@@ -10,14 +10,15 @@ import GettingStarted from "./Pages/LearningCircles/GettingStarted/GettingStarte
 
 //InterestGroups
 import InterestGroup from "./Pages/InterestGroups/InterestGroup";
-import CoursePage from "./Pages/InterestGroups/Course/CoursePage"
-import WebData from './Pages/InterestGroups/Course/web';
-import AndroidData from './Pages/InterestGroups/Course/android';
-import CommonData from './Pages/InterestGroups/Course/common';
+import CoursePage from "./Pages/InterestGroups/Course/CoursePage";
+import WebData from "./Pages/InterestGroups/Course/web";
+import AndroidData from "./Pages/InterestGroups/Course/android";
+import CommonData from "./Pages/InterestGroups/Course/common";
 import IoTData from "./Pages/InterestGroups/Course/iot";
 import CybersecData from "./Pages/InterestGroups/Course/cybersec";
-import PmData from './Pages/InterestGroups/Course/pm';
-import UiuxData from './Pages/InterestGroups/Course/uiux'
+import PmData from "./Pages/InterestGroups/Course/pm";
+import UiuxData from "./Pages/InterestGroups/Course/uiux";
+import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
 
 //Bootcamp Section
 import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome";
@@ -258,13 +259,35 @@ function App() {
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}
           />
-          <Route path="/web/:type/:id" element={<CoursePage CourseData={WebData} />} />
-          <Route path="/uiux/:type/:id" element={<CoursePage CourseData={UiuxData} />} />
-          <Route path="/pm/:type/:id" element={<CoursePage CourseData={PmData} />} />
-          <Route path="/iot/:type/:id" element={<CoursePage CourseData={IoTData} />} />
-          <Route path="/android/:type/:id" element={<CoursePage CourseData={AndroidData} />} />
-          <Route path="/cybersec/:type/:id" element={<CoursePage CourseData={CybersecData} />} />
-          <Route path="/common/:type/:id" element={<CoursePage CourseData={CommonData} />} />
+          <Route
+            path="/web/:type/:id"
+            element={<CoursePage CourseData={WebData} />}
+          />
+          <Route
+            path="/uiux/:type/:id"
+            element={<CoursePage CourseData={UiuxData} />}
+          />
+          <Route
+            path="/pm/:type/:id"
+            element={<CoursePage CourseData={PmData} />}
+          />
+          <Route
+            path="/iot/:type/:id"
+            element={<CoursePage CourseData={IoTData} />}
+          />
+          <Route
+            path="/android/:type/:id"
+            element={<CoursePage CourseData={AndroidData} />}
+          />
+          <Route
+            path="/cybersec/:type/:id"
+            element={<CoursePage CourseData={CybersecData} />}
+          />
+          <Route
+            path="/common/:type/:id"
+            element={<CoursePage CourseData={CommonData} />}
+          />
+          <Route path="/android/core/learnkotlin" element={<AndroidKotlin />} />
 
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />
