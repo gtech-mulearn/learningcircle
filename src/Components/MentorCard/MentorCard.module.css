@@ -11,8 +11,16 @@
   justify-content: space-between;
 }
 
+.imagesHolder {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
 .mentorimg {
-  width: 5rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 5px;
 }
 

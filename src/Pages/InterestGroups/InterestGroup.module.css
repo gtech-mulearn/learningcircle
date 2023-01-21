@@ -166,6 +166,7 @@
 .sv_img {
   width: 20rem;
 }
+
 .sv_heading {
   color: #f6842c;
   font-size: 1.5rem;
@@ -240,7 +241,7 @@
   }
 
   .list_item {
-    max-width: 35rem;
+    max-width: 62.5rem;
   }
 }
 
@@ -277,6 +278,7 @@
     font-size: 1rem;
     margin: 6rem;
   }
+
   .keywords_container {
     margin: 0 1rem;
   }

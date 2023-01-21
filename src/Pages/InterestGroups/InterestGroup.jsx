@@ -181,6 +181,7 @@ const InterestGroup = ({ setInterest }) => {
                         <MentorCard
                           name={lead.name}
                           designation={lead.college}
+                          image={lead.images}
                         />
                       ))}
                     </div>

@@ -6,22 +6,11 @@ const InterestGroups = [
       "Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the fan above your head, almost everything can be connected and controlled automatically. But How? Join our IoT Interest Group to learn how this can be achieved.",
     leads: [
       {
-        id: "1",
-        name: "Albin Mathews",
-        college: "College of Engineering, Aranmula",
-        phone: "9961019157",
-      },
-      {
-        id: "2",
-        name: "Milan Deepak",
-        college: "Muthoot Institute of Technology and Science",
-      },
-      {
-        id: "3",
-        name: "Jovit",
-        college: "St. Joseph's College of Engineering and Technology",
-        phone: "9400937046",
-      },
+        id: 1,
+        name: "Jeevan Joseph",
+        college: "Kristu Jyoti College of Management & Technology,Kottayam",
+        images: "assets/interestGroups/jeevanJoseph.webp",
+      }
     ],
     officetime: "Sunday 7:30 PM",
     officeplace: " at Discord Lobby",
@@ -119,7 +108,7 @@ const InterestGroups = [
         linkedIn: "https://www.linkedIn.com/in/akshaim",
         stack: "IoT",
         image:
-          "https://drive.google.com/uc?export=view&id=1Fq8-PvfeME5f78kSUydqj-zuSi9MESvI",
+          "assets/mentors/Akshai M.webp",
       },
       {
         id: "S135",
@@ -313,20 +302,21 @@ const InterestGroups = [
     leads: [
       {
         id: "1",
-        name: "Sreelakshmi S",
-        college: "Carmel College of Engineering & Technology",
+        name: "Aswin Asok",
+        college: "Marian Engineering College,Thiruvananthapuram",
+        images: "assets/interestGroups/Aswin Asok.webp",
       },
       {
         id: "2",
-        name: "Nithin ",
-        college: "College of Engineering Aranmula",
-        phone: "8078945336",
+        name: "Adil S ",
+        college: "Govt. Engineering College,Idukki",
+        images: "assets/interestGroups/Adil S.webp",
       },
       {
         id: "3",
-        name: "Neeraj",
-        college: "SCMS College of Technology & Management",
-        phone: "8943243637",
+        name: "Alwin John",
+        college: "College of Engineering Chengannur,Alappuzha ",
+        images: "assets/interestGroups/Alwin John .webp",
       },
     ],
     officetime: "Saturday 7:30 PM",
@@ -568,7 +558,7 @@ const InterestGroups = [
   },
   {
     id: "android",
-    interestgroup: "Android Development",
+    interestgroup: "Mobile App Development",
     interestgroupdescription:
       "Everything is at your fingertips, and you still don't know the working and stages of android development. Have you ever thought of exploring? Don't worry; Join our Android Development Interest Group right away and start feeding your curious minds from the basics.",
     officetime: "Thursday 7:30PM",
@@ -820,6 +810,7 @@ const InterestGroups = [
       {
         id: "1",
         name: "Mariya Merlin ",
+        images: "assets/interestGroups/mariya.webp",
         college:
           "Kristujyoti College of Management and Technology, Changannacherry",
       },
@@ -828,7 +819,21 @@ const InterestGroups = [
         name: "Ben George",
         college:
           "Mar Baselios College of Engineering and Technology, Trivandrum",
+        images: "assets/interestGroups/ben.webp",
       },
+      {
+        id: 3,
+        name: "Basith P",
+        college: "KMCT Engineering College,Kozhikode",
+        images: "assets/interestGroups/Basith P.webp",
+
+      },
+      {
+        id: 4,
+        name: "Zohil P K",
+        college: "AWH Engineering College,Kozhikode",
+        images: "assets/interestGroups/zohil.webp",
+      }
     ],
     resources: [
       {
@@ -859,7 +864,7 @@ const InterestGroups = [
       "Cybersecurity Engineer",
     ],
     company: ["Beagle Security"],
-    mentors: ["Rejah Rehim", "Anees", "Nash N Sulthan", " Manindar"],
+    mentors: ["Rejah Rehim", "Anees", "Nash N Sulthan"],
     mentorscard: [
       {
         id: "S146",
@@ -887,16 +892,7 @@ const InterestGroups = [
         stack: "Cybersecurity",
         image:
           "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
-      },
-      {
-        id: "",
-        name: "Manindar Mohan",
-        designation: "Beagle Security",
-        linkedIn: "https://www.linkedin.com/in/manindar-m/",
-        stack: "Cybersecurity",
-        image: "/assets/mentors/Manindar Mohan.webp",
-      },
-    ],
+      },],
     pagination: [
       {
         id: "android",
@@ -1061,14 +1057,6 @@ const InterestGroups = [
         name: "System Hacking",
       },
     ],
-    leads: [
-      {
-        id: "1",
-        name: "Aaron K",
-        college:
-          "Mar Baselios College of Engineering and Technology (Autonomous)",
-      },
-    ],
     trendingprojectsprojects: [
       {
         name: "Anomaly detection, intrusion and its prevention",
@@ -1155,6 +1143,20 @@ const InterestGroups = [
       {
         id: "12",
         name: "Security systems engineering",
+      },
+    ],
+    leads: [
+      {
+        id: "1",
+        name: "Abhishek Santhosh",
+        images: "assets/interestGroups/abhishek.webp",
+        college: "Carmel College of Engineering and Technology,Punnapra",
+      },
+      {
+        id: "2",
+        name: "Sooraj Mathew",
+        images: "assets/interestGroups/Sooraj.webp",
+        college: "College of Engineering Trivandrum",
       },
     ],
   },
@@ -1405,6 +1407,14 @@ const InterestGroups = [
         link: "https://brainstation.io/career-guides/how-to-become-a-ui-designer.",
       },
     ],
+    leads: [
+      {
+        id: 1,
+        name: "Salman Faariz",
+        college: "Mar Baselios College of Engineering and Technology,Trivandrum",
+        images: "assets/interestGroups/Salman Faariz.webp ",
+        linkedIn: "https://www.linkedIn.com/in/salman-faariz-37b892194",
+      },],
     mentorscard: [
       {
         id: "S139",
@@ -1627,12 +1637,20 @@ const InterestGroups = [
     officetime: "Sunday 08:30 PM",
     officeplace: " at Discord Lobby",
     community: ["XtrudAR"],
+    leads: [
+      {
+        id: 1,
+        name: "Vishnu Prathab",
+        college: "COLLEGE OF ENGINEERING ,MUNNAR ",
+        images: "assets/interestGroups/Vishnu Prathap.webp",
+      }
+    ],
     comingsoon: "true",
     opportunities: [],
     company: [],
-    mentors: ["Vishnu Vijayan","Akshay Jose"],
+    mentors: ["Vishnu Vijayan", "Akshay Jose"],
     mentorscard: [
-       {
+      {
         id: "",
         name: "Vishnu Vijayan",
         designation: "Alliances Manager, Zilicon Technologies Pvt.Ltd",
@@ -1753,8 +1771,8 @@ const InterestGroups = [
         karma: "",
       },
     ],
-    "": {},
   },
+  { a: "breakout" },
   {
     id: "ai",
     interestgroup: "Artificial Intelligence",
@@ -1765,22 +1783,47 @@ const InterestGroups = [
         id: 1,
         name: "Arjun M S",
         college: "Jyothi Engineering College, Thrissur",
+        images: "assets/interestGroups/arjunms.webp",
+      },
+      {
+        id: 2,
+        name: "Zafar",
+        college: "KMCT Engineering College,Kozhikode",
+        images: "assets/interestGroups/Zafar.webp",
       },
     ],
     basicenablementtasks: [
       {
-        name: "Create a dataset",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
+        id: "1",
+        name: "BuildSpace AI Writer",
+        link: "https://docs.google.com/document/d/1Z9WAI7vSrBFOv6yNVKj9xyhRCGwL6yKesGn7_05QK2E/edit?usp=sharing"
       },
+      {
+        "id": "2",
+        "name": "Intro to Machine Learning - Kaggle",
+        "link": "https://www.kaggle.com/learn/intro-to-machine-learning"
+      },
+      {
+        "id": "3",
+        "name": "Intro to AI - Elements of AI ",
+        "link": "https://course.elementsofai.com/"
+      },
+      {
+        "id": "4",
+        "name": "Buiding AI - Elements of AI",
+        "link": "https://buildingai.elementsofai.com/"
+      }
     ],
-    officetime: "Monday 7:00pm",
+    officetime: "",
     comingsoon: "true",
-    officeplace: "Discord Lobby",
+    officeplace: " At Discord Lobby",
     community: [],
-    opportunities: [],
+    opportunities: [
+      "Machine Learning Engineer",
+      "Research Engineer - AI",
+      "Data Scientist",
+      "ML Ops Engineer",
+    ],
     company: [],
     mentors: ["Niyas Mohammed", "Robin Tommy"],
     mentorscard: [
@@ -1813,36 +1856,139 @@ const InterestGroups = [
     ],
     learningpaths: [
       {
-        name: "I am AI",
-        link: "https://i.am.ai/roadmap",
+        "id": "2",
+        "name": "Deeplearning.ai Specialization",
+        "link": "https://in.coursera.org/specializations/deep-learning"
+      },
+      {
+        "id": "3",
+        "name": "University of Michigan - Applied Data Science Specialization",
+        "link": "https://in.coursera.org/specializations/data-science-python"
+      },
+      {
+        "id": "4",
+        "name": "Neural Networks: Zero to Hero - Andrej Karpathy",
+        "link": "https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ"
+      },
+      {
+        "id": "5",
+        "name": "Applied Machine Learning - Andreas Muller",
+        "link": "https://www.youtube.com/playlist?list=PL_pVmAaAnxIRnSw6wiCpSvshFyCREZmlM"
       },
     ],
 
     corecourses: [
       {
-        id: "1",
-        name: "Intro to Machine Learning",
-        link: "https://www.kaggle.com/learn/intro-to-machine-learning",
+        "id": "1",
+        "name": "Intro to Machine Learning - Sebastian Thrun, Katile Malone",
+        "link": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
       },
       {
-        id: "2",
-        name: "Intermediate Machine Learning",
-        link: "https://www.kaggle.com/learn/intermediate-machine-learning",
+        "id": "2",
+        "name": "Practical Deep learning for coders",
+        "link": "https://course.fast.ai/"
       },
       {
-        id: "3",
-        name: "FreeCodeCamp Machine Learning with Python",
-        link: "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+        "id": "3",
+        "name": "Intro to machine learning with sklearn - Data school",
+        "link": "https://courses.dataschool.io/introduction-to-machine-learning-with-scikit-learn"
+      },
+      {
+        "id": "4",
+        "name": "Advanced NLP with Spacy",
+        "link": "https://course.spacy.io/en/"
       },
     ],
     subcourses: [
       {
-        id: "1",
-        name: "Kaggle Learn",
-        link: "https://www.kaggle.com/learn",
+        "id": "1",
+        "name": "Kaggle Learn",
+        "link": "https://www.kaggle.com/learn"
       },
+      {
+        "id": "2",
+        "name": "Effective Pandas",
+        "link": "https://www.youtube.com/watch?v=UURvPeczxJI"
+      }
     ],
+    blogs: [
+      {
+        "id": "1",
+        "name": "PyImageSearch",
+        "link": "https://pyimagesearch.com/blog/"
+      },
+      {
+        "id": "2",
+        "name": "Machine Learning Mastery",
+        "link": "https://machinelearningmastery.com/"
+      }
+    ],
+    people: [
+      {
+        "id": "1",
+        "name": "Jeremy Howard",
+        "link": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiArtj8ptj8AhXFUGwGHdQJBn8Q6F56BAgGEAE&url=https%3A%2F%2Ftwitter.com%2Fjeremyphoward%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw2QgTrPgq8D3E7YgXnpVoAd"
+      },
+      {
+        "id": "2",
+        "name": "Andrej Karpathy",
+        "link": "https://twitter.com/karpathy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+      }
+    ],
+    keywords: [
+      {
+        "id": "1",
+        "keyword": "natural lanugage processing"
+      },
+      {
+        "id": "2",
+        "keyword": "large language models"
+      },
+      {
+        "id": "3",
+        "keyword": "stable diffusion"
+      },
+      {
+        "id": "4",
+        "keyword": "time series"
+      },
+      {
+        "id": "5",
+        "keyword": "object recognition"
+      },
+      {
+        "id": "6",
+        "keyword": "text classification"
+      },
+      {
+        "id": "7",
+        "keyword": "question answering"
+      }
+    ],
+    books: [
+      {
+        "id": "1",
+        "name": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition",
+        "link": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/?_gl=1*153qn26*_ga*MTkyOTg4ODcyMS4xNjc0MjkyMTc4*_ga_092EL089CH*MTY3NDI5MjE3Ny4xLjEuMTY3NDI5MjE5Mi40NS4wLjA."
+      },
+      {
+        "id": "2",
+        "name": "Data Science from Scratch",
+        "link": "https://www.oreilly.com/library/view/data-science-from/9781492041122/"
+      },
+      {
+        "id": "3",
+        "name": "Deep Learning for Coders with Fastai and PyTorch",
+        "link": "https://course.fast.ai/Resources/book.html"
+      },
+      {
+        "id": "4",
+        "name": "Introduction to Machine Learning with Python",
+        "link": "https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/"
+      }
+    ]
   },
+  { a: "breakout" },
   {
     id: "blockchain",
     interestgroup: "Blockchain",
@@ -1881,7 +2027,14 @@ const InterestGroups = [
       },
     ],
     subcourses: [],
-    "": {},
+    leads: [
+      {
+        id: 1,
+        name: 'Alekshay S Rajan',
+        college: "College of applied science perissery",
+        images: "assets/interestGroups/akshay.webp",
+      }
+    ]
   },
   {
     id: "clouddevops",

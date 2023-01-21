@@ -60,7 +60,8 @@
 }
 
 .register {
-  background-color: #00bc83;
+  user-select: none;
+  background-color: #b1b1b1;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   color: white;
@@ -205,6 +206,7 @@
   .sv_heading {
     font-size: 2rem;
   }
+
   .sv_content {
     width: 30%;
   }
