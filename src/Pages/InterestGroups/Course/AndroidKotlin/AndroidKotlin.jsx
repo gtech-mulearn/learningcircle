@@ -19,7 +19,7 @@ const AndroidKotlin = () => {
                 things, including Android development.
               </p>
               <p className={styles.karma_header}>
-                On Course Completion 800 Karma Points.
+                On Course Completion 1000 Karma Points.
               </p>
             </div>
 
@@ -55,7 +55,11 @@ const AndroidKotlin = () => {
                       and experienced programmers."
                     </p>
                   </div>
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://kotlinlang.org/docs/getting-started.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className={styles.view_course}>
                       View Documentation
                     </button>
@@ -73,7 +77,11 @@ const AndroidKotlin = () => {
                       you through the process of building your own programs.
                     </p>
                   </div>
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.youtube.com/watch?v=F9UC9DY-vIU"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className={styles.view_course}>
                       View Tutorial Video
                     </button>
@@ -105,7 +113,11 @@ const AndroidKotlin = () => {
                         data visualization.
                       </p>
                     </div>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://openweathermap.org/api"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <button className={styles.view_course}>
                         Start Building
                       </button>
@@ -122,7 +134,7 @@ const AndroidKotlin = () => {
                         programming language
                       </p>
                     </div>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a href="https://levelup.gitconnected.com/building-a-simple-calculator-in-kotlin-using-android-studio-e877dec52768">
                       <button className={styles.view_course}>
                         Start Building
                       </button>
@@ -138,7 +150,11 @@ const AndroidKotlin = () => {
                         Kotlin for creating user-friendly and efficient apps.
                       </p>
                     </div>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://medium.com/@tanunprabhu95/to-do-list-application-using-kotlin-using-android-studio-546e74ac75aa"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <button className={styles.view_course}>
                         Start Building
                       </button>
@@ -158,7 +174,11 @@ const AndroidKotlin = () => {
                         and engaging apps.
                       </p>
                     </div>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://www.geeksforgeeks.org/how-to-build-a-tic-tac-toe-game-with-both-offline-and-online-mode-in-android/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <button className={styles.view_course}>
                         Start Building
                       </button>
@@ -175,7 +195,11 @@ const AndroidKotlin = () => {
                         and educational apps.
                       </p>
                     </div>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://www.geeksforgeeks.org/how-to-create-a-quiz-app-in-android/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <button className={styles.view_course}>
                         Start Building
                       </button>
@@ -193,18 +217,45 @@ const AndroidKotlin = () => {
                   Once <span>Completed</span>
                 </p>
                 <p className={styles.sv_content}>
-                  After course completion, complete the assignment and post the
+                  After course completion, complete the assignments and post the
                   Repository url in the #android-development channel of the
-                  µLearn Discord server with the hashtag #android-kotlin-intro
-                  to avail karma points
+                  µLearn Discord server with the respective hastags to avail
+                  karma points
                 </p>
+                <div className={styles.hastags}>
+                  <ul>
+                    <li className={styles.level}>
+                      - Post the screenshot of your assignment along with the
+                      Github Repo link when you complete each task in
+                      #android-development channel with hashtags given below to
+                      avail 200 karma points.
+                    </li>
+                    <br />
+                    <li className={styles.level}>
+                      - Weather App: <b>#kotlin-weather-app</b>
+                    </li>
+                    <li className={styles.level}>
+                      - Quiz App: <b>#kotlin-quiz-app</b>
+                    </li>
+                    <li className={styles.level}>
+                      - ToDo App: <b>#kotlin-todo-app</b>
+                    </li>
+                    <li className={styles.level}>
+                      - Tic-Tac-Toe App: <b>#kotlin-tic-tac-toe</b>
+                    </li>
+                    <li className={styles.level}>
+                      - Simple Calculator App: <b>#kotlin-calculator-app</b>
+                    </li>
+                  </ul>
+                </div>
               </div>
 
               <div className={styles.sample_container}>
                 <p className={styles.sample_header}>Example Message</p>
                 <p className={styles.sample_message}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laborum, praesentium ullam quas fugit ipsum minus.
+                  Hey, I have complete the Weather App using Kotlin, Here the
+                  Github Repo Link https://github.com/username/reponame
+                  #kotlin-weather-app
                 </p>
               </div>
             </div>
