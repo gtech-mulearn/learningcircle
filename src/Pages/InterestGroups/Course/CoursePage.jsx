@@ -95,12 +95,14 @@ const CoursePage = ({ CourseData }) => {
                     {course.inner_description}
                   </p>
                 </div>
-                <div className={styles.sample_container}>
-                  <p className={styles.sample_header}>Example Message</p>
-                  <p className={styles.sample_message}>
-                    {course.example || course.assignment[0].example}
-                  </p>
-                </div>
+                {course && course.example && (
+                  <div className={styles.sample_container}>
+                    <p className={styles.sample_header}>Example Message</p>
+                    <p className={styles.sample_message}>
+                      {course.example || course.assignment[0].example}
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
 
