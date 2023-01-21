@@ -147,7 +147,7 @@
 
 @media only screen and (min-width: 1000px) {
   .second_view_container {
-    margin: 3rem 6rem;
+    margin: 3rem 3rem;
   }
 
   .sv_heading {
@@ -192,4 +192,10 @@
   font-family: "Noto Sans";
   border-radius: 5px;
   padding: 0.35rem 1.5rem;
+}
+
+@media only screen and (min-width: 1300px) {
+  .second_view_container {
+    margin: 3rem 6rem;
+  }
 }

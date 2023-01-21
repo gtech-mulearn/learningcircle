@@ -40,7 +40,7 @@
 
 @media only screen and (min-width: 1000px) {
   .first_view_container {
-    margin: 6rem;
+    margin: 3rem;
   }
 
   .fv_texts {
@@ -191,7 +191,7 @@
 
 @media only screen and (min-width: 1000px) {
   .circles_container {
-    margin: 6rem;
+    margin: 3rem;
   }
 
   .tssheading1 {
@@ -241,7 +241,7 @@
 }
 
 .notfound {
-  margin: 2rem;
+  margin: 0 2rem;
   text-align: left;
   color: #f6842c;
 }
@@ -269,14 +269,11 @@
     column-gap: 3vw;
   }
 
-  .createbtn {
-    margin: 2rem 6rem;
-  }
-
   .notfound {
-    margin: 0 6rem;
     text-align: left;
     color: #f6842c;
+    font-size: 1.05rem;
+    max-width: 40rem;
   }
 }
 

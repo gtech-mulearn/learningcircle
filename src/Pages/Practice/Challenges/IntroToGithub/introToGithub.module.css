@@ -46,10 +46,16 @@ a {
   color: #f6842c;
 }
 
-.fv_content {
+.fv_content, .fv_content_karma {
   margin: 0.5rem auto 0;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+}
+
+.fv_content_karma{
+  color: #f6842c;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 
 @media only screen and (min-width: 1000px) {

@@ -102,6 +102,7 @@
   .fv_heading {
     text-align: center;
     font-size: 3.25rem;
+
   }
 
   .fv_content {
@@ -137,6 +138,8 @@
 
   .fv_heading {
     font-size: 5rem;
+    position: relative;
+    z-index: 10;
   }
 
   .fv_content {

@@ -43,11 +43,6 @@ const MuLanding = () => {
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
                 <MentorCard
-                  name="Build For Team"
-                  designation="GTech μLearn in association with Pygrammers present BuildForTeam, your chance to build your favourite team’s website. With your favourite teams battling it out on the Football field, it’s up to you to build them an awesome website."
-                  mclink="https://mulearn.org/BuildForTeam"
-                />
-                <MentorCard
                   name="Self Introduction"
                   designation="You know yourself the best, yet presenting a good self may allow others to get to know you. Posting an introduction to yourself is an important first step in connecting with the community."
                   mclink="/common/enablement/1"
@@ -88,6 +83,24 @@ const MuLanding = () => {
                   mclink="/challenge/intro-to-html"
                 />
                 <MentorCard
+                  name="Bring Every Business Online"
+                  designation="Awesome aka Bring Every Business Online is an Open Source Initiative to make an open source collection of web-pages for every business out there. To contribute to the project, all you have to do is build a website for a store or business."
+                  mclink="https://awesome.mulearn.org"
+                />
+                <MentorCard
+                  name="µLearn Typing Challenge"
+                  designation="Learning to master the skill of typing is always an advantage. It enables a person to be much more productive and use their time efficiently and also increase the outlook of others on them."
+                  mclink="/challenge/typing"
+                />
+                <MentorCard
+                  name="TATA Strive Defensive Driving"
+                  designation="This course in this challenge is designed to educate you about
+                  defensive driving & how you can use these tips and strategies to
+                  create a safer place for you as drivers and all those who use
+                  the roads."
+                  mclink="/challenge/defensivedriving"
+                />
+                <MentorCard
                   name="IoT 101"
                   designation="It’s possible that you are listening more and more to the term Internet of Things (IoT). But, what exactly is IoT, and most importantly, what changes will the adoption of IoT bring to households, commerce and industry?. In this course you’ll get a basic understanding on what’s IoT?"
                   mclink="/iot/enablement/1"
@@ -104,25 +117,6 @@ const MuLanding = () => {
                   Ever considered building a Traffic Light by yourself.
                   In this Challenges, you will use TinkerCad to create a simulation of a Traffic Light Arduino project."
                   mclink="/challenge/traffic-light-simulation"
-                />
-                <MentorCard
-                  name="Bring Every Business Online"
-                  designation="Awesome aka Bring Every Business Online is an Open Source Initiative to make an open source collection of web-pages for every business out there. To contribute to the project, all you have to do is build a website for a store or business."
-                  mclink="https://awesome.mulearn.org"
-                />
-                <MentorCard
-                  name="µLearn Typing Challenge"
-                  designation="Learning to master the skill of typing is always an advantage. It enables a person to be much more productive and use their time efficiently and also increase the outlook of others on them."
-                  mclink="/challenge/typing"
-                />
-
-                <MentorCard
-                  name="TATA Strive Defensive Driving"
-                  designation="This course in this challenge is designed to educate you about
-                  defensive driving & how you can use these tips and strategies to
-                  create a safer place for you as drivers and all those who use
-                  the roads."
-                  mclink="/challenge/defensivedriving"
                 />
               </div>
             </div>
