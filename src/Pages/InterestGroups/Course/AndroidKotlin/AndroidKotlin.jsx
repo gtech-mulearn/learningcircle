@@ -19,7 +19,7 @@ const AndroidKotlin = () => {
                 things, including Android development.
               </p>
               <p className={styles.karma_header}>
-                On Course Completion 1000 Karma Points.
+              1000 Karma Points Upon Course Completion.
               </p>
             </div>
 
@@ -122,6 +122,15 @@ const AndroidKotlin = () => {
                         Start Building
                       </button>
                     </a>
+                     <a
+                      href="https://www.youtube.com/watch?v=MdIfZJ08g2I&list=PLcw7j4Wqcgk8WQ4IfpK1ZRytTER9KMh26"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className={styles.view_course}>
+                        API Explained
+                      </button>
+                    </a>
                   </div>
                   <div className={styles.learn_card}>
                     <div>
@@ -218,7 +227,7 @@ const AndroidKotlin = () => {
                 </p>
                 <p className={styles.sv_content}>
                   After course completion, complete the assignments and post the
-                  Repository url in the #android-development channel of the
+                  Repository url in the <b> #android-development</b> channel of the
                   µLearn Discord server with the respective hastags to avail
                   karma points
                 </p>
@@ -227,7 +236,7 @@ const AndroidKotlin = () => {
                     <li className={styles.level}>
                       - Post the screenshot of your assignment along with the
                       Github Repo link when you complete each task in
-                      #android-development channel with hashtags given below to
+                     <b> #android-development</b> channel with hashtags given below to
                       avail 200 karma points.
                     </li>
                     <br />

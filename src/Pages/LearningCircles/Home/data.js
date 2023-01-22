@@ -10,7 +10,7 @@ const InterestGroups = [
         name: "Jeevan Joseph",
         college: "Kristu Jyoti College of Management & Technology,Kottayam",
         images: "assets/interestGroups/jeevanJoseph.webp",
-      }
+      },
     ],
     officetime: "Sunday 7:30 PM",
     officeplace: " at Discord Lobby",
@@ -107,8 +107,7 @@ const InterestGroups = [
         designation: "Embedded Software Engineer, STABL Energy GmbH",
         linkedIn: "https://www.linkedIn.com/in/akshaim",
         stack: "IoT",
-        image:
-          "assets/mentors/Akshai M.webp",
+        image: "assets/mentors/Akshai M.webp",
       },
       {
         id: "S135",
@@ -663,10 +662,10 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Introduction to Kotlin",
-        link: "/android/core/1",
+        link: "/android/core/learnkotlin",
         complexity: "",
         time: "",
-        karma: "800",
+        karma: "1000",
       },
       {
         name: "Android Basics with Compose",
@@ -826,14 +825,13 @@ const InterestGroups = [
         name: "Basith P",
         college: "KMCT Engineering College,Kozhikode",
         images: "assets/interestGroups/Basith P.webp",
-
       },
       {
         id: 4,
         name: "Zohil P K",
         college: "AWH Engineering College,Kozhikode",
         images: "assets/interestGroups/zohil.webp",
-      }
+      },
     ],
     resources: [
       {
@@ -892,7 +890,8 @@ const InterestGroups = [
         stack: "Cybersecurity",
         image:
           "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
-      },],
+      },
+    ],
     pagination: [
       {
         id: "android",
@@ -1411,10 +1410,12 @@ const InterestGroups = [
       {
         id: 1,
         name: "Salman Faariz",
-        college: "Mar Baselios College of Engineering and Technology,Trivandrum",
+        college:
+          "Mar Baselios College of Engineering and Technology,Trivandrum",
         images: "assets/interestGroups/Salman Faariz.webp ",
         linkedIn: "https://www.linkedIn.com/in/salman-faariz-37b892194",
-      },],
+      },
+    ],
     mentorscard: [
       {
         id: "S139",
@@ -1643,7 +1644,7 @@ const InterestGroups = [
         name: "Vishnu Prathab",
         college: "COLLEGE OF ENGINEERING ,MUNNAR ",
         images: "assets/interestGroups/Vishnu Prathap.webp",
-      }
+      },
     ],
     comingsoon: "true",
     opportunities: [],
@@ -1795,23 +1796,23 @@ const InterestGroups = [
       {
         id: "1",
         name: "BuildSpace AI Writer",
-        link: "https://docs.google.com/document/d/1Z9WAI7vSrBFOv6yNVKj9xyhRCGwL6yKesGn7_05QK2E/edit?usp=sharing"
+        link: "https://docs.google.com/document/d/1Z9WAI7vSrBFOv6yNVKj9xyhRCGwL6yKesGn7_05QK2E/edit?usp=sharing",
       },
       {
-        "id": "2",
-        "name": "Intro to Machine Learning - Kaggle",
-        "link": "https://www.kaggle.com/learn/intro-to-machine-learning"
+        id: "2",
+        name: "Intro to Machine Learning - Kaggle",
+        link: "https://www.kaggle.com/learn/intro-to-machine-learning",
       },
       {
-        "id": "3",
-        "name": "Intro to AI - Elements of AI ",
-        "link": "https://course.elementsofai.com/"
+        id: "3",
+        name: "Intro to AI - Elements of AI ",
+        link: "https://course.elementsofai.com/",
       },
       {
-        "id": "4",
-        "name": "Buiding AI - Elements of AI",
-        "link": "https://buildingai.elementsofai.com/"
-      }
+        id: "4",
+        name: "Buiding AI - Elements of AI",
+        link: "https://buildingai.elementsofai.com/",
+      },
     ],
     officetime: "",
     comingsoon: "true",
@@ -1855,137 +1856,137 @@ const InterestGroups = [
     ],
     learningpaths: [
       {
-        "id": "2",
-        "name": "Deeplearning.ai Specialization",
-        "link": "https://in.coursera.org/specializations/deep-learning"
+        id: "2",
+        name: "Deeplearning.ai Specialization",
+        link: "https://in.coursera.org/specializations/deep-learning",
       },
       {
-        "id": "3",
-        "name": "University of Michigan - Applied Data Science Specialization",
-        "link": "https://in.coursera.org/specializations/data-science-python"
+        id: "3",
+        name: "University of Michigan - Applied Data Science Specialization",
+        link: "https://in.coursera.org/specializations/data-science-python",
       },
       {
-        "id": "4",
-        "name": "Neural Networks: Zero to Hero - Andrej Karpathy",
-        "link": "https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ"
+        id: "4",
+        name: "Neural Networks: Zero to Hero - Andrej Karpathy",
+        link: "https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
       },
       {
-        "id": "5",
-        "name": "Applied Machine Learning - Andreas Muller",
-        "link": "https://www.youtube.com/playlist?list=PL_pVmAaAnxIRnSw6wiCpSvshFyCREZmlM"
+        id: "5",
+        name: "Applied Machine Learning - Andreas Muller",
+        link: "https://www.youtube.com/playlist?list=PL_pVmAaAnxIRnSw6wiCpSvshFyCREZmlM",
       },
     ],
 
     corecourses: [
       {
-        "id": "1",
-        "name": "Intro to Machine Learning - Sebastian Thrun, Katile Malone",
-        "link": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
+        id: "1",
+        name: "Intro to Machine Learning - Sebastian Thrun, Katile Malone",
+        link: "https://www.udacity.com/course/intro-to-machine-learning--ud120",
       },
       {
-        "id": "2",
-        "name": "Practical Deep learning for coders",
-        "link": "https://course.fast.ai/"
+        id: "2",
+        name: "Practical Deep learning for coders",
+        link: "https://course.fast.ai/",
       },
       {
-        "id": "3",
-        "name": "Intro to machine learning with sklearn - Data school",
-        "link": "https://courses.dataschool.io/introduction-to-machine-learning-with-scikit-learn"
+        id: "3",
+        name: "Intro to machine learning with sklearn - Data school",
+        link: "https://courses.dataschool.io/introduction-to-machine-learning-with-scikit-learn",
       },
       {
-        "id": "4",
-        "name": "Advanced NLP with Spacy",
-        "link": "https://course.spacy.io/en/"
+        id: "4",
+        name: "Advanced NLP with Spacy",
+        link: "https://course.spacy.io/en/",
       },
     ],
     subcourses: [
       {
-        "id": "1",
-        "name": "Kaggle Learn",
-        "link": "https://www.kaggle.com/learn"
+        id: "1",
+        name: "Kaggle Learn",
+        link: "https://www.kaggle.com/learn",
       },
       {
-        "id": "2",
-        "name": "Effective Pandas",
-        "link": "https://www.youtube.com/watch?v=UURvPeczxJI"
-      }
+        id: "2",
+        name: "Effective Pandas",
+        link: "https://www.youtube.com/watch?v=UURvPeczxJI",
+      },
     ],
     blogs: [
       {
-        "id": "1",
-        "name": "PyImageSearch",
-        "link": "https://pyimagesearch.com/blog/"
+        id: "1",
+        name: "PyImageSearch",
+        link: "https://pyimagesearch.com/blog/",
       },
       {
-        "id": "2",
-        "name": "Machine Learning Mastery",
-        "link": "https://machinelearningmastery.com/"
-      }
+        id: "2",
+        name: "Machine Learning Mastery",
+        link: "https://machinelearningmastery.com/",
+      },
     ],
     people: [
       {
-        "id": "1",
-        "name": "Jeremy Howard",
-        "link": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiArtj8ptj8AhXFUGwGHdQJBn8Q6F56BAgGEAE&url=https%3A%2F%2Ftwitter.com%2Fjeremyphoward%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw2QgTrPgq8D3E7YgXnpVoAd"
+        id: "1",
+        name: "Jeremy Howard",
+        link: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiArtj8ptj8AhXFUGwGHdQJBn8Q6F56BAgGEAE&url=https%3A%2F%2Ftwitter.com%2Fjeremyphoward%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw2QgTrPgq8D3E7YgXnpVoAd",
       },
       {
-        "id": "2",
-        "name": "Andrej Karpathy",
-        "link": "https://twitter.com/karpathy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-      }
+        id: "2",
+        name: "Andrej Karpathy",
+        link: "https://twitter.com/karpathy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      },
     ],
     keywords: [
       {
-        "id": "1",
-        "keyword": "natural lanugage processing"
+        id: "1",
+        keyword: "natural lanugage processing",
       },
       {
-        "id": "2",
-        "keyword": "large language models"
+        id: "2",
+        keyword: "large language models",
       },
       {
-        "id": "3",
-        "keyword": "stable diffusion"
+        id: "3",
+        keyword: "stable diffusion",
       },
       {
-        "id": "4",
-        "keyword": "time series"
+        id: "4",
+        keyword: "time series",
       },
       {
-        "id": "5",
-        "keyword": "object recognition"
+        id: "5",
+        keyword: "object recognition",
       },
       {
-        "id": "6",
-        "keyword": "text classification"
+        id: "6",
+        keyword: "text classification",
       },
       {
-        "id": "7",
-        "keyword": "question answering"
-      }
+        id: "7",
+        keyword: "question answering",
+      },
     ],
     books: [
       {
-        "id": "1",
-        "name": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition",
-        "link": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/?_gl=1*153qn26*_ga*MTkyOTg4ODcyMS4xNjc0MjkyMTc4*_ga_092EL089CH*MTY3NDI5MjE3Ny4xLjEuMTY3NDI5MjE5Mi40NS4wLjA."
+        id: "1",
+        name: "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition",
+        link: "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/?_gl=1*153qn26*_ga*MTkyOTg4ODcyMS4xNjc0MjkyMTc4*_ga_092EL089CH*MTY3NDI5MjE3Ny4xLjEuMTY3NDI5MjE5Mi40NS4wLjA.",
       },
       {
-        "id": "2",
-        "name": "Data Science from Scratch",
-        "link": "https://www.oreilly.com/library/view/data-science-from/9781492041122/"
+        id: "2",
+        name: "Data Science from Scratch",
+        link: "https://www.oreilly.com/library/view/data-science-from/9781492041122/",
       },
       {
-        "id": "3",
-        "name": "Deep Learning for Coders with Fastai and PyTorch",
-        "link": "https://course.fast.ai/Resources/book.html"
+        id: "3",
+        name: "Deep Learning for Coders with Fastai and PyTorch",
+        link: "https://course.fast.ai/Resources/book.html",
       },
       {
-        "id": "4",
-        "name": "Introduction to Machine Learning with Python",
-        "link": "https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/"
-      }
-    ]
+        id: "4",
+        name: "Introduction to Machine Learning with Python",
+        link: "https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/",
+      },
+    ],
   },
   {
     id: "blockchain",
@@ -2028,11 +2029,11 @@ const InterestGroups = [
     leads: [
       {
         id: 1,
-        name: 'Alekshay S Rajan',
+        name: "Alekshay S Rajan",
         college: "College of applied science perissery",
         images: "assets/interestGroups/akshay.webp",
-      }
-    ]
+      },
+    ],
   },
   {
     id: "clouddevops",
