@@ -19,7 +19,7 @@ const AndroidKotlin = () => {
                 things, including Android development.
               </p>
               <p className={styles.karma_header}>
-              1000 Karma Points Upon Course Completion.
+                1000 Karma Points Upon Course Completion.
               </p>
             </div>
 
@@ -113,24 +113,26 @@ const AndroidKotlin = () => {
                         data visualization.
                       </p>
                     </div>
-                    <a
-                      href="https://openweathermap.org/api"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className={styles.view_course}>
-                        Start Building
-                      </button>
-                    </a>
-                     <a
-                      href="https://www.youtube.com/watch?v=MdIfZJ08g2I&list=PLcw7j4Wqcgk8WQ4IfpK1ZRytTER9KMh26"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className={styles.view_course}>
-                        API Explained
-                      </button>
-                    </a>
+                    <div className={styles.buttons}>
+                      <a
+                        href="https://openweathermap.org/api"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className={styles.view_course}>
+                          Start Building
+                        </button>
+                      </a>
+                      <a
+                        href="https://www.youtube.com/watch?v=MdIfZJ08g2I&list=PLcw7j4Wqcgk8WQ4IfpK1ZRytTER9KMh26"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className={styles.view_course}>
+                          API Explained
+                        </button>
+                      </a>
+                    </div>
                   </div>
                   <div className={styles.learn_card}>
                     <div>
@@ -227,8 +229,8 @@ const AndroidKotlin = () => {
                 </p>
                 <p className={styles.sv_content}>
                   After course completion, complete the assignments and post the
-                  Repository url in the <b> #android-development</b> channel of the
-                  µLearn Discord server with the respective hastags to avail
+                  Repository url in the <b> #android-development</b> channel of
+                  the µLearn Discord server with the respective hastags to avail
                   karma points
                 </p>
                 <div className={styles.hastags}>
@@ -236,8 +238,8 @@ const AndroidKotlin = () => {
                     <li className={styles.level}>
                       - Post the screenshot of your assignment along with the
                       Github Repo link when you complete each task in
-                     <b> #android-development</b> channel with hashtags given below to
-                      avail 200 karma points.
+                      <b> #android-development</b> channel with hashtags given
+                      below to avail 200 karma points.
                     </li>
                     <br />
                     <li className={styles.level}>
@@ -272,7 +274,7 @@ const AndroidKotlin = () => {
 
           <div className={styles.third_view_container}>
             <div className={styles.third_view}>
-              <div className={styles.sample_container}>
+              <div className={styles.sample_container1}>
                 <p className={styles.sv_heading}>
                   <span>Need </span> Help ?
                 </p>

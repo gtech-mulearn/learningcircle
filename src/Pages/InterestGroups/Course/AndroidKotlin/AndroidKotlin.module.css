@@ -43,6 +43,7 @@
 }
 
 .view_course {
+  margin-right: 0.5rem;
   background-color: #f78c40;
   color: white;
   margin-top: 1rem;
@@ -109,7 +110,11 @@
 }
 
 .sample_container {
+  display: inline-block;
+  max-width: 40rem;
   margin-top: 2rem;
+  padding: 2rem;
+  background-color: rgb(240, 240, 240);
 }
 
 .sample_header {
@@ -146,7 +151,6 @@
   .sample_message {
     margin-top: 0;
     font-size: 1.05rem;
-    width: 45%;
   }
 }
 
