@@ -128,7 +128,7 @@ const InterestGroups = [
     ],
     learningpaths: [
       {
-        name: "How to become an IoT developer: 6 tips",
+        name: "How to become an IoT developer",
         link: "https://www.techrepublic.com/article/how-to-become-an-iot-developer-6-tips/",
       },
     ],
@@ -201,7 +201,7 @@ const InterestGroups = [
     blogs: [
       {
         id: "1",
-        name: "The Need for Universal Standards in Internet of Things",
+        name: "The Need for Universal Standards in IoT",
         link: "https://intellipaat.com/blog/need-universal-standards-internet-things/",
       },
       {
