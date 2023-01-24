@@ -1783,7 +1783,7 @@ const InterestGroups = [
         id: 1,
         name: "Arjun M S",
         college: "Jyothi Engineering College, Thrissur",
-        images: "assets/interestGroups/arjunms.webp",
+        images: "assets/interestGroups/arjunMs.webp",
       },
       {
         id: 2,
