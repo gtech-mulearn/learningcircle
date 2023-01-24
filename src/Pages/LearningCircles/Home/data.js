@@ -1815,7 +1815,7 @@ const InterestGroups = [
       },
     ],
     officetime: "",
-    comingsoon: "true",
+    comingsoon: "false",
     officeplace: " At Discord Lobby",
     community: [],
     opportunities: [
