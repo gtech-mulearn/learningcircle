@@ -193,11 +193,6 @@ const Home = ({
                   />
                   <img src={FoxLabs} alt="" class={styles.supporter} />
                   <img
-                    src={ProductPack}
-                    alt="Product Pack"
-                    class={styles.supporter}
-                  />
-                  <img
                     src={Pygrammers}
                     alt="Pygrammers"
                     class={styles.supporter}
