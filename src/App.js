@@ -28,6 +28,7 @@ import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
 import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
 import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
 import Python from "./Pages/Bootcamp/Python/Python";
+import AI from "./Pages/Bootcamp/AI/AI";
 
 //Misc
 import NotFound from "./Pages/Misc/404/NotFound";
@@ -298,6 +299,7 @@ function App() {
           <Route path="/bootcamps/flutter" element={<Flutter />} />
           <Route path="/bootcamps/javascript" element={<JavaScript />} />
           <Route path="/bootcamps/python" element={<Python />} />
+          <Route path="/bootcamps/ai" element={<AI />} />
           <Route
             path="/searchcircles"
             element={
