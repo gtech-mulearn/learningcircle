@@ -132,9 +132,16 @@ const AndroidKotlin = () => {
                 </p>
                 <p className={styles.sv_content}>
                   Now that you have learnt the basics of Kotlin, it’s time to
-                  test yourselves by building few real-world applications.
+                  test yourselves by building few real-world applications. Below
+                  listed are few projects according to their level of
+                  difficulty. Complete each one and earn 200 karma points for
+                  each.
                 </p>
               </div>
+
+              <p className={styles.sv_heading}>
+                <span>Beginnering</span> Projects
+              </p>
 
               <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 700 }} aria-label="customized table">
@@ -181,6 +188,10 @@ const AndroidKotlin = () => {
                 </Table>
               </TableContainer>
 
+              <p className={styles.sv_heading}>
+                <span>Intermediate</span> Projects
+              </p>
+
               <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 700 }} aria-label="customized table">
                   <TableHead>
@@ -224,6 +235,10 @@ const AndroidKotlin = () => {
                   </TableBody>
                 </Table>
               </TableContainer>
+
+              <p className={styles.sv_heading}>
+                <span>Advanced</span> Projects
+              </p>
 
               <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 700 }} aria-label="customized table">
@@ -278,37 +293,11 @@ const AndroidKotlin = () => {
                   Once <span>Completed</span>
                 </p>
                 <p className={styles.sv_content}>
-                  After course completion, complete the assignments and post the
-                  Repository url in the <b> #android-development</b> channel of
-                  the µLearn Discord server with the respective hastags to avail
-                  karma points
+                  After completion of each assignment, post the Repository url
+                  in the <b> #android-development</b> channel of the µLearn
+                  Discord server with the respective hastags to avail karma
+                  points
                 </p>
-                <div className={styles.hastags}>
-                  <ul>
-                    <li className={styles.level}>
-                      - Post the screenshot of your assignment along with the
-                      Github Repo link when you complete each task in
-                      <b> #android-development</b> channel with hashtags given
-                      below to avail 200 karma points.
-                    </li>
-                    <br />
-                    <li className={styles.level}>
-                      - Weather App: <b>#kotlin-weather-app</b>
-                    </li>
-                    <li className={styles.level}>
-                      - Quiz App: <b>#kotlin-quiz-app</b>
-                    </li>
-                    <li className={styles.level}>
-                      - ToDo App: <b>#kotlin-todo-app</b>
-                    </li>
-                    <li className={styles.level}>
-                      - Tic-Tac-Toe App: <b>#kotlin-tic-tac-toe</b>
-                    </li>
-                    <li className={styles.level}>
-                      - Simple Calculator App: <b>#kotlin-calculator-app</b>
-                    </li>
-                  </ul>
-                </div>
               </div>
 
               <div className={styles.sample_container}>
