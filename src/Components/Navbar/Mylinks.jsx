@@ -349,6 +349,13 @@ export const links = [
             foreign: false,
           },
           {
+            name: "AI",
+            link: "/bootcamps/ai",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
             name: "Android",
             link: "/bootcamps/android",
             submenu: false,
