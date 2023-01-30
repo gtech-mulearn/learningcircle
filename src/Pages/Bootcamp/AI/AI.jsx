@@ -16,7 +16,9 @@ const AI = () => {
                 <span> AI </span> Bootcamp
               </p>
               <p className={styles.fv_content}>
-                Heard of the many AI writing tools and wondered how they work? This weekend build features exactly that using GPT-3 and Open AI. You'll then deploy the app to show off to your friends!
+                Heard of the many AI writing tools and wondered how they work?
+                This weekend build features exactly that using GPT-3 and Open
+                AI. You'll then deploy the app to show off to your friends!
               </p>
               <div class={styles.supporters}>
                 <span>Supported By </span>
@@ -30,19 +32,20 @@ const AI = () => {
                       src="/assets/bootcamp/ai/buildspace.svg"
                       alt="buildspace"
                       className={`${styles.supporter} select-none`}
-                      width="100%" height="100%"
+                      width="100%"
+                      height="100%"
                     />
                   </a>
                 </div>
               </div>
-              {/* <a
-                href="https://airtable.com/shrACkBZBdJbya6or"
+              <a
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.atag}
               >
-                <button className={styles.register}>Register Now!</button>
-              </a> */}
+                <button className={styles.register}>Starting Soon</button>
+              </a>
             </div>
             <div className={` select-none ${styles.fv_image}`}>
               <img
@@ -56,7 +59,8 @@ const AI = () => {
         <div className={styles.second_view_container}>
           <p className={styles.sv_header}>Practice AI</p>
           <p className={styles.sv_content}>
-            In this bootcamp we introduce you to concepts of Artificial Intelligence and Machine Learning via BuildSpace
+            In this bootcamp we introduce you to concepts of Artificial
+            Intelligence and Machine Learning via BuildSpace
           </p>
           <div className={styles.second_view}>
             <div className={styles.steps}>
@@ -72,11 +76,16 @@ const AI = () => {
                     </div>
                     <div className="timeline__event__date">1</div>
                     <div className="timeline__event__content">
-                      <div className="timeline__event__title">
-                        Step 1
-                      </div>
+                      <div className="timeline__event__title">Step 1</div>
                       <div className="timeline__event__description">
-                        Visit <a href="https://buildspace.so/builds/ai-writer">https://buildspace.so/builds/ai-write</a> and create an account on <b>buildspace</b>. The Bootcamp will consist of 4 stages and at the end of each stage, you will be directed to share your submission on Twitter and LinkedIn ( Let the world know of your progress)
+                        Visit{" "}
+                        <a href="https://buildspace.so/builds/ai-writer">
+                          https://buildspace.so/builds/ai-write
+                        </a>{" "}
+                        and create an account on <b>buildspace</b>. The Bootcamp
+                        will consist of 4 stages and at the end of each stage,
+                        you will be directed to share your submission on Twitter
+                        and LinkedIn ( Let the world know of your progress)
                       </div>
                     </div>
                   </div>
@@ -94,7 +103,15 @@ const AI = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step Two</div>
                       <div className="timeline__event__description">
-                        The 1st stage of the boot-camp involves <b>creating your first ML Model</b>. <br />Once you’ve completed the stage and shared it on your socials as directed, post the links in the <b>#ai-ml</b> channel of the μLearn Discord server with the hashtag <b>#cl-buildspace-ai-1</b> to avail <b>200 Karma points</b>
+                        The 1st stage of the boot-camp involves{" "}
+                        <b>creating your first ML Model</b>. <br />
+                        Once you’ve completed the stage and shared it on your
+                        socials as directed, post the links in the <b>
+                          #ai-ml
+                        </b>{" "}
+                        channel of the μLearn Discord server with the hashtag{" "}
+                        <b>#cl-buildspace-ai-1</b> to avail{" "}
+                        <b>200 Karma points</b>
                       </div>
                     </div>
                   </div>
@@ -110,7 +127,15 @@ const AI = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step Three</div>
                       <div className="timeline__event__description">
-                        The 2nd stage of the boot-camp involves <b>setting up your own GPT-3 Writer</b>. <br />Once you’ve completed the stage and shared it on your socials as directed, post the links in the <b>#ai-ml</b> channel of the μLearn Discord server with the hashtag <b>#cl-buildspace-ai-2</b> to avail <b>200 Karma points</b>
+                        The 2nd stage of the boot-camp involves{" "}
+                        <b>setting up your own GPT-3 Writer</b>. <br />
+                        Once you’ve completed the stage and shared it on your
+                        socials as directed, post the links in the <b>
+                          #ai-ml
+                        </b>{" "}
+                        channel of the μLearn Discord server with the hashtag{" "}
+                        <b>#cl-buildspace-ai-2</b> to avail{" "}
+                        <b>200 Karma points</b>
                       </div>
                     </div>
                   </div>
@@ -125,7 +150,16 @@ const AI = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step Four</div>
                       <div className="timeline__event__description">
-                        The 3rd stage of the boot-camp involves <b>building a chrome extension to write anywhere</b>. <br />Once you’ve completed the stage and shared it on your socials as directed, post the links in the <b>#ai-ml</b> channel of the μLearn Discord server with the hashtag <b>#cl-buildspace-ai-3</b> to avail <b>200 Karma points</b>
+                        The 3rd stage of the boot-camp involves{" "}
+                        <b>building a chrome extension to write anywhere</b>.{" "}
+                        <br />
+                        Once you’ve completed the stage and shared it on your
+                        socials as directed, post the links in the <b>
+                          #ai-ml
+                        </b>{" "}
+                        channel of the μLearn Discord server with the hashtag{" "}
+                        <b>#cl-buildspace-ai-3</b> to avail{" "}
+                        <b>200 Karma points</b>
                       </div>
                     </div>
                   </div>
@@ -140,7 +174,15 @@ const AI = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step Five</div>
                       <div className="timeline__event__description">
-                        The final stage of the boot-camp involves <b>adding final touches to your application</b>. <br />Once you’ve completed the stage and shared it on your socials as directed, post the links in the <b>#ai-ml</b> channel of the μLearn Discord server with the hashtag <b>#cl-buildspace-ai-4</b> to avail <b>200 Karma points</b>
+                        The final stage of the boot-camp involves{" "}
+                        <b>adding final touches to your application</b>. <br />
+                        Once you’ve completed the stage and shared it on your
+                        socials as directed, post the links in the <b>
+                          #ai-ml
+                        </b>{" "}
+                        channel of the μLearn Discord server with the hashtag{" "}
+                        <b>#cl-buildspace-ai-4</b> to avail{" "}
+                        <b>200 Karma points</b>
                       </div>
                     </div>
                   </div>
@@ -156,9 +198,13 @@ const AI = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Bonus Step</div>
                       <div className="timeline__event__description">
-                        List the chrome extension you have built in Product hunt or Chrome Extension webstore to avail some extra karma
-                        <br />
-                        (<b>NB: </b> Hosting the chrome extension is not in the final chapter.)and share the link in the <b>#ai-ml</b> channel of the μLearn Discord server with the hashtag <b>#cl-buildspace-ai-bonus</b> to avail some bonus <b>200 Karma points</b>
+                        List the chrome extension you have built in Product hunt
+                        or Chrome Extension webstore to avail some extra karma
+                        <br />(<b>NB: </b> Hosting the chrome extension is not
+                        in the final chapter.)and share the link in the{" "}
+                        <b>#ai-ml</b> channel of the μLearn Discord server with
+                        the hashtag <b>#cl-buildspace-ai-bonus</b> to avail some
+                        bonus <b>200 Karma points</b>
                       </div>
                     </div>
                   </div>
