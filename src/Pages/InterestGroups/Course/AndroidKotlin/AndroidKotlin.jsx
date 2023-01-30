@@ -2,7 +2,40 @@ import Footer from "../../../../Components/Footer/Footer";
 import Navbar from "../../../../Components/Navbar/Navbar";
 import styles from "./AndroidKotlin.module.css";
 
+import { styled } from "@mui/material/styles";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell, { tableCellClasses } from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Paper from "@mui/material/Paper";
+
+import proejcts from "./data.json";
+
 const AndroidKotlin = () => {
+  const StyledTableCell = styled(TableCell)(({ theme }) => ({
+    [`&.${tableCellClasses.head}`]: {
+      backgroundColor: "#f6842c",
+      fontFamily: "Noto Sans",
+      color: theme.palette.common.white,
+    },
+    [`&.${tableCellClasses.body}`]: {
+      fontFamily: "Poppins",
+      fontSize: 14,
+    },
+  }));
+
+  const StyledTableRow = styled(TableRow)(({ theme }) => ({
+    "&:nth-of-type(odd)": {
+      backgroundColor: theme.palette.action.hover,
+    },
+    // hide last border
+    "&:last-child td, &:last-child th": {
+      border: 0,
+    },
+  }));
+
   return (
     <>
       <Navbar />
@@ -99,125 +132,157 @@ const AndroidKotlin = () => {
                 </p>
                 <p className={styles.sv_content}>
                   Now that you have learnt the basics of Kotlin, it’s time to
-                  test yourselves by building few real-world applications.
+                  test yourselves by building few real-world applications. Below
+                  listed are few projects according to their level of
+                  difficulty. Complete each one and earn 200 karma points for
+                  each.
                 </p>
-                <div className={styles.learn_cards}>
-                  <div className={styles.learn_card}>
-                    <div>
-                      <p className={styles.lc_header}>
-                        Build a Weather App(Open Weather Map)
-                      </p>
-                      <p className={styles.lc_description}>
-                        Build a weather app using OpenWeatherMap API in Kotlin,
-                        improve skills in API, JSON, GUI, error handling and
-                        data visualization.
-                      </p>
-                    </div>
-                    <div className={styles.buttons}>
-                      <a
-                        href="https://openweathermap.org/api"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <button className={styles.view_course}>
-                          Start Building
-                        </button>
-                      </a>
-                      <a
-                        href="https://www.youtube.com/watch?v=MdIfZJ08g2I&list=PLcw7j4Wqcgk8WQ4IfpK1ZRytTER9KMh26"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <button className={styles.view_course}>
-                          API Explained
-                        </button>
-                      </a>
-                    </div>
-                  </div>
-                  <div className={styles.learn_card}>
-                    <div>
-                      <p className={styles.lc_header}>Build a Calculator App</p>
-                      <p className={styles.lc_description}>
-                        Build a simple calculator app in Kotlin, apply basic
-                        arithmetic operations, improve your skills in GUI
-                        development, understand the importance of error
-                        handling, and experience the power of Kotlin as a modern
-                        programming language
-                      </p>
-                    </div>
-                    <a href="https://levelup.gitconnected.com/building-a-simple-calculator-in-kotlin-using-android-studio-e877dec52768">
-                      <button className={styles.view_course}>
-                        Start Building
-                      </button>
-                    </a>
-                  </div>
-                  <div className={styles.learn_card}>
-                    <div>
-                      <p className={styles.lc_header}>Build a Todo App</p>
-                      <p className={styles.lc_description}>
-                        Build a simple to-do list app in Kotlin, improve your
-                        skills in GUI development, understand the importance of
-                        data storage and retrieval, and experience the power of
-                        Kotlin for creating user-friendly and efficient apps.
-                      </p>
-                    </div>
-                    <a
-                      href="https://medium.com/@tanunprabhu95/to-do-list-application-using-kotlin-using-android-studio-546e74ac75aa"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className={styles.view_course}>
-                        Start Building
-                      </button>
-                    </a>
-                  </div>
-                  <div className={styles.learn_card}>
-                    <div>
-                      <p className={styles.lc_header}>
-                        {" "}
-                        Build a Tic-Tac-Toe App
-                      </p>
-                      <p className={styles.lc_description}>
-                        Build a Tic-Tac-Toe game app in Kotlin, improve your
-                        skills in game logic and GUI development, understand the
-                        importance of implementing a winning strategy, and
-                        experience the power of Kotlin for creating interactive
-                        and engaging apps.
-                      </p>
-                    </div>
-                    <a
-                      href="https://www.geeksforgeeks.org/how-to-build-a-tic-tac-toe-game-with-both-offline-and-online-mode-in-android/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className={styles.view_course}>
-                        Start Building
-                      </button>
-                    </a>
-                  </div>
-                  <div className={styles.learn_card}>
-                    <div>
-                      <p className={styles.lc_header}>Build a Quiz App</p>
-                      <p className={styles.lc_description}>
-                        Learn to build a Quiz app in Kotlin, improve your skills
-                        in GUI development, understand the importance of
-                        database usage for storing questions and answers, and
-                        experience the power of Kotlin for creating interactive
-                        and educational apps.
-                      </p>
-                    </div>
-                    <a
-                      href="https://www.geeksforgeeks.org/how-to-create-a-quiz-app-in-android/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className={styles.view_course}>
-                        Start Building
-                      </button>
-                    </a>
-                  </div>
-                </div>
               </div>
+
+              <p className={styles.sv_heading}>
+                <span>Beginnering</span> Projects
+              </p>
+
+              <TableContainer component={Paper}>
+                <Table sx={{ minWidth: 700 }} aria-label="customized table">
+                  <TableHead>
+                    <TableRow>
+                      <StyledTableCell>Project Name</StyledTableCell>
+                      <StyledTableCell align="right">
+                        Tutorial Link
+                      </StyledTableCell>
+                      <StyledTableCell align="right">
+                        Discord Tags
+                      </StyledTableCell>
+                      <StyledTableCell align="right">
+                        Karma Points
+                      </StyledTableCell>
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
+                    {proejcts &&
+                      proejcts.beginner.map((project) => (
+                        <StyledTableRow key={project.name}>
+                          <StyledTableCell component="th" scope="row">
+                            {project.name}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            <a
+                              href={project.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className={styles.link}>Click Here</span>
+                            </a>
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            #discord-tag
+                          </StyledTableCell>
+
+                          <StyledTableCell align="right">
+                            {project.karma}
+                          </StyledTableCell>
+                        </StyledTableRow>
+                      ))}
+                  </TableBody>
+                </Table>
+              </TableContainer>
+
+              <p className={styles.sv_heading}>
+                <span>Intermediate</span> Projects
+              </p>
+
+              <TableContainer component={Paper}>
+                <Table sx={{ minWidth: 700 }} aria-label="customized table">
+                  <TableHead>
+                    <TableRow>
+                      <StyledTableCell>Project Name</StyledTableCell>
+                      <StyledTableCell align="right">
+                        Tutorial Link
+                      </StyledTableCell>
+                      <StyledTableCell align="right">
+                        Discord Tags
+                      </StyledTableCell>
+                      <StyledTableCell align="right">
+                        Karma Points
+                      </StyledTableCell>
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
+                    {proejcts &&
+                      proejcts.intermediate.map((project) => (
+                        <StyledTableRow key={project.name}>
+                          <StyledTableCell component="th" scope="row">
+                            {project.name}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            <a
+                              href={project.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className={styles.link}>Click Here</span>
+                            </a>
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            #discord-tag
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {project.karma}
+                          </StyledTableCell>
+                        </StyledTableRow>
+                      ))}
+                  </TableBody>
+                </Table>
+              </TableContainer>
+
+              <p className={styles.sv_heading}>
+                <span>Advanced</span> Projects
+              </p>
+
+              <TableContainer component={Paper}>
+                <Table sx={{ minWidth: 700 }} aria-label="customized table">
+                  <TableHead>
+                    <TableRow>
+                      <StyledTableCell>Project Name</StyledTableCell>
+                      <StyledTableCell align="right">
+                        Tutorial Link
+                      </StyledTableCell>
+                      <StyledTableCell align="right">
+                        Discord Tags
+                      </StyledTableCell>
+                      <StyledTableCell align="right">
+                        Karma Points
+                      </StyledTableCell>
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
+                    {proejcts &&
+                      proejcts.expert.map((project) => (
+                        <StyledTableRow key={project.name}>
+                          <StyledTableCell component="th" scope="row">
+                            {project.name}
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            <a
+                              href={project.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className={styles.link}>Click Here</span>
+                            </a>
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            #discord-tag
+                          </StyledTableCell>
+                          <StyledTableCell align="right">
+                            {project.karma}
+                          </StyledTableCell>
+                        </StyledTableRow>
+                      ))}
+                  </TableBody>
+                </Table>
+              </TableContainer>
             </div>
           </div>
 
@@ -228,37 +293,11 @@ const AndroidKotlin = () => {
                   Once <span>Completed</span>
                 </p>
                 <p className={styles.sv_content}>
-                  After course completion, complete the assignments and post the
-                  Repository url in the <b> #android-development</b> channel of
-                  the µLearn Discord server with the respective hastags to avail
-                  karma points
+                  After completion of each assignment, post the Repository url
+                  in the <b> #android-development</b> channel of the µLearn
+                  Discord server with the respective hastags to avail karma
+                  points
                 </p>
-                <div className={styles.hastags}>
-                  <ul>
-                    <li className={styles.level}>
-                      - Post the screenshot of your assignment along with the
-                      Github Repo link when you complete each task in
-                      <b> #android-development</b> channel with hashtags given
-                      below to avail 200 karma points.
-                    </li>
-                    <br />
-                    <li className={styles.level}>
-                      - Weather App: <b>#kotlin-weather-app</b>
-                    </li>
-                    <li className={styles.level}>
-                      - Quiz App: <b>#kotlin-quiz-app</b>
-                    </li>
-                    <li className={styles.level}>
-                      - ToDo App: <b>#kotlin-todo-app</b>
-                    </li>
-                    <li className={styles.level}>
-                      - Tic-Tac-Toe App: <b>#kotlin-tic-tac-toe</b>
-                    </li>
-                    <li className={styles.level}>
-                      - Simple Calculator App: <b>#kotlin-calculator-app</b>
-                    </li>
-                  </ul>
-                </div>
               </div>
 
               <div className={styles.sample_container}>

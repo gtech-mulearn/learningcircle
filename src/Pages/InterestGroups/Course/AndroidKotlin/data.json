@@ -1,0 +1,113 @@
+{
+  "beginner": [
+    {
+      "name": "Build a Calculator App",
+      "description": "Build a simple calculator app in Kotlin, apply basic arithmetic operations, improve your skills in GUI development, understand the importance of error handling, and experience the power of Kotlin as a modern programming language",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-build-a-simple-calculator-app-using-android-studio/"
+    },
+    {
+      "name": "App to Add Two Numbers",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/android-app-to-add-two-numbers/"
+    },
+    {
+      "name": "App To Show Multiplication Table",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/android-display-multiplication-table-of-a-number/"
+    },
+    {
+      "name": "Build a Stopwatch App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-create-a-stopwatch-app-using-android-studio/"
+    },
+    {
+      "name": "Build a Music Player App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-build-a-simple-music-player-app-using-android-studio/"
+    }
+  ],
+  "intermediate": [
+    {
+      "name": "Build a Weather App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-build-a-weather-app-in-android/"
+    },
+    {
+      "name": "Build a Tic Tac Toe App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-build-a-tic-tac-toe-game-in-android/"
+    },
+    {
+      "name": "Build a Quiz App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/android-projects-from-basic-to-advanced-level/#Intermediate%20Projects"
+    },
+    {
+      "name": "Build a Sticky Notes App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-build-a-sticky-notes-application-in-android-studio/"
+    },
+    {
+      "name": "Build a Paint App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-create-a-paint-application-in-android/"
+    }
+  ],
+  "expert": [
+    {
+      "name": " COVID-19 Tracker App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-create-a-covid-19-tracker-android-app/"
+    },
+    {
+      "name": "Build a Morse Code Converter App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/android-projects-from-basic-to-advanced-level/#Intermediate%20Projects"
+    },
+    {
+      "name": "Build a ideo Calling App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-build-a-video-calling-android-app-with-jitsi-meet-sdk/"
+    },
+    {
+      "name": "Build a Chatbot App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-create-a-chatbot-in-android-with-brainshop-api/"
+    },
+    {
+      "name": "Build a  Encrypt and Decrypt App",
+      "description": "",
+      "tag": "",
+      "karma": "200",
+      "link": "https://www.geeksforgeeks.org/how-to-encrypt-and-decrypt-text-in-android-using-cryptography/"
+    }
+  ]
+}
