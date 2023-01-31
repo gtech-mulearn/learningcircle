@@ -15,7 +15,16 @@
   display: flex;
   flex-direction: column-reverse;
 }
+.officehrs {
+  margin-top: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #404040;
+}
 
+.officehrs span {
+  color: #43D0FC;
+}
 .fv_heading {
   font-size: 2.4rem;
   font-weight: 700;

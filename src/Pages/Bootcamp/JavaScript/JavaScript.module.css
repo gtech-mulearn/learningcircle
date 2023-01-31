@@ -24,7 +24,16 @@
   .orange {
     color:#F0DB4F;
   }
+  .officehrs {
+    margin-top: 1rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    color: #404040;
+  }
   
+  .officehrs span {
+    color: #f6842c;
+  }
   .fv_content {
     font-family: "Poppins", sans-serif;
     font-size: 1rem;

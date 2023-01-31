@@ -24,7 +24,16 @@
   font-weight: 600;
   margin-right: 1rem;
 }
+.officehrs {
+  margin-top: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #404040;
+}
 
+.officehrs span {
+  color: #39b47e;
+}
 .supporter {
   padding: 1rem;
   height: 3rem;

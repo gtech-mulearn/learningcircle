@@ -20,6 +20,13 @@ const AI = () => {
                 This weekend build features exactly that using GPT-3 and Open
                 AI. You'll then deploy the app to show off to your friends!
               </p>
+              <p className={styles.officehrs}>
+                <span>Office Hours : </span> Thursday 07:00PM @ Discord Lobby
+              </p>
+              <p className={styles.officehrs}>
+                <span>Think Tank Meet : </span> Tuesday 09:00 PM @ Google Meet
+              </p>
+
               <div class={styles.supporters}>
                 <span>Supported By </span>
                 <div className={styles.s_images}>
@@ -48,11 +55,11 @@ const AI = () => {
               </a>
             </div>
             <div className={` select-none ${styles.fv_image}`}>
-              <img
-                src="/assets/bootcamp/ai/ai.webp"
+              {/* <img
+                src="/assets/bootcamp/ai/ai2.gif"
                 alt=""
                 className={styles.fv_img}
-              />
+              /> */}
             </div>
           </div>
         </div>
