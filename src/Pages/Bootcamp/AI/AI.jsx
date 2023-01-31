@@ -44,21 +44,21 @@ const AI = () => {
               </div> */}
 
 
-              {/* <a
+              <a
                 href="https://airtable.com/shrACkBZBdJbya6or"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.atag}
               >
-                <button className={styles.register}>Register Now!</button>
-              </a> */}
+                {/* <button className={styles.register}>Register Now!</button> */}
+              </a>
             </div>
             <div className={` select-none ${styles.fv_image}`}>
-              <img
-                src="/assets/bootcamp/ai/ai.webp"
+              {/* <img
+                src="/assets/bootcamp/ai/ai2.gif"
                 alt=""
                 className={styles.fv_img}
-              />
+              /> */}
             </div>
           </div>
         </div>
