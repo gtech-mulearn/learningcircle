@@ -7,6 +7,7 @@ import Intro from "./Components/Intro"
 import SubModules from "./Components/SubModules";
 import CompletionTasks from "./Components/CompletionTasks";
 import Help from "./Components/Help";
+import CourseAssignment from './Components/CourseAssignment';
 
 const Subcourse = (data) => {
     return (
@@ -24,17 +25,15 @@ const Subcourse = (data) => {
                         highlighted_heading={"Materials"}
                         description={data.data.learning_description}
                         cards={data.data.learning_cards} />
-                    <SubModules
+                    <CourseAssignment
                         heading="Course"
                         highlighted_heading="Assignment"
                         description={data.data.course_description}
-                        cards={data.data.course_cards} />
+                        courses={data.data.courses} />
                     <CompletionTasks
                         heading="Once"
                         highlighted_heading="Completed"
-                        description1={data.data.completed_description}
-                        description2={data.data.completion_requirments}
-                        hashtags={data.data.completion_courses}
+                        description={data.data.completed_description}
                         example={data.data.example} />
                     <Help />
                 </div>
