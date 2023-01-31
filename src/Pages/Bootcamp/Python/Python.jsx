@@ -25,6 +25,12 @@ const Python = () => {
               <p class={styles.startingdate}>
                 Started On <span>4th January 2023</span>
               </p>
+              {/* <p className={styles.officehrs}>
+                <span>Office Hours : </span> Thursday 07:00PM @ Discord Lobby
+              </p>
+              <p className={styles.officehrs}>
+                <span>Think Tank Meet : </span> Tuesday 09:00 PM @ Google Meet
+              </p> */}
               <div class={styles.supporters}>
                 <span>Supported By </span>
                 <div className={styles.s_images}>
