@@ -50,7 +50,7 @@ const AI = () => {
                 rel="noopener noreferrer"
                 className={styles.atag}
               >
-                {/* <button className={styles.register}>Register Now!</button> */}
+                <button className={styles.register}>Starting Soon</button>
               </a>
             </div>
             <div className={` select-none ${styles.fv_image}`}>
