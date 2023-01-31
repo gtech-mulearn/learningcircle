@@ -18,8 +18,9 @@ import IoTData from "./Pages/InterestGroups/Course/iot";
 import CybersecData from "./Pages/InterestGroups/Course/cybersec";
 import PmData from "./Pages/InterestGroups/Course/pm";
 import UiuxData from "./Pages/InterestGroups/Course/uiux";
-import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
-
+// import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
+import Subcourse from "./Pages/InterestGroups/Course/SubCourses/Subcourse";
+import data from "./Pages/InterestGroups/Course/SubCourses/data/android/kotlin";
 //Bootcamp Section
 import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome";
 import Android from "./Pages/Bootcamp/Android/Android";
@@ -28,6 +29,7 @@ import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
 import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
 import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
 import Python from "./Pages/Bootcamp/Python/Python";
+import AI from "./Pages/Bootcamp/AI/AI";
 
 //Misc
 import NotFound from "./Pages/Misc/404/NotFound";
@@ -54,6 +56,7 @@ import IntroToGithubPages from "./Pages/Practice/Challenges/IntroToGithubPages/I
 import IntroToHtml from "./Pages/Practice/Challenges/IntroToHtml/IntroToHtml";
 import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimulation/TrafficLightSimulation";
 import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn";
+
 
 function App() {
   //Home Page state Variables
@@ -287,7 +290,7 @@ function App() {
             path="/common/:type/:id"
             element={<CoursePage CourseData={CommonData} />}
           />
-          <Route path="/android/core/learnkotlin" element={<AndroidKotlin />} />
+          <Route path="/android/core/learnkotlin" element={<Subcourse data={data} />} />
 
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />
@@ -298,6 +301,7 @@ function App() {
           <Route path="/bootcamps/flutter" element={<Flutter />} />
           <Route path="/bootcamps/javascript" element={<JavaScript />} />
           <Route path="/bootcamps/python" element={<Python />} />
+          <Route path="/bootcamps/ai" element={<AI />} />
           <Route
             path="/searchcircles"
             element={

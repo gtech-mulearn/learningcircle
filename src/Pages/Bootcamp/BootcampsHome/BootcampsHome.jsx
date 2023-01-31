@@ -44,6 +44,15 @@ const BootcampsHome = () => {
             </div>
             <div className={styles.bootcamps}>
               <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Artificial Intelligence</p>
+                <p className={styles.b_tagline}>
+                  Heard of the many AI writing tools and wondered how they work? This weekend build features exactly that using GPT-3 and Open AI. You'll then deploy the app to show off to your friends!
+                </p>
+                <Link to="/bootcamps/ai ">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
+              <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>Android Bootcamp</p>
                 <p className={styles.b_tagline}>
                   Learn Android Development in Kotlin hands-on so that you may
