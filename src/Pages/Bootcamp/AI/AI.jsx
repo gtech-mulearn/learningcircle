@@ -54,11 +54,11 @@ const AI = () => {
               </a> */}
             </div>
             <div className={` select-none ${styles.fv_image}`}>
-              {/* <img
+              <img
                 src="/assets/bootcamp/ai/ai2.gif"
                 alt=""
                 className={styles.fv_img}
-              /> */}
+              />
             </div>
           </div>
         </div>
