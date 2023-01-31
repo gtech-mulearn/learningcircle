@@ -18,7 +18,7 @@ import IoTData from "./Pages/InterestGroups/Course/iot";
 import CybersecData from "./Pages/InterestGroups/Course/cybersec";
 import PmData from "./Pages/InterestGroups/Course/pm";
 import UiuxData from "./Pages/InterestGroups/Course/uiux";
-// import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
+import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
 import Subcourse from "./Pages/InterestGroups/Course/SubCourses/Subcourse";
 import data from "./Pages/InterestGroups/Course/SubCourses/data/android/kotlin";
 //Bootcamp Section

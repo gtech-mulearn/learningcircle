@@ -27,65 +27,124 @@ const data = {
         }
     ],
     course_description: "Now that you have learnt the basics of Kotlin, it’s time to test yourselves by building few real-world applications.",
-    course_cards: [
-        {
-            heading: "Build a Weather App(Open Weather Map)",
-            description: "Build a weather app using OpenWeatherMap API in Kotlin, improve skills in API, JSON, GUI, error handling and data visualization.",
-            buttons: [
-                {
-                    name: "Start Building",
-                    link: "https://openweathermap.org/api"
-                },
-                {
-                    name: "API Explained",
-                    link: "https://www.youtube.com/watch?v=MdIfZJ08g2I&list=PLcw7j4Wqcgk8WQ4IfpK1ZRytTER9KMh26"
-                }
-            ]
-        },
-        {
-            heading: "Build a Calculator App",
-            description: " Build a simple calculator app in Kotlin, apply basic arithmetic operations, improve your skills in GUI development, understand the importance of error handling, and experience the power of Kotlin as a modern programming language",
-            buttons: [
-                {
-                    name: "Start Building",
-                    link: "https://levelup.gitconnected.com/building-a-simple-calculator-in-kotlin-using-android-studio-e877dec52768"
-                }
-            ]
-        },
-        {
-            heading: "Build a Todo App",
-            description: "Build a simple to-do list app in Kotlin, improve your skills in GUI development, understand the importance of data storage and retrieval, and experience the power of Kotlin for creating user-friendly and efficient apps.",
-            buttons: [
-                {
-                    name: "Start Building",
-                    link: "https://medium.com/@tanunprabhu95/to-do-list-application-using-kotlin-using-android-studio-546e74ac75aa"
-                }
-            ]
-        },
-        {
-            heading: "Build a Tic-Tac-Toe App",
-            description: "Build a Tic-Tac-Toe game app in Kotlin, improve your skills in game logic and GUI development, understand the importance of implementing a winning strategy, and experience the power of Kotlin for creating interactive and engaging apps.",
-            buttons: [
-                {
-                    name: "Start Building",
-                    link: "https://www.geeksforgeeks.org/how-to-build-a-tic-tac-toe-game-with-both-offline-and-online-mode-in-android/"
-                }
-            ]
-        },
-        {
-            heading: "Build a Quiz App",
-            description: "Learn to build a Quiz app in Kotlin, improve your skills in GUI development, understand the importance of database usage for storing questions and answers, and experience the power of Kotlin for creating interactive and educational apps.",
-            buttons: [
-                {
-                    name: "Start Building",
-                    link: "https://www.geeksforgeeks.org/how-to-create-a-quiz-app-in-android/"
-                }
-            ]
-        }
-    ],
+    courses: {
+        beginner: [
+            {
+                "project_name": "Build a Calculator App",
+                "description": "Build a simple calculator app in Kotlin, apply basic arithmetic operations, improve your skills in GUI development, understand the importance of error handling, and experience the power of Kotlin as a modern programming language",
+                "discord_tag": "#kotlin-calculator-app",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-build-a-simple-calculator-app-using-android-studio/"
+            },
+            {
+                "project_name": "App to Add Two Numbers",
+                "description": "",
+                "discord_tag": "#kotlin-add-numbers",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/android-app-to-add-two-numbers/"
+            },
+            {
+                "project_name": "App To Show Multiplication Table",
+                "description": "",
+                "discord_tag": "#kotlin-multiplication-table",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/android-display-multiplication-table-of-a-number/"
+            },
+            {
+                "project_name": "Build a Stopwatch App",
+                "description": "",
+                "discord_tag": "#kotlin-stopwatch-app",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-create-a-stopwatch-app-using-android-studio/"
+            },
+            {
+                "project_name": "Build a Music Player App",
+                "description": "",
+                "discord_tag": "#kotlin-music-app",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-build-a-simple-music-player-app-using-android-studio/"
+            }
+        ],
+
+        intermediate: [
+            {
+                "project_name": "Build a Weather App",
+                "description": "",
+                "discord_tag": "#kotlin-weather-app",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-build-a-weather-app-in-android/"
+            },
+            {
+                "project_name": "Build a Tic Tac Toe App",
+                "description": "",
+                "discord_tag": "#kotlin-tic-tac-toe",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-build-a-tic-tac-toe-game-in-android/"
+            },
+            {
+                "project_name": "Build a Quiz App",
+                "description": "",
+                "discord_tag": "#kotlin-quiz-app",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/android-projects-from-basic-to-advanced-level/#Intermediate%20Projects"
+            },
+            {
+                "project_name": "Build a Sticky Notes App",
+                "description": "",
+                "discord_tag": "#kotlin-sticky-note",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-build-a-sticky-notes-application-in-android-studio/"
+            },
+            {
+                "project_name": "Build a Paint App",
+                "description": "",
+                "discord_tag": "#kotlin-paint-app",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-create-a-paint-application-in-android/"
+            }
+        ],
+
+
+        advanced: [
+            {
+                "project_name": " COVID-19 Tracker App",
+                "description": "",
+                "discord_tag": "#kotlin-tracker-app",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-create-a-covid-19-tracker-android-app/"
+            },
+            {
+                "project_name": "Build a Morse Code Converter App",
+                "description": "",
+                "discord_tag": "#kotlin-morse-code",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/android-projects-from-basic-to-advanced-level/#Intermediate%20Projects"
+            },
+            {
+                "project_name": "Build a Video Calling App",
+                "description": "",
+                "discord_tag": "#kotlin-video-calling",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-build-a-video-calling-android-app-with-jitsi-meet-sdk/"
+            },
+            {
+                "project_name": "Build a Chatbot App",
+                "description": "",
+                "discord_tag": "#kotlin-chatbot",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-create-a-chatbot-in-android-with-brainshop-api/"
+            },
+            {
+                "project_name": "Build a  Encrypt and Decrypt App",
+                "description": "",
+                "discord_tag": "#kotlin-encrytdecrypt-app",
+                "karma": "200",
+                "tutorial_link": "https://www.geeksforgeeks.org/how-to-encrypt-and-decrypt-text-in-android-using-cryptography/"
+            }
+        ]
+
+    },
     completed_description: "After course completion, complete the assignments and post the Repository url in the <b> #android-development</b> channel of the µLearn Discord server with the respective hastags to avail karma points",
-    completion_requirments: "- Post the screenshot of your assignment along with the Github Repo link when you complete each task in <b> #android-development</b> channel with hashtags given below to avail 200 karma points.",
-    completion_courses: ["- Weather App: <b>#kotlin-weather-app</b>", "- Quiz App: <b>#kotlin-quiz-app</b>", "- ToDo App: <b>#kotlin-todo-app</b>", "- Tic-Tac-Toe App: <b>#kotlin-tic-tac-toe</b>", "- Simple Calculator App: <b>#kotlin-calculator-app</b>"],
     example: "Hey, I have complete the Weather App using Kotlin, Here the Github Repo Link https://github.com/username/reponame <b>#kotlin-weather-app</b>"
 }
 export default data;
