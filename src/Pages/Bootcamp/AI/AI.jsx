@@ -42,8 +42,6 @@ const AI = () => {
                   </a>
                 </div>
               </div>
-
-
               <a
                 href="https://airtable.com/shrACkBZBdJbya6or"
                 target="_blank"
