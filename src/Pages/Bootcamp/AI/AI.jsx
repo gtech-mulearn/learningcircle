@@ -25,7 +25,7 @@ const AI = () => {
                 <span>Think Tank Meet : </span> Tuesday 09:00 PM @ Google Meet
               </p>
 
-              {/* <div class={styles.supporters}>
+              <div class={styles.supporters}>
                 <span>Supported By </span>
                 <div className={styles.s_images}>
                   <a
@@ -41,7 +41,7 @@ const AI = () => {
                     />
                   </a>
                 </div>
-              </div> */}
+              </div>
 
 
               <a
