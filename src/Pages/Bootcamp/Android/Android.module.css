@@ -15,7 +15,16 @@
   align-items: center;
   /* justify-content: center; */
 }
+.officehrs {
+  margin-top: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #404040;
+}
 
+.officehrs span {
+  color: #39b47e;
+}
 .supporters span {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.1rem;

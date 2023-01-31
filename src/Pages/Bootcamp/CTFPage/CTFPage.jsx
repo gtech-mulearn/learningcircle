@@ -33,6 +33,12 @@ const CTFPage = () => {
                 those who are looking to pursue the OSCP certification, as it is
                 considered to be beginner-friendly
               </p>
+              {/* <p className={styles.officehrs}>
+                <span>Office Hours : </span> Thursday 07:00PM @ Discord Lobby
+              </p>
+              <p className={styles.officehrs}>
+                <span>Think Tank Meet : </span> Tuesday 09:00 PM @ Google Meet
+              </p> */}
               <p class={styles.startingdate}>Starting On <span>1st January 2023</span></p>
               <div class={styles.supporters}>
                 <span>Supported By </span>

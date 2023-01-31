@@ -22,6 +22,12 @@ const Android = () => {
                 to minimize the learning process into micro-steps to enhance
                 your learning curve
               </p>
+              {/* <p className={styles.officehrs}>
+                <span>Office Hours : </span> Thursday 07:00PM @ Discord Lobby
+              </p>
+              <p className={styles.officehrs}>
+                <span>Think Tank Meet : </span> Wednesday 09:30 PM @ Google Meet
+              </p> */}
               <div class={styles.supporters}>
                 <span>Supported By </span>
                 <div className={styles.s_images}>
