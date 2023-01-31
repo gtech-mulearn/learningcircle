@@ -26,7 +26,7 @@ const AI = () => {
               </p>
 
               <div class={styles.supporters}>
-                <span>Supported By </span>
+                {/* <span>Supported By </span>
                 <div className={styles.s_images}>
                   <a
                     href="https://buildspace.so/builds/ai-writer"
@@ -40,10 +40,10 @@ const AI = () => {
                       width="100%" height="100%"
                     />
                   </a>
-                </div>
+                </div> */}
               </div>
               <a
-                href="#"
+                href="https://airtable.com/shrACkBZBdJbya6or"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.atag}
