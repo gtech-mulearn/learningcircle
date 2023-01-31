@@ -55,7 +55,7 @@ const AI = () => {
             </div>
             <div className={` select-none ${styles.fv_image}`}>
               <img
-                src="/assets/bootcamp/ai/ai2.gif"
+                src="/assets/bootcamp/ai/ai.webp"
                 alt=""
                 className={styles.fv_img}
               />
