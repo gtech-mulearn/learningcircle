@@ -19,7 +19,6 @@ import Modal from "@mui/material/Modal";
 import BeagleSecurity from "./assets/Others/BeagleSecurity.png";
 import FoxLabs from "./assets/Others/FoxLabs.png";
 import Pygrammers from "./assets/Others/Pygrammers.png";
-import ProductPack from "./assets/Others/productpack.webp";
 
 import illustrations from "./assets/illustrations.png";
 import InterestCard from "../../../Components/InterestCard/InterestCard";

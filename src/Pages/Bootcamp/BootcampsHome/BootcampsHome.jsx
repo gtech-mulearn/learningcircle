@@ -44,6 +44,17 @@ const BootcampsHome = () => {
             </div>
             <div className={styles.bootcamps}>
               <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>AI Bootcamp</p>
+                <p className={styles.b_tagline}>
+                  Learn Android Development in Kotlin hands-on so that you may
+                  integrate it in your campus for your peers who are eager to
+                  venture into Android Development with Kotlin.
+                </p>
+                <Link to="/bootcamps/ai">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
+              <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>Android Bootcamp</p>
                 <p className={styles.b_tagline}>
                   Learn Android Development in Kotlin hands-on so that you may
