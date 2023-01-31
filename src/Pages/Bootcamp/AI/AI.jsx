@@ -43,7 +43,7 @@ const AI = () => {
                 </div>
               </div>
               <a
-                href="https://airtable.com/shrACkBZBdJbya6or"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.atag}
