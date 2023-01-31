@@ -67,7 +67,16 @@
   color: white;
   margin-top: 1rem;
 }
+.officehrs {
+  margin-top: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #404040;
+}
 
+.officehrs span {
+  color: #00bc83;
+}
 .fv_subheading {
   color: #00bc83;
   font-family: "Poppins", sans-serif;

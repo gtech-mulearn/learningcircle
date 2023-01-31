@@ -74,7 +74,16 @@
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
+.officehrs {
+  margin-top: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #404040;
+}
 
+.officehrs span {
+  color: #448aff;
+}
 .startingdate {
   margin-top: 1rem;
   font-family: "Noto Sans";
@@ -139,7 +148,6 @@
 
   .fv_heading {
     font-size: 5rem;
-    position: relative;
     z-index: 10;
   }
 

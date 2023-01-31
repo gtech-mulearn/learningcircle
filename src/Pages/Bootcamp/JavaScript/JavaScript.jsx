@@ -22,6 +22,12 @@ const JavaScript = () => {
                   JavaScript.This Boot-camp aims to minimize the learning
                   process into micro-steps to enhance your learning curve.
                 </p>
+                {/* <p className={styles.officehrs}>
+                  <span>Office Hours : </span> Thursday 07:00PM @ Discord Lobby
+                </p>
+                <p className={styles.officehrs}>
+                  <span>Think Tank Meet : </span> Tuesday 09:00 PM @ Google Meet
+                </p> */}
                 <a
                   href="https://airtable.com/shr82OZNBqnbEcZTq"
                   target="_blank"
