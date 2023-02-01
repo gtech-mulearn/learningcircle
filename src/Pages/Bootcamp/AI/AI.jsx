@@ -28,12 +28,12 @@ const AI = () => {
               </p>
 
               <a
-                href="#"
+                href="https://airtable.com/shrEwzetTRedLVAJS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.atag}
               >
-                <button className={styles.register}>Starting Soon</button>
+                <button className={styles.register}>Register Now</button>
               </a>
             </div>
             <div className={` select-none ${styles.fv_image}`}>
@@ -55,7 +55,7 @@ const AI = () => {
             <div className={styles.steps}>
               <div className="timeline-container">
                 <div className="timeline">
-                  <div className="timeline__event animated fadeInUp delay-2s timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp delay-2s timeline__event--type6">
                     <div className="timeline__event__icon">
                       <img
                         src={require("../assets/steps/privacy.svg").default}
@@ -78,7 +78,7 @@ const AI = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp delay-1s timeline__event--type6">
                     <div className="timeline__event__icon">
                       <img
                         src={
@@ -104,7 +104,7 @@ const AI = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="timeline__event animated fadeInUp timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp timeline__event--type6">
                     <div className="timeline__event__icon">
                       <img
                         src={require("../assets/steps/html-tag.svg").default}
@@ -128,7 +128,7 @@ const AI = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type6">
                     <div className="timeline__event__icon">
                       <img
                         src={require("../assets/steps/check.svg").default}
@@ -152,7 +152,7 @@ const AI = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp delay-3s timeline__event--type6">
                     <div className="timeline__event__icon">
                       <img
                         src={require("../assets/steps/check.svg").default}
@@ -175,7 +175,7 @@ const AI = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="timeline__event animated fadeInUp timeline__event--type3">
+                  <div className="timeline__event animated fadeInUp timeline__event--type6">
                     <div className="timeline__event__icon">
                       <img
                         src={require("../assets/steps/html-tag.svg").default}

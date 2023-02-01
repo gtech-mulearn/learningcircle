@@ -33,7 +33,7 @@
 }
 
 .officehrs span {
-  color: #39b47e;
+  color: #35A898;
 }
 .supporter {
   padding: 1rem;
@@ -62,7 +62,7 @@
 
 .fv_heading span,
 .orange {
-  color: #39b47e;
+  color: #35A898;
 }
 
 .fv_content {
@@ -151,7 +151,7 @@
 }
 
 .register {
-  background-color: #39b47e;
+  background-color: #35A898;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   color: white;
@@ -210,7 +210,7 @@
   font-size: 2rem;
   text-align: center;
   font-weight: 500;
-  color: #39b47e;
+  color: #35A898;
 }
 
 .sv_content {
