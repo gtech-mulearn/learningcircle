@@ -20,5 +20,3 @@ const CompletionTasks = ({ heading, highlighted_heading, description, example })
 
     )
 }
-
-export default CompletionTasks

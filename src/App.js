@@ -29,7 +29,6 @@ import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
 import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
 import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
 import Python from "./Pages/Bootcamp/Python/Python";
-import AI from "./Pages/Bootcamp/AI/AI";
 
 //Misc
 import NotFound from "./Pages/Misc/404/NotFound";
@@ -56,7 +55,6 @@ import IntroToGithubPages from "./Pages/Practice/Challenges/IntroToGithubPages/I
 import IntroToHtml from "./Pages/Practice/Challenges/IntroToHtml/IntroToHtml";
 import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimulation/TrafficLightSimulation";
 import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn";
-
 
 function App() {
   //Home Page state Variables
@@ -290,7 +288,7 @@ function App() {
             path="/common/:type/:id"
             element={<CoursePage CourseData={CommonData} />}
           />
-          <Route path="/android/core/learnkotlin" element={<Subcourse data={data} />} />
+          <Route path="/android/core/learnkotlin" element={<AndroidKotlin />} />
 
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />
@@ -301,7 +299,6 @@ function App() {
           <Route path="/bootcamps/flutter" element={<Flutter />} />
           <Route path="/bootcamps/javascript" element={<JavaScript />} />
           <Route path="/bootcamps/python" element={<Python />} />
-          <Route path="/bootcamps/ai" element={<AI />} />
           <Route
             path="/searchcircles"
             element={

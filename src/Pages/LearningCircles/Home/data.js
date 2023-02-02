@@ -320,7 +320,7 @@ const InterestGroups = [
         images: "assets/interestGroups/Alwin John .webp",
       },
     ],
-    officetime: "Thursday 7:30 PM",
+    officetime: "Saturday 7:30 PM",
     officeplace: " at Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Friday 7:00 PM",
@@ -561,13 +561,11 @@ const InterestGroups = [
   },
   {
     id: "android",
-    interestgroup: "Android Development",
+    interestgroup: "Mobile App Development",
     interestgroupdescription:
       "Everything is at your fingertips, and you still don't know the working and stages of android development. Have you ever thought of exploring? Don't worry; Join our Android Development Interest Group right away and start feeding your curious minds from the basics.",
     officetime: "Thursday 7:30PM",
     officeplace: " at Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Wednesday 9:30 PM",
     community: ["Google"],
     opportunities: [
       "Flutter Developer",
@@ -826,18 +824,18 @@ const InterestGroups = [
           "Mar Baselios College of Engineering and Technology, Trivandrum",
         images: "assets/interestGroups/ben.webp",
       },
-      // {
-      //   id: 3,
-      //   name: "Basith P",
-      //   college: "KMCT Engineering College,Kozhikode",
-      //   images: "assets/interestGroups/Basith P.webp",
-      // },
-      // {
-      //   id: 4,
-      //   name: "Zohil P K",
-      //   college: "AWH Engineering College,Kozhikode",
-      //   images: "assets/interestGroups/zohil.webp",
-      // },
+      {
+        id: 3,
+        name: "Basith P",
+        college: "KMCT Engineering College,Kozhikode",
+        images: "assets/interestGroups/Basith P.webp",
+      },
+      {
+        id: 4,
+        name: "Zohil P K",
+        college: "AWH Engineering College,Kozhikode",
+        images: "assets/interestGroups/zohil.webp",
+      },
     ],
     resources: [
       {
@@ -857,7 +855,7 @@ const InterestGroups = [
     interestgroup: "Cyber Security",
     interestgroupdescription:
       "Having an extra layer of security is always an advantage in the current world. The best way to prevent a cyber attack is to learn how it works and block all the loopholes that allow it. Want to learn? Join our Interest Group and learn from our expert mentors.",
-    officetime: "Monday 7:30 PM",
+    officetime: "Sunday 7:30PM",
     officeplace: " at Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Sunday 9:00PM",
@@ -1172,7 +1170,7 @@ const InterestGroups = [
     interestgroup: "Product Management",
     interestgroupdescription:
       '"Product Management is deciding what to build next”. Are you interested in learning to build the right product and the product right? Join our “Product Management” Interest Group to learn and collaborate with peers.',
-    officetime: "Tuesday 8:30PM",
+    officetime: "Monday 7:30PM",
     officeplace: " at Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Monday 7:00 PM",
@@ -1828,7 +1826,7 @@ const InterestGroups = [
         link: "https://buildingai.elementsofai.com/",
       },
     ],
-    officetime: "Thursday 7:00 PM",
+    officetime: "",
     officeplace: " At Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Tuesday 9:00 PM",
@@ -2122,7 +2120,7 @@ const InterestGroups = [
         image: "/assets/mentors/Vivek-R.webp",
       },
     ],
-    officetime: "Monday 7:30 PM",
+    officetime: "Friday 7:00pm",
     comingsoon: "true",
     thinktankplace: " @ Google Meet",
     thinktanktime: " Sunday 9:30PM",
@@ -2145,7 +2143,6 @@ const InterestGroups = [
     comingsoon: "true",
     id: "innovation",
     interestgroup: "Innovation",
-
     interestgroupdescription:
       "Startups drive innovation by introducing new ideas and challenging established players. They utilize cutting-edge technology and unique business models to solve problems and meet customer needs. Join our interest group to learn more about this dynamic field.",
     basicenablementtasks: [
@@ -2213,7 +2210,7 @@ const InterestGroups = [
         image: "/assets/mentors/Michael Mathews.webp",
       },
     ],
-    officetime: "Friday 10:00 PM",
+    officetime: "Friday 7:00 PM",
     officeplace: " at Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Thursday 10:00 PM",
@@ -2421,7 +2418,7 @@ const InterestGroups = [
     interestgroup: "Creative Design",
     interestgroupdescription:
       "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
-    officetime: "Tuesday 6:00pm",
+    officetime: "Tuesday 7:00pm",
     comingsoon: "true",
     officeplace: "@ Discord Lobby",
     thinktankplace: " @ Google Meet",
