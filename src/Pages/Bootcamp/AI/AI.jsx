@@ -65,7 +65,7 @@ const AI = () => {
                     </div>
                     <div className="timeline__event__date">1</div>
                     <div className="timeline__event__content">
-                      <div className="timeline__event__title">Step 1</div>
+                      <div className="timeline__event__title">Step One</div>
                       <div className="timeline__event__description">
                         Visit{" "}
                         <a href="https://buildspace.so/builds/ai-writer">
