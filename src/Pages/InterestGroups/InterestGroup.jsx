@@ -91,6 +91,15 @@ const InterestGroup = ({ setInterest }) => {
                   </p>
                 )}
 
+                {data[0].thinktanktime && (
+                  <p className={styles.officehrs}>
+                    <span>Think Tank Meeting: </span> {data[0].thinktanktime}
+                    {data[0].thinktankplace}
+                    <br/>
+                  </p>
+                  
+                )}
+
                 {data[0].community[0] && (
                   <p className={styles.community}>
                     <span>Community Partner: </span> {data[0].community[0]}
