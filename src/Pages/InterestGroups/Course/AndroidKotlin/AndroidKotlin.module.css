@@ -94,9 +94,11 @@
 .sv_heading {
   font-family: "Noto Sans", sans-serif;
   font-size: 2rem;
+  margin-top: 1rem;
   font-weight: 700;
   line-height: 2.75rem;
   color: #404040;
+  max-width: 40rem;
 }
 
 .sv_heading span {
@@ -107,6 +109,7 @@
   margin-top: 0.25rem;
   font-size: 1rem;
   font-family: "Poppins";
+  max-width: 40rem;
 }
 
 .sample_container {
@@ -126,6 +129,7 @@
 .sample_message {
   margin: 0.5rem 0;
   font-family: "Poppins";
+  max-width: 40rem;
 }
 
 .karma_header {
