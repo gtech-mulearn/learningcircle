@@ -1410,6 +1410,46 @@ const MentorList = [
     image: "https://www.fayaport80.com/speakers/thumb/sujith-s.jpg",
     source: "FAYA:80",
   },
+  {
+    id: "154",
+    name: "Bibin Sebastian",
+    designation: "Developer, Deloitte",
+    linkedIn: "https://www.linkedin.com/in/bibin-sebastian/",
+    stack: "Flutter Developer",
+    image: "/assets//mentors/Bibin Sebastian.webp",
+  },
+  {
+    id: "155",
+    name: "Aswin Gopinathan",
+    designation: "SDE-1 Mobile @ ZestMoney",
+    linkedIn: "https://www.linkedin.com/in/aswin-gopinathan-69556716a/",
+    stack: "Flutter Developer",
+    image: "/assets//mentors/Aswin Gopinathan.webp",
+  },
+  {
+    id: "156",
+    name: "Sreelal TS",
+    designation: "Flutter Developer, YCorp",
+    linkedIn: "https://www.linkedin.com/in/aswin-gopinathan-69556716a/",
+    stack: "Flutter Developer",
+    image: "/assets//mentors/Sreelal TS.webp",
+  },
+  {
+    id: "157",
+    name: "Sreehari K",
+    designation: "Software Engineer, PITS Solutions",
+    linkedIn: "https://www.linkedin.com/in/kariot/",
+    stack: "Android Developer",
+    image: "/assets//mentors/Sreehari K.webp",
+  },
+  {
+    id: "158",
+    name: "Arun J",
+    designation: "Flutter Developer, Codingp",
+    // linkedIn: "https://www.linkedin.com/in/aswin-gopinathan-69556716a/",
+    stack: "Android Developer",
+    // image: "/assets//mentors/Arun J.webp",
+  },
 ];
 
 export default MentorList;
