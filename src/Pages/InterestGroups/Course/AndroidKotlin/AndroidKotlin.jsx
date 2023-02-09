@@ -137,7 +137,7 @@ const AndroidKotlin = () => {
               </div>
 
               <p className={styles.sv_heading}>
-                <span>Beginnering</span> Projects
+                <span>Beginner</span> Projects
               </p>
 
               <TableContainer component={Paper}>
