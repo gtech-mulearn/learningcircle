@@ -651,7 +651,7 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Introduction to Kotlin",
-        link: "/android/core/learnkotlin",
+        link: "/android/core/1",
         complexity: "",
         time: "",
         karma: "1000",
