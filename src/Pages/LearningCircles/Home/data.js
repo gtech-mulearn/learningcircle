@@ -654,7 +654,7 @@ const InterestGroups = [
         link: "/android/core/1",
         complexity: "",
         time: "",
-        karma: "3000",
+        karma: "400",
       },
       {
         name: "Android Basics with Compose",
