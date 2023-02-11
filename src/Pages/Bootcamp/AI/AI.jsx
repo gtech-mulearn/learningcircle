@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./AI.module.css";
+import React from "react"
+import styles from "./AI.module.css"
 
-import Navbar from "../../../Components/Navbar/Navbar";
-import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar"
+import Footer from "../../../Components/Footer/Footer"
 
 const AI = () => {
   return (
@@ -67,14 +67,15 @@ const AI = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step One</div>
                       <div className="timeline__event__description">
-                        Visit{" "}
+                        Go to{" "}
                         <a href="https://buildspace.so/builds/ai-writer">
-                          https://buildspace.so/builds/ai-write
+                          https://buildspace.so/builds/ai-writer
                         </a>{" "}
                         and create an account on <b>buildspace</b>. The Bootcamp
-                        will consist of 4 stages and at the end of each stage,
-                        you will be directed to share your submission on Twitter
-                        and LinkedIn ( Let the world know of your progress)
+                        is divided into 4 phases, and upon completing each
+                        stage, you will be directed to share your submission on
+                        Twitter and LinkedIn ( Let the world know of your
+                        progress)
                       </div>
                     </div>
                   </div>
@@ -96,7 +97,7 @@ const AI = () => {
                         <b>creating your first ML Model</b>. <br />
                         Once you’ve completed the stage and shared it on your
                         socials as directed, post the links in the <b>
-                          #ai-ml
+                          #ai
                         </b>{" "}
                         channel of the μLearn Discord server with the hashtag{" "}
                         <b>#cl-buildspace-ai-1</b> to avail{" "}
@@ -120,7 +121,7 @@ const AI = () => {
                         <b>setting up your own GPT-3 Writer</b>. <br />
                         Once you’ve completed the stage and shared it on your
                         socials as directed, post the links in the <b>
-                          #ai-ml
+                          #ai
                         </b>{" "}
                         channel of the μLearn Discord server with the hashtag{" "}
                         <b>#cl-buildspace-ai-2</b> to avail{" "}
@@ -144,7 +145,7 @@ const AI = () => {
                         <br />
                         Once you’ve completed the stage and shared it on your
                         socials as directed, post the links in the <b>
-                          #ai-ml
+                          #ai
                         </b>{" "}
                         channel of the μLearn Discord server with the hashtag{" "}
                         <b>#cl-buildspace-ai-3</b> to avail{" "}
@@ -167,7 +168,7 @@ const AI = () => {
                         <b>adding final touches to your application</b>. <br />
                         Once you’ve completed the stage and shared it on your
                         socials as directed, post the links in the <b>
-                          #ai-ml
+                          #ai
                         </b>{" "}
                         channel of the μLearn Discord server with the hashtag{" "}
                         <b>#cl-buildspace-ai-4</b> to avail{" "}
@@ -187,13 +188,13 @@ const AI = () => {
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Bonus Step</div>
                       <div className="timeline__event__description">
-                        List the chrome extension you have built in Product hunt
-                        or Chrome Extension webstore to avail some extra karma
-                        <br />(<b>NB: </b> Hosting the chrome extension is not
-                        in the final chapter.)and share the link in the{" "}
-                        <b>#ai-ml</b> channel of the μLearn Discord server with
-                        the hashtag <b>#cl-buildspace-ai-bonus</b> to avail some
-                        bonus <b>200 Karma points</b>
+                        To receive additional karma points, list any Chrome
+                        extensions you have built either on Product Hunt or the
+                        Chrome Extension webstore and share the link in the{" "}
+                        <b>#ai </b>channel on the μLearn Discord server using
+                        the hashtag <b>#cl-buildspace-ai-bonus</b> to earn a
+                        bonus <b>200 Karma points</b> Please note that hosting
+                        the Chrome extension is not part of the final chapter,
                       </div>
                     </div>
                   </div>
@@ -205,7 +206,7 @@ const AI = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default AI;
+export default AI
