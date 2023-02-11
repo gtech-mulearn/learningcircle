@@ -64,6 +64,17 @@ a {
   margin-bottom: 0.5rem;
 }
 
+.social {
+  width: 2rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  filter: invert(100%);
+}
+
+.social:hover {
+  filter: invert(77%) sepia(41%) saturate(4590%) hue-rotate(331deg) brightness(100%) contrast(94%);
+}
+
 .social_tw {
   width: 2rem;
   margin-top: 2rem;
