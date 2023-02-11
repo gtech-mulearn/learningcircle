@@ -93,10 +93,20 @@ const Navbar = () => {
             href="https://discord.mulearn.org/"
             target="_blank"
             rel="noopener noreferrer"
-            className="py-7 px-3 inline-block overflow-visible"
+            className="py-3 px-3 inline-block overflow-visible"
           >
             <button className="bg-orange-400 text-white  px-6 py-2 rounded-md">
               Join Discord
+            </button>
+          </a>
+          <a
+            href="http://mulearn.org/magazine"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-3 px-3 inline-block"
+          >
+            <button className="border-2 border-orange-400 text-orange-400 px-6 py-2 rounded-md">
+              Magazine
             </button>
           </a>
         </div>
@@ -123,12 +133,22 @@ const Navbar = () => {
               href="https://discord.mulearn.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="py-7 px-28 "
+              className="py-3 px-28 "
             >
               <button className="bg-orange-400 text-white  px-6 py-2 rounded-md ">
                 Join Discord
               </button>
             </a>
+            <a
+            href="http://mulearn.org/magazine"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-3 px-3 inline-block"
+          >
+            <button className="border-2 border-orange-400 text-orange-400 px-6 py-2 rounded-md">
+              Magazine
+            </button>
+          </a>
           </div>
         </ul>
       </div>
