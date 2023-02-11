@@ -2710,7 +2710,7 @@ const InterestGroups = [
     basicenablementtasks: [
       {
         name: "Create a Plan as per instructions",
-        // link: "https://mulearn.notion.site/AutoCAD-Task-1-b01306b2af874c7d899a45b72cf7a3c6",
+        link: "https://mulearn.notion.site/AutoCAD-Task-1-b01306b2af874c7d899a45b72cf7a3c6",
         complexity: "",
         time: "",
         karma: "",
@@ -2718,19 +2718,51 @@ const InterestGroups = [
     ],
     learningpaths: [
       {
-        id: "",
-        name: "Autodesk Courses",
-        link: "https://www.autodesk.com/certification/learn/catalog/product/AutoCAD",
+        id: "1",
+        name: "BIM Fundamentals for Engineers",
+        link: "https://www.classcentral.com/course/bim-fundamentals-12179",
       },
       {
-        id: "",
-        name: "AutoCad Design Drafts",
-        link: "https://www.autodesk.com/certification/learn/catalog/product/AutoCAD",
+        id: "2",
+        name: "BIM Application for Engineers",
+        link: "https://www.classcentral.com/course/bim-application-12117",
       },
     ],
-    corecourses: [],
-    subcourses: [],
-    comingsoon: true,
+    corecourses: [
+      {
+        id: "1",
+        name: "Technical Drawing for Design and Drafting",
+        link: "https://www.autodesk.com/certification/learn/course/autocad-drawing-design-drafting-professional/nqy0ennbqvyMJsseZYJkz",
+      },
+      {
+        id: "2",
+        name: "Drawing Management for Design and Drafting",
+        link: "https://www.autodesk.com/certification/learn/course/autocad-drawing-management-professional",
+      },
+      {
+        id: "3",
+        name: "Annotating and Dimensioning for Design and Drafting",
+        link: "https://www.autodesk.com/certification/learn/course/autocad-annotating-dimensioning-professional",
+      },
+      {
+        id: "4",
+        name: "Creating and Modifying Objects with Accuracy for Design and Drafting",
+        link: "https://www.autodesk.com/certification/learn/course/autocad-objects-design-drafting-professional",
+      },
+      {
+        id: "5",
+        name: "Layout and Output Drawings for Design and Drafting",
+        link: "https://www.autodesk.com/certification/learn/course/autocad-layout-output-design-drafting-professional",
+      }
+    ],
+    subcourses: [
+      // {
+      //   id: "",
+      //   name: "",
+      //   link: "",
+      // },
+    ],
+    comingsoon: false,
     mentorscard: [
       {
         id: "",
@@ -2765,24 +2797,23 @@ const InterestGroups = [
     interestgroup: "Autodesk Revit",
     interestgroupdescription:
       "Revit is a building information modeling (BIM) software used to design and manage buildings and infrastructure. Join our Revit interest group to learn and collaborate with other professionals.",
-
     basicenablementtasks: [
       {
         name: "Create a Plan as per instructions",
-        // link: "https://mulearn.notion.site/Revit-Task-1-70060b2526c54383a54078c5f873a739",
+        link: "https://mulearn.notion.site/Revit-Task-1-70060b2526c54383a54078c5f873a739",
         complexity: "",
         time: "",
         karma: "",
       },
     ],
-    learningpaths: [
-      {
-        id: "",
-        name: "Autodesk Courses",
-        link: "https://www.autodesk.com/certification/learn/catalog/product/Revit",
-      },
+    learningpaths: [],
+    corecourses: [
+      // {
+      //   id: "",
+      //   name: "",
+      //   link: "",
+      // },
     ],
-    corecourses: [],
     subcourses: [],
     mentorscard: [],
     officetime: "Wednesday 7:00PM",
