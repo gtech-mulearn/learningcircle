@@ -2716,18 +2716,7 @@ const InterestGroups = [
         karma: "",
       },
     ],
-    learningpaths: [
-      {
-        id: "1",
-        name: "BIM Fundamentals for Engineers",
-        link: "https://www.classcentral.com/course/bim-fundamentals-12179",
-      },
-      {
-        id: "2",
-        name: "BIM Application for Engineers",
-        link: "https://www.classcentral.com/course/bim-application-12117",
-      },
-    ],
+    learningpaths: [],
     corecourses: [
       {
         id: "1",
@@ -2753,7 +2742,7 @@ const InterestGroups = [
         id: "5",
         name: "Layout and Output Drawings for Design and Drafting",
         link: "https://www.autodesk.com/certification/learn/course/autocad-layout-output-design-drafting-professional",
-      }
+      },
     ],
     subcourses: [
       // {
@@ -2835,6 +2824,6 @@ const InterestGroups = [
       },
     ],
   },
-];
+]
 
-export default InterestGroups;
+export default InterestGroups
