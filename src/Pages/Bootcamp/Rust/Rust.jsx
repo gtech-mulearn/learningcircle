@@ -127,7 +127,7 @@ const Rust = () => {
                         alt=""
                       />
                     </div>
-                    <div className="timeline__event__date">5</div>
+                    <div className="timeline__event__date">4</div>
                     <div className="timeline__event__content">
                       <div className="timeline__event__title">Step Four</div>
                       <div className="timeline__event__description">
@@ -145,9 +145,9 @@ const Rust = () => {
                         alt=""
                       />
                     </div>
-                    <div className="timeline__event__date">6</div>
+                    <div className="timeline__event__date">5</div>
                     <div className="timeline__event__content">
-                      <div className="timeline__event__title">Step Six</div>
+                      <div className="timeline__event__title">Step Five</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 77 in #cloud-and-devops channel with hashtag
@@ -163,9 +163,9 @@ const Rust = () => {
                         alt=""
                       />
                     </div>
-                    <div className="timeline__event__date">7</div>
+                    <div className="timeline__event__date">6</div>
                     <div className="timeline__event__content">
-                      <div className="timeline__event__title">Step Seven</div>
+                      <div className="timeline__event__title">Step Six</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 103 in #cloud-and-devops channel with hashtag
