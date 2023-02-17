@@ -13,7 +13,7 @@ const MarathonChallenge = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                GTech Marathon <span>Challenge</span>
+                µLearn Marathon <span>Challenge</span>
               </p>
               <p className={styles.fv_content}>
                 Join our Marathon Challenge and earn karma points while
@@ -24,6 +24,13 @@ const MarathonChallenge = () => {
                 <br />
                 <br />
               </p>
+              <a
+                href="https://airtable.com/shrJpHwakqmNxjWE1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={styles.joinchallenge}>Join Challenge</button>
+              </a>
             </div>
           </div>
         </div>
@@ -47,11 +54,15 @@ const MarathonChallenge = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step One</div>
                     <div className="timeline__event__description">
-                      Download the RunKeeper App and Register an Account on it.{" "}
-                      <a href="#" target="_blank" rel="noopener noreferrer">
-                        Download App
-                      </a>
-                      <br />
+                      Download the{" "}
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.fitnesskeeper.runkeeper.pro&hl=en_IN&gl=US&pli=1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        ASICS Runkeeper - Run Tracker
+                      </a>{" "}
+                      and Register an Account on it. <br />
                       <br /> After completing each stage Post a screenshot of
                       your submission along with the hashtag{" "}
                       <b>#marathon-challenge-day-10</b> in the{" "}
@@ -73,7 +84,7 @@ const MarathonChallenge = () => {
                     <div className="timeline__event__description">
                       <b>Day 1-10:</b> This is a 30-day challenge that is split
                       into three parts. The first part requires to run a total
-                      of 20km in the first 10 days, which will earn them{" "}
+                      of 20km in the first 10 days, which will earn you{" "}
                       <b>100 Karma Points</b>. If you are able to achieve more
                       then you will get <b>200 Karma Points</b>
                     </div>

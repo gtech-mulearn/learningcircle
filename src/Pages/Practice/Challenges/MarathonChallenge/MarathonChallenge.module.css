@@ -10,6 +10,16 @@ a {
   max-width: 90%;
 }
 
+.joinchallenge {
+  background-color: #f6842c;
+
+  padding: 0.5rem 1.5rem;
+  color: white;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
 .steps_ulist {
   list-style: disc;
   margin-left: 1.5rem;
