@@ -43,7 +43,7 @@ const MuLanding = () => {
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
               <MentorCard
-                  name="GTech Marathon Challenge"
+                  name="µLearn Marathon Challenge"
                   designation="Join our Marathon Challenge and earn karma points while improving your health and fitness! Simply run a few kilometers every day and track your progress on the Runkeeper app. "
                   mclink="/challenge/marathon"
                 />
