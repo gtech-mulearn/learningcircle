@@ -42,6 +42,11 @@ const MuLanding = () => {
             </div>
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
+              <MentorCard
+                  name="GTech Marathon Challenge"
+                  designation="Join our Marathon Challenge and earn karma points while improving your health and fitness! Simply run a few kilometers every day and track your progress on the Runkeeper app. "
+                  mclink="/challenge/marathon"
+                />
                 <MentorCard
                   name="Self Introduction"
                   designation="You know yourself the best, yet presenting a good self may allow others to get to know you. Posting an introduction to yourself is an important first step in connecting with the community."
