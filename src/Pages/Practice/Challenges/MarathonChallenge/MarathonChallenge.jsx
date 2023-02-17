@@ -62,11 +62,7 @@ const MarathonChallenge = () => {
                       >
                         ASICS Runkeeper - Run Tracker
                       </a>{" "}
-                      and Register an Account on it. <br />
-                      <br /> After completing each stage Post a screenshot of
-                      your submission along with the hashtag{" "}
-                      <b>#marathon-challenge-day-10</b> in the{" "}
-                      <b>marathon-challenge</b> channel
+                      and Register an Account on it.
                     </div>
                   </div>
                 </div>
@@ -82,11 +78,10 @@ const MarathonChallenge = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Two</div>
                     <div className="timeline__event__description">
-                      <b>Day 1-10:</b> This is a 30-day challenge that is split
-                      into three parts. The first part requires to run a total
-                      of 20km in the first 10 days, which will earn you{" "}
-                      <b>100 Karma Points</b>. If you are able to achieve more
-                      then you will get <b>200 Karma Points</b>
+                      Complete the first stage of the marathon challenge by
+                      running 3 km and post a screenshot of the statistics with
+                      the hashtag <b>#marathon-challenge-3km</b> in the
+                      marathon-challenge channel to earn <b>200 Karma</b>.
                     </div>
                   </div>
                 </div>
@@ -102,11 +97,11 @@ const MarathonChallenge = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Three</div>
                     <div className="timeline__event__description">
-                      <b>Day 11-20: </b>In the second stage you will have to run
-                      a total of 60km in 10-days, Join the GTech Marathon and
-                      Refer a Friend of yours to join to get{" "}
-                      <b>400 Karma Points</b>. If you are able to achieve more
-                      you will be awarded <b>800 Karma Points</b>
+                      Run 7 km to complete the second stage of the marathon
+                      challenge and earn <b>200 Karma</b>. Post a screenshot of
+                      the statistics with the hashtag{" "}
+                      <b>#marathon-challenge-7km</b> in the marathon-challenge
+                      channel for completing this stage.
                     </div>
                   </div>
                 </div>
@@ -122,10 +117,11 @@ const MarathonChallenge = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Four</div>
                     <div className="timeline__event__description">
-                      <b>Day 21-30: </b>In the second stage you will have to run
-                      a total of 100km in 10-days, along with regular exercise
-                      to get <b>800 Karma Points</b>. If you are able to achieve
-                      more you will be awarded <b>1000 Karma Points</b>
+                      Run 11 km to complete the final stage of the marathon
+                      challenge and earn <b>400 Karma</b>. Post a screenshot of
+                      teh statistics with the hashtag{" "}
+                      <b>#marathon-challenge-11km</b> in the marathon-challenge
+                      channel for completing this stage.
                     </div>
                   </div>
                 </div>
@@ -134,10 +130,10 @@ const MarathonChallenge = () => {
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
-                Hey! I've completed 20days in the marathon challenge. Here is a
+                Hey! I've completed 11km in the marathon challenge. Here is a
                 screenshot of my achievement
                 <br />
-                #marathon-challenge-day-20
+                #marathon-challenge-11km
               </p>
             </div>
           </div>

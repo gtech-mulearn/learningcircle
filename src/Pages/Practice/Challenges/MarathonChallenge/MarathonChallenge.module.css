@@ -20,6 +20,19 @@ a {
   margin: auto;
 }
 
+.fv_texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fv_texts a {
+  display: initial;
+  vertical-align: initial;
+  white-space: initial;
+  max-width: initial;
+}
+
 .steps_ulist {
   list-style: disc;
   margin-left: 1.5rem;
