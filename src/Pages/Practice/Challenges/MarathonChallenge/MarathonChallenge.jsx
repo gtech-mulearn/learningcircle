@@ -100,7 +100,7 @@ const MarathonChallenge = () => {
                       Run 7 km to complete the second stage of the marathon
                       challenge and earn <b>200 Karma</b>. Post a screenshot of
                       the statistics with the hashtag{" "}
-                      <b>#marathon-challenge-7km</b> in the marathon-challenge
+                      <b>#marathon-challenge-11km</b> in the marathon-challenge
                       channel for completing this stage.
                     </div>
                   </div>
@@ -120,7 +120,7 @@ const MarathonChallenge = () => {
                       Run 11 km to complete the final stage of the marathon
                       challenge and earn <b>400 Karma</b>. Post a screenshot of
                       teh statistics with the hashtag{" "}
-                      <b>#marathon-challenge-11km</b> in the marathon-challenge
+                      <b>#marathon-challenge-21km</b> in the marathon-challenge
                       channel for completing this stage.
                     </div>
                   </div>
@@ -130,10 +130,10 @@ const MarathonChallenge = () => {
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
-                Hey! I've completed 11km in the marathon challenge. Here is a
+                Hey! I've completed 21km in the marathon challenge. Here is a
                 screenshot of my achievement
                 <br />
-                #marathon-challenge-11km
+                #marathon-challenge-21km
               </p>
             </div>
           </div>
