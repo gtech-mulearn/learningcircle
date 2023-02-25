@@ -1811,7 +1811,7 @@ const InterestGroups = [
         link: "https://buildingai.elementsofai.com/",
       },
     ],
-    officetime: "Thursday 7:00 PM",
+    officetime: "Thursday 9:00 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Tuesday 9:00 PM",
