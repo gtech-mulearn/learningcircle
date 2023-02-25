@@ -1,0 +1,1415 @@
+[
+  {
+    "id": "S1",
+    "name": "Sony John Bronzon",
+    "designation": "Heads Training and Development at ALLONTM.",
+    "stack": "Design Thinking",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sony-John-Bronzon.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sonyjohnbronzon/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S2",
+    "name": "Madhusudan Shekar",
+    "designation": "Chief Evangelist of Amazon Web Services, Amazon India",
+    "stack": "AWS Lambda",
+    "image": "https://www.fayaport80.com/speakers/thumb/Madhusudan-Shekar.jpg",
+    "linkedIn": "https://www.linkedin.com/in/madhusudanshekar/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S3",
+    "name": "Janeesh Uthuppan",
+    "designation": "digital marketing professional and the Founding Partner of Webdura Technologies",
+    "stack": "SEO",
+    "image": "https://www.fayaport80.com/speakers/thumb/Janeesh-Uthuppan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/janeeshuthupp/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S4",
+    "name": "Rakesh B S",
+    "designation": "Co-Founders of Qucentis & BIGOrg",
+    "stack": "Blockchain",
+    "image": "https://www.fayaport80.com/speakers/thumb/Rakesh-B-S.jpg",
+    "linkedIn": "https://www.linkedin.com/in/rakesh-bs-78732817/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S5",
+    "name": "Jikku Jose",
+    "designation": "Ruby Developer - Co-Founder, Qucentis",
+    "stack": "Blockchain",
+    "image": "https://www.fayaport80.com/speakers/thumb/Jikku-Jose.jpg",
+    "linkedIn": "https://www.linkedin.com/in/jikkujose/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S6",
+    "name": "Krishnakumar S",
+    "designation": "Senior Consultant-Database Administration at EnvestNet Trivandrum",
+    "stack": "Database",
+    "image": "https://www.fayaport80.com/speakers/thumb/Krishnakumar-S.jpg",
+    "linkedIn": "https://www.linkedin.com/in/krishnakumars1/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S7",
+    "name": "Jeswin Simon",
+    "designation": "Senior Engineer - Product, Envestnet",
+    "stack": "Swift 4",
+    "image": "https://www.fayaport80.com/speakers/thumb/Jeswin-Simon.jpg",
+    "linkedIn": "http://in.linkedin.com/pub/jeswin-simon/20/405/184",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S8",
+    "name": "Jaydev S V",
+    "designation": "Founder of volvox",
+    "stack": "Singularity Series",
+    "image": "https://www.fayaport80.com/speakers/thumb/Jaydev-S-V.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S9",
+    "name": "Hrishi Olickel",
+    "designation": "Founder of volvox",
+    "stack": "Singularity Series",
+    "image": "https://www.fayaport80.com/speakers/thumb/Hrishi-Olickel.jpg",
+    "linkedIn": "https://www.linkedin.com/in/hrishioa/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S10",
+    "name": "Manuyash Chaudhary",
+    "designation": "AI & NLP Developer & Researcher, Accubits Technologies",
+    "stack": "Deep Learning",
+    "image": "https://www.fayaport80.com/speakers/thumb/manuyash-chaudhary.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S11",
+    "name": "Suchit Majumdar",
+    "designation": "Chief Data Science Evangelist, UpX Academy, Hyderabad",
+    "stack": "Artificial Intelligence",
+    "image": "https://www.fayaport80.com/speakers/thumb/Suchit-Majumdar.jpg",
+    "linkedIn": "https://www.linkedin.com/in/suchitmajumdar/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S12",
+    "name": "Amal Dev",
+    "designation": "Assistant Manager - KPMG Global Services",
+    "stack": "Docker",
+    "image": "https://www.fayaport80.com/speakers/thumb/Amal-Dev.jpg",
+    "linkedIn": "https://www.linkedin.com/in/amaldevv/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S13",
+    "name": "Shine Xavier",
+    "designation": "Senior Architect, UST Global",
+    "stack": "JavaScript",
+    "image": "https://www.fayaport80.com/speakers/thumb/Shine-Xavier.jpg",
+    "linkedIn": "https://www.linkedin.com/in/shinexavier/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S14",
+    "name": "Amal Shehu",
+    "designation": "JS Frontend Engineers, FAYA Innovations",
+    "stack": "Angular 4",
+    "image": "https://www.fayaport80.com/speakers/thumb/Amal-Shehu.jpg",
+    "linkedIn": "https://www.linkedin.com/in/amal-shehu-639824104/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S15",
+    "name": "Vijay Kumar M",
+    "designation": "CEO & MD – Webyfy Infotech Pvt Ltd",
+    "stack": "IOT",
+    "image": "https://www.fayaport80.com/speakers/thumb/Vijay-Kumar-M.jpg",
+    "linkedIn": "https://www.linkedin.com/in/vijay-kumar-m-04818b/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S16",
+    "name": "Anand Ramkumar",
+    "designation": "Senior Test Engineer, Experion Technologies, Trivandrum",
+    "stack": "AWS farm",
+    "image": "https://www.fayaport80.com/speakers/thumb/Anand-Ramkumar.jpg",
+    "linkedIn": "https://www.linkedin.com/in/anand-ramkumar-04675a1b2/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S17",
+    "name": "Sarath Varma Asokan",
+    "designation": "Senior Consultant (Software Testing), Se-Mentor, Trivandrum.",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sarath-Varma-Asokan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sarath-varma-88441811/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S18",
+    "name": "Praseed Pai",
+    "designation": "software architect working in UST Global",
+    "stack": "Blockchain",
+    "image": "https://www.fayaport80.com/speakers/thumb/Praseed-Pai.jpg",
+    "linkedIn": "https://www.linkedin.com/in/praseed-pai-k-t-369ba225/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S19",
+    "name": "Deepak Varma",
+    "designation": "Director, Technospirit Consulting, Cochin",
+    "stack": "Big Data",
+    "image": "https://www.fayaport80.com/speakers/thumb/Deepak-Varma.jpg",
+    "linkedIn": "https://www.linkedin.com/in/deepak-varma/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S20",
+    "name": "Nikhil Krishna",
+    "designation": "Solutions Architect working in UST Global",
+    "stack": "Kubernetes",
+    "image": "https://www.fayaport80.com/speakers/thumb/Nikhil-Krishna.jpg",
+    "linkedIn": "https://www.linkedin.com/in/nikhilkrishna/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S21",
+    "name": "Sarath C",
+    "designation": "Architect at Experion Technologies, Technopark, Trivandrum",
+    "stack": "fastlane tools,Swift",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sarath-C.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sarathc/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S22",
+    "name": "Priya Sivakumar",
+    "designation": "Delivery Head, TATA Elxsi",
+    "stack": "DevOps",
+    "image": "https://www.fayaport80.com/speakers/thumb/Priya-Sivakumar.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S23",
+    "name": "Vijay Dev",
+    "designation": "Lead Front-End Developer of Qburst",
+    "stack": "React.js",
+    "image": "https://www.fayaport80.com/speakers/thumb/Vijay-Dev.jpg",
+    "linkedIn": "https://www.linkedin.com/in/vijaydev/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S24",
+    "name": "Nikhil Raj R",
+    "designation": "Senior SEO Engineer at Alamy Images India Pvt.Ltd.",
+    "stack": "SEO",
+    "image": "https://www.fayaport80.com/speakers/thumb/Nikhil-Raj-R.jpg",
+    "linkedIn": "https://www.linkedin.com/in/nikhilrajr/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S25",
+    "name": "Aneesh Sreedharan",
+    "designation": "Chief Exicutive & Technology Enthusiast, 2Hats Logic Solutions, Kochi",
+    "stack": "Magento 2",
+    "image": "https://www.fayaport80.com/speakers/thumb/Aneesh-Sreedharan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/aneeshsreedharan/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S26",
+    "name": "Liju Pillai",
+    "designation": "Co-founder & CEO of Perfomatix Solutions Pvt Ltd",
+    "stack": "Angular JS",
+    "image": "https://www.fayaport80.com/speakers/thumb/Liju-Pillai.jpg",
+    "linkedIn": "https://www.linkedin.com/in/lijurajpillai/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S27",
+    "name": "Ashik Ajith",
+    "designation": "Software Engineer, Ruby Software India Pvt.Ltd.",
+    "stack": "Ruby",
+    "image": "https://www.fayaport80.com/speakers/thumb/Ashik-Ajith.jpg",
+    "linkedIn": "https://www.linkedin.com/in/ashikajith/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S28",
+    "name": "Rajeev J Sebastian",
+    "designation": "CEO, Alokin Software",
+    "stack": "Python",
+    "image": "https://www.fayaport80.com/speakers/thumb/Rajeev-J-Sebastian.jpg",
+    "linkedIn": "https://www.linkedin.com/in/rajeev-j-sebastian-290b972/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S29",
+    "name": "Faiz Mohamed Haneef",
+    "designation": "Director - Neoito Technologies Pvt Ltd",
+    "stack": "Angular",
+    "image": "https://www.fayaport80.com/speakers/thumb/Faiz-Mohamed-Haneef.jpg",
+    "linkedIn": "https://www.linkedin.com/in/faizmh/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S30",
+    "name": "Deepu S Nath",
+    "designation": "Managing Director - Tech Faya Innovations Pvt Ltd",
+    "stack": "JavaScript,Angular",
+    "image": "https://www.fayaport80.com/speakers/thumb/Deepu-S-Nath.jpg",
+    "linkedIn": "https://www.linkedin.com/in/deepusnath/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S31",
+    "name": "Nithin S",
+    "designation": "",
+    "stack": "JavaScript",
+    "image": "https://www.fayaport80.com/speakers/thumb/Nithin-S.jpg",
+    "linkedIn": "https://www.linkedin.com/in/nithins/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S32",
+    "name": "Shiraz Samad",
+    "designation": "Front End Developer at DBG",
+    "stack": "JavaScript",
+    "image": "https://www.fayaport80.com/speakers/thumb/Shiraz-Samad.jpg",
+    "linkedIn": "https://www.linkedin.com/in/shirazsamad/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S33",
+    "name": "Lakshmikant Deshpande",
+    "designation": "Neoito Technologies",
+    "stack": "Angular",
+    "image": "https://www.fayaport80.com/speakers/thumb/Lakshmikant-Deshpande.jpg",
+    "linkedIn": "https://www.linkedin.com/in/lakshmikant-deshpane/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S34",
+    "name": "Mohana Kumar",
+    "designation": "Senior Software Developer",
+    "stack": "Big Data Analytics",
+    "image": "https://www.fayaport80.com/speakers/thumb/Mohana-Kumar.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S35",
+    "name": "Aromal Sasidharan",
+    "designation": "IOS developer at DBG",
+    "stack": "Switch",
+    "image": "https://www.fayaport80.com/speakers/thumb/Aromal-Sasidharan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/aromal-sasidharan-870b4032/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S36",
+    "name": "Thahir Maheen",
+    "designation": "IOS developer at DBG",
+    "stack": "Swift",
+    "image": "https://www.fayaport80.com/speakers/thumb/Thahir-Maheen.jpg",
+    "linkedIn": "https://www.linkedin.com/in/thahir-maheen-554b9548/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S37",
+    "name": "Adarsh V C",
+    "designation": "IOS developer(Team Lead) at DBG",
+    "stack": "MBaaS",
+    "image": "https://www.fayaport80.com/speakers/thumb/Adarsh-V-C.jpg",
+    "linkedIn": "https://www.linkedin.com/in/adarshvc/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S38",
+    "name": "Praveen Vijayan",
+    "designation": "Front-end developer at Flip Media",
+    "stack": "Web App Developers",
+    "image": "https://www.fayaport80.com/speakers/thumb/Praveen-Vijayan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/pvnair/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S39",
+    "name": "Dr. Jayaraj Poroor",
+    "designation": "Founder of DependSoft Consulting",
+    "stack": "Node.JS Express",
+    "image": "https://www.fayaport80.com/speakers/thumb/Dr-Jayaraj-Poroor.jpg",
+    "linkedIn": "https://www.linkedin.com/in/jayarajporoor/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S40",
+    "name": "Shameer B",
+    "designation": "UI Lead at FAYA",
+    "stack": "HTML5 & CSS",
+    "image": "https://www.fayaport80.com/speakers/thumb/Shameer-B.jpg",
+    "linkedIn": "https://www.linkedin.com/in/shameerbadarudeen/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S41",
+    "name": "Rahul Raj",
+    "designation": "UX Lead at FAYA",
+    "stack": "Mastering HTML5 & CSS3",
+    "image": "https://www.fayaport80.com/speakers/thumb/Rahul-Raj.jpg",
+    "linkedIn": "https://www.linkedin.com/in/rahul-raj-sr-15a42030/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S42",
+    "name": "Sumil K S",
+    "designation": "UI Developer at FAYA",
+    "stack": "Mastering HTML5 & CSS3",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sumil-K-S.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sumilks/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S43",
+    "name": "Ganesh Kumar G",
+    "designation": "Senior UI Developer at McFadyen Digital",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Ganesh-Kumar-G.jpg",
+    "linkedIn": "https://www.linkedin.com/in/ganeshkumargopinathan/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S44",
+    "name": "Haneefa T P",
+    "designation": "Developer at FAYA",
+    "stack": "Angular JS,Knockout JS",
+    "image": "https://www.fayaport80.com/speakers/thumb/Haneefa-T-P.jpg",
+    "linkedIn": "https://www.linkedin.com/in/haneefa/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S45",
+    "name": "Sreenath Sasikumar",
+    "designation": "Developer at FAYA",
+    "stack": "Angular JS,Knockout JS",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sreenath-Sasikumar.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sreenathsasikumar/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S46",
+    "name": "Suresh Babu",
+    "designation": "Firmusoft Pvt. Ltd",
+    "stack": "Angular JS,Knockout JS",
+    "image": "https://www.fayaport80.com/speakers/thumb/Suresh-Babu.jpg",
+    "linkedIn": "https://www.linkedin.com/in/suresh-babu-9b764a18/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S48",
+    "name": "Rahul Krishnan",
+    "designation": "Attinad Software",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Rahul-Krishnan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/rahulkrish/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S49",
+    "name": "Sudhahar Viswanathan",
+    "designation": "QA Lead at FAYA",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sudhahar-Viswanathan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sudhaharv/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S50",
+    "name": "Sajin T M",
+    "designation": "FAYA",
+    "stack": "Apache Solr",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sajin-TM.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sajin-tm-23223612/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S51",
+    "name": "Madhav M Nair",
+    "designation": "User Experience Designer,  Jio Tesseract",
+    "stack": "AR / VR / MR / CR",
+    "image": "https://www.fayaport80.com/speakers/thumb/Madhav-M-Nair.jpg",
+    "linkedIn": "https://www.linkedin.com/in/madhavmnair/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S52",
+    "name": "Savio Victor",
+    "designation": "AI enthusiast and entrepreneur, co-founder of air.ai and KnightClan.",
+    "stack": "Artificial Intelligence",
+    "image": "https://www.fayaport80.com/speakers/thumb/Savio-Victor.jpg",
+    "linkedIn": "https://www.linkedin.com/in/saviovictor/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S53",
+    "name": "Viju Chacko",
+    "designation": "Digital Architecture Head,  Air India Limited",
+    "stack": "Artificial Intelligence",
+    "image": "https://www.fayaport80.com/speakers/thumb/Viju-Chacko.jpg",
+    "linkedIn": "https://www.linkedin.com/in/vijuchacko/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S54",
+    "name": "Charles Andrews",
+    "designation": "Singularity evangelist and entrepreneur",
+    "stack": "Singularity Series",
+    "image": "https://www.fayaport80.com/speakers/thumb/Charles-Andrews.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S55",
+    "name": "Amarnath Sankar",
+    "designation": "CEO at CAT Entertainments Pvt Ltd & Co-Founder at TastySpots",
+    "stack": "Crowdfunding",
+    "image": "https://www.fayaport80.com/speakers/thumb/Amarnath-Sankar.jpg",
+    "linkedIn": "https://www.linkedin.com/in/amarnath-sankar-142a59a/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S56",
+    "name": "Abdul Muhyami Arif",
+    "designation": "Mobile developer at FantaCode",
+    "stack": "Xamarin",
+    "image": "https://www.fayaport80.com/speakers/thumb/Abdul-Muhyami-Arif.jpg",
+    "linkedIn": "https://www.linkedin.com/in/muhaym/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S57",
+    "name": "Pranoy Radhakrishnan",
+    "designation": "Deep Learning researcher and co-founder of air.ai",
+    "stack": "Artificial Intelligence",
+    "image": "https://www.fayaport80.com/speakers/thumb/Pranoy-Radhakrishnan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/pranoy-radhakrishnan-63846888/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S58",
+    "name": "Michael Gord",
+    "designation": "Founder & CEO, MLG Blockchain Consulting",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Michael-Gord.jpg",
+    "linkedIn": "https://www.linkedin.com/in/mgord/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S59",
+    "name": "Satish Babu",
+    "designation": "Chair, APRALO - ICANN",
+    "stack": "FOSS",
+    "image": "https://www.fayaport80.com/speakers/thumb/satish-babu.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sierrabravo/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S60",
+    "name": "Venkatramanan P R",
+    "designation": "Data Scientist, Thought Works",
+    "stack": "Machine Learning Systems",
+    "image": "https://www.fayaport80.com/speakers/thumb/Venkatramanan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/venkatramanan-p-r-a25b0321/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S61",
+    "name": "Professor Nandini Vaidyanathan",
+    "designation": "Chairman and M D, CARMa Venture Services",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/nandini.jpg",
+    "linkedIn": "https://www.linkedin.com/in/nandinivaidyanathan/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S62",
+    "name": "Rama Brahmam Aleti",
+    "designation": "Co-Founder & UX Strategist, Think Design Collaborative",
+    "stack": "UX",
+    "image": "https://www.fayaport80.com/speakers/thumb/rama-brahmam.jpg",
+    "linkedIn": "https://www.linkedin.com/in/aleti-rama-brahmam-127a835/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S63",
+    "name": "Sanju Mathew",
+    "designation": "CEO, Onbyz",
+    "stack": "Smarter Wearables",
+    "image": "https://www.fayaport80.com/speakers/thumb/sanju-mathew.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sanjumathewk/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S64",
+    "name": "Abhilash Ashok",
+    "designation": "Senior Lead, UX Development, Valorem",
+    "stack": "VR, AR & MR",
+    "image": "https://www.fayaport80.com/speakers/thumb/abhilash-ashok.jpg",
+    "linkedIn": "https://www.linkedin.com/in/abhilashca/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S65",
+    "name": "Anivar Aravind",
+    "designation": "Founder Executive Director, Indic Project",
+    "stack": "Civic Technologies",
+    "image": "https://www.fayaport80.com/speakers/thumb/anivar.jpg",
+    "linkedIn": "https://www.linkedin.com/in/anivar/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S66",
+    "name": "Mohammed Rafi T F",
+    "designation": "Behavioural Scientist, Life Transformation Specialist and International Master Trainer, Neuro Lingusitic Programme",
+    "stack": "Phantoms in the Brain",
+    "image": "https://www.fayaport80.com/speakers/thumb/rafi.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S67",
+    "name": "M Sivasankar IAS",
+    "designation": "IT Secretary, Government of Kerala",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/sivasankar.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S68",
+    "name": "Dr. Asharaf S",
+    "designation": "Associate Professor, IIITMK",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/ashraf.jpg",
+    "linkedIn": "https://www.linkedin.com/in/asharafs/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S69",
+    "name": "Rahul Alex Panicker",
+    "designation": "Co-founder & President, Embrace Innovations",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/rahul-alex.jpg",
+    "linkedIn": "https://www.linkedin.com/in/rahulap/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S70",
+    "name": "Anoop Ambika",
+    "designation": "CEO, Kerala Startup Mission",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/anoop.jpg",
+    "linkedIn": "https://www.linkedin.com/in/anoopambika/?ppe=1",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S71",
+    "name": "Pinaki Krishna Pillai",
+    "designation": "Founder, Microm CRM",
+    "stack": "Digital Marketing",
+    "image": "https://www.fayaport80.com/speakers/thumb/Pinaki-Krishna-Pillai.jpg",
+    "linkedIn": "https://www.linkedin.com/in/pinakipillai/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S72",
+    "name": "Dilip Mathew Thomas",
+    "designation": "Independent Consultant- Deep Learning",
+    "stack": "Deep Learning",
+    "image": "https://www.fayaport80.com/speakers/thumb/Dilip-Mathew-Thomas.jpg",
+    "linkedIn": "https://www.linkedin.com/in/dilip-thomas-83b355a0/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S73",
+    "name": "Sreeraj S",
+    "designation": "Chief Architect of Servntire Global",
+    "stack": "Ethereum and DAPPs.",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sreeraj-S.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sreeraj-s/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S74",
+    "name": "Sarath Soman",
+    "designation": "Software Engineer at Hifx",
+    "stack": "Java Virtual Machine 101",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sarath-Soman.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sarath-soman-3a3aa564/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S75",
+    "name": "Mahroof K",
+    "designation": "Cedex Technologies LLP",
+    "stack": "chatbots",
+    "image": "https://www.fayaport80.com/speakers/thumb/Mahroof-K.jpg",
+    "linkedIn": "https://www.linkedin.com/in/mahroofk/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S77",
+    "name": "Gopikrishnan V",
+    "designation": "Founder, BuildNext",
+    "stack": "VR",
+    "image": "https://www.fayaport80.com/speakers/thumb/Gopikrishnan-V.jpg",
+    "linkedIn": "https://www.linkedin.com/in/gopikrishnanv/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S78",
+    "name": "Manu Krishnan",
+    "designation": "Co-founder of DayScholars Innovations Pvt. Ltd",
+    "stack": "Laravel",
+    "image": "https://www.fayaport80.com/speakers/thumb/Manu-Krishnan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/tvmanukrishnan/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S79",
+    "name": "Abhiram A",
+    "designation": "Unity3D Ambassador, Unity India",
+    "stack": "AR,VR,MR",
+    "image": "https://www.fayaport80.com/speakers/thumb/Abhiram-A.jpg",
+    "linkedIn": "https://www.linkedin.com/in/abhir6m/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S80",
+    "name": "Alex Devassy",
+    "designation": "Security Analyst, EY",
+    "stack": "Blockchain",
+    "image": "https://www.fayaport80.com/speakers/thumb/Alex-Devassy.jpg",
+    "linkedIn": "https://www.linkedin.com/in/alex-devassy-358421138/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S81",
+    "name": "Fariz Rahman",
+    "designation": "Machine Learning Engineer, Activeloop",
+    "stack": "Keras",
+    "image": "https://www.fayaport80.com/speakers/thumb/Fariz-Rahman.jpg",
+    "linkedIn": "https://www.linkedin.com/in/fariz-rahman-2b20443a/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S82",
+    "name": "Hari S. Pillai",
+    "designation": "Technical Lead at Perfomatix",
+    "stack": "Angular 6",
+    "image": "https://www.fayaport80.com/speakers/thumb/Hari-s-pillai.jpeg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S82",
+    "name": "Rejin Narayanan",
+    "designation": "Founder, Ingen Robotics.",
+    "stack": "Robotics",
+    "image": "https://www.fayaport80.com/speakers/thumb/Rejin-Narayanan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/rejin/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S83",
+    "name": "Ajith Kumar M",
+    "designation": "Robotics Developer at TCS-ILP Innovations Lab",
+    "stack": "Robot operating system",
+    "image": "https://www.fayaport80.com/speakers/thumb/Ajith-kumar.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S84",
+    "name": "Sanu George",
+    "designation": "Senior consultant for Usability engineering at IBS",
+    "stack": "UX",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sanu-George.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sanugeorge-ux/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S85",
+    "name": "Ajith V Giri",
+    "designation": "Mobile App Developer working at SoftFrit Solutions",
+    "stack": "Firebase",
+    "image": "https://www.fayaport80.com/speakers/thumb/Ajith-V-Giri.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S86",
+    "name": "Noufal Ibrahim",
+    "designation": "Founder and Director of Hamon Technologies, LLP, Kozhikode",
+    "stack": "Data Structures with Python",
+    "image": "https://www.fayaport80.com/speakers/thumb/Noufal-ibrahim.jpg",
+    "linkedIn": "https://in.linkedin.com/in/noufalibrahim",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S87",
+    "name": "Renjith Raj",
+    "designation": "Chief Technical Officer at SayOne Technologies",
+    "stack": "Flutter",
+    "image": "https://www.fayaport80.com/speakers/thumb/Renjith-raj.jpg",
+    "linkedIn": "https://www.linkedin.com/in/renjithraj2005/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S88",
+    "name": "Ravi Padmaraj",
+    "designation": "Architect at QBurst Technologies",
+    "stack": "Spark and Scala",
+    "image": "https://www.fayaport80.com/speakers/thumb/Ravi-Padmaraj.jpeg",
+    "linkedIn": "https://www.linkedin.com/in/ravi-padmaraj/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S89",
+    "name": "Jobin C S",
+    "designation": "Co-Founder & CEO of Tenderwoods",
+    "stack": "Cordova",
+    "image": "https://www.fayaport80.com/speakers/thumb/Jobin-CS.jpg",
+    "linkedIn": "https://www.linkedin.com/in/jobin-c-s-26b5b56a/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S90",
+    "name": "Paul Emil Johnson",
+    "designation": "Founder – AwesomeDaddies Interactive",
+    "stack": "Product Development",
+    "image": "https://www.fayaport80.com/speakers/thumb/Paul-emil-johnson.jpg",
+    "linkedIn": "https://www.linkedin.com/in/paulemiljohnson/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S91",
+    "name": "Roel Vlemmings",
+    "designation": "Founding Partner and the Chief Product Officer at RedBlack Software",
+    "stack": "Scrum",
+    "image": "https://www.fayaport80.com/speakers/thumb/Roel-Vlemmings.jpg",
+    "linkedIn": "https://www.linkedin.com/in/rvlemmings/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S92",
+    "name": "Suresh Balasubramanian",
+    "designation": "Co-founder & CEO at ExpressBase Systems",
+    "stack": "Rapid application Development",
+    "image": "https://www.fayaport80.com/speakers/thumb/Suresh-balasubramanian.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sureba73/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S93",
+    "name": "Afsal Muttikkal",
+    "designation": "Automation Head at Genrobotic Innovations",
+    "stack": "Mechatronics",
+    "image": "https://www.fayaport80.com/speakers/thumb/Afsal.jpg",
+    "linkedIn": "https://www.linkedin.com/in/afsalmuttikkal/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S94",
+    "name": "GeorgeKutty George",
+    "designation": "CEO, Lookings Soft.<br>Mentor, Reacthub",
+    "stack": "React Native",
+    "image": "https://www.fayaport80.com/speakers/thumb/georgekutty-george.jpg",
+    "linkedIn": "https://www.linkedin.com/in/georgekutty-george-a558a788/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S95",
+    "name": "Simsarul Haq Vengasseri",
+    "designation": "Quantum Computing Researcher, Infinity Labs, UST",
+    "stack": "Quantum Computing",
+    "image": "https://www.fayaport80.com/speakers/thumb/simsar.jpg",
+    "linkedIn": "https://www.linkedin.com/in/simsarul-haq-vengasseri-65a2b8a3/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S96",
+    "name": "Sabeer Sulaiman",
+    "designation": "Technical lead, Fantacode",
+    "stack": "Angular 7",
+    "image": "https://www.fayaport80.com/speakers/thumb/sabeer.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sabeersulaiman/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S97",
+    "name": "Mahroof Ali",
+    "designation": "Founder, Tensorbot Innovations",
+    "stack": "IOT",
+    "image": "https://www.fayaport80.com/speakers/thumb/mahroof-ali.jpg",
+    "linkedIn": "https://www.linkedin.com/in/mahroof-ali-1991a9137/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S98",
+    "name": "Nirmal Vyas",
+    "designation": "Web designer and developer<br>Consultant, passionate coder and name",
+    "stack": "Vue.Js",
+    "image": "https://www.fayaport80.com/speakers/thumb/nirmal-vyas.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S99",
+    "name": "Rijin Ramesh",
+    "designation": "Co-founder and head of product and technology, Articbot Pvt Ltd",
+    "stack": "Chatbot",
+    "image": "https://www.fayaport80.com/speakers/thumb/rijin_ramesh.jpg",
+    "linkedIn": "https://www.linkedin.com/in/rijin-ramesh-31809375/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S100",
+    "name": "Ashik Salman",
+    "designation": "Co-founder at Ecart.chat",
+    "stack": "Ruby",
+    "image": "https://www.fayaport80.com/speakers/thumb/",
+    "linkedIn": "https://www.linkedin.com/in/ashik-salman-a487a596/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S101",
+    "name": "Asif Mohammed",
+    "designation": "JS Frontend Engineer, FAYA Innovations",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/asif_mohammed.jpg",
+    "linkedIn": "https://www.linkedin.com/in/asif-mohammed-18b2bb150/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S102",
+    "name": "Deepu Xavier",
+    "designation": "Co-founder, ZappyHire",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Deepu_xavier.jpg",
+    "linkedIn": "https://www.linkedin.com/in/deepu-xavier-8b126330/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S103",
+    "name": "Sreelakshmy P",
+    "designation": "Assistant Manager at Deloitte India",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Sreelakshmy.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sreelakshmy-p/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S104",
+    "name": "Karthik Kalathil",
+    "designation": "CTO and Co-founder at Wattlecorp | Security Consultant | Cybersecurity Product Innovation Manager | name",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Karthik-kalathil.jpg",
+    "linkedIn": "https://www.linkedin.com/in/kalathil-karthik/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S105",
+    "name": "Srinivas P",
+    "designation": "Centre Head @ Alamy India",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Srinivas-p.jpg",
+    "linkedIn": "https://www.linkedin.com/in/srinivas-paladugu-2a68b53/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S106",
+    "name": "Suresh Kumar M",
+    "designation": "Sr. Principal Manager – Product Development @ Alamy India",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/suresh-kumar.jpg",
+    "linkedIn": "https://www.linkedin.com/in/suresh-kumar-madhavan-pillai-a027b51a/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S107",
+    "name": "Jeswin S George",
+    "designation": "Quality Assurance Engineer, Qburst Technologies",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/jeswin.jpg",
+    "linkedIn": "https://www.linkedin.com/in/jeswin-s-george-a6489192/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S108",
+    "name": "Cipson Thomas",
+    "designation": "Agile & Kanban Coach, Trainer & Consultant",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/cipson.jpg",
+    "linkedIn": "https://www.linkedin.com/in/cipson/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S109",
+    "name": "Sijil Salim",
+    "designation": "Lead Engineer, IBS",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/sijil.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sijil-s-3b90b440/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S110",
+    "name": "Akshai M",
+    "designation": "Senior Research Fellow, ICFOSS",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/akshai.jpg",
+    "linkedIn": "https://www.linkedin.com/in/akshaim/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S111",
+    "name": "Hari Shankar R",
+    "designation": "Technical Support Engineer, Automattic",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/harishanker.jpg",
+    "linkedIn": "https://www.linkedin.com/in/harishanker/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S112",
+    "name": "Jubin Jose",
+    "designation": "Senior NLP engineer, Cedex Technologies",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/jubin.jpg",
+    "linkedIn": "https://www.linkedin.com/in/jubin-jose-dev/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S113",
+    "name": "Amar C.P",
+    "designation": "Co-founder & CTO , VinamSolutions Pvt Ltd & Luvia Global Marketing Agency",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/amar.jpg",
+    "linkedIn": "https://www.linkedin.com/in/amarcp/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S114",
+    "name": "Biju K Nair",
+    "designation": "Independent Lawyer, Consultant with Open Invention Network and License on Transfer Network",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/biju.jpg",
+    "linkedIn": "https://www.linkedin.com/in/biju-k-nair-0499468/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S115",
+    "name": "Arun Sasi",
+    "designation": "Joomla Template developer & Lead designer, IBS Software",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/arun-sasi.jpg",
+    "linkedIn": "https://www.linkedin.com/in/arunayr/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S116",
+    "name": "Samuel",
+    "designation": "Cofounder of MistEO",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/samuel.jpg",
+    "linkedIn": "https://www.linkedin.com/in/samuel-john-misteo/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S117",
+    "name": "Liji Thomas",
+    "designation": "Technical Manager, Valorem Reply",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/liji-thomas.jpg",
+    "linkedIn": "https://www.linkedin.com/in/liji-thomas/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S118",
+    "name": "Shahul E S",
+    "designation": "Co-founder at alrt.ai",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/shahul.jpg",
+    "linkedIn": "https://www.linkedin.com/in/shahules/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S119",
+    "name": "Vinesh S",
+    "designation": "Senior Frontend Engineer, QBurst",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/vinesh.jpg",
+    "linkedIn": "https://www.linkedin.com/in/s-vinesh-10139572/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S120",
+    "name": "Robin Tommy",
+    "designation": "Incubation Lab Head, TATA Consultancy Services",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Robin-Tommy.jpg",
+    "linkedIn": "https://www.linkedin.com/in/robintommy/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S121",
+    "name": "Vinod Narayan",
+    "designation": "Agile Coach | SAFe® SPC | Educator, Founder, Penpositive Inc.",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Vinod-Narayan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/vinodn/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S122",
+    "name": "Amrit Sanjeev",
+    "designation": "Staff Developer Advocate, Google and Lead at Developer Advocacy Initiatives, India",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/amrit-sanjee.jpg",
+    "linkedIn": "https://www.linkedin.com/search/results/all/?keywords=Amrit%20Sanjeev&origin=GLOBAL_SEARCH_HEADER",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S123",
+    "name": "Mandar Patil",
+    "designation": "Senior Solutions Architecture at Amazon Internet Services Private Limited.",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/mandar-patil.jpg",
+    "linkedIn": "",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S124",
+    "name": "Nikhil Chandran",
+    "designation": "Founder & Ceo - Tiltlabs",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Nikhil_Chandran.jpg",
+    "linkedIn": "https://www.linkedin.com/in/nikhil-tiltlabs/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S125",
+    "name": "Joel Zachariah",
+    "designation": "Creative Director - Tiltlabs",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Joel-Zachariah.jpg",
+    "linkedIn": "https://www.linkedin.com/in/joel-zachariah-531b1a11a/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S126",
+    "name": "Melvin Thambi",
+    "designation": "Artist | Designer & Creative Entrepreneur from Texas",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/melvin_thambi.jpg",
+    "linkedIn": "https://www.linkedin.com/in/melvinthambi/",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S127",
+    "name": "Anantha Krishnan Nadamel",
+    "designation": "NFT Artist | Visual Designer UXD at TCS Interactive",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Anantha-Krishnan-Nadamel.jpg",
+    "linkedIn": "https://www.linkedin.com/in/anantha-krishnan-s-kurup-301134176/?originalSubdomain=in",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S128",
+    "name": "Adeeb Abdul Salam",
+    "designation": "Computer Engineer from IITD | Blockchain Researcher",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Adeeb-Abdul-Salam.jpg",
+    "linkedIn": "https://www.linkedin.com/in/zeroknowledgep/?originalSubdomain=qa",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S129",
+    "name": "Dr. Koshy P. Vaidyan",
+    "designation": "CEO, TrEST Research Park",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Koshy-P-Vaidyan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/dr-koshy-p-vaidyan-9868aa29/?originalSubdomain=in",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S130",
+    "name": "Gautam S.T.",
+    "designation": "Director, Gyanoholic International Pvt. Ltd.",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/Gautam-S-T.jpg",
+    "linkedIn": "https://www.linkedin.com/in/gautamst/?originalSubdomain=in",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S131",
+    "name": "Muhammad Jaseel P",
+    "designation": "Technical Program Manager, MakerGhat",
+    "stack": "IoT",
+    "image": "/assets/mentors/Muhammad Jaseel P.webp",
+    "linkedIn": "https://www.linkedin.com/in/jaseelpmuhammed",
+    "source": "µLearn"
+  },
+  {
+    "id": "S132",
+    "name": "Vijay Kumar M",
+    "designation": "CEO & MD, Webyfy Infotech Pvt Ltd",
+    "stack": "IoT",
+    "image": "/assets/mentors/Vijay Kumar M.webp",
+    "linkedIn": "https://www.linkedin.com/in/vijay-kumar-m-04818b",
+    "source": "µLearn"
+  },
+  {
+    "id": "S133",
+    "name": "Sanju Mathew",
+    "designation": "Chief Executive Officer, Codeofduty",
+    "stack": "IoT",
+    "image": "/assets/mentors/Sanju Mathew.webp",
+    "linkedIn": "https://www.linkedin.com/in/sanjumathewk",
+    "source": "µLearn"
+  },
+  {
+    "id": "S134",
+    "name": "Akshai M",
+    "designation": "Embedded Software Engineer, STABL Energy GmbH",
+    "stack": "IoT",
+    "image": "/assets/mentors/Akshai M.webp",
+    "linkedIn": "https://www.linkedin.com/in/akshaim",
+    "source": "µLearn"
+  },
+  {
+    "id": "S135",
+    "name": "Samuel John",
+    "designation": "Co-Founder & CEO, mistEO",
+    "stack": "IoT",
+    "image": "",
+    "linkedIn": "https://www.linkedin.com/in/samuel-john-misteo",
+    "source": "µLearn"
+  },
+  {
+    "id": "S136",
+    "name": "Nithin Balachandran",
+    "designation": "Consulting Business Analyst, IBM",
+    "stack": "Product Management",
+    "image": "/assets/mentors/Nithin Balachandran.webp",
+    "linkedIn": "https://www.linkedin.com/in/nithin-balachandran",
+    "source": "µLearn"
+  },
+  {
+    "id": "S137",
+    "name": "Vineesh U S",
+    "designation": "Co-Founder, First Principle Labs",
+    "stack": "Product Management",
+    "image": "/assets/mentors/Vineesh U S.webp",
+    "linkedIn": "https://www.linkedin.com/in/vineeshus",
+    "source": "µLearn"
+  },
+  {
+    "id": "S138",
+    "name": "Aravind Muraleedharan",
+    "designation": "Product Manager, Carestack",
+    "stack": "Product Management",
+    "image": "/assets/mentors/Aravind Muraleedharan.webp",
+    "linkedIn": "https://www.linkedin.com/in/aravindmuraleedharan",
+    "source": "µLearn"
+  },
+  {
+    "id": "S139",
+    "name": "Michael Mathews",
+    "designation": "Independent consultant, TCS",
+    "stack": "UI UX",
+    "image": "/assets/mentors/Michael Mathews.webp",
+    "linkedIn": "https://www.linkedin.com/in/michaelmathewsk",
+    "source": "µLearn"
+  },
+  {
+    "id": "S140",
+    "name": "Salman Faariz",
+    "designation": "Program Associate, GTech µLearn",
+    "stack": "UI UX",
+    "image": "/assets/mentors/Salman Faariz.webp",
+    "linkedIn": "https://www.linkedin.com/in/salman-faariz-37b892194",
+    "source": "µLearn"
+  },
+  {
+    "id": "S141",
+    "name": "Rhea Merin",
+    "designation": "Program Associate, GTech µLearn",
+    "stack": "UI UX",
+    "image": "/assets/mentors/Rhea Merin.webp",
+    "linkedIn": "https://www.linkedin.com/in/rheamerin",
+    "source": "µLearn"
+  },
+  {
+    "id": "S142",
+    "name": "Navaneeth Venu",
+    "designation": "Design Lead, GDSC MBCET",
+    "stack": "UI UX",
+    "image": "/assets/mentors/Navaneeth Venu.webp",
+    "linkedIn": "https://www.linkedin.com/in/navaneethvenu",
+    "source": "µLearn"
+  },
+  {
+    "id": "S143",
+    "name": "Shaheen Hyder",
+    "designation": "Founder & CEO, Pygrammers",
+    "stack": "Web Development",
+    "image": "/assets/mentors/Shaheen Hyder.webp",
+    "linkedIn": "https://www.linkedin.com/in/shaheen-hyder/",
+    "source": "µLearn"
+  },
+  {
+    "id": "S144",
+    "name": "Shahanad V S",
+    "designation": "Founder & CEO, OrionFlare",
+    "stack": "Web Development",
+    "image": "/assets/mentors/Shahanad V S.webp",
+    "linkedIn": "https://www.linkedin.com/in/shahanadvs/",
+    "source": "µLearn"
+  },
+  {
+    "id": "S145",
+    "name": "Vinu Balagopal A P",
+    "designation": "Flutter Developer, Program Associate GTech µLearn",
+    "stack": "Android Development",
+    "image": "/assets/mentors/Vinu Balagopal A P.webp",
+    "linkedIn": "https://www.linkedin.com/in/vinubalagopalap/",
+    "source": "µLearn"
+  },
+  {
+    "id": "S146",
+    "name": "Rejah Rehim",
+    "designation": "Director & Founder, Beagle Security",
+    "stack": "Cybersecurity",
+    "image": "/assets/mentors/Rejah Rehim.webp",
+    "linkedIn": "https://www.linkedin.com/in/rejah/",
+    "source": "µLearn"
+  },
+  {
+    "id": "S147",
+    "name": "Anees P",
+    "designation": "Senior DevSecOps Engineer, Beagle Security",
+    "stack": "Cybersecurity",
+    "image": "/assets/mentors/Anees P.webp",
+    "linkedIn": "https://www.linkedin.com/in/anees-pk/",
+    "source": "µLearn"
+  },
+  {
+    "id": "S148",
+    "name": "Nash N Sulthan",
+    "designation": "Senior Security Engineer",
+    "stack": "Cybersecurity",
+    "image": "/assets/mentors/Nash N Sulthan.webp",
+    "linkedIn": "https://www.linkedin.com/in/nashns/",
+    "source": "µLearn"
+  },
+  {
+    "id": "S149",
+    "name": "Don Peter",
+    "designation": "Cofounder and CTO, Finotes Inc",
+    "stack": "Android Development",
+    "image": "https://media.licdn.com/dms/image/C5603AQFTWXQV9_kCig/profile-displayphoto-shrink_400_400/0/1602424880405?e=1677110400&v=beta&t=qTwBc4iPF-YlH40OfibU0PkSS9YVRW-R8HxrssZAgj8",
+    "linkedIn": "https://www.linkedin.com/in/donpeter06/",
+    "source": ""
+  },
+  {
+    "id": "S150",
+    "name": "Abhaya Kumar K R",
+    "designation": "Senior Manager (Product Management), Edgeverve BFSI",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/abhaya-kumar.jpg",
+    "linkedIn": "https://www.linkedin.com/in/abhaya-kumar-k-r-b94370",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S151",
+    "name": "Gurudath Sadanandan",
+    "designation": "Gurudath is the founder of 'Videogrammer' - a Microsoft-funded project for Startups.",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/gurudath-sadanandan.png",
+    "linkedIn": "https://www.linkedin.com/in/gurudath-sadanandan",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S152",
+    "name": "Mr. Andrew Bastin",
+    "designation": "Co-Founder CTO, Hoppscotch.",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/andrew-bastin.jpg",
+    "linkedIn": "https://www.linkedin.com/in/andrew-bastin-7456771a8",
+    "source": "FAYA:80"
+  },
+  {
+    "id": "S153",
+    "name": "Sujith S",
+    "designation": "Partner Senior AI/ML Solution Architect, Zackriya Solutions.",
+    "stack": "",
+    "image": "https://www.fayaport80.com/speakers/thumb/sujith-s.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sujithx007",
+    "source": "FAYA:80"
+  },
+  {
+    "id": 154,
+    "name": "Bibin Sebastian",
+    "designation": "Developer, Deloitte",
+    "stack": "Flutter Developer",
+    "image": "/assets//mentors/Bibin Sebastian.webp",
+    "linkedIn": "https://www.linkedin.com/in/bibin-sebastian/",
+    "source": ""
+  },
+  {
+    "id": 155,
+    "name": "Aswin Gopinathan",
+    "designation": "SDE-1 Mobile @ ZestMoney",
+    "stack": "Flutter Developer",
+    "image": "/assets//mentors/Aswin Gopinathan.webp",
+    "linkedIn": "https://www.linkedin.com/in/aswin-gopinathan-69556716a/",
+    "source": ""
+  },
+  {
+    "id": 156,
+    "name": "Sreelal TS",
+    "designation": "Flutter Developer, YCorp",
+    "stack": "Flutter Developer",
+    "image": "/assets//mentors/Sreelal TS.webp",
+    "linkedIn": "https://www.linkedin.com/in/aswin-gopinathan-69556716a/",
+    "source": ""
+  },
+  {
+    "id": 157,
+    "name": "Sreehari K",
+    "designation": "Software Engineer, PITS Solutions",
+    "stack": "Android Developer",
+    "image": "/assets//mentors/Sreehari K.webp",
+    "linkedIn": "https://www.linkedin.com/in/kariot/",
+    "source": ""
+  },
+  {
+    "id": 158,
+    "name": "Arun J",
+    "designation": "Flutter Developer, Codingp",
+    "stack": "Android Develper",
+    "image": "",
+    "linkedIn": "",
+    "source": ""
+  }
+]
