@@ -42,7 +42,12 @@ const MuLanding = () => {
             </div>
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
-              <MentorCard
+                <MentorCard
+                  name="Hackout CTF"
+                  designation="Get ready to gear up your skills and machines on March 12 to win the 𝐇𝐚𝐜𝐤𝐨𝐮𝐭 𝐂𝐓𝐅⛳, organized by GTech µLearn in association with Nixiebytes, Riglabs and Lyminal space. The only thing you need to do to secure your entry is to crack the preliminary task."
+                  mclink="/challenge/hackout"
+                />
+                <MentorCard
                   name="µLearn Marathon Challenge"
                   designation="Join our Marathon Challenge and earn karma points while improving your health and fitness! Simply run a few kilometers every day and track your progress on the Runkeeper app"
                   mclink="/challenge/marathon"

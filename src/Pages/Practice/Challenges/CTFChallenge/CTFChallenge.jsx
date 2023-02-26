@@ -17,19 +17,27 @@ const CTFChallenge = () => {
                 Hackout <span>Challenge</span>
               </p>
               <p className={styles.fv_content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, eius ex. Dolores sint perspiciatis ex doloribus
-                expedita non. Reprehenderit deleniti aliquam consequuntur vitae,
-                fuga nisi.
+                Get ready to gear up your skills and machines on March 12 to win
+                the 𝐇𝐚𝐜𝐤𝐨𝐮𝐭 𝐂𝐓𝐅⛳, organized by GTech µLearn in association with
+                Nixiebytes, Riglabs and Lyminal space. The only thing you need
+                to do to secure your entry is to crack this preliminary task
               </p>
               <p className={styles.late_date}>
                 Late Date of Submission: 3rd March 2023
               </p>
               <div className={styles.buttons}>
-                <a href="https://airtable.com/shruzfIc8SR4BLCg2" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://airtable.com/shruzfIc8SR4BLCg2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className={styles.joinchallenge}>Register</button>
                 </a>
-                <a href="https://forms.gle/MTgBoNJd7RMhs3yc8" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://forms.gle/MTgBoNJd7RMhs3yc8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className={styles.joinchallenge}>
                     Upload Solution
                   </button>
