@@ -3,6 +3,7 @@ import Navbar from "../../../../Components/Navbar/Navbar";
 import Footer from "../../../../Components/Footer/Footer";
 import ExampleMsg from "../../../../Components/ExampleMsg/ExampleMsg";
 import styles from "./CTFChallenge.module.css";
+import { Link } from "react-router-dom";
 
 const CTFChallenge = () => {
   return (
@@ -21,11 +22,14 @@ const CTFChallenge = () => {
                 expedita non. Reprehenderit deleniti aliquam consequuntur vitae,
                 fuga nisi.
               </p>
+              <p className={styles.late_date}>
+                Late Date of Submission: 3rd March 2023
+              </p>
               <div className={styles.buttons}>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://airtable.com/shruzfIc8SR4BLCg2" target="_blank" rel="noopener noreferrer">
                   <button className={styles.joinchallenge}>Register</button>
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://forms.gle/MTgBoNJd7RMhs3yc8" target="_blank" rel="noopener noreferrer">
                   <button className={styles.joinchallenge}>
                     Upload Solution
                   </button>
@@ -117,15 +121,42 @@ const CTFChallenge = () => {
                 </div>
               </div>
             </div>
-            <ExampleMsg
-              linkText="Hi! I've completed the Intro to Markdown course."
-              link="https://github.com/Angelrose19/intro-to-markdown"
-              hashtag="#ge-intro-to-markdown"
-            />
           </div>
 
           <div className={styles.resource_materials}>
-            
+            <div className={styles.rm_texts}>
+              <p className={styles.rm_heading}>Resource Materials</p>
+              <p className={styles.rm_content}>
+                If in case you need more information regarding the bootcamps and
+                on how to complete it. Checkout these videos and page.
+              </p>
+            </div>
+            <br />
+            <div className={styles.videos_container}>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Capture the Flag</p>
+                <p className={styles.b_tagline}>
+                  Pentesting is a hard thing. It's even harder to figure out how
+                  to get started on this journey. This workshop is aimed toward
+                  absolute beginners and to give them an easy understanding
+                  learning path.
+                </p>
+
+                <Link to="/bootcamps/ctf">
+                  <button className={styles.b_button}>View Details</button>
+                </Link>
+              </div>
+              <div className={styles.video}>
+                <iframe
+                  className={styles.ytvideo}
+                  src="https://www.youtube.com/embed/videoseries?list=PLJSAUrkqv_1kNQW0viwTcTuBKdSb7OaoN"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>
