@@ -6,7 +6,7 @@ import styles from "./MentorDirectory.module.css";
 import fvimg from "./assets/fvimg.png";
 import MentorCard from "../../../Components/MentorCard/MentorCard";
 
-import MentorList from "./MentorList.js";
+import MentorList from "./MentorList.json";
 
 const MentorDirectory = () => {
   return (
