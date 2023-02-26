@@ -56,6 +56,7 @@ import IntroToHtml from "./Pages/Practice/Challenges/IntroToHtml/IntroToHtml"
 import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimulation/TrafficLightSimulation"
 import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn"
 import MarathonChallenge from "./Pages/Practice/Challenges/MarathonChallenge/MarathonChallenge"
+import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge"
 
 function App() {
   //Home Page state Variables
@@ -232,6 +233,7 @@ function App() {
           <Route path="/problemshelves/:id" element={<IndividualPage />} />
           <Route path="/challenges" element={<MuLanding />} />
           <Route path="/challenge/typing" element={<TypingChallenge />} />
+          <Route path="/challenge/hackout" element={<CTFChallenge />} />
           <Route
             path="/challenge/intro-to-github"
             element={<IntroToGithub />}
