@@ -1,8 +1,8 @@
-import React from "react"
-import Navbar from "../../../../Components/Navbar/Navbar"
-import Footer from "../../../../Components/Footer/Footer"
+import React from "react";
+import Navbar from "../../../../Components/Navbar/Navbar";
+import Footer from "../../../../Components/Footer/Footer";
 
-import styles from "./MarathonChallenge.module.css"
+import styles from "./MarathonChallenge.module.css";
 
 const MarathonChallenge = () => {
   return (
@@ -121,6 +121,13 @@ const MarathonChallenge = () => {
                       the statistics with the hashtag{" "}
                       <b>#marathon-challenge-21km</b> in the marathon-challenge
                       channel for completing this stage.
+                      <br />
+                      <br />
+                      <b>
+                        <p>
+                          Make sure your profile is visible in the screenshot
+                        </p>
+                      </b>
                     </div>
                   </div>
                 </div>
@@ -141,7 +148,7 @@ const MarathonChallenge = () => {
 
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default MarathonChallenge
+export default MarathonChallenge;
