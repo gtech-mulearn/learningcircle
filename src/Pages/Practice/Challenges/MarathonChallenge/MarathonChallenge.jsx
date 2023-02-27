@@ -1,8 +1,8 @@
-import React from "react";
-import Navbar from "../../../../Components/Navbar/Navbar";
-import Footer from "../../../../Components/Footer/Footer";
+import React from "react"
+import Navbar from "../../../../Components/Navbar/Navbar"
+import Footer from "../../../../Components/Footer/Footer"
 
-import styles from "./MarathonChallenge.module.css";
+import styles from "./MarathonChallenge.module.css"
 
 const MarathonChallenge = () => {
   return (
@@ -22,8 +22,13 @@ const MarathonChallenge = () => {
                 challenge is open to all levels of runners, from beginners to
                 experienced athletes.
                 <br />
-                <br />
               </p>
+              <p className={styles.late_date}>
+                Free Tickets for the First 25 completions. Hurry up and run to
+                secure your FREE tickets!
+              </p>
+
+              <br />
               <a
                 href="https://airtable.com/shrJpHwakqmNxjWE1"
                 target="_blank"
@@ -148,7 +153,7 @@ const MarathonChallenge = () => {
 
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default MarathonChallenge;
+export default MarathonChallenge
