@@ -8,7 +8,7 @@ const InterestGroups = [
       {
         id: 1,
         name: "Abhijith E S",
-        college: "SJCET Palai",
+        college: "St. Joseph's College of Engineering and Technology, Palai",
         images: "assets/interestGroups/Abjithes.webp",
       },
     ],
@@ -69,7 +69,7 @@ const InterestGroups = [
       {
         id: 1,
         name: "Abhijith E S",
-        college: "SJCET Palai",
+        college: "St. Joseph's College of Engineering and Technology, Palai",
         images: "assets/interestGroups/Abjithes.webp",
       },
     ],
@@ -160,7 +160,7 @@ const InterestGroups = [
       {
         id: 1,
         name: "Abhijith E S",
-        college: "SJCET Palai",
+        college: "St. Joseph's College of Engineering and Technology, Palai",
         images: "assets/interestGroups/Abjithes.webp",
       },
     ],

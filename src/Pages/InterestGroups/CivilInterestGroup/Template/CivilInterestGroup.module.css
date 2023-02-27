@@ -206,20 +206,10 @@
 
 .sv_texts {
   margin: 2rem 0;
-} 
+}
 
 .learning_paths {
   margin: 4rem 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.bottom_grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 2rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -227,15 +217,9 @@
     margin: 6rem;
   }
 
-  .bottom_grid {
-    margin: 6rem;
-  }
-
-  .second_view {
+  .learning_paths {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items: flex-start;
   }
 
   .sv_heading {
@@ -245,14 +229,11 @@
   .sv_content {
     font-size: 0.95rem;
     font-family: "Poppins";
+    width: 60%;
   }
 
   .ilinks {
     width: 80%;
-  }
-
-  .sv_texts {
-    margin: 2rem 0;
   }
 
   .list_item {
@@ -327,3 +308,57 @@
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .secondsection {
+    margin: 1.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fssheading1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    width: 60vw;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .fsstagline {
+    width: 75%;
+    font-size: 1;
+    text-align: center;
+  }
+}
+
+.cards_container {
+  margin-top: 2rem;
+  display: grid;
+  -webkit-line-clamp: 3;
+  row-gap: 3vh;
+  column-gap: 3vw;
+}
+
+@media only screen and (min-width: 992px) {
+  .cards_container {
+    margin-top: 6vh;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    row-gap: 3vh;
+    column-gap: 3vw;
+  }
+}
+
+.bottom_grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .bottom_grid {
+    margin: 6rem;
+  }
+}

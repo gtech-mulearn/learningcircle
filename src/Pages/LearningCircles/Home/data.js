@@ -2719,21 +2719,21 @@ const InterestGroups = [
     corecourses: [],
     coretracks: [
       {
-        id: "1",
+        id: "/civil/revit",
         description:
           "Autodesk's Revit is a well-known Building Information Modeling (BIM) programme. It is commonly used to produce intricate 3D models of buildings and other structures in the design, engineering, and construction industries.",
         name: "Autodesk Revit",
         link: "/civil/revit",
       },
       {
-        id: "2",
+        id: "/civil/autocad",
         description:
           "AutoCAD is a powerful computer-aided design software application. It is widely used in architectural, engineering, construction, and manufacturing fields. AutoCAD is known for its precision, accuracy, and easy-to-use features. It offers a range of tools that enable users to create highly detailed and complex designs.",
         name: "AutoCAD",
         link: "/civil/autocad",
       },
       {
-        id: "3",
+        id: "/civil/bim",
         description:
           "BIM is a digital representation of a building's characteristics.It improves collaboration among stakeholders and enhances visualization.BIM reduces costs, improves quality, and increases productivity in the construction industry.",
         name: "Building Information Modeling",

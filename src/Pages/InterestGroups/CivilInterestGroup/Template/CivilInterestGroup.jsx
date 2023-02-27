@@ -200,15 +200,6 @@ const CivilInterestGroup = ({ setInterest }) => {
           {data[0].corecourses && data[0].corecourses[0] && (
             <div className={styles.table_view_container}>
               <div className={styles.table_view}>
-                <div className={styles.tav_texts}>
-                  <p className={styles.tav_heading}>Core Tasks</p>
-                  <p className={styles.tav_contents}>
-                    Every subject or skill has some core set of things to be
-                    learned. Here are a few resources curated by us to
-                    understand them
-                  </p>
-                </div>
-
                 <div className={styles.tav_tasks_container}>
                   <div className={styles.tav_tasks}>
                     <TableContainer component={Paper}>
@@ -435,19 +426,6 @@ const CivilInterestGroup = ({ setInterest }) => {
                 </div>
               )}
             </div>
-          </div>
-
-          <div className={styles.next_previous}>
-            <Link to={previous}>
-              <div className={styles.previous}>
-                <p className={styles.pretext}>{data[0].pagination[0].name}</p>
-              </div>
-            </Link>
-            <Link to={next}>
-              <div className={styles.next}>
-                <p className={styles.nexttext}>{data[0].pagination[1].name}</p>
-              </div>
-            </Link>
           </div>
         </div>
       )}
