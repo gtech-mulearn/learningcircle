@@ -57,6 +57,7 @@ import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimu
 import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn"
 import MarathonChallenge from "./Pages/Practice/Challenges/MarathonChallenge/MarathonChallenge"
 import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge"
+import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/CivilInterestGroup"
 
 function App() {
   //Home Page state Variables
@@ -214,7 +215,11 @@ function App() {
               />
             }
           />
-
+          <Route
+            path="/civil/:id"
+            element={<CivilInterestGroup setInterest={setInterest} />}
+          />
+          
           <Route
             path="/gettingstarted/:id"
             element={
@@ -263,10 +268,7 @@ function App() {
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}
           />
-          <Route
-            path="/challenge/marathon"
-            element={<MarathonChallenge />}
-          />
+          <Route path="/challenge/marathon" element={<MarathonChallenge />} />
           <Route
             path="/web/:type/:id"
             element={<CoursePage CourseData={WebData} />}
