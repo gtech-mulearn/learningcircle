@@ -1998,8 +1998,6 @@ const InterestGroups = [
     community: ["KBA"],
     opportunities: [],
     company: [],
-    mentors: [],
-    mentorscard: [],
     pagination: [
       {
         id: "ai",
