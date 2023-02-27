@@ -2709,46 +2709,35 @@ const InterestGroups = [
     ],
   },
   {
-    id: "autocad",
-    interestgroup: "AutoCAD",
+    id: "civil",
+    interestgroup: "Civil Engineering",
     interestgroupdescription:
-      "AutoCAD is a professional drafting and design software used to create accurate 2D and 3D drawings and documents. Join our AutoCAD interest group to learn from experts and advance your skills in this industry-leading software.",
+      "Get ahead in your Civil Engineering career by joining GTech μlearn's Civil Interest Group. Learn AutoCAD, BIM, and Revit from industry experts. Gain hands-on experience and practical skills. Join us now to take the next step in your career.",
 
-    basicenablementtasks: [
-      {
-        name: "Create a Plan as per instructions",
-        link: "https://mulearn.notion.site/AutoCAD-Task-1-b01306b2af874c7d899a45b72cf7a3c6",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    basicenablementtasks: [],
     learningpaths: [],
-    corecourses: [
+    corecourses: [],
+    coretracks: [
       {
         id: "1",
-        name: "Technical Drawing for Design and Drafting",
-        link: "https://www.autodesk.com/certification/learn/course/autocad-drawing-design-drafting-professional/nqy0ennbqvyMJsseZYJkz",
+        description:
+          "Autodesk's Revit is a well-known Building Information Modeling (BIM) programme. It is commonly used to produce intricate 3D models of buildings and other structures in the design, engineering, and construction industries.",
+        name: "Autodesk Revit",
+        link: "/civil/revit",
       },
       {
         id: "2",
-        name: "Drawing Management for Design and Drafting",
-        link: "https://www.autodesk.com/certification/learn/course/autocad-drawing-management-professional",
+        description:
+          "AutoCAD is a powerful computer-aided design software application. It is widely used in architectural, engineering, construction, and manufacturing fields. AutoCAD is known for its precision, accuracy, and easy-to-use features. It offers a range of tools that enable users to create highly detailed and complex designs.",
+        name: "AutoCAD",
+        link: "/civil/autocad",
       },
       {
         id: "3",
-        name: "Annotating and Dimensioning for Design and Drafting",
-        link: "https://www.autodesk.com/certification/learn/course/autocad-annotating-dimensioning-professional",
-      },
-      {
-        id: "4",
-        name: "Creating and Modifying Objects with Accuracy for Design and Drafting",
-        link: "https://www.autodesk.com/certification/learn/course/autocad-objects-design-drafting-professional",
-      },
-      {
-        id: "5",
-        name: "Layout and Output Drawings for Design and Drafting",
-        link: "https://www.autodesk.com/certification/learn/course/autocad-layout-output-design-drafting-professional",
+        description:
+          "BIM is a digital representation of a building's characteristics.It improves collaboration among stakeholders and enhances visualization.BIM reduces costs, improves quality, and increases productivity in the construction industry.",
+        name: "Building Information Modeling",
+        link: "/civil/bim",
       },
     ],
     subcourses: [
@@ -2758,7 +2747,7 @@ const InterestGroups = [
       //   link: "",
       // },
     ],
-    comingsoon: false,
+    comingsoon: true,
     mentorscard: [
       {
         id: "",
@@ -2769,13 +2758,6 @@ const InterestGroups = [
         image: "",
       },
     ],
-    officetime: "Wednesday 7:00PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Tuesday 6:00 PM",
-    opportunities: [],
-    community: [],
-    company: [""],
     pagination: [
       {
         id: "3dprint",
@@ -2784,50 +2766,6 @@ const InterestGroups = [
       {
         id: "revit",
         name: "AutoDesk Revit >",
-      },
-    ],
-  },
-  {
-    comingsoon: true,
-    id: "revit",
-    interestgroup: "Autodesk Revit",
-    interestgroupdescription:
-      "Revit is a building information modeling (BIM) software used to design and manage buildings and infrastructure. Join our Revit interest group to learn and collaborate with other professionals.",
-    basicenablementtasks: [
-      {
-        name: "Create a Plan as per instructions",
-        link: "https://mulearn.notion.site/Revit-Task-1-70060b2526c54383a54078c5f873a739",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
-    learningpaths: [],
-    corecourses: [
-      // {
-      //   id: "",
-      //   name: "",
-      //   link: "",
-      // },
-    ],
-    subcourses: [],
-    mentorscard: [],
-    officetime: "Wednesday 7:00PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Tuesday 6:00 PM",
-    opportunities: [],
-    community: [],
-    company: [""],
-    resources: [],
-    pagination: [
-      {
-        id: "autocad",
-        name: "< AutoCAD",
-      },
-      {
-        id: "iot",
-        name: "IOT >",
       },
     ],
   },

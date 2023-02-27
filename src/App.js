@@ -57,7 +57,7 @@ import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimu
 import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn"
 import MarathonChallenge from "./Pages/Practice/Challenges/MarathonChallenge/MarathonChallenge"
 import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge"
-import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/CivilInterestGroup"
+import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/Template/CivilInterestGroup"
 
 function App() {
   //Home Page state Variables

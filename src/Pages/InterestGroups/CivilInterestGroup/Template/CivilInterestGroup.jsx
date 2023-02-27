@@ -1,11 +1,11 @@
 import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 
-import Navbar from "../../../Components/Navbar/Navbar"
-import Footer from "../../../Components/Footer/Footer"
+import Navbar from "../../../../Components/Navbar/Navbar"
+import Footer from "../../../../Components/Footer/Footer"
 import styles from "./CivilInterestGroup.module.css"
 
-import fvimg from "../assets/fvimg.png"
+import fvimg from "../../assets/fvimg.png"
 
 import { styled } from "@mui/material/styles"
 import Table from "@mui/material/Table"
@@ -16,9 +16,9 @@ import TableHead from "@mui/material/TableHead"
 import TableRow from "@mui/material/TableRow"
 import Paper from "@mui/material/Paper"
 import { useParams } from "react-router-dom"
-import InterestGroups from "./data.js"
-import MentorCard from "../../../Components/MentorCard/MentorCard"
-import NotFound from "../../Misc/404/NotFound"
+import InterestGroups from "../data.js"
+import MentorCard from "../../../../Components/MentorCard/MentorCard"
+import NotFound from "../../../Misc/404/NotFound"
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
