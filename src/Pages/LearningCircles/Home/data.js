@@ -518,6 +518,13 @@ const InterestGroups = [
         time: "",
         karma: "800",
       },
+      {
+        name: "Django - Beginner Level",
+        link: "/web/core/5",
+        complexity: "4",
+        time: "",
+        karma: "400",
+      },
     ],
     subcourses: [
       {
