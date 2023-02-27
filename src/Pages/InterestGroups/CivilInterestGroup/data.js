@@ -12,10 +12,8 @@ const InterestGroups = [
         images: "assets/interestGroups/Abjithes.webp",
       },
     ],
-    officetime: "Sunday 7:30 PM",
+    officetime: "Wednesday 7:00 PM",
     officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Saturday 7:30 PM",
     pagination: [
       {
         id: "innovation",
@@ -73,10 +71,8 @@ const InterestGroups = [
         images: "assets/interestGroups/Abjithes.webp",
       },
     ],
-    officetime: "Sunday 7:30 PM",
+    officetime: "Wednesday 7:00 PM",
     officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Saturday 7:30 PM",
     pagination: [
       {
         id: "innovation",
@@ -164,10 +160,8 @@ const InterestGroups = [
         images: "assets/interestGroups/Abjithes.webp",
       },
     ],
-    officetime: "Sunday 7:30 PM",
+    officetime: "Wednesday 7:00 PM",
     officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Saturday 7:30 PM",
     pagination: [
       {
         id: "innovation",

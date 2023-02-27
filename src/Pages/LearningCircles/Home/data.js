@@ -2013,8 +2013,8 @@ const InterestGroups = [
         name: "< Artificial Intelligence",
       },
       {
-        id: "clouddevops",
-        name: "Cloud & DevOps >",
+        id: "civil",
+        name: "Civil Engineering >",
       },
     ],
     learningpaths: [
@@ -2039,6 +2039,69 @@ const InterestGroups = [
         name: "Alekshay S Rajan",
         college: "College of applied science perissery",
         images: "assets/interestGroups/akshay.webp",
+      },
+    ],
+  },
+  {
+    id: "civil",
+    interestgroup: "Civil Engineering",
+    interestgroupdescription:
+      "Get ahead in your Civil Engineering career by joining GTech μlearn's Civil Interest Group. Learn AutoCAD, BIM, and Revit from industry experts. Gain hands-on experience and practical skills. Join us now to take the next step in your career.",
+
+    basicenablementtasks: [],
+    learningpaths: [],
+    officetime: "Sunday 7:00 PM",
+    officeplace: " @ Discord Lobby",
+    corecourses: [],
+    coretracks: [
+      {
+        id: "/civil/revit",
+        description:
+          "Autodesk's Revit is a well-known Building Information Modeling (BIM) programme. It is commonly used to produce intricate 3D models of buildings and other structures in the design, engineering, and construction industries.",
+        name: "Autodesk Revit",
+        link: "/civil/revit",
+      },
+      {
+        id: "/civil/autocad",
+        description:
+          "AutoCAD is a powerful computer-aided design software application. It is widely used in architectural, engineering, construction, and manufacturing fields. AutoCAD is known for its precision, accuracy, and easy-to-use features. It offers a range of tools that enable users to create highly detailed and complex designs.",
+        name: "AutoCAD",
+        link: "/civil/autocad",
+      },
+      {
+        id: "/civil/bim",
+        description:
+          "BIM is a digital representation of a building's characteristics.It improves collaboration among stakeholders and enhances visualization.BIM reduces costs, improves quality, and increases productivity in the construction industry.",
+        name: "Building Information Modeling",
+        link: "/civil/bim",
+      },
+    ],
+    subcourses: [
+      // {
+      //   id: "",
+      //   name: "",
+      //   link: "",
+      // },
+    ],
+    comingsoon: true,
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedIn: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "blockchain",
+        name: "< Blockchain",
+      },
+      {
+        id: "clouddevops",
+        name: "Cloud & DevOps >",
       },
     ],
   },
@@ -2703,69 +2766,8 @@ const InterestGroups = [
         name: "< Project Management",
       },
       {
-        id: "autocad",
-        name: "AutoCAD >",
-      },
-    ],
-  },
-  {
-    id: "civil",
-    interestgroup: "Civil Engineering",
-    interestgroupdescription:
-      "Get ahead in your Civil Engineering career by joining GTech μlearn's Civil Interest Group. Learn AutoCAD, BIM, and Revit from industry experts. Gain hands-on experience and practical skills. Join us now to take the next step in your career.",
-
-    basicenablementtasks: [],
-    learningpaths: [],
-    corecourses: [],
-    coretracks: [
-      {
-        id: "/civil/revit",
-        description:
-          "Autodesk's Revit is a well-known Building Information Modeling (BIM) programme. It is commonly used to produce intricate 3D models of buildings and other structures in the design, engineering, and construction industries.",
-        name: "Autodesk Revit",
-        link: "/civil/revit",
-      },
-      {
-        id: "/civil/autocad",
-        description:
-          "AutoCAD is a powerful computer-aided design software application. It is widely used in architectural, engineering, construction, and manufacturing fields. AutoCAD is known for its precision, accuracy, and easy-to-use features. It offers a range of tools that enable users to create highly detailed and complex designs.",
-        name: "AutoCAD",
-        link: "/civil/autocad",
-      },
-      {
-        id: "/civil/bim",
-        description:
-          "BIM is a digital representation of a building's characteristics.It improves collaboration among stakeholders and enhances visualization.BIM reduces costs, improves quality, and increases productivity in the construction industry.",
-        name: "Building Information Modeling",
-        link: "/civil/bim",
-      },
-    ],
-    subcourses: [
-      // {
-      //   id: "",
-      //   name: "",
-      //   link: "",
-      // },
-    ],
-    comingsoon: true,
-    mentorscard: [
-      {
-        id: "",
-        name: "",
-        designation: "",
-        linkedIn: "",
-        stack: "",
-        image: "",
-      },
-    ],
-    pagination: [
-      {
-        id: "3dprint",
-        name: "< 3D Printing",
-      },
-      {
-        id: "revit",
-        name: "AutoDesk Revit >",
+        id: "iot",
+        name: "Internet of Things >",
       },
     ],
   },
