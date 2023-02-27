@@ -58,13 +58,17 @@ const CivilInterestGroup = ({ setInterest }) => {
     return interestgroups.id === id
   })
 
-  console.log(data)
-
   let next = ""
   let previous = ""
   if (data && data[0]) {
     previous = `/${data[0].pagination[0].id}`
     next = `/${data[0].pagination[1].id}`
+  }
+
+  let tracks = null
+
+  if (data[0].learningpathst) {
+    tracks = [...new Set(data[0].learningpathst.map((path) => path.track))]
   }
 
   return (
@@ -200,6 +204,14 @@ const CivilInterestGroup = ({ setInterest }) => {
           {data[0].corecourses && data[0].corecourses[0] && (
             <div className={styles.table_view_container}>
               <div className={styles.table_view}>
+                <div className={styles.tav_texts}>
+                  <p className={styles.tav_heading}>Core Courses</p>
+                  <p className={styles.tav_contents}>
+                    Every subject or skill has some core set of things to be
+                    learned. Here are a few resources curated by us to
+                    understand them
+                  </p>
+                </div>
                 <div className={styles.tav_tasks_container}>
                   <div className={styles.tav_tasks}>
                     <TableContainer component={Paper}>
@@ -262,52 +274,117 @@ const CivilInterestGroup = ({ setInterest }) => {
                     time is a great advantage. Here are some learning paths for
                     you to follow.
                   </p>
-                  <div className={styles.tav_tasks_container}>
-                    <div className={styles.tav_tasks}>
-                      <TableContainer component={Paper}>
-                        <Table
-                          sx={{ minWidth: 700 }}
-                          aria-label="customized table"
-                        >
-                          <TableHead>
-                            <TableRow>
-                              <StyledTableCell>
-                                Core Course's Name
-                              </StyledTableCell>
-                              <StyledTableCell align="right">
-                                Core Course's Link
-                              </StyledTableCell>
-                            </TableRow>
-                          </TableHead>
-                          <TableBody>
-                            {data[0].learningpaths &&
-                              data[0].learningpaths.map((learningpath) => (
-                                <StyledTableRow key={learningpath.name}>
-                                  <StyledTableCell component="th" scope="row">
-                                    {learningpath.name}
-                                  </StyledTableCell>
-                                  <StyledTableCell align="right">
-                                    <a
-                                      href={learningpath.link}
-                                      target="_blank"
-                                      rel="noopener noreferrer"
-                                    >
-                                      <span className={styles.link}>
-                                        Click Here
-                                      </span>
-                                    </a>
-                                  </StyledTableCell>
-                                </StyledTableRow>
-                              ))}
-                          </TableBody>
-                        </Table>
-                      </TableContainer>
-                    </div>
+                </div>
+                <div className={styles.tav_tasks_container}>
+                  <div className={styles.tav_tasks}>
+                    <TableContainer component={Paper}>
+                      <Table
+                        sx={{ minWidth: 700 }}
+                        aria-label="customized table"
+                      >
+                        <TableHead>
+                          <TableRow>
+                            <StyledTableCell>
+                              Core Course's Name
+                            </StyledTableCell>
+                            <StyledTableCell align="right">
+                              Core Course's Link
+                            </StyledTableCell>
+                          </TableRow>
+                        </TableHead>
+                        <TableBody>
+                          {data[0].learningpaths &&
+                            data[0].learningpaths.map((learningpath) => (
+                              <StyledTableRow key={learningpath.name}>
+                                <StyledTableCell component="th" scope="row">
+                                  {learningpath.name}
+                                </StyledTableCell>
+                                <StyledTableCell align="right">
+                                  <a
+                                    href={learningpath.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <span className={styles.link}>
+                                      Click Here
+                                    </span>
+                                  </a>
+                                </StyledTableCell>
+                              </StyledTableRow>
+                            ))}
+                        </TableBody>
+                      </Table>
+                    </TableContainer>
                   </div>
                 </div>
               </div>
             </div>
           )}
+
+          {tracks &&
+            tracks.map((track) => {
+              const trackPaths = data[0].learningpathst.filter(
+                (path) => path.track === track
+              ) // Filter paths by track
+              return (
+                <div className={styles.table_view_container}>
+                  <div className={styles.table_view}>
+                    <div className={styles.tav_texts}>
+                      <p
+                        className={styles.tav_heading}
+                      >{`Learning Paths(${trackPaths[0].track})`}</p>
+                      <p className={styles.tav_contents}>
+                        Having a plan/roadmap before to reach the destination on
+                        time is a great advantage. Here are some learning paths
+                        for you to follow.
+                      </p>
+                    </div>
+                    <div className={styles.tav_tasks_container}>
+                      <div className={styles.tav_tasks}>
+                        <TableContainer component={Paper}>
+                          <Table
+                            sx={{ minWidth: 700 }}
+                            aria-label="customized table"
+                          >
+                            <TableHead>
+                              <TableRow>
+                                <StyledTableCell>
+                                  Core Course's Name
+                                </StyledTableCell>
+                                <StyledTableCell align="right">
+                                  Core Course's Link
+                                </StyledTableCell>
+                              </TableRow>
+                            </TableHead>
+                            <TableBody>
+                              {trackPaths[0] &&
+                                trackPaths.map((track) => (
+                                  <StyledTableRow key={track.name}>
+                                    <StyledTableCell component="th" scope="row">
+                                      {track.name}
+                                    </StyledTableCell>
+                                    <StyledTableCell align="right">
+                                      <a
+                                        href={track.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                      >
+                                        <span className={styles.link}>
+                                          Click Here
+                                        </span>
+                                      </a>
+                                    </StyledTableCell>
+                                  </StyledTableRow>
+                                ))}
+                            </TableBody>
+                          </Table>
+                        </TableContainer>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
 
           <div className={styles.bottom_grid}>
             <div>
