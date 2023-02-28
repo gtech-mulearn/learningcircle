@@ -34,14 +34,9 @@ const MarathonChallenge = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className={styles.joinchallenge}>Complete Challenge</button>
-              </a>
-              <a
-                href="https://"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className={styles.joinchallenge}>Buy Tickets</button>
+                <button className={styles.joinchallenge}>
+                  Complete Challenge
+                </button>
               </a>
             </div>
           </div>
@@ -135,6 +130,15 @@ const MarathonChallenge = () => {
                       channel for completing this stage.
                       <br />
                       <br />
+                      You can also{" "}
+                      <a
+                        href="http://mulearn.org/gtechmarathon"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <b>Buy Tickets</b>
+                      </a>{" "}
+                      for the GTech Marathon
                       <b>
                         <p>
                           Make sure your profile is visible in the screenshot
