@@ -34,7 +34,14 @@ const MarathonChallenge = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className={styles.joinchallenge}>Join Challenge</button>
+                <button className={styles.joinchallenge}>Complete Challenge</button>
+              </a>
+              <a
+                href="https://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={styles.joinchallenge}>Buy Tickets</button>
               </a>
             </div>
           </div>
