@@ -19,6 +19,7 @@ import CybersecData from "./Pages/InterestGroups/Course/cybersec"
 import PmData from "./Pages/InterestGroups/Course/pm"
 import UiuxData from "./Pages/InterestGroups/Course/uiux"
 import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
+import BlockchainData from "./Pages/InterestGroups/Course/blockchain"
 
 //Bootcamp Section
 import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome"
@@ -219,7 +220,7 @@ function App() {
             path="/civil/:id"
             element={<CivilInterestGroup setInterest={setInterest} />}
           />
-          
+
           <Route
             path="/gettingstarted/:id"
             element={
@@ -292,6 +293,11 @@ function App() {
           <Route
             path="/cybersec/:type/:id"
             element={<CoursePage CourseData={CybersecData} />}
+          />
+
+          <Route
+            path="/blockchain/:type/:id"
+            element={<CoursePage CourseData={BlockchainData} />}
           />
           <Route
             path="/common/:type/:id"
