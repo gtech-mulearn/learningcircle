@@ -23,40 +23,7 @@ const InterestGroups = [
       "IoT Solutions Architect",
       "Robotics Technician",
     ],
-    basicenablementtasks: [
-      {
-        id: "1",
-        name: "What is IoT - Greatlearning",
-        link: "https://www.mygreatlearning.com/academy/learn-for-free/courses/what-is-iot",
-        time: "1 Hours",
-        complexity: "3",
-        karma: "50",
-      },
-      {
-        id: "2",
-        name: "IoT 101",
-        link: "https://mulearn.atfg.gtechindia.org/page/iot101",
-        time: "1 Hour",
-        complexity: "3",
-        karma: "50",
-      },
-      {
-        id: "3",
-        name: "Traffic light simulation ",
-        link: "https://docs.google.com/document/d/1_Z5CHJ6diesFpJJ_AwEQjqElB0U0GsIbmtt963HD1m4/edit?usp=drivesdk",
-        time: "1 Hour",
-        complexity: "4",
-        karma: "100",
-      },
-      {
-        id: "4",
-        name: "Learn IoT Basics - Simplelearn",
-        link: "https://skillsforall.com/course/introduction-iot",
-        time: "2 Hours",
-        complexity: "4",
-        karma: "200",
-      },
-    ],
+    basicenablementtasks: [],
     company: ["Thinkpalm"],
     mentors: [
       "Jaseel (Technical Program Manager - MakerGhat)",
@@ -646,15 +613,7 @@ const InterestGroups = [
         link: "https://developer.android.com/jetpack/compose/tutorial",
       },
     ],
-    basicenablementtasks: [
-      {
-        name: "Android 101",
-        link: "https://mulearn.atfg.gtechindia.org/page/android101",
-        complexity: "4",
-        time: "6 Hours",
-        karma: "800",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [
       {
         name: "Introduction to Kotlin",
@@ -1215,29 +1174,7 @@ const InterestGroups = [
         link: "https://productschool.com/blog/product-management-2/ultimate-product-management-guide/",
       },
     ],
-    basicenablementtasks: [
-      {
-        name: "Modern Product Management 101",
-        link: "https://mulearn.acadle.com/courses/a3N1R2c5b3J3OHM1WVloNzE1Mg==/details",
-        complexity: "3",
-        time: "40 mins",
-        karma: "100",
-      },
-      {
-        name: "SWOT Analysis -Startbucks",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        name: "For a food delivery app, what goals would you set for the next 6 months?",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [
       {
         name: "Familiarization to Product Management",
@@ -1465,20 +1402,7 @@ const InterestGroups = [
       },
     ],
 
-    basicenablementtasks: [
-      {
-        name: "Create a Figma Account",
-        link: "/uiux/enablement/1",
-        complexity: "1",
-        time: "10 mins",
-        karma: "200",
-      },
-      {
-        id: "3",
-        name: "Create an UI for given wireframe",
-        link: "https://www.notion.so/mulearn/UI-UX-Task-3-cab50a68b1714df79f691c7d5c099b63",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [
       {
         name: "Product Design By Google",
@@ -1709,34 +1633,7 @@ const InterestGroups = [
         link: "https://www.youtube.com/playlist?list=PLa1F2ddGya_8acrgoQr1fTeIuQtkSd6BW",
       },
     ],
-    basicenablementtasks: [
-      {
-        name: "AR/VR Overview",
-        link: "https://www.youtube.com/watch?v=04AMaTsXFJU",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        name: "Download Unity",
-        link: "https://unity.com/developer-tools",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        name: "Register with Unity",
-        link: "https://unity.com/products/unity-student",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        id: "4",
-        name: "Download Blender 3D",
-        link: "https://www.blender.org/",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [
       {
         name: "Augmented Reality - Full course from Freecodecamp",
@@ -1796,28 +1693,7 @@ const InterestGroups = [
         images: "assets/interestGroups/Zafar.webp",
       },
     ],
-    basicenablementtasks: [
-      {
-        id: "1",
-        name: "BuildSpace AI Writer",
-        link: "https://docs.google.com/document/d/1Z9WAI7vSrBFOv6yNVKj9xyhRCGwL6yKesGn7_05QK2E/edit?usp=sharing",
-      },
-      {
-        id: "2",
-        name: "Intro to Machine Learning - Kaggle",
-        link: "https://www.kaggle.com/learn/intro-to-machine-learning",
-      },
-      {
-        id: "3",
-        name: "Intro to AI - Elements of AI ",
-        link: "https://course.elementsofai.com/",
-      },
-      {
-        id: "4",
-        name: "Buiding AI - Elements of AI",
-        link: "https://buildingai.elementsofai.com/",
-      },
-    ],
+    basicenablementtasks: [],
     officetime: "Thursday 9:00 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
@@ -2270,20 +2146,7 @@ const InterestGroups = [
     interestgroup: "Cloud & DevOps",
     interestgroupdescription:
       "The emergence of Cloud technologies have changed the world forever.If you’re keen to know how the Cloud works and what DevOps is, here’s your chance to do so. Join the Cloud & DevOps Interest Group today and learn more.",
-    basicenablementtasks: [
-      {
-        name: "Dockerize an application",
-      },
-      {
-        name: "Create CI/CD pipeline to test, build and deploy a software",
-      },
-      {
-        name: "Serve an application ensuring high availability with load balancers",
-      },
-      {
-        name: "Setup application log management, monitoring and alerting",
-      },
-    ],
+    basicenablementtasks: [],
     learningpaths: [
       {
         id: "1",
@@ -2361,15 +2224,7 @@ const InterestGroups = [
 
     interestgroupdescription:
       "Startups drive innovation by introducing new ideas and challenging established players. They utilize cutting-edge technology and unique business models to solve problems and meet customer needs. Join our interest group to learn more about this dynamic field.",
-    basicenablementtasks: [
-      {
-        name: "Revenue Models Matching Card Game",
-        link: "https://www.teachingentrepreneurship.org/category/exercises/",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [
       {
         name: "StartUp India Learning Program ",
@@ -2760,38 +2615,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Effective project management involves setting goals, creating a plan, and coordinating resources to ensure successful project completion. Join our interest group to learn more about these techniques and best practices.",
 
-    basicenablementtasks: [
-      {
-        id: "1",
-        name: "Foundations of Project Management",
-        link: "https://www.coursera.org/learn/project-management-foundations",
-      },
-      {
-        id: "2",
-        name: "Project Initiation: Starting a Successful Project",
-        link: "https://www.coursera.org/learn/project-initiation-google",
-      },
-      {
-        id: "3",
-        name: "Project Planning: Putting It All Together",
-        link: "https://www.coursera.org/learn/project-planning-google",
-      },
-      {
-        id: "4",
-        name: "Project Execution: Running the Project",
-        link: "https://www.coursera.org/learn/project-execution-google",
-      },
-      {
-        id: "5",
-        name: "Agile Project Management",
-        link: "https://www.coursera.org/learn/agile-project-management",
-      },
-      {
-        id: "6",
-        name: "Capstone: Applying Project Management in the Real World",
-        link: "https://www.coursera.org/learn/applying-project-management",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [],
     subcourses: [],
     mentorscard: [
@@ -2881,15 +2705,7 @@ const InterestGroups = [
     interestgroupdescription:
       "3D printing is a manufacturing process that creates objects by building successive layers of material under computer control, allowing for the creation of complex shapes and designs. Join the 3D printing interest group to learn more about this technology and its impact on design and manufacturing.",
 
-    basicenablementtasks: [
-      {
-        name: "Basic Enablemnt Task - 3D Printing",
-        link: " https://mulearn.atfg.gtechindia.org/page/3dprinting101 ",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    basicenablementtasks: [],
     learningpaths: [],
     corecourses: [],
     subcourses: [

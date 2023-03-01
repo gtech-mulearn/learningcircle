@@ -64,6 +64,11 @@ const InterestGroup = ({ setInterest }) => {
     next = `/${data[0].pagination[1].id}`
   }
 
+  //scroll to top on page load in react
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [id])
+
   return (
     <>
       <Navbar />
