@@ -9,7 +9,7 @@ const InterestGroups = [
         id: 1,
         name: "Abhijith E S",
         college: "St. Joseph's College of Engineering and Technology, Palai",
-        images: "assets/interestGroups/Abjithes.webp",
+        images: "/assets/interestGroups/AbhijithES.webp",
       },
     ],
     officetime: "Wednesday 7:00 PM",
@@ -68,7 +68,7 @@ const InterestGroups = [
         id: 1,
         name: "Abhijith E S",
         college: "St. Joseph's College of Engineering and Technology, Palai",
-        images: "assets/interestGroups/Abjithes.webp",
+        images: "/assets/interestGroups/AbhijithES.webp",
       },
     ],
     officetime: "Wednesday 7:00 PM",
@@ -94,7 +94,7 @@ const InterestGroups = [
         karma: "",
       },
     ],
-    learningpaths: [
+    learningpathst: [
       {
         track: "Architectural Design",
         name: "Introduction to 3D Modeling for Architectural Design",
@@ -157,7 +157,7 @@ const InterestGroups = [
         id: 1,
         name: "Abhijith E S",
         college: "St. Joseph's College of Engineering and Technology, Palai",
-        images: "assets/interestGroups/Abjithes.webp",
+        images: "/assets/interestGroups/AbhijithES.webp",
       },
     ],
     officetime: "Wednesday 7:00 PM",

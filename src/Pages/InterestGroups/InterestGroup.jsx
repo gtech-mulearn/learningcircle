@@ -200,6 +200,72 @@ const InterestGroup = ({ setInterest }) => {
             </div>
           )}
 
+          {data[0].basicenablementtasks && data[0].basicenablementtasks[0] && (
+            <div className={styles.table_view_container}>
+              <div className={styles.table_view}>
+                <div className={styles.tav_texts}>
+                  <p className={styles.tav_heading}>Basic Enablement Tasks</p>
+                  <p className={styles.tav_contents}>
+                    Every subject or skill has some core set of things to be
+                    learned. Here are a few resources curated by us to
+                    understand them
+                  </p>
+                </div>
+
+                <div className={styles.tav_tasks_container}>
+                  <div className={styles.tav_tasks}>
+                    <TableContainer component={Paper}>
+                      <Table
+                        sx={{ minWidth: 700 }}
+                        aria-label="customized table"
+                      >
+                        <TableHead>
+                          <TableRow>
+                            <StyledTableCell>Task Name</StyledTableCell>
+                            <StyledTableCell align="right">
+                              Task Link
+                            </StyledTableCell>
+
+                            <StyledTableCell align="right">
+                              Karma Points
+                            </StyledTableCell>
+                          </TableRow>
+                        </TableHead>
+                        <TableBody>
+                          {data[0].basicenablementtasks &&
+                            data[0].basicenablementtasks.map(
+                              (basicenablementtask) => (
+                                <StyledTableRow key={basicenablementtask.name}>
+                                  <StyledTableCell component="th" scope="row">
+                                    {basicenablementtask.name}
+                                  </StyledTableCell>
+                                  <StyledTableCell align="right">
+                                    <a
+                                      href={basicenablementtask.link}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                    >
+                                      <span className={styles.link}>
+                                        Click Here
+                                      </span>
+                                    </a>
+                                  </StyledTableCell>
+
+                                  <StyledTableCell align="right">
+                                    {basicenablementtask.karma}
+                                  </StyledTableCell>
+                                </StyledTableRow>
+                              )
+                            )}
+                        </TableBody>
+                      </Table>
+                    </TableContainer>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
           {data[0].corecourses && data[0].corecourses[0] && (
             <div className={styles.table_view_container}>
               <div className={styles.table_view}>
@@ -227,13 +293,10 @@ const InterestGroup = ({ setInterest }) => {
                             <StyledTableCell align="right">
                               Core Course's Link
                             </StyledTableCell>
-                            {/* <StyledTableCell align="right">
-                          Complexity (Out of 5)
-                        </StyledTableCell> */}
+
                             <StyledTableCell align="right">
                               Karma Points
                             </StyledTableCell>
-                            {/* <StyledTableCell align="right">Time</StyledTableCell> */}
                           </TableRow>
                         </TableHead>
                         <TableBody>
@@ -254,15 +317,10 @@ const InterestGroup = ({ setInterest }) => {
                                     </span>
                                   </a>
                                 </StyledTableCell>
-                                {/* <StyledTableCell align="right">
-                              {corecourse.complexity}
-                            </StyledTableCell> */}
+
                                 <StyledTableCell align="right">
                                   {corecourse.karma}
                                 </StyledTableCell>
-                                {/* <StyledTableCell align="right">
-                              {corecourse.time}
-                            </StyledTableCell> */}
                               </StyledTableRow>
                             ))}
                         </TableBody>
@@ -270,6 +328,22 @@ const InterestGroup = ({ setInterest }) => {
                     </TableContainer>
                   </div>
                 </div>
+              </div>
+            </div>
+          )}
+
+          {data[0].coretracks && data[0].coretracks[0] && (
+            <div className={styles.secondsection}>
+              <div className={styles.sv_tagline}></div>
+              <div className={styles.cards_container}>
+                {data[0].coretracks.map((track) => (
+                  <InterestCard
+                    id={track.id}
+                    interestgroup={track.name}
+                    interestgroupdescription={track.description}
+                    // officetime={InterestGroup.officetime}
+                  />
+                ))}
               </div>
             </div>
           )}
@@ -341,147 +415,124 @@ const InterestGroup = ({ setInterest }) => {
             </div>
           )}
 
-          {data[0].opportunities ||
-            data[0].people ||
-            data[0].blogs ||
-            data[0].challenges ||
-            (data[0].keywords && (
-              <div className={styles.bottom_grid}>
-                <div>
-                  {data[0].opportunities && data[0].opportunities[0] && (
-                    <div className={styles.sv_texts}>
-                      <p className={styles.sv_heading}>Opportunities</p>
-                      <p className={styles.sv_content}>
-                        Learning a new skill always brings in new opportunities.
-                        Here are some possible opportunities/roles you could
-                        grab by learning this skill.
-                      </p>
-                      <ul className={styles.sv_lists}>
-                        {data[0].opportunities.map((opportunity) => (
-                          <li className={styles.list_item}>{opportunity}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+          <div className={styles.bottom_grid}>
+            <div>
+              {data[0].opportunities && data[0].opportunities[0] && (
+                <div className={styles.sv_texts}>
+                  <p className={styles.sv_heading}>Opportunities</p>
+                  <p className={styles.sv_content}>
+                    Learning a new skill always brings in new opportunities.
+                    Here are some possible opportunities/roles you could grab by
+                    learning this skill.
+                  </p>
+                  <ul className={styles.sv_lists}>
+                    {data[0].opportunities.map((opportunity) => (
+                      <li className={styles.list_item}>{opportunity}</li>
+                    ))}
+                  </ul>
                 </div>
-                <div>
-                  {data[0].people && (
-                    <div className={styles.sv_texts}>
-                      <p className={styles.sv_heading}>Top People to Follow</p>
-                      <p className={styles.sv_content}>
-                        These are list of people you should be following inorder
-                        to learn as well as stay updated while learning web
-                        development
-                      </p>
-                      <ul className={styles.sv_lists}>
-                        {data[0].people.map((people) => (
-                          <li className={styles.list_item}>
-                            <a
-                              href={people.link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              {people.name} -{" "}
-                              <span className={styles.link}>Click Here</span>
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-                <div>
-                  {data[0].blogs && (
-                    <div className={styles.sv_texts}>
-                      <p className={styles.sv_heading}>Top Blogs to Follow</p>
-                      <p className={styles.sv_content}>
-                        Learning through Reading is a great method as it has
-                        many advantages. There are multiple Blogs out there with
-                        quailty content and here are few of them.
-                      </p>
-                      <ul className={styles.sv_lists}>
-                        {data[0].blogs.map((blog) => (
-                          <li className={styles.list_item}>
-                            <a
-                              href={blog.link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              {blog.name} -{" "}
-                              <span className={styles.link}>Click Here</span>
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-                <div>
-                  {data[0].challenges && (
-                    <div className={styles.sv_texts}>
-                      <p className={styles.sv_heading}>μChallenges</p>
-                      <p className={styles.sv_content}>
-                        Solving challenges while learning can be more engaging.
-                        A specific problem presents an opportunity for hands-on
-                        learning and skill development. If you are ready to take
-                        on this learning approach, there is a challenge waiting
-                        for you.
-                      </p>
-                      {data[0].challenges.map((challenge) => (
-                        <ul className={styles.sv_lists}>
-                          <li className={styles.list_item}>
-                            <b>Challenge {challenge.id}: </b>
-                            {challenge.name}
-                            {challenge.link && (
-                              <a
-                                href={challenge.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <span className={styles.link}>
-                                  {" "}
-                                  :&nbsp;Click Here
-                                </span>
-                              </a>
-                            )}
-                          </li>
-                        </ul>
-                      ))}
-                    </div>
-                  )}
-                </div>
-                <div>
-                  {data[0].keywords && (
-                    <div className={styles.keywords_container}>
-                      <p className={styles.sv_heading}>Top Keywords</p>
-                      <p className={styles.sv_content}>
-                        Listed below are the top keywords that you should be
-                        looking for while learning this stack. Happy Learning!.
-                      </p>
-                      {data[0].keywords.map((keyword) => (
-                        <div className={styles.box}>{keyword.keyword}</div>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              </div>
-            ))}
-
-          {data[0].coretracks && data[0].coretracks[0] && (
-            <div className={styles.secondsection}>
-              <div className={styles.sv_tagline}></div>
-              <div className={styles.cards_container}>
-                {data[0].coretracks.map((track) => (
-                  <InterestCard
-                    id={track.id}
-                    interestgroup={track.name}
-                    interestgroupdescription={track.description}
-                    // officetime={InterestGroup.officetime}
-                  />
-                ))}
-              </div>
+              )}
             </div>
-          )}
+            <div>
+              {data[0].people && (
+                <div className={styles.sv_texts}>
+                  <p className={styles.sv_heading}>Top People to Follow</p>
+                  <p className={styles.sv_content}>
+                    These are list of people you should be following inorder to
+                    learn as well as stay updated while learning web development
+                  </p>
+                  <ul className={styles.sv_lists}>
+                    {data[0].people.map((people) => (
+                      <li className={styles.list_item}>
+                        <a
+                          href={people.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {people.name} -{" "}
+                          <span className={styles.link}>Click Here</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+            <div>
+              {data[0].blogs && (
+                <div className={styles.sv_texts}>
+                  <p className={styles.sv_heading}>Top Blogs to Follow</p>
+                  <p className={styles.sv_content}>
+                    Learning through Reading is a great method as it has many
+                    advantages. There are multiple Blogs out there with quailty
+                    content and here are few of them.
+                  </p>
+                  <ul className={styles.sv_lists}>
+                    {data[0].blogs.map((blog) => (
+                      <li className={styles.list_item}>
+                        <a
+                          href={blog.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {blog.name} -{" "}
+                          <span className={styles.link}>Click Here</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+            <div>
+              {data[0].challenges && (
+                <div className={styles.sv_texts}>
+                  <p className={styles.sv_heading}>μChallenges</p>
+                  <p className={styles.sv_content}>
+                    Solving challenges while learning can be more engaging. A
+                    specific problem presents an opportunity for hands-on
+                    learning and skill development. If you are ready to take on
+                    this learning approach, there is a challenge waiting for
+                    you.
+                  </p>
+                  {data[0].challenges.map((challenge) => (
+                    <ul className={styles.sv_lists}>
+                      <li className={styles.list_item}>
+                        <b>Challenge {challenge.id}: </b>
+                        {challenge.name}
+                        {challenge.link && (
+                          <a
+                            href={challenge.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span className={styles.link}>
+                              {" "}
+                              :&nbsp;Click Here
+                            </span>
+                          </a>
+                        )}
+                      </li>
+                    </ul>
+                  ))}
+                </div>
+              )}
+            </div>
+            <div>
+              {data[0].keywords && (
+                <div className={styles.keywords_container}>
+                  <p className={styles.sv_heading}>Top Keywords</p>
+                  <p className={styles.sv_content}>
+                    Listed below are the top keywords that you should be looking
+                    for while learning this stack. Happy Learning!.
+                  </p>
+                  {data[0].keywords.map((keyword) => (
+                    <div className={styles.box}>{keyword.keyword}</div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
 
           <div className={styles.next_previous}>
             <Link to={previous}>
