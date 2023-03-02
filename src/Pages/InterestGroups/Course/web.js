@@ -65,7 +65,7 @@ const WebData = [
             assignment_description:
               "Now let’s  put our skills into action. You will be building a task board application. Click here to view more details",
             assignment_inner_description: "",
-            link: "#",
+            link: "https://mulearn.notion.site/View-Assignment-2f07089d9c6b4edbb8dfbd77e43d12bd",
           },
           ],  
       },
@@ -87,7 +87,7 @@ const WebData = [
             assignment_description:
               "Just like knowing how to use the Command Line, Git & Github will be very important in your daily workflow as a programmer / developer. Let’s put your Git and Github skills to practice! Find the assignment below.",
             assignment_inner_description: "",
-            link: "https://mulearn.notion.site/Assignment-6cc865e1fc85409d985fd64a4a05519a",
+            link: "https://mulearn.notion.site/Git-GitHub-b8a840efb00845d2a2ab1c2877b1952c",
           },
         ],
       },
