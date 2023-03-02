@@ -2012,7 +2012,7 @@ const InterestGroups = [
       },
       {
         name: "Create your own Ethereum token in just 30 mins",
-        link: "https://metaschool.so/courses/create-your-own-ethereum-token-in-just-30-mins",
+        link: "/blockchain/enablement/17",
         complexity: "",
         time: "",
         karma: "200",
