@@ -170,7 +170,7 @@ const Home = ({
                 Introducing <span> µLearn Learning Circles</span>
               </p>
               <p class={styles.fssheading}>
-                Android and Web Development, IOT, CyberSecurity and
+                Android and Web Development, IoT, CyberSecurity and
                 <span> much more....</span>
               </p>
               <p class={styles.fstagline}>
