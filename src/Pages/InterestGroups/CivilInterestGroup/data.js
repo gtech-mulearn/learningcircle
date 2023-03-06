@@ -238,8 +238,7 @@ const InterestGroups = [
     challenges: [
       {
         id: "1",
-        name: "A real world BIM Project ",
-        link: "#",
+        name: "A real world BIM Project "
       },
     ],
   },

@@ -93,7 +93,7 @@ const BlockchainData = [
       },
       {
         id: "10",
-        name: "Creating NFTs using different token standard",
+        name: "Creating NFTs using different token standards",
         karma: "200",
         description:
           "This course delves into the different token standards for NFTs, specifically ERC-721, ERC-721A, and ERC-1155. It provides a basic understanding of each standard, including how to write smart contracts using them, and explores various use cases for creating non-fungible tokens. The course also compares the three standards, highlighting their differences and optimizations. Whether you're a developer, entrepreneur, or simply interested in blockchain, this course equips you with the necessary tools to succeed in the NFT ecosystem.",
