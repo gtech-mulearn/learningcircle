@@ -1118,7 +1118,7 @@ const InterestGroups = [
   },
   {
     id: "qa",
-    interestgroup: "Quality Analyis",
+    interestgroup: "Quality Analysis",
     interestgroupdescription:
       '"Join our Quality Analysis Interest Group to learn and collaborate with peers on best practices for measuring and improving product quality. Discover new testing strategies and quality assurance frameworks to ensure your products meet the highest standards of excellence."',
     officetime: "Tuesday 8:30PM",
