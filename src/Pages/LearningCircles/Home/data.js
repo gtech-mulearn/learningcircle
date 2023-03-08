@@ -1117,6 +1117,166 @@ const InterestGroups = [
     ],
   },
   {
+    id: "qa",
+    interestgroup: "Quality Analyis",
+    interestgroupdescription:
+      '"Join our Quality Analysis Interest Group to learn and collaborate with peers on best practices for measuring and improving product quality. Discover new testing strategies and quality assurance frameworks to ensure your products meet the highest standards of excellence."',
+    officetime: "Tuesday 8:30PM",
+    officeplace: " @ Discord Lobby",
+    thinktankplace: " @ Google Meet",
+    thinktanktime: "Monday 7:00 PM",
+    community: [],
+    opportunities: ["QA Analyst/Trainee Tester"],
+    company: ["Faya"],
+    mentors: ["Lavanya RK", "Mohammad Zaheer", "Saran Kumar S"],
+    mentorscard: [
+      {
+        id: "S137",
+        name: "Lavanya RK",
+        designation: "UST Global",
+        linkedIn: "",
+        stack: "Quality Testing",
+        image:
+          "",
+      },
+      {
+        id: "S137",
+        name: "Mohammad Zaheer",
+        designation: "Faya",
+        linkedIn: "",
+        stack: "Quality Testing",
+        image:
+          "",
+      },
+      {
+        id: "S137",
+        name: "Saran Kumar S",
+        designation: "Faya",
+        linkedIn: "",
+        stack: "Quality Testing",
+        image:
+          "",
+      },
+    ],
+    pagination: [
+      {
+        id: "cybersec",
+        name: "< Cyber Security",
+      },
+      {
+        id: "uiux",
+        name: "UI/UX >",
+      },
+    ],
+    learningpaths: [
+      {
+        name: "QA Engineer",
+        link: "https://roadmap.sh/qa",
+      },
+      {
+        name: "Complete guide & resources ",
+        link: "https://www.guru99.com/software-testing.html",
+      },
+    ],
+    basicenablementtasks: [
+      {
+        name: "Manual Testing Aptitude Test",
+        link: "https://docs.google.com/document/d/1pwossVnWRHrAGRAFIJLuMmon4g07Gy-qvA9JoUgQnnA/edit?usp=sharing",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Preparation of TestScenarios for the following ",
+        link: "https://docs.google.com/document/d/12qll9PR9grAwa8KhiHQSBSEu-K-rD84_6IO2HCtmohc/edit?usp=sharing",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Preparation of TestCases for the Live Ecommerce Project For the Following TestScenarios that is Given",
+        link: "https://docs.google.com/document/d/1qffIMcQGSbzyTBUSGuTJLl92qHTCRFdngIPaLb2ErqI/edit?usp=sharing",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Report the Bugs in Jira for the Website Mentioned in the Previous Task",
+        link: "https://docs.google.com/document/d/1pwossVnWRHrAGRAFIJLuMmon4g07Gy-qvA9JoUgQnnA/edit?usp=sharing",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Prepare the User Stories for the Following",
+        link: "https://docs.google.com/document/d/153lECExCnMvA2pE6ZCjFSUBRf2e6AvWXZw3MxVRdZBo/edit?usp=sharing",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+    ],
+    corecourses: [
+      {
+        name: "Manual Software Testing with Live Example",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLseflPNg0bUKfLmAbO2JnE9",
+        complexity: "",
+        time: "",
+        karma: "400",
+      },
+      {
+        name: "Jira Agile Methodology",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLunEaoMz6Ucn7NXfZ3A0_bf",
+        complexity: "",
+        time: "",
+        karma: "400",
+      },
+      {
+        name: "ISTQB Certification -QA Manual",
+        link: "https://www.youtube.com/watch?v=Wb-g7tPO2Gw&list=PLUDwpEzHYYLsMt3L4MnvmsL_DhxUNTW6J",
+        complexity: "",
+        time: "",
+        karma: "400",
+      },
+    ],
+    subcourses: [
+      {
+        name: "Basics of SQL for Testers",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLt0aRs7gvyEEviMp_CoTO3q",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "API Testing for Begineers using Postman",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLt3kLIHDLVjdnmJw7BDvVdE",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Jmeter Basics",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLs33uFHeIJo-6eU92IoiMZ7",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Java for Selenium(For Automation Testing)",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLv9v8aRuNi67vZ81cW2ksze",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Selenium",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLs6G9WOfFxiH5zMfgNxgmSV",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+    ],
+  },
+  {
     id: "pm",
     interestgroup: "Product Management",
     interestgroupdescription:
@@ -1125,20 +1285,11 @@ const InterestGroups = [
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Monday 7:00 PM",
-    community: ["Product Pack"],
+    community: [],
     opportunities: ["Product Manager", "Product Marketing Manager"],
     company: ["SunTec"],
-    mentors: ["Nithin Balachandran", "Vineesh U S", "Aravind", "Savio"],
+    mentors: ["Vineesh U S", "Aravind", "Savio"],
     mentorscard: [
-      {
-        id: "S136",
-        name: "Nithin Balachandran",
-        designation: "Product Manager, FAYA",
-        linkedIn: "https://www.linkedIn.com/in/nithin-balachandran",
-        stack: "Product Management",
-        image:
-          "https://drive.google.com/uc?export=view&id=1QBNU_VN3BNTbmajursbYpdB-iDJOvppv",
-      },
       {
         id: "S137",
         name: "Vineesh U S",
