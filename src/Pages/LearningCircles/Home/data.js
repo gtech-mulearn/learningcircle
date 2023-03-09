@@ -1117,14 +1117,15 @@ const InterestGroups = [
     ],
   },
   {
+    comingsoon: true,
     id: "qa",
-    interestgroup: "Quality Analysis",
+    interestgroup: "Quality Assurance",
     interestgroupdescription:
-      '"Join our Quality Analysis Interest Group to learn and collaborate with peers on best practices for measuring and improving product quality. Discover new testing strategies and quality assurance frameworks to ensure your products meet the highest standards of excellence."',
-    officetime: "Tuesday 8:30PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Monday 7:00 PM",
+      '"Join our Quality Assurance Interest Group to learn and collaborate with peers on best practices for measuring and improving product quality. Discover new testing strategies and Quality Assurance frameworks to ensure your products meet the highest standards of excellence."',
+    officetime: "",
+    officeplace: " ",
+    thinktankplace: "",
+    thinktanktime: "",
     community: [],
     opportunities: ["QA Analyst/Trainee Tester"],
     company: ["Faya"],
@@ -1132,30 +1133,29 @@ const InterestGroups = [
     mentorscard: [
       {
         id: "S137",
-        name: "Lavanya RK",
-        designation: "UST Global",
-        linkedIn: "",
-        stack: "Quality Testing",
-        image:
-          "",
-      },
-      {
-        id: "S137",
         name: "Mohammad Zaheer",
         designation: "Faya",
-        linkedIn: "",
-        stack: "Quality Testing",
+        linkedIn: "https://www.linkedin.com/in/mohammedzaheerulla/",
+        stack: "Quality Assurance",
         image:
-          "",
+          "https://media.licdn.com/dms/image/C5603AQGCLTRDz2a2Qg/profile-displayphoto-shrink_200_200/0/1660308905062?e=1683763200&v=beta&t=QXAep8pfJtXzeVNrmBDUI5HqKsv0cDmZDCdHIrLB3wY",
       },
       {
         id: "S137",
         name: "Saran Kumar S",
         designation: "Faya",
-        linkedIn: "",
-        stack: "Quality Testing",
+        linkedIn: "https://www.linkedin.com/in/saran-krishna-n-a58b191a4/",
+        stack: "Quality Assurance",
         image:
-          "",
+          "https://media.licdn.com/dms/image/D5603AQFoPOdS5W6CkQ/profile-displayphoto-shrink_200_200/0/1674936777472?e=1683763200&v=beta&t=ACquU4WWWfO-FRk-LHj7cdMpJ30DxAY2k5ah5bpDT2k",
+      },
+      {
+        id: "S137",
+        name: "Lavanya RK",
+        designation: "UST Global",
+        linkedIn: "https://www.linkedin.com/in/lavanya-rk-b5a432162/",
+        stack: "Quality Assurance",
+        image: "",
       },
     ],
     pagination: [
