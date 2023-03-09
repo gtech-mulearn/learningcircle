@@ -59,6 +59,7 @@ import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMu
 import MarathonChallenge from "./Pages/Practice/Challenges/MarathonChallenge/MarathonChallenge"
 import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge"
 import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/Template/CivilInterestGroup"
+import GoogleSolutionsChallenge from "./Pages/Practice/Challenges/GoogleSolutionsChallenge/GoogleSolutionsChallenge"
 
 function App() {
   //Home Page state Variables
@@ -270,6 +271,10 @@ function App() {
             element={<DefensiveDriving />}
           />
           <Route path="/challenge/marathon" element={<MarathonChallenge />} />
+          <Route
+            path="/challenge/googlesolutions"
+            element={<GoogleSolutionsChallenge />}
+          />
           <Route
             path="/web/:type/:id"
             element={<CoursePage CourseData={WebData} />}
