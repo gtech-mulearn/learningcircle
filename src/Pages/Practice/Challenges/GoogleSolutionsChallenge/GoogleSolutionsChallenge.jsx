@@ -184,7 +184,7 @@ const GoogleSolutionsChallenge = () => {
                       100, you will receive a badge. Share the link of the badge
                       with the hashtag <b>#solution-challenge-top100</b> in the
                       google-developers channel to earn{" "}
-                      <b>#solution-challenge-top100</b> 50 karma points
+                      50 karma points
                     </div>
                   </div>
                 </div>
