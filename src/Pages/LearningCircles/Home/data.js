@@ -1155,7 +1155,7 @@ const InterestGroups = [
         designation: "UST Global",
         linkedIn: "https://www.linkedin.com/in/lavanya-rk-b5a432162/",
         stack: "Quality Assurance",
-        image: "",
+        image: "/assets/mentors/LavanyaRK.jpg",
       },
     ],
     pagination: [
