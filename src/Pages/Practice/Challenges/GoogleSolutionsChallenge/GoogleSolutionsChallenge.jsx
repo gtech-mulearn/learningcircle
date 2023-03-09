@@ -21,7 +21,7 @@ const GoogleSolutionsChallenge = () => {
               </p>
               <p className={styles.fv_content}>
                 Google Solution Challenge is a global annual competition for
-                university students to solve for one or more of the United
+                university students to solve one or more of the United
                 Nations 17 Sustainable Development Goals using Google
                 Technology.
               </p>
@@ -47,7 +47,7 @@ const GoogleSolutionsChallenge = () => {
                 <span>About</span> the Challenge
               </p>
               <p className={styles.sv_content}>
-                Well, we know you are Interested, Here these are steps to get
+                Well, we know you are Interested, Here are steps to get
                 you going.
               </p>
             </div>
@@ -109,24 +109,7 @@ const GoogleSolutionsChallenge = () => {
                 to understand the judging criteria for the submissions.
               </p>
             </div>
-            <div className={styles.step}>
-              <p className={styles.step_heading}>Step 4</p>
-              <p className={styles.step_content}>Register for the Challenge</p>
-              <p className={styles.step_description}>
-                Register and showcase their interests before Mar 17, 2023.
-                Remember to join a GDSC Club as a member to be eligible for
-                future submissions.
-              </p>
-            </div>
-            <div className={styles.step}>
-              <p className={styles.step_heading}>Step 5</p>
-              <p className={styles.step_content}>Register for the Challenge</p>
-              <p className={styles.step_description}>
-                Register and showcase their interests before Mar 17, 2023.
-                Remember to join a GDSC Club as a member to be eligible for
-                future submissions.
-              </p>
-            </div>
+            
           </div>
         </div>
         <div className={styles.second_view_container}>
