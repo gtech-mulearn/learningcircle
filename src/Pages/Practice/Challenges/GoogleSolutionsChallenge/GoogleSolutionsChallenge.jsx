@@ -29,7 +29,7 @@ const GoogleSolutionsChallenge = () => {
                 <b>Last Date for Registering: 17th March</b>
               </p>
               <a
-                href="https://goo.gle/solutions-challenge23-promo"
+                href="https://goo.gle/solutionchallenge"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.atag}
