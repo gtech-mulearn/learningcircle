@@ -1,4 +1,5 @@
 import React from "react"
+import ExampleMsg from "../../../../Components/ExampleMsg/ExampleMsg"
 import Footer from "../../../../Components/Footer/Footer"
 import Navbar from "../../../../Components/Navbar/Navbar"
 import styles from "./GoogleSolutionsChallenge.module.css"
@@ -17,13 +18,12 @@ const GoogleSolutionsChallenge = () => {
             />
             <div className={styles.first_view_texts}>
               <p className={styles.fv_heading}>
-                Google <span>Solutions Challenge</span> 2023
+                <span>Solution Challenge</span> 2023
               </p>
               <p className={styles.fv_content}>
-                Google Solution Challenge is a global annual competition for
-                university students to solve one or more of the United
-                Nations 17 Sustainable Development Goals using Google
-                Technology.
+                Solution Challenge is a global annual competition for university
+                students to solve one or more of the United Nations 17
+                Sustainable Development Goals using Google Technology.
               </p>
               <p className={styles.fv_content}>
                 <b>Last Date for Registering: 17th March</b>
@@ -34,7 +34,7 @@ const GoogleSolutionsChallenge = () => {
                 rel="noopener noreferrer"
                 className={styles.atag}
               >
-                <button className={styles.register_now}>Register Now</button>
+                <button className={styles.register_now}>Read More</button>
               </a>
             </div>
           </div>
@@ -47,8 +47,8 @@ const GoogleSolutionsChallenge = () => {
                 <span>About</span> the Challenge
               </p>
               <p className={styles.sv_content}>
-                Well, we know you are Interested, Here are steps to get
-                you going.
+                Well, we know you are Interested, Here are steps to get you
+                going.
               </p>
             </div>
           </div>
@@ -95,7 +95,7 @@ const GoogleSolutionsChallenge = () => {
             </div>
             <div className={styles.step}>
               <p className={styles.step_heading}>Step 3</p>
-              <p className={styles.step_content}>Submit the Solutions</p>
+              <p className={styles.step_content}>Submit the Solution</p>
               <p className={styles.step_description}>
                 Submit solutions for the first round of evaluation between March
                 17-March 31st.{" "}
@@ -109,7 +109,6 @@ const GoogleSolutionsChallenge = () => {
                 to understand the judging criteria for the submissions.
               </p>
             </div>
-            
           </div>
         </div>
         <div className={styles.second_view_container}>
@@ -167,7 +166,7 @@ const GoogleSolutionsChallenge = () => {
                     </div>
                   </div>
                 </div>
-                <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                {/* <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
                   <div className="timeline__event__icon">
                     <img
                       src={require("../assets/steps/freecodecamp.svg").default}
@@ -183,22 +182,20 @@ const GoogleSolutionsChallenge = () => {
                       will be announced. If your submission is part of the top
                       100, you will receive a badge. Share the link of the badge
                       with the hashtag <b>#solution-challenge-top100</b> in the
-                      google-developers channel to earn{" "}
-                      50 karma points
+                      google-developers channel to earn 50 karma points
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className={styles.sample_container}>
-              <p className={styles.sample_header}>Example Message</p>
-              <p className={styles.sample_message}>
-                Hey! I've completed the registration for the google solutions
-                challenge. Here is a screenshot of my email
-                <br />
-                <b>#solution-challenge-register</b>
-              </p>
-            </div>
+            <ExampleMsg
+              firstLine="Hey! I've completed the registration for the google solutions
+              challenge. Here is a screenshot of my email."
+              linkText=""
+              hashtag="#solution-challenge-register"
+              img="/assets/challenge/googlesolu.webp"
+              imgMaxWidth={300}
+            />
           </div>
         </div>
       </div>
