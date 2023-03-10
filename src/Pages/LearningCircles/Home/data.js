@@ -2020,7 +2020,7 @@ const InterestGroups = [
     officetime: " Tuesday 8.30 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
-    thinktanktime: " Monsay 8:30 PM",
+    thinktanktime: " Monday 8:30 PM",
     community: ["KBA"],
     opportunities: [],
     company: [],
