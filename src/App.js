@@ -272,7 +272,7 @@ function App() {
           />
           <Route path="/challenge/marathon" element={<MarathonChallenge />} />
           <Route
-            path="/challenge/googlesolutions"
+            path="/challenge/googlesolution"
             element={<GoogleSolutionsChallenge />}
           />
           <Route

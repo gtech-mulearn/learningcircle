@@ -43,12 +43,12 @@ const MuLanding = () => {
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
               <MentorCard
-                  name="Google Solutions Challenge"
+                  name="Solution Challenge 2023"
                   designation="Google Solution Challenge is a global annual competition for
                   university students to solve for one or more of the United
                   Nations 17 Sustainable Development Goals using Google
                   Technology."
-                  mclink="/challenge/googlesolutions"
+                  mclink="/challenge/googlesolution"
                 />
                 <MentorCard
                   name="Hackout CTF"
