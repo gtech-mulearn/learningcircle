@@ -369,15 +369,7 @@ const InterestGroups = [
         image: "/assets/mentors/Binoop M J.webp",
       },
     ],
-    basicenablementtasks: [
-      {
-        name: "HTML Forms",
-        link: "/web/enablement/1",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    basicenablementtasks: [],
     keywords: [
       {
         id: "1",
