@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first_view_container {
+  margin: 2rem;
+}
+
+.first_view {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.fv_img {
+  display: block;
+  width: 20rem;
+}
+
+.fv_heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #404040;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.fv_heading span {
+  color: #f6842c;
+}
+
+.fv_content {
+  margin-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 50rem;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  .first_view_container {
+    margin: 6rem;
+  }
+
+  .first_view {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .fv_heading {
+    font-size: 4.25rem;
+    text-align: center;
+    margin-left: 2.5rem;
+  }
+
+  .fv_content {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-left: 8rem;
+    display: block;
+    margin: auto;
+  }
+
+  .fv_img {
+    display: block;
+    width: 30rem;
+  }
+
+  .fv_texts {
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Second Section Sytles */
+
+.second_view_container {
+  margin: 2rem;
+  margin-top: 4rem;
+}
+
+.sv_heading {
+  display: block;
+  margin: auto;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  color: #f78c40;
+  text-align: center;
+}
+
+.sv_content {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .second_view_container {
+    margin: 6rem;
+  }
+
+  .sv_heading {
+    font-size: 2.25rem;
+    line-height: 4rem;
+    width: 60vw;
+    display: block;
+    margin: auto;
+  }
+
+  .sv_content {
+    margin-top: 0;
+    font-size: 1.05rem;
+    width: 40%;
+  }
+}
+
+.tasks_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.task {
+  margin: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  max-width: 30rem;
+}
+
+.task_number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #f6842c;
+}
+
+.task_description {
+  margin-bottom: 1.5rem;
+  color: #404040;
+  font-size: 1.1rem;
+}
+
+.task_lists {
+  list-style-type: disc;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
+
+.list_item {
+  margin-bottom: 0.5rem;
+}
+
+.extra_note {
+  font-size: 0.9rem;
+  color: #707070;
+  font-style: italic;
+  margin-top: 1rem;
+}

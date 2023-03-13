@@ -1,9 +1,9 @@
-import React from "react";
-import Navbar from "../../../Components/Navbar/Navbar";
-import Footer from "../../../Components/Footer/Footer";
+import React from "react"
+import Navbar from "../../../Components/Navbar/Navbar"
+import Footer from "../../../Components/Footer/Footer"
 
-import styles from "./MuLanding.module.css";
-import MentorCard from "../../../Components/MentorCard/MentorCard";
+import styles from "./MuLanding.module.css"
+import MentorCard from "../../../Components/MentorCard/MentorCard"
 
 const MuLanding = () => {
   return (
@@ -42,7 +42,12 @@ const MuLanding = () => {
             </div>
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
-              <MentorCard
+                <MentorCard
+                  name="Digital Marketing Writer Challenge"
+                  designation="lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti facilis sit ullam, porro assumenda ad praesentium voluptatem, magni repellendus exercitationem natus laudantium pariatur dolorum?"
+                  mclink="/challenge/digitalmarketing"
+                />
+                <MentorCard
                   name="Solution Challenge 2023"
                   designation="Google Solution Challenge is a global annual competition for
                   university students to solve for one or more of the United
@@ -143,7 +148,7 @@ const MuLanding = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default MuLanding;
+export default MuLanding
