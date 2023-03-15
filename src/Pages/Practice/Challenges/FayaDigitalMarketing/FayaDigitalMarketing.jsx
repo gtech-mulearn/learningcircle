@@ -30,24 +30,16 @@ const FayaDigitalMarketing = () => {
                   />
                 </div>
               </div>
-              {/* <div className={styles.buttons}>
-                <a
-                  href="https://airtable.com/shruzfIc8SR4BLCg2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className={styles.joinchallenge}>Register</button>
-                </a>
-                <a
-                  href="https://forms.gle/MTgBoNJd7RMhs3yc8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className={styles.joinchallenge}>
-                    Upload Solution
-                  </button>
-                </a>
-              </div> */}
+
+              <a
+                href="https://mulearn.org/careers"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={styles.joinchallenge}>
+                  Visit Career Labs
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -56,7 +48,7 @@ const FayaDigitalMarketing = () => {
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>These are you Challenges</p>
               <p className={styles.fv_content}>
-                Is "mastering over words" your superpower? If so, complete the
+                Is "mastery over words" your superpower? If so, complete the
                 challenge and prove it.
               </p>
             </div>

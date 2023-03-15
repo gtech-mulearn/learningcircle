@@ -46,7 +46,7 @@ const MuLanding = () => {
                   name="Digital Marketing Writer Challenge"
                   designation=" A digital marketing writer is a skilled communicator who creates
                   compelling and informative content to promote brands and
-                  products across various digital channels.Is mastering over words your superpower? If so, complete the
+                  products across various digital channels.Is mastery over words your superpower? If so, complete the
                   challenge and prove it."
                   mclink="/challenge/digitalmarketing"
                 />

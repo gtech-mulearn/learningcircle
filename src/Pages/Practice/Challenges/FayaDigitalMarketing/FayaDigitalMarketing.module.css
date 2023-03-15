@@ -138,14 +138,30 @@
   max-width: 30rem;
 }
 
+a {
+  display: initial;
+  vertical-align: initial;
+  white-space: initial;
+  max-width: 100%;
+}
+
+.joinchallenge {
+  background-color: #f6842c;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
 .supporters {
   color: #404040;
   margin-top: 1rem;
   margin-bottom: 2vh;
   display: flex;
   align-items: center;
- text-align: center;
- justify-content: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .supporters span {
