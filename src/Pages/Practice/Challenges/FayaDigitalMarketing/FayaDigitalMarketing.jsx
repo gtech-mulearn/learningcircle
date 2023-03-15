@@ -15,12 +15,21 @@ const FayaDigitalMarketing = () => {
                 Digital Marketing <span>Challenge </span>
               </p>
               <p className={styles.fv_content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                deleniti facilis sit ullam, porro assumenda ad praesentium
-                voluptatem, magni repellendus exercitationem natus laudantium
-                pariatur dolorum?
+                A digital marketing writer is a skilled communicator who creates
+                compelling and informative content to promote brands and
+                products across various digital channels.
+                <br />
               </p>
-
+              <div class={styles.supporters}>
+                <span>Supported By </span>
+                <div className={styles.s_images}>
+                  <img
+                    src="/assets/challenge/faya.jpg"
+                    alt="Faya"
+                    class={styles.supporter}
+                  />
+                </div>
+              </div>
               {/* <div className={styles.buttons}>
                 <a
                   href="https://airtable.com/shruzfIc8SR4BLCg2"
@@ -45,10 +54,10 @@ const FayaDigitalMarketing = () => {
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>These are you Tasks</p>
+              <p className={styles.sv_heading}>These are you Challenges</p>
               <p className={styles.fv_content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                deleniti facilis sit ullam.
+                Is "mastering over words" your superpower? If so, complete the
+                challenge and prove it.
               </p>
             </div>
           </div>

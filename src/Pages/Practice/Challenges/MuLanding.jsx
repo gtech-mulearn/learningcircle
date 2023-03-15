@@ -44,7 +44,10 @@ const MuLanding = () => {
               <div className={styles.mentors}>
                 <MentorCard
                   name="Digital Marketing Writer Challenge"
-                  designation="lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti facilis sit ullam, porro assumenda ad praesentium voluptatem, magni repellendus exercitationem natus laudantium pariatur dolorum?"
+                  designation=" A digital marketing writer is a skilled communicator who creates
+                  compelling and informative content to promote brands and
+                  products across various digital channels.Is mastering over words your superpower? If so, complete the
+                  challenge and prove it."
                   mclink="/challenge/digitalmarketing"
                 />
                 <MentorCard
