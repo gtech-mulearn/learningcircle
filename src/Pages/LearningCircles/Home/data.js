@@ -2363,7 +2363,7 @@ const InterestGroups = [
   {
     comingsoon: "true",
     id: "innovent",
-    interestgroup: "Innovation & Entrepreneurship ",
+    interestgroup: "Innovation & Entrepreneurship",
 
     interestgroupdescription:
       "Join Innovation and Entrepreneurship today to experience the joy of building something unique, taking risks, and making good decisions. Drive innovation by introducing new ideas and utilizing cutting-edge technology to solve problems and meet customer needs.",
