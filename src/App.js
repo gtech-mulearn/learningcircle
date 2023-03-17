@@ -60,6 +60,7 @@ import MarathonChallenge from "./Pages/Practice/Challenges/MarathonChallenge/Mar
 import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge"
 import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/Template/CivilInterestGroup"
 import GoogleSolutionsChallenge from "./Pages/Practice/Challenges/GoogleSolutionsChallenge/GoogleSolutionsChallenge"
+import FayaDigitalMarketing from "./Pages/Practice/Challenges/FayaDigitalMarketing/FayaDigitalMarketing"
 
 function App() {
   //Home Page state Variables
@@ -309,6 +310,10 @@ function App() {
             element={<CoursePage CourseData={CommonData} />}
           />
           <Route path="/android/core/learnkotlin" element={<AndroidKotlin />} />
+          <Route
+            path="/challenge/digitalmarketing"
+            element={<FayaDigitalMarketing />}
+          />
 
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />
