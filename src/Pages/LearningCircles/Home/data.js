@@ -2362,11 +2362,11 @@ const InterestGroups = [
   },
   {
     comingsoon: "true",
-    id: "innovation",
-    interestgroup: "Innovation",
+    id: "innovent",
+    interestgroup: "Innovation & Entrepreneurship ",
 
     interestgroupdescription:
-      "Startups drive innovation by introducing new ideas and challenging established players. They utilize cutting-edge technology and unique business models to solve problems and meet customer needs. Join our interest group to learn more about this dynamic field.",
+      "Join Innovation and Entrepreneurship today to experience the joy of building something unique, taking risks, and making good decisions. Drive innovation by introducing new ideas and utilizing cutting-edge technology to solve problems and meet customer needs.",
     basicenablementtasks: [],
     corecourses: [
       {
@@ -2714,68 +2714,6 @@ const InterestGroups = [
         karma: "",
       },
     ],
-    corecourses: [],
-    subcourses: [],
-    "": {},
-  },
-  {
-    id: "entrepreneurship",
-    interestgroup: "Entrepreneurship",
-    interestgroupdescription:
-      "The joy of starting from scratch and building something unique is special!Entrepreneurship involves understanding your business, developing it, taking risks and making good decisions. If you’ve always wanted to build something unique, Join the Entrepreneurship Interest Group today.",
-    officetime: "Saturday 7:00pm",
-    thinktankplace: " @ Google Meet",
-    // thinktanktime: "",
-    comingsoon: "true",
-    officeplace: " @ Discord Lobby",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "marketing",
-        name: "< Marketing",
-      },
-      {
-        id: "strategicleadership",
-        name: "Strategic Leadership >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
-  },
-  {
-    id: "strategicleadership",
-    interestgroup: "Strategic Leadership",
-    interestgroupdescription:
-      "Good Leaders lead the way and ensure all voices are heard.Regardless of what you do, possessing good leadership qualities is an ultimate advantage.Join the Interest Group to interact with Industry Leaders and like minded peers, and become a true leader.",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "",
-    officetime: "Sunday 7:00pm",
-    comingsoon: "true",
-    officeplace: " @ Discord Lobby",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "entrepreneurship",
-        name: "< Entrepreneurship",
-      },
-      {
-        id: "projectmanagment",
-        name: "Project Management >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
     corecourses: [],
     subcourses: [],
     "": {},
