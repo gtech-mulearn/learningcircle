@@ -1,0 +1,128 @@
+.upperCardContainer,.showNameFirstCharacter,.projectDetails,.button,.lowerCardContainer{
+    display: flex;
+}
+.eventName,.projectMembers{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.projectCardContainer {
+/*Box model stuff*/
+    padding:15px;
+    border-radius: 15px;
+    background-color: white;
+/*Typography stuff*/
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+/*Miscellaneous*/
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.1);
+}
+.eventName{
+/*Box model stuff*/
+    width:50px;
+}
+
+.showProfilePic {
+/*Box model stuff*/
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+    border-radius: 50%;
+/*Miscellaneous*/
+    overflow: hidden;
+
+}
+
+.showNameFirstCharacter{
+/*Display stuff*/
+    align-items: center;
+    justify-content: center;
+/*Box model stuff*/
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.104);
+    border-radius: 50%;
+/*Typography stuff*/
+    font-size: 25px;
+    text-align: center;
+}
+
+.showProfilePic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.projectDetails {
+/*Display stuff*/
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.projectTitle {
+/*Typography stuff*/
+    font-size: 20px;
+}
+
+.projectMembers {
+/*Box model stuff*/
+    width: 150px;
+    height: 16px;
+/*Typography stuff*/
+    font-size: 12px;
+}
+
+.lowerCardContainer {
+/*Display stuff*/
+/*Box model stuff*/
+    margin-top: 20px;
+}
+
+.button {
+/*Display stuff*/
+    align-items: center;
+/*Box model stuff*/
+    margin-right: 15px;
+    padding: 5px 15px;
+    border-radius: 40px;
+    background: #D9D9D9;
+/*Typography stuff*/
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+/*Miscellaneous*/
+    user-select: none;
+}
+.button:hover {
+/*Miscellaneous*/
+    cursor: pointer;
+}
+.button:active {
+/*Box model stuff*/
+    background-color: rgb(179, 179, 179);
+/*Manipulations stuff*/
+    transform: scale(0.95);
+    transition: transform 100ms;
+}
+.projectTag:active {
+/*Box model stuff*/
+    background-color: #D9D9D9;
+/*Manipulations stuff*/
+    transform: scale(1);
+}
+.projectTag:hover {
+/*Miscellaneous*/
+    cursor: auto;
+}
+.iconImage {
+    width: 13px;
+    height: 13px;
+    margin: 0 5px;
+}
+
+.iconImage img {
+    width: 100%;
+    height: 100%;
+}

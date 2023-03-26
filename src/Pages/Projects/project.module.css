@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.projectsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    padding: 35px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.111);
+}
+
+.addDash{
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+
+.projectsPreviewContainer,.allProjectsPreviewer,
+.eventContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.allProjectsPreviewer,
+.eventContainer {
+    flex-wrap: wrap;
+    gap: 20px;
+    width:90%;
+    margin-bottom: 25px;
+}
+.eventsPreviewer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.oneEventPreviewer{
+    display: flex;
+    justify-content: end;
+    border-top-width:2px ;
+    border-bottom-width: 2px;
+    padding:8px 0;
+    margin-bottom: 8px;
+}
+.hideOneEventPreviewer{
+    display: none;
+}
+.eventContainer {
+    padding-left: 5px;
+    width: 100%;
+}
+.eventName{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+}
+
+.eventCloseIcon{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding-right: 12px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .secondaryContainer,
+    .eventContainer {
+        width: 90%;
+        justify-content: center;
+    }
+
+}
