@@ -19,6 +19,7 @@ import CybersecData from "./Pages/InterestGroups/Course/cybersec"
 import PmData from "./Pages/InterestGroups/Course/pm"
 import UiuxData from "./Pages/InterestGroups/Course/uiux"
 import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
+import BlockchainData from "./Pages/InterestGroups/Course/blockchain"
 
 //Bootcamp Section
 import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome"
@@ -57,6 +58,9 @@ import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimu
 import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn"
 import MarathonChallenge from "./Pages/Practice/Challenges/MarathonChallenge/MarathonChallenge"
 import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge"
+import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/Template/CivilInterestGroup"
+import GoogleSolutionsChallenge from "./Pages/Practice/Challenges/GoogleSolutionsChallenge/GoogleSolutionsChallenge"
+import FayaDigitalMarketing from "./Pages/Practice/Challenges/FayaDigitalMarketing/FayaDigitalMarketing"
 
 function App() {
   //Home Page state Variables
@@ -214,6 +218,10 @@ function App() {
               />
             }
           />
+          <Route
+            path="/civil/:id"
+            element={<CivilInterestGroup setInterest={setInterest} />}
+          />
 
           <Route
             path="/gettingstarted/:id"
@@ -263,9 +271,10 @@ function App() {
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}
           />
+          <Route path="/challenge/marathon" element={<MarathonChallenge />} />
           <Route
-            path="/challenge/marathon"
-            element={<MarathonChallenge />}
+            path="/challenge/googlesolution"
+            element={<GoogleSolutionsChallenge />}
           />
           <Route
             path="/web/:type/:id"
@@ -291,11 +300,20 @@ function App() {
             path="/cybersec/:type/:id"
             element={<CoursePage CourseData={CybersecData} />}
           />
+
+          <Route
+            path="/blockchain/:type/:id"
+            element={<CoursePage CourseData={BlockchainData} />}
+          />
           <Route
             path="/common/:type/:id"
             element={<CoursePage CourseData={CommonData} />}
           />
           <Route path="/android/core/learnkotlin" element={<AndroidKotlin />} />
+          <Route
+            path="/challenge/digitalmarketing"
+            element={<FayaDigitalMarketing />}
+          />
 
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />

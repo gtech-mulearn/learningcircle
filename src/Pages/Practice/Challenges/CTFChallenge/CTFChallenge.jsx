@@ -23,7 +23,7 @@ const CTFChallenge = () => {
                 to do to secure your entry is to crack this preliminary task
               </p>
               <p className={styles.late_date}>
-                Late Date of Submission: 4th March 2023
+                Late Date of Submission: 6th March 2023
               </p>
               <div className={styles.buttons}>
                 <a

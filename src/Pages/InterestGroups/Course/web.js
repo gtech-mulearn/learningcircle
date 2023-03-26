@@ -49,6 +49,26 @@ const WebData = [
         example:
           "Hey! I’ve completed Back End Development and APIs Certification. Here’s is my course certificate. #cl-web-backend",
       },
+      {
+        id: "5",
+        name: "Django - Beginner Level",
+        karma: "400",
+        description:
+          "Django is a powerful and popular web development framework that makes it easy to build robust, scalable, and secure web applications quickly. Whether you're a beginner or an experienced programmer, this course will provide you with a solid foundation in Django and help you get started with building web applications.By the end of this course, you will build your own Task board application using Django and contribute to the thriving Django community. So let's get started and explore the wonderful world of Django!",
+        link: "https://youtu.be/OTmQOjsl0eg",
+        inner_description:
+          "After course completion, submit the Github repository link and hosted link of your assignment in #web-and-mobile-app-development channel of µLearn Discord server with hashtag #web-task-board-django to avail 400 karma points.",
+        example:
+          "Hey! I’ve built Task Board Application. Here is my Github repository link and hosted link. #web-task-board-django",
+        assignment: [
+          {
+            assignment_description:
+              "Now let’s  put our skills into action. You will be building a task board application. Click here to view more details",
+            assignment_inner_description: "",
+            link: "https://mulearn.notion.site/View-Assignment-2f07089d9c6b4edbb8dfbd77e43d12bd",
+          },
+          ],  
+      },
     ],
     sub: [
       {
@@ -67,7 +87,7 @@ const WebData = [
             assignment_description:
               "Just like knowing how to use the Command Line, Git & Github will be very important in your daily workflow as a programmer / developer. Let’s put your Git and Github skills to practice! Find the assignment below.",
             assignment_inner_description: "",
-            link: "https://mulearn.notion.site/Assignment-6cc865e1fc85409d985fd64a4a05519a",
+            link: "https://mulearn.notion.site/Git-GitHub-b8a840efb00845d2a2ab1c2877b1952c",
           },
         ],
       },
