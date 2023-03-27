@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import ReactTimeAgo from "react-time-ago";
 import TimeAgo from "javascript-time-ago";
 import en from "javascript-time-ago/locale/en";
-import { Link } from "react-router-dom";
 
 const Notification = () => {
     TimeAgo.setDefaultLocale(en.locale);
@@ -34,11 +33,11 @@ const Notification = () => {
                         </div>
                     ))}
             </div>
-            <Link to="/notifications">
+            <a target="_blank" href="/notifications">
                 <div className=" px-5 py-3 border-y text-orange-500 text-sm bg-[rgba(255,255,255,.2)] text-center select-none ">
                     View All
                 </div>
-            </Link>
+            </a>
         </>
     );
 };

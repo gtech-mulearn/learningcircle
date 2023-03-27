@@ -1,6 +1,5 @@
 import React from "react";
 import NavLinks from "./NavLinks";
-import { Link } from "react-router-dom";
 import Notification from "./Notification";
 import { links } from "./Mylinks";
 import SearchBar from "./SearchBar";
@@ -49,8 +48,8 @@ export const MobileMenu = ({ setNotificationOpen, setOpen, handleScrolling, open
         >
             <NavLinks />
             <li>
-                <Link
-                    to="/careers"
+                <a
+                    href="https://mulear.org/careers"
                     className="py-7 px-7 inline-block uppercase hover:text-orange-500 text-[13px]"
                     onClick={() => {
                         setOpen(false);
@@ -59,7 +58,7 @@ export const MobileMenu = ({ setNotificationOpen, setOpen, handleScrolling, open
                     }}
                 >
                     Career
-                </Link>
+                </a>
             </li>
 
             <div className="grid justify-items-center">
