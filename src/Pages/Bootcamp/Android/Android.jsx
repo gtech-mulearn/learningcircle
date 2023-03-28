@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./Android.module.css";
+import React from "react"
+import styles from "./Android.module.css"
 
-import Navbar from "../../../Components/Navbar/Navbar";
-import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar"
+import Footer from "../../../Components/Footer/Footer"
 
 const Android = () => {
   return (
@@ -108,11 +108,11 @@ const Android = () => {
                       </p>
                     </b>
                     <p className={styles.sample_message}>
+                      <b>#cl-github-readme</b>
                       Hey! I've completed my GitHub readme. Here's my profile.{" "}
                       <br />
                       <b> https://github.com/Dexters-Hub</b>
                       <br />
-                      <b>#cl-github-readme</b>
                       in the #students channel.
                     </p>
                     <br />
@@ -281,11 +281,11 @@ const Android = () => {
                       </p>
                     </b>
                     <p className={styles.sample_message}>
+                      <b>#cl-exercism-kotlin-21.</b>
                       Hey! I've reached Android Bootcamp Exercise 21. Here's my
                       progress. <br />
                       <b> https://exercism.org/profiles/ BijoMathewJose</b>
                       <br />
-                      <b>#cl-exercism-kotlin-21.</b>
                     </p>
                     <br />
                     <img
@@ -303,7 +303,7 @@ const Android = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Android;
+export default Android

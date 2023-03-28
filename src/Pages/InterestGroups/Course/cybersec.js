@@ -11,7 +11,7 @@ const CybersecData = [
         inner_description:
           "After course completion, share the certificate in #cybersecurity channel with hashtag #cl-cybersecurity-intro to avail 200 Karma Points",
         example:
-          "Hey I’ve completed the Introduction to Cybersecurity course. Here’s my certificate. #cl-cybersecurity-intro",
+          "#cl-cybersecurity-intro Hey I’ve completed the Introduction to Cybersecurity course. Here’s my certificate.",
       },
       // {
       //   id: "2",
@@ -47,6 +47,6 @@ const CybersecData = [
       //   },
     ],
   },
-];
+]
 
-export default CybersecData;
+export default CybersecData

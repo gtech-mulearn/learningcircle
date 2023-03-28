@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./Flutter.module.css";
+import React from "react"
+import styles from "./Flutter.module.css"
 
-import Navbar from "../../../Components/Navbar/Navbar";
-import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar"
+import Footer from "../../../Components/Footer/Footer"
 
 const Flutter = () => {
   return (
@@ -219,11 +219,11 @@ const Flutter = () => {
                         </p>
                       </b>
                       <p className={styles.sample_message}>
+                        <b>#cl-exercism-dart-10</b>
                         Hey! I've reached Dart Bootcamp Exercise 21. Here's my
                         progress. <br />
                         <b> https://exercism.org/profiles/ BijoMathewJose</b>
                         <br />
-                        <b>#cl-exercism-dart-10</b>
                       </p>
                       <br />
                       <img
@@ -242,7 +242,7 @@ const Flutter = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Flutter;
+export default Flutter
