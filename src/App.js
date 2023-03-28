@@ -20,6 +20,8 @@ import PmData from "./Pages/InterestGroups/Course/pm"
 import UiuxData from "./Pages/InterestGroups/Course/uiux"
 import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
 import BlockchainData from "./Pages/InterestGroups/Course/blockchain"
+import AutoCADData from "./Pages/InterestGroups/Course/autocad"
+import RevitData from "./Pages/InterestGroups/Course/revit"
 
 //Bootcamp Section
 import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome"
@@ -308,6 +310,14 @@ function App() {
           <Route
             path="/common/:type/:id"
             element={<CoursePage CourseData={CommonData} />}
+          />
+          <Route
+            path="/civil/autocad/:type/:id"
+            element={<CoursePage CourseData={AutoCADData} />}
+          />
+          <Route
+            path="/civil/revit/:type/:id"
+            element={<CoursePage CourseData={RevitData} />}
           />
           <Route path="/android/core/learnkotlin" element={<AndroidKotlin />} />
           <Route

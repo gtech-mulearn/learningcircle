@@ -12,6 +12,37 @@ const InterestGroups = [
         images: "/assets/interestGroups/AbhijithES.webp",
       },
     ],
+    keywords: [
+      {
+        id: "1",
+        keyword: "AutoCad",
+      },
+      {
+        id: "2",
+        keyword: "AutoDesk",
+      },
+      {
+        id: "3",
+        keyword: "Civil Engineering",
+      },
+      {
+        id: "4",
+        keyword: "Drafting",
+      },
+      {
+        id: "5",
+        keyword: "Designing",
+      },
+      {
+        id: "6",
+        keyword: "CAD",
+      },
+      {
+        id: "7",
+        keyword: "CAD Engineer",
+      },
+    ],
+    opportunities: ["Drafter", "Designer", "Quantity Surveyor"],
     officetime: "Wednesday 7:00 PM",
     officeplace: " @ Discord Lobby",
     pagination: [
@@ -28,8 +59,32 @@ const InterestGroups = [
     corecourses: [
       {
         id: "1",
+        name: "Autocad - Complete Course for Beginners",
+        link: "/civil/autocad/core/1",
+        time: "",
+        complexity: "",
+        karma: "",
+      },
+      {
+        id: "2",
+        name: "Autocad - Exercises",
+        link: "/civil/autocad/core/2",
+        time: "",
+        complexity: "",
+        karma: "",
+      },
+      {
+        id: "3",
         name: "Introduction to AutoCad ",
-        link: "https://mulearn.acadle.com/page/AutoCad",
+        link: "https://www.youtube.com/watch?v=cmR9cfWJRUU&list=PLcH1MIEuSvoGaHGEI_BnQ5In4R_NNOghG",
+        time: "",
+        complexity: "",
+        karma: "",
+      },
+      {
+        id: "4",
+        name: "Autodesk Certified Professional",
+        link: "https://www.coursera.org/learn/autodesk-autocad-design-drafting",
         time: "",
         complexity: "",
         karma: "",
@@ -87,8 +142,32 @@ const InterestGroups = [
     corecourses: [
       {
         id: "1",
-        name: "Introduction to Revit",
-        link: "https://mulearn.acadle.com/page/revit",
+        name: "Revit - Complete Tutorials",
+        link: "/civil/revit/core/1",
+        time: "",
+        complexity: "",
+        karma: "",
+      },
+      {
+        id: "1",
+        name: "Exercise to Model a House",
+        link: "https://www.youtube.com/watch?v=0uylIF0Pt5U&list=PLe_I-JWckL7Gp1UeZws0_Irmh7qFJiRYe",
+        time: "",
+        complexity: "",
+        karma: "",
+      },
+      {
+        id: "1",
+        name: "Revit for Architectural Design Exam Prep",
+        link: "https://www.coursera.org/learn/autodesk-revit-architectural-design",
+        time: "",
+        complexity: "",
+        karma: "",
+      },
+      {
+        id: "1",
+        name: "Revit for Structural Design Exam Prep",
+        link: "https://www.coursera.org/learn/autodesk-revit-for-structural-design-exam-prep",
         time: "",
         complexity: "",
         karma: "",
@@ -238,7 +317,7 @@ const InterestGroups = [
     challenges: [
       {
         id: "1",
-        name: "A real world BIM Project "
+        name: "A real world BIM Project ",
       },
     ],
   },
