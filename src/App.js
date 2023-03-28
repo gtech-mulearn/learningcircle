@@ -63,6 +63,8 @@ import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge"
 import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/Template/CivilInterestGroup"
 import GoogleSolutionsChallenge from "./Pages/Practice/Challenges/GoogleSolutionsChallenge/GoogleSolutionsChallenge"
 import FayaDigitalMarketing from "./Pages/Practice/Challenges/FayaDigitalMarketing/FayaDigitalMarketing"
+import InnovationDesignChallenge from "./Pages/Practice/Challenges/InnovationDesign/InnovationDesignChallenge"
+import DesignChallenge from "./Pages/Practice/Challenges/DesignChallenge/DesignChallenge"
 
 function App() {
   //Home Page state Variables
@@ -277,6 +279,14 @@ function App() {
           <Route
             path="/challenge/googlesolution"
             element={<GoogleSolutionsChallenge />}
+          />
+          <Route
+            path="/challenge/innovationdesign"
+            element={<InnovationDesignChallenge />}
+          />
+          <Route
+            path="/challenge/designchallenge"
+            element={<DesignChallenge />}
           />
           <Route
             path="/web/:type/:id"
