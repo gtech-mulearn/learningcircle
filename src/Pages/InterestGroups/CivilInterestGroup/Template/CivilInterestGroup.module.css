@@ -362,3 +362,43 @@
     margin: 6rem;
   }
 }
+
+.otherresources_container {
+  max-width: 30rem;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.steps {
+  margin-left: 20px;
+  list-style: decimal;
+}
+
+.step {
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #f6842c;
+}
+
+.note-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.notes {
+  margin-left: 20px;
+}
+
+.note {
+  list-style: decimal;
+}
