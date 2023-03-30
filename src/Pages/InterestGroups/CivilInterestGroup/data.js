@@ -59,22 +59,6 @@ const InterestGroups = [
     corecourses: [
       {
         id: "1",
-        name: "Autocad - Complete Course for Beginners",
-        link: "/civil/autocad/core/1",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "2",
-        name: "Autocad - Exercises",
-        link: "/civil/autocad/core/2",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "3",
         name: "Introduction to AutoCad ",
         link: "https://www.youtube.com/watch?v=cmR9cfWJRUU&list=PLcH1MIEuSvoGaHGEI_BnQ5In4R_NNOghG",
         time: "",
@@ -82,7 +66,32 @@ const InterestGroups = [
         karma: "",
       },
       {
+        id: "2",
+        name: "Autocad - Complete Course for Beginners",
+        link: "/civil/autocad/core/1",
+        time: "",
+        complexity: "",
+        karma: "",
+      },
+      {
+        id: "3",
+        name: "Autocad - Floor Plan + Elevation",
+        link: "/civil/autocad/core/2",
+        time: "",
+        complexity: "",
+        karma: "",
+      },
+      {
         id: "4",
+        name: "Autocad - Exercises",
+        link: "/civil/autocad/core/3",
+        time: "",
+        complexity: "",
+        karma: "",
+      },
+
+      {
+        id: "5",
         name: "Autodesk Certified Professional",
         link: "https://www.coursera.org/learn/autodesk-autocad-design-drafting",
         time: "",
@@ -142,7 +151,7 @@ const InterestGroups = [
       {
         id: "1",
         name: "Exercise to Model a House",
-        link: "https://www.youtube.com/watch?v=0uylIF0Pt5U&list=PLe_I-JWckL7Gp1UeZws0_Irmh7qFJiRYe",
+        link: "/civil/revit/core/2",
         time: "",
         complexity: "",
         karma: "",
@@ -295,13 +304,7 @@ const InterestGroups = [
       "BIM Designer",
       "BIM Manager",
       "Bim Coordinator – Civil 3d",
-    ],
-    challenges: [
-      {
-        id: "1",
-        name: "A real world BIM Project ",
-      },
-    ],
+    ]
   },
   {
     id: "bim",
