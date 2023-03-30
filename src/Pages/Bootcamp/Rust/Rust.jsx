@@ -113,7 +113,7 @@ const Rust = () => {
                       <div className="timeline__event__title">Step Three</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 25 in #cloud-and-devops channel with hashtag{" "}
+                        level 25 in #cloud-and-devops channel with hashtag{" "} first
                         <b>&nbsp;#cl-exercism-rust-25</b> to avail{" "}
                         <b>200 karma points.</b>
                         <br />
@@ -132,7 +132,7 @@ const Rust = () => {
                       <div className="timeline__event__title">Step Four</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 51 in #cloud-and-devops channel with hashtag
+                        level 51 in #cloud-and-devops channel with hashtag first
                         <b>&nbsp;#cl-exercism-rust-51</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
@@ -188,11 +188,12 @@ const Rust = () => {
                       </p>
                     </b>
                     <p className={styles.sample_message}>
+                    <b>#cl-exercism-rust-25</b>
                       Hey! I've reached Rust Bootcamp Exercise 25. Here's my
                       progress. <br />
                       <b> https://exercism.org/profiles/ BijoMathewJose</b>
                       <br />
-                      <b>#cl-exercism-rust-25</b>
+                      
                     </p>
                     <br />
                     <img

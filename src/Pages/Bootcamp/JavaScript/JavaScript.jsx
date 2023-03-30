@@ -206,11 +206,12 @@ const JavaScript = () => {
                         </p>
                       </b>
                       <p className={styles.sample_message}>
+                      <b>#cl-exercism-javascript-28</b>
                         Hey! I've reached JavaScript Bootcamp Exercise 28.
                         Here's my progress. <br />
                         <b> https://exercism.org/profiles/ BijoMathewJose</b>
                         <br />
-                        <b>#cl-exercism-javascript-28</b>
+                       
                       </p>
                       <br />
                       <img

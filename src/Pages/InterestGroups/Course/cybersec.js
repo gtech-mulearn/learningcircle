@@ -35,7 +35,7 @@ const CybersecData = [
       //     inner_description:
       //       "Now if you go to the pull requests tab in GTech µLearn repo, you’ll be able to see your pull request. Open it and copy your pull request URL.",
       //     example:
-      //       "Submit the link in #android-development channel with the hashtag, #android-git-github",
+      //       "Submit the link in #android-development channel with the hashtag, #android-git-github" at the beginning,
       //     assignment: [
       //       {
       //         assignment_description:

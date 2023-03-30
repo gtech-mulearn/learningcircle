@@ -17,7 +17,7 @@ const UIUXData = [
             assignment_inner_description:
               "Submit your assignment link in #ui-ux channel in MuLearn Discord server with hashtag #ui-product-design to claim Karma Points",
             example:
-              "Hey I’ve completed Product Design Course by Google. Here’s my assignment link #ui-product-design",
+              "#ui-product-design Hey I’ve completed Product Design Course by Google. Here’s my assignment link ",
           },
         ],
       },
@@ -37,7 +37,7 @@ const UIUXData = [
             assignment_inner_description:
               "Submit your design file url in #ui-ux channel in MuLearn Discord server with hashtag #ux-intro to claim Karma Points",
             example:
-              "Hey I’ve completed Introduction to User Experience course. Checkout my assignment ui-intro-to-ux",
+              "#ux-intro Hey I’ve completed Introduction to User Experience course. Checkout my assignment ui-intro-to-ux",
           },
         ],
       },
@@ -59,7 +59,7 @@ const UIUXData = [
             assignment_inner_description:
               "Submit your assignment link in #ui-ux channel in µLearn Discord server with hashtag #ui-figma to claim Karma Points",
             example:
-              "Hey I’ve completed the Figma Assignment. Here’s my assignment url #ui-figma",
+              "#ui-figma Hey I’ve completed the Figma Assignment. Here’s my assignment url ",
           },
         ],
       },

@@ -99,32 +99,32 @@ const Python = () => {
               <p className={styles.tv_content}>
                 You may earn karma points by submitting a screenshot or
                 assignment link in the #pygrammers channel of our discord
-                server, along with the appropriate hashtag.
+                server, along with the appropriate hashtag at the beginning.
               </p>
             </div>
             <div className={styles.hastags}>
               <ul>
                 <li className={styles.level}>
                   - Post the screenshot of your assignent when you reach Day-6
-                  in #pygrammers channel with hashtag <b>#cl-padikka-py-1</b> to
+                  in #pygrammers channel with hashtag <b>#cl-padikka-py-1</b> first  to
                   avail 200 karma points.
                 </li>
                 <li className={styles.level}>
                   {" "}
                   - Post the screenshot of your assignent when you reach Day-12
-                  in #pygrammers channel with hashtag <b>#cl-padikka-py-2</b> to
+                  in #pygrammers channel with hashtag <b>#cl-padikka-py-2</b> first  to
                   avail 200 karma points.
                 </li>
                 <li className={styles.level}>
                   {" "}
                   - Post the screenshot of your assignent when you reach Day-18
-                  in #pygrammers channel with hashtag <b>#cl-padikka-py-3</b> to
+                  in #pygrammers channel with hashtag <b>#cl-padikka-py-3</b> first to
                   avail 200 karma points.
                 </li>
                 <li className={styles.level}>
                   {" "}
                   - Post the screenshot of your assignent when you reach Day-22
-                  in #pygrammers channel with hashtag <b>#cl-padikka-py-4</b> to
+                  in #pygrammers channel with hashtag <b>#cl-padikka-py-4</b> first to
                   avail 200 karma points.
                 </li>
               </ul>

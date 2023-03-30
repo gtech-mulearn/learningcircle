@@ -260,7 +260,7 @@ const Android = () => {
                       <div className="timeline__event__title">Step Six</div>
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
-                        level 85 in #android-development channel with hashtag
+                        level 85 in #android-development channel with hashtag first
                         <b>&nbsp;#cl-exercism-kotlin-85</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
@@ -281,11 +281,12 @@ const Android = () => {
                       </p>
                     </b>
                     <p className={styles.sample_message}>
+                    <b>#cl-exercism-kotlin-21.</b>
                       Hey! I've reached Android Bootcamp Exercise 21. Here's my
                       progress. <br />
                       <b> https://exercism.org/profiles/ BijoMathewJose</b>
                       <br />
-                      <b>#cl-exercism-kotlin-21.</b>
+                      
                     </p>
                     <br />
                     <img

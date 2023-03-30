@@ -11,7 +11,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in the #web-and-mobile-app-development channel of the µLearn Discord server with the hashtag #cl-web-responsive to avail karma points.",
         example:
-          "Hey! I’ve completed Responsive Web Design Certification. Here’s is my course certificate. #cl-web-responsive",
+          "#cl-web-responsive  Hey! I’ve completed Responsive Web Design Certification. Here’s is my course certificate. ",
       },
       {
         id: "2",
@@ -23,7 +23,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord Server with hashtag #cl-web-javascript to avail karma points.",
         example:
-          "Hey! I’ve completed JavaScript Algorithm and Data Structures Certification. Here’s is my course certificate. #cl-web-javascript",
+          "#cl-web-javascript Hey! I’ve completed JavaScript Algorithm and Data Structures Certification. Here’s is my course certificate. ",
       },
       {
         id: "3",
@@ -35,7 +35,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord server  with hashtag #cl-web-frontend to avail karma points.",
         example:
-          "Hey! I’ve completed Front End Development Libraries Certification. Here’s is my course certificate. #cl-web-frontend",
+          "#cl-web-frontend Hey! I’ve completed Front End Development Libraries Certification. Here’s is my course certificate. ",
       },
       {
         id: "4",
@@ -47,7 +47,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord server  with hashtag #cl-web-backend to avail karma points.",
         example:
-          "Hey! I’ve completed Back End Development and APIs Certification. Here’s is my course certificate. #cl-web-backend",
+          "#cl-web-backend Hey! I’ve completed Back End Development and APIs Certification. Here’s is my course certificate. ",
       },
     ],
     sub: [
