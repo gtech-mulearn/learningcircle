@@ -95,9 +95,10 @@ const IntroToMarkdown = () => {
               </div>
             </div>
             <ExampleMsg
+             hashtag="#ge-intro-to-markdown"
               linkText="Hi! I've completed the Intro to Markdown course."
               link="https://github.com/Angelrose19/intro-to-markdown"
-              hashtag="#ge-intro-to-markdown"
+             
             />
           </div>
         </div>

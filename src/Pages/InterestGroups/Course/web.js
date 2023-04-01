@@ -11,7 +11,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in the #web-and-mobile-app-development channel of the µLearn Discord server with the hashtag #cl-web-responsive to avail karma points.",
         example:
-          "#cl-web-responsive Hey! I’ve completed Responsive Web Design Certification. Here’s is my course certificate. ",
+          "#cl-web-responsive  Hey! I’ve completed Responsive Web Design Certification. Here’s is my course certificate. ",
       },
       {
         id: "2",
@@ -47,7 +47,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord server  with hashtag #cl-web-backend to avail karma points.",
         example:
-          "#cl-web-backendHey! I’ve completed Back End Development and APIs Certification. Here’s is my course certificate. ",
+          "#cl-web-backend Hey! I’ve completed Back End Development and APIs Certification. Here’s is my course certificate. ",
       },
       {
         id: "5",
