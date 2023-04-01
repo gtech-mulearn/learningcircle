@@ -2223,7 +2223,7 @@ const InterestGroups = [
   },
   {
     id: "civil",
-    interestgroup: "Civil Engineeringg",
+    interestgroup: "Civil Engineering",
     interestgroupdescription:
       "Get ahead in your Civil Engineering career by joining GTech μlearn's Civil Interest Group. Learn AutoCAD, BIM, and Revit from industry experts. Gain hands-on experience and practical skills. Join us now to take the next step in your career.",
 
