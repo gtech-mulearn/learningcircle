@@ -71,7 +71,7 @@ const InterestGroups = [
         link: "/civil/autocad/core/1",
         time: "",
         complexity: "",
-        karma: "",
+        karma: "100",
       },
       {
         id: "3",
@@ -79,7 +79,7 @@ const InterestGroups = [
         link: "/civil/autocad/core/2",
         time: "",
         complexity: "",
-        karma: "",
+        karma: "100",
       },
       {
         id: "4",
@@ -87,7 +87,7 @@ const InterestGroups = [
         link: "/civil/autocad/core/3",
         time: "",
         complexity: "",
-        karma: "",
+        karma: "100",
       },
 
       {
@@ -114,7 +114,7 @@ const InterestGroups = [
       },
       {
         name: "Creating and Modifying Objects with Accuracy for Design and Drafting",
-        link: "Creating and Modifying Objects with Accuracy for Design and Drafting",
+        link: "https://www.autodesk.com/certification/learn/course/course-v1:autodesk+autocad-objects-design-drafting-professional+2021",
       },
       {
         name: "Layout and Output Drawings for Design and Drafting",
@@ -145,7 +145,7 @@ const InterestGroups = [
         name: "Revit - Complete Tutorials",
         link: "/civil/revit/core/1",
         time: "",
-        complexity: "",
+        complexity: "#cl-rv-planhome",
         karma: "",
       },
       {
@@ -153,7 +153,7 @@ const InterestGroups = [
         name: "Exercise to Model a House",
         link: "/civil/revit/core/2",
         time: "",
-        complexity: "",
+        complexity: "#cl-rv-modelhome",
         karma: "",
       },
       {
@@ -261,24 +261,7 @@ const InterestGroups = [
         karma: "",
       },
     ],
-    learningpaths: [
-      {
-        id: "1",
-        name: "BIM for Construction",
-        link: "https://www.edx.org/course/bim-for-construction",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "2",
-        name: "Introduction to Building Information Modelling",
-        link: "https://www.classcentral.com/course/bim-application-12117",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-    ],
+    learningpaths: [],
     blogs: [
       {
         id: "1",
@@ -304,7 +287,7 @@ const InterestGroups = [
       "BIM Designer",
       "BIM Manager",
       "Bim Coordinator – Civil 3d",
-    ]
+    ],
   },
   {
     id: "bim",
@@ -336,6 +319,14 @@ const InterestGroups = [
         id: "2",
         name: "BIM Application for Engineers",
         link: "https://www.classcentral.com/course/bim-application-12117",
+        time: "",
+        complexity: "",
+        karma: "",
+      },
+      {
+        id: "3",
+        name: "BIM for Construction",
+        link: "https://www.edx.org/course/bim-for-construction",
         time: "",
         complexity: "",
         karma: "",
@@ -468,14 +459,6 @@ const InterestGroups = [
         id: "2",
         name: "3D CAD Application",
         link: "https://www.coursera.org/learn/3d-cad-application",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "2",
-        name: "Construction Management Specialization",
-        link: "https://www.coursera.org/specializations/construction-management",
         time: "",
         complexity: "",
         karma: "",

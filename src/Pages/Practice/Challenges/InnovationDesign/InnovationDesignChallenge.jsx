@@ -62,7 +62,7 @@ const InnovationDesignChallenge = () => {
                       including photographs, and mention the
                       stakeholders/beneficiaries. Submit the document link in
                       the <b>#civil-engineering</b> channel with the hashtag
-                      #cl-home-problems.
+                      <b>#cl-ie-design1</b> to get 50 Karma Points
                     </div>
                   </div>
                 </div>
@@ -83,7 +83,8 @@ const InnovationDesignChallenge = () => {
                       the problem by asking questions and document it. Submit
                       the document, including questions and their responses
                       along with photographs, in the <b>#civil-engineering</b>{" "}
-                      channel with the hashtag <b>#cl-problem-survey.</b>
+                      channel with the hashtag <b>#cl-ie-design2</b> to get 50
+                      Karma Points
                     </div>
                   </div>
                 </div>
@@ -103,7 +104,8 @@ const InnovationDesignChallenge = () => {
                       solutions. Prepare a detailed document of the new design
                       and what values the improvement makes. Submit the
                       documentation link in the <b>#civil-engineering</b>{" "}
-                      channel with the hashtag <b>#cl-problem-solution.</b>
+                      channel with the hashtag <b>#cl-ie-design3</b> to get 50
+                      Karma Points.
                     </div>
                   </div>
                 </div>
@@ -122,7 +124,7 @@ const InnovationDesignChallenge = () => {
                       Prepare a sketch of the new/improved design and submit the
                       image in the <b>#civil-engineering</b> channel with the
                       hashtag
-                      <b>#cl-design-sketch</b>
+                      <b>#cl-ie-design4</b> to get 50 Karma Points
                     </div>
                   </div>
                 </div>
@@ -142,7 +144,8 @@ const InnovationDesignChallenge = () => {
                       product or design that contains the problem, solution, and
                       advantages. Submit the video in the{" "}
                       <b>#civil-engineering</b>
-                      channel with the hashtag <b>#cl-product-video.</b>
+                      channel with the hashtag <b>#cl-ie-design5</b> to get 50
+                      Karma Points
                     </div>
                   </div>
                 </div>
@@ -150,7 +153,11 @@ const InnovationDesignChallenge = () => {
             </div>
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message</p>
-              <p className={styles.sample_message}></p>
+              <p className={styles.sample_message}>
+                <b>#cl-ie-design5</b>
+                Hey, I have completed the mock-up model and here is my video of
+                the product [link].
+              </p>
             </div>
           </div>
         </div>

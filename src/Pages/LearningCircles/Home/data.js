@@ -2229,7 +2229,7 @@ const InterestGroups = [
 
     basicenablementtasks: [],
     learningpaths: [],
-    officetime: "Sunday 7:00 PM",
+    officetime: "Wednesday 7:00 PM",
     officeplace: " @ Discord Lobby",
     corecourses: [],
     coretracks: [
