@@ -1447,7 +1447,7 @@ const InterestGroups = [
     ],
   },
   {
-    comingsoon: "true",
+    comingsoon: true,
     id: "uiux",
     interestgroup: "User Interface and Experience (UI/UX)",
     interestgroupdescription:
@@ -1717,7 +1717,7 @@ const InterestGroups = [
         images: "assets/interestGroups/Vishnu Prathap.webp",
       },
     ],
-    comingsoon: "true",
+    comingsoon: true,
     opportunities: [],
     company: [],
     mentors: ["Vishnu Vijayan", "Akshay Jose"],
@@ -2232,6 +2232,7 @@ const InterestGroups = [
     officetime: "Wednesday 7:00 PM",
     officeplace: " @ Discord Lobby",
     corecourses: [],
+    comingsoon: true,
     coretracks: [
       {
         id: "/civil/revit",
@@ -2376,7 +2377,7 @@ const InterestGroups = [
       },
     ],
     officetime: "Monday 7:30 PM",
-    comingsoon: "true",
+    comingsoon: true,
     thinktankplace: " @ Google Meet",
     thinktanktime: " Sunday 9:30PM",
     officeplace: " @ Discord Lobby",
@@ -2395,7 +2396,7 @@ const InterestGroups = [
     ],
   },
   {
-    comingsoon: "true",
+    comingsoon: true,
     id: "innovent",
     interestgroup: "Innovation & Entrepreneurship",
     interestgroupdescription:
@@ -2659,7 +2660,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
     officetime: "Tuesday 6:00pm",
-    comingsoon: "true",
+    comingsoon: true,
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Monday 6:00 PM",
@@ -2690,7 +2691,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Think you have the skill to market any product? Join the Marketing Interest Group to learn latest marketing strategies, interact with Marketing experts and develop some much needed experience in the field.",
     officetime: "Saturday and Sunday 8:00pm",
-    comingsoon: "true",
+    comingsoon: true,
     officeplace: " @ Discord Lobby",
     // thinktankplace: " @ Google Meet",
     // thinktanktime: "Monday 6:00 PM",
@@ -2745,7 +2746,7 @@ const InterestGroups = [
     "": {},
   },
   {
-    comingsoon: "true",
+    comingsoon: true,
     id: "projectmanagment",
     interestgroup: "Project Management",
     interestgroupdescription:
@@ -2870,7 +2871,7 @@ const InterestGroups = [
     community: [],
     company: [""],
     trendingprojects: [],
-    comingsoon: "true",
+    comingsoon: true,
     resources: [],
     pagination: [
       {

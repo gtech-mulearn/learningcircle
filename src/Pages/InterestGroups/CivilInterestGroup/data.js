@@ -2,6 +2,7 @@ const InterestGroups = [
   {
     id: "autocad",
     interestgroup: "AutoCAD",
+    comingsoon: true,
     interestgroupdescription:
       "AutoCAD is a computer-aided design (CAD) software application developed and marketed by Autodesk. It is used for creating 2D and 3D designs, both in architectural and mechanical fields. It is widely used across a variety of industries, including architecture, engineering, construction, and manufacturing. AutoCAD is known for its precise and accurate designs and its ability to easily create and edit drawings. Additionally, it offers a wide range of tools and features that allow users to create highly detailed and complex designs with ease.",
     leads: [
@@ -124,6 +125,7 @@ const InterestGroups = [
   },
   {
     id: "revit",
+    comingsoon: true,
     interestgroup: "Revit",
     interestgroupdescription:
       "Autodesk's Revit is a well-known Building Information Modeling (BIM) programme. It is commonly used to produce intricate 3D models of buildings and other structures in the design, engineering, and construction industries.",
@@ -228,6 +230,7 @@ const InterestGroups = [
   },
   {
     id: "bim",
+    comingsoon: true,
     interestgroup: "Building Information Modeling",
     interestgroupdescription:
       "BIM is a digital representation of a building's characteristics.It improves collaboration among stakeholders and enhances visualization.BIM reduces costs, improves quality, and increases productivity in the construction industry.",
@@ -290,101 +293,8 @@ const InterestGroups = [
     ],
   },
   {
-    id: "bim",
-    interestgroup: "Building Information Modeling",
-    interestgroupdescription:
-      "BIM is a digital representation of a building's characteristics.It improves collaboration among stakeholders and enhances visualization.BIM reduces costs, improves quality, and increases productivity in the construction industry.",
-    leads: [
-      {
-        id: 1,
-        name: "Abhijith E S",
-        college: "St. Joseph's College of Engineering and Technology, Palai",
-        images: "/assets/interestGroups/AbhijithES.webp",
-      },
-    ],
-    officetime: "Wednesday 7:00 PM",
-    officeplace: " @ Discord Lobby",
-    pagination: [],
-    mentorscard: [],
-    corecourses: [
-      {
-        id: "1",
-        name: "BIM Fundamentals for Engineers",
-        link: "https://www.classcentral.com/course/bim-fundamentals-12179",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "2",
-        name: "BIM Application for Engineers",
-        link: "https://www.classcentral.com/course/bim-application-12117",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "3",
-        name: "BIM for Construction",
-        link: "https://www.edx.org/course/bim-for-construction",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-    ],
-    learningpaths: [
-      {
-        id: "1",
-        name: "BIM for Construction",
-        link: "https://www.edx.org/course/bim-for-construction",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "2",
-        name: "Introduction to Building Information Modelling",
-        link: "https://www.classcentral.com/course/bim-application-12117",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-    ],
-    blogs: [
-      {
-        id: "1",
-        name: "Autodesk",
-        link: "https://www.autodesk.com/industry/aec/bim",
-      },
-      {
-        id: "2",
-        name: "The B1M",
-        link: "https://www.theb1m.com/all-content?sort=most-recent&page=1",
-      },
-    ],
-    people: [
-      {
-        id: "1",
-        name: "The B1M",
-        link: "https://www.linkedin.com/company/the-b1m-ltd/",
-      },
-    ],
-    opportunities: [
-      "BIM Technician (MEP) – Mechanical/Electrical/ Plumbing",
-      "Revit BIM Modeller (Structural/ Architectural/ Electrical)",
-      "BIM Designer",
-      "BIM Manager",
-      "Bim Coordinator – Civil 3d",
-    ],
-    challenges: [
-      {
-        id: "1",
-        name: "A real world BIM Project ",
-      },
-    ],
-  },
-  {
     id: "constructmgmt",
+    comingsoon: true,
     interestgroup: "Construction Management",
     interestgroupdescription:
       "Construction management is the process of planning, coordinating, and controlling a construction project from start to finish. It is a professional service that uses specialized, project management techniques to oversee the planning, design, and construction of a project, in order to ensure that it is completed on time and within budget.",
@@ -430,6 +340,7 @@ const InterestGroups = [
   },
   {
     id: "3dcad",
+    comingsoon: true,
     interestgroup: "3D CAD",
     interestgroupdescription:
       "3D CAD is a software application for 3D computer-aided design (CAD) and 3D computer-aided manufacturing (CAM). It is used to create, modify, analyze, or optimize a design. It is also used to create toolpaths for computer numerical control (CNC) machines. 3D CAD is used in a wide range of industries, including aerospace, automotive, consumer goods, shipbuilding, and heavy equipment manufacturing.",
@@ -467,6 +378,7 @@ const InterestGroups = [
   },
   {
     id: "civil3d",
+    comingsoon: true,
     interestgroup: "Civil 3D",
     interestgroupdescription:
       "Civil 3D is a civil engineering design and documentation software application for the Microsoft Windows platform. It is developed and sold by Autodesk for use in civil engineering. It is part of the Autodesk Architecture, Engineering and Construction Industry Collection, providing interoperability with AutoCAD and AutoCAD LT. ",
