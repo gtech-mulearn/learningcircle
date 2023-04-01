@@ -219,11 +219,12 @@ const Flutter = () => {
                         </p>
                       </b>
                       <p className={styles.sample_message}>
-                        <b>#cl-exercism-dart-10</b>
+
+                      <b>#cl-exercism-dart-10</b>
+                        <br />
                         Hey! I've reached Dart Bootcamp Exercise 21. Here's my
                         progress. <br />
-                        <b> https://exercism.org/profiles/ BijoMathewJose</b>
-                        <br />
+                        <b> https://exercism.org/profiles/ BijoMathewJose</b>     
                       </p>
                       <br />
                       <img
