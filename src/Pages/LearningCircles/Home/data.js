@@ -2393,14 +2393,14 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Course Introduction: Innovation by Design",
-        link: "",
+        link: "https://mulearn.org/challenge/designchallenge",
         complexity: "",
         time: "",
-        karma: "",
+        karma: "250",
       },
       {
         name: "Course Introduction-Design,Technology and Innovation",
-        link: "https://nptel.ac.in/courses/109104109",
+        link: "https://mulearn.org/challenge/innovationchallenge",
         complexity: "",
         time: "",
         karma: "",
@@ -2410,7 +2410,7 @@ const InterestGroups = [
         link: "https://www.classcentral.com/course/wharton-launching-startup-5468",
         complexity: "",
         time: "",
-        karma: "",
+        karma: "850",
       },
       {
         name: "Entrepreneurship 2: Launching your Start-Up",
