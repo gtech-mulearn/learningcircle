@@ -1,25 +1,25 @@
-import React, { useState, useEffect } from "react";
-import Footer from "../../../Components/Footer/Footer";
-import Navbar from "../../../Components/Navbar/Navbar";
-import styles from "./coursepage.module.css";
+import React, { useState, useEffect } from "react"
+import Footer from "../../../Components/Footer/Footer"
+import Navbar from "../../../Components/Navbar/Navbar"
+import styles from "./coursepage.module.css"
 
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom"
 
 const CoursePage = ({ CourseData }) => {
-  const [course, setCourse] = useState();
-  const { type, id } = useParams();
+  const [course, setCourse] = useState()
+  const { type, id } = useParams()
 
   useEffect(() => {
     if (type === "core") {
-      setCourse(CourseData[0].core[id - 1]);
+      setCourse(CourseData[0].core[id - 1])
     } else if (type === "sub") {
-      setCourse(CourseData[0].sub[id - 1]);
+      setCourse(CourseData[0].sub[id - 1])
     } else if (type === "enablement") {
-      setCourse(CourseData[0].enablement[id - 1]);
+      setCourse(CourseData[0].enablement[id - 1])
     } else {
-      setCourse("Sorry!");
+      setCourse("Sorry!")
     }
-  }, [type, id, CourseData]);
+  }, [type, id, CourseData])
 
   return (
     <>
@@ -32,9 +32,13 @@ const CoursePage = ({ CourseData }) => {
                 <p className={styles.fv_heading}>{course.name}</p>
 
                 <p className={styles.fv_content}>{course.description}</p>
-                <p className={styles.karma_header}>
-                  On Course Completion {course.karma} Karma Points.
-                </p>
+                {course.karma ? (
+                  <p className={styles.karma_header}>
+                    On Course Completion {course.karma} Karma Points.
+                  </p>
+                ) : (
+                  <br />
+                )}
                 {course.link && (
                   <a
                     href={course.link}
@@ -139,7 +143,7 @@ const CoursePage = ({ CourseData }) => {
       )}
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default CoursePage;
+export default CoursePage

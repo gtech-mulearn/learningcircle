@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.steps_ulist {
+  list-style: disc;
+  max-width: 50rem;
+  margin-left: 1.5rem;
+}
+
+.first_view_container {
+  margin: 2rem;
+}
+
+.first_view {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.fv_img {
+  display: block;
+  width: 20rem;
+}
+
+.fv_heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #404040;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.fv_heading span {
+  color: #f6842c;
+}
+
+.fv_content {
+  margin-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 60rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .first_view_container {
+    margin: 6rem;
+  }
+
+  .first_view {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .fv_heading {
+    font-size: 4.25rem;
+    text-align: center;
+    margin-left: 2.5rem;
+  }
+
+  .fv_content {
+    width: 80%;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-left: 8rem;
+  }
+
+  .fv_img {
+    display: block;
+    width: 30rem;
+  }
+
+  .fv_texts {
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Second Section Sytles */
+
+.second_view_container {
+  margin: 2rem;
+  margin-top: 4rem;
+}
+
+.sv_heading {
+  display: block;
+  margin: auto;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  color: #f78c40;
+  text-align: center;
+}
+
+.sv_content {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .second_view_container {
+    margin: 6rem;
+  }
+
+  .sv_heading {
+    font-size: 2.25rem;
+    line-height: 4rem;
+    width: 60vw;
+    display: block;
+    margin: auto;
+  }
+
+  .sv_content {
+    margin-top: 0;
+    font-size: 1.05rem;
+    width: 40%;
+  }
+}
+
+.steps {
+  margin-top: 1rem;
+}
+
+.steps_ulist_sub li {
+  margin-top: 0.5rem;
+}
+
+b {
+  color: #404040;
+}
+
+.steps_ulist li {
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .steps_ulist_sub li {
+    width: 45%;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.joinchallenge {
+  background-color: #f6842c;
+
+  padding: 0.5rem 1.5rem;
+  color: white;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  margin-right: 1rem;
+}
+
+.resource_materials {
+  margin-top: 2rem;
+}
+
+.rm_heading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  color: #f78c40;
+  text-align: center;
+}
+
+.rm_content {
+  max-width: 25rem;
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.bootcamp {
+  max-width: 22rem;
+  box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  padding: 30px 25px;
+  border-radius: 10px;
+}
+
+.b_heading {
+  font-size: 1.25rem;
+  font-family: "Noto Sans";
+  color: #f6822a;
+}
+
+.b_tagline {
+  font-family: "Poppins";
+  color: #404040;
+  font-size: 0.9rem;
+}
+
+.b_button {
+  background-color: #f6822a;
+  color: #fff;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-family: "Noto Sans";
+  border-radius: 5px;
+  padding: 0.35rem 1.5rem;
+}
+
+.ytvideo {
+  width: 22rem;
+  border-radius: 10px;
+  height: 13rem;
+}
+
+.videos_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.late_date {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+}

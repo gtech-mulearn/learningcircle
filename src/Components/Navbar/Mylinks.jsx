@@ -1,4 +1,4 @@
-const mainlink = "https://mulearn.org";
+const mainlink = "https://mulearn.org"
 export const links = [
   {
     head: -1,
@@ -6,7 +6,7 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        name: "The Team",
+        name: "Key Pages",
         submenu: true,
         sublinks: [
           {
@@ -14,6 +14,20 @@ export const links = [
             submenu: false,
             sublinks: [],
             link: mainlink + "/team",
+            foreign: false,
+          },
+           {
+            name: "Terms and Conditions",
+            submenu: false,
+            sublinks: [],
+            link: mainlink + "/termsandconditions",
+            foreign: false,
+          },
+           {
+            name: "Privacy Policy",
+            submenu: false,
+            sublinks: [],
+            link: mainlink + "/privacypolicy",
             foreign: false,
           },
         ],
@@ -138,13 +152,6 @@ export const links = [
             link: "https://foundation.mulearn.org",
             foreign: true,
           },
-        ],
-      },
-      {
-        head: 1,
-        name: "Ongoing",
-        submenu: true,
-        sublinks: [
           {
             name: "Art of Teaching",
             submenu: false,
@@ -152,6 +159,13 @@ export const links = [
             link: mainlink + "/artofteaching",
             foreign: false,
           },
+        ],
+      },
+      {
+        head: 1,
+        name: "Ongoing",
+        submenu: true,
+        sublinks: [
           {
             name: "Bootcamps",
             submenu: false,
@@ -485,4 +499,4 @@ export const links = [
       },
     ],
   },
-];
+]

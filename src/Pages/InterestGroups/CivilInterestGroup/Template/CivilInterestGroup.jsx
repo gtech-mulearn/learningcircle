@@ -1,11 +1,11 @@
 import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 
-import Navbar from "../../Components/Navbar/Navbar"
-import Footer from "../../Components/Footer/Footer"
-import styles from "./InterestGroup.module.css"
+import Navbar from "../../../../Components/Navbar/Navbar"
+import Footer from "../../../../Components/Footer/Footer"
+import styles from "./CivilInterestGroup.module.css"
 
-import fvimg from "./assets/fvimg.png"
+import fvimg from "../../assets/fvimg.png"
 
 import { styled } from "@mui/material/styles"
 import Table from "@mui/material/Table"
@@ -16,10 +16,9 @@ import TableHead from "@mui/material/TableHead"
 import TableRow from "@mui/material/TableRow"
 import Paper from "@mui/material/Paper"
 import { useParams } from "react-router-dom"
-import InterestGroups from "../LearningCircles/Home/data"
-import MentorCard from "../../Components/MentorCard/MentorCard"
-import NotFound from "../Misc/404/NotFound"
-import InterestCard from "../../Components/InterestCard/InterestCard"
+import InterestGroups from "../data.js"
+import MentorCard from "../../../../Components/MentorCard/MentorCard"
+import NotFound from "../../../Misc/404/NotFound"
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -43,7 +42,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }))
 
-const InterestGroup = ({ setInterest }) => {
+const CivilInterestGroup = ({ setInterest }) => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -53,36 +52,39 @@ const InterestGroup = ({ setInterest }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [setInterest])
   let { id } = useParams()
+
   const link = `/create/${id}`
   const data = InterestGroups.filter(function (interestgroups) {
     return interestgroups.id === id
   })
-  let next = ""
-  let previous = ""
-  if (data && data[0]) {
-    previous = `/${data[0].pagination[0].id}`
-    next = `/${data[0].pagination[1].id}`
-  }
 
-  //scroll to top on page load in react
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [id])
+  // let next = ""
+  // let previous = ""
+  // if (data && data[0]) {
+  //   previous = `/${data[0].pagination[0].id}`
+  //   next = `/${data[0].pagination[1].id}`
+  // }
+
+  let tracks = null
+
+  if (data[0].learningpathst) {
+    tracks = [...new Set(data[0].learningpathst.map((path) => path.track))]
+  }
 
   return (
     <>
       <Navbar />
-      {data && data[0] && (
+      {data && data[0] !== undefined && (
         <div className={styles.main_container}>
           <div className={styles.first_view_container}>
             <div className={styles.first_view}>
               <div className={styles.fv_texts}>
-                {data[0].interestgroup === "Innovation & Entrepreneurship" && (
+                {data[0].interestgroup === "Entrepreneurship" && (
                   <p className={styles.fv_heading_entre}>
                     {data[0].interestgroup}
                   </p>
                 )}
-                {!(data[0].interestgroup === "Innovation & Entrepreneurship") && (
+                {!(data[0].interestgroup === "Entrepreneurship") && (
                   <p className={styles.fv_heading}>{data[0].interestgroup}</p>
                 )}
 
@@ -97,17 +99,11 @@ const InterestGroup = ({ setInterest }) => {
                   </p>
                 )}
 
-                {data[0].thinktanktime && (
+                {data[0].thinktanktime && data[0].thinktankplace && (
                   <p className={styles.officehrs}>
                     <span>Think Tank Meeting: </span> {data[0].thinktanktime}
                     {data[0].thinktankplace}
                     <br />
-                  </p>
-                )}
-
-                {data[0].community && data[0].community[0] && (
-                  <p className={styles.community}>
-                    <span>Community Partner: </span> {data[0].community[0]}
                   </p>
                 )}
 
@@ -205,84 +201,17 @@ const InterestGroup = ({ setInterest }) => {
             </div>
           )}
 
-          {data[0].basicenablementtasks && data[0].basicenablementtasks[0] && (
-            <div className={styles.table_view_container}>
-              <div className={styles.table_view}>
-                <div className={styles.tav_texts}>
-                  <p className={styles.tav_heading}>Basic Enablement Tasks</p>
-                  <p className={styles.tav_contents}>
-                    Every subject or skill has some core set of things to be
-                    learned. Here are a few resources curated by us to
-                    understand them
-                  </p>
-                </div>
-
-                <div className={styles.tav_tasks_container}>
-                  <div className={styles.tav_tasks}>
-                    <TableContainer component={Paper}>
-                      <Table
-                        sx={{ minWidth: 700 }}
-                        aria-label="customized table"
-                      >
-                        <TableHead>
-                          <TableRow>
-                            <StyledTableCell>Task Name</StyledTableCell>
-                            <StyledTableCell align="right">
-                              Task Link
-                            </StyledTableCell>
-
-                            <StyledTableCell align="right">
-                              Karma Points
-                            </StyledTableCell>
-                          </TableRow>
-                        </TableHead>
-                        <TableBody>
-                          {data[0].basicenablementtasks &&
-                            data[0].basicenablementtasks.map(
-                              (basicenablementtask) => (
-                                <StyledTableRow key={basicenablementtask.name}>
-                                  <StyledTableCell component="th" scope="row">
-                                    {basicenablementtask.name}
-                                  </StyledTableCell>
-                                  <StyledTableCell align="right">
-                                    <a
-                                      href={basicenablementtask.link}
-                                      target="_blank"
-                                      rel="noopener noreferrer"
-                                    >
-                                      <span className={styles.link}>
-                                        Click Here
-                                      </span>
-                                    </a>
-                                  </StyledTableCell>
-
-                                  <StyledTableCell align="right">
-                                    {basicenablementtask.karma}
-                                  </StyledTableCell>
-                                </StyledTableRow>
-                              )
-                            )}
-                        </TableBody>
-                      </Table>
-                    </TableContainer>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
-
           {data[0].corecourses && data[0].corecourses[0] && (
             <div className={styles.table_view_container}>
               <div className={styles.table_view}>
                 <div className={styles.tav_texts}>
-                  <p className={styles.tav_heading}>Core Tasks</p>
+                  <p className={styles.tav_heading}>Core Courses</p>
                   <p className={styles.tav_contents}>
                     Every subject or skill has some core set of things to be
                     learned. Here are a few resources curated by us to
                     understand them
                   </p>
                 </div>
-
                 <div className={styles.tav_tasks_container}>
                   <div className={styles.tav_tasks}>
                     <TableContainer component={Paper}>
@@ -298,7 +227,6 @@ const InterestGroup = ({ setInterest }) => {
                             <StyledTableCell align="right">
                               Core Course's Link
                             </StyledTableCell>
-
                             <StyledTableCell align="right">
                               Karma Points
                             </StyledTableCell>
@@ -322,7 +250,6 @@ const InterestGroup = ({ setInterest }) => {
                                     </span>
                                   </a>
                                 </StyledTableCell>
-
                                 <StyledTableCell align="right">
                                   {corecourse.karma}
                                 </StyledTableCell>
@@ -337,65 +264,44 @@ const InterestGroup = ({ setInterest }) => {
             </div>
           )}
 
-          {data[0].coretracks && data[0].coretracks[0] && (
-            <div className={styles.secondsection}>
-              <div className={styles.sv_tagline}></div>
-              <div className={styles.cards_container}>
-                {data[0].coretracks.map((track) => (
-                  <InterestCard
-                    id={track.id}
-                    interestgroup={track.name}
-                    interestgroupdescription={track.description}
-                    officetime={track.officetime}
-                  />
-                ))}
-              </div>
-            </div>
-          )}
-
-          {data[0].subcourses && data[0].subcourses[0] && (
+          {data[0].learningpaths && data[0].learningpaths[0] && (
             <div className={styles.table_view_container}>
               <div className={styles.table_view}>
-                <>
-                  <div className={styles.tav_texts}>
-                    <p className={styles.tav_heading}>Sub Courses</p>
-                    <p className={styles.tav_contents}>
-                      These courses will help you have a much better grasp over
-                      the domain. Learning these will always be an important
-                      advantage for your upcoming journey.
-                    </p>
-                  </div>
-
-                  <div className={styles.tav_tasks_container}>
-                    <div className={styles.tav_tasks}>
-                      <TableContainer component={Paper}>
-                        <Table
-                          sx={{ minWidth: 700 }}
-                          aria-label="customized table"
-                        >
-                          <TableHead>
-                            <TableRow>
-                              <StyledTableCell>
-                                Sub Course's Name
-                              </StyledTableCell>
-                              <StyledTableCell align="right">
-                                Sub Course's Link
-                              </StyledTableCell>
-
-                              <StyledTableCell align="right">
-                                Karma Points
-                              </StyledTableCell>
-                            </TableRow>
-                          </TableHead>
-                          <TableBody>
-                            {data[0].subcourses.map((subcourse) => (
-                              <StyledTableRow key={subcourse.name}>
+                <div className={styles.tav_texts}>
+                  <p className={styles.tav_heading}>Learning Paths</p>
+                  <p className={styles.tav_contents}>
+                    Having a plan/roadmap before to reach the destination on
+                    time is a great advantage. Here are some learning paths for
+                    you to follow.
+                  </p>
+                </div>
+                <div className={styles.tav_tasks_container}>
+                  <div className={styles.tav_tasks}>
+                    <TableContainer component={Paper}>
+                      <Table
+                        sx={{ minWidth: 700 }}
+                        aria-label="customized table"
+                      >
+                        <TableHead>
+                          <TableRow>
+                            <StyledTableCell>
+                              Core Course's Name
+                            </StyledTableCell>
+                            <StyledTableCell align="right">
+                              Core Course's Link
+                            </StyledTableCell>
+                          </TableRow>
+                        </TableHead>
+                        <TableBody>
+                          {data[0].learningpaths &&
+                            data[0].learningpaths.map((learningpath) => (
+                              <StyledTableRow key={learningpath.name}>
                                 <StyledTableCell component="th" scope="row">
-                                  {subcourse.name}
+                                  {learningpath.name}
                                 </StyledTableCell>
                                 <StyledTableCell align="right">
                                   <a
-                                    href={subcourse.link}
+                                    href={learningpath.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                   >
@@ -404,21 +310,81 @@ const InterestGroup = ({ setInterest }) => {
                                     </span>
                                   </a>
                                 </StyledTableCell>
-
-                                <StyledTableCell align="right">
-                                  {subcourse.karma}
-                                </StyledTableCell>
                               </StyledTableRow>
                             ))}
-                          </TableBody>
-                        </Table>
-                      </TableContainer>
-                    </div>
+                        </TableBody>
+                      </Table>
+                    </TableContainer>
                   </div>
-                </>
+                </div>
               </div>
             </div>
           )}
+
+          {tracks &&
+            tracks.map((track) => {
+              const trackPaths = data[0].learningpathst.filter(
+                (path) => path.track === track
+              ) // Filter paths by track
+              return (
+                <div className={styles.table_view_container}>
+                  <div className={styles.table_view}>
+                    <div className={styles.tav_texts}>
+                      <p
+                        className={styles.tav_heading}
+                      >{`Learning Paths(${trackPaths[0].track})`}</p>
+                      <p className={styles.tav_contents}>
+                        Having a plan/roadmap before to reach the destination on
+                        time is a great advantage. Here are some learning paths
+                        for you to follow.
+                      </p>
+                    </div>
+                    <div className={styles.tav_tasks_container}>
+                      <div className={styles.tav_tasks}>
+                        <TableContainer component={Paper}>
+                          <Table
+                            sx={{ minWidth: 700 }}
+                            aria-label="customized table"
+                          >
+                            <TableHead>
+                              <TableRow>
+                                <StyledTableCell>
+                                  Core Course's Name
+                                </StyledTableCell>
+                                <StyledTableCell align="right">
+                                  Core Course's Link
+                                </StyledTableCell>
+                              </TableRow>
+                            </TableHead>
+                            <TableBody>
+                              {trackPaths[0] &&
+                                trackPaths.map((track) => (
+                                  <StyledTableRow key={track.name}>
+                                    <StyledTableCell component="th" scope="row">
+                                      {track.name}
+                                    </StyledTableCell>
+                                    <StyledTableCell align="right">
+                                      <a
+                                        href={track.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                      >
+                                        <span className={styles.link}>
+                                          Click Here
+                                        </span>
+                                      </a>
+                                    </StyledTableCell>
+                                  </StyledTableRow>
+                                ))}
+                            </TableBody>
+                          </Table>
+                        </TableContainer>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
 
           <div className={styles.bottom_grid}>
             <div>
@@ -537,19 +503,43 @@ const InterestGroup = ({ setInterest }) => {
                 </div>
               )}
             </div>
-          </div>
-
-          <div className={styles.next_previous}>
-            <Link to={previous}>
-              <div className={styles.previous}>
-                <p className={styles.pretext}>{data[0].pagination[0].name}</p>
-              </div>
-            </Link>
-            <Link to={next}>
-              <div className={styles.next}>
-                <p className={styles.nexttext}>{data[0].pagination[1].name}</p>
-              </div>
-            </Link>
+            <div className={styles.otherresources_container}>
+              <p className={styles.sv_heading}>Free Software Access</p>
+              <br />
+              <p class={styles.subtitle}>- Autodesk Software's:</p>
+              <ol class={styles.steps}>
+                <li class={styles.step}>
+                  Go to the Autodesk Students website -{" "}
+                  <a
+                    href="https://www.autodesk.com/education/edu-software/"
+                    class={styles.link}
+                  >
+                    Click Here
+                  </a>
+                </li>
+                <li class={styles.step}>Create an account</li>
+                <li class={styles.step}>
+                  Fill your basic details and verify the account
+                </li>
+                <li class={styles.step}>Log in and upload your college id card</li>
+                <li class={styles.step}>
+                  You'll receive a confirmation email regarding your software
+                  access after some time. then you can begin utilizing the
+                  Software's free or charges
+                </li>
+              </ol>
+              <p class={styles.note_title}>Note:</p>
+              <ul class={styles.notes}>
+                <li class={styles.note}>
+                  The access is valid for three years, or until you graduate
+                  from college.
+                </li>
+                <li class={styles.note}>
+                  The software is student licensing so there will be minor water
+                  marks when print out is taken (only in corners).
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       )}
@@ -559,4 +549,4 @@ const InterestGroup = ({ setInterest }) => {
   )
 }
 
-export default InterestGroup
+export default CivilInterestGroup
