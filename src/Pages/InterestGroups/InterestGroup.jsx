@@ -346,7 +346,7 @@ const InterestGroup = ({ setInterest }) => {
                     id={track.id}
                     interestgroup={track.name}
                     interestgroupdescription={track.description}
-                    // officetime={InterestGroup.officetime}
+                    officetime={track.officetime}
                   />
                 ))}
               </div>

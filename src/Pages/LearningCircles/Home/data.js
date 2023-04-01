@@ -2239,6 +2239,8 @@ const InterestGroups = [
           "Autodesk's Revit is a well-known Building Information Modeling (BIM) programme. It is commonly used to produce intricate 3D models of buildings and other structures in the design, engineering, and construction industries.",
         name: "Autodesk Revit",
         link: "/civil/revit",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
       },
       {
         id: "/civil/autocad",
@@ -2246,6 +2248,8 @@ const InterestGroups = [
           "AutoCAD is a powerful computer-aided design software application. It is widely used in architectural, engineering, construction, and manufacturing fields. AutoCAD is known for its precision, accuracy, and easy-to-use features. It offers a range of tools that enable users to create highly detailed and complex designs.",
         name: "AutoCAD",
         link: "/civil/autocad",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
       },
       {
         id: "/civil/bim",
@@ -2253,6 +2257,8 @@ const InterestGroups = [
           "BIM is a digital representation of a building's characteristics.It improves collaboration among stakeholders and enhances visualization.BIM reduces costs, improves quality, and increases productivity in the construction industry.",
         name: "Building Information Modeling",
         link: "/civil/bim",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
       },
       {
         id: "/civil/constructmgmt",
@@ -2260,6 +2266,8 @@ const InterestGroups = [
           "Construction management is the process of planning, coordinating, and controlling a construction project from start to finish. It is a professional service that uses specialized, project management techniques to oversee the planning, design, and construction of a project, in order to ensure that it is completed on time and within budget.",
         name: "Construction Management",
         link: "/civil/constructmgmt",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
       },
 
       {
@@ -2268,6 +2276,8 @@ const InterestGroups = [
           "3D CAD is a software application for 3D computer-aided design (CAD) and 3D computer-aided manufacturing (CAM). It is used to create, modify, analyze, or optimize a design. It is also used to create toolpaths for computer numerical control (CNC) machines. 3D CAD is used in a wide range of industries, including aerospace, automotive, consumer goods, shipbuilding, and heavy equipment manufacturing.",
         name: "3D CAD",
         link: "/civil/3dcad",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
       },
       {
         id: "/civil/civil3d",
@@ -2275,6 +2285,8 @@ const InterestGroups = [
           "Civil 3D is a civil engineering design and documentation software application for the Microsoft Windows platform. It is developed and sold by Autodesk for use in civil engineering. It is part of the Autodesk Architecture, Engineering and Construction Industry Collection, providing interoperability with AutoCAD and AutoCAD LT.",
         name: "Civil 3D",
         link: "/civil/civil3d",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
       },
     ],
     subcourses: [
@@ -2386,21 +2398,20 @@ const InterestGroups = [
     comingsoon: "true",
     id: "innovent",
     interestgroup: "Innovation & Entrepreneurship",
-
     interestgroupdescription:
       "Join Innovation and Entrepreneurship today to experience the joy of building something unique, taking risks, and making good decisions. Drive innovation by introducing new ideas and utilizing cutting-edge technology to solve problems and meet customer needs.",
     basicenablementtasks: [],
     corecourses: [
       {
         name: "Course Introduction: Innovation by Design",
-        link: "https://mulearn.org/challenge/designchallenge",
+        link: "https://learn.mulearn.org/challenge/designchallenge",
         complexity: "",
         time: "",
         karma: "250",
       },
       {
         name: "Course Introduction-Design,Technology and Innovation",
-        link: "https://mulearn.org/challenge/innovationchallenge",
+        link: "https://learn.mulearn.org/challenge/innovationchallenge",
         complexity: "",
         time: "",
         karma: "",
