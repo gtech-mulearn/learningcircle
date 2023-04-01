@@ -2412,7 +2412,7 @@ const InterestGroups = [
       },
       {
         name: "Course Introduction-Design,Technology and Innovation",
-        link: "https://learn.mulearn.org/challenge/innovationchallenge",
+        link: "https://learn.mulearn.org/challenge/innovationdesign",
         complexity: "",
         time: "",
         karma: "",
