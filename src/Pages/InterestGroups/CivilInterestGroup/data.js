@@ -2,7 +2,7 @@ const InterestGroups = [
   {
     id: "autocad",
     interestgroup: "AutoCAD",
-    comingsoon: true,
+    comingsoon: false,
     interestgroupdescription:
       "AutoCAD is a computer-aided design (CAD) software application developed and marketed by Autodesk. It is used for creating 2D and 3D designs, both in architectural and mechanical fields. It is widely used across a variety of industries, including architecture, engineering, construction, and manufacturing. AutoCAD is known for its precise and accurate designs and its ability to easily create and edit drawings. Additionally, it offers a wide range of tools and features that allow users to create highly detailed and complex designs with ease.",
     leads: [
@@ -125,7 +125,7 @@ const InterestGroups = [
   },
   {
     id: "revit",
-    comingsoon: true,
+    comingsoon: false,
     interestgroup: "Revit",
     interestgroupdescription:
       "Autodesk's Revit is a well-known Building Information Modeling (BIM) programme. It is commonly used to produce intricate 3D models of buildings and other structures in the design, engineering, and construction industries.",
@@ -230,7 +230,7 @@ const InterestGroups = [
   },
   {
     id: "bim",
-    comingsoon: true,
+    comingsoon: false,
     interestgroup: "Building Information Modeling",
     interestgroupdescription:
       "BIM is a digital representation of a building's characteristics.It improves collaboration among stakeholders and enhances visualization.BIM reduces costs, improves quality, and increases productivity in the construction industry.",
@@ -294,7 +294,7 @@ const InterestGroups = [
   },
   {
     id: "constructmgmt",
-    comingsoon: true,
+    comingsoon: false,
     interestgroup: "Construction Management",
     interestgroupdescription:
       "Construction management is the process of planning, coordinating, and controlling a construction project from start to finish. It is a professional service that uses specialized, project management techniques to oversee the planning, design, and construction of a project, in order to ensure that it is completed on time and within budget.",
@@ -340,7 +340,7 @@ const InterestGroups = [
   },
   {
     id: "3dcad",
-    comingsoon: true,
+    comingsoon: false,
     interestgroup: "3D CAD",
     interestgroupdescription:
       "3D CAD is a software application for 3D computer-aided design (CAD) and 3D computer-aided manufacturing (CAM). It is used to create, modify, analyze, or optimize a design. It is also used to create toolpaths for computer numerical control (CNC) machines. 3D CAD is used in a wide range of industries, including aerospace, automotive, consumer goods, shipbuilding, and heavy equipment manufacturing.",
@@ -378,7 +378,7 @@ const InterestGroups = [
   },
   {
     id: "civil3d",
-    comingsoon: true,
+    comingsoon: false,
     interestgroup: "Civil 3D",
     interestgroupdescription:
       "Civil 3D is a civil engineering design and documentation software application for the Microsoft Windows platform. It is developed and sold by Autodesk for use in civil engineering. It is part of the Autodesk Architecture, Engineering and Construction Industry Collection, providing interoperability with AutoCAD and AutoCAD LT. ",

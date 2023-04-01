@@ -53,7 +53,7 @@ const CivilInterestGroup = ({ setInterest }) => {
   }, [setInterest])
   let { id } = useParams()
 
-  const link = `/create/${id}`
+  const link = `/create/civil`
   const data = InterestGroups.filter(function (interestgroups) {
     return interestgroups.id === id
   })

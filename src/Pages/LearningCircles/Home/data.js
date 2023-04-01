@@ -2223,7 +2223,7 @@ const InterestGroups = [
   },
   {
     id: "civil",
-    interestgroup: "Civil Engineering",
+    interestgroup: "Civil Engineeringg",
     interestgroupdescription:
       "Get ahead in your Civil Engineering career by joining GTech μlearn's Civil Interest Group. Learn AutoCAD, BIM, and Revit from industry experts. Gain hands-on experience and practical skills. Join us now to take the next step in your career.",
 
@@ -2232,7 +2232,7 @@ const InterestGroups = [
     officetime: "Wednesday 7:00 PM",
     officeplace: " @ Discord Lobby",
     corecourses: [],
-    comingsoon: true,
+
     coretracks: [
       {
         id: "/civil/revit",
@@ -2297,7 +2297,7 @@ const InterestGroups = [
       //   link: "",
       // },
     ],
-    comingsoon: true,
+
     mentorscard: [
       {
         id: "",
