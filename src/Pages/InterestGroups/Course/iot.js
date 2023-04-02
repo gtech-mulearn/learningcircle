@@ -11,7 +11,7 @@ const IoTData = [
         inner_description:
           "After course completion, post the certificate in the #internet-of-things channel of the µLearn Discord server with the hashtag #kerala-iot-challenge to avail karma points.",
         example:
-          "Hey! I’ve completed Kerala IoT Challenge Level 1. Here is my course certificate. #kerala-iot-challenge",
+          "#kerala-iot-challenge Hey! I’ve completed Kerala IoT Challenge Level 1. Here is my course certificate. ",
       },
       {
         id: "2",
@@ -23,7 +23,7 @@ const IoTData = [
         inner_description:
           "After course completion, post the certificate in the #internet-of-things channel of the µLearn Discord server with the hashtag #kerala-iot-challenge to avail karma points.",
         example:
-          "Hey! I’ve completed Kerala IoT Challenge Level 2. Here is my course certificate. #kerala-iot-challenge",
+          " #kerala-iot-challenge Hey! I’ve completed Kerala IoT Challenge Level 2. Here is my course certificate.",
       },
     ],
     enablement: [
@@ -37,7 +37,7 @@ const IoTData = [
         inner_description:
           "After course completion, share the certificate in #internet-of-things channel with hashtag #ge-iot-101",
         example:
-          "Hey I’ve completed IoT 101 course. Here’s my certificate. #ge-iot-101",
+          "#ge-iot-101 Hey I’ve completed IoT 101 course. Here’s my certificate. ",
       },
       {
         id: "2",
@@ -49,7 +49,7 @@ const IoTData = [
         inner_description:
           "After course completion, share the certificate in #internet-of-things channel with hashtag #ge-what-is-iot",
         example:
-          "Hey I’ve completed What is IoT course. Here’s my course certificate.#ge-what-is-iot",
+          "#ge-what-is-iot Hey I’ve completed What is IoT course. Here’s my course certificate.",
       },
     ],
   },

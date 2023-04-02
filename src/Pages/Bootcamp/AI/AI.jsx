@@ -99,7 +99,7 @@ const AI = () => {
                         socials as directed, post the links in the <b>
                           #ai
                         </b>{" "}
-                        channel of the μLearn Discord server with the hashtag{" "}
+                        channel of the μLearn Discord server with the hashtag{" "}at first
                         <b>#cl-buildspace-ai-1</b> to avail{" "}
                         <b>200 Karma points</b>
                       </div>
@@ -123,7 +123,7 @@ const AI = () => {
                         socials as directed, post the links in the <b>
                           #ai
                         </b>{" "}
-                        channel of the μLearn Discord server with the hashtag{" "}
+                        channel of the μLearn Discord server with the hashtag{" "}first 
                         <b>#cl-buildspace-ai-2</b> to avail{" "}
                         <b>200 Karma points</b>
                       </div>
@@ -170,7 +170,7 @@ const AI = () => {
                         socials as directed, post the links in the <b>
                           #ai
                         </b>{" "}
-                        channel of the μLearn Discord server with the hashtag{" "}
+                        channel of the μLearn Discord server with the hashtag{" "} first
                         <b>#cl-buildspace-ai-4</b> to avail{" "}
                         <b>200 Karma points</b>
                       </div>
@@ -192,7 +192,7 @@ const AI = () => {
                         extensions you have built either on Product Hunt or the
                         Chrome Extension webstore and share the link in the{" "}
                         <b>#ai </b>channel on the μLearn Discord server using
-                        the hashtag <b>#cl-buildspace-ai-bonus</b> to earn a
+                        the hashtag  <b>#cl-buildspace-ai-bonus</b> first to earn a
                         bonus <b>200 Karma points</b> Please note that hosting
                         the Chrome extension is not part of the final chapter,
                       </div>

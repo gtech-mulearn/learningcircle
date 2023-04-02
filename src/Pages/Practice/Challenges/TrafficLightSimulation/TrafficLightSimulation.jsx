@@ -123,7 +123,7 @@ const TrafficLightSimulation = () => {
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
                 Submit the project link from Tinkercad in #students channel with
-                the hashtag #ge-iot-traffic-light
+                the hashtag #ge-iot-traffic-light at the beginning
               </p>
             </div>
           </div>

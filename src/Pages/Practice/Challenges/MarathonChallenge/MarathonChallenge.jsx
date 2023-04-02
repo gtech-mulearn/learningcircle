@@ -152,10 +152,10 @@ const MarathonChallenge = () => {
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
-                Hey! I've completed 21km in the marathon challenge. Here is a
-                screenshot of my achievement
+                #marathon-challenge-11km
                 <br />
-                #marathon-challenge-21km
+                Hey! I've completed 11km in the marathon challenge. Here is a
+                screenshot of my achievement
               </p>
             </div>
           </div>
