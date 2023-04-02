@@ -47,7 +47,7 @@ const MuLanding = () => {
                   designation="This challenge challenges engineering students to identify
                   real-world problems, conduct surveys and research, and propose
                   innovative solutions through sketches, prototypes, and videos.
-                  Submissions should be shared in the #civil-engineering channel
+                  Submissions should be shared in the #civil channel
                   using specific hashtags."
                   mclink="/challenge/innovationdesign"
                 />
