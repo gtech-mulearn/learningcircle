@@ -61,7 +61,7 @@ import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge"
 import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/Template/CivilInterestGroup"
 import GoogleSolutionsChallenge from "./Pages/Practice/Challenges/GoogleSolutionsChallenge/GoogleSolutionsChallenge"
 import FayaDigitalMarketing from "./Pages/Practice/Challenges/FayaDigitalMarketing/FayaDigitalMarketing"
-
+import TypingChallenge2 from "./Pages/Practice/Challenges/TypingChallenge/TypingChallenge2"
 function App() {
   //Home Page state Variables
   const [districts, setDistricts] = useState("")
@@ -229,7 +229,7 @@ function App() {
               <GettingStarted create={create} wlink={wlink} join={join} />
             }
           />
-
+  <Route path="/challenge/typing2" element={<TypingChallenge2 />} />
           <Route
             path="/:id"
             element={<InterestGroup setInterest={setInterest} />}

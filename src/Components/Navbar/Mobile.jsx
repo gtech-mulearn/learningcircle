@@ -110,8 +110,8 @@ export const MobileNavHeader = ({ visible, test1 }) => {
     return (
         <>
             {!visible &&
-                links.map((link) => (
-                    <div className={`px-7 py-5 text-left flex justify-between items-center }`} onClick={() => { test1(link); }}>
+                links.map((link, index) => (
+                    <div key={index} className={`px-7 py-5 text-left flex justify-between items-center }`} onClick={() => { test1(link); }}>
                         <h1 className="text-[13px]">{link.name}</h1>
                         <span className="text-[13px] flex items-center" onClick={() => { test1(link); }} >
                             <ion-icon name="chevron-forward-outline" />

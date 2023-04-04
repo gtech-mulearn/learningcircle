@@ -61,7 +61,9 @@ const CivilInterestGroup = ({ setInterest }) => {
   let next = ""
   let previous = ""
   if (data && data[0]) {
+    // eslint-disable-next-line no-unused-vars
     previous = `/${data[0].pagination[0].id}`
+    // eslint-disable-next-line no-unused-vars
     next = `/${data[0].pagination[1].id}`
   }
 

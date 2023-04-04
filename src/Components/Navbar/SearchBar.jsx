@@ -5,6 +5,7 @@ const SearchBar = ({ changeVisibility, isVisible }) => {
     const list = require("./searchList.json")
     function runAnalysis(links) {
         const list = []
+        // eslint-disable-next-line array-callback-return
         links.map(link => {
             if (link.submenu) {
                 list.push(...runAnalysis(link.sublinks))

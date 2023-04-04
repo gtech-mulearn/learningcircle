@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { Link } from "react-router-dom";
 import NavLinks from "./NavLinks";
@@ -62,8 +63,8 @@ export const SubMenu = ({ submenu, sublinks }) => {
                     <div className="absolute mt-5 bg-white left-0  right-0 hidden group-hover:lg:block hover:lg:block w-full">
                         <div className=" p-10 flex gap-x-10 addition justify-around border-t border-b">
                             <div className="grid grid-cols-3 gap-10 px-10">
-                                {sublinks.map((mysublinks) => (
-                                    <div className="border-l pl-5 backdrop-blur-md">
+                                {sublinks.map((mysublinks, index) => (
+                                    <div key={index} className="border-l pl-5 backdrop-blur-md">
                                         <SubHeader link={mysublinks.link} name={mysublinks.name} />
                                         <SubLinks sublinks={mysublinks.sublinks} />
                                     </div>
@@ -86,8 +87,8 @@ export const SubHeader = ({ link, name }) => {
 export const SubLinks = ({ sublinks }) => {
     return (
         <>
-            {sublinks.map((slink) => (
-                <div className="text-sm text-gray-600 my-2.5">
+            {sublinks.map((slink, index) => (
+                <div key={index} className="text-sm text-gray-600 my-2.5">
                     <a
                         href={slink.link}
                         target={slink.foreign ? "_blank" : ""}
