@@ -20,6 +20,8 @@ import PmData from "./Pages/InterestGroups/Course/pm"
 import UiuxData from "./Pages/InterestGroups/Course/uiux"
 import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
 import BlockchainData from "./Pages/InterestGroups/Course/blockchain"
+import AutoCADData from "./Pages/InterestGroups/Course/autocad"
+import RevitData from "./Pages/InterestGroups/Course/revit"
 
 //Bootcamp Section
 import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome"
@@ -61,6 +63,8 @@ import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge"
 import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/Template/CivilInterestGroup"
 import GoogleSolutionsChallenge from "./Pages/Practice/Challenges/GoogleSolutionsChallenge/GoogleSolutionsChallenge"
 import FayaDigitalMarketing from "./Pages/Practice/Challenges/FayaDigitalMarketing/FayaDigitalMarketing"
+import InnovationDesignChallenge from "./Pages/Practice/Challenges/InnovationDesign/InnovationDesignChallenge"
+import DesignChallenge from "./Pages/Practice/Challenges/DesignChallenge/DesignChallenge"
 
 function App() {
   //Home Page state Variables
@@ -277,6 +281,14 @@ function App() {
             element={<GoogleSolutionsChallenge />}
           />
           <Route
+            path="/challenge/innovationdesign"
+            element={<InnovationDesignChallenge />}
+          />
+          <Route
+            path="/challenge/designchallenge"
+            element={<DesignChallenge />}
+          />
+          <Route
             path="/web/:type/:id"
             element={<CoursePage CourseData={WebData} />}
           />
@@ -308,6 +320,14 @@ function App() {
           <Route
             path="/common/:type/:id"
             element={<CoursePage CourseData={CommonData} />}
+          />
+          <Route
+            path="/civil/autocad/:type/:id"
+            element={<CoursePage CourseData={AutoCADData} />}
+          />
+          <Route
+            path="/civil/revit/:type/:id"
+            element={<CoursePage CourseData={RevitData} />}
           />
           <Route path="/android/core/learnkotlin" element={<AndroidKotlin />} />
           <Route

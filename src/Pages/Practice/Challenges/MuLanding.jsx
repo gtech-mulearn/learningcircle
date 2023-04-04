@@ -43,12 +43,21 @@ const MuLanding = () => {
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
                 <MentorCard
-                  name="Digital Marketing Writer Challenge"
-                  designation=" A digital marketing writer is a skilled communicator who creates
-                  compelling and informative content to promote brands and
-                  products across various digital channels.Is mastery over words your superpower? If so, complete the
-                  challenge and prove it."
-                  mclink="/challenge/digitalmarketing"
+                  name="Engineering Design Challenge"
+                  designation="This challenge challenges engineering students to identify
+                  real-world problems, conduct surveys and research, and propose
+                  innovative solutions through sketches, prototypes, and videos.
+                  Submissions should be shared in the #civil channel
+                  using specific hashtags."
+                  mclink="/challenge/innovationdesign"
+                />
+                <MentorCard
+                  name="Innovation By Design"
+                  designation=" Design solutions for home problems in the Civil Engineering
+                  course project. Includes identifying problems, surveying stakeholders, preparing
+                  a design sketch, and creating a mock-up model with a video
+                  presentation."
+                  mclink="/challenge/designchallenge"
                 />
                 <MentorCard
                   name="Solution Challenge 2023"
@@ -57,16 +66,6 @@ const MuLanding = () => {
                   Nations 17 Sustainable Development Goals using Google
                   Technology."
                   mclink="/challenge/googlesolution"
-                />
-                <MentorCard
-                  name="Hackout CTF"
-                  designation="Get ready to gear up your skills and machines on March 12 to win the 𝐇𝐚𝐜𝐤𝐨𝐮𝐭 𝐂𝐓𝐅⛳, organized by GTech µLearn in association with Nixiebytes, Riglabs and Lyminal space. The only thing you need to do to secure your entry is to crack the preliminary task."
-                  mclink="/challenge/hackout"
-                />
-                <MentorCard
-                  name="µLearn Marathon Challenge"
-                  designation="Join our Marathon Challenge and earn karma points while improving your health and fitness! Simply run a few kilometers every day and track your progress on the Runkeeper app"
-                  mclink="/challenge/marathon"
                 />
                 <MentorCard
                   name="Self Introduction"

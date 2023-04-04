@@ -186,9 +186,9 @@ const IntroToCommandLine = () => {
               </div>
             </div>
             <ExampleMsg
+             hashtag="#ge-intro-to-command-line"
               firstLine="Hey! I've completed the Intro to Command Line course. I'm a command line Ninja!"
               linkText=""
-              hashtag="#ge-intro-to-command-line"
               img="https://mulearn.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F451e8af7-8155-41fd-a608-6284cfd1b82c%2Fcommand-line-tree-example_(1).png?table=block&id=576fbb3b-f951-4108-b233-259a90e1f76a&spaceId=be508055-0311-452f-8715-e58ce6ed999f&width=410&userId=&cache=v2"
               imgMaxWidth={300}
             />

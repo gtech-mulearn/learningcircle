@@ -1447,7 +1447,7 @@ const InterestGroups = [
     ],
   },
   {
-    comingsoon: "true",
+    comingsoon: true,
     id: "uiux",
     interestgroup: "User Interface and Experience (UI/UX)",
     interestgroupdescription:
@@ -1717,7 +1717,7 @@ const InterestGroups = [
         images: "assets/interestGroups/Vishnu Prathap.webp",
       },
     ],
-    comingsoon: "true",
+    comingsoon: true,
     opportunities: [],
     company: [],
     mentors: ["Vishnu Vijayan", "Akshay Jose"],
@@ -2229,9 +2229,10 @@ const InterestGroups = [
 
     basicenablementtasks: [],
     learningpaths: [],
-    officetime: "Sunday 7:00 PM",
+    officetime: "Wednesday 7:00 PM",
     officeplace: " @ Discord Lobby",
     corecourses: [],
+
     coretracks: [
       {
         id: "/civil/revit",
@@ -2239,6 +2240,8 @@ const InterestGroups = [
           "Autodesk's Revit is a well-known Building Information Modeling (BIM) programme. It is commonly used to produce intricate 3D models of buildings and other structures in the design, engineering, and construction industries.",
         name: "Autodesk Revit",
         link: "/civil/revit",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
       },
       {
         id: "/civil/autocad",
@@ -2246,6 +2249,8 @@ const InterestGroups = [
           "AutoCAD is a powerful computer-aided design software application. It is widely used in architectural, engineering, construction, and manufacturing fields. AutoCAD is known for its precision, accuracy, and easy-to-use features. It offers a range of tools that enable users to create highly detailed and complex designs.",
         name: "AutoCAD",
         link: "/civil/autocad",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
       },
       {
         id: "/civil/bim",
@@ -2253,6 +2258,36 @@ const InterestGroups = [
           "BIM is a digital representation of a building's characteristics.It improves collaboration among stakeholders and enhances visualization.BIM reduces costs, improves quality, and increases productivity in the construction industry.",
         name: "Building Information Modeling",
         link: "/civil/bim",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
+      },
+      {
+        id: "/civil/constructmgmt",
+        description:
+          "Construction management is the process of planning, coordinating, and controlling a construction project from start to finish. It is a professional service that uses specialized, project management techniques to oversee the planning, design, and construction of a project, in order to ensure that it is completed on time and within budget.",
+        name: "Construction Management",
+        link: "/civil/constructmgmt",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
+      },
+
+      {
+        id: "/civil/3dcad",
+        description:
+          "3D CAD is a software application for 3D computer-aided design (CAD) and 3D computer-aided manufacturing (CAM). It is used to create, modify, analyze, or optimize a design. It is also used to create toolpaths for computer numerical control (CNC) machines. 3D CAD is used in a wide range of industries, including aerospace, automotive, consumer goods, shipbuilding, and heavy equipment manufacturing.",
+        name: "3D CAD",
+        link: "/civil/3dcad",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
+      },
+      {
+        id: "/civil/civil3d",
+        description:
+          "Civil 3D is a civil engineering design and documentation software application for the Microsoft Windows platform. It is developed and sold by Autodesk for use in civil engineering. It is part of the Autodesk Architecture, Engineering and Construction Industry Collection, providing interoperability with AutoCAD and AutoCAD LT.",
+        name: "Civil 3D",
+        link: "/civil/civil3d",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
       },
     ],
     subcourses: [
@@ -2262,7 +2297,7 @@ const InterestGroups = [
       //   link: "",
       // },
     ],
-    comingsoon: true,
+
     mentorscard: [
       {
         id: "",
@@ -2342,7 +2377,7 @@ const InterestGroups = [
       },
     ],
     officetime: "Monday 7:30 PM",
-    comingsoon: "true",
+    comingsoon: true,
     thinktankplace: " @ Google Meet",
     thinktanktime: " Sunday 9:30PM",
     officeplace: " @ Discord Lobby",
@@ -2361,45 +2396,37 @@ const InterestGroups = [
     ],
   },
   {
-    comingsoon: "true",
-    id: "innovation",
-    interestgroup: "Innovation",
-
+    comingsoon: true,
+    id: "innovent",
+    interestgroup: "Innovation & Entrepreneurship",
     interestgroupdescription:
-      "Startups drive innovation by introducing new ideas and challenging established players. They utilize cutting-edge technology and unique business models to solve problems and meet customer needs. Join our interest group to learn more about this dynamic field.",
+      "Join Innovation and Entrepreneurship today to experience the joy of building something unique, taking risks, and making good decisions. Drive innovation by introducing new ideas and utilizing cutting-edge technology to solve problems and meet customer needs.",
     basicenablementtasks: [],
     corecourses: [
       {
-        name: "StartUp India Learning Program ",
-        link: "https://www.startupindia.gov.in/content/sih/en/learning-and-development_v2.html",
+        name: "Course Introduction: Innovation by Design",
+        link: "https://learn.mulearn.org/challenge/designchallenge",
+        complexity: "",
+        time: "",
+        karma: "250",
+      },
+      {
+        name: "Course Introduction-Design,Technology and Innovation",
+        link: "https://learn.mulearn.org/challenge/innovationdesign",
         complexity: "",
         time: "",
         karma: "",
       },
       {
-        name: "Understanding Design Thinking",
-        link: "https://nptel.ac.in/courses/109104109",
+        name: "Entrepreneurship 1: Developing the Opportunity",
+        link: "https://www.classcentral.com/course/wharton-launching-startup-5468",
         complexity: "",
         time: "",
-        karma: "",
+        karma: "850",
       },
       {
-        name: "StartUp School by Y-Combinator",
-        link: "https://www.startupschool.org/",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        name: "Becoming a Social Entrepreneur",
-        link: "https://www.startupschool.org/",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        name: "The Global Financial Crisis",
-        link: "https://www.startupschool.org/",
+        name: "Entrepreneurship 2: Launching your Start-Up",
+        link: "https://www.classcentral.com/course/wharton-launching-startup-5468",
         complexity: "",
         time: "",
         karma: "",
@@ -2633,7 +2660,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
     officetime: "Tuesday 6:00pm",
-    comingsoon: "true",
+    comingsoon: true,
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Monday 6:00 PM",
@@ -2664,7 +2691,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Think you have the skill to market any product? Join the Marketing Interest Group to learn latest marketing strategies, interact with Marketing experts and develop some much needed experience in the field.",
     officetime: "Saturday and Sunday 8:00pm",
-    comingsoon: "true",
+    comingsoon: true,
     officeplace: " @ Discord Lobby",
     // thinktankplace: " @ Google Meet",
     // thinktanktime: "Monday 6:00 PM",
@@ -2719,69 +2746,7 @@ const InterestGroups = [
     "": {},
   },
   {
-    id: "entrepreneurship",
-    interestgroup: "Entrepreneurship",
-    interestgroupdescription:
-      "The joy of starting from scratch and building something unique is special!Entrepreneurship involves understanding your business, developing it, taking risks and making good decisions. If you’ve always wanted to build something unique, Join the Entrepreneurship Interest Group today.",
-    officetime: "Saturday 7:00pm",
-    thinktankplace: " @ Google Meet",
-    // thinktanktime: "",
-    comingsoon: "true",
-    officeplace: " @ Discord Lobby",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "marketing",
-        name: "< Marketing",
-      },
-      {
-        id: "strategicleadership",
-        name: "Strategic Leadership >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
-  },
-  {
-    id: "strategicleadership",
-    interestgroup: "Strategic Leadership",
-    interestgroupdescription:
-      "Good Leaders lead the way and ensure all voices are heard.Regardless of what you do, possessing good leadership qualities is an ultimate advantage.Join the Interest Group to interact with Industry Leaders and like minded peers, and become a true leader.",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "",
-    officetime: "Sunday 7:00pm",
-    comingsoon: "true",
-    officeplace: " @ Discord Lobby",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "entrepreneurship",
-        name: "< Entrepreneurship",
-      },
-      {
-        id: "projectmanagment",
-        name: "Project Management >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
-  },
-  {
-    comingsoon: "true",
+    comingsoon: true,
     id: "projectmanagment",
     interestgroup: "Project Management",
     interestgroupdescription:
@@ -2906,7 +2871,7 @@ const InterestGroups = [
     community: [],
     company: [""],
     trendingprojects: [],
-    comingsoon: "true",
+    comingsoon: true,
     resources: [],
     pagination: [
       {

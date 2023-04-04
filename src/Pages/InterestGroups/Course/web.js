@@ -11,7 +11,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in the #web-and-mobile-app-development channel of the µLearn Discord server with the hashtag #cl-web-responsive to avail karma points.",
         example:
-          "Hey! I’ve completed Responsive Web Design Certification. Here’s is my course certificate. #cl-web-responsive",
+          "#cl-web-responsive  Hey! I’ve completed Responsive Web Design Certification. Here’s is my course certificate. ",
       },
       {
         id: "2",
@@ -23,7 +23,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord Server with hashtag #cl-web-javascript to avail karma points.",
         example:
-          "Hey! I’ve completed JavaScript Algorithm and Data Structures Certification. Here’s is my course certificate. #cl-web-javascript",
+          "#cl-web-javascript Hey! I’ve completed JavaScript Algorithm and Data Structures Certification. Here’s is my course certificate. ",
       },
       {
         id: "3",
@@ -35,7 +35,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord server  with hashtag #cl-web-frontend to avail karma points.",
         example:
-          "Hey! I’ve completed Front End Development Libraries Certification. Here’s is my course certificate. #cl-web-frontend",
+          "#cl-web-frontend Hey! I’ve completed Front End Development Libraries Certification. Here’s is my course certificate. ",
       },
       {
         id: "4",
@@ -47,7 +47,7 @@ const WebData = [
         inner_description:
           "After course completion, post the certificate in #web-and-mobile-app-development channel of µLearn Discord server  with hashtag #cl-web-backend to avail karma points.",
         example:
-          "Hey! I’ve completed Back End Development and APIs Certification. Here’s is my course certificate. #cl-web-backend",
+          "#cl-web-backend Hey! I’ve completed Back End Development and APIs Certification. Here’s is my course certificate. ",
       },
       {
         id: "5",
@@ -59,7 +59,7 @@ const WebData = [
         inner_description:
           "After course completion, submit the Github repository link and hosted link of your assignment in #web-and-mobile-app-development channel of µLearn Discord server with hashtag #web-task-board-django to avail 400 karma points.",
         example:
-          "Hey! I’ve built Task Board Application. Here is my Github repository link and hosted link. #web-task-board-django",
+          "#web-task-board-django Hey! I’ve built Task Board Application. Here is my Github repository link and hosted link. ",
         assignment: [
           {
             assignment_description:
@@ -67,7 +67,7 @@ const WebData = [
             assignment_inner_description: "",
             link: "https://mulearn.notion.site/View-Assignment-2f07089d9c6b4edbb8dfbd77e43d12bd",
           },
-          ],  
+        ],
       },
     ],
     sub: [
@@ -81,7 +81,7 @@ const WebData = [
         inner_description:
           "Now if you go to the pull requests tab in GTech µLearn repo, you’ll be able to see your pull request. Open it and copy your pull request URL.",
         example:
-          "Submit the link in #web-and-mobile-development channel with the hashtag, #cl-web-git-github",
+          " #cl-web-git-github Submit the link in #web-and-mobile-development channel with the hashtag,",
         assignment: [
           {
             assignment_description:
@@ -104,6 +104,6 @@ const WebData = [
       },
     ],
   },
-];
+]
 
-export default WebData;
+export default WebData

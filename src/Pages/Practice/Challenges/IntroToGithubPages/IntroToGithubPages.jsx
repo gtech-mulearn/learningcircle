@@ -151,10 +151,11 @@ const IntroToGithubPages = () => {
           <div className={styles.sample_container}>
             <p className={styles.sample_header}>Example Message</p>
             <p className={styles.sample_message}>
+            #ge-github-pages
               Hi! I've learnt to deploy GitHub Pages<br></br>
               My page URL is "link"
               <br></br>
-              #ge-github-pages
+             
             </p>
           </div>
         </div>

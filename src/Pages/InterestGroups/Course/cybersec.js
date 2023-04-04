@@ -11,7 +11,7 @@ const CybersecData = [
         inner_description:
           "After course completion, share the certificate in #cybersecurity channel with hashtag #cl-cybersecurity-intro to avail 200 Karma Points",
         example:
-          "Hey I’ve completed the Introduction to Cybersecurity course. Here’s my certificate. #cl-cybersecurity-intro",
+          "#cl-cybersecurity-intro Hey I’ve completed the Introduction to Cybersecurity course. Here’s my certificate.",
       },
       // {
       //   id: "2",
@@ -35,7 +35,7 @@ const CybersecData = [
       //     inner_description:
       //       "Now if you go to the pull requests tab in GTech µLearn repo, you’ll be able to see your pull request. Open it and copy your pull request URL.",
       //     example:
-      //       "Submit the link in #android-development channel with the hashtag, #android-git-github",
+      //       "Submit the link in #android-development channel with the hashtag, #android-git-github" at the beginning,
       //     assignment: [
       //       {
       //         assignment_description:
@@ -47,6 +47,6 @@ const CybersecData = [
       //   },
     ],
   },
-];
+]
 
-export default CybersecData;
+export default CybersecData

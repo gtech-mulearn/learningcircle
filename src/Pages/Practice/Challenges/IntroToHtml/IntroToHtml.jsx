@@ -134,7 +134,7 @@ const IntroToHtml = () => {
                     <div className="timeline__event__title">Step Five</div>
                     <div className="timeline__event__description">
                       After completing the 69 steps, share your profile URL in{" "}
-                      <b>#students</b> channel with hashtag{" "}
+                      <b>#students</b> channel with hashtag{" "} at the beginning
                       <b>#ge-intro-to-html</b> to avail karma points. (see
                       example message below)
                       <br />
@@ -160,6 +160,7 @@ const IntroToHtml = () => {
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
+              #ge-intro-to-html
                 Hey! I built a Cat Photo App. <br />
                 <a
                   href="https://www.freecodecamp.org/fccf7560df4-0e1a-4d83-b820-e55c2e47a19d"
@@ -169,7 +170,7 @@ const IntroToHtml = () => {
                   https://www.freecodecamp.org/fccf7560df4-0e1a-4d83-b820-e55c2e47a19d{" "}
                 </a>
                 <br />
-                #ge-intro-to-html
+               
               </p>
             </div>
             <div className={styles.callout}>

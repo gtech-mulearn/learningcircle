@@ -53,17 +53,17 @@ const CivilInterestGroup = ({ setInterest }) => {
   }, [setInterest])
   let { id } = useParams()
 
-  const link = `/create/${id}`
+  const link = `/create/civil`
   const data = InterestGroups.filter(function (interestgroups) {
     return interestgroups.id === id
   })
 
-  let next = ""
-  let previous = ""
-  if (data && data[0]) {
-    previous = `/${data[0].pagination[0].id}`
-    next = `/${data[0].pagination[1].id}`
-  }
+  // let next = ""
+  // let previous = ""
+  // if (data && data[0]) {
+  //   previous = `/${data[0].pagination[0].id}`
+  //   next = `/${data[0].pagination[1].id}`
+  // }
 
   let tracks = null
 
@@ -502,6 +502,43 @@ const CivilInterestGroup = ({ setInterest }) => {
                   ))}
                 </div>
               )}
+            </div>
+            <div className={styles.otherresources_container}>
+              <p className={styles.sv_heading}>Free Software Access</p>
+              <br />
+              <p class={styles.subtitle}>- Autodesk Software's:</p>
+              <ol class={styles.steps}>
+                <li class={styles.step}>
+                  Go to the Autodesk Students website -{" "}
+                  <a
+                    href="https://www.autodesk.com/education/edu-software/"
+                    class={styles.link}
+                  >
+                    Click Here
+                  </a>
+                </li>
+                <li class={styles.step}>Create an account</li>
+                <li class={styles.step}>
+                  Fill your basic details and verify the account
+                </li>
+                <li class={styles.step}>Log in and upload your college id card</li>
+                <li class={styles.step}>
+                  You'll receive a confirmation email regarding your software
+                  access after some time. then you can begin utilizing the
+                  Software's free or charges
+                </li>
+              </ol>
+              <p class={styles.note_title}>Note:</p>
+              <ul class={styles.notes}>
+                <li class={styles.note}>
+                  The access is valid for three years, or until you graduate
+                  from college.
+                </li>
+                <li class={styles.note}>
+                  The software is student licensing so there will be minor water
+                  marks when print out is taken (only in corners).
+                </li>
+              </ul>
             </div>
           </div>
         </div>

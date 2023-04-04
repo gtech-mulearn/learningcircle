@@ -77,12 +77,12 @@ const InterestGroup = ({ setInterest }) => {
           <div className={styles.first_view_container}>
             <div className={styles.first_view}>
               <div className={styles.fv_texts}>
-                {data[0].interestgroup === "Entrepreneurship" && (
+                {data[0].interestgroup === "Innovation & Entrepreneurship" && (
                   <p className={styles.fv_heading_entre}>
                     {data[0].interestgroup}
                   </p>
                 )}
-                {!(data[0].interestgroup === "Entrepreneurship") && (
+                {!(data[0].interestgroup === "Innovation & Entrepreneurship") && (
                   <p className={styles.fv_heading}>{data[0].interestgroup}</p>
                 )}
 
@@ -346,7 +346,7 @@ const InterestGroup = ({ setInterest }) => {
                     id={track.id}
                     interestgroup={track.name}
                     interestgroupdescription={track.description}
-                    // officetime={InterestGroup.officetime}
+                    officetime={track.officetime}
                   />
                 ))}
               </div>

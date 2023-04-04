@@ -1,9 +1,10 @@
-import React from "react";
-import Footer from "../../../../Components/Footer/Footer";
-import Navbar from "../../../../Components/Navbar/Navbar";
-import styles from "./TrafficLightSimulation.module.css";
+import React from "react"
+import Navbar from "../../../../Components/Navbar/Navbar"
+import Footer from "../../../../Components/Footer/Footer"
 
-const TrafficLightSimulation = () => {
+import styles from "./InnovationDesignChallenge.module.css"
+
+const InnovationDesignChallenge = () => {
   return (
     <>
       <Navbar />
@@ -12,14 +13,28 @@ const TrafficLightSimulation = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                Traffic Light <span>Simulation </span>
+                Innovation Design <span>Challenge</span>
               </p>
               <p className={styles.fv_content}>
-                As children, we've always adored Traffic lights. Ever considered
-                building a Traffic Light by yourself. In this Challenges, you
-                will use TinkerCad to create a simulation of a Traffic Light
-                Arduino project.
+                Design solutions for home problems in the Civil Engineering
+                course project. Complete five steps and submit work with
+                appropriate hashtags in <b>#civil</b> channel.
+                Includes identifying problems, surveying stakeholders, preparing
+                a design sketch, and creating a mock-up model with a video
+                presentation.
+                <br />
               </p>
+
+              <br />
+              <a
+                href="https://www.youtube.com/watch?v=uzDCc_lShAY&list=PLOzRYVm0a65epMo6DDrlT0X5ejGWDbT13"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={styles.joinchallenge}>
+                  Resource Material
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -43,14 +58,11 @@ const TrafficLightSimulation = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step One</div>
                     <div className="timeline__event__description">
-                      Create a simulation of the following Arduino project in{" "}
-                      <a
-                        href="https://www.tinkercad.com/login"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Tinkercard
-                      </a>
+                      Identify three problems in your home, document them
+                      including photographs, and mention the
+                      stakeholders/beneficiaries. Submit the document link in
+                      the <b>#civil</b> channel with the hashtag
+                      <b>#cl-ie-design1</b> to get 50 Karma Points
                     </div>
                   </div>
                 </div>
@@ -66,10 +78,13 @@ const TrafficLightSimulation = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Two</div>
                     <div className="timeline__event__description">
-                      Build a traffic light controller with 3 LEDs (Red, Yellow,
-                      Green). Each LED should light up one after the other after
-                      a specified amount of time to emulate a traffic light.
-                      <br />
+                      Conduct a survey for the three chosen problems with
+                      corresponding stakeholders. Conduct a detailed study of
+                      the problem by asking questions and document it. Submit
+                      the document, including questions and their responses
+                      along with photographs, in the <b>#civil</b>{" "}
+                      channel with the hashtag <b>#cl-ie-design2</b> to get 50
+                      Karma Points
                     </div>
                   </div>
                 </div>
@@ -85,9 +100,12 @@ const TrafficLightSimulation = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Three</div>
                     <div className="timeline__event__description">
-                      A button should be connected to the Arduino to emulate a
-                      “Pedestrian crossing” button that makes the traffic light
-                      turn to Red on demand.
+                      Select a problem statement to solve and study existing
+                      solutions. Prepare a detailed document of the new design
+                      and what values the improvement makes. Submit the
+                      documentation link in the <b>#civil</b>{" "}
+                      channel with the hashtag <b>#cl-ie-design3</b> to get 50
+                      Karma Points.
                     </div>
                   </div>
                 </div>
@@ -103,27 +121,42 @@ const TrafficLightSimulation = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Four</div>
                     <div className="timeline__event__description">
-                      Submit the project link from Tinkercad in #students
-                      channel with the hashtag #ge-iot-traffic-light
+                      Prepare a sketch of the new/improved design and submit the
+                      image in the <b>#civil</b> channel with the
+                      hashtag
+                      <b>#cl-ie-design4</b> to get 50 Karma Points
+                    </div>
+                  </div>
+                </div>
+                <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                  <div className="timeline__event__icon">
+                    <img
+                      src={require("../assets/steps/freecodecamp.svg").default}
+                      alt=""
+                      className="lni-cake"
+                    />
+                  </div>
+                  <div className="timeline__event__date">5</div>
+                  <div className="timeline__event__content">
+                    <div className="timeline__event__title">Step Five</div>
+                    <div className="timeline__event__description">
+                      Make a mock-up model and prepare a one-minute video of the
+                      product or design that contains the problem, solution, and
+                      advantages. Submit the video in the{" "}
+                      <b>#civil</b>
+                      channel with the hashtag <b>#cl-ie-design5</b> to get 50
+                      Karma Points
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            {/* <div className={styles.callout}>
-              Complete the full FreeCodeCamp Responsive Web Design Course and
-              avail 400 karma points. Checkout{" "}
-              <a href="https://learn.mulearn.org/web/core/1">
-                https://learn.mulearn.org/web/core/1
-              </a>
-            </div> */}
-
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
-                Submit the project link from Tinkercad in #students channel with
-                the hashtag #ge-iot-traffic-light at the beginning
+                <b>#cl-ie-design5</b>
+                Hey, I have completed the mock-up model and here is my video of
+                the product [link].
               </p>
             </div>
           </div>
@@ -132,7 +165,7 @@ const TrafficLightSimulation = () => {
 
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default TrafficLightSimulation;
+export default InnovationDesignChallenge
