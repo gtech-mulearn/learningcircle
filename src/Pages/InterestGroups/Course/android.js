@@ -47,7 +47,7 @@ const AndroidData = [
             assignment_description:
               "Just like knowing how to use the Command Line, Git & Github will be very important in your daily workflow as a programmer / developer. Let’s put your Git and Github skills to practice! Find the assignment below.",
             assignment_inner_description: "",
-            link: "https://mulearn.notion.site/Assignment-6cc865e1fc85409d985fd64a4a05519a",
+            link: "https://mulearn.notion.site/Git-GitHub-b8a840efb00845d2a2ab1c2877b1952c",
           },
         ],
       },

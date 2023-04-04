@@ -1,0 +1,24 @@
+.mainContainer {
+    padding:30px 10px;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    max-width: 350px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.082);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 13.5px;
+}
+@media screen and (max-width: 400px) {
+    .mainContainer{
+        padding:45px 15px;
+    }
+}
+.subContainer{
+    display:flex ;
+    justify-content: space-between;
+    margin-top: 1;
+    align-items: center;
+    
+}
