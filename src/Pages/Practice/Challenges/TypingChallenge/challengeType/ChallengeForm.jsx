@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "../TypingChallenge.module.css"
 import axios from 'axios'
-import style from "./challenge.module.css"
+import styles from "./challenge.module.css"
 import Rules from './Rules'
 const ChallengeForm = ({ exportGoogleSheetData, getNumberOfDays, getCollege, setView }) => {
     const [spreadsheetId, setSpreadsheetId] = useState("")
@@ -21,25 +21,25 @@ const ChallengeForm = ({ exportGoogleSheetData, getNumberOfDays, getCollege, set
 
     return (
         <>
-            <div className={style.mainContainer}>
+            <div className={styles.main_container}>
                 <div>
                     <Rules />
                 </div>
-                <div className={style.title}>Typing Challenge</div>
-                <div className={style.container2}>
-                    <div className={`${style.textContainer} ${style.pasteBox}`}>
-                        Google Sheet <input className={style.textEditor} placeholder='Paste Google Sheet Link' type='text' onChange={(e) => {
+                <div className={styles.title}>Typing Challenge</div>
+                <div className={styles.container_2}>
+                    <div className={`${styles.text_container} ${styles.paste_box}`}>
+                        Google Sheet <input className={styles.text_editor} placeholder='Paste Google Sheet Link' type='text' onChange={(e) => {
                             setSpreadsheetId(e.target.value)
                         }} />
                     </div>
-                    <div className={`${style.textContainer} ${style.pasteBox}`}>
-                        College <input className={style.textEditor} placeholder='Enter College Name' onChange={(e) => getCollege(e.target.value)} />
+                    <div className={`${styles.text_container} ${styles.paste_box}`}>
+                        College <input className={styles.text_editor} placeholder='Enter College Name' onChange={(e) => getCollege(e.target.value)} />
                     </div >
-                    <div className={`${style.textContainer} ${style.pasteBox}`}>
-                        Days Completed < input className={style.textEditor} placeholder='Enter day count' type='number' onChange={(e) => getNumberOfDays(parseInt(e.target.value))} />
+                    <div className={`${styles.text_container} ${styles.paste_box}`}>
+                        Days Completed < input className={styles.text_editor} placeholder='Enter day count' type='number' onChange={(e) => getNumberOfDays(parseInt(e.target.value))} />
                     </div >
-                    <div className={style.buttonContainer} >
-                        <button className={style.button} onClick={() => {
+                    <div className={styles.button_container} >
+                        <button className={styles.button} onClick={() => {
                             setUpdate((prevstate) => !prevstate)
                         }}>Submit</button>
                     </div >

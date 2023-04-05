@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import style from './rules.module.css'
+import styles from './rules.module.css'
 const Rules = () => {
     const [visbile, Toggle] = useState(false)
     const log = [{
@@ -55,8 +55,8 @@ const Rules = () => {
     ]
 
     return (
-        <div className={style.mainContainer}>
-            <div className={style.subContainer} onClick={() => Toggle(prevState => !prevState)}>Rules & Info<ion-icon name="chevron-down-outline"></ion-icon></div>
+        <div className={styles.mainContainer}>
+            <div className={styles.subContainer} onClick={() => Toggle(prevState => !prevState)}>Rules & Info<ion-icon name="chevron-down-outline"></ion-icon></div>
 
             <div className={`${visbile ? "" : "hidden"} p-3`} >
                 <h3 className={`text-[20px] text-center`}>Google Sheet Format</h3>
@@ -66,12 +66,12 @@ const Rules = () => {
                 {
                     log.map((item, index) => {
                         return (
-                            <div key={index} className={style.card}>
-                                <div className={style.heading}>
+                            <div key={index} className={styles.card}>
+                                <div className={styles.heading}>
                                     <h3 className={`text-[20px] text-center`}>{item.heading}{item.icon}</h3>
                                     <p>⭐{item.desc}</p>
                                 </div>
-                                <div className={style.points}>
+                                <div className={styles.points}>
                                     {item.points &&
                                         item.points.map((item, index) => {
                                             return (

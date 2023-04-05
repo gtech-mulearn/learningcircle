@@ -1,4 +1,4 @@
-.mainContainer {
+.main_container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     padding:10px 15px 25px 15px;
@@ -14,10 +14,10 @@
     font-weight: 500;
     text-align: center;
 }
-.container2{
+.container_2{
     padding:25px 0 0 0;
 }
-.pasteBox{
+.paste_box{
     display: flex;  
     justify-content: space-between;
     gap:10px;
@@ -25,17 +25,17 @@
     padding: 10px;
 } 
 
-.textContainer{
+.text_container{
     padding: 10px 0;
 }
 
-.textEditor{
+.text_editor{
     padding: 10px;
     box-shadow:inset 0px 0px 5px rgba(0, 0, 0, 0.25);
     border-radius:10px ;
 }
 
-.buttonContainer{
+.button_container{
     text-align: center;
 }
 .button{

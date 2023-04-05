@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from "../../../../Components/Navbar/Navbar"
-import style from './typingChallengeV2.module.css'
-import Form from "./challengeType/ChallengeForm"
-import LeaderBoard from './challengeType/LeaderBoard'
+import styles from './TypingChallengeLeaderboard.module.css'
+import Form from "./ChallengeType/ChallengeForm"
+import LeaderBoard from './ChallengeType/LeaderBoard'
 
-const TypingChallenge2 = () => {
+const TypingChallengeLeaderboard = () => {
     const [leaderboard, setLeaderboard] = useState([])
     const [data, setData] = useState([])
     const [numberOfDays, setNumberOfDays] = useState(0)
@@ -44,7 +44,7 @@ const TypingChallenge2 = () => {
     return (
         <>
             <Navbar />
-            <div className={style.container}>
+            <div className={styles.container}>
                 <Form exportGoogleSheetData={setData} numberOfDays={numberOfDays} getNumberOfDays={setNumberOfDays} getCollege={setTeamCollegeName} />
                 <LeaderBoard leaderboard={leaderboard} Day={numberOfDays} College={teamCollegeName} />
             </div>
@@ -52,4 +52,4 @@ const TypingChallenge2 = () => {
     )
 }
 
-export default TypingChallenge2
+export default TypingChallengeLeaderboard

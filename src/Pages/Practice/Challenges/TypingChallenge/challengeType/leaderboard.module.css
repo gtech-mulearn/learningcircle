@@ -1,15 +1,15 @@
 
-.mainContainer{
+.main_container{
     display: flex;
     flex-direction: column;
 }
 @media screen and (max-width: 400px) {
-    .mainContainer{
+    .main_container{
         padding:45px 15px;
     }
 }
     
-.subContainer1{
+.sub_container_1{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -41,27 +41,27 @@
     color: #ff7700;
     padding:0 25px; ;
 }
-.subContainer2{
+.sub_container_2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 10px 0;
 }
-.listBox{
+.list_box{
     display: flex;
     justify-content: space-between;
     font-weight: 500;
 }
-.box,.box2{
+.box,.box_2{
     text-align: center;
     min-width: 50px;
 }
-.box2,.nameBox2{
+.box_2,.name_box_2{
     
     font-weight: 400;
 }
-.nameBox,.nameBox2{
+.name_box,.name_box_2{
     text-align: left;
 
     width: 180px;   
