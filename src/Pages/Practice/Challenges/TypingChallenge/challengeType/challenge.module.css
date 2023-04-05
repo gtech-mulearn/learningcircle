@@ -1,0 +1,50 @@
+.mainContainer {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding:10px 15px 25px 15px;
+    min-width: 345px;
+    margin:10px;
+}
+@media screen and (max-width: 400px) {
+    
+}       
+.title{
+    color: #ff7700;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.container2{
+    padding:25px 0 0 0;
+}
+.pasteBox{
+    display: flex;  
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    padding: 10px;
+} 
+
+.textContainer{
+    padding: 10px 0;
+}
+
+.textEditor{
+    padding: 10px;
+    box-shadow:inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius:10px ;
+}
+
+.buttonContainer{
+    text-align: center;
+}
+.button{
+    margin-top: 20px;
+    padding:5px 15px;
+    background-color: #ff9f4b;
+    border-radius: 15px;
+}
+.button:active{
+    transform: scale(0.9);
+}
+
