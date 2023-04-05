@@ -48,6 +48,7 @@ import Courses from "./Pages/Practice/Courses/Courses"
 import IndividualPage from "./Pages/Practice/ProblemShelves/IndividualPage/IndividualPage"
 
 //Practice => Challenges
+import TypingChallengeLeaderboard from "./Pages/Practice/Challenges/TypingChallenge/TypingChallengeLeaderboard"
 import TypingChallenge from "./Pages/Practice/Challenges/TypingChallenge/TypingChallenge"
 import MuLanding from "./Pages/Practice/Challenges/MuLanding"
 import DefensiveDriving from "./Pages/Practice/Challenges/DefensiveDriving/DefensiveDriving"
@@ -245,6 +246,7 @@ function App() {
           <Route path="/problemshelves/:id" element={<IndividualPage />} />
           <Route path="/challenges" element={<MuLanding />} />
           <Route path="/challenge/typing" element={<TypingChallenge />} />
+          <Route path="/challenge/typing/leaderboard" element={<TypingChallengeLeaderboard />} />
           <Route path="/challenge/hackout" element={<CTFChallenge />} />
           <Route
             path="/challenge/intro-to-github"
