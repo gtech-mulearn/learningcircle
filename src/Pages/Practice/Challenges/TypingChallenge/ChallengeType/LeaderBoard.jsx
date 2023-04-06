@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import html2canvas from 'html2canvas';
-import styles from "./leaderboard.module.css"
-import styles2 from "./challenge.module.css"
+import styles from "./Leaderboard.module.css"
+import styles2 from "./Challenge.module.css"
 import download from "../download.svg"
 const LeaderBoard = ({ leaderboard, Day, College, setView }) => {
 

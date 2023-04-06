@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "../TypingChallenge.module.css"
 import axios from 'axios'
-import styles from "./challenge.module.css"
+import styles from "./Challenge.module.css"
 import Rules from './Rules'
 const ChallengeForm = ({ exportGoogleSheetData, getNumberOfDays, getCollege, setView }) => {
     const [spreadsheetId, setSpreadsheetId] = useState("")

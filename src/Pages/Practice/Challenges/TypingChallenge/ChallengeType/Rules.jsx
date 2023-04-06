@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from './rules.module.css'
+import styles from './Rules.module.css'
 const Rules = () => {
     const [visbile, Toggle] = useState(false)
     const log = [{
