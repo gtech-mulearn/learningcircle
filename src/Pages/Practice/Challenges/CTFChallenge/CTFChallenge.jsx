@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../../../../Components/Navbar/Navbar";
 import Footer from "../../../../Components/Footer/Footer";
-import ExampleMsg from "../../../../Components/ExampleMsg/ExampleMsg";
 import styles from "./CTFChallenge.module.css";
 import { Link } from "react-router-dom";
 

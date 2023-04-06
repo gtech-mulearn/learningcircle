@@ -61,7 +61,9 @@ const LeaderBoard = ({ leaderboard, Day, College, setView }) => {
                             </div>
                         </div>))}
                     </div>
+                    
                 </div>)
+
             }
         </div >
     )
