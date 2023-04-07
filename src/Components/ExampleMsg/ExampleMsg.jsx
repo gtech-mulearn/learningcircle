@@ -11,10 +11,10 @@ const ExampleMsg = ({
   <div className='sample_container'>
     <p className='sample_header'>Example Message</p>
     <p className='sample_message'>
+    {hashtag}
+    <br></br>
       {firstLine}<br></br>
-      {linkText} <a href={link}>{link}</a>
-      <br></br>
-      {hashtag}
+      {linkText} <a href={link}>{link}</a>  
     </p>
     <img
       className='sample_img'
