@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./Rust.module.css";
+import React from "react"
+import styles from "./Rust.module.css"
 
-import Navbar from "../../../Components/Navbar/Navbar";
-import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar"
+import Footer from "../../../Components/Footer/Footer"
 
 const Rust = () => {
   return (
@@ -188,12 +188,10 @@ const Rust = () => {
                       </p>
                     </b>
                     <p className={styles.sample_message}>
-                    <b>#cl-exercism-rust-25</b>
+                      <b>#cl-exercism-rust-25</b><br />
                       Hey! I've reached Rust Bootcamp Exercise 25. Here's my
                       progress. <br />
                       <b> https://exercism.org/profiles/ BijoMathewJose</b>
-                      <br />
-                      
                     </p>
                     <br />
                     <img
@@ -211,7 +209,7 @@ const Rust = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Rust;
+export default Rust

@@ -160,6 +160,13 @@ const TypingChallenge = () => {
                       685 in <b>#students</b> channel with hashtag{" "}
                       <b>#ge-typing-challenge-685</b> to avail{" "}
                       <b>200 karma points</b>.
+                      <br />
+                      <br />
+                      <b>
+                        <p>
+                          Make sure your profile is visible in the screenshot
+                        </p>
+                      </b>
                     </div>
                   </div>
                 </div>

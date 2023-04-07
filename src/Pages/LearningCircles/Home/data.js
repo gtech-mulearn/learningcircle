@@ -23,40 +23,7 @@ const InterestGroups = [
       "IoT Solutions Architect",
       "Robotics Technician",
     ],
-    basicenablementtasks: [
-      {
-        id: "1",
-        name: "What is IoT - Greatlearning",
-        link: "https://www.mygreatlearning.com/academy/learn-for-free/courses/what-is-iot",
-        time: "1 Hours",
-        complexity: "3",
-        karma: "50",
-      },
-      {
-        id: "2",
-        name: "IoT 101",
-        link: "https://mulearn.atfg.gtechindia.org/page/iot101",
-        time: "1 Hour",
-        complexity: "3",
-        karma: "50",
-      },
-      {
-        id: "3",
-        name: "Traffic light simulation ",
-        link: "https://docs.google.com/document/d/1_Z5CHJ6diesFpJJ_AwEQjqElB0U0GsIbmtt963HD1m4/edit?usp=drivesdk",
-        time: "1 Hour",
-        complexity: "4",
-        karma: "100",
-      },
-      {
-        id: "4",
-        name: "Learn IoT Basics - Simplelearn",
-        link: "https://skillsforall.com/course/introduction-iot",
-        time: "2 Hours",
-        complexity: "4",
-        karma: "200",
-      },
-    ],
+    basicenablementtasks: [],
     company: ["Thinkpalm"],
     mentors: [
       "Jaseel (Technical Program Manager - MakerGhat)",
@@ -402,15 +369,7 @@ const InterestGroups = [
         image: "/assets/mentors/Binoop M J.webp",
       },
     ],
-    basicenablementtasks: [
-      {
-        name: "HTML Forms",
-        link: "/web/enablement/1",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    basicenablementtasks: [],
     keywords: [
       {
         id: "1",
@@ -517,6 +476,13 @@ const InterestGroups = [
         complexity: "4",
         time: "",
         karma: "800",
+      },
+      {
+        name: "Django - Beginner Level",
+        link: "/web/core/5",
+        complexity: "4",
+        time: "",
+        karma: "400",
       },
     ],
     subcourses: [
@@ -639,15 +605,7 @@ const InterestGroups = [
         link: "https://developer.android.com/jetpack/compose/tutorial",
       },
     ],
-    basicenablementtasks: [
-      {
-        name: "Android 101",
-        link: "https://mulearn.atfg.gtechindia.org/page/android101",
-        complexity: "4",
-        time: "6 Hours",
-        karma: "800",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [
       {
         name: "Introduction to Kotlin",
@@ -1151,6 +1109,166 @@ const InterestGroups = [
     ],
   },
   {
+    comingsoon: true,
+    id: "qa",
+    interestgroup: "Quality Assurance",
+    interestgroupdescription:
+      '"Join our Quality Assurance Interest Group to learn and collaborate with peers on best practices for measuring and improving product quality. Discover new testing strategies and Quality Assurance frameworks to ensure your products meet the highest standards of excellence."',
+    officetime: "",
+    officeplace: " ",
+    thinktankplace: "",
+    thinktanktime: "",
+    community: [],
+    opportunities: ["QA Analyst/Trainee Tester"],
+    company: ["Faya"],
+    mentors: ["Lavanya RK", "Mohammad Zaheer", "Saran Kumar S"],
+    mentorscard: [
+      {
+        id: "S137",
+        name: "Mohammad Zaheer",
+        designation: "Faya",
+        linkedIn: "https://www.linkedin.com/in/mohammedzaheerulla/",
+        stack: "Quality Assurance",
+        image:
+          "https://media.licdn.com/dms/image/C5603AQGCLTRDz2a2Qg/profile-displayphoto-shrink_200_200/0/1660308905062?e=1683763200&v=beta&t=QXAep8pfJtXzeVNrmBDUI5HqKsv0cDmZDCdHIrLB3wY",
+      },
+      {
+        id: "S137",
+        name: "Saran Kumar S",
+        designation: "Faya",
+        linkedIn: "https://www.linkedin.com/in/saran-krishna-n-a58b191a4/",
+        stack: "Quality Assurance",
+        image:
+          "https://media.licdn.com/dms/image/D5603AQFoPOdS5W6CkQ/profile-displayphoto-shrink_200_200/0/1674936777472?e=1683763200&v=beta&t=ACquU4WWWfO-FRk-LHj7cdMpJ30DxAY2k5ah5bpDT2k",
+      },
+      {
+        id: "S137",
+        name: "Lavanya RK",
+        designation: "UST Global",
+        linkedIn: "https://www.linkedin.com/in/lavanya-rk-b5a432162/",
+        stack: "Quality Assurance",
+        image: "/assets/mentors/LavanyaRK.jpg",
+      },
+    ],
+    pagination: [
+      {
+        id: "cybersec",
+        name: "< Cyber Security",
+      },
+      {
+        id: "uiux",
+        name: "UI/UX >",
+      },
+    ],
+    learningpaths: [
+      {
+        name: "QA Engineer",
+        link: "https://roadmap.sh/qa",
+      },
+      {
+        name: "Complete guide & resources ",
+        link: "https://www.guru99.com/software-testing.html",
+      },
+    ],
+    basicenablementtasks: [
+      {
+        name: "Manual Testing Aptitude Test",
+        link: "https://docs.google.com/document/d/1pwossVnWRHrAGRAFIJLuMmon4g07Gy-qvA9JoUgQnnA/edit?usp=sharing",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Preparation of TestScenarios for the following ",
+        link: "https://docs.google.com/document/d/12qll9PR9grAwa8KhiHQSBSEu-K-rD84_6IO2HCtmohc/edit?usp=sharing",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Preparation of TestCases for the Live Ecommerce Project For the Following TestScenarios that is Given",
+        link: "https://docs.google.com/document/d/1qffIMcQGSbzyTBUSGuTJLl92qHTCRFdngIPaLb2ErqI/edit?usp=sharing",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Report the Bugs in Jira for the Website Mentioned in the Previous Task",
+        link: "https://docs.google.com/document/d/1pwossVnWRHrAGRAFIJLuMmon4g07Gy-qvA9JoUgQnnA/edit?usp=sharing",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Prepare the User Stories for the Following",
+        link: "https://docs.google.com/document/d/153lECExCnMvA2pE6ZCjFSUBRf2e6AvWXZw3MxVRdZBo/edit?usp=sharing",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+    ],
+    corecourses: [
+      {
+        name: "Manual Software Testing with Live Example",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLseflPNg0bUKfLmAbO2JnE9",
+        complexity: "",
+        time: "",
+        karma: "400",
+      },
+      {
+        name: "Jira Agile Methodology",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLunEaoMz6Ucn7NXfZ3A0_bf",
+        complexity: "",
+        time: "",
+        karma: "400",
+      },
+      {
+        name: "ISTQB Certification -QA Manual",
+        link: "https://www.youtube.com/watch?v=Wb-g7tPO2Gw&list=PLUDwpEzHYYLsMt3L4MnvmsL_DhxUNTW6J",
+        complexity: "",
+        time: "",
+        karma: "400",
+      },
+    ],
+    subcourses: [
+      {
+        name: "Basics of SQL for Testers",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLt0aRs7gvyEEviMp_CoTO3q",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "API Testing for Begineers using Postman",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLt3kLIHDLVjdnmJw7BDvVdE",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Jmeter Basics",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLs33uFHeIJo-6eU92IoiMZ7",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Java for Selenium(For Automation Testing)",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLv9v8aRuNi67vZ81cW2ksze",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+      {
+        name: "Selenium",
+        link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLs6G9WOfFxiH5zMfgNxgmSV",
+        complexity: "",
+        time: "",
+        karma: "200",
+      },
+    ],
+  },
+  {
     id: "pm",
     interestgroup: "Product Management",
     interestgroupdescription:
@@ -1159,20 +1277,11 @@ const InterestGroups = [
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Monday 7:00 PM",
-    community: ["Product Pack"],
+    community: [],
     opportunities: ["Product Manager", "Product Marketing Manager"],
     company: ["SunTec"],
-    mentors: ["Nithin Balachandran", "Vineesh U S", "Aravind", "Savio"],
+    mentors: ["Vineesh U S", "Aravind", "Savio"],
     mentorscard: [
-      {
-        id: "S136",
-        name: "Nithin Balachandran",
-        designation: "Product Manager, FAYA",
-        linkedIn: "https://www.linkedIn.com/in/nithin-balachandran",
-        stack: "Product Management",
-        image:
-          "https://drive.google.com/uc?export=view&id=1QBNU_VN3BNTbmajursbYpdB-iDJOvppv",
-      },
       {
         id: "S137",
         name: "Vineesh U S",
@@ -1208,29 +1317,7 @@ const InterestGroups = [
         link: "https://productschool.com/blog/product-management-2/ultimate-product-management-guide/",
       },
     ],
-    basicenablementtasks: [
-      {
-        name: "Modern Product Management 101",
-        link: "https://mulearn.acadle.com/courses/a3N1R2c5b3J3OHM1WVloNzE1Mg==/details",
-        complexity: "3",
-        time: "40 mins",
-        karma: "100",
-      },
-      {
-        name: "SWOT Analysis -Startbucks",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        name: "For a food delivery app, what goals would you set for the next 6 months?",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [
       {
         name: "Familiarization to Product Management",
@@ -1360,7 +1447,7 @@ const InterestGroups = [
     ],
   },
   {
-    comingsoon: "true",
+    comingsoon: true,
     id: "uiux",
     interestgroup: "User Interface and Experience (UI/UX)",
     interestgroupdescription:
@@ -1458,20 +1545,7 @@ const InterestGroups = [
       },
     ],
 
-    basicenablementtasks: [
-      {
-        name: "Create a Figma Account",
-        link: "/uiux/enablement/1",
-        complexity: "1",
-        time: "10 mins",
-        karma: "200",
-      },
-      {
-        id: "3",
-        name: "Create an UI for given wireframe",
-        link: "https://www.notion.so/mulearn/UI-UX-Task-3-cab50a68b1714df79f691c7d5c099b63",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [
       {
         name: "Product Design By Google",
@@ -1643,7 +1717,7 @@ const InterestGroups = [
         images: "assets/interestGroups/Vishnu Prathap.webp",
       },
     ],
-    comingsoon: "true",
+    comingsoon: true,
     opportunities: [],
     company: [],
     mentors: ["Vishnu Vijayan", "Akshay Jose"],
@@ -1702,34 +1776,7 @@ const InterestGroups = [
         link: "https://www.youtube.com/playlist?list=PLa1F2ddGya_8acrgoQr1fTeIuQtkSd6BW",
       },
     ],
-    basicenablementtasks: [
-      {
-        name: "AR/VR Overview",
-        link: "https://www.youtube.com/watch?v=04AMaTsXFJU",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        name: "Download Unity",
-        link: "https://unity.com/developer-tools",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        name: "Register with Unity",
-        link: "https://unity.com/products/unity-student",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        id: "4",
-        name: "Download Blender 3D",
-        link: "https://www.blender.org/",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [
       {
         name: "Augmented Reality - Full course from Freecodecamp",
@@ -1789,28 +1836,7 @@ const InterestGroups = [
         images: "assets/interestGroups/Zafar.webp",
       },
     ],
-    basicenablementtasks: [
-      {
-        id: "1",
-        name: "BuildSpace AI Writer",
-        link: "https://docs.google.com/document/d/1Z9WAI7vSrBFOv6yNVKj9xyhRCGwL6yKesGn7_05QK2E/edit?usp=sharing",
-      },
-      {
-        id: "2",
-        name: "Intro to Machine Learning - Kaggle",
-        link: "https://www.kaggle.com/learn/intro-to-machine-learning",
-      },
-      {
-        id: "3",
-        name: "Intro to AI - Elements of AI ",
-        link: "https://course.elementsofai.com/",
-      },
-      {
-        id: "4",
-        name: "Buiding AI - Elements of AI",
-        link: "https://buildingai.elementsofai.com/",
-      },
-    ],
+    basicenablementtasks: [],
     officetime: "Thursday 9:00 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
@@ -1991,23 +2017,21 @@ const InterestGroups = [
     interestgroup: "Blockchain",
     interestgroupdescription:
       "Block chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
-    officetime: "Monday 8.30 PM",
+    officetime: " Tuesday 8.30 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
-    thinktanktime: "Sunday 8:30 PM",
+    thinktanktime: " Monday 8:30 PM",
     community: ["KBA"],
     opportunities: [],
     company: [],
-    mentors: [],
-    mentorscard: [],
     pagination: [
       {
         id: "ai",
         name: "< Artificial Intelligence",
       },
       {
-        id: "clouddevops",
-        name: "Cloud & DevOps >",
+        id: "civil",
+        name: "Civil Engineering >",
       },
     ],
     learningpaths: [
@@ -2017,21 +2041,281 @@ const InterestGroups = [
         link: "https://www.codingninjas.com/codestudio/guided-paths/blockchain",
       },
     ],
-    basicenablementtasks: [],
+    basicenablementtasks: [
+      {
+        name: "10 days of Solidity",
+        link: "/blockchain/enablement/1",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "How to create your own blockchain",
+        link: "/blockchain/enablement/2",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Writing your first Hello World contract in Solidity",
+        link: "/blockchain/enablement/3",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Build your own web3 Twitter dApp with Solidity",
+        link: "/blockchain/enablement/4",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Create your own Solana token in just 10 mins",
+        link: "/blockchain/enablement/5",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "How to create your own token on Binance",
+        link: "/blockchain/enablement/6",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Understand and setup MetaMask Account",
+        link: "/blockchain/enablement/7",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Add MetaMask connect button to your react app",
+        link: "/blockchain/enablement/8",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Learn everything about NFTs",
+        link: "/blockchain/enablement/9",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Creating NFTs using different token standards",
+        link: "/blockchain/enablement/10",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Launch your own epic NFT marketplace",
+        link: "/blockchain/enablement/11",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Create a Horoscope Web3 NFT Application",
+        link: "/blockchain/enablement/12",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "How to write a smart contract and mint Elon Musk NFT on OpenSea",
+        link: "/blockchain/enablement/13",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Introduction to Polygon and its Architecture",
+        link: "/blockchain/enablement/14",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Launch your own token on Polygon Network in 30 mins",
+        link: "/blockchain/enablement/15",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "How does Ethereum work? A deepdive",
+        link: "/blockchain/enablement/16",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+      {
+        name: "Create your own Ethereum token in just 30 mins",
+        link: "/blockchain/enablement/17",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+    ],
     corecourses: [
       {
         id: "1",
         name: "Learn Blockchain, Solidity, and Full Stack JavaScript Development",
         link: "https://www.freecodecamp.org/news/learn-blockchain-solidity-full-stack-javascript-development/",
+        difficulty: "",
+        karma: 800,
+      },
+      {
+        name: "Corda Fundamentals",
+        link: "https://learn.kba.ai/course/corda-fundamentals/",
+        karma: "800",
+        difficulty: "expert",
+      },
+      {
+        name: "Ethereum Fundamentals",
+        link: "https://learn.kba.ai/course/ethereum-fundamentals/",
+        karma: "400",
+        difficulty: "intermediate",
+      },
+      {
+        name: "Hyperledger Fabric Fundamentals",
+        link: "https://learn.kba.ai/course/hyperledger-fabric-fundamentals/",
+        karma: "400",
+        difficulty: "intermediate",
+      },
+      {
+        name: "Blockchain Foundation Program",
+        link: "https://learn.kba.ai/course/blockchain-foundation-program/",
+        karma: "400",
+        difficulty: "beginner",
       },
     ],
-    subcourses: [],
+    subcourses: [
+      {
+        name: "Blockchain - Coding Ninjas",
+        link: "https://www.codingninjas.com/codestudio/guided-paths/blockchain",
+        karma: 200,
+      },
+    ],
     leads: [
       {
         id: 1,
-        name: "Alekshay S Rajan",
-        college: "College of applied science perissery",
+        name: "Akshay S Rajan",
+        college: "IHRD College Of Applied Science, Perissery",
         images: "assets/interestGroups/akshay.webp",
+        linkedIn: "https://www.linkedin.com/in/akshaysrajan/",
+      },
+    ],
+    mentors: ["1"],
+    mentorscard: [
+      {
+        id: "1",
+        name: "Franklin John",
+        stack: "Research Scientist and Manager,Kerala Blockchain Academy",
+        linkedIn: "https://www.linkedin.com/in/johnfranklin1991/",
+        image: "/assets/mentors/franklin.webp",
+      },
+    ],
+  },
+  {
+    id: "civil",
+    interestgroup: "Civil Engineering",
+    interestgroupdescription:
+      "Get ahead in your Civil Engineering career by joining GTech μlearn's Civil Interest Group. Learn AutoCAD, BIM, and Revit from industry experts. Gain hands-on experience and practical skills. Join us now to take the next step in your career.",
+
+    basicenablementtasks: [],
+    learningpaths: [],
+    officetime: "Wednesday 7:00 PM",
+    officeplace: " @ Discord Lobby",
+    corecourses: [],
+    comingsoon: true,
+    coretracks: [
+      {
+        id: "/civil/revit",
+        description:
+          "Autodesk's Revit is a well-known Building Information Modeling (BIM) programme. It is commonly used to produce intricate 3D models of buildings and other structures in the design, engineering, and construction industries.",
+        name: "Autodesk Revit",
+        link: "/civil/revit",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
+      },
+      {
+        id: "/civil/autocad",
+        description:
+          "AutoCAD is a powerful computer-aided design software application. It is widely used in architectural, engineering, construction, and manufacturing fields. AutoCAD is known for its precision, accuracy, and easy-to-use features. It offers a range of tools that enable users to create highly detailed and complex designs.",
+        name: "AutoCAD",
+        link: "/civil/autocad",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
+      },
+      {
+        id: "/civil/bim",
+        description:
+          "BIM is a digital representation of a building's characteristics.It improves collaboration among stakeholders and enhances visualization.BIM reduces costs, improves quality, and increases productivity in the construction industry.",
+        name: "Building Information Modeling",
+        link: "/civil/bim",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
+      },
+      {
+        id: "/civil/constructmgmt",
+        description:
+          "Construction management is the process of planning, coordinating, and controlling a construction project from start to finish. It is a professional service that uses specialized, project management techniques to oversee the planning, design, and construction of a project, in order to ensure that it is completed on time and within budget.",
+        name: "Construction Management",
+        link: "/civil/constructmgmt",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
+      },
+
+      {
+        id: "/civil/3dcad",
+        description:
+          "3D CAD is a software application for 3D computer-aided design (CAD) and 3D computer-aided manufacturing (CAM). It is used to create, modify, analyze, or optimize a design. It is also used to create toolpaths for computer numerical control (CNC) machines. 3D CAD is used in a wide range of industries, including aerospace, automotive, consumer goods, shipbuilding, and heavy equipment manufacturing.",
+        name: "3D CAD",
+        link: "/civil/3dcad",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
+      },
+      {
+        id: "/civil/civil3d",
+        description:
+          "Civil 3D is a civil engineering design and documentation software application for the Microsoft Windows platform. It is developed and sold by Autodesk for use in civil engineering. It is part of the Autodesk Architecture, Engineering and Construction Industry Collection, providing interoperability with AutoCAD and AutoCAD LT.",
+        name: "Civil 3D",
+        link: "/civil/civil3d",
+        officetime: "Wednesday 7:00 PM",
+        officeplace: " @ Discord Lobby",
+      },
+    ],
+    subcourses: [
+      // {
+      //   id: "",
+      //   name: "",
+      //   link: "",
+      // },
+    ],
+    comingsoon: true,
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedIn: "",
+        stack: "",
+        image: "",
+      },
+    ],
+    pagination: [
+      {
+        id: "blockchain",
+        name: "< Blockchain",
+      },
+      {
+        id: "clouddevops",
+        name: "Cloud & DevOps >",
       },
     ],
   },
@@ -2040,20 +2324,7 @@ const InterestGroups = [
     interestgroup: "Cloud & DevOps",
     interestgroupdescription:
       "The emergence of Cloud technologies have changed the world forever.If you’re keen to know how the Cloud works and what DevOps is, here’s your chance to do so. Join the Cloud & DevOps Interest Group today and learn more.",
-    basicenablementtasks: [
-      {
-        name: "Dockerize an application",
-      },
-      {
-        name: "Create CI/CD pipeline to test, build and deploy a software",
-      },
-      {
-        name: "Serve an application ensuring high availability with load balancers",
-      },
-      {
-        name: "Setup application log management, monitoring and alerting",
-      },
-    ],
+    basicenablementtasks: [],
     learningpaths: [
       {
         id: "1",
@@ -2106,7 +2377,7 @@ const InterestGroups = [
       },
     ],
     officetime: "Monday 7:30 PM",
-    comingsoon: "true",
+    comingsoon: true,
     thinktankplace: " @ Google Meet",
     thinktanktime: " Sunday 9:30PM",
     officeplace: " @ Discord Lobby",
@@ -2125,53 +2396,37 @@ const InterestGroups = [
     ],
   },
   {
-    comingsoon: "true",
-    id: "innovation",
-    interestgroup: "Innovation",
-
+    comingsoon: true,
+    id: "innovent",
+    interestgroup: "Innovation & Entrepreneurship",
     interestgroupdescription:
-      "Startups drive innovation by introducing new ideas and challenging established players. They utilize cutting-edge technology and unique business models to solve problems and meet customer needs. Join our interest group to learn more about this dynamic field.",
-    basicenablementtasks: [
-      {
-        name: "Revenue Models Matching Card Game",
-        link: "https://www.teachingentrepreneurship.org/category/exercises/",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+      "Join Innovation and Entrepreneurship today to experience the joy of building something unique, taking risks, and making good decisions. Drive innovation by introducing new ideas and utilizing cutting-edge technology to solve problems and meet customer needs.",
+    basicenablementtasks: [],
     corecourses: [
       {
-        name: "StartUp India Learning Program ",
-        link: "https://www.startupindia.gov.in/content/sih/en/learning-and-development_v2.html",
+        name: "Course Introduction: Innovation by Design",
+        link: "https://learn.mulearn.org/challenge/designchallenge",
+        complexity: "",
+        time: "",
+        karma: "250",
+      },
+      {
+        name: "Course Introduction-Design,Technology and Innovation",
+        link: "https://learn.mulearn.org/challenge/innovationchallenge",
         complexity: "",
         time: "",
         karma: "",
       },
       {
-        name: "Understanding Design Thinking",
-        link: "https://nptel.ac.in/courses/109104109",
+        name: "Entrepreneurship 1: Developing the Opportunity",
+        link: "https://www.classcentral.com/course/wharton-launching-startup-5468",
         complexity: "",
         time: "",
-        karma: "",
+        karma: "850",
       },
       {
-        name: "StartUp School by Y-Combinator",
-        link: "https://www.startupschool.org/",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        name: "Becoming a Social Entrepreneur",
-        link: "https://www.startupschool.org/",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-      {
-        name: "The Global Financial Crisis",
-        link: "https://www.startupschool.org/",
+        name: "Entrepreneurship 2: Launching your Start-Up",
+        link: "https://www.classcentral.com/course/wharton-launching-startup-5468",
         complexity: "",
         time: "",
         karma: "",
@@ -2405,7 +2660,7 @@ const InterestGroups = [
     interestgroupdescription:
       "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
     officetime: "Tuesday 6:00pm",
-    comingsoon: "true",
+    comingsoon: true,
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Monday 6:00 PM",
@@ -2431,12 +2686,12 @@ const InterestGroups = [
     "": {},
   },
   {
-    id: "marketing",
-    interestgroup: "Marketing",
+    id: "digitalmarketing",
+    interestgroup: "Digital Marketing",
     interestgroupdescription:
       "Think you have the skill to market any product? Join the Marketing Interest Group to learn latest marketing strategies, interact with Marketing experts and develop some much needed experience in the field.",
-    officetime: "Thursday 7:00pm",
-    comingsoon: "true",
+    officetime: "Saturday and Sunday 8:00pm",
+    comingsoon: true,
     officeplace: " @ Discord Lobby",
     // thinktankplace: " @ Google Meet",
     // thinktanktime: "Monday 6:00 PM",
@@ -2456,112 +2711,48 @@ const InterestGroups = [
       },
     ],
     learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
-  },
-  {
-    id: "entrepreneurship",
-    interestgroup: "Entrepreneurship",
-    interestgroupdescription:
-      "The joy of starting from scratch and building something unique is special!Entrepreneurship involves understanding your business, developing it, taking risks and making good decisions. If you’ve always wanted to build something unique, Join the Entrepreneurship Interest Group today.",
-    officetime: "Saturday 7:00pm",
-    thinktankplace: " @ Google Meet",
-    // thinktanktime: "",
-    comingsoon: "true",
-    officeplace: " @ Discord Lobby",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
+    basicenablementtasks: [
       {
-        id: "marketing",
-        name: "< Marketing",
+        name: "Fundamentals of digital marketing",
+        link: "https://learndigital.withgoogle.com/digitalunlocked/course/digital-marketing",
+        complexity: "",
+        time: "",
+        karma: "",
       },
       {
-        id: "strategicleadership",
-        name: "Strategic Leadership >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
-  },
-  {
-    id: "strategicleadership",
-    interestgroup: "Strategic Leadership",
-    interestgroupdescription:
-      "Good Leaders lead the way and ensure all voices are heard.Regardless of what you do, possessing good leadership qualities is an ultimate advantage.Join the Interest Group to interact with Industry Leaders and like minded peers, and become a true leader.",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "",
-    officetime: "Sunday 7:00pm",
-    comingsoon: "true",
-    officeplace: " @ Discord Lobby",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "entrepreneurship",
-        name: "< Entrepreneurship",
+        name: "SEO Certification Course",
+        link: "https://academy.hubspot.com/courses/seo-training",
+        complexity: "",
+        time: "",
+        karma: "",
       },
       {
-        id: "projectmanagment",
-        name: "Project Management >",
+        name: "Google Ads",
+        link: "https://skillshop.exceedlms.com/student/catalog/list?category_ids=53-google-ads?use_local=true",
+        complexity: "",
+        time: "",
+        karma: "",
+      },
+      {
+        name: "Facebook Blueprint Courses",
+        link: "https://www.facebook.com/business/learn/certification",
+        complexity: "",
+        time: "",
+        karma: "",
       },
     ],
-    learningpaths: [],
-    basicenablementtasks: [],
     corecourses: [],
     subcourses: [],
     "": {},
   },
   {
-    comingsoon: "true",
+    comingsoon: true,
     id: "projectmanagment",
     interestgroup: "Project Management",
     interestgroupdescription:
       "Effective project management involves setting goals, creating a plan, and coordinating resources to ensure successful project completion. Join our interest group to learn more about these techniques and best practices.",
 
-    basicenablementtasks: [
-      {
-        id: "1",
-        name: "Foundations of Project Management",
-        link: "https://www.coursera.org/learn/project-management-foundations",
-      },
-      {
-        id: "2",
-        name: "Project Initiation: Starting a Successful Project",
-        link: "https://www.coursera.org/learn/project-initiation-google",
-      },
-      {
-        id: "3",
-        name: "Project Planning: Putting It All Together",
-        link: "https://www.coursera.org/learn/project-planning-google",
-      },
-      {
-        id: "4",
-        name: "Project Execution: Running the Project",
-        link: "https://www.coursera.org/learn/project-execution-google",
-      },
-      {
-        id: "5",
-        name: "Agile Project Management",
-        link: "https://www.coursera.org/learn/agile-project-management",
-      },
-      {
-        id: "6",
-        name: "Capstone: Applying Project Management in the Real World",
-        link: "https://www.coursera.org/learn/applying-project-management",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [],
     subcourses: [],
     mentorscard: [
@@ -2651,15 +2842,7 @@ const InterestGroups = [
     interestgroupdescription:
       "3D printing is a manufacturing process that creates objects by building successive layers of material under computer control, allowing for the creation of complex shapes and designs. Join the 3D printing interest group to learn more about this technology and its impact on design and manufacturing.",
 
-    basicenablementtasks: [
-      {
-        name: "Basic Enablemnt Task - 3D Printing",
-        link: " https://mulearn.atfg.gtechindia.org/page/3dprinting101 ",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
+    basicenablementtasks: [],
     learningpaths: [],
     corecourses: [],
     subcourses: [
@@ -2688,7 +2871,7 @@ const InterestGroups = [
     community: [],
     company: [""],
     trendingprojects: [],
-    comingsoon: "true",
+    comingsoon: true,
     resources: [],
     pagination: [
       {
@@ -2696,131 +2879,8 @@ const InterestGroups = [
         name: "< Project Management",
       },
       {
-        id: "autocad",
-        name: "AutoCAD >",
-      },
-    ],
-  },
-  {
-    id: "autocad",
-    interestgroup: "AutoCAD",
-    interestgroupdescription:
-      "AutoCAD is a professional drafting and design software used to create accurate 2D and 3D drawings and documents. Join our AutoCAD interest group to learn from experts and advance your skills in this industry-leading software.",
-
-    basicenablementtasks: [
-      {
-        name: "Create a Plan as per instructions",
-        link: "https://mulearn.notion.site/AutoCAD-Task-1-b01306b2af874c7d899a45b72cf7a3c6",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
-    learningpaths: [],
-    corecourses: [
-      {
-        id: "1",
-        name: "Technical Drawing for Design and Drafting",
-        link: "https://www.autodesk.com/certification/learn/course/autocad-drawing-design-drafting-professional/nqy0ennbqvyMJsseZYJkz",
-      },
-      {
-        id: "2",
-        name: "Drawing Management for Design and Drafting",
-        link: "https://www.autodesk.com/certification/learn/course/autocad-drawing-management-professional",
-      },
-      {
-        id: "3",
-        name: "Annotating and Dimensioning for Design and Drafting",
-        link: "https://www.autodesk.com/certification/learn/course/autocad-annotating-dimensioning-professional",
-      },
-      {
-        id: "4",
-        name: "Creating and Modifying Objects with Accuracy for Design and Drafting",
-        link: "https://www.autodesk.com/certification/learn/course/autocad-objects-design-drafting-professional",
-      },
-      {
-        id: "5",
-        name: "Layout and Output Drawings for Design and Drafting",
-        link: "https://www.autodesk.com/certification/learn/course/autocad-layout-output-design-drafting-professional",
-      },
-    ],
-    subcourses: [
-      // {
-      //   id: "",
-      //   name: "",
-      //   link: "",
-      // },
-    ],
-    comingsoon: false,
-    mentorscard: [
-      {
-        id: "",
-        name: "",
-        designation: "",
-        linkedIn: "",
-        stack: "",
-        image: "",
-      },
-    ],
-    officetime: "Wednesday 7:00PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Tuesday 6:00 PM",
-    opportunities: [],
-    community: [],
-    company: [""],
-    pagination: [
-      {
-        id: "3dprint",
-        name: "< 3D Printing",
-      },
-      {
-        id: "revit",
-        name: "AutoDesk Revit >",
-      },
-    ],
-  },
-  {
-    comingsoon: true,
-    id: "revit",
-    interestgroup: "Autodesk Revit",
-    interestgroupdescription:
-      "Revit is a building information modeling (BIM) software used to design and manage buildings and infrastructure. Join our Revit interest group to learn and collaborate with other professionals.",
-    basicenablementtasks: [
-      {
-        name: "Create a Plan as per instructions",
-        link: "https://mulearn.notion.site/Revit-Task-1-70060b2526c54383a54078c5f873a739",
-        complexity: "",
-        time: "",
-        karma: "",
-      },
-    ],
-    learningpaths: [],
-    corecourses: [
-      // {
-      //   id: "",
-      //   name: "",
-      //   link: "",
-      // },
-    ],
-    subcourses: [],
-    mentorscard: [],
-    officetime: "Wednesday 7:00PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Tuesday 6:00 PM",
-    opportunities: [],
-    community: [],
-    company: [""],
-    resources: [],
-    pagination: [
-      {
-        id: "autocad",
-        name: "< AutoCAD",
-      },
-      {
         id: "iot",
-        name: "IOT >",
+        name: "Internet of Things >",
       },
     ],
   },

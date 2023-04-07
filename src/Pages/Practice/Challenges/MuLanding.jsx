@@ -1,9 +1,9 @@
-import React from "react";
-import Navbar from "../../../Components/Navbar/Navbar";
-import Footer from "../../../Components/Footer/Footer";
+import React from "react"
+import Navbar from "../../../Components/Navbar/Navbar"
+import Footer from "../../../Components/Footer/Footer"
 
-import styles from "./MuLanding.module.css";
-import MentorCard from "../../../Components/MentorCard/MentorCard";
+import styles from "./MuLanding.module.css"
+import MentorCard from "../../../Components/MentorCard/MentorCard"
 
 const MuLanding = () => {
   return (
@@ -42,10 +42,30 @@ const MuLanding = () => {
             </div>
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
-              <MentorCard
-                  name="µLearn Marathon Challenge"
-                  designation="Join our Marathon Challenge and earn karma points while improving your health and fitness! Simply run a few kilometers every day and track your progress on the Runkeeper app. "
-                  mclink="/challenge/marathon"
+                <MentorCard
+                  name="Engineering Design Challenge"
+                  designation="This challenge challenges engineering students to identify
+                  real-world problems, conduct surveys and research, and propose
+                  innovative solutions through sketches, prototypes, and videos.
+                  Submissions should be shared in the #civil-engineering channel
+                  using specific hashtags."
+                  mclink="/challenge/innovationdesign"
+                />
+                <MentorCard
+                  name="Innovation By Design"
+                  designation=" Design solutions for home problems in the Civil Engineering
+                  course project. Includes identifying problems, surveying stakeholders, preparing
+                  a design sketch, and creating a mock-up model with a video
+                  presentation."
+                  mclink="/challenge/designchallenge"
+                />
+                <MentorCard
+                  name="Solution Challenge 2023"
+                  designation="Google Solution Challenge is a global annual competition for
+                  university students to solve for one or more of the United
+                  Nations 17 Sustainable Development Goals using Google
+                  Technology."
+                  mclink="/challenge/googlesolution"
                 />
                 <MentorCard
                   name="Self Introduction"
@@ -130,7 +150,7 @@ const MuLanding = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default MuLanding;
+export default MuLanding

@@ -21,7 +21,7 @@ const AI = () => {
                 AI. You'll then deploy the app to show off to your friends!
               </p>
               <p className={styles.officehrs}>
-                <span>Office Hours : </span> Thursday 07:00PM @ Discord Lobby
+                <span>Office Hours : </span> Thursday 09:00PM @ Discord Lobby
               </p>
               <p className={styles.officehrs}>
                 <span>Think Tank Meet : </span> Tuesday 09:00 PM @ Google Meet

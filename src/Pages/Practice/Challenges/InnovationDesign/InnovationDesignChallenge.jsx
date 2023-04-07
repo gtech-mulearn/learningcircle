@@ -2,9 +2,9 @@ import React from "react"
 import Navbar from "../../../../Components/Navbar/Navbar"
 import Footer from "../../../../Components/Footer/Footer"
 
-import styles from "./MarathonChallenge.module.css"
+import styles from "./InnovationDesignChallenge.module.css"
 
-const MarathonChallenge = () => {
+const InnovationDesignChallenge = () => {
   return (
     <>
       <Navbar />
@@ -13,29 +13,26 @@ const MarathonChallenge = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                µLearn Marathon <span>Challenge</span>
+                Innovation Design <span>Challenge</span>
               </p>
               <p className={styles.fv_content}>
-                Join our Marathon Challenge and earn karma points while
-                improving your health and fitness! Simply run a few kilometers
-                every day and track your progress on the Runkeeper app. This
-                challenge is open to all levels of runners, from beginners to
-                experienced athletes.
+                Design solutions for home problems in the Civil Engineering
+                course project. Complete five steps and submit work with
+                appropriate hashtags in <b>#civil-engineering</b> channel.
+                Includes identifying problems, surveying stakeholders, preparing
+                a design sketch, and creating a mock-up model with a video
+                presentation.
                 <br />
-              </p>
-              <p className={styles.late_date}>
-                Free Tickets for the First 25 completions. Hurry up and run to
-                secure your FREE tickets!
               </p>
 
               <br />
               <a
-                href="https://airtable.com/shrJpHwakqmNxjWE1"
+                href="https://www.youtube.com/watch?v=uzDCc_lShAY&list=PLOzRYVm0a65epMo6DDrlT0X5ejGWDbT13"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className={styles.joinchallenge}>
-                  Complete Challenge
+                  Resource Material
                 </button>
               </a>
             </div>
@@ -61,14 +58,11 @@ const MarathonChallenge = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step One</div>
                     <div className="timeline__event__description">
-                      Download the{" "}
-                      <a
-                        href="https://play.google.com/store/apps/details?id=com.fitnesskeeper.runkeeper.pro&hl=en_IN&gl=US&pli=1"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        ASICS Runkeeper - Run Tracker
-                      </a>{" "}
+                      Identify three problems in your home, document them
+                      including photographs, and mention the
+                      stakeholders/beneficiaries. Submit the document link in
+                      the <b>#civil-engineering</b> channel with the hashtag
+                      <b>#cl-ie-design1</b> to get 50 Karma Points
                     </div>
                   </div>
                 </div>
@@ -84,10 +78,13 @@ const MarathonChallenge = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Two</div>
                     <div className="timeline__event__description">
-                      Complete the first stage of the marathon challenge by
-                      running 3 km and post a screenshot of the statistics with
-                      the hashtag <b>#marathon-challenge-3km</b> in the
-                      marathon-challenge channel to earn <b>200 Karma</b>.
+                      Conduct a survey for the three chosen problems with
+                      corresponding stakeholders. Conduct a detailed study of
+                      the problem by asking questions and document it. Submit
+                      the document, including questions and their responses
+                      along with photographs, in the <b>#civil-engineering</b>{" "}
+                      channel with the hashtag <b>#cl-ie-design2</b> to get 50
+                      Karma Points
                     </div>
                   </div>
                 </div>
@@ -103,11 +100,12 @@ const MarathonChallenge = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Three</div>
                     <div className="timeline__event__description">
-                      Run 7 km to complete the second stage of the marathon
-                      challenge and earn <b>200 Karma</b>. Post a screenshot of
-                      the statistics with the hashtag{" "}
-                      <b>#marathon-challenge-10km</b> in the marathon-challenge
-                      channel for completing this stage.
+                      Select a problem statement to solve and study existing
+                      solutions. Prepare a detailed document of the new design
+                      and what values the improvement makes. Submit the
+                      documentation link in the <b>#civil-engineering</b>{" "}
+                      channel with the hashtag <b>#cl-ie-design3</b> to get 50
+                      Karma Points.
                     </div>
                   </div>
                 </div>
@@ -123,27 +121,31 @@ const MarathonChallenge = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Four</div>
                     <div className="timeline__event__description">
-                      Run 11 km to complete the final stage of the marathon
-                      challenge and earn <b>400 Karma</b>. Post a screenshot of
-                      the statistics with the hashtag{" "}
-                      <b>#marathon-challenge-21km</b> in the marathon-challenge
-                      channel for completing this stage.
-                      <br />
-                      <br />
-                      You can also{" "}
-                      <a
-                        href="http://mulearn.org/gtechmarathon"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <b>Buy Tickets</b>
-                      </a>{" "}
-                      for the GTech Marathon
-                      <b>
-                        <p>
-                          Make sure your profile is visible in the screenshot
-                        </p>
-                      </b>
+                      Prepare a sketch of the new/improved design and submit the
+                      image in the <b>#civil-engineering</b> channel with the
+                      hashtag
+                      <b>#cl-ie-design4</b> to get 50 Karma Points
+                    </div>
+                  </div>
+                </div>
+                <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                  <div className="timeline__event__icon">
+                    <img
+                      src={require("../assets/steps/freecodecamp.svg").default}
+                      alt=""
+                      className="lni-cake"
+                    />
+                  </div>
+                  <div className="timeline__event__date">5</div>
+                  <div className="timeline__event__content">
+                    <div className="timeline__event__title">Step Five</div>
+                    <div className="timeline__event__description">
+                      Make a mock-up model and prepare a one-minute video of the
+                      product or design that contains the problem, solution, and
+                      advantages. Submit the video in the{" "}
+                      <b>#civil-engineering</b>
+                      channel with the hashtag <b>#cl-ie-design5</b> to get 50
+                      Karma Points
                     </div>
                   </div>
                 </div>
@@ -152,10 +154,9 @@ const MarathonChallenge = () => {
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
-                #marathon-challenge-11km
-                <br />
-                Hey! I've completed 11km in the marathon challenge. Here is a
-                screenshot of my achievement
+                <b>#cl-ie-design5</b>
+                Hey, I have completed the mock-up model and here is my video of
+                the product [link].
               </p>
             </div>
           </div>
@@ -167,4 +168,4 @@ const MarathonChallenge = () => {
   )
 }
 
-export default MarathonChallenge
+export default InnovationDesignChallenge
