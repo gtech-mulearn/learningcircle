@@ -87,6 +87,7 @@
 .sv_content {
   margin-top: 0.25rem;
   font-family: "Poppins";
+  max-width: 30rem;
 }
 
 .mentors {

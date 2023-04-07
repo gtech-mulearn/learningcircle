@@ -1,0 +1,51 @@
+.main_container {
+  margin-top: 3rem;
+  max-width: 400px;
+  box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  padding: 30px 25px;
+  border-radius: 10px;
+  margin: 1rem;
+}
+@media screen and (max-width: 400px) {
+}
+.title {
+  color: #ff7700;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+.container_2 {
+  padding: 25px 0 0 0;
+}
+.paste_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.text_container {
+  padding: 10px 0;
+}
+
+.text_editor {
+  padding: 10px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.button_container {
+  text-align: center;
+}
+.button {
+  margin-top: 20px;
+  padding: 5px 15px;
+  background-color: #ff9f4b;
+  border-radius: 15px;
+}
+.button:active {
+  transform: scale(0.9);
+}
