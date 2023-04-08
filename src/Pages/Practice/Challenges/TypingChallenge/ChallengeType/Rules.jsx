@@ -4,17 +4,6 @@ const Rules = () => {
   const [visbile, Toggle] = useState(false)
   const log = [
     {
-      heading: "Challenge Info",
-      icon: "🏆",
-      desc: "This challenge is a 30-day typing challenge.",
-      points: [
-        "Each day a person needs to complete 10 levels in the typing challenge",
-        "The lead will mark this in a google sheet and format of the document is provided above",
-        "On providing the link in google sheet here with number of days to the challenge ,you will be provided a leaderboard ",
-        "The leaderboard explained below",
-      ],
-    },
-    {
       heading: "Toppers",
       icon: "🔝",
       desc: "The best among the best",
@@ -64,21 +53,21 @@ const Rules = () => {
         className={styles.subContainer}
         onClick={() => Toggle((prevState) => !prevState)}
       >
-        Rules & Info<ion-icon name="chevron-down-outline"></ion-icon>
+        <div className="flex justify-between items-center w-2/3">
+          Rules & Info<ion-icon name="chevron-down-outline"></ion-icon>
+        </div>
       </div>
 
       <div className={`${visbile ? "" : "hidden"} p-3`}>
-        <h3 className={`text-[20px] text-center`}>Google Sheet Format</h3>
-        <div>SlNo | Name | Day 1 | Day 2 | ... | Day 30 | </div>
-        <div className="text-[12.5px]">
-          Rename the 'sheet1' or 'sheet2' to "Typing Challenge"{" "}
+        <div className="text-center">
+          <a href="https://drive.google.com/drive/folders/10kJ5YJZHambpiXrQ7FhdygJDPyGoBmkH" className="text-orange-600">Click here for detail info</a>
         </div>
-        <h3 className={`text-[20px] text-center mb-5 mt-5  text`}>About </h3>
+        <h3 className={`text-[25px] text-center mb-5 mt-5  text`}>LeaderBoard Info </h3>
         {log.map((item, index) => {
           return (
             <div key={index} className={styles.card}>
               <div className={styles.heading}>
-                <h3 className={`text-[20px] text-center`}>
+                <h3 className={`text-[17px] text-center`}>
                   {item.heading}
                   {item.icon}
                 </h3>
