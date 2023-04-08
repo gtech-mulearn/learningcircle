@@ -65,7 +65,7 @@ const TypingChallenge = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        typingclub.org
+                        typingclub.com
                       </a>
                     </div>
                   </div>
