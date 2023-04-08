@@ -31,7 +31,7 @@ const AutoCadData = [
         karma: "200",
         description:
           "Your task is to create a model of your home based on your perspective. You will need to draw a plan and an elevation of your home. The dimensions of the model can be assumed to adhere to standard values. ",
-        link: "youtube.com/watch?v=TEf3lDX4VCk&t",
+        link: "https://youtube.com/watch?v=TEf3lDX4VCk&t",
         inner_description:
           "After finishing the drawing task, upload your drawing as a PDF file to the designated civil-engineering channel and include the hashtag #cl-ac-modelhome in your submission message to earn karma points",
         example:

@@ -17,7 +17,7 @@ import CommonData from "./Pages/InterestGroups/Course/common"
 import IoTData from "./Pages/InterestGroups/Course/iot"
 import CybersecData from "./Pages/InterestGroups/Course/cybersec"
 import PmData from "./Pages/InterestGroups/Course/pm"
-import UiuxData from "./Pages/InterestGroups/Course/uiux"
+import UxData from "./Pages/InterestGroups/Course/ux"
 import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
 import BlockchainData from "./Pages/InterestGroups/Course/blockchain"
 import AutoCADData from "./Pages/InterestGroups/Course/autocad"
@@ -295,8 +295,8 @@ function App() {
             element={<CoursePage CourseData={WebData} />}
           />
           <Route
-            path="/uiux/:type/:id"
-            element={<CoursePage CourseData={UiuxData} />}
+            path="/ux/:type/:id"
+            element={<CoursePage CourseData={UxData} />}
           />
           <Route
             path="/pm/:type/:id"

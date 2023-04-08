@@ -314,12 +314,20 @@ export const links = [
             foreign: false,
           },
           {
+            name: "Civil Engineering",
+            link: "/civil",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
             name: "Cyber Security",
             link: "/cybersec",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
+          
           {
             name: "IoT",
             link: "/iot",
