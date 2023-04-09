@@ -139,13 +139,6 @@ export const links = [
         submenu: true,
         sublinks: [
           {
-            name: "YIP 2021",
-            submenu: false,
-            sublinks: [],
-            link: mainlink + "/yip",
-            foreign: false,
-          },
-          {
             name: "Foundation Program",
             submenu: false,
             sublinks: [],
@@ -314,12 +307,20 @@ export const links = [
             foreign: false,
           },
           {
+            name: "Civil Engineering",
+            link: "/civil",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
             name: "Cyber Security",
             link: "/cybersec",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
+          
           {
             name: "IoT",
             link: "/iot",

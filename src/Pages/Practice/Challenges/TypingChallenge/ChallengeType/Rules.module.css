@@ -11,8 +11,10 @@
 
 .subContainer{
     display:flex ;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-top: 1;
+    height: min-content;
     align-items: center;
-    
+    padding-bottom: 0;
+    line-height: 0;
 }

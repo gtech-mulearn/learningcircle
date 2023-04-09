@@ -1156,8 +1156,8 @@ const InterestGroups = [
         name: "< Cyber Security",
       },
       {
-        id: "uiux",
-        name: "UI/UX >",
+        id: "ux",
+        name: "UI/ux >",
       },
     ],
     learningpaths: [
@@ -1307,8 +1307,8 @@ const InterestGroups = [
         name: "< Cyber Security",
       },
       {
-        id: "uiux",
-        name: "UI/UX >",
+        id: "ux",
+        name: "UX >",
       },
     ],
     learningpaths: [
@@ -1447,19 +1447,19 @@ const InterestGroups = [
     ],
   },
   {
-    comingsoon: true,
-    id: "uiux",
-    interestgroup: "User Interface and Experience (UI/UX)",
+    comingsoon: false,
+    id: "ux",
+    interestgroup: "User Experience (UX)",
     interestgroupdescription:
       "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.",
     officetime: "Sunday 7:00 PM",
     officeplace: " @ Discord Lobby ",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Friday 6:00 PM",
-    community: ["GDSC MBCET", "FoF Kochi"],
+    community: ["GDSC MBCET"],
     opportunities: [
       "User Interface (UI) Designer",
-      "User Experience (UX) Designer",
+      "User Experience (ux) Designer",
     ],
     company: ["Faya", "Experion Technologies"],
     pagination: [
@@ -1480,7 +1480,7 @@ const InterestGroups = [
     ],
     learningpaths: [
       {
-        name: "How to be a UX Designer?",
+        name: "How to be a ux Designer?",
         link: "https://brainstation.io/career-guides/how-to-become-a-ux-designer",
       },
       {
@@ -1504,7 +1504,7 @@ const InterestGroups = [
         name: "Michael Mathews",
         designation: "Independent consultant, TCS",
         linkedIn: "https://www.linkedIn.com/in/michaelmathewsk",
-        stack: "UI UX",
+        stack: "UI ux",
         image:
           "https://drive.google.com/uc?export=view&id=1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I",
       },
@@ -1521,7 +1521,7 @@ const InterestGroups = [
         name: "Salman Faariz",
         designation: "Program Associate, GTech µLearn",
         linkedIn: "https://www.linkedIn.com/in/salman-faariz-37b892194",
-        stack: "UI UX",
+        stack: "UI ux",
         image:
           "https://drive.google.com/uc?export=view&id=1oNK1QekGS6xhNU50317onjvEc82RNQ4s",
       },
@@ -1530,7 +1530,7 @@ const InterestGroups = [
         name: "Rhea Merin",
         designation: "Program Associate, GTech µLearn ",
         linkedIn: "https://www.linkedIn.com/in/rheamerin",
-        stack: "UI UX",
+        stack: "UI ux",
         image:
           "https://drive.google.com/uc?export=view&id=1XGaSobjiNegNPTtpNSsL58aes9PN7XJ6",
       },
@@ -1539,7 +1539,7 @@ const InterestGroups = [
         name: "Navaneeth Venu",
         designation: "Design Lead, GDSC MBCET",
         linkedIn: "https://www.linkedIn.com/in/navaneethvenu",
-        stack: "UI UX",
+        stack: "UI ux",
         image:
           "https://drive.google.com/uc?export=view&id=1wGokGAMruQul49It6LmMeMv_aaV-VN2R",
       },
@@ -1549,14 +1549,14 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Product Design By Google",
-        link: "/uiux/core/1",
+        link: "/ux/core/1",
         complexity: "",
         time: "",
         karma: "400",
       },
       {
         name: "Introduction to User Experience Design",
-        link: "/uiux/core/2",
+        link: "/ux/core/2",
         complexity: "",
         time: "",
         karma: "400",
@@ -1565,7 +1565,7 @@ const InterestGroups = [
     subcourses: [
       {
         name: "Figma Ultimate Crash Course",
-        link: "/uiux/sub/1",
+        link: "/ux/sub/1",
         complexity: "",
         time: "",
         karma: "200",
@@ -1741,8 +1741,8 @@ const InterestGroups = [
     ],
     pagination: [
       {
-        id: "uiux",
-        name: "< UI/UX",
+        id: "ux",
+        name: "< UI/ux",
       },
       {
         id: "ai",

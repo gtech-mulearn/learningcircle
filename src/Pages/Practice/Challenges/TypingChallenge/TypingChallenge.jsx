@@ -65,7 +65,7 @@ const TypingChallenge = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        typingclub.org
+                        typingclub.com
                       </a>
                     </div>
                   </div>
@@ -176,8 +176,9 @@ const TypingChallenge = () => {
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message and Image</p>
               <p className={styles.sample_message}>
-                Hey! I've reached Typing Challenge Level 126. Here's my
-                progress. #ge-typing-challenge-126
+              #ge-typing-challenge-126
+               Hey! I've reached Typing Challenge Level 126. Here's my
+                progress. 
               </p>
               <img
                 className={styles.sample_img}

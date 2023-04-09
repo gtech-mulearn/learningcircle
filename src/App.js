@@ -17,7 +17,7 @@ import CommonData from "./Pages/InterestGroups/Course/common"
 import IoTData from "./Pages/InterestGroups/Course/iot"
 import CybersecData from "./Pages/InterestGroups/Course/cybersec"
 import PmData from "./Pages/InterestGroups/Course/pm"
-import UiuxData from "./Pages/InterestGroups/Course/uiux"
+import UxData from "./Pages/InterestGroups/Course/ux"
 import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
 import BlockchainData from "./Pages/InterestGroups/Course/blockchain"
 import AutoCADData from "./Pages/InterestGroups/Course/autocad"
@@ -66,6 +66,7 @@ import GoogleSolutionsChallenge from "./Pages/Practice/Challenges/GoogleSolution
 import FayaDigitalMarketing from "./Pages/Practice/Challenges/FayaDigitalMarketing/FayaDigitalMarketing"
 import InnovationDesignChallenge from "./Pages/Practice/Challenges/InnovationDesign/InnovationDesignChallenge"
 import DesignChallenge from "./Pages/Practice/Challenges/DesignChallenge/DesignChallenge"
+import TypingMastery from "./Pages/Practice/Challenges/TypingChallenge/TypingMastery/TypingMastery"
 
 function App() {
   //Home Page state Variables
@@ -295,8 +296,8 @@ function App() {
             element={<CoursePage CourseData={WebData} />}
           />
           <Route
-            path="/uiux/:type/:id"
-            element={<CoursePage CourseData={UiuxData} />}
+            path="/ux/:type/:id"
+            element={<CoursePage CourseData={UxData} />}
           />
           <Route
             path="/pm/:type/:id"
@@ -335,6 +336,10 @@ function App() {
           <Route
             path="/challenge/digitalmarketing"
             element={<FayaDigitalMarketing />}
+          />
+          <Route
+            path="/challenge/typingmastery"
+            element={<TypingMastery />}
           />
 
           <Route path="/courses" element={<Courses />} />
