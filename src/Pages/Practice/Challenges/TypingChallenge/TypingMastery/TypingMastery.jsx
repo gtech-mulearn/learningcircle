@@ -4,6 +4,37 @@ import Navbar from "../../../../../Components/Navbar/Navbar"
 import Footer from "../../../../../Components/Footer/Footer"
 import axios from "axios"
 
+import { styled } from "@mui/material/styles"
+import Table from "@mui/material/Table"
+import TableBody from "@mui/material/TableBody"
+import TableCell, { tableCellClasses } from "@mui/material/TableCell"
+import TableContainer from "@mui/material/TableContainer"
+import TableHead from "@mui/material/TableHead"
+import TableRow from "@mui/material/TableRow"
+import Paper from "@mui/material/Paper"
+
+const StyledTableCell = styled(TableCell)(({ theme }) => ({
+  [`&.${tableCellClasses.head}`]: {
+    backgroundColor: "#f6842c",
+    fontFamily: "Noto Sans",
+    color: theme.palette.common.white,
+  },
+  [`&.${tableCellClasses.body}`]: {
+    fontFamily: "Poppins",
+    fontSize: 14,
+  },
+}))
+
+const StyledTableRow = styled(TableRow)(({ theme }) => ({
+  "&:nth-of-type(odd)": {
+    backgroundColor: theme.palette.action.hover,
+  },
+  // hide last border
+  "&:last-child td, &:last-child th": {
+    border: 0,
+  },
+}))
+
 const TypingMastery = () => {
   const [data, setData] = useState([])
   useEffect(() => {
@@ -19,40 +50,21 @@ const TypingMastery = () => {
       })
   }, [])
 
-  // Calculate drop percentage for each college
-  const collegesWithDropPercentageAndCurrentCount = data.map((college) => {
-    const numStudentsFirstDay = parseInt(college.day1)
-    let numStudentsLastDay = 0
-    let lastFilledDay = 1
-    for (let i = 2; i <= 10; i++) {
-      if (college[`day${i}`]) {
-        numStudentsLastDay = parseInt(college[`day${i}`])
-        lastFilledDay = i
-      } else {
-        break
-      }
-    }
-    const dropPercentage =
-      numStudentsFirstDay !== 0
-        ? ((numStudentsFirstDay - numStudentsLastDay) / numStudentsFirstDay) *
-          100
-        : 0
-    const currentCount =
-      college[`day${lastFilledDay}`] !== undefined
-        ? parseInt(college[`day${lastFilledDay}`])
-        : 0
-    return {
-      ...college,
-      dropPercentage,
-      currentCount,
-      startingCount: numStudentsFirstDay,
+  // Sort the data by number of days and last day participants
+  const sortedData = data.sort((a, b) => {
+    const aDays = Object.keys(a).filter((key) => key.startsWith("day")).length
+    const bDays = Object.keys(b).filter((key) => key.startsWith("day")).length
+    if (aDays !== bDays) {
+      return bDays - aDays
+    } else {
+      const aLast = a[`day${aDays}`]
+      const bLast = b[`day${bDays}`]
+      return bLast - aLast
     }
   })
 
-  // Sort colleges based on drop percentage
-  const sortedColleges = collegesWithDropPercentageAndCurrentCount.sort(
-    (a, b) => a.dropPercentage - b.dropPercentage
-  )
+  // Create an array of day labels
+  const days = Array.from(Array(30).keys()).map((i) => `day${i + 1}`)
 
   return (
     <>
@@ -81,67 +93,48 @@ const TypingMastery = () => {
           </div>
         </div>
         <div className={styles.second_view_container}>
-          <div className={styles.second_view}>
-            <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>
-                The Importance of Completing the Typing Challenge
-              </p>
-            </div>
-            <ul className={styles.list_container}>
-              <li className={styles.list_item}>
-                Have you ever noticed that achievers possess a unique
-                combination of perseverance and passion, which is commonly known
-                as grit?
-              </li>
-              <li className={styles.list_item}>
-                At µLearn, we believe that grit is an essential quality to
-                possess for all those who wish to achieve anything in their
-                life.
-              </li>
-              <li className={styles.list_item}>
-                That's why we have introduced the typing challenge as the
-                initial task for anyone who wishes to join our platform.
-              </li>
-              <li className={styles.list_item}>
-                This challenge helps us measure your level of grit as you work
-                towards improving your typing speed, a fundamental skill that
-                everyone should possess irrespective of what job they
-                accomplish.
-              </li>
-              <li className={styles.list_item}>
-                What sets the typing challenge apart from other challenges is
-                its visually engaging interface that delivers quick results and
-                rewards in the form of points.
-              </li>
-              <li className={styles.list_item}>
-                This makes it an enjoyable and engaging task for all to
-                participate in.
-              </li>
-            </ul>
+          <div className={styles.sv_texts}>
+            <p className={styles.sv_heading}>Inter-College Leaderboard</p>
           </div>
-          <h1>Leaderboard</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Rank</th>
-                <th>College</th>
-                <th>Starting Count</th>
-                <th>Drop Percentage</th>
-                <th>Current Count</th>
-              </tr>
-            </thead>
-            <tbody>
-              {sortedColleges.map((college, index) => (
-                <tr key={college.name}>
-                  <td>{index + 1}</td>
-                  <td>{college.name}</td>
-                  <td>{college.startingCount}</td>
-                  <td>{college.dropPercentage.toFixed(2)}%</td>
-                  <td>{college.currentCount}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+
+          <TableContainer component={Paper}>
+            <Table sx={{ minWidth: 700 }} aria-label="customized table">
+              <TableHead>
+                <TableRow>
+                  <StyledTableCell>Rank</StyledTableCell>
+
+                  <StyledTableCell sx={{ minWidth: 450 }} align="left">
+                    College Name
+                  </StyledTableCell>
+
+                  {days.map((day) => (
+                    <StyledTableCell align="right">{day}</StyledTableCell>
+                  ))}
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {sortedData.map((college, index) => (
+                  <StyledTableRow key={college.name}>
+                    <StyledTableCell component="th" scope="row">
+                      {index + 1}
+                    </StyledTableCell>
+                    <StyledTableCell sx={{ minWidth: 450 }} align="left">
+                      {college.name}
+                    </StyledTableCell>
+
+                    {days.map((day) => (
+                      <StyledTableCell align="right">
+                        {college[day]}
+                      </StyledTableCell>
+                    ))}
+                    <StyledTableCell align="right">
+                      {college[`day${days.length}`]}
+                    </StyledTableCell>
+                  </StyledTableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </TableContainer>
         </div>
       </div>
       <Footer />
