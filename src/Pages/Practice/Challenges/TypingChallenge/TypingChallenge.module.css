@@ -102,6 +102,20 @@
   font-size: 0.9rem;
 }
 
+.primary_button {
+  background: #f78c40;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 1rem;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
 @media only screen and (min-width: 1000px) {
   .second_view_container {
     margin: 6rem;
