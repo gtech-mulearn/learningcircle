@@ -66,6 +66,7 @@ import GoogleSolutionsChallenge from "./Pages/Practice/Challenges/GoogleSolution
 import FayaDigitalMarketing from "./Pages/Practice/Challenges/FayaDigitalMarketing/FayaDigitalMarketing"
 import InnovationDesignChallenge from "./Pages/Practice/Challenges/InnovationDesign/InnovationDesignChallenge"
 import DesignChallenge from "./Pages/Practice/Challenges/DesignChallenge/DesignChallenge"
+import TypingMastery from "./Pages/Practice/Challenges/TypingChallenge/TypingMastery/TypingMastery"
 
 function App() {
   //Home Page state Variables
@@ -335,6 +336,10 @@ function App() {
           <Route
             path="/challenge/digitalmarketing"
             element={<FayaDigitalMarketing />}
+          />
+          <Route
+            path="/challenge/typingmastery"
+            element={<TypingMastery />}
           />
 
           <Route path="/courses" element={<Courses />} />

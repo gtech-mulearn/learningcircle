@@ -1,8 +1,8 @@
-import React from "react";
-import Navbar from "../../../../Components/Navbar/Navbar";
-import Footer from "../../../../Components/Footer/Footer";
+import React from "react"
+import Navbar from "../../../../Components/Navbar/Navbar"
+import Footer from "../../../../Components/Footer/Footer"
 
-import styles from "./TypingChallenge.module.css";
+import styles from "./TypingChallenge.module.css"
 
 const TypingChallenge = () => {
   return (
@@ -21,6 +21,19 @@ const TypingChallenge = () => {
                 time efficiently and also increase the outlook of others on
                 them.
               </p>
+              <div className={styles.buttons}>
+                <a href="https://learn.mulearn.org/challenge/typing/leaderboard">
+                  <button className={styles.primary_button}>
+                    Generate Leaderboards
+                  </button>
+                </a>
+
+                <a href="https://learn.mulearn.org/challenge/typingmastery">
+                  <button className={styles.primary_button}>
+                    Inter-College Leaderboard
+                  </button>
+                </a>
+              </div>
             </div>
 
             <div className={styles.fv_image}>
@@ -65,7 +78,7 @@ const TypingChallenge = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        typingclub.org
+                        typingclub.com
                       </a>
                     </div>
                   </div>
@@ -176,9 +189,8 @@ const TypingChallenge = () => {
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message and Image</p>
               <p className={styles.sample_message}>
-              #ge-typing-challenge-126
-               Hey! I've reached Typing Challenge Level 126. Here's my
-                progress. 
+                #ge-typing-challenge-126 Hey! I've reached Typing Challenge
+                Level 126. Here's my progress.
               </p>
               <img
                 className={styles.sample_img}
@@ -193,7 +205,7 @@ const TypingChallenge = () => {
 
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default TypingChallenge;
+export default TypingChallenge

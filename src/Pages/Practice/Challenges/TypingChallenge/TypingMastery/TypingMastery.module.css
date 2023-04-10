@@ -1,0 +1,105 @@
+.list_container {
+  max-width: 600px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  list-style-type: disc;
+}
+
+.main_container {
+  margin: 2rem;
+}
+
+.list_item {
+  margin-bottom: 1rem;
+}
+
+.fv_img {
+  display: block;
+  width: 20rem;
+}
+
+.fv_heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #404040;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.fv_heading span {
+  color: #f6842c;
+}
+
+.fv_content {
+  margin-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .first_view_container,
+  .second_view_container {
+    margin: 6rem;
+  }
+
+  .first_view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .fv_texts {
+    width: 35vw;
+    margin: 3rem 0;
+  }
+
+  .fv_heading {
+    font-size: 4.25rem;
+  }
+
+  .fv_content {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+
+  .fv_img {
+    display: block;
+    width: 30rem;
+  }
+
+  .list_container {
+    margin-left: 2rem;
+  }
+}
+
+.second_view_container {
+  margin-top: 4rem;
+}
+
+.sv_heading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 0;
+  color: #f78c40;
+  max-width: 35rem;
+  margin-bottom: 1rem;
+}
+
+.sv_content {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .second_view_container {
+    margin: 6rem;
+  }
+
+  .sv_heading {
+    font-size: 2.25rem;
+    line-height: 4rem;
+    width: 60vw;
+  }
+}
