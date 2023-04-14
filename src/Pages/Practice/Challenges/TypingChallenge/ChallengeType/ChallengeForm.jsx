@@ -5,15 +5,21 @@ import styles from "./Challenge.module.css"
 import Rules from './Rules'
 const ChallengeForm = ({ exportGoogleSheetData, getNumberOfDays, getCollege, setView }) => {
     const [spreadsheetId, setSpreadsheetId] = useState("")
+    const [sheet, setSheet] = useState("")
     const [update, setUpdate] = useState(false)
     const API = "https://opensheet.elk.sh/"
 
     useEffect(() => {
         // 83 is the length of spreadsheetId
         if (spreadsheetId.length >= 83) {
-            axios.get(`${API + spreadsheetId.split("/")[5]}/${"Typing Challenge"}`)
-                .then(res => res.data)
-                .then(result => exportGoogleSheetData(result))
+            try {
+                axios.get(`${API + spreadsheetId.split("/")[5]}/${sheet}`)
+                    .then(res => res.data)
+                    .then(result => exportGoogleSheetData(result))
+            }
+            catch (err) {
+                // exportGoogleSheetData([])    
+            }
         }
 
         // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -33,10 +39,13 @@ const ChallengeForm = ({ exportGoogleSheetData, getNumberOfDays, getCollege, set
                         }} />
                     </div>
                     <div className={`${styles.text_container} ${styles.paste_box}`}>
+                        Sheet<input className={styles.text_editor} placeholder='Enter College Name' defaultValue={1} onChange={(e) => setSheet(e.target.value)} />
+                    </div >
+                    <div className={`${styles.text_container} ${styles.paste_box}`}>
                         College <input className={styles.text_editor} placeholder='Enter College Name' onChange={(e) => getCollege(e.target.value)} />
                     </div >
                     <div className={`${styles.text_container} ${styles.paste_box}`}>
-                        Days Completed < input className={styles.text_editor} placeholder='Enter day count' type='number' onChange={(e) => getNumberOfDays(parseInt(e.target.value))} />
+                        Days Completed < input className={styles.text_editor} placeholder='Enter day count' type='number' defaultValue={1} onChange={(e) => getNumberOfDays(parseInt(e.target.value))} />
                     </div >
                     <div className={styles.button_container} >
                         <button className={styles.button} onClick={() => {

@@ -336,8 +336,8 @@ export const links = [
             foreign: false,
           },
           {
-            name: "UI / UX",
-            link: "/uiux",
+            name: "UX",
+            link: "/ux",
             submenu: false,
             sublinks: [],
             foreign: false,
