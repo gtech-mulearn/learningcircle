@@ -2582,21 +2582,21 @@ const InterestGroups = [
     corecourses: [
       {
         name: "Course Introduction: Innovation by Design",
-        link: "https://learn.mulearn.org/challenge/designchallenge",
-        complexity: "",
-        time: "",
-        karma: "250",
-      },
-      {
-        name: "Course Introduction-Design,Technology and Innovation",
         link: "https://learn.mulearn.org/challenge/innovationdesign",
         complexity: "",
         time: "",
         karma: "Not Announced",
       },
       {
+        name: "Course Introduction-Design,Technology and Innovation",
+        link: "https://learn.mulearn.org/challenge/designchallenge",
+        complexity: "",
+        time: "",
+        karma: "250",
+      },
+      {
         name: "Entrepreneurship 1: Developing the Opportunity",
-        link: "https://www.classcentral.com/course/wharton-launching-startup-5468",
+        link: "https://www.classcentral.com/course/wharton-entrepreneurship-opportunity-5467",
         complexity: "",
         time: "",
         karma: "850",
