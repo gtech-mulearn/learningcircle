@@ -37,7 +37,7 @@ const LeaderBoard = ({ leaderboard, Day, College, setView }) => {
                     <div className={styles.sub_container_1}>
                         <div>
                             <div className={`${styles2.title} ${styles.title}`}>{College}</div>
-                            <div className={`${styles2.title} `}>Typing Challenge </div>
+                            <div className={`${styles2.title} `}>Keyboard Mastery</div>
 
                             <div className={styles.title}>Day {Day} Leaderboard </div>
                         </div>

@@ -124,7 +124,7 @@ const InterestGroups = [
         link: "https://www.netacad.com/courses/iot/introduction-iot",
         time: "20 Hours",
         complexity: "6",
-        karma: "800",
+        karma: "",
       },
     ],
     subcourses: [
@@ -902,13 +902,13 @@ const InterestGroups = [
       },
     ],
     corecourses: [
-      {
-        name: "Introduction to Cybersecurity",
-        link: "/cybersec/core/1",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
+      // {
+      //   name: "Introduction to Cybersecurity",
+      //   link: "/cybersec/core/1",
+      //   complexity: "",
+      //   time: "",
+      //   karma: "200",
+      // },
       {
         id: "1",
         name: "Web Pentesting",
@@ -1198,7 +1198,7 @@ const InterestGroups = [
         complexity: "",
         time: "",
         karma: "",
-      }
+      },
     ],
     corecourses: [
       {
@@ -2185,6 +2185,85 @@ const InterestGroups = [
         link: "https://learn.kba.ai/course/blockchain-foundation-program/",
         karma: "400",
         difficulty: "beginner",
+      },
+    ],
+    subcourses: [
+      {
+        name: "Blockchain - Coding Ninjas",
+        link: "https://www.codingninjas.com/codestudio/guided-paths/blockchain",
+        karma: 200,
+      },
+    ],
+    leads: [
+      {
+        id: 1,
+        name: "Akshay S Rajan",
+        college: "IHRD College Of Applied Science, Perissery",
+        images: "assets/interestGroups/akshay.webp",
+        linkedIn: "https://www.linkedin.com/in/akshaysrajan/",
+      },
+    ],
+    mentors: ["1"],
+    mentorscard: [
+      {
+        id: "1",
+        name: "Franklin John",
+        stack: "Research Scientist and Manager,Kerala Blockchain Academy",
+        linkedIn: "https://www.linkedin.com/in/johnfranklin1991/",
+        image: "/assets/mentors/franklin.webp",
+      },
+    ],
+  },
+  {
+    id: "flutter",
+    interestgroup: "Flutter",
+    interestgroupdescription:
+      "Block chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
+    officetime: " Monday 8.30 PM",
+    officeplace: " @ Discord Lobby",
+    thinktankplace: " @ Google Meet",
+    thinktanktime: " Monday 8:30 PM",
+    community: [],
+    opportunities: [],
+    company: [],
+    pagination: [
+      {
+        id: "ai",
+        name: "< Artificial Intelligence",
+      },
+      {
+        id: "civil",
+        name: "Civil Engineering >",
+      },
+    ],
+    learningpaths: [
+      {
+        id: "1",
+        name: "Dart Language Tour",
+        link: "https://dart.dev/guides/language/language-tour",
+      },
+      {
+        id: "1",
+        name: "Language Tour For Seasoned Programmer	",
+        link: "https://dart.dev/guides/language/language-tour",
+      },
+    ],
+    basicenablementtasks: [
+      {
+        name: "10 days of Solidity",
+        link: "/blockchain/enablement/1",
+        complexity: "",
+        time: "",
+        karma: "100",
+      },
+    ],
+    corecourses: [
+      {
+        id: "1",
+        name: "Learn Blockchain, Solidity, and Full Stack JavaScript Development",
+        link: "https://www.freecodecamp.org/news/learn-blockchain-solidity-full-stack-javascript-development/",
+        difficulty: "",
+        karma: 800,
       },
     ],
     subcourses: [
