@@ -1445,7 +1445,7 @@ const InterestGroups = [
     interestgroup: "User Experience (UX)",
     interestgroupdescription:
       "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.",
-    officetime: "Sunday 7:00 PM",
+    officetime: "Saturday 8:00 PM",
     officeplace: " @ Discord Lobby ",
     thinktankplace: " @ Google Meet",
     thinktanktime: "Friday 6:00 PM",
@@ -2010,7 +2010,7 @@ const InterestGroups = [
     interestgroup: "Blockchain",
     interestgroupdescription:
       "Block chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
-    officetime: " Monday 8.30 PM",
+    officetime: " Sunday 8.30 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
     thinktanktime: " Monday 8:30 PM",
@@ -2218,7 +2218,7 @@ const InterestGroups = [
     id: "flutter",
     interestgroup: "Flutter",
     interestgroupdescription:
-      "Block chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
+      "Flutter is an open-source mobile application development framework created by Google. It allows developers to build native applications for Android, iOS, and other platforms using a single codebase. Flutter uses the Dart programming language, which was also developed by Google, and provides a rich set of pre-built widgets and tools for building beautiful, fast, and responsive user interfaces.",
     officetime: " Monday 8.30 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
@@ -2372,16 +2372,16 @@ const InterestGroups = [
         id: 1,
         name: "Basith P	",
         college: "KMCT College of Engineering, Kozhikode",
-        images: "assets/interestGroups/akshay.webp",
-        linkedIn: "",
+        images: "assets/interestGroups/Basith P.webp",
+        linkedIn: "https://www.linkedin.com/in/basithp9/",
       },
       
       {
         id: 2,
         name: "Muhammed R	",
         college: "St Thomas institute for Science and technology, TVM",
-        images: "assets/interestGroups/akshay.webp",
-        linkedIn: "",
+        images: "assets/interestGroups/Muhammed R.webp",
+        linkedIn: "https://www.linkedin.com/in/muhammed-r",
       },
       {
         id: 3,
@@ -2396,6 +2396,13 @@ const InterestGroups = [
         college: "College of Engineering and Technology Payyanur",
         images: "assets/interestGroups/akshay.webp",
         linkedIn: "",
+      },
+      {
+        id: 5,
+        name: "Adil S	",
+        college: "Government Engineering College Idukki",
+        images: "assets/interestGroups/Adil S.webp",
+        linkedIn: "https://www.linkedin.com/in/adilsp/",
       },
     ],
     mentors: ["1"],
