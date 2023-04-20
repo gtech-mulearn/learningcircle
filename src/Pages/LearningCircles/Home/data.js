@@ -2369,19 +2369,19 @@ const InterestGroups = [
     leads: [
       {
         id: 1,
+        name: "Muhammed R",
+        college: "St Thomas institute for Science and technology, TVM",
+        images: "assets/interestGroups/Muhammed-R.webp",
+        linkedIn: "https://www.linkedin.com/in/muhammed-r",
+      },
+      {
+        id: 2,
         name: "Basith P",
         college: "KMCT College of Engineering, Kozhikode",
         images: "assets/interestGroups/Basith P.webp",
         linkedIn: "https://www.linkedin.com/in/basithp9/",
       },
 
-      {
-        id: 2,
-        name: "Muhammed R",
-        college: "St Thomas institute for Science and technology, TVM",
-        images: "assets/interestGroups/Muhammed R.webp",
-        linkedIn: "https://www.linkedin.com/in/muhammed-r",
-      },
       {
         id: 3,
         name: "Arfaz Khan Hijas Khan",
@@ -2395,13 +2395,6 @@ const InterestGroups = [
         college: "College of Engineering and Technology Payyanur",
         images: "",
         linkedIn: "",
-      },
-      {
-        id: 5,
-        name: "Adil S	",
-        college: "Government Engineering College Idukki",
-        images: "assets/interestGroups/Adil S.webp",
-        linkedIn: "https://www.linkedin.com/in/adilsp/",
       },
     ],
   },
