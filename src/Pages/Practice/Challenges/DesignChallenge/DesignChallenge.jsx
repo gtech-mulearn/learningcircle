@@ -19,7 +19,7 @@ const InnovationDesignChallenge = () => {
                 This challenge challenges engineering students to identify
                 real-world problems, conduct surveys and research, and propose
                 innovative solutions through sketches, prototypes, and videos.
-                Submissions will be shared in the #civil channel
+                Submissions will be shared in the #entrepreneurship channel
                 using specific hashtags.
                 <br />
               </p>
@@ -60,7 +60,7 @@ const InnovationDesignChallenge = () => {
                       <b>1. Identify 3 Problems</b> from industry or society
                       document it including photographs of the problems and
                       mention the benificiary submit the document link in the
-                      channel <b>#civil</b> with hash tag{" "}
+                      channel <b>#entrepreneurship</b> with hash tag{" "}
                       <b>#cl-ie-tech1</b> to get 100 Karma Points.
                     </div>
                   </div>
@@ -81,7 +81,7 @@ const InnovationDesignChallenge = () => {
                       detailed study of the problem by asking questions and
                       document it including photographs., questions and the
                       corresponding responses submit the doc link in the{" "}
-                      <b>#civil</b> with the hash tag{" "}
+                      <b>#entrepreneurship</b> with the hash tag{" "}
                       <b>#cl-ie-tech2</b> to get 50 Karma Points.
                     </div>
                   </div>
@@ -101,7 +101,7 @@ const InnovationDesignChallenge = () => {
                       <b>3. Select a problem statement</b> and study existing
                       solutions and detailed doc prepareation of new design and
                       what values does the improvement makes,ubmit the
-                      documenttion link in <b>#civil</b> with the
+                      documenttion link in <b>#entrepreneurship</b> with the
                       hash tag <b>#cl-ie-tech3</b> to get 100 Karma Points.
                     </div>
                   </div>
@@ -119,7 +119,7 @@ const InnovationDesignChallenge = () => {
                     <div className="timeline__event__title">Step Four</div>
                     <div className="timeline__event__description">
                       <b>4. Prepare a sketch</b> of new /improved design and
-                      submit the image in the <b>#civil</b> with the
+                      submit the image in the <b>#entrepreneurship</b> with the
                       hashtag <b>#cl-ie-tech4</b> to get 200 Karma Points.
                     </div>
                   </div>
@@ -139,7 +139,7 @@ const InnovationDesignChallenge = () => {
                       <b>5. Make a mock-up model</b> and prepare a 1 min video
                       of the product or design including problem statement,
                       solution and its advantages and submit the video in the
-                      channel <b>#civil</b> with the hash tag{" "}
+                      channel <b>#entrepreneurship</b> with the hash tag{" "}
                       <b>#cl-ie-tech5</b> to get 200 Karma Points.
                     </div>
                   </div>
@@ -156,7 +156,7 @@ const InnovationDesignChallenge = () => {
                     <div className="timeline__event__title">Step Six</div>
                     <div className="timeline__event__description">
                       <b>6. Fabricate/ create a prototype</b> and submit the
-                      short video in <b>#civil</b> with the hashtag{" "}
+                      short video in <b>#entrepreneurship</b> with the hashtag{" "}
                       <b>#cl-ie-tech6</b> to get 200 Karma Points.
                     </div>
                   </div>
