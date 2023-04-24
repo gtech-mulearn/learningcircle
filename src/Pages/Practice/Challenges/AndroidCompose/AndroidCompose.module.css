@@ -20,6 +20,10 @@ a {
   margin: auto;
 }
 
+.late_date {
+  color: #f6842c;
+}
+
 .fv_texts {
   display: flex;
   flex-direction: column;

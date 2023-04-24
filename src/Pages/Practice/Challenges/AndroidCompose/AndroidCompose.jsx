@@ -21,7 +21,9 @@ const AndroidCompose = () => {
                 start your journey as an Android developer.
                 <br />
               </p>
-
+              <p className={styles.late_date}>
+                Get 800 Karma Points on Course Completion
+              </p>
               <br />
               <a
                 href="https://developer.android.com/courses/android-basics-compose/course"
@@ -223,8 +225,8 @@ const AndroidCompose = () => {
               <p className={styles.sample_message}>
                 <b>#android-development</b>
                 <br />
-                Hey, I have completed the eight unit the Android track. Here are
-                my badges for the same.
+                Hey, I have completed the eighth unit the Android track. Here
+                are my badges for the same.
               </p>
             </div>
           </div>
