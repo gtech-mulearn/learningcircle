@@ -633,6 +633,11 @@ const InterestGroups = [
     ],
     blogs: [
       {
+        id: "0",
+        name: "Google Dev Library",
+        link: "https://devlibrary.withgoogle.com/products/android?sort=updated",
+      },
+      {
         id: "1",
         name: "Android Developers Blog",
         link: "https://android-developers.googleblog.com/",
