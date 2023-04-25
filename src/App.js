@@ -1,92 +1,93 @@
-import React, { useEffect, useState } from "react"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import axios from "axios"
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import axios from "axios";
 
 //LearningCirlces Section
-import Home from "./Pages/LearningCircles/Home/Home"
-import Create from "./Pages/LearningCircles/Create/Create"
-import Join from "./Pages/LearningCircles/Join/Join.jsx"
-import GettingStarted from "./Pages/LearningCircles/GettingStarted/GettingStarted"
+import Home from "./Pages/LearningCircles/Home/Home";
+import Create from "./Pages/LearningCircles/Create/Create";
+import Join from "./Pages/LearningCircles/Join/Join.jsx";
+import GettingStarted from "./Pages/LearningCircles/GettingStarted/GettingStarted";
 
 //InterestGroups
-import InterestGroup from "./Pages/InterestGroups/InterestGroup"
-import CoursePage from "./Pages/InterestGroups/Course/CoursePage"
-import WebData from "./Pages/InterestGroups/Course/web"
-import AndroidData from "./Pages/InterestGroups/Course/android"
-import CommonData from "./Pages/InterestGroups/Course/common"
-import IoTData from "./Pages/InterestGroups/Course/iot"
-import CybersecData from "./Pages/InterestGroups/Course/cybersec"
-import PmData from "./Pages/InterestGroups/Course/pm"
-import UxData from "./Pages/InterestGroups/Course/ux"
-import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin"
-import BlockchainData from "./Pages/InterestGroups/Course/blockchain"
-import AutoCADData from "./Pages/InterestGroups/Course/autocad"
-import RevitData from "./Pages/InterestGroups/Course/revit"
+import InterestGroup from "./Pages/InterestGroups/InterestGroup";
+import CoursePage from "./Pages/InterestGroups/Course/CoursePage";
+import WebData from "./Pages/InterestGroups/Course/web";
+import AndroidData from "./Pages/InterestGroups/Course/android";
+import CommonData from "./Pages/InterestGroups/Course/common";
+import IoTData from "./Pages/InterestGroups/Course/iot";
+import CybersecData from "./Pages/InterestGroups/Course/cybersec";
+import PmData from "./Pages/InterestGroups/Course/pm";
+import UxData from "./Pages/InterestGroups/Course/ux";
+import AndroidKotlin from "./Pages/InterestGroups/Course/AndroidKotlin/AndroidKotlin";
+import BlockchainData from "./Pages/InterestGroups/Course/blockchain";
+import AutoCADData from "./Pages/InterestGroups/Course/autocad";
+import RevitData from "./Pages/InterestGroups/Course/revit";
 
 //Bootcamp Section
-import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome"
-import Android from "./Pages/Bootcamp/Android/Android"
-import Rust from "./Pages/Bootcamp/Rust/Rust"
-import Flutter from "./Pages/Bootcamp/Flutter/Flutter"
-import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage"
-import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript"
-import Python from "./Pages/Bootcamp/Python/Python"
-import AI from "./Pages/Bootcamp/AI/AI"
+import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome";
+import Android from "./Pages/Bootcamp/Android/Android";
+import Rust from "./Pages/Bootcamp/Rust/Rust";
+import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
+import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
+import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
+import Python from "./Pages/Bootcamp/Python/Python";
+import AI from "./Pages/Bootcamp/AI/AI";
 
 //Misc
-import NotFound from "./Pages/Misc/404/NotFound"
+import NotFound from "./Pages/Misc/404/NotFound";
 
 //Search Section
-import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory"
-import Search from "./Pages/Search/Search/Search"
+import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
+import Search from "./Pages/Search/Search/Search";
 
 // Practice Section
-import ProblemShelves from "./Pages/Practice/ProblemShelves/ProblemShelves"
-import OpenSource from "./Pages/Practice/OpenSource/OpenSource"
-import APISetu from "./Pages/Practice/APISetu/APISetu"
-import Courses from "./Pages/Practice/Courses/Courses"
-import IndividualPage from "./Pages/Practice/ProblemShelves/IndividualPage/IndividualPage"
+import ProblemShelves from "./Pages/Practice/ProblemShelves/ProblemShelves";
+import OpenSource from "./Pages/Practice/OpenSource/OpenSource";
+import APISetu from "./Pages/Practice/APISetu/APISetu";
+import Courses from "./Pages/Practice/Courses/Courses";
+import IndividualPage from "./Pages/Practice/ProblemShelves/IndividualPage/IndividualPage";
 
 //Practice => Challenges
-import TypingChallengeLeaderboard from "./Pages/Practice/Challenges/TypingChallenge/TypingChallengeLeaderboard"
-import TypingChallenge from "./Pages/Practice/Challenges/TypingChallenge/TypingChallenge"
-import MuLanding from "./Pages/Practice/Challenges/MuLanding"
-import DefensiveDriving from "./Pages/Practice/Challenges/DefensiveDriving/DefensiveDriving"
-import IntroToGithub from "./Pages/Practice/Challenges/IntroToGithub/IntroToGithub"
-import IntroToMarkdown from "./Pages/Practice/Challenges/IntroToMarkdown/IntroToMarkdown"
-import IntroToCommandLine from "./Pages/Practice/Challenges/IntroToCommandLine/IntroToCommandLine"
-import IntroToGithubPages from "./Pages/Practice/Challenges/IntroToGithubPages/IntroToGithubPages"
-import IntroToHtml from "./Pages/Practice/Challenges/IntroToHtml/IntroToHtml"
-import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimulation/TrafficLightSimulation"
-import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn"
-import MarathonChallenge from "./Pages/Practice/Challenges/MarathonChallenge/MarathonChallenge"
-import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge"
-import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/Template/CivilInterestGroup"
-import GoogleSolutionsChallenge from "./Pages/Practice/Challenges/GoogleSolutionsChallenge/GoogleSolutionsChallenge"
-import FayaDigitalMarketing from "./Pages/Practice/Challenges/FayaDigitalMarketing/FayaDigitalMarketing"
-import InnovationDesignChallenge from "./Pages/Practice/Challenges/InnovationDesign/InnovationDesignChallenge"
-import DesignChallenge from "./Pages/Practice/Challenges/DesignChallenge/DesignChallenge"
-import TypingMastery from "./Pages/Practice/Challenges/TypingChallenge/TypingMastery/TypingMastery"
+import TypingChallengeLeaderboard from "./Pages/Practice/Challenges/TypingChallenge/TypingChallengeLeaderboard";
+import TypingChallenge from "./Pages/Practice/Challenges/TypingChallenge/TypingChallenge";
+import MuLanding from "./Pages/Practice/Challenges/MuLanding";
+import DefensiveDriving from "./Pages/Practice/Challenges/DefensiveDriving/DefensiveDriving";
+import IntroToGithub from "./Pages/Practice/Challenges/IntroToGithub/IntroToGithub";
+import IntroToMarkdown from "./Pages/Practice/Challenges/IntroToMarkdown/IntroToMarkdown";
+import IntroToCommandLine from "./Pages/Practice/Challenges/IntroToCommandLine/IntroToCommandLine";
+import IntroToGithubPages from "./Pages/Practice/Challenges/IntroToGithubPages/IntroToGithubPages";
+import IntroToHtml from "./Pages/Practice/Challenges/IntroToHtml/IntroToHtml";
+import TrafficLightSimulation from "./Pages/Practice/Challenges/TrafficLightSimulation/TrafficLightSimulation";
+import IntroToMulearn from "./Pages/Practice/Challenges/IntroToMuLearn/IntroToMuLearn";
+import MarathonChallenge from "./Pages/Practice/Challenges/MarathonChallenge/MarathonChallenge";
+import CTFChallenge from "./Pages/Practice/Challenges/CTFChallenge/CTFChallenge";
+import CivilInterestGroup from "./Pages/InterestGroups/CivilInterestGroup/Template/CivilInterestGroup";
+import GoogleSolutionsChallenge from "./Pages/Practice/Challenges/GoogleSolutionsChallenge/GoogleSolutionsChallenge";
+import FayaDigitalMarketing from "./Pages/Practice/Challenges/FayaDigitalMarketing/FayaDigitalMarketing";
+import InnovationDesignChallenge from "./Pages/Practice/Challenges/InnovationDesign/InnovationDesignChallenge";
+import DesignChallenge from "./Pages/Practice/Challenges/DesignChallenge/DesignChallenge";
+import TypingMastery from "./Pages/Practice/Challenges/TypingChallenge/TypingMastery/TypingMastery";
+import AndroidCompose from "./Pages/Practice/Challenges/AndroidCompose/AndroidCompose";
 
 function App() {
   //Home Page state Variables
-  const [districts, setDistricts] = useState("")
-  const [colleges, setColleges] = useState("")
+  const [districts, setDistricts] = useState("");
+  const [colleges, setColleges] = useState("");
 
-  const [district, setDistrict] = useState("")
-  const [college, setCollege] = useState("")
+  const [district, setDistrict] = useState("");
+  const [college, setCollege] = useState("");
 
-  const [interests, setInterests] = useState("")
-  const [interest, setInterest] = useState("")
+  const [interests, setInterests] = useState("");
+  const [interest, setInterest] = useState("");
 
   //Routing States
-  const [code, setCode] = useState("")
+  const [code, setCode] = useState("");
 
   //Error Vars
-  const [backenderr, setBackenderr] = useState(false)
+  const [backenderr, setBackenderr] = useState(false);
 
   //Create Page State Variables
-  const [wlink, setWLink] = useState()
+  const [wlink, setWLink] = useState();
   const [create, setCreate] = useState({
     code: "",
     lead: {
@@ -101,7 +102,7 @@ function App() {
     interest: interest,
     meet_time: "",
     meet_place: "",
-  })
+  });
 
   //Join page State Variable
   const [join, setJoin] = useState({
@@ -112,44 +113,44 @@ function App() {
     // karma: "",
     college: "",
     phone: "",
-  })
+  });
 
   useEffect(() => {
     if (!districts) {
       axios
         .get(`${process.env.REACT_APP_BACKEND_URL}/districts`)
         .then(function (response) {
-          setDistricts(response.data.data)
+          setDistricts(response.data.data);
         })
         .catch(function (error) {
-          console.log(error)
-          setBackenderr(true)
-        })
+          console.log(error);
+          setBackenderr(true);
+        });
     }
 
     if (!interests) {
       axios
         .get(`${process.env.REACT_APP_BACKEND_URL}/interests`)
         .then(function (response) {
-          setInterests(response.data.data)
+          setInterests(response.data.data);
         })
         .catch(function (error) {
-          console.log(error)
-        })
+          console.log(error);
+        });
     }
 
     if (district) {
       axios
         .get(`${process.env.REACT_APP_BACKEND_URL}/colleges/${district}`)
         .then(function (response) {
-          setColleges(response.data.data)
+          setColleges(response.data.data);
         })
         .catch(function (error) {
-          console.log(error)
-        })
+          console.log(error);
+        });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [district, college])
+  }, [district, college]);
 
   return (
     <div className="App">
@@ -247,7 +248,10 @@ function App() {
           <Route path="/problemshelves/:id" element={<IndividualPage />} />
           <Route path="/challenges" element={<MuLanding />} />
           <Route path="/challenge/typing" element={<TypingChallenge />} />
-          <Route path="/challenge/typing/leaderboard" element={<TypingChallengeLeaderboard />} />
+          <Route
+            path="/challenge/typing/leaderboard"
+            element={<TypingChallengeLeaderboard />}
+          />
           <Route path="/challenge/hackout" element={<CTFChallenge />} />
           <Route
             path="/challenge/intro-to-github"
@@ -307,6 +311,9 @@ function App() {
             path="/iot/:type/:id"
             element={<CoursePage CourseData={IoTData} />}
           />
+
+          <Route path="/android/core/2" element={<AndroidCompose />} />
+
           <Route
             path="/android/:type/:id"
             element={<CoursePage CourseData={AndroidData} />}
@@ -337,10 +344,7 @@ function App() {
             path="/challenge/digitalmarketing"
             element={<FayaDigitalMarketing />}
           />
-          <Route
-            path="/challenge/typingmastery"
-            element={<TypingMastery />}
-          />
+          <Route path="/challenge/typingmastery" element={<TypingMastery />} />
 
           <Route path="/courses" element={<Courses />} />
           <Route path="/apisetu" element={<APISetu />} />
@@ -391,7 +395,7 @@ function App() {
         </Routes>
       </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
