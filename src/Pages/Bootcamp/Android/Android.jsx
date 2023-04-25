@@ -243,7 +243,7 @@ const Android = () => {
                       <div className="timeline__event__description">
                         Post the screenshot of your profile/link when you reach
                         level 63 in #android-development channel with hashtag
-                        <b>&nbsp;#cl-exercism-kotlin-63</b> to avail{" "}
+                        <b>{" "}#cl-exercism-kotlin-63</b> to avail{" "}
                         <b>200 karma points.</b>
                       </div>
                     </div>
