@@ -12,7 +12,7 @@ const IndividualPage = () => {
 
   useEffect(() => {
     const data = problems.filter((prob) => prob.id.includes(id));
-    console.log(data);
+    // console.log(data);
     setProblem(data);
   }, [id]);
 
@@ -44,7 +44,7 @@ const IndividualPage = () => {
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>Problem Details</p>
               <p className={styles.sv_content}>
-              Details regarding this issue statement, such as organisation, category, and description, are shown below.
+                Details regarding this issue statement, such as organisation, category, and description, are shown below.
               </p>
             </div>
             {problem && (

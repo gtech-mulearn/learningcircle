@@ -13,8 +13,16 @@ const Rules = () => {
       icon: "🔥",
       desc: "They have an active streak for the challenge",
       points: [
+        "Streak starts from the second day,and streak is lost when a person fails to complete a challenge",
         "A person with streak 1-5🔥will get streak*10 points extra",
         "A person with streak above 5 will get 50 points extra for maintaining the streak",
+        "For example",
+        "1🔥 => 1*10 = 10 points",
+        "2🔥 => 2*10 = 20 points",
+        "3🔥 => 3*10 = 30 points",
+        "4🔥 => 4*10 = 40 points",
+        "5🔥 => 5*10 = 50 points",
+        "6🔥or above => 50 points",
       ],
     },
     {
@@ -42,7 +50,9 @@ const Rules = () => {
       desc: "Back to the ranks",
       points: [
         "A person inspite of being disqualified completed five consecutive challenges",
+        "Completed six consecutive days of challenges after being disqualified",
         "The revived can start earning points as normal person ",
+        "The points of the six days will be added if you revived,until then your points will zero since the person is disqualified until revived"
       ],
     },
   ]
