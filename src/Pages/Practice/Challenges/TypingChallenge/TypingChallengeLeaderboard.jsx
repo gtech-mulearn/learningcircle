@@ -11,7 +11,7 @@ const TypingChallengeLeaderboard = () => {
   const [teamCollegeName, setTeamCollegeName] = useState("")
 
   useEffect(() => {
-    console.log(data)
+    // console.log(data)
     setLeaderboard(data.map((member, index) => {
       let score = 0, streak = -1, qualified = true, brokenDays = 0
       // eslint-disable-next-line no-unused-vars
@@ -39,6 +39,7 @@ const TypingChallengeLeaderboard = () => {
           }
         }
       })
+      // console.log(name, streak)
       return { name: name, score: score, streak: streak, qualified: qualified }
     }).sort((a, b) => b.score - a.score))
   }, [data, numberOfDays])
