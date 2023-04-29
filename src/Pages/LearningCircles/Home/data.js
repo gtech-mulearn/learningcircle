@@ -1260,6 +1260,12 @@ const InterestGroups = [
         karma: "Not Announced",
       },
     ],
+    opportunities: [
+      {
+        name: "QA Analyst/Trainee Tester"
+      }
+
+    ],
   },
   {
     id: "pm",
@@ -1716,7 +1722,7 @@ const InterestGroups = [
     mentors: ["Vishnu Vijayan", "Akshay Jose"],
     mentorscard: [
       {
-        id: "",
+        id: "1",
         name: "Vishnu Vijayan",
         designation: "Alliances Manager, Zilicon Technologies Pvt.Ltd",
         linkedIn: "https://www.linkedin.com/in/vishnu-vijayan-vs/",
@@ -1724,9 +1730,25 @@ const InterestGroups = [
         image: "/assets/mentors/Vishnu Vijayan.webp",
       },
       {
-        id: "",
+        id: "2",
         name: "Akshay Jose",
         designation: "Creative Designer, Xena Intelligence",
+        linkedIn: "https://www.linkedin.com/in/akshay-jose-700025124/",
+        stack: "AR/VR",
+        image: "/assets/mentors/Akshay Jose.webp",
+      },
+      {
+        id: "3",
+        name: "Vishnu Sivan",
+        designation: "",
+        linkedIn: "https://www.linkedin.com/in/akshay-jose-700025124/",
+        stack: "AR/VR",
+        image: "/assets/mentors/Akshay Jose.webp",
+      },
+      {
+        id: "4",
+        name: "Nikhil",
+        designation: "TiltLabs",
         linkedIn: "https://www.linkedin.com/in/akshay-jose-700025124/",
         stack: "AR/VR",
         image: "/assets/mentors/Akshay Jose.webp",
@@ -1772,15 +1794,29 @@ const InterestGroups = [
     basicenablementtasks: [],
     corecourses: [
       {
-        name: "Augmented Reality - Full course from Freecodecamp",
-        link: "https://www.freecodecamp.org/news/augmented-reality-full-course/",
+        name: "AR/VR Overview",
+        link: "https://www.youtube.com/watch?v=04AMaTsXFJU",
         complexity: "",
         time: "",
         karma: "Not Announced",
       },
       {
-        name: "VR Development",
-        link: "https://learn.unity.com/pathway/vr-development",
+        name: "Download Unity",
+        link: "https://unity.com/developer-tools",
+        complexity: "",
+        time: "",
+        karma: "Not Announced",
+      },
+      {
+        name: "Register with Unity",
+        link: "https://unity.com/products/unity-student",
+        complexity: "",
+        time: "",
+        karma: "Not Announced",
+      },
+      {
+        name: "Download Blender 3D",
+        link: "https://www.blender.org/",
         complexity: "",
         time: "",
         karma: "Not Announced",
@@ -2242,6 +2278,21 @@ const InterestGroups = [
         name: "Dart Language Tour",
         link: "https://dart.dev/guides/language/language-tour",
       },
+      {
+        id: "2",
+        name: "Language Tour For Seasoned Programmer",
+        link: "https://gist.github.com/mipsmonsta/6ea53319d43564b1b72859da68924dc7#file-abridged_dart_lang_tour-txt",
+      },
+      {
+        id: "3",
+        name: "Roadmap	",
+        link: "https://roadmap.sh/flutter",
+      },
+      {
+        id: "4",
+        name: "Dart in 100 Seconds	",
+        link: "https://www.youtube.com/watch?v=NrO0CJCbYLA",
+      },
     ],
     basicenablementtasks: [
       {
@@ -2324,46 +2375,100 @@ const InterestGroups = [
         karma: "Not Announced",
       },
       {
-        id: "1",
+        id: "2",
         name: "Dart",
         link: "https://www.youtube.com/watch?v=uZvoTCSsfjo&list=PLptHs0ZDJKt_fLp8ImPQVc1obUJKDSQL7",
         difficulty: "",
         karma: "Not Announced",
       },
       {
-        id: "2",
+        id: "3",
         name: "Flutter",
         link: "https://youtu.be/VPvVD8t02U8",
         karma: "Not Announced",
       },
       {
-        id: "2",
+        id: "4",
         name: "Flutter",
         link: "https://www.youtube.com/channel/UCw2IfXRCHaYryORhBICp8QA",
 
         karma: "Not Announced",
       },
     ],
-    subcourses: [
+    
+    
+    topkeywords: [
       {
-        name: "Flutter UI Development",
-        link: "https://www.youtube.com/watch?v=zTTP8XBR6fI&list=PLf-j0Hs0PF3uxzMCFLlfJ9W3hRxLzHPGX",
-        karma: "Not Announced",
+        name: "Widgets",
       },
       {
-        name: "Flutter State Management",
-        link: "https://www.youtube.com/watch?v=3tm-R7ymwhc",
-        karma: "Not Announced",
+        name: "Material Design",
       },
       {
-        name: "Flutter Animations",
-        link: "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gP1qg8yj-Jokef29VRCLt1",
-        karma: "Not Announced",
+        name: "Cupertino ",
       },
       {
-        name: "Flutter Firebase Integration",
-        link: "https://www.youtube.com/watch?v=sfA3NWDBPZ4&list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC",
-        karma: "Not Announced",
+        name: "Stateful and Stateless widgets",
+      },
+      {
+        name: "Flutter packages",
+      },
+      {
+        name: "Flutter Web",
+      },
+      {
+        name: "Flutter Desktop",
+      }
+    ],
+    otherresources: [
+      {
+        id: "1",
+        name: "Podcast",
+        link: "https://player.fm/series/flying-high-with-flutter",
+      },
+      {
+        id: "2",
+        name: "Podcast",
+        link: "https://flutter101.dev/",
+      },
+      {
+        id: "3",
+        name: "Tips & Tricks",
+        link: "https://www.youtube.com/watch?v=5vDq5DXXxss",
+      },
+    ],
+    bestblogstofollow: [
+      {
+        id: "1",
+        name: "Flutter – Medium",
+        link: "https://medium.com/flutter",
+      },
+      {
+        id: "2",
+        name: "Flutter Community – Medium",
+        link: "https://medium.com/flutter-community",
+      },
+      {
+        id: "3",
+        name: "Fireship- Flutter",
+        link: "https://fireship.io/tags/flutter/",
+      },
+    ],
+    toppeopletofollow: [
+      {
+        id: "1",
+        name: "Tim Sneath",
+        link: "https://twitter.com/timsneath",
+      },
+      {
+        id: "2",
+        name: "Eric Seidal",
+        link: "https://twitter.com/_eseidel",
+      },
+      {
+        id: "3",
+        name: "Flutter",
+        link: "https://twitter.com/FlutterDev",
       },
     ],
     leads: [
