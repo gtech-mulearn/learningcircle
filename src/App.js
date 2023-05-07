@@ -33,6 +33,12 @@ import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
 import Python from "./Pages/Bootcamp/Python/Python";
 import AI from "./Pages/Bootcamp/AI/AI";
 
+// KSE Bootcamps Section
+import KSE from "./Pages/KSE/KSE";
+import Challenges from "./Pages/KSE/Challenges/Challenges";
+import IndividualChallenge from "./Pages/KSE/Challenges/IndividualChallenge/IndividualChallenge";
+import ProofOfWork from "./Pages/KSE/Challenges/ProofOfWork/ProofOfWork";
+
 //Misc
 import NotFound from "./Pages/Misc/404/NotFound";
 
@@ -356,6 +362,18 @@ function App() {
           <Route path="/bootcamps/javascript" element={<JavaScript />} />
           <Route path="/bootcamps/python" element={<Python />} />
           <Route path="/bootcamps/ai" element={<AI />} />
+
+          <Route path="/kse" element={<KSE />} />
+          <Route path="/kse/challenges/:course" element={<Challenges />} />
+          <Route
+            path="/kse/challenges/:course/:bootcamp/:id"
+            element={<IndividualChallenge />}
+          />
+          <Route
+            path="/kse/pow/:course/:bootcamp/:id"
+            element={<ProofOfWork />}
+          />
+
           <Route
             path="/searchcircles"
             element={
