@@ -17,8 +17,10 @@ const KSE = () => {
                 <span> KSE </span> Challenges
               </p>
               <p className={styles.fv_content}>
-                Here we have listed some of the most popular challenges that you
-                can take up to improve your skills.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus voluptate quam dolorem! Maxime repudiandae mollitia
+                dolore, consequatur minima rem magni illum ab optio obcaecati.
+                Nemo praesentium amet molestias modi error.
               </p>
             </div>
             <div className={styles.fv_image}>
@@ -35,9 +37,9 @@ const KSE = () => {
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>Challenges</p>
               <p className={styles.sv_content}>
-                Let's get started with some general enablement tasks to get you
-                familiar with how the basic tools work and get your inital karma
-                points..
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Explicabo, asperiores fugit! Nostrum, laborum nesciunt. Animi
+                excepturi enim ut!
               </p>
             </div>
             <div className={styles.bootcamps}>
@@ -50,7 +52,7 @@ const KSE = () => {
                   dolorem quos aliquid repellat.
                 </p>
                 <Link to="/kse/challenges/ai">
-                  <button className={styles.b_button}>Join Now!</button>
+                  <button className={styles.b_button}>View Now!</button>
                 </Link>
               </div>
               <div className={styles.bootcamp}>
@@ -62,7 +64,7 @@ const KSE = () => {
                   vero dolores. Impedit vero itaque odio?
                 </p>
                 <Link to="/kse/challenges/web">
-                  <button className={styles.b_button}>Join Now!</button>
+                  <button className={styles.b_button}>View Now!</button>
                 </Link>
               </div>
             </div>
