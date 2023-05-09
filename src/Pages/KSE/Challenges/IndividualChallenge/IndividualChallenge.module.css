@@ -72,6 +72,7 @@
   font-family: "Noto Sans", sans-serif;
   font-weight: 500;
   color: #404040;
+  max-width: 50rem;
 }
 
 .officehrs span {
@@ -114,10 +115,11 @@
   .fv_heading,
   .fv_heading_entre {
     font-size: 4.25rem;
+    max-width: 40rem;
   }
 
   .fv_content {
-    width: 65%;
+    max-width: 28rem;
     font-size: 1rem;
     margin-top: 1rem;
   }

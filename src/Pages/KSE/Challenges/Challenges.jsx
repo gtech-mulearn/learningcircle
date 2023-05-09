@@ -79,14 +79,13 @@ const Challenges = () => {
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
                 {course.charAt(0).toUpperCase() + course.slice(1) + " "}
-                Training Programs
+                Challenges
               </p>
               <p className={styles.fv_content}>
-                Welcome to µLearn Training Programs, lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Sequi, inventore? Excepturi,
-                tenetur saepe. Architecto excepturi ipsam nesciunt consequuntur
-                voluptatem, recusandae alias cum! Eos provident asperiores nam
-                unde quas, cumque a.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+                excepturi officiis doloremque nobis iure quisquam earum
+                molestiae, ducimus ipsam inventore enim, fugit, eum laborum
+                dolor.
               </p>
             </div>
             <div className={styles.fv_image}>
