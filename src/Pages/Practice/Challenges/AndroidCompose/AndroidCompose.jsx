@@ -21,7 +21,7 @@ const AndroidCompose = () => {
                 <br />
               </p>
               <p className={styles.late_date}>
-                Get 800 Karma Points on Course Completion
+                Get 1200 Karma Points on Course Completion
               </p>
               <br />
               <a
@@ -107,12 +107,12 @@ const AndroidCompose = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Space Art App
+                        Art Space App
                       </a>{" "}
-                      using the given resouce and share the GitHub link to your
+                      using the given resouce and share the <b> GitHub Repo link </b> to your
                       completed project in the <b>&nbsp;#android-development</b>{" "}
                       channel along with the hashtag
-                      <b>&nbsp;#cl-android-spaceart&nbsp;</b>this project will earn
+                      <b>&nbsp;#cl-android-artspace&nbsp;</b>this project will earn
                       you an aditional&nbsp;
                       <b>50 karma points.</b>
                       <br></br>
@@ -169,7 +169,7 @@ const AndroidCompose = () => {
                       >
                         30 Days App
                       </a>{" "}
-                      using the given resouce and share the GitHub link to your
+                      using the given resouce and share the <b> GitHub Repo link </b> to your
                       completed project in the <b>&nbsp;#android-development</b>{" "}
                       channel along with the hashtag
                       <b>&nbsp;#cl-android-30app&nbsp;</b>this project will earn
@@ -230,7 +230,7 @@ const AndroidCompose = () => {
                       >
                         My City App
                       </a>{" "}
-                      using the given resouce and share the GitHub link to your
+                      using the given resouce and share the <b> GitHub Repo link </b> to your
                       completed project in the <b>&nbsp;#android-development</b>{" "}
                       channel along with the hashtag
                       <b>&nbsp;#cl-android-mycity&nbsp;</b>this project will earn
@@ -293,7 +293,7 @@ const AndroidCompose = () => {
                       >
                         Bookshelf App
                       </a>{" "}
-                      using the given resouce and share the GitHub link to your
+                      using the given resouce and share the <b> GitHub Repo link </b> to your
                       completed project in the <b>&nbsp;#android-development</b>{" "}
                       channel along with the hashtag
                       <b>&nbsp;#cl-android-bookshelf&nbsp;</b>this project will earn
@@ -355,7 +355,7 @@ const AndroidCompose = () => {
                       >
                         Flight Search App
                       </a>{" "}
-                      using the given resouce and share the GitHub link to your
+                      using the given resouce and share the <b> GitHub Repo link </b> to your
                       completed project in the <b>&nbsp;#android-development</b>{" "}
                       channel along with the hashtag
                       <b>&nbsp;#cl-android-flight&nbsp;</b>this project will earn
