@@ -7,9 +7,15 @@ const InterestGroups = [
     leads: [
       {
         id: 1,
-        name: "Jeevan Joseph",
-        college: "Kristu Jyoti College of Management & Technology,Kottayam",
-        images: "assets/interestGroups/jeevanJoseph.webp",
+        name: "Muhammed R",
+        college: "St Thomas institute for science and technology,tvm",
+        images: "assets/interestGroups/Muhammed-R.webp",
+      },
+      {
+        id: 1,
+        name: "Abhiramkrishna R S",
+        college: "Mar Baselios College of Engineering and Technology,tvm",
+        images: "",
       },
     ],
     officetime: "Sunday 7:30 PM",
@@ -622,15 +628,7 @@ const InterestGroups = [
         karma: "800",
       },
     ],
-    subcourses: [
-      {
-        name: "Git and Github",
-        link: "/android/sub/1",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-    ],
+    subcourses: [],
     blogs: [
       {
         id: "0",
@@ -2224,12 +2222,17 @@ const InterestGroups = [
     interestgroup: "Flutter",
     interestgroupdescription:
       "Flutter is an open-source mobile application development framework created by Google. It allows developers to build native applications for Android, iOS, and other platforms using a single codebase. Flutter uses the Dart programming language, which was also developed by Google, and provides a rich set of pre-built widgets and tools for building beautiful, fast, and responsive user interfaces.",
-    officetime: " Monday 8.30 PM",
+    officetime: " Friday 9.00 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
-    thinktanktime: " Monday 8:30 PM",
+    thinktanktime: " Thursday 9:30 PM",
     community: [],
-    opportunities: [],
+    opportunities: [
+      "Android developer",
+      "Ios Developer",
+      "Ui designer",
+      "Frontend developer",
+    ],
     company: [],
     pagination: [
       {
@@ -2386,18 +2389,10 @@ const InterestGroups = [
         images: "assets/interestGroups/Basith P.webp",
         linkedIn: "https://www.linkedin.com/in/basithp9/",
       },
-
       {
         id: 3,
         name: "Arfaz Khan Hijas Khan",
         college: "AWH Engineering College Kozhikode",
-        images: "",
-        linkedIn: "",
-      },
-      {
-        id: 4,
-        name: "Vishnu Prabhakaran",
-        college: "College of Engineering and Technology Payyanur",
         images: "",
         linkedIn: "",
       },
@@ -3066,6 +3061,6 @@ const InterestGroups = [
       },
     ],
   },
-]
+];
 
-export default InterestGroups
+export default InterestGroups;
