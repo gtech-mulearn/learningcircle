@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./KSE.module.css";
-import { Link } from "react-router-dom";
 
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
@@ -49,9 +48,9 @@ const KSE = () => {
                   praesentium doloremque totam voluptas omnis maxime qui dolor
                   dolorem quos aliquid repellat.
                 </p>
-                <Link to="/kse/challenges/ai">
+                <a href="/kse/challenges/ai" rel="noopener noreferrer">
                   <button className={styles.b_button}>Join Now!</button>
-                </Link>
+                </a>
               </div>
               <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>Web Bootcamp</p>
@@ -61,9 +60,9 @@ const KSE = () => {
                   nesciunt ex minus obcaecati tempora reprehenderit atque illum
                   vero dolores. Impedit vero itaque odio?
                 </p>
-                <Link to="/kse/challenges/web">
+                <a href="/kse/challenges/web" rel="noopener noreferrer">
                   <button className={styles.b_button}>Join Now!</button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

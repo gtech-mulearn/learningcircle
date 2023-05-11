@@ -30,6 +30,8 @@ const ProofOfWork = () => {
     (obj) => obj.bootcamp === bootcamp && obj.courseid === courseid
   );
 
+  console.log(courseGroup);
+
   return (
     <>
       <Navbar />
@@ -66,6 +68,58 @@ const ProofOfWork = () => {
               />
             </div>
           </div>
+
+          {!courseGroup[0].segments && (
+            <div className={styles.second_view_container}>
+              <div className={styles.second_view}>
+                <div className={styles.sv_texts}>
+                  <p className={styles.sv_heading}>
+                    Course <span>Details</span>
+                  </p>
+                  {course[0].courseContent && (
+                    <p className={styles.coursedetails}>
+                      <span>Content : </span> {courseGroup[0].courseContent}
+                    </p>
+                  )}
+                  <p className={styles.coursedetails}>
+                    <span>Bootcamp : </span>{" "}
+                    {courseGroup[0].bootcamp.charAt(0).toUpperCase() +
+                      courseGroup[0].bootcamp.slice(1)}
+                  </p>
+                  {courseGroup[0].time && (
+                    <p className={styles.coursedetails}>
+                      <span>Time : </span> {courseGroup[0].time}
+                    </p>
+                  )}
+
+                  {courseGroup[0].syllabus && (
+                    <p className={styles.coursedetails}>
+                      <span>Syllabus : </span>
+                      {courseGroup[0].syllabus.replace(/\n/g, ", ")}
+                    </p>
+                  )}
+                  {courseGroup[0].complexity && (
+                    <p className={styles.coursedetails}>
+                      <span>Complexity : </span>
+                      {courseGroup[0].complexity}
+                    </p>
+                  )}
+
+                  {courseGroup[0].courseLink && (
+                    <a
+                      href={courseGroup[0].courseLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className={styles.view_course}>
+                        Course Link
+                      </button>
+                    </a>
+                  )}
+                </div>
+              </div>
+            </div>
+          )}
 
           <div className={styles.second_view_container}>
             <div className={styles.second_view}>

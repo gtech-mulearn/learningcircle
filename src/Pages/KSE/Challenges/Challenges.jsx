@@ -54,12 +54,12 @@ const Challenges = () => {
 
   // To group the data according to bootcamp
   const groupedData = data.reduce((acc, curr) => {
-    const { bootcamp, courseid, name, hashtags } = curr;
-    const obj = { courseid, name, hashtags };
+    const { bootcamp, name, segments } = curr;
+    const obj = { name, segments };
     const index = acc.findIndex((el) => el.bootcamp === bootcamp);
     if (index !== -1) {
       const courseIndex = acc[index].courseGroups.findIndex(
-        (c) => c.name === name && c.hashtags === hashtags
+        (c) => c.name === name
       );
       if (courseIndex === -1) {
         acc[index].courseGroups.push(obj);
@@ -69,6 +69,8 @@ const Challenges = () => {
     }
     return acc;
   }, []);
+
+  console.log(groupedData);
 
   return (
     <>
@@ -126,7 +128,11 @@ const Challenges = () => {
 
                           <StyledTableCell align="right">
                             <a
-                              href={`/kse/challenges/${course}/${difficulty.bootcamp}/${index}`}
+                              href={
+                                courses.segments
+                                  ? `/kse/challenges/${course}/${difficulty.bootcamp}/${index}`
+                                  : `/kse/pow/${course}/${difficulty.bootcamp}/${index}`
+                              }
                               rel="noopener noreferrer"
                             >
                               <span className={styles.link}>Click Here</span>
