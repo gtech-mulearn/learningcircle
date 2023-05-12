@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import Footer from "../../../Components/Footer/Footer";
 import Navbar from "../../../Components/Navbar/Navbar";
 import styles from "./MentorDirectory.module.css";
@@ -6,9 +7,24 @@ import styles from "./MentorDirectory.module.css";
 import fvimg from "./assets/fvimg.png";
 import MentorCard from "../../../Components/MentorCard/MentorCard";
 
-import MentorList from "./MentorList.json";
-
 const MentorDirectory = () => {
+  const [mentorData, setMentorData] = useState([]);
+  const [error, setError] = useState();
+  useEffect(() => {
+    axios
+      .get(
+        "https://opensheet.elk.sh/1r5Pav8TlUEao_9GuMcFasKUEPSDIJOPB9PXKbt4KlTQ/mentordata"
+      )
+      .then((response) => {
+        setMentorData(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+        setError(
+          "We are currently facing some difficulties in fetching the data at the moment, will be back soon."
+        );
+      });
+  }, []);
   return (
     <>
       <Navbar />
@@ -54,7 +70,7 @@ const MentorDirectory = () => {
             </div>
             <div className={styles.mentor_container}>
               <div className={styles.mentors}>
-                {MentorList.map((mentor) => (
+                {mentorData.map((mentor) => (
                   <MentorCard
                     name={mentor.name}
                     designation={mentor.designation}
