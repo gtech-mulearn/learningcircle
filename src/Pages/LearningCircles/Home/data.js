@@ -2046,10 +2046,10 @@ const InterestGroups = [
     interestgroup: "Blockchain",
     interestgroupdescription:
       "Block chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
-    officetime: " Sunday 8.30 PM",
+    officetime: " Monday 8.30 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
-    thinktanktime: " Monday 8:30 PM",
+    thinktanktime: " Sunday 8:30 PM",
     community: ["KBA"],
     opportunities: [],
     company: [],
