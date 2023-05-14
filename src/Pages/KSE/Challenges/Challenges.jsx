@@ -10,6 +10,15 @@ import fvimg from "../assets/fvimg.png";
 
 import AIStructure from "./Data/ai";
 import WebStructure from "./Data/web";
+import AndroidStructure from "./Data/android";
+import BlockchainStructure from "./Data/blockchain";
+import CivilStructure from "./Data/civil";
+import CybersecStructure from "./Data/cybersec";
+import FlutterStructure from "./Data/flutter";
+import IEStructure from "./Data/i&e";
+import QAStructure from "./Data/qa";
+import RustStructure from "./Data/rust";
+import Animation3DStructure from "./Data/animation3d";
 
 import { styled } from "@mui/material/styles";
 import Table from "@mui/material/Table";
@@ -49,13 +58,31 @@ const Challenges = () => {
       return AIStructure;
     } else if (course === "web") {
       return WebStructure;
+    } else if (course === "android") {
+      return AndroidStructure;
+    } else if (course === "blockchain") {
+      return BlockchainStructure;
+    } else if (course === "civil") {
+      return CivilStructure;
+    } else if (course === "cybersec") {
+      return CybersecStructure;
+    } else if (course === "flutter") {
+      return FlutterStructure;
+    } else if (course === "i&e") {
+      return IEStructure;
+    } else if (course === "qa") {
+      return QAStructure;
+    } else if (course === "rust") {
+      return RustStructure;
+    } else if (course === "animation3d") {
+      return Animation3DStructure;
     }
   })();
 
   // To group the data according to bootcamp
   const groupedData = data.reduce((acc, curr) => {
-    const { bootcamp, name, segments } = curr;
-    const obj = { name, segments };
+    const { bootcamp, name, segments, segmentKarma } = curr;
+    const obj = { name, segments, segmentKarma };
     const index = acc.findIndex((el) => el.bootcamp === bootcamp);
     if (index !== -1) {
       const courseIndex = acc[index].courseGroups.findIndex(
@@ -69,8 +96,6 @@ const Challenges = () => {
     }
     return acc;
   }, []);
-
-  console.log(groupedData);
 
   return (
     <>
@@ -129,7 +154,7 @@ const Challenges = () => {
                           <StyledTableCell align="right">
                             <a
                               href={
-                                courses.segments
+                                courses.segments || courses.segmentKarma
                                   ? `/kse/challenges/${course}/${difficulty.bootcamp}/${index}`
                                   : `/kse/pow/${course}/${difficulty.bootcamp}/${index}`
                               }
