@@ -373,6 +373,10 @@ function App() {
             path="/kse/pow/:course/:bootcamp/:id"
             element={<ProofOfWork />}
           />
+          <Route
+            path="/kse/pow/:course/:bootcamp/:id/segment/:sid"
+            element={<ProofOfWork />}
+          />
 
           <Route
             path="/searchcircles"
