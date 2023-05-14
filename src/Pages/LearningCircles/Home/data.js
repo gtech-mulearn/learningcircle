@@ -765,7 +765,7 @@ const InterestGroups = [
       },
       {
         id: "2",
-        name: "Ben George",
+        name: "Ben George Netto",
         college:
           "Mar Baselios College of Engineering and Technology, Trivandrum",
         images: "assets/interestGroups/ben.webp",
