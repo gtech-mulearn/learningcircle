@@ -363,7 +363,7 @@ function App() {
           <Route path="/bootcamps/python" element={<Python />} />
           <Route path="/bootcamps/ai" element={<AI />} />
 
-          <Route path="/kse" element={<KSE />} />
+          {/* <Route path="/kse" element={<KSE />} />
           <Route path="/kse/challenges/:course" element={<Challenges />} />
           <Route
             path="/kse/challenges/:course/:bootcamp/:id"
@@ -372,7 +372,7 @@ function App() {
           <Route
             path="/kse/pow/:course/:bootcamp/:id"
             element={<ProofOfWork />}
-          />
+          /> */}
 
           <Route
             path="/searchcircles"
