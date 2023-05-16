@@ -63,7 +63,7 @@ const BlockchainData = [
       },
       {
         id: "7",
-        name: "Understand and setup MetaMask Accoun",
+        name: "Understand and setup MetaMask Account",
         karma: "100",
         description:
           "This course will teach you how to install and set up the popular cryptocurrency wallet, Metamask. You will learn the fundamentals of cryptocurrency wallets, how to create and manage an account, and how to safely store and transact with cryptocurrencies. The course will provide step-by-step instructions for downloading, installing, and setting up Metamask. Upon completion, you will have the skills and confidence to use Metamask for secure cryptocurrency storage and transactions.",

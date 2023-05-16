@@ -51,7 +51,7 @@ const UIUXData = [
           "Want to get started in design, but don’t know where to begin? These lessons and exercises will help you start designing immediately. Master Figma & make awesome designs",
         link: "https://www.classcentral.com/course/youtube-figma-tutorials-the-ultimate-crash-course-51794/classroom",
         inner_description:
-          "After course completion, post the assignment url in the #ui-ux channel of the MuLearn Discord server with the hashtag #ux-intro to avail karma points.",
+          "After course completion, post the assignment url in the #ui-ux channel of the MuLearn Discord server with the hashtag #ui-figma to avail karma points.",
         assignment: [
           {
             assignment_description:
