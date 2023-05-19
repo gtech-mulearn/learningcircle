@@ -16,20 +16,6 @@ export const links = [
             link: mainlink + "/team",
             foreign: false,
           },
-          {
-            name: "Terms and Conditions",
-            submenu: false,
-            sublinks: [],
-            link: mainlink + "/termsandconditions",
-            foreign: false,
-          },
-          {
-            name: "Privacy Policy",
-            submenu: false,
-            sublinks: [],
-            link: mainlink + "/privacypolicy",
-            foreign: false,
-          },
         ],
       },
       {
@@ -48,19 +34,6 @@ export const links = [
             submenu: false,
             sublinks: [],
             link: mainlink + "/company-partners",
-            foreign: false,
-          },
-        ],
-      },
-      {
-        name: "Participate",
-        submenu: true,
-        sublinks: [
-          {
-            name: "Enablers & Mentor",
-            submenu: false,
-            sublinks: [],
-            link: mainlink + "/participate",
             foreign: false,
           },
         ],
@@ -107,21 +80,28 @@ export const links = [
         ],
       },
       {
-        name: "Campus Chapters",
+        name: "Events",
         submenu: true,
         sublinks: [
           {
-            name: "Home Page",
+            name: "Global Calendar",
             submenu: false,
             sublinks: [],
-            link: mainlink + "/campuschapters",
+            link: mainlink + "/calendar",
             foreign: false,
           },
           {
-            name: "Success Stories",
+            name: "Announcements",
             submenu: false,
             sublinks: [],
-            link: mainlink + "/blogs",
+            link: mainlink + "/announcements",
+            foreign: false,
+          },
+          {
+            name: "Weekly Events",
+            submenu: false,
+            sublinks: [],
+            link: mainlink + "/events",
             foreign: false,
           },
         ],
@@ -163,27 +143,6 @@ export const links = [
       },
       {
         head: 1,
-        name: "Ongoing",
-        submenu: true,
-        sublinks: [
-          {
-            name: "Bootcamps",
-            submenu: false,
-            sublinks: [],
-            link: "/bootcamps",
-            foreign: false,
-          },
-          {
-            name: "Beweb.dev",
-            submenu: false,
-            sublinks: [],
-            link: mainlink + "/events/bewebdev",
-            foreign: true,
-          },
-        ],
-      },
-      {
-        head: 1,
         name: "Others",
         submenu: true,
         sublinks: [
@@ -214,73 +173,25 @@ export const links = [
   },
   {
     head: -1,
-    name: "Events Page",
+    name: "Campus Chapters",
     submenu: true,
     sublinks: [
       {
         head: 2,
-        name: "Global Calendar",
+        name: "The Chaptership",
         submenu: true,
+        link: mainlink + "/campuschapters",
         sublinks: [
           {
-            name: "Calendar",
-            link: mainlink + "/calendar",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
-        ],
-      },
-      {
-        head: 2,
-        name: "Announcements",
-        submenu: true,
-        sublinks: [
-          {
-            name: "Announcements",
-            link: mainlink + "/announcements",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
-        ],
-      },
-      {
-        head: 2,
-        name: "Weekly Events",
-        submenu: true,
-        sublinks: [
-          {
-            name: "Home",
-            link: mainlink + "/events",
+            name: "Campus Logo Generator",
+            link: mainlink + "/campuschapters/#logo-generator",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "Inspiration Station",
-            link: mainlink + "/isr",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
-          {
-            name: "Mentor Connect",
-            link: mainlink + "/events/mentorconnect",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
-          {
-            name: "Open Mic",
-            link: mainlink + "/events/openmic",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
-          {
-            name: "Salt Mango Tree",
-            link: mainlink + "/events/saltmangotree",
+            name: "Success Stories",
+            link: mainlink + "/successstories",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -298,14 +209,8 @@ export const links = [
         head: 3,
         name: "Interest Groups",
         submenu: true,
+        link: "/",
         sublinks: [
-          {
-            name: "Home",
-            link: "/",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
           {
             name: "Android Development",
             link: "/android",
@@ -334,7 +239,6 @@ export const links = [
             sublinks: [],
             foreign: false,
           },
-
           {
             name: "IoT",
             link: "/iot",
@@ -369,14 +273,8 @@ export const links = [
         head: 3,
         name: "Bootcamps",
         submenu: true,
+        link: "/bootcamps",
         sublinks: [
-          {
-            name: "Home",
-            link: "/bootcamps",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
           {
             name: "Android",
             link: "/bootcamps/android",
