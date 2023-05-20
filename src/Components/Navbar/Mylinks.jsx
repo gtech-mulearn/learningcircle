@@ -205,7 +205,7 @@ export const links = [
         sublinks: [
           {
             name: "Lead a Campus",
-            link: "/https://airtable.com/shrmtngt3zopg8eVh",
+            link: "https://airtable.com/shrmtngt3zopg8eVh",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -312,7 +312,7 @@ export const links = [
           },
           {
             name: "Bootcamps",
-            link: "/challenges",
+            link: "/bootcamps",
             submenu: false,
             sublinks: [],
             foreign: false,
