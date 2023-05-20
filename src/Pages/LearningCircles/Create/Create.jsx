@@ -162,338 +162,364 @@ const Create = ({
         <CustomizedSnackbars severity="error" message={snackerror} />
       )}
 
-      {/* {completed && wlink && (
-        <div>
-          <Modal
-            open={open}
-            onClose={handleClose}
-            aria-labelledby="modal-modal-title"
-            aria-describedby="modal-modal-description"
-          >
-            <Box sx={style}>
-              <Typography
-                id="modal-modal-title"
-                variant="h5"
-                component="h2"
-                className={styles.modaltext}
-                sx={{ marginY: 1.5 }}
-              >
-                Circle Created!
-              </Typography>
-              <Typography variant="body2" gutterBottom component="div">
-                The Circle is created and furthur details has been already
-                mailed to you. Kindly check it out. Also all the upcoming
-                communications will be done through a whatsapp group so do join
-                it.
-              </Typography>
-              <a href={wlink} target="_blank" rel="noopener noreferrer">
-                <Button
-                  sx={{ minWidth: 250, maxWidth: 250, marginY: 1.5 }}
-                  variant="contained"
-                >
-                  Join Whatsapp Group
-                </Button>
-              </a>
-            </Box>
-          </Modal>
-        </div>
-      )} */}
-
       <Navbar />
-      <img src={learningcircles} alt="" className={styles.mimage} />
-      <div className={styles.fsview}>
-        <p className={styles.fsheading}>Create Learning Circles</p>
-        <p className={styles.fstagline}>
-          Learning Circles are a fantastic way to learn a new skill or
-          technology. You get to learn from the different perspectives of the
-          learners in the circle. So what are you waiting for? Click and create
-          a circle now.
-        </p>
-      </div>
-      <div className={styles.form}>
-        {districts && (
-          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-            <FormControl required fullWidth>
-              <InputLabel id="demo-simple-select-label">
-                Select District
-              </InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                label="Select District"
-                value={district}
-                onChange={(e) => {
-                  setDistrict(e.target.value);
-                }}
-              >
-                {districts.map((district) => (
-                  <MenuItem value={district}>{district}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Box>
-        )}
+      <div className={styles.main_container}>
+        <div className={styles.first_view_container}>
+          <img src={learningcircles} alt="" className={styles.mimage} />
+          <div className={styles.fsview}>
+            <p className={styles.fsheading}>
+              Let's Form <br /> <span>Learning Circles</span>
+            </p>
+            <p className={styles.fstagline}>
+              Learning Circles are a fantastic way to learn a new skill or
+              technology. You get to learn from the different perspectives of
+              the learners in the circle. So what are you waiting for? Click and
+              create a circle now.
+            </p>
+            <a href="/join" rel="noopener noreferrer">
+              <button className={styles.search_button}>
+                Search Learning Circles
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className={styles.form_container}>
+          <div className={styles.form}>
+            <div className={styles.first_form_section}>
+              <div className={styles.ff_content}>
+                <p className={styles.ff_heading}>Enter the Basic Information</p>
+                <p className={styles.ff_tagline}>
+                  Select your District, College and Interest Group and Create a
+                  circle name to start
+                </p>
+              </div>
+              <div className={styles.ff_form_fields}>
+                <Box
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                >
+                  <FormControl required fullWidth>
+                    <InputLabel id="demo-simple-select-label">
+                      Select District
+                    </InputLabel>
+                    <Select
+                      disabled={!districts}
+                      labelId="demo-simple-select-label"
+                      id="demo-simple-select"
+                      label="Select District"
+                      value={district}
+                      onChange={(e) => {
+                        setDistrict(e.target.value);
+                      }}
+                    >
+                      {districts &&
+                        districts?.map((district) => (
+                          <MenuItem value={district}>{district}</MenuItem>
+                        ))}
+                    </Select>
+                  </FormControl>
+                </Box>
 
-        {colleges && options && (
-          <>
-            <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-              <Autocomplete
-                id="grouped-demo"
-                options={options.sort(
-                  (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
-                )}
-                isOptionEqualToValue={(option, value) =>
-                  option.value === value.value
-                }
-                groupBy={(option) => option.firstLetter}
-                getOptionLabel={(option) => option.name}
-                onChange={(event, newValue) => {
-                  setCollege(newValue.code);
-                }}
-                sx={{ width: 300 }}
-                renderInput={(params) => (
-                  <TextField {...params} label="Select College" />
-                )}
-              />
-            </Box>
-          </>
-        )}
+                <Box
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                >
+                  <Autocomplete
+                    id="grouped-demo"
+                    disabled={!(colleges && options)}
+                    options={
+                      options &&
+                      options.sort(
+                        (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
+                      )
+                    }
+                    isOptionEqualToValue={(option, value) =>
+                      option.value === value.value
+                    }
+                    groupBy={(option) => option.firstLetter}
+                    getOptionLabel={(option) => option.name}
+                    onChange={(event, newValue) => {
+                      setCollege(newValue.code);
+                    }}
+                    sx={{ width: 300 }}
+                    renderInput={(params) => (
+                      <TextField {...params} label="Select College" />
+                    )}
+                  />
+                </Box>
 
-        {interests && college && (
-          <Box sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}>
-            <FormControl required fullWidth>
-              <InputLabel id="demo-simple-select-label">
-                Select Interest Group
-              </InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                label="Select College"
-                name="interest"
-                value={interest}
-                onChange={(e) => {
-                  setInterest(e.target.value);
-                  setCreate((prevState) => ({
-                    ...prevState,
-                    interest: e.target.value,
-                  }));
-                }}
-              >
-                {interests.map((interest) => (
-                  <MenuItem value={interest.id}>{interest.title}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Box>
-        )}
+                <Box
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                >
+                  <FormControl required fullWidth>
+                    <InputLabel id="demo-simple-select-label">
+                      Select Interest Group
+                    </InputLabel>
+                    <Select
+                      disabled={!(interests && colleges)}
+                      labelId="demo-simple-select-label"
+                      id="demo-simple-select"
+                      label="Select College"
+                      name="interest"
+                      value={interest}
+                      onChange={(e) => {
+                        setInterest(e.target.value);
+                        setCreate((prevState) => ({
+                          ...prevState,
+                          interest: e.target.value,
+                        }));
+                      }}
+                    >
+                      {interests &&
+                        interests.map((interest) => (
+                          <MenuItem value={interest.id}>
+                            {interest.title}
+                          </MenuItem>
+                        ))}
+                    </Select>
+                  </FormControl>
+                </Box>
 
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          error={
-            errors && JSON.stringify(errors).includes("code") ? true : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("code")
-              ? "Team Code is Required"
-              : "*Spaces and Special Characters aren't allowed!"
-          }
-          name="code"
-          id="outlined-basic"
-          label="Learning Circle Name"
-          placeholder="A Unique name for your circle"
-          variant="outlined"
-          value={create.code}
-          onChange={changeHandler}
-        />
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          error={
-            errors && JSON.stringify(errors).includes("lead.name")
-              ? true
-              : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("lead.name")
-              ? "Lead Name is Required"
-              : ""
-          }
-          name="name"
-          id="outlined-basic"
-          label="Lead Name"
-          variant="outlined"
-          value={create.name}
-          onChange={leadchangeHandler}
-        />
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          error={
-            errors && JSON.stringify(errors).includes("lead.email")
-              ? true
-              : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("lead.email")
-              ? "Lead Email Address is Required"
-              : ""
-          }
-          name="email"
-          id="outlined-basic"
-          label="Email Address"
-          variant="outlined"
-          value={create.email}
-          onChange={leadchangeHandler}
-        />
-        {/* <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          error={
-            errors && JSON.stringify(errors).includes("lead.discord_id")
-              ? true
-              : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("lead.discord_id")
-              ? "Lead Discord ID is Required"
-              : ""
-          }
-          name="discord_id"
-          id="outlined-basic"
-          label="Discord ID"
-          variant="outlined"
-          value={create.discord_id}
-          onChange={leadchangeHandler}
-        />
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          error={
-            errors && JSON.stringify(errors).includes("lead.karma")
-              ? true
-              : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("lead.karma")
-              ? "Lead Karma Points is Required"
-              : ""
-          }
-          name="karma"
-          id="outlined-basic"
-          label="Karma Points"
-          variant="outlined"
-          value={create.karma}
-          onChange={leadchangeHandler}
-        /> */}
+                <TextField
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                  required
+                  error={
+                    errors && JSON.stringify(errors).includes("code")
+                      ? true
+                      : false
+                  }
+                  helperText={
+                    errors && JSON.stringify(errors).includes("code")
+                      ? "Team Code is Required"
+                      : "*Spaces and Special Characters aren't allowed!"
+                  }
+                  name="code"
+                  id="outlined-basic"
+                  label="Learning Circle Name"
+                  placeholder="A Unique name for your circle"
+                  variant="outlined"
+                  value={create.code}
+                  onChange={changeHandler}
+                />
+              </div>
+            </div>
 
-        <TextField
-          required
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          name="phone"
-          id="outlined-basic"
-          label="Phone"
-          variant="outlined"
-          value={create.phone}
-          onChange={changeHandler}
-        />
-        <TextField
-          required
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          name="meet_place"
-          id="outlined-basic"
-          label="Meet Place"
-          placeholder="A Place in your campus to meet"
-          variant="outlined"
-          value={create.meet_place}
-          onChange={changeHandler}
-        />
-        <TextField
-          required
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          name="meet_time"
-          id="outlined-basic"
-          label="Meet Time"
-          placeholder="HH:MM AM/PM"
-          variant="outlined"
-          value={create.meet_time}
-          onChange={changeHandler}
-        />
+            <div className={styles.second_form_section}>
+              <div className={styles.ff_content}>
+                <p className={styles.ff_heading}>Circle Lead Information</p>
+                <p className={styles.ff_tagline}>
+                  Fill in the detail of the circle lead and meeting place and
+                  time to continue
+                </p>
+              </div>
+              <div className={styles.ff_form_fields}>
+                <TextField
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                  required
+                  error={
+                    errors && JSON.stringify(errors).includes("lead.name")
+                      ? true
+                      : false
+                  }
+                  helperText={
+                    errors && JSON.stringify(errors).includes("lead.name")
+                      ? "Lead Name is Required"
+                      : ""
+                  }
+                  name="name"
+                  id="outlined-basic"
+                  label="Lead Name"
+                  variant="outlined"
+                  value={create.name}
+                  onChange={leadchangeHandler}
+                />
+                <TextField
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                  required
+                  error={
+                    errors && JSON.stringify(errors).includes("lead.email")
+                      ? true
+                      : false
+                  }
+                  helperText={
+                    errors && JSON.stringify(errors).includes("lead.email")
+                      ? "Lead Email Address is Required"
+                      : ""
+                  }
+                  name="email"
+                  id="outlined-basic"
+                  label="Email Address"
+                  variant="outlined"
+                  value={create.email}
+                  onChange={leadchangeHandler}
+                />
 
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          name="passcode"
-          error={
-            errors && JSON.stringify(errors).includes("passcode") ? true : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("passcode")
-              ? "Team Secret Key is Required"
-              : "*Key to be shared with members only!"
-          }
-          id="outlined-basic"
-          label="Secret Key"
-          placeholder="Try to Enter a Strong Key"
-          variant="outlined"
-          value={create.passcode}
-          onChange={changeHandler}
-        />
+                <TextField
+                  required
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                  name="phone"
+                  id="outlined-basic"
+                  label="Phone"
+                  variant="outlined"
+                  value={create.phone}
+                  onChange={changeHandler}
+                />
+                <TextField
+                  required
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                  name="meet_place"
+                  id="outlined-basic"
+                  label="Meet Place"
+                  placeholder="A Place in your campus to meet"
+                  variant="outlined"
+                  value={create.meet_place}
+                  onChange={changeHandler}
+                />
+                <TextField
+                  required
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                  name="meet_time"
+                  id="outlined-basic"
+                  label="Meet Time"
+                  placeholder="HH:MM AM/PM"
+                  variant="outlined"
+                  value={create.meet_time}
+                  onChange={changeHandler}
+                />
 
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          name="cpasscode"
-          id="outlined-basic"
-          label="Confirm Secret Key"
-          variant="outlined"
-          error={
-            confirm !== create.passcode &&
-            confirm &&
-            create.passcode &&
-            confirm.length > 0
-              ? true
-              : false
-          }
-          helperText={
-            confirm !== create.passcode &&
-            confirm &&
-            create.passcode &&
-            confirm.length > 0
-              ? "Both Screct Keys Should be the Same"
-              : ""
-          }
-          onChange={(e) => {
-            setConfirm(e.target.value);
-          }}
-        />
-        <ReCAPTCHA
-          ref={recaptchaRef}
-          sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
-          onChange={() => {
-            setToken(recaptchaRef.current.getValue());
-            setVerify(true);
-          }}
-        />
+                <TextField
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                  required
+                  name="passcode"
+                  error={
+                    errors && JSON.stringify(errors).includes("passcode")
+                      ? true
+                      : false
+                  }
+                  helperText={
+                    errors && JSON.stringify(errors).includes("passcode")
+                      ? "Team Secret Key is Required"
+                      : ""
+                  }
+                  id="outlined-basic"
+                  label="Secret Key"
+                  placeholder="Try to Enter a Strong Key"
+                  variant="outlined"
+                  value={create.passcode}
+                  onChange={changeHandler}
+                />
 
-        <Button
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          disabled={
-            create.phone &&
-            create.phone.length >= 10 &&
-            college &&
-            verify &&
-            confirm === create.passcode
-              ? false
-              : true
-          }
-          onClick={() => {
-            postData();
-          }}
-          variant="contained"
-        >
-          Create Circle
-        </Button>
+                <TextField
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                  required
+                  name="cpasscode"
+                  id="outlined-basic"
+                  label="Confirm Secret Key"
+                  variant="outlined"
+                  error={
+                    confirm !== create.passcode &&
+                    confirm &&
+                    create.passcode &&
+                    confirm.length > 0
+                      ? true
+                      : false
+                  }
+                  helperText={
+                    confirm !== create.passcode &&
+                    confirm &&
+                    create.passcode &&
+                    confirm.length > 0
+                      ? "Both Screct Keys Should be the Same"
+                      : ""
+                  }
+                  onChange={(e) => {
+                    setConfirm(e.target.value);
+                  }}
+                />
+              </div>
+            </div>
+            <ReCAPTCHA
+              style={{ margin: "0.7rem", marginLeft: "0" }}
+              ref={recaptchaRef}
+              sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
+              onChange={() => {
+                setToken(recaptchaRef.current.getValue());
+                setVerify(true);
+              }}
+            />
+            <Button
+              sx={{ minWidth: 300, maxWidth: 300, margin: 1.5, marginLeft: 0 }}
+              disabled={
+                create.phone &&
+                create.phone.length >= 10 &&
+                college &&
+                verify &&
+                confirm === create.passcode
+                  ? false
+                  : true
+              }
+              onClick={() => {
+                postData();
+              }}
+              variant="contained"
+            >
+              Create Circle
+            </Button>
+          </div>
+        </div>
       </div>
 
       <Footer />
