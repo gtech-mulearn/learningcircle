@@ -17,6 +17,15 @@ import Paper from "@mui/material/Paper";
 
 import AIStructure from "../Data/ai";
 import WebStructure from "../Data/web";
+import AndroidStructure from "../Data/android";
+import BlockchainStructure from "../Data/blockchain";
+import CivilStructure from "../Data/civil";
+import CybersecStructure from "../Data/cybersec";
+import FlutterStructure from "../Data/flutter";
+import IEStructure from "../Data/i&e";
+import QAStructure from "../Data/qa";
+import RustStructure from "../Data/rust";
+import Animation3DStructure from "../Data/animation3d";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -47,6 +56,24 @@ const IndividualChallenge = () => {
       return AIStructure;
     } else if (course === "web") {
       return WebStructure;
+    } else if (course === "android") {
+      return AndroidStructure;
+    } else if (course === "blockchain") {
+      return BlockchainStructure;
+    } else if (course === "civil") {
+      return CivilStructure;
+    } else if (course === "cybersec") {
+      return CybersecStructure;
+    } else if (course === "flutter") {
+      return FlutterStructure;
+    } else if (course === "i&e") {
+      return IEStructure;
+    } else if (course === "qa") {
+      return QAStructure;
+    } else if (course === "rust") {
+      return RustStructure;
+    } else if (course === "animation3d") {
+      return Animation3DStructure;
     }
   })();
 
@@ -73,6 +100,11 @@ const IndividualChallenge = () => {
               <p className={styles.fv_content}>
                 {courseGroup[0].courseContent}
               </p>
+              {courseGroup[0].totalKarma && (
+                <p className={styles.karma_header}>
+                  On Completion {courseGroup[0].totalKarma} Karma Points.
+                </p>
+              )}
             </div>
             <div className={styles.fv_image}>
               <img
@@ -83,66 +115,8 @@ const IndividualChallenge = () => {
             </div>
           </div>
         </div>
-        <div className={styles.second_view_container}>
-          <div className={styles.second_view}>
-            <div className={styles.sv_texts}>
-              <p className={styles.tav_heading}>Details</p>
-              <p className={styles.officehrs}>
-                <span>Bootcamp : </span>{" "}
-                {courseGroup[0].bootcamp.charAt(0).toUpperCase() +
-                  courseGroup[0].bootcamp.slice(1)}
-              </p>
-              {courseGroup[0].time && (
-                <p className={styles.officehrs}>
-                  <span>Time : </span> {courseGroup[0].time}
-                </p>
-              )}
-              {courseGroup[0].totalKarma && (
-                <p className={styles.officehrs}>
-                  <span>Total Karma Points : </span>
-                  {courseGroup[0].totalKarma}
-                </p>
-              )}
-              {courseGroup[0].syllabus && (
-                <p className={styles.officehrs}>
-                  <span>Syllabus : </span>
-                  {courseGroup[0].syllabus.replace(/\n/g, ", ")}
-                </p>
-              )}
-              {courseGroup[0].complexity && (
-                <p className={styles.officehrs}>
-                  <span>Complexity : </span>
-                  {courseGroup[0].complexity}
-                </p>
-              )}
-              {courseGroup[0].proofOfWork && (
-                <p className={styles.officehrs}>
-                  <span>Proof Of Work: </span>
-                  Submit Certificate and a project that solves an industrial
-                  problem
-                  <a
-                    href={`/kse/pow/${course}/${bootcamp}/${id}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span className={styles.link}> :&nbsp;Click Here</span>
-                  </a>
-                </p>
-              )}
-              {!courseGroup[0].segments && courseGroup[0].courseLink && (
-                <a
-                  href={courseGroup[0].courseLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className={styles.create}>Course Link</button>
-                </a>
-              )}
-            </div>
-          </div>
-        </div>
 
-        {courseGroup[0].segments && (
+        {(courseGroup[0].segments || courseGroup[0].segmentKarma) && (
           <div className={styles.table_view_container}>
             <div className={styles.table_view}>
               <div className={styles.tav_tasks_container}>
@@ -182,8 +156,7 @@ const IndividualChallenge = () => {
                             </StyledTableCell>
                             <StyledTableCell align="right">
                               <a
-                                href={courses.courseLink}
-                                target="_blank"
+                                href={`/kse/pow/${course}/${bootcamp}/${id}/segment/${courses.segmentid}`}
                                 rel="noopener noreferrer"
                               >
                                 <span className={styles.link}>Click Here</span>

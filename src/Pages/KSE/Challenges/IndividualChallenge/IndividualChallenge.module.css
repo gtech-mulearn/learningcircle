@@ -67,6 +67,13 @@
   color: #f6842c;
 }
 
+.karma_header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #f6842c;
+  font-weight: 500;
+}
+
 .officehrs {
   margin-top: 1rem;
   font-family: "Noto Sans", sans-serif;
