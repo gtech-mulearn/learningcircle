@@ -47,19 +47,19 @@ export const MobileMenu = ({ setNotificationOpen, setOpen, handleScrolling, open
       `}
         >
             <NavLinks />
-            <li>
+      
                 <a
                     href="https://mulear.org/careers"
-                    className="py-7 px-7 inline-block uppercase hover:text-orange-500 text-[13px]"
+                    className="py-4 px-7 inline-block uppercase hover:text-orange-500 text-[13px]"
                     onClick={() => {
                         setOpen(false);
                         setNotificationOpen(false);
                         handleScrolling(true);
                     }}
                 >
-                    Career
+                    Careers
                 </a>
-            </li>
+          
 
             <div className="grid justify-items-center">
                 <a
