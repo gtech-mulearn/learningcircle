@@ -138,7 +138,11 @@ const Join = ({
             severity="success"
             message="Circle Joined Successfully"
           />
-          <Navigate to={`/gettingstarted/${join.code || code}`} replace={true} />;
+          <Navigate
+            to={`/gettingstarted/${join.code || code}`}
+            replace={true}
+          />
+          ;
         </>
       )}
 
@@ -153,238 +157,227 @@ const Join = ({
         <CustomizedSnackbars severity="error" message={snackerror} />
       )}
 
-      {/* {completed && wlink && (
-        <div>
-          <Modal
-            open={open}
-            onClose={handleClose}
-            aria-labelledby="modal-modal-title"
-            aria-describedby="modal-modal-description"
-          >
-            <Box sx={style}>
-              <Typography
-                id="modal-modal-title"
-                variant="h5"
-                component="h2"
-                className={styles.modaltext}
-                sx={{ marginY: 1.5 }}
-              >
-                Circle Joined!
-              </Typography>
-              <Typography variant="body2" gutterBottom component="div">
-                Furthur details has been already mailed to you. Kindly check it
-                out. Also all the upcoming communications will be done through a
-                whatsapp group so do join it.
-              </Typography>
-              <a href={wlink} target="_blank" rel="noopener noreferrer">
-                <Button
-                  sx={{ minWidth: 250, maxWidth: 250, marginY: 1.5 }}
-                  variant="contained"
-                >
-                  Join Whatsapp Group
-                </Button>
-              </a>
-            </Box>
-          </Modal>
-        </div>
-      )} */}
-
       <Navbar />
-      <img src={learningcircles} alt="" className={styles.mimage} />
-      <div className={styles.fsview}>
-        <p className={styles.fsheading}>Join Learning Circles</p>
-        <p className={styles.fstagline}>
-          In order to join a learning circle, you need to enter the circle code
-          as well as a secret key. Both of these credentials can be retrieved
-          from your circle lead. If you already have them fill them out, and you
-          are good to go!
-        </p>
-      </div>
 
-      <div className={styles.form}>
-        {!valid && (join.code || code) && (
-          <div className={styles.validator}>
-            {" "}
-            <CheckIcon sx={{ color: red[500] }} />
-            <p className={styles.validtext}>Enter Valid Circle Code!</p>
-          </div>
-        )}
-
-        {valid && (
-          <div className={styles.validator}>
-            {" "}
-            <CheckIcon color="success" />
-            <p className={styles.validtext1}>Circle Code is Valid!</p>
-          </div>
-        )}
-
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          name="code"
-          id="outlined-basic"
-          label="Circle Name"
-          variant="outlined"
-          disabled={id ? true : false}
-          value={join.code || code}
-          onChange={changeHandler}
-        />
-
-        {college && (
-          <TextField
-            sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-            required
-            disabled
-            name="college"
-            id="outlined-basic"
-            label="Select College"
-            variant="outlined"
-            value={college}
-          />
-        )}
-
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          name="name"
-          error={
-            errors && JSON.stringify(errors).includes("name") ? true : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("name")
-              ? "Name is Required"
-              : ""
-          }
-          id="outlined-basic"
-          label="Your Name"
-          variant="outlined"
-          value={join.name}
-          onChange={changeHandler}
-        />
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          name="email"
-          error={
-            errors && JSON.stringify(errors).includes("email") ? true : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("email")
-              ? "Email Address is Required"
-              : ""
-          }
-          id="outlined-basic"
-          label="Email Address"
-          type="email"
-          variant="outlined"
-          value={join.email}
-          onChange={changeHandler}
-        />
-        {/* <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          name="discord_id"
-          error={
-            errors && JSON.stringify(errors).includes("discord_id")
-              ? true
-              : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("discord_id")
-              ? "Discord ID is Required"
-              : ""
-          }
-          id="outlined-basic"
-          label="Discord ID"
-          variant="outlined"
-          value={join.discord_id}
-          onChange={changeHandler}
-        />
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          required
-          name="karma"
-          error={
-            errors && JSON.stringify(errors).includes("karma") ? true : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("karma")
-              ? "Karma is Required"
-              : ""
-          }
-          id="outlined-basic"
-          label="Karma Points"
-          variant="outlined"
-          value={join.karma}
-          onChange={changeHandler}
-        /> */}
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          name="phone"
-          required
-          id="outlined-basic"
-          label="Phone"
-          variant="outlined"
-          value={join.phone}
-          onChange={changeHandler}
-        />
-        <TextField
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          name="passcode"
-          error={
-            errors && JSON.stringify(errors).includes("401") ? true : false
-          }
-          helperText={
-            errors && JSON.stringify(errors).includes("401")
-              ? "Circle Screct Key is Wrong!"
-              : ""
-          }
-          id="outlined-basic"
-          label="Secret Key"
-          // type="password"
-          variant="outlined"
-          value={pass}
-          onChange={(event) => setPass(event.target.value)}
-        />
-
-        <ReCAPTCHA
-          ref={recaptchaRef}
-          sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
-          onChange={() => {
-            setToken(recaptchaRef.current.getValue());
-            setVerify(true);
-          }}
-        />
-
-        <Button
-          disabled={
-            join.phone && join.phone.length >= 10 && college && verify && pass
-              ? false
-              : true
-          }
-          sx={{ minWidth: 300, maxWidth: 300, margin: 1.5 }}
-          onClick={() => {
-            postData();
-          }}
-          variant="contained"
-        >
-          Join Circle
-        </Button>
-        {members && (
-          <div className={styles.members}>
-            <p className={styles.mheading}>Existing Members</p>
-            <p className={styles.mtagline}>
-              It seems like your circle already have some interesting learners.
-              Learning is always amazing when its done in group.
+      <div className={styles.main_container}>
+        <div className={styles.first_view_container}>
+          <img src={learningcircles} alt="" className={styles.mimage} />
+          <div className={styles.fsview}>
+            <p className={styles.fsheading}>
+              Let's Join <br /> <span>Learning Circles</span>
             </p>
-
-            <div className={styles.mlist}>
-              {members.map((member) => (
-                <p className={styles.list}>{member}</p>
-              ))}
-            </div>
+            <p className={styles.fstagline}>
+              In order to join a learning circle, you need to enter the circle
+              code as well as a secret key. Both of these credentials can be
+              retrieved from your circle lead. If you already have them fill
+              them out, and you are good to go!
+            </p>
+            <a href="/create" rel="noopener noreferrer">
+              <button className={styles.search_button}>
+                Create Learning Circles
+              </button>
+            </a>
           </div>
-        )}
+        </div>
+
+        <div className={styles.form_container}>
+          <div className={styles.first_form_section}>
+            <div className={styles.ff_content}>
+              <p className={styles.ff_heading}>Enter the Details</p>
+              <p className={styles.ff_tagline}>
+                Type in your circle name to verify it and enter in you details
+                to join a learning circle
+              </p>
+            </div>
+            <div className={styles.ff_form_fields}>
+              <div className={styles.field_container}>
+                <TextField
+                  sx={{
+                    minWidth: 300,
+                    maxWidth: 300,
+                    margin: 1.5,
+                    marginLeft: 0,
+                  }}
+                  required
+                  name="code"
+                  id="outlined-basic"
+                  label="Circle Name"
+                  variant="outlined"
+                  disabled={id ? true : false}
+                  value={join.code || code}
+                  onChange={changeHandler}
+                />
+                {!valid && (join.code || code) && (
+                  <div className={styles.validator}>
+                    {" "}
+                    <CheckIcon sx={{ color: red[500] }} />
+                    <p className={styles.validtext}>Enter Valid Circle Code!</p>
+                  </div>
+                )}
+
+                {valid && (
+                  <div className={styles.validator}>
+                    {" "}
+                    <CheckIcon color="success" />
+                    <p className={styles.validtext1}>Circle Code is Valid!</p>
+                  </div>
+                )}
+              </div>
+
+              <TextField
+                sx={{
+                  minWidth: 300,
+                  maxWidth: 300,
+                  margin: 1.5,
+                  marginLeft: 0,
+                }}
+                required
+                disabled
+                name="college"
+                id="outlined-basic"
+                label="Select College"
+                variant="outlined"
+                value={college}
+              />
+
+              <TextField
+                sx={{
+                  minWidth: 300,
+                  maxWidth: 300,
+                  margin: 1.5,
+                  marginLeft: 0,
+                }}
+                required
+                name="name"
+                error={
+                  errors && JSON.stringify(errors).includes("name")
+                    ? true
+                    : false
+                }
+                helperText={
+                  errors && JSON.stringify(errors).includes("name")
+                    ? "Name is Required"
+                    : ""
+                }
+                id="outlined-basic"
+                label="Your Name"
+                variant="outlined"
+                value={join.name}
+                onChange={changeHandler}
+              />
+              <TextField
+                sx={{
+                  minWidth: 300,
+                  maxWidth: 300,
+                  margin: 1.5,
+                  marginLeft: 0,
+                }}
+                required
+                name="email"
+                error={
+                  errors && JSON.stringify(errors).includes("email")
+                    ? true
+                    : false
+                }
+                helperText={
+                  errors && JSON.stringify(errors).includes("email")
+                    ? "Email Address is Required"
+                    : ""
+                }
+                id="outlined-basic"
+                label="Email Address"
+                type="email"
+                variant="outlined"
+                value={join.email}
+                onChange={changeHandler}
+              />
+
+              <TextField
+                sx={{
+                  minWidth: 300,
+                  maxWidth: 300,
+                  margin: 1.5,
+                  marginLeft: 0,
+                }}
+                name="phone"
+                required
+                id="outlined-basic"
+                label="Phone"
+                variant="outlined"
+                value={join.phone}
+                onChange={changeHandler}
+              />
+              <TextField
+                sx={{
+                  minWidth: 300,
+                  maxWidth: 300,
+                  margin: 1.5,
+                  marginLeft: 0,
+                }}
+                name="passcode"
+                error={
+                  errors && JSON.stringify(errors).includes("401")
+                    ? true
+                    : false
+                }
+                helperText={
+                  errors && JSON.stringify(errors).includes("401")
+                    ? "Circle Screct Key is Wrong!"
+                    : ""
+                }
+                id="outlined-basic"
+                label="Secret Key"
+                // type="password"
+                variant="outlined"
+                value={pass}
+                onChange={(event) => setPass(event.target.value)}
+              />
+            </div>
+
+            <ReCAPTCHA
+              ref={recaptchaRef}
+              sitekey="6LfPKtogAAAAAAPFTnQyySYQa6Txbg9HQLS2Twb7"
+              onChange={() => {
+                setToken(recaptchaRef.current.getValue());
+                setVerify(true);
+              }}
+            />
+
+            <Button
+              disabled={
+                join.phone &&
+                join.phone.length >= 10 &&
+                college &&
+                verify &&
+                pass
+                  ? false
+                  : true
+              }
+              sx={{ minWidth: 300, maxWidth: 300, margin: 1.5, marginLeft: 0 }}
+              onClick={() => {
+                postData();
+              }}
+              variant="contained"
+            >
+              Join Circle
+            </Button>
+          </div>
+          {members && (
+            <div className={styles.members}>
+              <p className={styles.mheading}>Existing Members</p>
+              <p className={styles.mtagline}>
+                It seems like your circle already have some interesting
+                learners. Learning is always amazing when its done in group.
+              </p>
+
+              <div className={styles.mlist}>
+                {members.map((member) => (
+                  <p className={styles.list}>{member}</p>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
       <Footer />
     </>
