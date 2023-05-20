@@ -10,6 +10,15 @@ import fvimg from "../assets/fvimg.png";
 
 import AIStructure from "./Data/ai";
 import WebStructure from "./Data/web";
+import AndroidStructure from "./Data/android";
+import BlockchainStructure from "./Data/blockchain";
+import CivilStructure from "./Data/civil";
+import CybersecStructure from "./Data/cybersec";
+import FlutterStructure from "./Data/flutter";
+import IEStructure from "./Data/i&e";
+import QAStructure from "./Data/qa";
+import RustStructure from "./Data/rust";
+import Animation3DStructure from "./Data/animation3d";
 
 import { styled } from "@mui/material/styles";
 import Table from "@mui/material/Table";
@@ -49,17 +58,35 @@ const Challenges = () => {
       return AIStructure;
     } else if (course === "web") {
       return WebStructure;
+    } else if (course === "android") {
+      return AndroidStructure;
+    } else if (course === "blockchain") {
+      return BlockchainStructure;
+    } else if (course === "civil") {
+      return CivilStructure;
+    } else if (course === "cybersec") {
+      return CybersecStructure;
+    } else if (course === "flutter") {
+      return FlutterStructure;
+    } else if (course === "i&e") {
+      return IEStructure;
+    } else if (course === "qa") {
+      return QAStructure;
+    } else if (course === "rust") {
+      return RustStructure;
+    } else if (course === "animation3d") {
+      return Animation3DStructure;
     }
   })();
 
   // To group the data according to bootcamp
   const groupedData = data.reduce((acc, curr) => {
-    const { bootcamp, courseid, name, hashtags } = curr;
-    const obj = { courseid, name, hashtags };
+    const { bootcamp, name, segments, segmentKarma } = curr;
+    const obj = { name, segments, segmentKarma };
     const index = acc.findIndex((el) => el.bootcamp === bootcamp);
     if (index !== -1) {
       const courseIndex = acc[index].courseGroups.findIndex(
-        (c) => c.name === name && c.hashtags === hashtags
+        (c) => c.name === name
       );
       if (courseIndex === -1) {
         acc[index].courseGroups.push(obj);
@@ -79,14 +106,13 @@ const Challenges = () => {
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
                 {course.charAt(0).toUpperCase() + course.slice(1) + " "}
-                Training Programs
+                Challenges
               </p>
               <p className={styles.fv_content}>
-                Welcome to µLearn Training Programs, lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Sequi, inventore? Excepturi,
-                tenetur saepe. Architecto excepturi ipsam nesciunt consequuntur
-                voluptatem, recusandae alias cum! Eos provident asperiores nam
-                unde quas, cumque a.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+                excepturi officiis doloremque nobis iure quisquam earum
+                molestiae, ducimus ipsam inventore enim, fugit, eum laborum
+                dolor.
               </p>
             </div>
             <div className={styles.fv_image}>
@@ -126,7 +152,11 @@ const Challenges = () => {
 
                           <StyledTableCell align="right">
                             <a
-                              href={`/kse/challenges/${course}/${difficulty.bootcamp}/${index}`}
+                              href={
+                                courses.segments || courses.segmentKarma
+                                  ? `/kse/challenges/${course}/${difficulty.bootcamp}/${index}`
+                                  : `/kse/pow/${course}/${difficulty.bootcamp}/${index}`
+                              }
                               rel="noopener noreferrer"
                             >
                               <span className={styles.link}>Click Here</span>

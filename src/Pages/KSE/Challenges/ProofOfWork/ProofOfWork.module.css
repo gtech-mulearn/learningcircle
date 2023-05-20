@@ -43,11 +43,14 @@
 }
 
 .view_course {
-  background-color: #f78c40;
+  background-color: #f6842c;
   color: white;
+  margin-top: 1rem;
   border: none;
-  padding: 0.65rem 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
   border-radius: 5px;
+  margin-right: 0.75rem;
 }
 
 @media only screen and (min-width: 1300px) {
@@ -122,11 +125,26 @@
   font-family: "Poppins";
 }
 
+.sample_message span {
+  color: #f6842c;
+}
+
 .karma_header {
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: #f6842c;
   font-weight: 500;
+}
+
+.coursedetails {
+  margin-top: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #404040;
+}
+
+.coursedetails span {
+  color: #f6842c;
 }
 
 @media only screen and (min-width: 1300px) {

@@ -67,11 +67,19 @@
   color: #f6842c;
 }
 
+.karma_header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #f6842c;
+  font-weight: 500;
+}
+
 .officehrs {
   margin-top: 1rem;
   font-family: "Noto Sans", sans-serif;
   font-weight: 500;
   color: #404040;
+  max-width: 50rem;
 }
 
 .officehrs span {
@@ -114,10 +122,11 @@
   .fv_heading,
   .fv_heading_entre {
     font-size: 4.25rem;
+    max-width: 40rem;
   }
 
   .fv_content {
-    width: 65%;
+    max-width: 28rem;
     font-size: 1rem;
     margin-top: 1rem;
   }

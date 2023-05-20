@@ -7,15 +7,47 @@ import { useParams } from "react-router-dom";
 
 import AIStructure from "../Data/ai";
 import WebStructure from "../Data/web";
+import AndroidStructure from "../Data/android";
+import BlockchainStructure from "../Data/blockchain";
+import CivilStructure from "../Data/civil";
+import CybersecStructure from "../Data/cybersec";
+import FlutterStructure from "../Data/flutter";
+import IEStructure from "../Data/i&e";
+import QAStructure from "../Data/qa";
+import RustStructure from "../Data/rust";
+import Animation3DStructure from "../Data/animation3d";
 
 const ProofOfWork = () => {
-  const { course, bootcamp, id } = useParams();
+  const { course, bootcamp, id, sid } = useParams();
   const data = (function () {
     if (course === "ai") {
       return AIStructure;
     } else if (course === "web") {
       return WebStructure;
+    } else if (course === "android") {
+      return AndroidStructure;
+    } else if (course === "blockchain") {
+      return BlockchainStructure;
+    } else if (course === "civil") {
+      return CivilStructure;
+    } else if (course === "cybersec") {
+      return CybersecStructure;
+    } else if (course === "flutter") {
+      return FlutterStructure;
+    } else if (course === "i&e") {
+      return IEStructure;
+    } else if (course === "qa") {
+      return QAStructure;
+    } else if (course === "rust") {
+      return RustStructure;
+    } else if (course === "animation3d") {
+      return Animation3DStructure;
     }
+  })();
+
+  const sindex = (function () {
+    const i = sid ? sid : 0;
+    return i;
   })();
 
   // To group the data to get the courseid from id
@@ -37,19 +69,30 @@ const ProofOfWork = () => {
         <div className={styles.first_view_container}>
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
-              <p className={styles.fv_heading}>{courseGroup[0].name}</p>
-              <p className={styles.fv_content}>{courseGroup[0].proofOfWork}</p>
+              <p className={styles.fv_heading}>
+                {courseGroup[sindex].name}
+                {courseGroup[sindex].segments && (
+                  <span> - {courseGroup[sindex].segments}</span>
+                )}
+              </p>
+              <p className={styles.fv_content}>
+                {courseGroup[sindex].proofOfWork}
+              </p>
 
-              {courseGroup[0].totalKarma ? (
+              {courseGroup[sindex].segmentKarma ? (
                 <p className={styles.karma_header}>
-                  On Completion {courseGroup[0].totalKarma} Karma Points.
+                  On Completion {courseGroup[sindex].segmentKarma} Karma Points.
                 </p>
               ) : (
-                <br />
+                courseGroup[sindex].totalKarma && (
+                  <p className={styles.karma_header}>
+                    On Completion {courseGroup[sindex].totalKarma} Karma Points.
+                  </p>
+                )
               )}
-              {courseGroup[0].proofOfWorkLink && (
+              {courseGroup[sindex].proofOfWorkLink && (
                 <a
-                  href={courseGroup[0].proofOfWorkLink}
+                  href={courseGroup[sindex].proofOfWorkLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -71,6 +114,54 @@ const ProofOfWork = () => {
             <div className={styles.second_view}>
               <div className={styles.sv_texts}>
                 <p className={styles.sv_heading}>
+                  Course <span>Details</span>
+                </p>
+                {courseGroup[sindex].courseContent && (
+                  <p className={styles.coursedetails}>
+                    <span>Content : </span> {courseGroup[sindex].courseContent}
+                  </p>
+                )}
+                <p className={styles.coursedetails}>
+                  <span>Bootcamp : </span>{" "}
+                  {courseGroup[sindex].bootcamp.charAt(0).toUpperCase() +
+                    courseGroup[sindex].bootcamp.slice(1)}
+                </p>
+                {courseGroup[sindex].time && (
+                  <p className={styles.coursedetails}>
+                    <span>Time : </span> {courseGroup[sindex].time}
+                  </p>
+                )}
+
+                {courseGroup[sindex].syllabus && (
+                  <p className={styles.coursedetails}>
+                    <span>Syllabus : </span>
+                    {courseGroup[sindex].syllabus.replace(/\n/g, ", ")}
+                  </p>
+                )}
+                {courseGroup[sindex].complexity && (
+                  <p className={styles.coursedetails}>
+                    <span>Complexity : </span>
+                    {courseGroup[sindex].complexity}
+                  </p>
+                )}
+
+                {courseGroup[sindex].courseLink && (
+                  <a
+                    href={courseGroup[sindex].courseLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className={styles.view_course}>Course Link</button>
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.second_view_container}>
+            <div className={styles.second_view}>
+              <div className={styles.sv_texts}>
+                <p className={styles.sv_heading}>
                   Once <span>Completed</span>
                 </p>
                 <p className={styles.sv_content}>
@@ -84,8 +175,8 @@ const ProofOfWork = () => {
               <div className={styles.sample_container}>
                 <p className={styles.sample_header}>Example Message</p>
                 <p className={styles.sample_message}>
-                  {courseGroup[0].hashtags} Hey! I’ve completed the task in the
-                  channel with the hashtag
+                  Hey! I’ve completed the task in the channel with the hashtag{" "}
+                  <span>{courseGroup[sindex].hashtags} </span>
                 </p>
               </div>
             </div>
