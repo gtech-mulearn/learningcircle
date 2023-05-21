@@ -1,25 +1,25 @@
-import React, { useEffect } from "react"
-import { Link } from "react-router-dom"
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
-import Navbar from "../../Components/Navbar/Navbar"
-import Footer from "../../Components/Footer/Footer"
-import styles from "./InterestGroup.module.css"
+import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
+import styles from "./InterestGroup.module.css";
 
-import fvimg from "./assets/fvimg.png"
+import fvimg from "./assets/fvimg.png";
 
-import { styled } from "@mui/material/styles"
-import Table from "@mui/material/Table"
-import TableBody from "@mui/material/TableBody"
-import TableCell, { tableCellClasses } from "@mui/material/TableCell"
-import TableContainer from "@mui/material/TableContainer"
-import TableHead from "@mui/material/TableHead"
-import TableRow from "@mui/material/TableRow"
-import Paper from "@mui/material/Paper"
-import { useParams } from "react-router-dom"
-import InterestGroups from "../LearningCircles/Home/data"
-import MentorCard from "../../Components/MentorCard/MentorCard"
-import NotFound from "../Misc/404/NotFound"
-import InterestCard from "../../Components/InterestCard/InterestCard"
+import { styled } from "@mui/material/styles";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell, { tableCellClasses } from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Paper from "@mui/material/Paper";
+import { useParams } from "react-router-dom";
+import InterestGroups from "../LearningCircles/Home/data";
+import MentorCard from "../../Components/MentorCard/MentorCard";
+import NotFound from "../Misc/404/NotFound";
+import InterestCard from "../../Components/InterestCard/InterestCard";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -31,7 +31,7 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
     fontFamily: "Poppins",
     fontSize: 14,
   },
-}))
+}));
 
 const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:nth-of-type(odd)": {
@@ -41,33 +41,33 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:last-child td, &:last-child th": {
     border: 0,
   },
-}))
+}));
 
 const InterestGroup = ({ setInterest }) => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
-    setInterest(id)
+    setInterest(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [setInterest])
-  let { id } = useParams()
-  const link = `/create/${id}`
+  }, [setInterest]);
+  let { id } = useParams();
+  const link = `/create/${id}`;
   const data = InterestGroups.filter(function (interestgroups) {
-    return interestgroups.id === id
-  })
-  let next = ""
-  let previous = ""
+    return interestgroups.id === id;
+  });
+  let next = "";
+  let previous = "";
   if (data && data[0]) {
-    previous = `/${data[0].pagination[0].id}`
-    next = `/${data[0].pagination[1].id}`
+    previous = `/${data[0].pagination[0].id}`;
+    next = `/${data[0].pagination[1].id}`;
   }
 
   //scroll to top on page load in react
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [id])
+    window.scrollTo(0, 0);
+  }, [id]);
 
   return (
     <>
@@ -82,7 +82,9 @@ const InterestGroup = ({ setInterest }) => {
                     {data[0].interestgroup}
                   </p>
                 )}
-                {!(data[0].interestgroup === "Innovation & Entrepreneurship") && (
+                {!(
+                  data[0].interestgroup === "Innovation & Entrepreneurship"
+                ) && (
                   <p className={styles.fv_heading}>{data[0].interestgroup}</p>
                 )}
 
@@ -143,6 +145,86 @@ const InterestGroup = ({ setInterest }) => {
                   alt="Group Learning pic"
                   className={styles.fv_img}
                 />
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.second_view_container}>
+            <div className={styles.second_view}>
+              <div className={styles.sv_texts}>
+                <p className={styles.sv_heading}>Interest Group Roadmap</p>
+                <p className={styles.sv_content}>
+                  The roadmap below will help you understand the various stages
+                  of learning and the tasks that you need to complete in order
+                  to
+                </p>
+              </div>
+              <div className={styles.whatnext_container}>
+                <div className={styles.whatnext_boxes}>
+                  <div className={styles.wn_box}>
+                    <p className={styles.wnb_heading}>Enablement Tasks</p>
+                    <p className={styles.wnb_tagline}>
+                      There are some core skills are required to be learned
+                      irrespective of the interest group. Completing these tasks
+                      wil give you a better grip while learning
+                    </p>
+                    <a href="/challenges" rel="noopener noreferrer">
+                      <div className={styles.fv_buttons}>
+                        <button className={styles.create}>
+                          Enablement Challenges
+                        </button>
+                      </div>
+                    </a>
+                  </div>
+                  <div className={styles.wn_box}>
+                    <p className={styles.wnb_heading}>Interest Group Tasks</p>
+                    <p className={styles.wnb_tagline}>
+                      To gain a better understanding of the interest group,
+                      complete the tasks which are listed below. These tasks
+                      will help you get a better understanding of the interest
+                      group.
+                    </p>
+                    <a href="#ctable" rel="noopener noreferrer">
+                      <div className={styles.fv_buttons}>
+                        <button className={styles.create}>
+                          Checkout Tasks
+                        </button>
+                      </div>
+                    </a>
+                  </div>
+                  <div className={styles.wn_box}>
+                    <p className={styles.wnb_heading}>Bootcamps</p>
+                    <p className={styles.wnb_tagline}>
+                      Bootcamps are a great way to gain a deeper understanding
+                      of the interest groups and their core concepts.
+                    </p>
+                    <a href="/bootcamps" rel="noopener noreferrer">
+                      <div className={styles.fv_buttons}>
+                        <button className={styles.create}>
+                          Checkout Bootcamps
+                        </button>
+                      </div>
+                    </a>
+                  </div>
+                  <div className={styles.wn_box}>
+                    <p className={styles.wnb_heading}>Office Hours</p>
+                    <p className={styles.wnb_tagline}>
+                      Office Hours are a great way to get your doubts cleared
+                      and get a better understanding of the interest group.
+                    </p>
+                    <a
+                      href="https://mulearn.org/register"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div className={styles.fv_buttons}>
+                        <button className={styles.create}>
+                          Join Office Hours
+                        </button>
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -272,7 +354,7 @@ const InterestGroup = ({ setInterest }) => {
           )}
 
           {data[0].corecourses && data[0].corecourses[0] && (
-            <div className={styles.table_view_container}>
+            <div className={styles.table_view_container} id="ctable">
               <div className={styles.table_view}>
                 <div className={styles.tav_texts}>
                   <p className={styles.tav_heading}>Core Tasks</p>
@@ -556,7 +638,7 @@ const InterestGroup = ({ setInterest }) => {
       {!(data && data[0]) && <NotFound />}
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default InterestGroup
+export default InterestGroup;
