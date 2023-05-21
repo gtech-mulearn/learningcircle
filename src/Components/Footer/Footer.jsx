@@ -137,8 +137,8 @@ const Footer = () => {
               </p>
 
               <p className={styles.mail}>
-                <a href="mailto:mulearn@gtechindia.org">
-                  mulearn@gtechindia.org
+                <a href="mailto:info@mulearn.org">
+                  info@mulearn.org
                 </a>
               </p>
             </div>
