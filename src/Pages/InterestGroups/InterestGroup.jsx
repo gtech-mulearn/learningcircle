@@ -444,7 +444,7 @@ const InterestGroup = ({ setInterest }) => {
                   <p className={styles.sv_heading}>Top People to Follow</p>
                   <p className={styles.sv_content}>
                     These are list of people you should be following inorder to
-                    learn as well as stay updated while learning web development
+                    learn as well as stay updated
                   </p>
                   <ul className={styles.sv_lists}>
                     {data[0].people.map((people) => (
