@@ -2,8 +2,8 @@ import React from "react";
 import styles from "./BootcampsHome.module.css";
 import { Link } from "react-router-dom";
 
-import Navbar from "../../../../Components/Navbar/Navbar"
-import Footer from "../../../../Components/Footer/Footer"
+import Navbar from "../../../Components/Navbar/Navbar";
+import Footer from "../../../Components/Footer/Footer";
 
 const BootcampsHome = () => {
   return (
@@ -36,19 +36,42 @@ const BootcampsHome = () => {
         <div className={styles.second_view_container}>
           <div className={styles.second_view}>
             <div className={styles.sv_texts}>
-              <p className={styles.sv_heading}>Bootcamps</p>
+              <p className={styles.sv_heading}>Interest Group Bootcamps</p>
               <p className={styles.sv_content}>
                 The bootcamps shown below are open to all. You can join them now
-                and learn a new skill this ne year.
+                and learn a new skill this new year.
+              </p>
+            </div>
+            <div className={styles.bootcamps}>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Android Bootcamp</p>
+                <p className={styles.b_tagline}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+                  nulla odit deleniti veritatis eligendi voluptatibus.
+                </p>
+                <Link to="/bootcamps/ig/android">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.second_view_container}>
+          <div className={styles.second_view}>
+            <div className={styles.sv_texts}>
+              <p className={styles.sv_heading}>New Year New Skill</p>
+              <p className={styles.sv_content}>
+                The bootcamps shown below are open to all. You can join them now
+                and learn a new skill this new year.
               </p>
             </div>
             <div className={styles.bootcamps}>
               <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>AI Bootcamp</p>
                 <p className={styles.b_tagline}>
-                Heard of the many AI writing tools and wondered how they work?
-                This weekend build features exactly that using GPT-3 and Open
-                AI. You'll then deploy the app to show off to your friends!
+                  Heard of the many AI writing tools and wondered how they work?
+                  This weekend build features exactly that using GPT-3 and Open
+                  AI. You'll then deploy the app to show off to your friends!
                 </p>
                 <Link to="/bootcamps/ai">
                   <button className={styles.b_button}>Join Now!</button>

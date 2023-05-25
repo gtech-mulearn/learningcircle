@@ -24,7 +24,7 @@ import AutoCADData from "./Pages/InterestGroups/Course/autocad";
 import RevitData from "./Pages/InterestGroups/Course/revit";
 
 //Bootcamp Section
-import BootcampsHome from "./Pages/Bootcamps/NewYearNewSkill/BootcampsHome/BootcampsHome";
+import BootcampsHome from "./Pages/Bootcamps/BootcampsHome/BootcampsHome";
 import Android from "./Pages/Bootcamps/NewYearNewSkill/Android/Android";
 import Rust from "./Pages/Bootcamps/NewYearNewSkill/Rust/Rust";
 import Flutter from "./Pages/Bootcamps/NewYearNewSkill/Flutter/Flutter";
@@ -38,6 +38,9 @@ import KSE from "./Pages/KSE/KSE";
 import Challenges from "./Pages/KSE/Challenges/Challenges";
 import IndividualChallenge from "./Pages/KSE/Challenges/IndividualChallenge/IndividualChallenge";
 import ProofOfWork from "./Pages/KSE/Challenges/ProofOfWork/ProofOfWork";
+
+//Interest Group Bootcamps
+import IGBootcamp from "./Pages/Bootcamps/IGBootcamps/IGBootcamp";
 
 //Misc
 import NotFound from "./Pages/Misc/404/NotFound";
@@ -362,6 +365,8 @@ function App() {
           <Route path="/bootcamps/javascript" element={<JavaScript />} />
           <Route path="/bootcamps/python" element={<Python />} />
           <Route path="/bootcamps/ai" element={<AI />} />
+
+          <Route path="/bootcamps/ig/:id" element={<IGBootcamp />} />
 
           {/* <Route path="/kse" element={<KSE />} />
           <Route path="/kse/challenges/:course" element={<Challenges />} />
