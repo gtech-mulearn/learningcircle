@@ -54,6 +54,18 @@ const BootcampsHome = () => {
                 </Link>
               </div>
             </div>
+            <div className={styles.bootcamps}>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Web Bootcamp</p>
+                <p className={styles.b_tagline}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+                  nulla odit deleniti veritatis eligendi voluptatibus.
+                </p>
+                <Link to="/bootcamps/ig/web">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
         <div className={styles.second_view_container}>

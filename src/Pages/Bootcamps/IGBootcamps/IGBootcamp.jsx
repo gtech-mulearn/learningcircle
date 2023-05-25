@@ -82,6 +82,16 @@ const IGBootcamp = () => {
                         <div className="timeline__event__description">
                           {boldTextBetweenHashtagAndSpace(item.description)}
                         </div>
+                        <br />
+                        {item.link && (
+                          <a
+                            href={item.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Click Here: Resource Link
+                          </a>
+                        )}
                       </div>
                     </div>
                   ))}
