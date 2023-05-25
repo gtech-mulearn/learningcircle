@@ -22,7 +22,7 @@ const AndroidData = [
       {
         id: "2",
         name: "Android Basics with Compose",
-        karma: "800",
+        karma: "1200",
         description:
           "In this course, you'll learn the basics of building Android apps with Jetpack Compose, the new UI toolkit for building Android apps. Along the way, you'll develop a collection of apps to start your journey as an Android developer.",
         link: "https://developer.android.com/courses/android-basics-compose/course",
