@@ -53,8 +53,7 @@ const BootcampsHome = () => {
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>
-            </div>
-            <div className={styles.bootcamps}>
+
               <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>Web Bootcamp</p>
                 <p className={styles.b_tagline}>
