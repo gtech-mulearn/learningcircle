@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Footer from "../../../Components/Footer/Footer";
-import Navbar from "../../../Components/Navbar/Navbar";
+import Navbar from "../../../../Components/Navbar/Navbar"
+import Footer from "../../../../Components/Footer/Footer"
 import styles from "./CTFPage.module.css";
 
 const CTFPage = () => {

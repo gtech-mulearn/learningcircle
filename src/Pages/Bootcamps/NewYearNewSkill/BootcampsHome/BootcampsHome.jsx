@@ -2,8 +2,8 @@ import React from "react";
 import styles from "./BootcampsHome.module.css";
 import { Link } from "react-router-dom";
 
-import Navbar from "../../../Components/Navbar/Navbar";
-import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../../Components/Navbar/Navbar"
+import Footer from "../../../../Components/Footer/Footer"
 
 const BootcampsHome = () => {
   return (

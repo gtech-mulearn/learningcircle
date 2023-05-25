@@ -1,8 +1,9 @@
 import React from "react"
 import styles from "./AI.module.css"
+import Navbar from "../../../../Components/Navbar/Navbar"
+import Footer from "../../../../Components/Footer/Footer"
 
-import Navbar from "../../../Components/Navbar/Navbar"
-import Footer from "../../../Components/Footer/Footer"
+
 
 const AI = () => {
   return (

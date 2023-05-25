@@ -24,14 +24,14 @@ import AutoCADData from "./Pages/InterestGroups/Course/autocad";
 import RevitData from "./Pages/InterestGroups/Course/revit";
 
 //Bootcamp Section
-import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome";
-import Android from "./Pages/Bootcamp/Android/Android";
-import Rust from "./Pages/Bootcamp/Rust/Rust";
-import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
-import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
-import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
-import Python from "./Pages/Bootcamp/Python/Python";
-import AI from "./Pages/Bootcamp/AI/AI";
+import BootcampsHome from "./Pages/Bootcamps/NewYearNewSkill/BootcampsHome/BootcampsHome";
+import Android from "./Pages/Bootcamps/NewYearNewSkill/Android/Android";
+import Rust from "./Pages/Bootcamps/NewYearNewSkill/Rust/Rust";
+import Flutter from "./Pages/Bootcamps/NewYearNewSkill/Flutter/Flutter";
+import CTFPage from "./Pages/Bootcamps/NewYearNewSkill/CTFPage/CTFPage";
+import JavaScript from "./Pages/Bootcamps/NewYearNewSkill/JavaScript/JavaScript";
+import Python from "./Pages/Bootcamps/NewYearNewSkill/Python/Python";
+import AI from "./Pages/Bootcamps/NewYearNewSkill/AI/AI";
 
 // KSE Bootcamps Section
 import KSE from "./Pages/KSE/KSE";
