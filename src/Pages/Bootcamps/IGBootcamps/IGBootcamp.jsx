@@ -8,9 +8,14 @@ import { useParams } from "react-router-dom";
 const IGBootcamp = () => {
   const { id } = useParams();
   const [data, setData] = useState();
+  const [commonData, setCommonData] = useState();
 
   useEffect(() => {
     const dataVar = require(`./data/${id}.json`);
+    const commonVar = require(`./data/common.json`);
+    //filter through the common.json file to get the data for the particular bootcamp
+    const commonData = commonVar.filter((item) => item.ig === id);
+    setCommonData(commonData[0]);
     setData(dataVar);
   }, [id]);
 
@@ -28,28 +33,30 @@ const IGBootcamp = () => {
           <div className={styles.first_view}>
             <div className={styles.fv_texts}>
               <p className={styles.fv_heading}>
-                Android Basics with <span> Compose</span>
+                {commonData && commonData.pageTitle}
               </p>
               <p className={styles.fv_content}>
-                In this course, you'll learn the basics of building Android apps
-                with Jetpack Compose, the new UI toolkit for building Android
-                apps. Along the way, you'll develop a collection of apps to
-                start your journey as an Android developer.
+                {commonData && commonData.largedesc}
                 <br />
               </p>
-              <p className={styles.late_date}>
-                Get 1200 Karma Points on Course Completion
-              </p>
+              {commonData && (
+                <p className={styles.late_date}>
+                  Get {commonData && commonData.totalKarmaPoints} Karma Points
+                  on Course Completion
+                </p>
+              )}
               <br />
-              <a
-                href="https://developer.android.com/courses/android-basics-compose/course"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className={styles.joinchallenge}>
-                  Resource Material
-                </button>
-              </a>
+              {commonData && (
+                <a
+                  href={commonData.commonResoureLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className={styles.joinchallenge}>
+                    Resource Material
+                  </button>
+                </a>
+              )}
             </div>
           </div>
         </div>
@@ -97,23 +104,25 @@ const IGBootcamp = () => {
                   ))}
               </div>
             </div>
-            <div className={styles.sample_container}>
-              <p className={styles.sample_header}>Example Message</p>
-              <p className={styles.sample_message}>
-                <b>&nbsp;#cl-android-unit1</b>
-                <br />
-                Hey, I have completed the 1st unit of the Android Basics with
-                Compose track.
-                <br /> Here's my Google Developer Profile :&nbsp;
-                <a href="https://g.dev/vinubalagopalap">
-                  https://g.dev/vinubalagopalap
-                </a>
-              </p>
-              <img
-                src="/assets/challenge/google-developer.png"
-                alt="google developer profile"
-              />
-            </div>
+            {commonData && commonData.exampleMessage && (
+              <div className={styles.sample_container}>
+                <p className={styles.sample_header}>Example Message</p>
+                <p className={styles.sample_message}>
+                  <b>{data[0].hashtag}</b>
+                  <br />
+                  {commonData && commonData.exampleMessage}
+                  {/* <a href={commonData && commonData.exampleMessageImageLink}>
+                    {commonData && commonData.exampleMessageImageLink}
+                  </a> */}
+                </p>
+                {commonData && commonData.exampleMessageImageLink && (
+                  <img
+                    src={commonData.exampleMessageImageLink}
+                    alt="google developer profile"
+                  />
+                )}
+              </div>
+            )}
           </div>
         </div>
       </div>

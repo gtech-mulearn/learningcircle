@@ -113,7 +113,7 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Three</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 28 in #web-and-mobile-app-development
+                          reach level 28 in #web-development
                           channel with hashtag{" "}
                           <b>&nbsp;#cl-exercism-javascript-28</b> to avail{" "}
                           <b>200 karma points.</b>
@@ -133,7 +133,7 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Four</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 56 in #web-and-mobile-app-development
+                          reach level 56 in #web-development
                           channel with hashtag
                           <b>&nbsp;#cl-exercism-javascript-56</b> to avail{" "}
                           <b>200 karma points.</b>
@@ -152,7 +152,7 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Five</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 84 in #web-and-mobile-app-development
+                          reach level 84 in #web-development
                           channel with hashtag
                           <b>&nbsp;#cl-exercism-javascript-84</b> to avail{" "}
                           <b>200 karma points.</b>
@@ -171,7 +171,7 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Six</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 112 in #web-and-mobile-app-development
+                          reach level 112 in #web-development
                           channel with hashtag
                           <b>&nbsp;#cl-exercism-javascript-112</b> to avail{" "}
                           <b>200 karma points.</b>
@@ -190,7 +190,7 @@ const JavaScript = () => {
                         <div className="timeline__event__title">Step Seven</div>
                         <div className="timeline__event__description">
                           Post the screenshot of your profile/link when you
-                          reach level 140 in #web-and-mobile-app-development
+                          reach level 140 in #web-development
                           channel with hashtag
                           <b>&nbsp;#cl-exercism-javascript-140</b> to avail{" "}
                           <b>200 karma points.</b>

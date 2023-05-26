@@ -46,8 +46,10 @@ const BootcampsHome = () => {
               <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>Android Bootcamp</p>
                 <p className={styles.b_tagline}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-                  nulla odit deleniti veritatis eligendi voluptatibus.
+                  In this course, you'll learn the basics of building Android
+                  apps with Jetpack Compose, the new UI toolkit for building
+                  Android apps. Along the way, you'll develop a collection of
+                  apps to start your journey as an Android developer.
                 </p>
                 <Link to="/bootcamps/ig/android">
                   <button className={styles.b_button}>Join Now!</button>
@@ -57,8 +59,9 @@ const BootcampsHome = () => {
               <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>Web Bootcamp</p>
                 <p className={styles.b_tagline}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-                  nulla odit deleniti veritatis eligendi voluptatibus.
+                  In this study program, we will learn web and mobile app
+                  development. We'll cover topics like website building, digital
+                  business cards, space exploration etc.
                 </p>
                 <Link to="/bootcamps/ig/web">
                   <button className={styles.b_button}>Join Now!</button>
