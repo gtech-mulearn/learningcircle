@@ -183,6 +183,13 @@ export const links = [
         link: mainlink + "/campuschapters",
         sublinks: [
           {
+            name: "User Journey",
+            link: mainlink + "/journey",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
             name: "Campus Logo Generator",
             link: mainlink + "/campuschapters/#logo-generator",
             submenu: false,
