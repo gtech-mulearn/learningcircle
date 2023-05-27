@@ -625,7 +625,7 @@ const InterestGroups = [
         link: "/bootcamps/ig/android",
         complexity: "",
         time: "",
-        karma: "800",
+        karma: "1200",
       },
     ],
     subcourses: [],
