@@ -67,6 +67,17 @@ const BootcampsHome = () => {
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Unreal Bootcamp</p>
+                <p className={styles.b_tagline}>
+                  Whether you're a beginner or have some prior experience, this
+                  bootcamp will equip you with the essential knowledge and
+                  skills to bring your game ideas to life.
+                </p>
+                <Link to="/bootcamps/ig/unreal">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
