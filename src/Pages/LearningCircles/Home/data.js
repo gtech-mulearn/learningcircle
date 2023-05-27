@@ -1118,7 +1118,7 @@ const InterestGroups = [
     interestgroupdescription:
       '"Join our Quality Assurance Interest Group to learn and collaborate with peers on best practices for measuring and improving product quality. Discover new testing strategies and Quality Assurance frameworks to ensure your products meet the highest standards of excellence."',
     officetime: "",
-    officeplace: " ",
+    officeplace: "",
     thinktankplace: "",
     thinktanktime: "",
     community: [],
@@ -1262,13 +1262,7 @@ const InterestGroups = [
         time: "",
         karma: "Not Announced",
       },
-    ],
-    opportunities: [
-      {
-        name: "QA Analyst/Trainee Tester"
-      }
-
-    ],
+    ]
   },
   {
     id: "pm",
@@ -2403,8 +2397,7 @@ const InterestGroups = [
         karma: "Not Announced",
       },
     ],
-    
-    
+
     topkeywords: [
       {
         name: "Widgets",
@@ -2426,7 +2419,7 @@ const InterestGroups = [
       },
       {
         name: "Flutter Desktop",
-      }
+      },
     ],
     otherresources: [
       {
