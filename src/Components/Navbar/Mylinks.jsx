@@ -405,7 +405,7 @@ export const links = [
         sublinks: [
           {
             name: "Android",
-            link: "/bootcamps/android",
+            link: "/bootcamps/ig/android",
             submenu: false,
             sublinks: [],
             foreign: false,
