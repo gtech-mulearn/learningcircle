@@ -78,6 +78,19 @@ const BootcampsHome = () => {
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Flutter Bootcamp</p>
+                <p className={styles.b_tagline}>
+                  Whether you're a beginner looking to kickstart your mobile app
+                  development journey or an experienced developer seeking to
+                  expand your skills, this bootcamp is designed to empower you
+                  with the knowledge and expertise to build beautiful,
+                  high-performance apps with Flutter.
+                </p>
+                <Link to="/bootcamps/ig/flutter">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
