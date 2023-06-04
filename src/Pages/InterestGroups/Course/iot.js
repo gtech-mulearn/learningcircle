@@ -21,9 +21,9 @@ const IoTData = [
           "Discover how the Internet of Things is enabling digital transformations across a variety of industries and can expand career opportunities in the future.",
         link: "https://skillsforall.com/course/introduction-iot",
         inner_description:
-          "After course completion, post the certificate in the #internet-of-things-iot-and-robotics channel of the µLearn Discord server with the hashtag #introduction-to-iot-cisco to avail karma points.",
+          "After course completion, post the certificate in the #internet-of-things-iot-and-robotics channel of the µLearn Discord server with the hashtag ##cl-iot-cisco to avail karma points.",
         example:
-          "#introduction-to-iot-cisco Hey! I’ve completed Introduction to IOT - Cisco Networking Acdemy. Here is my course badge. ",
+          "#cl-iot-cisco Hey! I’ve completed Introduction to IOT - Cisco Networking Acdemy. Here is my course badge. ",
       },
       // {
       //   id: "2",
