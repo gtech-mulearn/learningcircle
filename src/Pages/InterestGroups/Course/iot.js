@@ -9,22 +9,34 @@ const IoTData = [
           "Foxlab Makerspace, in association with GTech - Group of Technology Companies in Kerala, is launching our prestigious program, “Kerala IoT Challenge 2021”, with a vision to mould 100 IoT experts in Kerala, hosted on the μLearn platform. Kerala IoT Challenge is a program designed with 4 levels followed by a hackathon to identify and train quality industry leaders in the IoT domain, while any novice learner can start with layer 1, and others can enter laterally to the desired layer after an evaluation.",
         link: "https://mulearn.atfg.gtechindia.org/page/iotlevel1",
         inner_description:
-          "After course completion, post the certificate in the #internet-of-things channel of the µLearn Discord server with the hashtag #kerala-iot-challenge to avail karma points.",
+          "After course completion, post the certificate in the #internet-of-things-iot-and-robotics channel of the µLearn Discord server with the hashtag #kerala-iot-challenge to avail karma points.",
         example:
           "#kerala-iot-challenge Hey! I’ve completed Kerala IoT Challenge Level 1. Here is my course certificate. ",
       },
       {
         id: "2",
-        name: "Kerala IoT Challenge Level 2",
-        karma: "400",
+        name: "Introduction to IOT - Cisco Networking Acdemy",
+        karma: "800",
         description:
-          "The second level of Kerala IoT Challenge aims to expertise students in IoT.",
-        link: "https://mulearn.atfg.gtechindia.org/page/iotlevel2",
+          "Discover how the Internet of Things is enabling digital transformations across a variety of industries and can expand career opportunities in the future.",
+        link: "https://skillsforall.com/course/introduction-iot",
         inner_description:
-          "After course completion, post the certificate in the #internet-of-things channel of the µLearn Discord server with the hashtag #kerala-iot-challenge to avail karma points.",
+          "After course completion, post the certificate in the #internet-of-things-iot-and-robotics channel of the µLearn Discord server with the hashtag #introduction-to-iot-cisco to avail karma points.",
         example:
-          " #kerala-iot-challenge Hey! I’ve completed Kerala IoT Challenge Level 2. Here is my course certificate.",
+          "#introduction-to-iot-cisco Hey! I’ve completed Introduction to IOT - Cisco Networking Acdemy. Here is my course badge. ",
       },
+      // {
+      //   id: "2",
+      //   name: "Kerala IoT Challenge Level 2",
+      //   karma: "400",
+      //   description:
+      //     "The second level of Kerala IoT Challenge aims to expertise students in IoT.",
+      //   link: "https://mulearn.atfg.gtechindia.org/page/iotlevel2",
+      //   inner_description:
+      //     "After course completion, post the certificate in the #internet-of-things channel of the µLearn Discord server with the hashtag #kerala-iot-challenge to avail karma points.",
+      //   example:
+      //     " #kerala-iot-challenge Hey! I’ve completed Kerala IoT Challenge Level 2. Here is my course certificate.",
+      // },
     ],
     enablement: [
       {
