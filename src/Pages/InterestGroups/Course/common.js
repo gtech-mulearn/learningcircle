@@ -20,7 +20,7 @@ const CommonData = [
         inner_description:
           "After course completion, share the certificate in #students channel with hashtag #ge-intro-to-discord",
         example:
-          "Hi! I've completed the Intro to Discord course. Here’s my certificate #ge-intro-to-discord",
+          "#ge-intro-to-discord Hi! I've completed the Intro to Discord course. Here’s my certificate",
       },
     ],
   },
