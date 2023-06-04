@@ -426,7 +426,7 @@ export const links = [
           },
           {
             name: "Flutter",
-            link: "/bootcamps/flutter",
+            link: "/bootcamps/ig/flutter",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -439,8 +439,8 @@ export const links = [
             foreign: false,
           },
           {
-            name: "JavaScript",
-            link: "/bootcamps/javascript",
+            name: "Web Development",
+            link: "/bootcamps/ig/web",
             submenu: false,
             sublinks: [],
             foreign: false,
