@@ -162,7 +162,9 @@ export const MobileSubHeader = ({ currentLink, goBack }) => {
                 className="text-xl flex items-center" onClick={() => goBack()}>
                 <ion-icon name="chevron-back-outline" />
             </span>
-            <div className="text-[13px]">{currentLink.name}</div>
+            <a href={currentLink.link} target="_blank" rel="noopener noreferrer">
+             <div className="text-[13px]">{currentLink.name}</div>
+            </a>
             <div></div>
         </div>
     )
