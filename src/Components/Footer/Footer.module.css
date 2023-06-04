@@ -8,7 +8,7 @@
 }
 
 .footer_container {
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 2rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -27,13 +27,19 @@
   display: flex;
   flex-direction: row;
 }
+@media(max-width:767px){
+  .links_mobile {
+   display: flex;
+  }
+}
+
+
 
 .link {
   margin-top: 0;
   margin-right: 1rem;
   font-weight: 300;
   font-size: 0.9rem;
-  color: white;
 }
 
 .link:hover {
@@ -65,72 +71,19 @@ a {
 }
 
 .social {
+  height: 2rem;
   width: 2rem;
   margin-top: 2rem;
   margin-right: 1rem;
-  filter: invert(100%);
+  transition: 0.5s ease;
+  
 }
 
 .social:hover {
-  filter: invert(77%) sepia(41%) saturate(4590%) hue-rotate(331deg) brightness(100%) contrast(94%);
+  transform: scale(1.2);
 }
-
-.social_tw {
-  width: 2rem;
-  margin-top: 2rem;
-  margin-right: 1rem;
-}
-
-.social_tw:hover {
-  content: url(/public/assets/footer/twitter-2.png);
-}
-
-.social_in {
-  width: 2rem;
-  margin-top: 2rem;
-  margin-right: 1rem;
-}
-
-.social_in:hover {
-  content: url(/public/assets/footer/instagram-2.png);
-}
-
-.social_ln {
-  width: 2rem;
-  margin-top: 2rem;
-  margin-right: 1rem;
-}
-
-.social_ln:hover {
-  content: url(/public/assets/footer/linkedin-2.png);
-}
-
-.social_yt {
-  width: 2rem;
-  margin-top: 2rem;
-  margin-right: 1rem;
-}
-
-.social_yt:hover {
-  content: url(/public/assets/footer/youtube-2.png);
-}
-
-.social_fb {
-  width: 2rem;
-  margin-top: 2rem;
-  margin-right: 1rem;
-}
-
-.social_fb:hover {
-  content: url(/public/assets/footer/facebook-2.png);
-}
-
 
 @media only screen and (min-width: 1000px) {
-  .footer_container {
-    padding: 2rem 0.5rem 2rem 0.5rem;
-  }
-  
   .first_section {
     display: flex;
     flex-direction: row;
@@ -234,11 +187,22 @@ button:focus {
   display: flex;
 }
 
+
 @media only screen and (min-width: 1000px) {
   .right_side {
     width: 30%;
   }
+  .left_links{
+    display: flex;
+  
+  }
 
+  .larger_screen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
   .newsletter {
     width: 20rem;
     text-align: right;
@@ -261,4 +225,15 @@ button:focus {
   text-align: center;
   padding: 5px 0px 5px 0px;
   font-size: 0.6rem;
+}
+@media (max-width: 767px) {
+  .mobile_line_break {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-line-break {
+    display: inline;
+  }
 }

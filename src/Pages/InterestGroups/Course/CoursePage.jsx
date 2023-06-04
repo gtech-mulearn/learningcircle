@@ -128,7 +128,7 @@ const CoursePage = ({ CourseData }) => {
                     and join us. Watch this video if you are confused with
                     Discord Onboarding.
                     <a
-                      href="https://youtu.be/7Oj88zF2jY0"
+                      href="https://www.youtube.com/watch?v=3oV9smCyVV8"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

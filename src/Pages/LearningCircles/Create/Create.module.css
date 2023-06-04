@@ -1,50 +1,119 @@
 .form {
+}
+
+.main_container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1300px;
+  margin: auto;
+}
+
+.first_view_container,
+.form_container {
+  margin: 2rem;
 }
 
 .mimage {
-  width: 80vw;
+  max-width: 25rem;
   display: block;
   margin: auto;
 }
 
-@media only screen and (min-width: 768px) {
-  .mimage {
-    width: 30vw;
-  }
+.fsview {
+  text-align: left;
+  max-width: 35rem;
 }
 
-.fsview {
-  text-align: center;
-  margin: 1rem;
+.ff_form_fields,
+.second_form_section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-items: flex-start;
+  justify-self: center; */
+}
+
+.second_form_section,
+.first_form_section {
+  margin-top: 2rem;
+}
+
+.search_button {
+  font-size: 0.9rem;
+  padding: 0.5rem 2rem;
+  margin-top: 0.75rem;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #f78c40;
+  font-family: "Noto Sans";
 }
 
 .fsheading {
   margin-top: -1rem;
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 3.5rem;
+  font-weight: 700;
   font-family: "Noto Sans", sans-serif;
 }
 
 .fstagline {
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
+  max-width: 35rem;
   margin-top: 1rem;
 }
 
 @media only screen and (min-width: 1280px) {
   .fsheading {
     margin-top: -1rem;
-    font-size: 2.75rem;
+    font-size: 4.2rem;
   }
 
   .fstagline {
-    width: 50vw;
     font-size: 1rem;
-    display: block;
-    margin: auto;
+  }
+}
+
+/*If the screen width is less tahn 1024px then center align the text int eh first_view_container*/
+
+.fsheading span {
+  color: #f78c40;
+}
+
+.first_view_container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ff_heading {
+  font-size: 1.45rem;
+  font-family: "Poppins", sans-serif;
+  color: #f78c40;
+}
+
+.ff_content {
+  max-width: 25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.form_container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+  .fsview {
+    text-align: center;
+  }
+
+  .first_view_container {
+    justify-content: center;
   }
 }

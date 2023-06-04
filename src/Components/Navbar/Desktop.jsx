@@ -1,6 +1,6 @@
-import React from "react"
-import NavLinks from "./NavLinks"
-import Notification from "./Notification"
+import React from "react";
+import NavLinks from "./NavLinks";
+import Notification from "./Notification";
 
 export const DesktopMenu = ({ open }) => {
   return (
@@ -15,8 +15,8 @@ export const DesktopMenu = ({ open }) => {
         Careers
       </a>
     </ul>
-  )
-}
+  );
+};
 
 export const Resources = ({ notificationOpen }) => {
   return (
@@ -34,7 +34,7 @@ export const Resources = ({ notificationOpen }) => {
         </div>
       </div>
       <a
-        href="https://discord.mulearn.org/"
+        href="https://app.mulearn.org/user/register/"
         target="_blank"
         rel="noopener noreferrer"
         className="py-7 px-3 inline-block"
@@ -54,17 +54,17 @@ export const Resources = ({ notificationOpen }) => {
         </button>
       </a>
     </div>
-  )
-}
+  );
+};
 
-export const MenuName = ({ name }) => {
+export const MenuName = ({ name, link }) => {
   return (
     <div className="dashOnHover">
       <h1 className="change-text">{name}</h1>
       <div className="dashBar"> </div>
     </div>
-  )
-}
+  );
+};
 
 export const SubMenu = ({ submenu, sublinks }) => {
   return (
@@ -86,18 +86,26 @@ export const SubMenu = ({ submenu, sublinks }) => {
         </div>
       )}
     </>
-  )
-}
+  );
+};
 export const SubHeader = ({ link, name }) => {
   return (
     <h1 className="text-lg font-medium drop-shadow-sm opacity-100">
-      <a href={link} className="hover:text-orange-500">
-        {" "}
-        {name}{" "}
-      </a>
+      {link ? (
+        <a
+          href={link}
+          style={{ color: "#000" }}
+          onMouseEnter={(e) => (e.target.style.color = "#FB923C")}
+          onMouseLeave={(e) => (e.target.style.color = "#000")}
+        >
+          {name}
+        </a>
+      ) : (
+        <span style={{ color: "#000" }}>{name}</span>
+      )}
     </h1>
-  )
-}
+  );
+};
 export const SubLinks = ({ sublinks }) => {
   return (
     <>
@@ -114,5 +122,5 @@ export const SubLinks = ({ sublinks }) => {
         </div>
       ))}
     </>
-  )
-}
+  );
+};

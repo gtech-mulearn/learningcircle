@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Web",
+    "slno": 1,
+    "step": "STEP ONE",
+    "description": "Here you will learn how to build a website. You will be taught about html tags, upload & Share GitHub repo of project in the channel #web-development with the hashtag #cl-web-firweb. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pPvwXfE",
+    "hashtag": "#cl-web-firweb",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 2,
+    "step": "STEP TWO",
+    "description": "You will be making a clone of Google. You will go through css and necessary elements. upload and share  GitHub repo of project in the channel #web-development with the hashtag #cl-web-gclone. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/p5aGYHD",
+    "hashtag": "#cl-web-gclone",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 3,
+    "step": "STEP THREE",
+    "description": "In this section we will be making a digital business card.You will go through\nattributes in img tag,flexbox and colors upload and share  GitHub repo of project in the channel #web-development with the hashtag #cl-web-biscard. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pKgWxCP",
+    "hashtag": "#cl-web-biscard",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 4,
+    "step": "STEP FOUR",
+    "description": "we will make a space exploration site here. We will be importing google fonts\nin this section. upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-spaceex. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pQ5apcn",
+    "hashtag": "#cl-web-spaceex",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 5,
+    "step": "STEP FIVE",
+    "description": "We will make a Birthday GIft site here. We will be learning flexbox and\nlearn how to deploy your first site. upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-bgift. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pMgPEAM",
+    "hashtag": "#cl-web-bgift",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 6,
+    "step": "PROJECT 1",
+    "description": "upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-cstat . Completing this unit will earn you 50 karma points.",
+    "link": "",
+    "hashtag": "#cl-web-cstat",
+    "channel": "#web-development",
+    "Karma": 50
+  },
+  {
+    "name": "Web",
+    "slno": 7,
+    "step": "STEP SIX",
+    "description": "Move the codes you did in each step to GitHub ,upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-cssflex . Completing this unit will earn you 50 karma points.",
+    "link": "https://scrimba.com/learn/flexbox",
+    "hashtag": "#cl-web-cssflex",
+    "channel": "#web-development",
+    "Karma": 50
+  },
+  {
+    "name": "Web",
+    "slno": 8,
+    "step": "PROJECT 2",
+    "description": "After adding the css to your web page, move it to GitHub ,upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-sstat. Completing this unit will earn you 50 karma points.",
+    "link": "",
+    "hashtag": "#cl-web-sstat",
+    "channel": "#web-development",
+    "Karma": 50
+  },
+  {
+    "name": "Web",
+    "slno": 9,
+    "step": "STEP SEVEN",
+    "description": "We will make a passenger counter app, which will be used to count the number of passengers entering a train. You will learn more and more about in the upcoming tasks upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-passcount. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pY5b7sQ",
+    "hashtag": "#cl-web-passcount",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 10,
+    "step": "STEP NINE",
+    "description": "Create the calculator of the 6th tutorial and move it to GitHub ,upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-pt1. Completing this unit will earn you 50 karma points.",
+    "link": "https://scrimba.com/playlist/p5vWxtd",
+    "hashtag": "#cl-web-pt1",
+    "channel": "#web-development",
+    "Karma": 50
+  },
+  {
+    "name": "Web",
+    "slno": 11,
+    "step": "STEP TEN",
+    "description": "Here we will be building a develper environment using html, css and js upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-locdev. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pZgDaSW",
+    "hashtag": "#cl-web-locdev",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 12,
+    "step": "STEP ELEVEN",
+    "description": "Like playing games? Here we are going to build a game! upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-biljack. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/p3py7U7",
+    "hashtag": "#cl-web-bljack",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 13,
+    "step": "STEP TWELVE",
+    "description": "Do the fruit sorting project and push the codes to Github, upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-pt2. Completing this unit will earn you 50 karma points.",
+    "link": "https://scrimba.com/playlist/pbnBJTp",
+    "hashtag": "#cl-web-pt2",
+    "channel": "#web-development",
+    "Karma": 50
+  },
+  {
+    "name": "Web",
+    "slno": 14,
+    "step": "STEP THIRTEEN",
+    "description": "We are going to build a chrome extention, which can be used in you browser! upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-chroex. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pPD7Kt4",
+    "hashtag": "#cl-web-chroex",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 15,
+    "step": "STEP FOURTEEN",
+    "description": "Do the convert string to number challenge and push the code to GitHub, upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-pt3. Completing this unit will earn you 50 karma points.",
+    "link": "https://scrimba.com/playlist/pQgXphg",
+    "hashtag": "#cl-web-pt3",
+    "channel": "#web-development",
+    "Karma": 50
+  },
+  {
+    "name": "Web",
+    "slno": 16,
+    "step": "STEP FIFTEEN",
+    "description": "share your app link that has been uploaded to netlify in the channel #web-development with the hashtag #cl-web-mobapp. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pZZxqsB",
+    "hashtag": "#cl-web-mobapp",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 17,
+    "step": "PROJECT 3",
+    "description": "upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-gitapi. Completing this unit will earn you 50karma points.",
+    "link": "",
+    "hashtag": "#cl-web-gitapi",
+    "channel": "#web-development",
+    "Karma": 50
+  },
+  {
+    "name": "Web",
+    "slno": 18,
+    "step": "STEP SIXTEEN",
+    "description": "Push the code to GitHub, upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-reainfo. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pKNqYAZ",
+    "hashtag": "#cl-web-reainfo",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 19,
+    "step": "STEP SEVENTEEN",
+    "description": "Here you have to create an clone of AirBnb experience.Upload your code and share GitHub repo of project. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pqQgrcN",
+    "hashtag": "#cl-web-airbnb",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 20,
+    "step": "STEP EIGHTEEN",
+    "description": "Push your code to GitHub, upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-memegen. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/prXJpCQ",
+    "hashtag": "#cl-web-memegen",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 21,
+    "step": "STEP NINETEEN",
+    "description": "Here you have to create the notes app and Tenzies game. Push the codes of both project to github and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-notesapp. Completing this unit will earn you 100 karma points.",
+    "link": "https://scrimba.com/playlist/pYkgpAP",
+    "hashtag": "#cl-web-notesapp",
+    "channel": "#web-development",
+    "Karma": 100
+  },
+  {
+    "name": "Web",
+    "slno": 22,
+    "step": "PROJECT FOUR",
+    "description": "upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-quizgame. Completing this unit will earn you 200karma points.",
+    "link": "",
+    "hashtag": "#cl-web-quizgame",
+    "channel": "#web-development",
+    "Karma": 200
+  },
+  {
+    "name": "Web",
+    "slno": 23,
+    "step": "STEP TWENTY",
+    "description": "Upload the freecodecamp certificate in the channel in the channel #web-development with the hashtag #cl-web-node. Completing this unit will earn you 200karma points.",
+    "link": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+    "hashtag": "#cl-web-node",
+    "channel": "#web-development",
+    "Karma": 200
+  },
+  {
+    "name": "Web",
+    "slno": 24,
+    "step": "PROJECT FIVE",
+    "description": "upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-chatapp. Completing this unit will earn you 200karma points.",
+    "link": "",
+    "hashtag": "#cl-web-chatapp",
+    "channel": "#web-development",
+    "Karma": 200
+  },
+  {
+    "name": "Web",
+    "slno": 25,
+    "step": "PROJECT 6",
+    "description": "Create the Weather app, upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-weapp. Completing this unit will earn you 200karma points.",
+    "link": "",
+    "hashtag": "#cl-web-weapp",
+    "channel": "#web-development",
+    "Karma": 200
+  },
+  {
+    "name": "Web",
+    "slno": 26,
+    "step": "FINAL PROJECT",
+    "description": "Here you will have to create an E-Commerce website.upload and share GitHub repo of project in the channel #web-development with the hashtag #cl-web-ecommerce. Completing this unit will earn you 400karma points.",
+    "link": "",
+    "hashtag": "#cl-web-ecommerce",
+    "channel": "#web-development",
+    "Karma": 400
+  }
+]

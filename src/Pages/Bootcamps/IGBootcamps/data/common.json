@@ -1,0 +1,42 @@
+[
+  {
+    "ig": "web",
+    "smalldesc": "In this study program, we will learn web and mobile app development. We'll cover topics like website building, digital business cards, space exploration sites, passenger counter apps, games, GitHub repositories, challenges, deployment, and project sharing. Completing each unit earns karma points for progress and contributions.",
+    "pageTitle": "Web Development Bootcamp",
+    "largedesc": "This study program covers web and mobile app development, including building websites, creating digital business cards, designing space exploration sites, developing passenger counter apps, and building games. We'll also learn about GitHub repositories, challenges, deployment, and sharing projects with the community. Earning karma points will indicate our progress and contributions.",
+    "totalKarmaPoints": 2950,
+    "commonResoureLink": "https://scrimba.com/",
+    "exampleMessage": "#cl-web-firweb\nHey, I've completed the 1st web challenge of the Web development.\nHere is my github repo :https://xyz",
+    "exampleMessageImageLink": ""
+  },
+  {
+    "ig": "android",
+    "smalldesc": "In this course, you'll learn the basics of building Android apps with Jetpack Compose, the new UI toolkit for building Android apps. Along the way, you'll develop a collection of apps to start your journey as an Android developer.",
+    "pageTitle": "Android Basics with Compose",
+    "largedesc": "In this course, you'll learn the basics of building Android apps with Jetpack Compose, the new UI toolkit for building Android apps. Along the way, you'll develop a collection of apps to start your journey as an Android developer.",
+    "totalKarmaPoints": 1200,
+    "commonResoureLink": "https://developer.android.com/courses/android-basics-compose/course",
+    "exampleMessage": "#cl-android-unit1\nHey, I have completed the 1st unit of the Android Basics with Compose track.\nHere's my Google Developer Profile : https://g.dev/vinubalagopalap",
+    "exampleMessageImageLink": "/assets/challenge/google-developer.png"
+  },
+  {
+    "ig": "unreal",
+    "smalldesc": "Whether you're a beginner or have some prior experience, this bootcamp will equip you with the essential knowledge and skills to bring your game ideas to life.",
+    "pageTitle": "Game Development Unreal Engine 5 with",
+    "largedesc": "Welcome  Unreal Engine 5 with Game development course, an immersive program designed to introduce you to the exciting world of game development using Unreal Engine 5. Over the course of this bootcamp, you'll embark on a journey to create a captivating game environment from scratch.\nUnreal Engine 5 is a cutting-edge game development platform that empowers developers to create visually stunning and highly interactive experiences. Whether you're a beginner or have some prior experience, this bootcamp will equip you with the essential knowledge and skills to bring your game ideas to life.",
+    "totalKarmaPoints": 5600,
+    "commonResoureLink": "https://www.unrealengine.com/en-US/learn?state=%2F4.26%2Fen-US%2FBasics%2FInstallingUnrealEngine%2F",
+    "exampleMessage": "#cl-unreal-map\nHey, I've completed the 1st level map challenge of Unreal Engine 5 with Game development\nHere is my github repo :https://github/unreal-map2",
+    "exampleMessageImageLink": ""
+  },
+  {
+    "ig": "User Experience (UX)",
+    "smalldesc": "This study program offers a concise and practical exploration of User Experience (UX) design. Learn the fundamentals of creating user-centered digital experiences and gain essential skills for designing intuitive interfaces that captivate users.",
+    "pageTitle": "User Experience Design (UX)",
+    "largedesc": "In this course, you will explore the core concepts of UX design, focusing on understanding user needs, crafting intuitive interfaces, and delivering exceptional user experiences. You will learn the importance of conducting user research, creating user personas, and building wireframes and prototypes to validate design ideas.\nThrough a combination of lectures, hands-on exercises, and real-world case studies, you will acquire a solid foundation in UX design principles and methodologies. By the end of the course, you will have the skills and knowledge necessary to embark on a career in UX design or enhance your existing design skills in various professional settings.",
+    "totalKarmaPoints": 2570,
+    "commonResoureLink": "https://bootcamp.uxdesign.cc/free-ux-design-courses-21b81dcd51b",
+    "exampleMessage": "#cl-ux-userflow\nHey, I've completed the Create a User Flow Task, here is my submission file.\n(drivelink with pdf/figma file)",
+    "exampleMessageImageLink": ""
+  }
+]

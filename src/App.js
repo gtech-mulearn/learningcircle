@@ -24,14 +24,23 @@ import AutoCADData from "./Pages/InterestGroups/Course/autocad";
 import RevitData from "./Pages/InterestGroups/Course/revit";
 
 //Bootcamp Section
-import BootcampsHome from "./Pages/Bootcamp/BootcampsHome/BootcampsHome";
-import Android from "./Pages/Bootcamp/Android/Android";
-import Rust from "./Pages/Bootcamp/Rust/Rust";
-import Flutter from "./Pages/Bootcamp/Flutter/Flutter";
-import CTFPage from "./Pages/Bootcamp/CTFPage/CTFPage";
-import JavaScript from "./Pages/Bootcamp/JavaScript/JavaScript";
-import Python from "./Pages/Bootcamp/Python/Python";
-import AI from "./Pages/Bootcamp/AI/AI";
+import BootcampsHome from "./Pages/Bootcamps/BootcampsHome/BootcampsHome";
+import Android from "./Pages/Bootcamps/NewYearNewSkill/Android/Android";
+import Rust from "./Pages/Bootcamps/NewYearNewSkill/Rust/Rust";
+import Flutter from "./Pages/Bootcamps/NewYearNewSkill/Flutter/Flutter";
+import CTFPage from "./Pages/Bootcamps/NewYearNewSkill/CTFPage/CTFPage";
+import JavaScript from "./Pages/Bootcamps/NewYearNewSkill/JavaScript/JavaScript";
+import Python from "./Pages/Bootcamps/NewYearNewSkill/Python/Python";
+import AI from "./Pages/Bootcamps/NewYearNewSkill/AI/AI";
+
+// KSE Bootcamps Section
+import KSE from "./Pages/KSE/KSE";
+import Challenges from "./Pages/KSE/Challenges/Challenges";
+import IndividualChallenge from "./Pages/KSE/Challenges/IndividualChallenge/IndividualChallenge";
+import ProofOfWork from "./Pages/KSE/Challenges/ProofOfWork/ProofOfWork";
+
+//Interest Group Bootcamps
+import IGBootcamp from "./Pages/Bootcamps/IGBootcamps/IGBootcamp";
 
 //Misc
 import NotFound from "./Pages/Misc/404/NotFound";
@@ -356,6 +365,24 @@ function App() {
           <Route path="/bootcamps/javascript" element={<JavaScript />} />
           <Route path="/bootcamps/python" element={<Python />} />
           <Route path="/bootcamps/ai" element={<AI />} />
+
+          <Route path="/bootcamps/ig/:id" element={<IGBootcamp />} />
+
+          {/* <Route path="/kse" element={<KSE />} />
+          <Route path="/kse/challenges/:course" element={<Challenges />} />
+          <Route
+            path="/kse/challenges/:course/:bootcamp/:id"
+            element={<IndividualChallenge />}
+          />
+          <Route
+            path="/kse/pow/:course/:bootcamp/:id"
+            element={<ProofOfWork />}
+          />
+          <Route
+            path="/kse/pow/:course/:bootcamp/:id/segment/:sid"
+            element={<ProofOfWork />}
+          /> */}
+
           <Route
             path="/searchcircles"
             element={
