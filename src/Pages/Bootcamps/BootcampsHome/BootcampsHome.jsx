@@ -92,7 +92,7 @@ const BootcampsHome = () => {
                 </Link>
               </div>
               <div className={styles.bootcamp}>
-                <p className={styles.b_heading}>Quality Analysis Bootcamp</p>
+                <p className={styles.b_heading}>Quality Assurance Bootcamp</p>
                 <p className={styles.b_tagline}>
                 In this course we will learn basics idea about quality assurance and testing methods 
                 </p>
