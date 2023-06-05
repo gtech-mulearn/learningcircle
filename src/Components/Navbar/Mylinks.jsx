@@ -405,7 +405,7 @@ export const links = [
         sublinks: [
           {
             name: "Android",
-            link: "/bootcamps/android",
+            link: "/bootcamps/ig/android",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -426,21 +426,21 @@ export const links = [
           },
           {
             name: "Flutter",
-            link: "/bootcamps/flutter",
+            link: "/bootcamps/ig/flutter",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "Rust",
-            link: "/bootcamps/rust",
+            name: "Unreal Engine",
+            link: "/bootcamps/ig/unreal",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "JavaScript",
-            link: "/bootcamps/javascript",
+            name: "Web Development",
+            link: "/bootcamps/ig/web",
             submenu: false,
             sublinks: [],
             foreign: false,

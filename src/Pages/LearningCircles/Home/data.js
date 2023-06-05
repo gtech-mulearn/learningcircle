@@ -622,10 +622,10 @@ const InterestGroups = [
       },
       {
         name: "Android Basics with Compose",
-        link: "/android/core/2",
+        link: "/bootcamps/ig/android",
         complexity: "",
         time: "",
-        karma: "800",
+        karma: "1200",
       },
     ],
     subcourses: [],

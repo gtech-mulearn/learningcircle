@@ -34,10 +34,10 @@ import Python from "./Pages/Bootcamps/NewYearNewSkill/Python/Python";
 import AI from "./Pages/Bootcamps/NewYearNewSkill/AI/AI";
 
 // KSE Bootcamps Section
-import KSE from "./Pages/KSE/KSE";
-import Challenges from "./Pages/KSE/Challenges/Challenges";
-import IndividualChallenge from "./Pages/KSE/Challenges/IndividualChallenge/IndividualChallenge";
-import ProofOfWork from "./Pages/KSE/Challenges/ProofOfWork/ProofOfWork";
+// import KSE from "./Pages/KSE/KSE";
+// import Challenges from "./Pages/KSE/Challenges/Challenges";
+// import IndividualChallenge from "./Pages/KSE/Challenges/IndividualChallenge/IndividualChallenge";
+// import ProofOfWork from "./Pages/KSE/Challenges/ProofOfWork/ProofOfWork";
 
 //Interest Group Bootcamps
 import IGBootcamp from "./Pages/Bootcamps/IGBootcamps/IGBootcamp";
@@ -76,7 +76,6 @@ import FayaDigitalMarketing from "./Pages/Practice/Challenges/FayaDigitalMarketi
 import InnovationDesignChallenge from "./Pages/Practice/Challenges/InnovationDesign/InnovationDesignChallenge";
 import DesignChallenge from "./Pages/Practice/Challenges/DesignChallenge/DesignChallenge";
 import TypingMastery from "./Pages/Practice/Challenges/TypingChallenge/TypingMastery/TypingMastery";
-import AndroidCompose from "./Pages/Practice/Challenges/AndroidCompose/AndroidCompose";
 
 function App() {
   //Home Page state Variables
@@ -320,8 +319,6 @@ function App() {
             path="/iot/:type/:id"
             element={<CoursePage CourseData={IoTData} />}
           />
-
-          <Route path="/android/core/2" element={<AndroidCompose />} />
 
           <Route
             path="/android/:type/:id"

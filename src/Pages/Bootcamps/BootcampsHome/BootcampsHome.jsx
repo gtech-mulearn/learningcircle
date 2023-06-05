@@ -67,6 +67,48 @@ const BootcampsHome = () => {
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Unreal Bootcamp</p>
+                <p className={styles.b_tagline}>
+                  Whether you're a beginner or have some prior experience, this
+                  bootcamp will equip you with the essential knowledge and
+                  skills to bring your game ideas to life.
+                </p>
+                <Link to="/bootcamps/ig/unreal">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Flutter Bootcamp</p>
+                <p className={styles.b_tagline}>
+                  Whether you're a beginner looking to kickstart your mobile app
+                  development journey or an experienced developer seeking to
+                  expand your skills, this bootcamp is designed to empower you
+                  with the knowledge and expertise to build beautiful,
+                  high-performance apps with Flutter.
+                </p>
+                <Link to="/bootcamps/ig/flutter">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Quality Analysis Bootcamp</p>
+                <p className={styles.b_tagline}>
+                In this course we will learn basics idea about quality assurance and testing methods 
+                </p>
+                <Link to="/bootcamps/ig/qa">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Cyber Security Bootcamp</p>
+                <p className={styles.b_tagline}>
+                In this study program, we will learn the basics and foundations of cybersecurity with a focus on web penetration testing
+                </p>
+                <Link to="/bootcamps/ig/cybersec">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

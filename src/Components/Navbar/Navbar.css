@@ -13,6 +13,10 @@
   z-index: 500;
 }
 
+a{
+  max-width: 100%;
+}
+
 .special::-webkit-scrollbar {
   width: 5px;
 }
