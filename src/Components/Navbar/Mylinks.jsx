@@ -432,8 +432,8 @@ export const links = [
             foreign: false,
           },
           {
-            name: "Rust",
-            link: "/bootcamps/rust",
+            name: "Unreal Engine",
+            link: "/bootcamps/ig/unreal",
             submenu: false,
             sublinks: [],
             foreign: false,

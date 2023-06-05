@@ -91,6 +91,24 @@ const BootcampsHome = () => {
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Quality Analysis Bootcamp</p>
+                <p className={styles.b_tagline}>
+                In this course we will learn basics idea about quality assurance and testing methods 
+                </p>
+                <Link to="/bootcamps/ig/qa">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>Cyber Security Bootcamp</p>
+                <p className={styles.b_tagline}>
+                In this study program, we will learn the basics and foundations of cybersecurity with a focus on web penetration testing
+                </p>
+                <Link to="/bootcamps/ig/cybersec">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
