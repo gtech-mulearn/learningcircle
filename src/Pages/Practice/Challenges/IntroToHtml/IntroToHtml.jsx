@@ -134,7 +134,7 @@ const IntroToHtml = () => {
                     <div className="timeline__event__title">Step Five</div>
                     <div className="timeline__event__description">
                       After completing the 69 steps, share your profile URL in{" "}
-                      <b>#students</b> channel with hashtag{" "} at the beginning
+                      <b>#task-dropbox</b> channel with hashtag{" "} at the beginning
                       <b>#ge-intro-to-html</b> to avail karma points. (see
                       example message below)
                       <br />

@@ -87,7 +87,7 @@ const IntroToMarkdown = () => {
                     <div className="timeline__event__title">Step Three</div>
                     <div className="timeline__event__description">
                       Post the repository URL of the file you've worked on in{" "}
-                      <b>#students</b> channel with hashtag{" "}
+                      <b>#task-dropbox</b> channel with hashtag{" "}
                       <b>#ge-intro-to-markdown</b> (see example message below)
                     </div>
                   </div>

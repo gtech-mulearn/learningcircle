@@ -94,7 +94,7 @@ const Android = () => {
                           Learn Git & Github&nbsp;
                         </a>
                         and post a screenshot of your github readme along with
-                        the hastag <b>#cl-github-readme</b> at #students
+                        the hastag <b>#cl-github-readme</b> at #task-dropbox
                         channel.
                       </div>
                       <a href="#githubreadme">See Screenshot ↓</a>
@@ -113,7 +113,7 @@ const Android = () => {
                       <br />
                       <b> https://github.com/Dexters-Hub</b>
                       <br />
-                      in the #students channel.
+                      in the #task-dropbox channel.
                     </p>
                     <br />
                     <img
