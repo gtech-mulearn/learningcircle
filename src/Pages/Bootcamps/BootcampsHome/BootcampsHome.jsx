@@ -112,9 +112,9 @@ const BootcampsHome = () => {
               <div className={styles.bootcamp}>
                 <p className={styles.b_heading}>IoT Bootcamp</p>
                 <p className={styles.b_tagline}>
-                In this study program, we will learn the basics and foundations of cybersecurity with a focus on web penetration testing
+                In this course we will learn basics idea about iot using wokwi and arduino.
                 </p>
-                <Link to="/bootcamps/ig/cybersec">
+                <Link to="/bootcamps/ig/iot">
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>
