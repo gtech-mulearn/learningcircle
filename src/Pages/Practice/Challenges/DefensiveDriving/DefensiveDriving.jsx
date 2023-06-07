@@ -133,7 +133,7 @@ const DefensiveDriving = () => {
                     <div className="timeline__event__title">Step Five</div>
                     <div className="timeline__event__description">
                       After course completion, download the certificate and post
-                      it in <b>#students</b> channel along with hashtag{" "}
+                      it in <b>#task-dropbox</b> channel along with hashtag{" "}
                       <b>#ge-defensive-driving </b>
                       to avail <b> 400 Karma Points</b>
                     </div>
