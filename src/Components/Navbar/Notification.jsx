@@ -26,9 +26,9 @@ const Notification = () => {
                                 <p className="py-2 text-justify  text-xs text-gray-600 truncate">
                                     {notification.description}
                                 </p>
-                                <div className="text-right text-xs">
+                                {/* <div className="text-right text-xs">
                                     <ReactTimeAgo date={notification.date} locale="en-US" />
-                                </div>
+                                </div> */}
                             </a>
                         </div>
                     ))}
