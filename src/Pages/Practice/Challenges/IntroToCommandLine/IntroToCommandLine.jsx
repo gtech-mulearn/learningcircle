@@ -87,7 +87,7 @@ const IntroToCommandLine = () => {
                     <div className="timeline__event__title">Step Three</div>
                     <div className="timeline__event__description">
                       If you still seem to have doubts, feel free to ask in the
-                      #students channel
+                      #task-dropbox channel
                     </div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ const IntroToCommandLine = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Seven</div>
                     <div className="timeline__event__description">
-                      Post a message on <b>#students</b> channel with the
+                      Post a message on <b>#task-dropbox</b> channel with the
                       screenshot with hashtag <b>#ge-intro-to-command-line</b>{" "}
                       (see example message below)
                     </div>
