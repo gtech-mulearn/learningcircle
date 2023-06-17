@@ -9,7 +9,7 @@ const BlockchainData = [
           "A practical course on learning solidity with examples, projects and theory.This course is designed to help you learn solidity with examples, projects and theory.",
         link: "https://metaschool.so/courses/10-days-of-solidity",
         inner_description:
-          "After course completion, post the screenshort of your profile along with the card showing course completed in #blockchain channel of µLearn Discord server with hashtag #cl-10days-of-soldity to avail karma points.",
+          "After course completion, post the screenshort of your profile along with the card showing course completed in #blockchain channel of µLearn Discord server with hashtag #cl-10days-of-solidity to avail karma points.",
       },
       {
         id: "2",

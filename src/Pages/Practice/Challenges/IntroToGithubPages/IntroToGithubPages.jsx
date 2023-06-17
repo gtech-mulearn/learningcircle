@@ -89,7 +89,7 @@ const IntroToGithubPages = () => {
                     <div className="timeline__event__title">Step Three</div>
                     <div className="timeline__event__description">
                       If you still seem to have doubts, feel free to ask in the
-                      #students channel
+                      #task-dropbox channel
                     </div>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const IntroToGithubPages = () => {
                     <div className="timeline__event__title">Step Five</div>
                     <div className="timeline__event__description">
                       Post the GitHub Page URL you've deployed in{" "}
-                      <b>#students</b> channel with hashtag{" "}
+                      <b>#task-dropbox</b> channel with hashtag{" "}
                       <b>#ge-github-pages</b> (see example message below)
                     </div>
                   </div>

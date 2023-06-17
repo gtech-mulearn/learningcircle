@@ -101,7 +101,7 @@ const AI = () => {
                           #ai
                         </b>{" "}
                         channel of the μLearn Discord server with the hashtag{" "}at first
-                        <b>#cl-buildspace-ai-1</b> to avail{" "}
+                        <b>#cl-ai-buildspace-1</b> to avail{" "}
                         <b>200 Karma points</b>
                       </div>
                     </div>
@@ -125,7 +125,7 @@ const AI = () => {
                           #ai
                         </b>{" "}
                         channel of the μLearn Discord server with the hashtag{" "}first 
-                        <b>#cl-buildspace-ai-2</b> to avail{" "}
+                        <b>#cl-ai-buildspace-2</b> to avail{" "}
                         <b>200 Karma points</b>
                       </div>
                     </div>
@@ -149,7 +149,7 @@ const AI = () => {
                           #ai
                         </b>{" "}
                         channel of the μLearn Discord server with the hashtag{" "}
-                        <b>#cl-buildspace-ai-3</b> to avail{" "}
+                        <b>#cl-ai-buildspace-3</b> to avail{" "}
                         <b>200 Karma points</b>
                       </div>
                     </div>
@@ -172,7 +172,7 @@ const AI = () => {
                           #ai
                         </b>{" "}
                         channel of the μLearn Discord server with the hashtag{" "} first
-                        <b>#cl-buildspace-ai-4</b> to avail{" "}
+                        <b>#cl-ai-buildspace-4</b> to avail{" "}
                         <b>200 Karma points</b>
                       </div>
                     </div>
@@ -193,7 +193,7 @@ const AI = () => {
                         extensions you have built either on Product Hunt or the
                         Chrome Extension webstore and share the link in the{" "}
                         <b>#ai </b>channel on the μLearn Discord server using
-                        the hashtag  <b>#cl-buildspace-ai-bonus</b> first to earn a
+                        the hashtag  <b>#cl-ai-buildspace-bonus</b> first to earn a
                         bonus <b>200 Karma points</b> Please note that hosting
                         the Chrome extension is not part of the final chapter,
                       </div>
