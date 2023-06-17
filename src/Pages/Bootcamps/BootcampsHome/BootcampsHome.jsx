@@ -92,7 +92,7 @@ const BootcampsHome = () => {
                 </Link>
               </div>
               <div className={styles.bootcamp}>
-                <p className={styles.b_heading}>Quality Analysis Bootcamp</p>
+                <p className={styles.b_heading}>Quality Assurance Bootcamp</p>
                 <p className={styles.b_tagline}>
                 In this course we will learn basics idea about quality assurance and testing methods 
                 </p>
@@ -106,6 +106,15 @@ const BootcampsHome = () => {
                 In this study program, we will learn the basics and foundations of cybersecurity with a focus on web penetration testing
                 </p>
                 <Link to="/bootcamps/ig/cybersec">
+                  <button className={styles.b_button}>Join Now!</button>
+                </Link>
+              </div>
+              <div className={styles.bootcamp}>
+                <p className={styles.b_heading}>IoT Bootcamp</p>
+                <p className={styles.b_tagline}>
+                In this course we will learn basics idea about iot using wokwi and arduino.
+                </p>
+                <Link to="/bootcamps/ig/iot">
                   <button className={styles.b_button}>Join Now!</button>
                 </Link>
               </div>

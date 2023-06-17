@@ -9,7 +9,7 @@ import MentorCard from "../../../Components/MentorCard/MentorCard";
 
 const MentorDirectory = () => {
   const [mentorData, setMentorData] = useState([]);
-  const [error, setError] = useState();
+  // const [error, setError] = useState();
   useEffect(() => {
     axios
       .get(
@@ -20,9 +20,9 @@ const MentorDirectory = () => {
       })
       .catch((error) => {
         console.log(error);
-        setError(
-          "We are currently facing some difficulties in fetching the data at the moment, will be back soon."
-        );
+        // setError(
+        //   "We are currently facing some difficulties in fetching the data at the moment, will be back soon."
+        // );
       });
   }, []);
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ReactTimeAgo from "react-time-ago";
+// import ReactTimeAgo from "react-time-ago";
 import TimeAgo from "javascript-time-ago";
 import en from "javascript-time-ago/locale/en";
 
@@ -26,9 +26,9 @@ const Notification = () => {
                                 <p className="py-2 text-justify  text-xs text-gray-600 truncate">
                                     {notification.description}
                                 </p>
-                                <div className="text-right text-xs">
+                                {/* <div className="text-right text-xs">
                                     <ReactTimeAgo date={notification.date} locale="en-US" />
-                                </div>
+                                </div> */}
                             </a>
                         </div>
                     ))}
