@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import styles from "./IGBootcamp.module.css";
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 import { useParams } from "react-router-dom";
 import axios from "axios";
@@ -11,11 +13,11 @@ const IGBootcamp = () => {
   const [data, setData] = useState();
   const [commonData, setCommonData] = useState();
 
-  const boldTextBetweenHashtagAndSpace = (text) => {
-    const pattern = /#([^ ]+)/g;
-    const boldText = text.replace(pattern, (match, word) => `<b>#${word}</b>`);
-    return <div dangerouslySetInnerHTML={{ __html: boldText }} />;
-  };
+  // const boldTextBetweenHashtagAndSpace = (text) => {
+  //   const pattern = /#([^ ]+)/g;
+  //   const boldText = text.replace(pattern, (match, word) => `<b>#${word}</b>`);
+  //   return <div dangerouslySetInnerHTML={{ __html: boldText }} />;
+  // };
 
   useEffect(() => {
     axios
@@ -106,7 +108,12 @@ const IGBootcamp = () => {
                             {item.step}
                           </div>
                           <div className="timeline__event__description">
-                            {boldTextBetweenHashtagAndSpace(item.description)}
+                            {
+                              <ReactMarkdown
+                                children={item.description}
+                                remarkPlugins={[remarkGfm]}
+                              />
+                            }
                           </div>
                           <br />
                           {item.link && (
@@ -129,7 +136,13 @@ const IGBootcamp = () => {
                   <p className={styles.sample_message}>
                     <b>{data[0].hashtag}</b>
                     <br />
-                    {commonData && commonData.exampleMessage}
+                    {commonData && (
+                      <ReactMarkdown
+                        children={commonData.exampleMessage}
+                        remarkPlugins={[remarkGfm]}
+                      />
+                    )}
+
                     {/* <a href={commonData && commonData.exampleMessageImageLink}>
                     {commonData && commonData.exampleMessageImageLink}
                   </a> */}
