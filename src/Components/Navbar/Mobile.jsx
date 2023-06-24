@@ -49,7 +49,7 @@ export const MobileMenu = ({ setNotificationOpen, setOpen, handleScrolling, open
             <NavLinks />
       
                 <a
-                    href="https://mulear.org/careers"
+                    href="https://mulearn.org/careers"
                     className="py-4 px-7 inline-block uppercase hover:text-orange-500 text-[13px]"
                     onClick={() => {
                         setOpen(false);

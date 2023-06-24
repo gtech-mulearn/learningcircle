@@ -8,7 +8,6 @@ export const DesktopMenu = ({ open }) => {
       <NavLinks Open={true} />
       <a
         href="http://mulearn.org/careers"
-        target="_blank"
         rel="noopener noreferrer"
         className="py-7 px-3 inline-block"
       >
