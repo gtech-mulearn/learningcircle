@@ -239,7 +239,7 @@ function App() {
           />
 
           <Route
-            path="/webmobile/:id"
+            path="/:subinterest/:id"
             element={<InterestGroup setInterest={setInterest} />}
           />
 

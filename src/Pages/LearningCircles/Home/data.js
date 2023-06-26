@@ -444,180 +444,71 @@ const InterestGroups = [
     ],
   },
   {
-    id: "pm",
-    interestgroup: "Product Management",
+    comingsoon: true,
+    hassubgroups: true,
+    id: "innovationentre",
+    interestgroup: "Innovation and Entrepreneusrship",
     interestgroupdescription:
-      '"Product Management is deciding what to build next”. Are you interested in learning to build the right product and the product right? Join our “Product Management” Interest Group to learn and collaborate with peers.',
-    officetime: "Tuesday 8:30PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Monday 7:00 PM",
-    community: [],
-    opportunities: ["Product Manager", "Product Marketing Manager"],
-    company: ["SunTec"],
-    mentors: ["Vineesh U S", "Aravind", "Savio"],
-    mentorscard: [
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+
+    basicenablementtasks: [],
+    learningpaths: [],
+    corecourses: [],
+
+    coretracks: [
       {
-        id: "S137",
-        name: "Vineesh U S",
-        designation: "Co-Founder, First Principle Labs",
-        linkedIn: "https://www.linkedIn.com/in/vineeshus",
-        stack: "Product Management",
-        image:
-          "https://drive.google.com/uc?export=view&id=1yssQ7Em7RbFv2cQ9lU75lgzTXbeqoRVe",
+        id: "/innovationentre/pm",
+        description:
+          "\"Product Management is deciding what to build next”. Are you interested in learning to build the right product and the product right? Join our “Product Management” Interest Group to learn and collaborate with peers.",
+        name: "Product Management",
+        link: "/innovationentre/pm",
+        officetime: "Tuesday 8:30PM",
+        officeplace: " @ Discord Lobby",
       },
       {
-        id: "S138",
-        name: "Aravind Muraleedharan",
-        designation: "Product Manager, Carestack",
-        linkedIn: "https://www.linkedIn.com/in/aravindmuraleedharan",
-        stack: "Product Management",
-        image:
-          "https://drive.google.com/uc?export=view&id=1O6HcE1RIKZ1J4cC-2BJog_Ps9F2-7KYx",
+        id: "/innovationentre/innovent",
+        description:
+          "Join Innovation and Entrepreneurship today to experience the joy of building something unique, taking risks, and making good decisions. Drive innovation by introducing new ideas and utilizing cutting-edge technology to solve problems and meet customer needs.",
+        name: "Innovation & Entrepreneurship",
+        link:  "/innovationentre/innovent",
+        officetime: "Friday 10:00 PM",
+        officeplace: " @ Discord Lobby",
+      },
+      {
+        id: "/innovationentre/projectmanagment",
+        description:
+          'Effective project management involves setting goals, creating a plan, and coordinating resources to ensure successful project completion. Join our interest group to learn more about these techniques and best practices.',
+        name: "Project Management",
+        link: "/innovationentre/projectmanagment",
+        officetime: "Thursday 6:30 PM",
+        officeplace: " @ Discord Lobby",
+      }
+    ],
+    subcourses: [
+      // {
+      //   id: "",
+      //   name: "",
+      //   link: "",
+      // },
+    ],
+    mentorscard: [
+      {
+        id: "",
+        name: "",
+        designation: "",
+        linkedIn: "",
+        stack: "",
+        image: "",
       },
     ],
     pagination: [
       {
-        id: "cybersec",
-        name: "< Cyber Security",
+        id: "blockchain",
+        name: "< Blockchain",
       },
       {
-        id: "ux",
-        name: "UX >",
-      },
-    ],
-    learningpaths: [
-      {
-        name: "Complete Roadmap",
-        link: "https://productschool.com/blog/product-management-2/ultimate-product-management-guide/",
-      },
-    ],
-    basicenablementtasks: [],
-    corecourses: [
-      {
-        name: "Familiarization to Product Management",
-        link: "/pm/core/1",
-        complexity: "",
-        time: "",
-        karma: "400",
-      },
-    ],
-    subcourses: [
-      {
-        name: "SWOT Analysis",
-        link: "/pm/sub/1",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-    ],
-    keywords: [
-      {
-        id: "1",
-        keyword: "Product Management",
-      },
-      {
-        id: "2",
-        keyword: "Agile Methodologies",
-      },
-      {
-        id: "3",
-        keyword: "Product Marketing",
-      },
-      {
-        id: "4",
-        keyword: "Digital product development",
-      },
-      {
-        id: "5",
-        keyword: "Product Strategy",
-      },
-      {
-        id: "6",
-        keyword: "Software Development Life Cycle (SDLC)",
-      },
-      {
-        id: "7",
-        keyword: "Scrum and integration",
-      },
-      {
-        id: "8",
-        keyword: "Product Vision",
-      },
-      {
-        id: "9",
-        keyword: "Product Strategy",
-      },
-      {
-        id: "10",
-        keyword: "Product Roadmap",
-      },
-    ],
-    blogs: [
-      {
-        id: "1",
-        name: "PM School",
-        link: "https://blog.pmschool.io/post/product-manager-and-the-software-product-lifecycle",
-      },
-      {
-        id: "2",
-        name: "BlackBox of PM",
-        link: "https://blackboxofpm.com/",
-      },
-      {
-        id: "3",
-        name: "Department of Product",
-        link: "https://www.departmentofproduct.com/blog/",
-      },
-    ],
-    people: [
-      {
-        id: "1",
-        name: "Tim Herbig",
-        link: "https://twitter.com/herbigt",
-      },
-      {
-        id: "2",
-        name: "Daniel Elizalde",
-        link: "https://twitter.com/delizalde",
-      },
-      {
-        id: "3",
-        name: "John Carter",
-        link: "https://www.linkedIn.com/in/jcartertcgen/",
-      },
-      {
-        id: "4",
-        name: "Charles Du",
-        link: "https://www.linkedIn.com/in/thecharles/?originalSubdomain=tw",
-      },
-    ],
-    challenges: [
-      {
-        id: "1",
-        name: "Estimate the number of restaurants in New York",
-      },
-      {
-        id: "2",
-        name: "You're the new product manager for Instagram and you notice a drop in user engagement by 15% over the past two weeks. What do you do?",
-      },
-      {
-        id: "3",
-        name: "There is a data point that indicates that there are more Uber drop-offs at the airport than pick-ups from the airport. Why is this the case and what would you do within the product to change that?",
-      },
-      {
-        id: "4",
-        name: "Friend requests are down by 10%. Evaluate why.",
-      },
-      {
-        id: "5",
-        name: "Youtube clone",
-      },
-    ],
-    resources: [
-      {
-        name: "Execution questions",
-        link: "https://www.productmanagementexercises.com/interview-questions/execution",
+        id: "clouddevops",
+        name: "Cloud & DevOps >",
       },
     ],
   },
@@ -1428,255 +1319,6 @@ const InterestGroups = [
     ],
   },
   {
-    id: "flutter",
-    interestgroup: "Flutter",
-    interestgroupdescription:
-      "Flutter is an open-source mobile application development framework created by Google. It allows developers to build native applications for Android, iOS, and other platforms using a single codebase. Flutter uses the Dart programming language, which was also developed by Google, and provides a rich set of pre-built widgets and tools for building beautiful, fast, and responsive user interfaces.",
-    officetime: " Friday 9.00 PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: " Thursday 9:30 PM",
-    community: [],
-    opportunities: [
-      "Android developer",
-      "Ios Developer",
-      "Ui designer",
-      "Frontend developer",
-    ],
-    company: [],
-    pagination: [
-      {
-        id: "ai",
-        name: "< Artificial Intelligence",
-      },
-      {
-        id: "civil",
-        name: "Civil Engineering >",
-      },
-    ],
-    learningpaths: [
-      {
-        id: "1",
-        name: "Dart Language Tour",
-        link: "https://dart.dev/guides/language/language-tour",
-      },
-      {
-        id: "2",
-        name: "Language Tour For Seasoned Programmer",
-        link: "https://gist.github.com/mipsmonsta/6ea53319d43564b1b72859da68924dc7#file-abridged_dart_lang_tour-txt",
-      },
-      {
-        id: "3",
-        name: "Roadmap	",
-        link: "https://roadmap.sh/flutter",
-      },
-      {
-        id: "4",
-        name: "Dart in 100 Seconds	",
-        link: "https://www.youtube.com/watch?v=NrO0CJCbYLA",
-      },
-    ],
-    basicenablementtasks: [
-      {
-        name: "The Story of me",
-        link: "https://medium.com/geekculture/dart-programming-tutorial-variables-and-data-types-87440ee1ea94",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Sum it up",
-        link: "https://medium.com/geekculture/dart-programming-tutorial-string-interpolation-and-concatenation-c512a6cd9286",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "BasiCulator",
-        link: "https://medium.com/geekculture/dart-programming-tutorial-basic-operators-663bab979b01",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "BasiCulator",
-        link: "https://medium.com/geekculture/dart-programming-tutorial-conditional-statement-72f86dd78004",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Sumplier Madness",
-        link: "https://medium.com/geekculture/dart-programming-tutorial-loops-6ba26863aafd",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Function Fusioner",
-        link: "https://medium.com/geekculture/dart-programming-tutorial-functions-4c37a7e8a674",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Function Fusioner",
-        link: "https://medium.com/geekculture/dart-programming-tutorial-collection-types-list-map-and-set-d596d1e7bc78",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Vroom Companion",
-        link: "https://medium.com/geekculture/dart-programming-tutorial-object-oriented-programming-using-classes-48be44cbe095",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Vroom Companion",
-        link: "https://www.javatpoint.com/dart-object-oriented-concepts",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "FlutterProfile",
-        link: "",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-    ],
-    corecourses: [
-      {
-        id: "1",
-        name: "Dart",
-        link: "https://www.youtube.com/watch?v=F3JuuYuOUK4",
-        difficulty: "",
-        karma: "Not Announced",
-      },
-      {
-        id: "2",
-        name: "Dart",
-        link: "https://www.youtube.com/watch?v=uZvoTCSsfjo&list=PLptHs0ZDJKt_fLp8ImPQVc1obUJKDSQL7",
-        difficulty: "",
-        karma: "Not Announced",
-      },
-      {
-        id: "3",
-        name: "Flutter",
-        link: "https://youtu.be/VPvVD8t02U8",
-        karma: "Not Announced",
-      },
-      {
-        id: "4",
-        name: "Flutter",
-        link: "https://www.youtube.com/channel/UCw2IfXRCHaYryORhBICp8QA",
-
-        karma: "Not Announced",
-      },
-    ],
-
-    topkeywords: [
-      {
-        name: "Widgets",
-      },
-      {
-        name: "Material Design",
-      },
-      {
-        name: "Cupertino ",
-      },
-      {
-        name: "Stateful and Stateless widgets",
-      },
-      {
-        name: "Flutter packages",
-      },
-      {
-        name: "Flutter Web",
-      },
-      {
-        name: "Flutter Desktop",
-      },
-    ],
-    otherresources: [
-      {
-        id: "1",
-        name: "Podcast",
-        link: "https://player.fm/series/flying-high-with-flutter",
-      },
-      {
-        id: "2",
-        name: "Podcast",
-        link: "https://flutter101.dev/",
-      },
-      {
-        id: "3",
-        name: "Tips & Tricks",
-        link: "https://www.youtube.com/watch?v=5vDq5DXXxss",
-      },
-    ],
-    bestblogstofollow: [
-      {
-        id: "1",
-        name: "Flutter – Medium",
-        link: "https://medium.com/flutter",
-      },
-      {
-        id: "2",
-        name: "Flutter Community – Medium",
-        link: "https://medium.com/flutter-community",
-      },
-      {
-        id: "3",
-        name: "Fireship- Flutter",
-        link: "https://fireship.io/tags/flutter/",
-      },
-    ],
-    toppeopletofollow: [
-      {
-        id: "1",
-        name: "Tim Sneath",
-        link: "https://twitter.com/timsneath",
-      },
-      {
-        id: "2",
-        name: "Eric Seidal",
-        link: "https://twitter.com/_eseidel",
-      },
-      {
-        id: "3",
-        name: "Flutter",
-        link: "https://twitter.com/FlutterDev",
-      },
-    ],
-    leads: [
-      {
-        id: 1,
-        name: "Muhammed R",
-        college: "St Thomas institute for Science and technology, TVM",
-        images: "assets/interestGroups/Muhammed-R.webp",
-        linkedIn: "https://www.linkedin.com/in/muhammed-r",
-      },
-      {
-        id: 2,
-        name: "Basith P",
-        college: "KMCT College of Engineering, Kozhikode",
-        images: "assets/interestGroups/Basith P.webp",
-        linkedIn: "https://www.linkedin.com/in/basithp9/",
-      },
-      {
-        id: 3,
-        name: "Arfaz Khan Hijas Khan",
-        college: "AWH Engineering College Kozhikode",
-        images: "",
-        linkedIn: "",
-      },
-    ],
-  },
-  {
     id: "civil",
     interestgroup: "Civil Engineering",
     interestgroupdescription:
@@ -1850,265 +1492,7 @@ const InterestGroups = [
       },
     ],
   },
-  {
-    comingsoon: true,
-    id: "innovent",
-    interestgroup: "Innovation & Entrepreneurship",
-    interestgroupdescription:
-      "Join Innovation and Entrepreneurship today to experience the joy of building something unique, taking risks, and making good decisions. Drive innovation by introducing new ideas and utilizing cutting-edge technology to solve problems and meet customer needs.",
-    basicenablementtasks: [],
-    corecourses: [
-      {
-        name: "Course Introduction: Innovation by Design",
-        link: "https://learn.mulearn.org/challenge/innovationdesign",
-        complexity: "",
-        time: "",
-        karma: "250",
-      },
-      {
-        name: "Course Introduction-Design,Technology and Innovation",
-        link: "https://learn.mulearn.org/challenge/designchallenge",
-        complexity: "",
-        time: "",
-        karma: "850",
-      },
-      {
-        name: "Entrepreneurship 1: Developing the Opportunity",
-        link: "https://www.classcentral.com/course/wharton-entrepreneurship-opportunity-5467",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Entrepreneurship 2: Launching your Start-Up",
-        link: "https://www.classcentral.com/course/wharton-launching-startup-5468",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-    ],
-    mentors: ["Deepu S Nath", "Micle"],
-    mentorscard: [
-      {
-        id: "S30",
-        name: "Deepu S Nath",
-        designation: "Managing Director - Tech Faya Innovations Pvt Ltd",
-        stack: " JavaScript,Angular",
-        image: "https://www.fayaport80.com/speakers/thumb/Deepu-S-Nath.jpg",
-        linkedIn: "https://www.linkedIn.com/in/deepusnath/",
-      },
-      {
-        id: "S139",
-        name: "Michael Mathews",
-        designation: "Independent consultant, TCS",
-        linkedIn: "https://www.linkedIn.com/in/michaelmathewsk",
-        stack: "UI UX",
-        image: "/assets/mentors/Michael Mathews.webp",
-      },
-    ],
-    officetime: "Friday 10:00 PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Thursday 10:00 PM",
-    challenges: [
-      {
-        id: "1",
-        name: "Plan a business",
-        link: "https://venturelab.org/planner/home",
-        description: "",
-      },
-      {
-        id: "2",
-        name: "Create a pitch",
-        link: "https://venturelab.org/pitch/home",
-        description: "",
-      },
-    ],
-    opportunities: [],
-    community: ["IEDC"],
-    company: [],
-    blogs: [
-      {
-        id: "1",
-        name: "TechCrunch",
-        link: "https://techcrunch.com/tag/entrepreneurship/",
-      },
-      {
-        id: "2",
-        name: "Both Sides of the Table",
-        link: "https://bothsidesofthetable.com/?gi=d8e49a1fcdb",
-      },
-      {
-        id: "3",
-        name: "Forbes",
-        link: "https://www.forbes.com/?sh=2944b3502254",
-      },
-      {
-        id: "4",
-        name: "Inc.Magazine",
-        link: "https://www.inc.com/",
-      },
-      {
-        id: "5",
-        name: "She Owns It",
-        link: "https://sheownsit.com/",
-      },
-      {
-        id: "6",
-        name: "Noobpreneur",
-        link: "https://www.noobpreneur.com/",
-      },
-      {
-        id: "7",
-        name: "Chris Ducker",
-        link: "https://www.chrisducker.com/blog/",
-      },
-      {
-        id: "8",
-        name: "Mashable",
-        link: "https://in.mashable.com/",
-      },
-      {
-        id: "9",
-        name: "Seth Godin",
-        link: "https://seths.blog/",
-      },
-      {
-        id: "10",
-        name: "Gaping Void",
-        link: "https://www.gapingvoid.com/blog/",
-      },
-    ],
-    people: [
-      {
-        id: "1",
-        name: "Elon Musk",
-        link: "https://twitter.com/elonmusk?s=20&t=G4Tlr3s5h_uGEyP-lD2IqQ",
-      },
-      {
-        id: "2",
-        name: "Gary Vaynerchuk",
-        link: "https://twitter.com/garyvee",
-      },
-      {
-        id: "3",
-        name: "James Altucher",
-        link: "https://twitter.com/jaltucher",
-      },
-      {
-        id: "4",
-        name: "DAVE MORIN",
-        link: "https://twitter.com/davemorin",
-      },
-      {
-        id: "5",
-        name: "Biz Stone",
-        link: "https://twitter.com/biz",
-      },
-    ],
-    trendingprojects: [
-      {
-        id: "1",
-        name: "Entrepreneurs Move Into IoT",
-      },
-      {
-        id: "2",
-        name: "No-Code Web Apps Become More Mainstream",
-      },
-      {
-        id: "3",
-        name: "Email Makes A Comeback",
-      },
-      {
-        id: "4",
-        name: "Micro-Influencers Come Into The Spotlight",
-      },
-      {
-        id: "5",
-        name: "Content Becomes Omnichannel",
-      },
-      {
-        id: "6",
-        name: "Capital Flows Into Climate Tech Startups",
-      },
-      {
-        id: "7",
-        name: "Increased Demand For Super-Specialized Skills",
-      },
-      {
-        id: "8",
-        name: "Entrepreneur Communities Flourish",
-      },
-      {
-        id: "9",
-        name: "Business From Home",
-      },
-      {
-        id: "10",
-        name: "Globalized Business Powered By  Remote Work",
-      },
-    ],
-    keywords: [
-      {
-        id: "1",
-        keyword: "Design Thinking",
-      },
-      {
-        id: "2",
-        keyword: "Collaboration",
-      },
-      {
-        id: "3",
-        keyword: "Brainstorming",
-      },
-      {
-        id: "4",
-        keyword: "Business Model Canvas",
-      },
-      {
-        id: "5",
-        keyword: "End-User",
-      },
-      {
-        id: "6",
-        keyword: "Idea",
-      },
-      {
-        id: "7",
-        keyword: "Pitch",
-      },
-      {
-        id: "8",
-        keyword: "Ideation",
-      },
-      {
-        id: "9",
-        keyword: "Intellectual Property",
-      },
-      {
-        id: "10",
-        keyword: "Strategic Thinking",
-      },
-    ],
-    resources: [
-      {
-        id: "1",
-        name: "Y Combinator",
-        description: "",
-        link: "https://www.startupschool.org/curriculum",
-      },
-    ],
-    pagination: [
-      {
-        id: "clouddevops",
-        name: "< Cloud & DevOps",
-      },
-      {
-        id: "creativedesign",
-        name: "Creative Design >",
-      },
-    ],
-  },
+
   {
     id: "creativedesign",
     interestgroup: "Creative Design",
@@ -2199,97 +1583,6 @@ const InterestGroups = [
     corecourses: [],
     subcourses: [],
     "": {},
-  },
-  {
-    comingsoon: true,
-    id: "projectmanagment",
-    interestgroup: "Project Management",
-    interestgroupdescription:
-      "Effective project management involves setting goals, creating a plan, and coordinating resources to ensure successful project completion. Join our interest group to learn more about these techniques and best practices.",
-
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    mentorscard: [
-      {
-        id: "1",
-        name: "Farish C V",
-        designation: "Google",
-        stack: "",
-        image: "",
-      },
-    ],
-    officetime: "Thursday 6:30 PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Friday 6:30 PM",
-    opportunities: [],
-    community: [],
-    company: [""],
-    blogs: [
-      {
-        id: "1",
-        name: "Rebel’s Guide To PM",
-        link: "https://rebelsguidetopm.com/category/productive/",
-      },
-      {
-        id: "2",
-        name: "Project management.com",
-        link: "https://www.projectmanagement.com/blogs/",
-      },
-      {
-        id: "3",
-        name: "Work Life by Atlassian",
-        link: "https://www.atlassian.com/blog",
-      },
-    ],
-    people: [
-      {
-        id: "1",
-        name: "Jeff Sutherland",
-        link: "https://twitter.com/jeffsutherland",
-      },
-      {
-        id: "2",
-        name: "David Allen",
-        link: "https://twitter.com/gtdguy",
-      },
-      {
-        id: "3",
-        name: "Martin Fowler",
-        link: "https://twitter.com/martinfowler",
-      },
-      {
-        id: "4",
-        name: "Rebels Guide to PM",
-        link: "https://twitter.com/rebelsguidetopm",
-      },
-    ],
-    trendingprojects: [
-      {
-        id: "",
-        name: "",
-        link: "",
-      },
-    ],
-    resources: [
-      {
-        id: "",
-        name: "",
-        description: "",
-        link: "",
-      },
-    ],
-    pagination: [
-      {
-        id: "strategicleadership",
-        name: "< Strategic Leadership",
-      },
-      {
-        id: "3dprint",
-        name: "3D-Printing >",
-      },
-    ],
   },
 ];
 
