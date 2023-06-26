@@ -528,7 +528,7 @@ const InterestGroups = [
       {
         id: "/uiuxcreative/ux",
         description:
-          'Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.',
+          "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.",
         name: "User Experience (UX)",
         link: "/uiuxcreative/ux",
         officetime: "Saturday 8:00 PM",
@@ -721,197 +721,53 @@ const InterestGroups = [
     ],
   },
   {
-    id: "ai",
-    interestgroup: "Artificial Intelligence",
+    comingsoon: true,
+    hassubgroups: true,
+    id: "aimlanalytics",
+    interestgroup: "AI ML and Analytics",
     interestgroupdescription:
-      "AI is the simulation of Human Intelligence processes by computer systems Worried if AI will take over the World in the near future? Join our AI Interest Group and learn more about Artificial Intelligence and the latest advancements in the domain.",
-    leads: [
-      {
-        id: 1,
-        name: "Arjun M S",
-        college: "Jyothi Engineering College, Thrissur",
-        images: "assets/interestGroups/arjunMs.webp",
-      },
-      {
-        id: 2,
-        name: "Zafar",
-        college: "KMCT Engineering College,Kozhikode",
-        images: "assets/interestGroups/Zafar.webp",
-      },
-    ],
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+
     basicenablementtasks: [],
-    officetime: "Thursday 9:00 PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Tuesday 9:00 PM",
-    community: [],
-    opportunities: [
-      "Machine Learning Engineer",
-      "Research Engineer - AI",
-      "Data Scientist",
-      "ML Ops Engineer",
+    learningpaths: [],
+    corecourses: [],
+
+    coretracks: [
+      {
+        id: "/aimlanalytics/ai",
+        description:
+          "AI is the simulation of Human Intelligence processes by computer systems Worried if AI will take over the World in the near future? Join our AI Interest Group and learn more about Artificial Intelligence and the latest advancements in the domain.",
+        name: "Artificial Intellgence",
+        link: "/aimlanalytics/ai",
+        officetime: "Thursday 9:00 PM",
+        officeplace: " @ Discord Lobby",
+      }
     ],
-    company: [],
-    mentors: ["Niyas Mohammed", "Robin Tommy"],
+    subcourses: [
+      // {
+      //   id: "",
+      //   name: "",
+      //   link: "",
+      // },
+    ],
     mentorscard: [
       {
         id: "",
-        name: "Niyas Mohammed",
-        designation: "Technology Specialist - AI",
-        linkedIn: "https://www.linkedin.com/in/niyasmohammed/",
-        stack: "Artifical Intelligence",
-        image: "/assets/mentors/Niyas Mohammed.webp",
-      },
-      {
-        id: "",
-        name: "Robin Tommy",
-        designation: "Social Innovation and Startup Mentor TCS ",
-        linkedIn: "https://www.linkedin.com/in/niyasmohammed/",
-        stack: "Artifical Intelligence",
-        image: "/assets/mentors/Robin Tommy.webp",
+        name: "",
+        designation: "",
+        linkedIn: "",
+        stack: "",
+        image: "",
       },
     ],
     pagination: [
       {
-        id: "arvr",
-        name: "< AR/VR",
-      },
-      {
         id: "blockchain",
-        name: "Blockchain >",
-      },
-    ],
-    learningpaths: [
-      {
-        id: "1",
-        name: "Deep Learning Specialization",
-        link: "https://www.coursera.org/specializations/deep-learning",
+        name: "< Blockchain",
       },
       {
-        id: "2",
-        name: "Practical Deep Learning for Coders",
-        link: "http://course.fast.ai",
-      },
-      {
-        id: "3",
-        name: "Applied Data Science with Python",
-        link: "https://www.coursera.org/specializations/data-science-python",
-      },
-    ],
-
-    corecourses: [
-      {
-        id: "1",
-        name: "Advanced NLP with Spacy",
-        link: "https://course.spacy.io/en/",
-      },
-      {
-        id: "2",
-        name: "Supervised Machine Learning: Regression and Classification - Andrew NG",
-        link: "https://www.coursera.org/learn/machine-learning",
-      },
-      {
-        id: "3",
-        name: "Reinforcement Learning Specialization",
-        link: "https://www.coursera.org/specializations/reinforcement-learning",
-      },
-      {
-        id: "4",
-        name: "Applied AI with DeepLearning",
-        link: "https://in.coursera.org/learn/ai",
-      },
-    ],
-    subcourses: [
-      {
-        id: "1",
-        name: "Docker Curriculum",
-        link: "https://docker-curriculum.com",
-      },
-      {
-        id: "2",
-        name: "Huggingface NLP course",
-        link: "https://huggingface.co/course",
-      },
-      {
-        id: "3",
-        name: "FastAPI course",
-        link: "https://course.elementsofai.com/",
-      },
-    ],
-    blogs: [
-      {
-        id: "1",
-        name: "PyImageSearch",
-        link: "https://pyimagesearch.com/blog/",
-      },
-      {
-        id: "2",
-        name: "Machine Learning Mastery",
-        link: "https://machinelearningmastery.com/",
-      },
-    ],
-    people: [
-      {
-        id: "1",
-        name: "Jeremy Howard",
-        link: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiArtj8ptj8AhXFUGwGHdQJBn8Q6F56BAgGEAE&url=https%3A%2F%2Ftwitter.com%2Fjeremyphoward%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw2QgTrPgq8D3E7YgXnpVoAd",
-      },
-      {
-        id: "2",
-        name: "Andrej Karpathy",
-        link: "https://twitter.com/karpathy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-      },
-    ],
-    keywords: [
-      {
-        id: "1",
-        keyword: "natural lanugage processing",
-      },
-      {
-        id: "2",
-        keyword: "large language models",
-      },
-      {
-        id: "3",
-        keyword: "stable diffusion",
-      },
-      {
-        id: "4",
-        keyword: "time series",
-      },
-      {
-        id: "5",
-        keyword: "object recognition",
-      },
-      {
-        id: "6",
-        keyword: "text classification",
-      },
-      {
-        id: "7",
-        keyword: "question answering",
-      },
-    ],
-    books: [
-      {
-        id: "1",
-        name: "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition",
-        link: "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/?_gl=1*153qn26*_ga*MTkyOTg4ODcyMS4xNjc0MjkyMTc4*_ga_092EL089CH*MTY3NDI5MjE3Ny4xLjEuMTY3NDI5MjE5Mi40NS4wLjA.",
-      },
-      {
-        id: "2",
-        name: "Data Science from Scratch",
-        link: "https://www.oreilly.com/library/view/data-science-from/9781492041122/",
-      },
-      {
-        id: "3",
-        name: "Deep Learning for Coders with Fastai and PyTorch",
-        link: "https://course.fast.ai/Resources/book.html",
-      },
-      {
-        id: "4",
-        name: "Introduction to Machine Learning with Python",
-        link: "https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/",
+        id: "clouddevops",
+        name: "Cloud & DevOps >",
       },
     ],
   },
@@ -1299,7 +1155,6 @@ const InterestGroups = [
       },
     ],
   },
-
   {
     id: "digitalmarketing",
     interestgroup: "Digital Marketing",
