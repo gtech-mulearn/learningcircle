@@ -239,6 +239,11 @@ function App() {
           />
 
           <Route
+            path="/webmobile/:id"
+            element={<InterestGroup setInterest={setInterest} />}
+          />
+
+          <Route
             path="/gettingstarted/:id"
             element={
               <GettingStarted create={create} wlink={wlink} join={join} />

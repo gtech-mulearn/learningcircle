@@ -1,0 +1,908 @@
+[
+  {
+    "id": "web",
+    "interestgroup": "Web Development",
+    "interestgroupdescription": "Ever wondered how web applications are built? Everything seems Greek until you get to know how it is built. GTech μlearn's Web Development Interest Group aims to develop and fine-tune your Web Development skills and bring together people who wish to evaluate potential Web Technologies. Join now and Stay Updated!",
+    "leads": [
+      {
+        "id": "1",
+        "name": "Aswin Asok",
+        "college": "Marian Engineering College,Thiruvananthapuram",
+        "images": "assets/interestGroups/Aswin Asok.webp"
+      },
+      {
+        "id": "2",
+        "name": "Adil S ",
+        "college": "Govt. Engineering College,Idukki",
+        "images": "assets/interestGroups/Adil S.webp"
+      },
+      {
+        "id": "3",
+        "name": "Alwin John",
+        "college": "College of Engineering Chengannur,Alappuzha ",
+        "images": "assets/interestGroups/Alwin John .webp"
+      }
+    ],
+    "officetime": "Thursday 7:30 PM",
+    "officeplace": " @ Discord Lobby",
+    "thinktankplace": " @ Google Meet",
+    "thinktanktime": "Friday 7:00 PM",
+    "community": ["Pygrammers"],
+    "opportunities": [
+      "Full Stack Web Developer",
+      "Database Administrator",
+      "Frontend Developer",
+      "Web Designer",
+      "Backend Developer"
+    ],
+    "challenges": [
+      {
+        "id": "1",
+        "name": "Bring A Buisness Online",
+        "link": "https://awesome.mulearn.org/"
+      },
+      {
+        "id": "2",
+        "name": "The challenge is to build out a product preview card component ",
+        "link": "https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa"
+      },
+      {
+        "id": "3",
+        "name": "The challenge is to build out a preview card component",
+        "link": "https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U"
+      }
+    ],
+    "company": ["Travancore Analytics", "PITS"],
+    "pagination": [
+      {
+        "id": "iot",
+        "name": "< IoT"
+      },
+      {
+        "id": "android",
+        "name": "Android Development >"
+      }
+    ],
+    "mentors": ["Shaheen Hyder"],
+    "learningpaths": [
+      {
+        "name": "Front End Learning Path",
+        "link": "https://roadmap.sh/frontend"
+      },
+      {
+        "name": "Back End Learning Path",
+        "link": "https://roadmap.sh/backend"
+      },
+      {
+        "name": "Complete guide & resources",
+        "link": "https://denic.hashnode.dev/you-want-to-learn-html-and-css-but-dont-know-where-to-get-started"
+      }
+    ],
+    "mentorscard": [
+      {
+        "id": "S143",
+        "name": "Shaheen Hyder",
+        "designation": "Founder & CEO, Pygrammers",
+        "linkedIn": "https://www.linkedIn.com/in/shaheen-hyder/",
+        "stack": "Web Development",
+        "image": "https://drive.google.com/uc?export=view&id=1WZaPnWL4eFow4tcEE7FfBzgUnycNu2mT"
+      },
+      {
+        "id": "",
+        "name": "Arjun A G",
+        "designation": "Software Engineer Zoonida | Pygrammers",
+        "linkedIn": "https://www.linkedin.com/in/agarjun007/",
+        "stack": "Web Development",
+        "image": "/assets/mentors/Arjun A G.webp"
+      },
+      {
+        "id": "",
+        "name": "Binoop M J",
+        "designation": "User Interface Lead Faya",
+        "linkedIn": "https://www.linkedin.com/in/binoop-m-j",
+        "stack": "Web Development",
+        "image": "/assets/mentors/Binoop M J.webp"
+      }
+    ],
+    "basicenablementtasks": [],
+    "keywords": [
+      {
+        "id": "1",
+        "keyword": "Agile"
+      },
+      {
+        "id": "2",
+        "keyword": "Algorithm"
+      },
+      {
+        "id": "3",
+        "keyword": "API"
+      },
+      {
+        "id": "4",
+        "keyword": "Datastructure"
+      },
+      {
+        "id": "5",
+        "keyword": "Deployment"
+      },
+      {
+        "id": "6",
+        "keyword": "Domain Name"
+      },
+      {
+        "id": "7",
+        "keyword": "MVP"
+      },
+      {
+        "id": "8",
+        "keyword": "SSL"
+      }
+    ],
+    "blogs": [
+      {
+        "id": "1",
+        "name": "A List Apart",
+        "link": "https://alistapart.com/"
+      },
+      {
+        "id": "2",
+        "name": "Codrops",
+        "link": "https://tympanus.net/codrops/"
+      },
+      {
+        "id": "3",
+        "name": "CSS Author",
+        "link": "https://cssauthor.com/"
+      }
+    ],
+    "people": [
+      {
+        "id": "1",
+        "name": "Alex Sexton",
+        "link": "https://twitter.com/SlexAxton"
+      },
+      {
+        "id": "2",
+        "name": "Six Revisions",
+        "link": "https://twitter.com/sixrevisions"
+      },
+      {
+        "id": "3",
+        "name": "Tim Holman",
+        "link": "https://twitter.com/twholman"
+      },
+      {
+        "id": "4",
+        "name": "Freecodecamp",
+        "link": "https://twitter.com/freeCodeCamp"
+      },
+      {
+        "id": "5",
+        "name": "100Daysofcode",
+        "link": "https://twitter.com/_100DaysOfCode"
+      }
+    ],
+    "corecourses": [
+      {
+        "name": "Responsive Web Design",
+        "link": "/web/core/1",
+        "complexity": "",
+        "time": "",
+        "karma": "800"
+      },
+      {
+        "name": "Javascript Algorithms and Data Structure",
+        "link": "/web/core/2",
+        "complexity": "4",
+        "time": "",
+        "karma": "800"
+      },
+      {
+        "name": "Frontend Development",
+        "link": "/web/core/3",
+        "complexity": "4",
+        "time": "",
+        "karma": "800"
+      },
+      {
+        "name": "Backend Development and APIs",
+        "link": "/web/core/4",
+        "complexity": "4",
+        "time": "",
+        "karma": "800"
+      },
+      {
+        "name": "Django - Beginner Level",
+        "link": "/web/core/5",
+        "complexity": "4",
+        "time": "",
+        "karma": "400"
+      }
+    ],
+    "subcourses": [
+      {
+        "name": "Git and Github",
+        "link": "/web/sub/1",
+        "complexity": "3",
+        "time": "",
+        "karma": "200"
+      }
+    ],
+    "trendingprojects": [
+      {
+        "id": "1",
+        "name": "Progressive Web Apps (PWA)"
+      },
+      {
+        "id": "2",
+        "name": "Single Page Application (SPA)"
+      },
+      {
+        "id": "3",
+        "name": "Voice Search Optimization."
+      },
+      {
+        "id": "4",
+        "name": "Motion UI."
+      },
+      {
+        "id": "5",
+        "name": "Automation Testing"
+      }
+    ],
+    "resources": [
+      {
+        "id": "1",
+        "description": "Everything you need to know before getting started as a developer",
+        "link": "https://careerfoundry.com/en/blog/web-development/what-does-it-take-to-become-a-web-developer-everything-you-need-to-know-before-getting-started/"
+      }
+    ]
+  },
+  {
+    "id": "android",
+    "interestgroup": "Android Development",
+    "interestgroupdescription": "Everything is at your fingertips, and you still don't know the working and stages of android development. Have you ever thought of exploring? Don't worry; Join our Android Development Interest Group right away and start feeding your curious minds from the basics.",
+    "officetime": "Thursday 7:30PM",
+    "officeplace": " @ Discord Lobby",
+    "thinktankplace": " @ Google Meet",
+    "thinktanktime": "Wednesday 9:30 PM",
+    "community": ["Google"],
+    "opportunities": [
+      "Flutter Developer",
+      "Android Developer",
+      "React Native Developer"
+    ],
+    "company": ["Triassic Solutions", "PITS"],
+    "mentors": [1, 2, 3],
+    "mentorscard": [
+      {
+        "id": "S149",
+        "name": "Amrit Sanjeev",
+        "designation": "Staff Developer Advocate, Google",
+        "linkedIn": "https://www.linkedIn.com/in/amrit-sanjeev-a4984438/",
+        "stack": "Android Development",
+        "image": "https://www.fayaport80.com/speakers/thumb/amrit-sanjee.jpg"
+      },
+      {
+        "id": "S150",
+        "name": "Don Peter",
+        "designation": "Cofounder and CTO, Finotes Inc",
+        "linkedIn": "https://www.linkedIn.com/in/donpeter06/",
+        "stack": "Android Development",
+        "image": "/assets//mentors/Don-Peter.webp"
+      },
+      {
+        "id": "S157",
+        "name": "Sreehari K",
+        "designation": "Software Engineer, PITS Solutions",
+        "linkedIn": "https://www.linkedin.com/in/kariot/",
+        "stack": "Android Developer",
+        "image": "/assets//mentors/Sreehari K.webp"
+      },
+      {
+        "id": "S158",
+        "name": "Arun J",
+        "designation": " Codingo",
+        "stack": "Android Developer"
+      }
+    ],
+
+    "pagination": [
+      {
+        "id": "web",
+        "name": "< Web Development"
+      },
+      {
+        "id": "cybersec",
+        "name": "Cyber Security >"
+      }
+    ],
+    "learningpaths": [
+      {
+        "name": "Kotlin Learning Path",
+        "link": "https://kotlinlang.org/docs/home.html"
+      },
+      {
+        "name": "Firebase",
+        "link": "https://firebase.google.com/docs"
+      },
+      {
+        "name": "Database",
+        "link": "https://www.javatpoint.com/what-is-database"
+      },
+      {
+        "name": "Compose",
+        "link": "https://developer.android.com/jetpack/compose/tutorial"
+      }
+    ],
+    "basicenablementtasks": [],
+    "corecourses": [
+      {
+        "name": "Introduction to Kotlin",
+        "link": "/android/core/1",
+        "complexity": "",
+        "time": "",
+        "karma": "400"
+      },
+      {
+        "name": "Android Basics with Compose",
+        "link": "/bootcamps/ig/android",
+        "complexity": "",
+        "time": "",
+        "karma": "1200"
+      }
+    ],
+    "subcourses": [],
+    "blogs": [
+      {
+        "id": "0",
+        "name": "Google Dev Library",
+        "link": "https://devlibrary.withgoogle.com/products/android?sort=updated"
+      },
+      {
+        "id": "1",
+        "name": "Android Developers Blog",
+        "link": "https://android-developers.googleblog.com/"
+      },
+      {
+        "id": "2",
+        "name": "Android Guys",
+        "link": "https://www.androidguys.com/"
+      },
+      {
+        "id": "3",
+        "name": "gizmodo",
+        "link": "https://gizmodo.com/tag/android"
+      },
+      {
+        "id": "4",
+        "name": "Vogella",
+        "link": "https://www.vogella.com/tutorials/android.html"
+      },
+      {
+        "id": "5",
+        "name": "Android",
+        "link": "https://source.android.com/"
+      },
+      {
+        "id": "6",
+        "name": "Android Police",
+        "link": "https://www.androidpolice.com/"
+      },
+      {
+        "id": "7",
+        "name": "tutsplus",
+        "link": "https://code.tutsplus.com/categories/android"
+      },
+      {
+        "id": "8",
+        "name": "Android Arsenal",
+        "link": "https://android-arsenal.com/"
+      },
+      {
+        "id": "9",
+        "name": "bongizmo",
+        "link": "https://www.bongizmo.com/blog/android-resources-each-developer-should-know/"
+      }
+    ],
+    "people": [
+      {
+        "id": "1",
+        "name": "Jake Wharton",
+        "link": "https://twitter.com/JakeWharton"
+      },
+      {
+        "id": "2",
+        "name": "Chiu-Ki Chan",
+        "link": "https://twitter.com/chiuki"
+      },
+      {
+        "id": "3",
+        "name": "Kaushik Gopal",
+        "link": "https://twitter.com/kaushikgopal"
+      },
+      {
+        "id": "4",
+        "name": "Andy Rubin",
+        "link": "https://twitter.com/Arubin"
+      },
+      {
+        "id": "5",
+        "name": "Juhani Lehtimäki",
+        "link": "https://twitter.com/lehtimaeki"
+      },
+      {
+        "id": "6",
+        "name": "Xavier Ducrohet",
+        "link": "https://twitter.com/droidxav"
+      },
+      {
+        "id": "7",
+        "name": "Amrit Sanjeev",
+        "link": "https://twitter.com/amsanjeev"
+      },
+      {
+        "id": "8",
+        "name": "Dave Smith",
+        "link": "https://twitter.com/devunwired"
+      },
+      {
+        "id": "9",
+        "name": "Chris Banes",
+        "link": "https://twitter.com/chrisbanes"
+      },
+      {
+        "id": "10",
+        "name": "Romain Guy",
+        "link": "https://twitter.com/romainguy"
+      }
+    ],
+    "challenges": [
+      {
+        "id": "1",
+        "name": "Build a Todo App",
+        "link": "null"
+      },
+      {
+        "id": "2",
+        "name": "Kotlin Quiz",
+        "link": "https://kotlinquiz.com/"
+      },
+      {
+        "id": "3",
+        "name": "First App in Kotlin",
+        "link": "https://www.raywenderlich.com/30498263-your-first-kotlin-android-app-an-app-from-scratch"
+      },
+      {
+        "id": "4",
+        "name": "build a simple app that will serve up some fun facts when you tap on a button.",
+        "link": "https://teamtreehouse.com/library/build-a-simple-android-app-with-kotlin"
+      }
+    ],
+    "leads": [
+      {
+        "id": "1",
+        "name": "Mariya Merlin ",
+        "images": "assets/interestGroups/mariya.webp",
+        "college": "Kristujyoti College of Management and Technology, Changannacherry"
+      },
+      {
+        "id": "2",
+        "name": "Ben George Netto",
+        "college": "Mar Baselios College of Engineering and Technology, Trivandrum",
+        "images": "assets/interestGroups/ben.webp"
+      }
+    ],
+    "resources": [
+      {
+        "id": "1",
+        "link": "https://www.youtube.com/watch?v=x0uinJvhNxI",
+        "name": "Flutter"
+      },
+      {
+        "id": "2",
+        "link": "https://youtu.be/3xyDEw3iVo4",
+        "name": "Flutter"
+      }
+    ]
+  },
+  {
+    "comingsoon": true,
+    "id": "qa",
+    "interestgroup": "Quality Assurance",
+    "interestgroupdescription": "\"Join our Quality Assurance Interest Group to learn and collaborate with peers on best practices for measuring and improving product quality. Discover new testing strategies and Quality Assurance frameworks to ensure your products meet the highest standards of excellence.\"",
+    "officetime": "",
+    "officeplace": "",
+    "thinktankplace": "",
+    "thinktanktime": "",
+    "community": [],
+    "opportunities": ["QA Analyst/Trainee Tester"],
+    "company": ["Faya"],
+    "mentors": ["Lavanya RK", "Mohammad Zaheer", "Saran Kumar S"],
+    "mentorscard": [
+      {
+        "id": "S137",
+        "name": "Mohammad Zaheer",
+        "designation": "Faya",
+        "linkedIn": "https://www.linkedin.com/in/mohammedzaheerulla/",
+        "stack": "Quality Assurance",
+        "image": "https://media.licdn.com/dms/image/C5603AQGCLTRDz2a2Qg/profile-displayphoto-shrink_200_200/0/1660308905062?e=1683763200&v=beta&t=QXAep8pfJtXzeVNrmBDUI5HqKsv0cDmZDCdHIrLB3wY"
+      },
+      {
+        "id": "S137",
+        "name": "Saran Kumar S",
+        "designation": "Faya",
+        "linkedIn": "https://www.linkedin.com/in/saran-krishna-n-a58b191a4/",
+        "stack": "Quality Assurance",
+        "image": "https://media.licdn.com/dms/image/D5603AQFoPOdS5W6CkQ/profile-displayphoto-shrink_200_200/0/1674936777472?e=1683763200&v=beta&t=ACquU4WWWfO-FRk-LHj7cdMpJ30DxAY2k5ah5bpDT2k"
+      },
+      {
+        "id": "S137",
+        "name": "Lavanya RK",
+        "designation": "UST Global",
+        "linkedIn": "https://www.linkedin.com/in/lavanya-rk-b5a432162/",
+        "stack": "Quality Assurance",
+        "image": "/assets/mentors/LavanyaRK.jpg"
+      }
+    ],
+    "pagination": [
+      {
+        "id": "cybersec",
+        "name": "< Cyber Security"
+      },
+      {
+        "id": "ux",
+        "name": "UI/ux >"
+      }
+    ],
+    "learningpaths": [
+      {
+        "name": "QA Engineer",
+        "link": "https://roadmap.sh/qa"
+      },
+      {
+        "name": "Complete guide & resources ",
+        "link": "https://www.guru99.com/software-testing.html"
+      }
+    ],
+    "basicenablementtasks": [
+      {
+        "name": "Task To Do",
+        "link": "https://docs.google.com/document/d/1Q8G_wIznrMtC2AoRs-HBsI6au_sMMM7xn5TbgeKpq7o/edit",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Manual Testing Aptitude Test",
+        "link": "https://docs.google.com/document/d/1pwossVnWRHrAGRAFIJLuMmon4g07Gy-qvA9JoUgQnnA/edit",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Preparation of Test Scenarios for the following ",
+        "link": "https://docs.google.com/document/d/12qll9PR9grAwa8KhiHQSBSEu-K-rD84_6IO2HCtmohc/edit?usp=sharing",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Preparation of TestCases for the Live Ecommerce Project For the Following Test Scenarios that is Given",
+        "link": "https://docs.google.com/document/d/1qffIMcQGSbzyTBUSGuTJLl92qHTCRFdngIPaLb2ErqI/edit?usp=sharing",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      }
+    ],
+    "corecourses": [
+      {
+        "name": "Manual Software Testing with Live Example",
+        "link": "https://www.youtube.com/playlist?list=PLUDwpEzHYYLseflPNg0bUKfLmAbO2JnE9",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Jira Agile Methodology",
+        "link": "https://www.youtube.com/playlist?list=PLUDwpEzHYYLunEaoMz6Ucn7NXfZ3A0_bf",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "ISTQB Certification -QA Manual",
+        "link": "https://www.youtube.com/watch?v=Wb-g7tPO2Gw&list=PLUDwpEzHYYLsMt3L4MnvmsL_DhxUNTW6J",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      }
+    ],
+    "subcourses": [
+      {
+        "name": "Basics of SQL for Testers",
+        "link": "https://www.youtube.com/playlist?list=PLUDwpEzHYYLt0aRs7gvyEEviMp_CoTO3q",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "API Testing for Begineers using Postman",
+        "link": "https://www.youtube.com/playlist?list=PLUDwpEzHYYLt3kLIHDLVjdnmJw7BDvVdE",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Jmeter Basics",
+        "link": "https://www.youtube.com/playlist?list=PLUDwpEzHYYLs33uFHeIJo-6eU92IoiMZ7",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Java for Selenium(For Automation Testing)",
+        "link": "https://www.youtube.com/playlist?list=PLUDwpEzHYYLv9v8aRuNi67vZ81cW2ksze",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Selenium",
+        "link": "https://www.youtube.com/playlist?list=PLUDwpEzHYYLs6G9WOfFxiH5zMfgNxgmSV",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      }
+    ]
+  },
+  {
+    "id": "flutter",
+    "interestgroup": "Flutter",
+    "interestgroupdescription": "Flutter is an open-source mobile application development framework created by Google. It allows developers to build native applications for Android, iOS, and other platforms using a single codebase. Flutter uses the Dart programming language, which was also developed by Google, and provides a rich set of pre-built widgets and tools for building beautiful, fast, and responsive user interfaces.",
+    "officetime": " Friday 9.00 PM",
+    "officeplace": " @ Discord Lobby",
+    "thinktankplace": " @ Google Meet",
+    "thinktanktime": " Thursday 9:30 PM",
+    "community": [],
+    "opportunities": [
+      "Android developer",
+      "Ios Developer",
+      "Ui designer",
+      "Frontend developer"
+    ],
+    "company": [],
+    "pagination": [
+      {
+        "id": "ai",
+        "name": "< Artificial Intelligence"
+      },
+      {
+        "id": "civil",
+        "name": "Civil Engineering >"
+      }
+    ],
+    "learningpaths": [
+      {
+        "id": "1",
+        "name": "Dart Language Tour",
+        "link": "https://dart.dev/guides/language/language-tour"
+      },
+      {
+        "id": "2",
+        "name": "Language Tour For Seasoned Programmer",
+        "link": "https://gist.github.com/mipsmonsta/6ea53319d43564b1b72859da68924dc7#file-abridged_dart_lang_tour-txt"
+      },
+      {
+        "id": "3",
+        "name": "Roadmap",
+        "link": "https://roadmap.sh/flutter"
+      },
+      {
+        "id": "4",
+        "name": "Dart in 100 Seconds",
+        "link": "https://www.youtube.com/watch?v=NrO0CJCbYLA"
+      }
+    ],
+    "basicenablementtasks": [
+      {
+        "name": "The Story of me",
+        "link": "https://medium.com/geekculture/dart-programming-tutorial-variables-and-data-types-87440ee1ea94",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Sum it up",
+        "link": "https://medium.com/geekculture/dart-programming-tutorial-string-interpolation-and-concatenation-c512a6cd9286",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "BasiCulator",
+        "link": "https://medium.com/geekculture/dart-programming-tutorial-basic-operators-663bab979b01",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "BasiCulator",
+        "link": "https://medium.com/geekculture/dart-programming-tutorial-conditional-statement-72f86dd78004",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Sumplier Madness",
+        "link": "https://medium.com/geekculture/dart-programming-tutorial-loops-6ba26863aafd",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Function Fusioner",
+        "link": "https://medium.com/geekculture/dart-programming-tutorial-functions-4c37a7e8a674",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Function Fusioner",
+        "link": "https://medium.com/geekculture/dart-programming-tutorial-collection-types-list-map-and-set-d596d1e7bc78",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Vroom Companion",
+        "link": "https://medium.com/geekculture/dart-programming-tutorial-object-oriented-programming-using-classes-48be44cbe095",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Vroom Companion",
+        "link": "https://www.javatpoint.com/dart-object-oriented-concepts",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "FlutterProfile",
+        "link": "",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      }
+    ],
+    "corecourses": [
+      {
+        "id": "1",
+        "name": "Dart",
+        "link": "https://www.youtube.com/watch?v=F3JuuYuOUK4",
+        "difficulty": "",
+        "karma": "Not Announced"
+      },
+      {
+        "id": "2",
+        "name": "Dart",
+        "link": "https://www.youtube.com/watch?v=uZvoTCSsfjo&list=PLptHs0ZDJKt_fLp8ImPQVc1obUJKDSQL7",
+        "difficulty": "",
+        "karma": "Not Announced"
+      },
+      {
+        "id": "3",
+        "name": "Flutter",
+        "link": "https://youtu.be/VPvVD8t02U8",
+        "karma": "Not Announced"
+      },
+      {
+        "id": "4",
+        "name": "Flutter",
+        "link": "https://www.youtube.com/channel/UCw2IfXRCHaYryORhBICp8QA",
+
+        "karma": "Not Announced"
+      }
+    ],
+
+    "topkeywords": [
+      {
+        "name": "Widgets"
+      },
+      {
+        "name": "Material Design"
+      },
+      {
+        "name": "Cupertino "
+      },
+      {
+        "name": "Stateful and Stateless widgets"
+      },
+      {
+        "name": "Flutter packages"
+      },
+      {
+        "name": "Flutter Web"
+      },
+      {
+        "name": "Flutter Desktop"
+      }
+    ],
+    "otherresources": [
+      {
+        "id": "1",
+        "name": "Podcast",
+        "link": "https://player.fm/series/flying-high-with-flutter"
+      },
+      {
+        "id": "2",
+        "name": "Podcast",
+        "link": "https://flutter101.dev/"
+      },
+      {
+        "id": "3",
+        "name": "Tips & Tricks",
+        "link": "https://www.youtube.com/watch?v=5vDq5DXXxss"
+      }
+    ],
+    "bestblogstofollow": [
+      {
+        "id": "1",
+        "name": "Flutter – Medium",
+        "link": "https://medium.com/flutter"
+      },
+      {
+        "id": "2",
+        "name": "Flutter Community – Medium",
+        "link": "https://medium.com/flutter-community"
+      },
+      {
+        "id": "3",
+        "name": "Fireship- Flutter",
+        "link": "https://fireship.io/tags/flutter/"
+      }
+    ],
+    "toppeopletofollow": [
+      {
+        "id": "1",
+        "name": "Tim Sneath",
+        "link": "https://twitter.com/timsneath"
+      },
+      {
+        "id": "2",
+        "name": "Eric Seidal",
+        "link": "https://twitter.com/_eseidel"
+      },
+      {
+        "id": "3",
+        "name": "Flutter",
+        "link": "https://twitter.com/FlutterDev"
+      }
+    ],
+    "leads": [
+      {
+        "id": 1,
+        "name": "Muhammed R",
+        "college": "St Thomas institute for Science and technology, TVM",
+        "images": "assets/interestGroups/Muhammed-R.webp",
+        "linkedIn": "https://www.linkedin.com/in/muhammed-r"
+      },
+      {
+        "id": 2,
+        "name": "Basith P",
+        "college": "KMCT College of Engineering, Kozhikode",
+        "images": "assets/interestGroups/Basith P.webp",
+        "linkedIn": "https://www.linkedin.com/in/basithp9/"
+      },
+      {
+        "id": 3,
+        "name": "Arfaz Khan Hijas Khan",
+        "college": "AWH Engineering College Kozhikode",
+        "images": "",
+        "linkedIn": ""
+      }
+    ]
+  }
+]
