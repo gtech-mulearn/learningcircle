@@ -459,7 +459,7 @@ const InterestGroups = [
       {
         id: "/innovationentre/pm",
         description:
-          "\"Product Management is deciding what to build next”. Are you interested in learning to build the right product and the product right? Join our “Product Management” Interest Group to learn and collaborate with peers.",
+          '"Product Management is deciding what to build next”. Are you interested in learning to build the right product and the product right? Join our “Product Management” Interest Group to learn and collaborate with peers.',
         name: "Product Management",
         link: "/innovationentre/pm",
         officetime: "Tuesday 8:30PM",
@@ -470,19 +470,19 @@ const InterestGroups = [
         description:
           "Join Innovation and Entrepreneurship today to experience the joy of building something unique, taking risks, and making good decisions. Drive innovation by introducing new ideas and utilizing cutting-edge technology to solve problems and meet customer needs.",
         name: "Innovation & Entrepreneurship",
-        link:  "/innovationentre/innovent",
+        link: "/innovationentre/innovent",
         officetime: "Friday 10:00 PM",
         officeplace: " @ Discord Lobby",
       },
       {
         id: "/innovationentre/projectmanagment",
         description:
-          'Effective project management involves setting goals, creating a plan, and coordinating resources to ensure successful project completion. Join our interest group to learn more about these techniques and best practices.',
+          "Effective project management involves setting goals, creating a plan, and coordinating resources to ensure successful project completion. Join our interest group to learn more about these techniques and best practices.",
         name: "Project Management",
         link: "/innovationentre/projectmanagment",
         officetime: "Thursday 6:30 PM",
         officeplace: " @ Discord Lobby",
-      }
+      },
     ],
     subcourses: [
       // {
@@ -513,255 +513,62 @@ const InterestGroups = [
     ],
   },
   {
-    comingsoon: false,
-    id: "ux",
-    interestgroup: "User Experience (UX)",
+    comingsoon: true,
+    hassubgroups: true,
+    id: "uiuxcreative",
+    interestgroup: "UI UX Creative Design",
     interestgroupdescription:
-      "Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.",
-    officetime: "Saturday 8:00 PM",
-    officeplace: " @ Discord Lobby ",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Friday 6:00 PM",
-    community: ["GDSC MBCET"],
-    opportunities: [
-      "User Interface (UI) Designer",
-      "User Experience (ux) Designer",
-    ],
-    company: ["Faya", "Experion Technologies"],
-    pagination: [
-      {
-        id: "pm",
-        name: "< Product Management",
-      },
-      {
-        id: "arvr",
-        name: "AR/VR >",
-      },
-    ],
-    mentors: [
-      "Michael Mathews",
-      "Salman Faariz",
-      "Rhea Merin",
-      "Navaneeth Venu",
-    ],
-    learningpaths: [
-      {
-        name: "How to be a ux Designer?",
-        link: "https://brainstation.io/career-guides/how-to-become-a-ux-designer",
-      },
-      {
-        name: "How to be a UI Designer?",
-        link: "https://brainstation.io/career-guides/how-to-become-a-ui-designer.",
-      },
-    ],
-    leads: [
-      {
-        id: 1,
-        name: "Salman Faariz",
-        college:
-          "Mar Baselios College of Engineering and Technology,Trivandrum",
-        images: "assets/interestGroups/Salman Faariz.webp ",
-        linkedIn: "https://www.linkedIn.com/in/salman-faariz-37b892194",
-      },
-    ],
-    mentorscard: [
-      {
-        id: "S139",
-        name: "Michael Mathews",
-        designation: "Independent consultant, TCS",
-        linkedIn: "https://www.linkedIn.com/in/michaelmathewsk",
-        stack: "UI ux",
-        image:
-          "https://drive.google.com/uc?export=view&id=1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I",
-      },
-      {
-        id: "S51",
-        name: "Madhav M Nair",
-        designation: "User Experience Designer,  Jio Tesseract",
-        stack: "AR / VR / MR / CR",
-        image: "https://www.fayaport80.com/speakers/thumb/Madhav-M-Nair.jpg",
-        linkedIn: "https://www.linkedIn.com/in/madhavmnair/",
-      },
-      {
-        id: "S140",
-        name: "Salman Faariz",
-        designation: "Program Associate, GTech µLearn",
-        linkedIn: "https://www.linkedIn.com/in/salman-faariz-37b892194",
-        stack: "UI ux",
-        image:
-          "https://drive.google.com/uc?export=view&id=1oNK1QekGS6xhNU50317onjvEc82RNQ4s",
-      },
-      {
-        id: "S141",
-        name: "Rhea Merin",
-        designation: "Program Associate, GTech µLearn ",
-        linkedIn: "https://www.linkedIn.com/in/rheamerin",
-        stack: "UI ux",
-        image:
-          "https://drive.google.com/uc?export=view&id=1XGaSobjiNegNPTtpNSsL58aes9PN7XJ6",
-      },
-      {
-        id: "S142",
-        name: "Navaneeth Venu",
-        designation: "Design Lead, GDSC MBCET",
-        linkedIn: "https://www.linkedIn.com/in/navaneethvenu",
-        stack: "UI ux",
-        image:
-          "https://drive.google.com/uc?export=view&id=1wGokGAMruQul49It6LmMeMv_aaV-VN2R",
-      },
-    ],
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
 
     basicenablementtasks: [],
-    corecourses: [
+    learningpaths: [],
+    corecourses: [],
+
+    coretracks: [
       {
-        name: "Product Design By Google",
-        link: "/ux/core/1",
-        complexity: "",
-        time: "",
-        karma: "400",
+        id: "/uiuxcreative/ux",
+        description:
+          'Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to? Join our interest group to learn with others with shared interests and get mentored by expert individuals.',
+        name: "User Experience (UX)",
+        link: "/uiuxcreative/ux",
+        officetime: "Saturday 8:00 PM",
+        officeplace: " @ Discord Lobby",
       },
       {
-        name: "Introduction to User Experience Design",
-        link: "/ux/core/2",
-        complexity: "",
-        time: "",
-        karma: "400",
+        id: "/uiuxcreative/creativedesign",
+        description:
+          "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
+        name: "Creative Design",
+        link: "/uiuxcreative/creativedesign",
+        officetime: "Tuesday 6:00pm",
+        officeplace: " @ Discord Lobby",
       },
     ],
     subcourses: [
+      // {
+      //   id: "",
+      //   name: "",
+      //   link: "",
+      // },
+    ],
+    mentorscard: [
       {
-        name: "Figma Ultimate Crash Course",
-        link: "/ux/sub/1",
-        complexity: "",
-        time: "",
-        karma: "200",
+        id: "",
+        name: "",
+        designation: "",
+        linkedIn: "",
+        stack: "",
+        image: "",
       },
     ],
-    keywords: [
+    pagination: [
       {
-        id: "1",
-        keyword: "User-Centered Design.",
+        id: "blockchain",
+        name: "< Blockchain",
       },
       {
-        id: "2",
-        keyword: "Wireframes",
-      },
-      {
-        id: "3",
-        keyword: "Interaction Design",
-      },
-      {
-        id: "4",
-        keyword: "Storyboarding",
-      },
-      {
-        id: "5",
-        keyword: "User Interface Design",
-      },
-      {
-        id: "6",
-        keyword: "Figma",
-      },
-      {
-        id: "7",
-        keyword: "Prototype",
-      },
-      {
-        id: "8",
-        keyword: "Adobe XD",
-      },
-    ],
-    blogs: [
-      {
-        id: "1",
-        name: "Interaction Design",
-        link: "https://www.interaction-design.org/literature",
-      },
-      {
-        id: "2",
-        name: "UX Design",
-        link: "https://uxdesign.cc/",
-      },
-      {
-        id: "2",
-        name: "The UX Collective Newsletter",
-        link: "https://newsletter.uxdesign.cc/",
-      },
-    ],
-    people: [
-      {
-        id: "1",
-        name: "Two Habits Design",
-        link: "https://www.instagram.com/twohabitsdesign/",
-      },
-      {
-        id: "2",
-        name: "UI UX Web Design Inspiration",
-        link: "https://www.instagram.com/dailywebdesign/",
-      },
-      {
-        id: "3",
-        name: "Zander Whitehurst",
-        link: "https://www.instagram.com/zanderwhitehurst/",
-      },
-      {
-        id: "4",
-        name: "Yaël Levey",
-        link: "https://twitter.com/yaellevey",
-      },
-    ],
-    challenges: [
-      {
-        id: "1",
-        name: "Create Hambuger Animation in Figma",
-      },
-      {
-        id: "2",
-        name: "Create Loding Animation in Figma",
-      },
-      {
-        id: "3",
-        name: "100 Daily UI Challenge (Community) – Figma",
-        link: "https://www.figma.com/file/qy2lGPLBBko6asJA0uxLAO/100-Daily-UI-Challenge-(Community)?node-id=0%3A1",
-      },
-      {
-        id: "4",
-        name: "DailyUI – A list of every DailyUI design challenge · GitHub",
-        link: "https://gist.github.com/Pustur/3b2bee790d2c8a966136d76a9157d5e4",
-      },
-    ],
-    trendingprojects: [
-      {
-        id: "1",
-        name: "Abstract Data Visualization",
-      },
-      {
-        id: "2",
-        name: "Surreal Product Photographs",
-      },
-      {
-        id: "3",
-        name: "Realistic Textures",
-      },
-      {
-        id: "4",
-        name: "Illustrated Animations",
-      },
-      {
-        id: "5",
-        name: "Air Gesture Control",
-      },
-      {
-        id: "6",
-        name: "Voice User Interface",
-      },
-    ],
-    resources: [
-      {
-        id: "1",
-        name: "Assignment by Cleartrip",
-        description: "",
-        link: "https://www.designassignments.com/assignments?recordId=recwTp10P14EIBQ2g",
+        id: "clouddevops",
+        name: "Cloud & DevOps >",
       },
     ],
   },
@@ -1493,37 +1300,6 @@ const InterestGroups = [
     ],
   },
 
-  {
-    id: "creativedesign",
-    interestgroup: "Creative Design",
-    interestgroupdescription:
-      "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
-    officetime: "Tuesday 6:00pm",
-    comingsoon: true,
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Monday 6:00 PM",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "innovation",
-        name: "< Innovation",
-      },
-      {
-        id: "marketing",
-        name: "Marketing >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
-  },
   {
     id: "digitalmarketing",
     interestgroup: "Digital Marketing",
