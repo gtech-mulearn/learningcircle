@@ -1,0 +1,271 @@
+[
+  {
+    "id": "iot",
+    "interestgroup": "Internet Of Things",
+    "interestgroupdescription": "Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the fan above your head, almost everything can be connected and controlled automatically. But How? Join our IoT Interest Group to learn how this can be achieved.",
+    "leads": [
+      {
+        "id": 1,
+        "name": "Muhammed R",
+        "college": "St Thomas institute for science and technology,tvm",
+        "images": "assets/interestGroups/Muhammed-R.webp"
+      },
+      {
+        "id": 2,
+        "name": "Abhiramkrishna R S",
+        "college": "Mar Baselios College of Engineering and Technology,tvm",
+        "images": ""
+      },
+      {
+        "id": 3,
+        "name": "Abhiramkrishna R S",
+        "college": "KJCMT",
+        "images": ""
+      },
+      {
+        "id": 4,
+        "name": "Abhishek V Gopal",
+        "college": "KJCMT",
+        "images": ""
+      }
+    ],
+    "officetime": "Sunday 7:30 PM",
+    "officeplace": " @ Discord Lobby",
+    "thinktankplace": " @ Google Meet",
+    "thinktanktime": "Saturday 7:30 PM",
+    "community": ["Fox Lab"],
+    "opportunities": [
+      "EY Hiring IoT",
+      "IoT Robotics Specialist",
+      "IoT Solutions Architect",
+      "Robotics Technician"
+    ],
+    "basicenablementtasks": [],
+    "company": ["Thinkpalm"],
+    "mentors": [
+      "Jaseel (Technical Program Manager - MakerGhat)",
+      "Vijay Kumar M (CEO & MD - Webyfy Infotech Pvt Ltd)",
+      "Sanju Mathew (Chief Executive Officer - Codeofduty)",
+      "Akshai M (Embedded Software Engineer - STABL Energy GmbH)",
+      "Samuel John (Co-Founder & CEO - mistEO)"
+    ],
+    "pagination": [
+      {
+        "id": "innovation",
+        "name": "< Innovation"
+      },
+      {
+        "id": "web",
+        "name": "Web Development >"
+      }
+    ],
+    "mentorscard": [
+      {
+        "id": "S131",
+        "name": "Muhammad Jaseel P",
+        "designation": "Technical Program Manager, MakerGhat",
+        "linkedIn": "https://www.linkedIn.com/in/jaseelpmuhammed",
+        "stack": "IoT",
+        "image": "https://drive.google.com/uc?export=view&id=1KrUz1CAL29aFXvbP7uuP7wFVDUqJizTm"
+      },
+      {
+        "id": "S132",
+        "name": "Vijay Kumar M",
+        "designation": "CEO & MD, Webyfy Infotech Pvt Ltd",
+        "linkedIn": "https://www.linkedIn.com/in/vijay-kumar-m-04818b",
+        "stack": "IoT",
+        "image": "https://drive.google.com/uc?export=view&id=1YibTLgWRtYOcp74rQkstBCcRY44m2QhM"
+      },
+      {
+        "id": "S133",
+        "name": "Sanju Mathew",
+        "designation": "Chief Executive Officer, Codeofduty",
+        "linkedIn": "https://www.linkedIn.com/in/sanjumathewk",
+        "stack": "IoT",
+        "image": "https://drive.google.com/uc?export=view&id=1lCpWwGNe-xsEJPqOn3JBYRfmINRJ0Uo3"
+      },
+      {
+        "id": "S134",
+        "name": "Akshai M",
+        "designation": "Embedded Software Engineer, STABL Energy GmbH",
+        "linkedIn": "https://www.linkedIn.com/in/akshaim",
+        "stack": "IoT",
+        "image": "assets/mentors/Akshai M.webp"
+      },
+      {
+        "id": "S135",
+        "name": "Samuel John",
+        "designation": "Co-Founder & CEO, mistEO",
+        "linkedIn": "https://www.linkedIn.com/in/samuel-john-misteo",
+        "stack": "IoT",
+        "image": "/assets/mentors/Samuel John.webp"
+      }
+    ],
+    "learningpaths": [
+      {
+        "name": "How to become an IoT developer",
+        "link": "https://www.techrepublic.com/article/how-to-become-an-iot-developer-6-tips/"
+      }
+    ],
+    "corecourses": [
+      {
+        "id": "1",
+        "name": "Kerala IoT Challenge Level 1 ",
+        "link": "/iot/core/1",
+        "time": "10 Hours",
+        "complexity": "7",
+        "karma": "400"
+      },
+      {
+        "id": "2",
+        "name": "Kerala IoT Challenge Level 2",
+        "link": "/iot/core/2",
+        "time": "12 Hours",
+        "complexity": "8",
+        "karma": "800"
+      },
+      {
+        "id": "2",
+        "name": "Introduction to IOT - Cisco Networking Acdemy",
+        "link": "/iot/core/2",
+        "time": "20 Hours",
+        "complexity": "6",
+        "karma": "800"
+      }
+    ],
+    "subcourses": [
+      {
+        "name": "Arduino Swayam Portal ",
+        "link": "https://onlinecourses.swayam2.ac.in/aic20_sp04/preview"
+      }
+    ],
+    "keywords": [
+      {
+        "id": "1",
+        "keyword": "Mobile IoT (MIoT)"
+      },
+      {
+        "id": "2",
+        "keyword": "Bluetooth Low Energy (BLE)"
+      },
+      {
+        "id": "3",
+        "keyword": "IoT Protocol"
+      },
+      {
+        "id": "4",
+        "keyword": "Global Navigation Satellite System (GNSS)"
+      },
+      {
+        "id": "5",
+        "keyword": "Narrowband IoT (NB-IoT)"
+      },
+      {
+        "id": "6",
+        "keyword": "Quality of Service (QoS)"
+      },
+      {
+        "id": "7",
+        "keyword": "Mesh Network"
+      },
+      {
+        "id": "8",
+        "keyword": "Telematics."
+      }
+    ],
+    "blogs": [
+      {
+        "id": "1",
+        "name": "The Need for Universal Standards in IoT",
+        "link": "https://intellipaat.com/blog/need-universal-standards-internet-things/"
+      },
+      {
+        "id": "2",
+        "name": "Youtube Video by Jayashankar",
+        "link": "https://www.youtube.com/c/Scicopath"
+      },
+      {
+        "id": "3",
+        "name": "MakerGram",
+        "link": "https://makergram.com/community/"
+      }
+    ],
+    "people": [
+      {
+        "id": "1",
+        "name": "Dr. Sally Eaves",
+        "link": "https://twitter.com/sallyeaves"
+      },
+      {
+        "id": "2",
+        "name": "Elitsa Krumova",
+        "link": "https://twitter.com/Eli_Krumova"
+      },
+      {
+        "id": "3",
+        "name": "Chris Anderson",
+        "link": "https://twitter.com/chr1sa"
+      },
+      {
+        "id": "4",
+        "name": "Stacey Higginbotham",
+        "link": "https://twitter.com/gigastacey"
+      }
+    ],
+    "challenges": [
+      {
+        "id": "1",
+        "name": "Iot-Labs Challenge",
+        "link": "https://github.com/ACANETS/iot-labs"
+      },
+      {
+        "id": "2",
+        "name": "Project Hub Challenges",
+        "link": "https://create.arduino.cc/projecthub/projects/tags/iot"
+      },
+      {
+        "id": "3",
+        "name": "Write a Blog on Furture of IoT"
+      }
+    ],
+    "trendingprojectsprojects": [
+      {
+        "id": "1",
+        "name": "Get started developing IoT solutions by building a simple home automation system",
+        "link": "https://developer.ibm.com/tutorials/iot-lp101-get-started-develop-iot-home-automation/"
+      },
+      {
+        "id": "2",
+        "name": "Mining Worker Safety Helmet"
+      },
+      {
+        "id": "3",
+        "name": "Smart Cradle System"
+      },
+      {
+        "id": "4",
+        "name": "Smart Traffic Management System"
+      },
+      {
+        "id": "5",
+        "name": "Air Pollution Monitoring System"
+      },
+      {
+        "id": "6",
+        "name": "Smart Energy Grid"
+      }
+    ],
+    "otherresources": [
+      {
+        "id": "1",
+        "name": "Learn C Language",
+        "link": "https://www.studytonight.com/c/"
+      },
+      {
+        "id": "2",
+        "name": "Learn Python",
+        "link": "https://www.studytonight.com/python//"
+      }
+    ]
+  }
+]

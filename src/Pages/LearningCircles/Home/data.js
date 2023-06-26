@@ -1,276 +1,52 @@
 const InterestGroups = [
   {
-    id: "iot",
-    interestgroup: "Internet Of Things",
+    comingsoon: true,
+    hassubgroups: true,
+    id: "iotrf",
+    interestgroup: "IoT Robotics and Digital Fabrications",
     interestgroupdescription:
-      "Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the fan above your head, almost everything can be connected and controlled automatically. But How? Join our IoT Interest Group to learn how this can be achieved.",
-    leads: [
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+
+    basicenablementtasks: [],
+    learningpaths: [],
+    corecourses: [],
+
+    coretracks: [
       {
-        id: 1,
-        name: "Muhammed R",
-        college: "St Thomas institute for science and technology,tvm",
-        images: "assets/interestGroups/Muhammed-R.webp",
-      },
-      {
-        id: 2,
-        name: "Abhiramkrishna R S",
-        college: "Mar Baselios College of Engineering and Technology,tvm",
-        images: "",
-      },
-      {
-        id: 3,
-        name: "Abhiramkrishna R S",
-        college: "KJCMT",
-        images: "",
-      },
-      {
-        id: 4,
-        name: "Abhishek V Gopal",
-        college: "KJCMT",
-        images: "",
-      },
-    ],
-    officetime: "Sunday 7:30 PM",
-    officeplace: " @ Discord Lobby",
-    thinktankplace: " @ Google Meet",
-    thinktanktime: "Saturday 7:30 PM",
-    community: ["Fox Lab"],
-    opportunities: [
-      "EY Hiring IoT",
-      "IoT Robotics Specialist",
-      "IoT Solutions Architect",
-      "Robotics Technician",
-    ],
-    basicenablementtasks: [
- 
-    ],
-    company: ["Thinkpalm"],
-    mentors: [
-      "Jaseel (Technical Program Manager - MakerGhat)",
-      "Vijay Kumar M (CEO & MD - Webyfy Infotech Pvt Ltd)",
-      "Sanju Mathew (Chief Executive Officer - Codeofduty)",
-      "Akshai M (Embedded Software Engineer - STABL Energy GmbH)",
-      "Samuel John (Co-Founder & CEO - mistEO)",
-    ],
-    pagination: [
-      {
-        id: "innovation",
-        name: "< Innovation",
-      },
-      {
-        id: "web",
-        name: "Web Development >",
-      },
-    ],
-    mentorscard: [
-      {
-        id: "S131",
-        name: "Muhammad Jaseel P",
-        designation: "Technical Program Manager, MakerGhat",
-        linkedIn: "https://www.linkedIn.com/in/jaseelpmuhammed",
-        stack: "IoT",
-        image:
-          "https://drive.google.com/uc?export=view&id=1KrUz1CAL29aFXvbP7uuP7wFVDUqJizTm",
-      },
-      {
-        id: "S132",
-        name: "Vijay Kumar M",
-        designation: "CEO & MD, Webyfy Infotech Pvt Ltd",
-        linkedIn: "https://www.linkedIn.com/in/vijay-kumar-m-04818b",
-        stack: "IoT",
-        image:
-          "https://drive.google.com/uc?export=view&id=1YibTLgWRtYOcp74rQkstBCcRY44m2QhM",
-      },
-      {
-        id: "S133",
-        name: "Sanju Mathew",
-        designation: "Chief Executive Officer, Codeofduty",
-        linkedIn: "https://www.linkedIn.com/in/sanjumathewk",
-        stack: "IoT",
-        image:
-          "https://drive.google.com/uc?export=view&id=1lCpWwGNe-xsEJPqOn3JBYRfmINRJ0Uo3",
-      },
-      {
-        id: "S134",
-        name: "Akshai M",
-        designation: "Embedded Software Engineer, STABL Energy GmbH",
-        linkedIn: "https://www.linkedIn.com/in/akshaim",
-        stack: "IoT",
-        image: "assets/mentors/Akshai M.webp",
-      },
-      {
-        id: "S135",
-        name: "Samuel John",
-        designation: "Co-Founder & CEO, mistEO",
-        linkedIn: "https://www.linkedIn.com/in/samuel-john-misteo",
-        stack: "IoT",
-        image: "/assets/mentors/Samuel John.webp",
-      }
-    ],
-    learningpaths: [
-      {
-        name: "How to become an IoT developer",
-        link: "https://www.techrepublic.com/article/how-to-become-an-iot-developer-6-tips/",
-      },
-    ],
-    corecourses: [
-      {
-        id: "1",
-        name: "Kerala IoT Challenge Level 1 ",
-        link: "/iot/core/1",
-        time: "10 Hours",
-        complexity: "7",
-        karma: "400",
-      },
-      {
-        id: "2",
-        name: "Kerala IoT Challenge Level 2",
-        link: "/iot/core/2",
-        time: "12 Hours",
-        complexity: "8",
-        karma: "800",
-      },
-      {
-        id: "2",
-        name: "Introduction to IOT - Cisco Networking Acdemy",
-        link: "/iot/core/2",
-        time: "20 Hours",
-        complexity: "6",
-        karma: "800",
+        id: "/iotrf/iot",
+        description:
+          "Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the fan above your head, almost everything can be connected and controlled automatically. But How? Join our IoT Interest Group to learn how this can be achieved.",
+        name: "Internet of Things",
+        link: "/iotrf/iot",
+        officetime: "Sunday 7:30 PM",
+        officeplace: " @ Discord Lobby",
       },
     ],
     subcourses: [
+      // {
+      //   id: "",
+      //   name: "",
+      //   link: "",
+      // },
+    ],
+    mentorscard: [
       {
-        name: "Arduino Swayam Portal ",
-        link: "https://onlinecourses.swayam2.ac.in/aic20_sp04/preview",
+        id: "",
+        name: "",
+        designation: "",
+        linkedIn: "",
+        stack: "",
+        image: "",
       },
     ],
-    keywords: [
+    pagination: [
       {
-        id: "1",
-        keyword: "Mobile IoT (MIoT)",
+        id: "blockchain",
+        name: "< Blockchain",
       },
       {
-        id: "2",
-        keyword: "Bluetooth Low Energy (BLE)",
-      },
-      {
-        id: "3",
-        keyword: "IoT Protocol",
-      },
-      {
-        id: "4",
-        keyword: "Global Navigation Satellite System (GNSS)",
-      },
-      {
-        id: "5",
-        keyword: "Narrowband IoT (NB-IoT)",
-      },
-      {
-        id: "6",
-        keyword: "Quality of Service (QoS)",
-      },
-      {
-        id: "7",
-        keyword: "Mesh Network",
-      },
-      {
-        id: "8",
-        keyword: "Telematics.",
-      },
-    ],
-    blogs: [
-      {
-        id: "1",
-        name: "The Need for Universal Standards in IoT",
-        link: "https://intellipaat.com/blog/need-universal-standards-internet-things/",
-      },
-      {
-        id: "2",
-        name: "Youtube Video by Jayashankar",
-        link: "https://www.youtube.com/c/Scicopath",
-      },
-      {
-        id: "3",
-        name: "MakerGram",
-        link: "https://makergram.com/community/",
-      },
-    ],
-    people: [
-      {
-        id: "1",
-        name: "Dr. Sally Eaves",
-        link: "https://twitter.com/sallyeaves",
-      },
-      {
-        id: "2",
-        name: "Elitsa Krumova",
-        link: "https://twitter.com/Eli_Krumova",
-      },
-      {
-        id: "3",
-        name: "Chris Anderson",
-        link: "https://twitter.com/chr1sa",
-      },
-      {
-        id: "4",
-        name: "Stacey Higginbotham",
-        link: "https://twitter.com/gigastacey",
-      },
-    ],
-    challenges: [
-      {
-        id: "1",
-        name: "Iot-Labs Challenge",
-        link: "https://github.com/ACANETS/iot-labs",
-      },
-      {
-        id: "2",
-        name: "Project Hub Challenges",
-        link: "https://create.arduino.cc/projecthub/projects/tags/iot",
-      },
-      {
-        id: "3",
-        name: "Write a Blog on Furture of IoT",
-      },
-    ],
-    trendingprojectsprojects: [
-      {
-        id: "1",
-        name: "Get started developing IoT solutions by building a simple home automation system",
-        link: "https://developer.ibm.com/tutorials/iot-lp101-get-started-develop-iot-home-automation/",
-      },
-      {
-        id: "2",
-        name: "Mining Worker Safety Helmet",
-      },
-      {
-        id: "3",
-        name: "Smart Cradle System",
-      },
-      {
-        id: "4",
-        name: "Smart Traffic Management System",
-      },
-      {
-        id: "5",
-        name: "Air Pollution Monitoring System",
-      },
-      {
-        id: "6",
-        name: "Smart Energy Grid",
-      },
-    ],
-    otherresources: [
-      {
-        id: "1",
-        name: "Learn C Language",
-        link: "https://www.studytonight.com/c/",
-      },
-      {
-        id: "2",
-        name: "Learn Python",
-        link: "https://www.studytonight.com/python//",
+        id: "clouddevops",
+        name: "Cloud & DevOps >",
       },
     ],
   },
@@ -308,7 +84,7 @@ const InterestGroups = [
       {
         id: "/webmobile/qa",
         description:
-          "\"Join our Quality Assurance Interest Group to learn and collaborate with peers on best practices for measuring and improving product quality. Discover new testing strategies and Quality Assurance frameworks to ensure your products meet the highest standards of excellence.\"",
+          '"Join our Quality Assurance Interest Group to learn and collaborate with peers on best practices for measuring and improving product quality. Discover new testing strategies and Quality Assurance frameworks to ensure your products meet the highest standards of excellence."',
         name: "Quality Assurance",
         link: "/webmobile/qa",
         officetime: "Wednesday 7:00 PM",
@@ -320,7 +96,7 @@ const InterestGroups = [
           "Flutter is an open-source mobile application development framework created by Google. It allows developers to build native applications for Android, iOS, and other platforms using a single codebase. Flutter uses the Dart programming language, which was also developed by Google, and provides a rich set of pre-built widgets and tools for building beautiful, fast, and responsive user interfaces.",
         name: "Flutter Development",
         link: "/webmobile/flutter",
-        officetime:" Friday 9.00 PM",
+        officetime: " Friday 9.00 PM",
         officeplace: " @ Discord Lobby",
       },
     ],
@@ -1311,7 +1087,7 @@ const InterestGroups = [
       {
         id: "1",
         name: "Deep Learning Specialization",
-        link: "https://www.coursera.org/specializations/deep-learning"
+        link: "https://www.coursera.org/specializations/deep-learning",
       },
       {
         id: "2",
@@ -1322,7 +1098,7 @@ const InterestGroups = [
         id: "3",
         name: "Applied Data Science with Python",
         link: "https://www.coursera.org/specializations/data-science-python",
-      }
+      },
     ],
 
     corecourses: [
@@ -1646,7 +1422,8 @@ const InterestGroups = [
         name: "Nikhil V Chandran",
         stack: "Kerala Blockchain Academy",
         linkedIn: "https://in.linkedin.com/in/nikhil-v-chandran-69260120",
-        image: "https://media.licdn.com/dms/image/C5103AQEdH5urfqY11Q/profile-displayphoto-shrink_200_200/0/1543681128945?e=1693440000&v=beta&t=PIOj7at8yKiLLRRnMJ9M2fdzuiCf4tJq6418FpndXNg",
+        image:
+          "https://media.licdn.com/dms/image/C5103AQEdH5urfqY11Q/profile-displayphoto-shrink_200_200/0/1543681128945?e=1693440000&v=beta&t=PIOj7at8yKiLLRRnMJ9M2fdzuiCf4tJq6418FpndXNg",
       },
     ],
   },
@@ -2513,7 +2290,7 @@ const InterestGroups = [
         name: "3D-Printing >",
       },
     ],
-  }
+  },
 ];
 
 export default InterestGroups;
