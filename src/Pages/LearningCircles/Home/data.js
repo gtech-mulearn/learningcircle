@@ -12,9 +12,21 @@ const InterestGroups = [
         images: "assets/interestGroups/Muhammed-R.webp",
       },
       {
-        id: 1,
+        id: 2,
         name: "Abhiramkrishna R S",
         college: "Mar Baselios College of Engineering and Technology,tvm",
+        images: "",
+      },
+      {
+        id: 3,
+        name: "Abhiramkrishna R S",
+        college: "KJCMT",
+        images: "",
+      },
+      {
+        id: 4,
+        name: "Abhishek V Gopal",
+        college: "KJCMT",
         images: "",
       },
     ],
@@ -29,7 +41,9 @@ const InterestGroups = [
       "IoT Solutions Architect",
       "Robotics Technician",
     ],
-    basicenablementtasks: [],
+    basicenablementtasks: [
+ 
+    ],
     company: ["Thinkpalm"],
     mentors: [
       "Jaseel (Technical Program Manager - MakerGhat)",
@@ -91,15 +105,7 @@ const InterestGroups = [
         linkedIn: "https://www.linkedIn.com/in/samuel-john-misteo",
         stack: "IoT",
         image: "/assets/mentors/Samuel John.webp",
-      },
-      {
-        id: "",
-        name: "Minshad Babu",
-        designation: "Robotics Engineer-Fablab",
-        linkedIn: "https://www.linkedin.com/in/minshad-babu-427b26220/",
-        stack: "IoT",
-        image: "/assets/mentors/Minshad Babu.webp",
-      },
+      }
     ],
     learningpaths: [
       {
@@ -116,14 +122,14 @@ const InterestGroups = [
         complexity: "7",
         karma: "400",
       },
-      // {
-      //   id: "2",
-      //   name: "Kerala IoT Challenge Level 2",
-      //   link: "/iot/core/2",
-      //   time: "12 Hours",
-      //   complexity: "8",
-      //   karma: "800",
-      // },
+      {
+        id: "2",
+        name: "Kerala IoT Challenge Level 2",
+        link: "/iot/core/2",
+        time: "12 Hours",
+        complexity: "8",
+        karma: "800",
+      },
       {
         id: "2",
         name: "Introduction to IOT - Cisco Networking Acdemy",
@@ -1906,59 +1912,59 @@ const InterestGroups = [
     ],
     learningpaths: [
       {
+        id: "1",
+        name: "Deep Learning Specialization",
+        link: "https://www.coursera.org/specializations/deep-learning"
+      },
+      {
         id: "2",
-        name: "Deeplearning.ai Specialization",
-        link: "https://in.coursera.org/specializations/deep-learning",
+        name: "Practical Deep Learning for Coders",
+        link: "http://course.fast.ai",
       },
       {
         id: "3",
-        name: "University of Michigan - Applied Data Science Specialization",
-        link: "https://in.coursera.org/specializations/data-science-python",
-      },
-      {
-        id: "4",
-        name: "Neural Networks: Zero to Hero - Andrej Karpathy",
-        link: "https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
-      },
-      {
-        id: "5",
-        name: "Applied Machine Learning - Andreas Muller",
-        link: "https://www.youtube.com/playlist?list=PL_pVmAaAnxIRnSw6wiCpSvshFyCREZmlM",
-      },
+        name: "Applied Data Science with Python",
+        link: "https://www.coursera.org/specializations/data-science-python",
+      }
     ],
 
     corecourses: [
       {
         id: "1",
-        name: "Intro to Machine Learning - Sebastian Thrun, Katile Malone",
-        link: "https://www.udacity.com/course/intro-to-machine-learning--ud120",
+        name: "Advanced NLP with Spacy",
+        link: "https://course.spacy.io/en/",
       },
       {
         id: "2",
-        name: "Practical Deep learning for coders",
-        link: "https://course.fast.ai/",
+        name: "Supervised Machine Learning: Regression and Classification - Andrew NG",
+        link: "https://www.coursera.org/learn/machine-learning",
       },
       {
         id: "3",
-        name: "Intro to machine learning with sklearn - Data school",
-        link: "https://courses.dataschool.io/introduction-to-machine-learning-with-scikit-learn",
+        name: "Reinforcement Learning Specialization",
+        link: "https://www.coursera.org/specializations/reinforcement-learning",
       },
       {
         id: "4",
-        name: "Advanced NLP with Spacy",
-        link: "https://course.spacy.io/en/",
+        name: "Applied AI with DeepLearning",
+        link: "https://in.coursera.org/learn/ai",
       },
     ],
     subcourses: [
       {
         id: "1",
-        name: "Kaggle Learn",
-        link: "https://www.kaggle.com/learn",
+        name: "Docker Curriculum",
+        link: "https://docker-curriculum.com",
       },
       {
         id: "2",
-        name: "Effective Pandas",
-        link: "https://www.youtube.com/watch?v=UURvPeczxJI",
+        name: "Huggingface NLP course",
+        link: "https://huggingface.co/course",
+      },
+      {
+        id: "3",
+        name: "FastAPI course",
+        link: "https://course.elementsofai.com/",
       },
     ],
     blogs: [
@@ -2240,10 +2246,10 @@ const InterestGroups = [
     mentorscard: [
       {
         id: "1",
-        name: "Franklin John",
-        stack: "Research Scientist and Manager,Kerala Blockchain Academy",
-        linkedIn: "https://www.linkedin.com/in/johnfranklin1991/",
-        image: "/assets/mentors/franklin.webp",
+        name: "Nikhil V Chandran",
+        stack: "Kerala Blockchain Academy",
+        linkedIn: "https://in.linkedin.com/in/nikhil-v-chandran-69260120",
+        image: "https://media.licdn.com/dms/image/C5103AQEdH5urfqY11Q/profile-displayphoto-shrink_200_200/0/1543681128945?e=1693440000&v=beta&t=PIOj7at8yKiLLRRnMJ9M2fdzuiCf4tJq6418FpndXNg",
       },
     ],
   },
