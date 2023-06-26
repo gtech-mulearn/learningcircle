@@ -1,0 +1,149 @@
+[
+  {
+    "id": "arvr",
+    "interestgroup": "AR/VR",
+    "interestgroupdescription": "Augmented Reality and Virtual Reality bridge the gap between the real and digital world and help you conceive digital information in the same way you do in the real world. Join the Interest Group today to delve deeper into the Digital World!",
+    "officetime": "Sunday 08:30 PM",
+    "officeplace": " @ Discord Lobby",
+    "thinktankplace": " @ Google Meet",
+    "thinktanktime": "Saturday 8:30 PM",
+    "community": ["XtrudAR"],
+    "leads": [
+      {
+        "id": 1,
+        "name": "Vishnu Prathab",
+        "college": "COLLEGE OF ENGINEERING ,MUNNAR ",
+        "images": "assets/interestGroups/Vishnu Prathap.webp"
+      }
+    ],
+    "comingsoon": true,
+    "opportunities": [],
+    "company": [],
+    "mentors": ["Vishnu Vijayan", "Akshay Jose"],
+    "mentorscard": [
+      {
+        "id": "1",
+        "name": "Vishnu Vijayan",
+        "designation": "Alliances Manager, Zilicon Technologies Pvt.Ltd",
+        "linkedIn": "https://www.linkedin.com/in/vishnu-vijayan-vs/",
+        "stack": "AR/VR",
+        "image": "/assets/mentors/Vishnu Vijayan.webp"
+      },
+      {
+        "id": "2",
+        "name": "Akshay Jose",
+        "designation": "Creative Designer, Xena Intelligence",
+        "linkedIn": "https://www.linkedin.com/in/akshay-jose-700025124/",
+        "stack": "AR/VR",
+        "image": "/assets/mentors/Akshay Jose.webp"
+      },
+      {
+        "id": "3",
+        "name": "Vishnu Sivan",
+        "designation": "",
+        "linkedIn": "https://www.linkedin.com/in/akshay-jose-700025124/",
+        "stack": "AR/VR",
+        "image": "/assets/mentors/Akshay Jose.webp"
+      },
+      {
+        "id": "4",
+        "name": "Nikhil",
+        "designation": "TiltLabs",
+        "linkedIn": "https://www.linkedin.com/in/akshay-jose-700025124/",
+        "stack": "AR/VR",
+        "image": "/assets/mentors/Akshay Jose.webp"
+      }
+    ],
+    "pagination": [
+      {
+        "id": "ux",
+        "name": "< UI/ux"
+      },
+      {
+        "id": "ai",
+        "name": "Artificial Intelligence >"
+      }
+    ],
+    "learningpaths": [
+      {
+        "name": "Unity 3D - Essentials",
+        "link": "https://learn.unity.com/pathway/unity-essentials"
+      },
+      {
+        "name": "Unity 3D - Junior Programmer",
+        "link": "https://learn.unity.com/pathway/junior-programmer"
+      },
+      {
+        "name": "Unity 3D - Creative Core ",
+        "link": "https://learn.unity.com/pathway/creative-core"
+      },
+
+      {
+        "name": "Blender - Fundementals",
+        "link": "https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6"
+      },
+      {
+        "name": "Blender - Modelling and Sculpting",
+        "link": "https://www.youtube.com/watch?v=f-mx-Jfx9lA"
+      },
+      {
+        "name": "Blender - Python Scripting for Artists",
+        "link": "https://www.youtube.com/playlist?list=PLa1F2ddGya_8acrgoQr1fTeIuQtkSd6BW"
+      }
+    ],
+    "basicenablementtasks": [],
+    "corecourses": [
+      {
+        "name": "AR/VR Overview",
+        "link": "https://www.youtube.com/watch?v=04AMaTsXFJU",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Download Unity",
+        "link": "https://unity.com/developer-tools",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Register with Unity",
+        "link": "https://unity.com/products/unity-student",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Download Blender 3D",
+        "link": "https://www.blender.org/",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      }
+    ],
+    "subcourses": [
+      {
+        "name": "Git & Github ",
+        "link": "https://youtu.be/apGV9Kg7ics",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Firebase - backend",
+        "link": "https://firebase.google.com/docs",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      },
+      {
+        "name": "Design Patterns",
+        "link": "https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch10s09.html#:~:text=Both%20MVP%20and%20MVVM%20are,with%20the%20controller%20beside%20it.",
+        "complexity": "",
+        "time": "",
+        "karma": "Not Announced"
+      }
+    ]
+  }
+]
