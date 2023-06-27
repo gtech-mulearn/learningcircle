@@ -6,7 +6,6 @@ const InterestGroups = [
     interestgroup: "IoT Robotics and Digital Fabrications",
     interestgroupdescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-
     basicenablementtasks: [],
     learningpaths: [],
     corecourses: [],
@@ -198,80 +197,9 @@ const InterestGroups = [
         link: "https://www.youtube.com/watch?v=Kx4y9c7w2JQ",
       },
     ],
-    basicenablementtasks: [
-      {
-        id: "1",
-        name: "Introduction to Cyber Security",
-        link: "https://www.cybrary.it/course/introduction-to-it-and-cybersecurity/",
-      },
-      {
-        id: "2",
-        name: "Introduction to Operating System",
-        link: "https://www.sans.org/cyberaces/introduction-to-operating-systems/",
-      },
-      {
-        id: "3",
-        name: "Introduction to networking",
-        link: "https://www.sans.org/cyberaces/networking/",
-      },
-      {
-        name: "Command Line",
-        link: "https://www.youtube.com/watch?v=YHFzr-akOas",
-        complexity: "3",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Linux",
-        link: "https://www.udemy.com/course/linux-basics-for-beginners/",
-        complexity: "3",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "IT Funtamentals",
-        link: "https://www.coursera.org/specializations/it-fundamentals-cybersecurity",
-        complexity: "5",
-        time: "",
-        karma: "Not Announced",
-      },
-    ],
-    corecourses: [
-      // {
-      //   name: "Introduction to Cybersecurity",
-      //   link: "/cybersec/core/1",
-      //   complexity: "",
-      //   time: "",
-      //   karma: "200",
-      // },
-      {
-        id: "1",
-        name: "Web Pentesting",
-        link: "https://www.youtube.com/watch?v=X4eRbHgRawI&t=22s",
-      },
-      {
-        id: "2",
-        name: "Spring Board Course",
-        link: "https://www.springboard.com/resources/learning-paths/cybersecurity-foundations/",
-      },
-    ],
-    subcourses: [
-      {
-        id: "1",
-        name: "Internal/External Infrastructure Penetration Testing.",
-        link: "https://www.youtube.com/watch?v=8a1yTN2kFNw",
-      },
-      {
-        id: "2",
-        name: "Wireless Penetration Testing.",
-        link: "https://www.youtube.com/watch?v=UiCx2K1vSI8&list=PLrrgFyE6PtlbhCflEC4QQKt6ZlQBVHq4z",
-      },
-      {
-        id: "3",
-        name: "Web Application Testing.",
-        link: "https://www.youtube.com/watch?v=X4eRbHgRawI",
-      },
-    ],
+    basicenablementtasks: [],
+    corecourses: [],
+    subcourses: [],
     keywords: [
       {
         id: "1",
@@ -593,7 +521,7 @@ const InterestGroups = [
         link: "/arvrxr/ar",
         officetime: "Sunday 08:30 PM",
         officeplace: " @ Discord Lobby",
-      }
+      },
     ],
     subcourses: [
       // {
@@ -644,7 +572,7 @@ const InterestGroups = [
         link: "/aimlanalytics/ai",
         officetime: "Thursday 9:00 PM",
         officeplace: " @ Discord Lobby",
-      }
+      },
     ],
     subcourses: [
       // {
@@ -823,46 +751,8 @@ const InterestGroups = [
         karma: "100",
       },
     ],
-    corecourses: [
-      {
-        id: "1",
-        name: "Learn Blockchain, Solidity, and Full Stack JavaScript Development",
-        link: "https://www.freecodecamp.org/news/learn-blockchain-solidity-full-stack-javascript-development/",
-        difficulty: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Corda Fundamentals",
-        link: "https://learn.kba.ai/course/corda-fundamentals/",
-        karma: "Not Announced",
-        difficulty: "expert",
-      },
-      {
-        name: "Ethereum Fundamentals",
-        link: "https://learn.kba.ai/course/ethereum-fundamentals/",
-        karma: "Not Announced",
-        difficulty: "intermediate",
-      },
-      {
-        name: "Hyperledger Fabric Fundamentals",
-        link: "https://learn.kba.ai/course/hyperledger-fabric-fundamentals/",
-        karma: "Not Announced",
-        difficulty: "intermediate",
-      },
-      {
-        name: "Blockchain Foundation Program",
-        link: "https://learn.kba.ai/course/blockchain-foundation-program/",
-        karma: "Not Announced",
-        difficulty: "beginner",
-      },
-    ],
-    subcourses: [
-      {
-        name: "Blockchain - Coding Ninjas",
-        link: "https://www.codingninjas.com/codestudio/guided-paths/blockchain",
-        karma: "Not Announced",
-      },
-    ],
+    corecourses: [],
+    subcourses: [],
     leads: [
       {
         id: 1,
@@ -905,7 +795,7 @@ const InterestGroups = [
         link: "/noncircuit/civil",
         officetime: "Wednesday 7:00 PM",
         officeplace: " @ Discord Lobby",
-      }
+      },
     ],
     subcourses: [
       // {
@@ -953,35 +843,8 @@ const InterestGroups = [
         link: "https://www.youtube.com/watch?v=9pZ2xmsSDdo",
       },
     ],
-    corecourses: [
-      {
-        id: "1",
-        name: "Philosophy: The DevOps Handbook",
-        link: "https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/",
-      },
-      {
-        id: "2",
-        name: "Foundation: DevOps YouTube Playlist",
-        link: "https://www.youtube.com/playlist?list=PLlVtbbG169nFr8RzQ4GIxUEznpNR53ERq",
-      },
-      {
-        id: "3",
-        name: "Practical DevOps YouTube Playlist",
-        link: "https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak",
-      },
-    ],
-    subcourses: [
-      {
-        id: "1",
-        name: "AWS Developer Associate",
-        link: "https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/",
-      },
-      {
-        id: "2",
-        name: "CKA, CKAD",
-        link: "https://kubernetes.io/training/",
-      },
-    ],
+    corecourses: [],
+    subcourses: [],
     mentors: ["Vivek"],
     mentorscard: [
       {
@@ -1037,36 +900,7 @@ const InterestGroups = [
       },
     ],
     learningpaths: [],
-    basicenablementtasks: [
-      {
-        name: "Fundamentals of digital marketing",
-        link: "https://learndigital.withgoogle.com/digitalunlocked/course/digital-marketing",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "SEO Certification Course",
-        link: "https://academy.hubspot.com/courses/seo-training",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Google Ads",
-        link: "https://skillshop.exceedlms.com/student/catalog/list?category_ids=53-google-ads?use_local=true",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-      {
-        name: "Facebook Blueprint Courses",
-        link: "https://www.facebook.com/business/learn/certification",
-        complexity: "",
-        time: "",
-        karma: "Not Announced",
-      },
-    ],
+    basicenablementtasks: [],
     corecourses: [],
     subcourses: [],
     "": {},

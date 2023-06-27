@@ -59,14 +59,6 @@ const InterestGroups = [
     mentorscard: [],
     corecourses: [
       {
-        id: "1",
-        name: "Introduction to AutoCad ",
-        link: "https://www.youtube.com/watch?v=cmR9cfWJRUU&list=PLcH1MIEuSvoGaHGEI_BnQ5In4R_NNOghG",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
         id: "2",
         name: "Autocad - Complete Course for Beginners",
         link: "/civil/autocad/core/1",
@@ -89,15 +81,6 @@ const InterestGroups = [
         time: "",
         complexity: "",
         karma: "100",
-      },
-
-      {
-        id: "5",
-        name: "Autodesk Certified Professional",
-        link: "https://www.coursera.org/learn/autodesk-autocad-design-drafting",
-        time: "",
-        complexity: "",
-        karma: "",
       },
     ],
     learningpaths: [
@@ -157,23 +140,7 @@ const InterestGroups = [
         time: "",
         complexity: "#cl-rv-modelhome",
         karma: "",
-      },
-      {
-        id: "1",
-        name: "Revit for Architectural Design Exam Prep",
-        link: "https://www.coursera.org/learn/autodesk-revit-architectural-design",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "1",
-        name: "Revit for Structural Design Exam Prep",
-        link: "https://www.coursera.org/learn/autodesk-revit-for-structural-design-exam-prep",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
+      }
     ],
     learningpathst: [
       {
@@ -247,22 +214,7 @@ const InterestGroups = [
     pagination: [],
     mentorscard: [],
     corecourses: [
-      {
-        id: "1",
-        name: "BIM Fundamentals for Engineers",
-        link: "https://www.classcentral.com/course/bim-fundamentals-12179",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "2",
-        name: "BIM Application for Engineers",
-        link: "https://www.classcentral.com/course/bim-application-12117",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
+
     ],
     learningpaths: [],
     blogs: [
@@ -316,25 +268,19 @@ const InterestGroups = [
         id: "1",
         name: "Construction Project Management",
         link: "https://www.coursera.org/learn/construction-project-management",
-        time: "",
-        complexity: "",
-        karma: "",
+   
       },
       {
         id: "2",
         name: "Construction Scheduling",
         link: "https://www.coursera.org/learn/construction-scheduling",
-        time: "",
-        complexity: "",
-        karma: "",
+      
       },
       {
         id: "2",
         name: "Construction Management Specialization",
         link: "https://www.coursera.org/specializations/construction-management",
-        time: "",
-        complexity: "",
-        karma: "",
+ 
       },
     ],
   },
@@ -362,17 +308,13 @@ const InterestGroups = [
         id: "1",
         name: "3D CAD Fundamental",
         link: "https://www.coursera.org/learn/3d-cad-fundamental",
-        time: "",
-        complexity: "",
-        karma: "",
+
       },
       {
         id: "2",
         name: "3D CAD Application",
         link: "https://www.coursera.org/learn/3d-cad-application",
-        time: "",
-        complexity: "",
-        karma: "",
+    
       },
     ],
   },
@@ -395,55 +337,25 @@ const InterestGroups = [
     pagination: [],
     mentorscard: [],
     corecourses: [
-      {
-        id: "1",
-        name: "Civil 3D course for beginners",
-        link: "https://www.youtube.com/watch?v=_9ZDcB2tR1E&list=PLcH1MIEuSvoHGnmbd3Kkgw4k1Al4g0xB6",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "2",
-        name: "AutoCAD Civil 3D tutorials ",
-        link: "https://www.thesourcecad.com/free-civil-3d-tutorial/",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
-      {
-        id: "3",
-        name: "Autodesk Certified Professional",
-        link: "https://www.coursera.org/learn/autodesk-civil-3d-infrastructure-design",
-        time: "",
-        complexity: "",
-        karma: "",
-      },
     ],
     learningpaths: [
       {
         id: "1",
         name: "Alignments and Profiles for Road Layout Designs:",
         link: "https://www.autodesk.com/certification/learn/course/civil3d-alignments-profiles-road-designs-professional",
-        time: "",
-        complexity: "",
-        karma: "",
+     
       },
       {
         id: "2",
         name: "Surface Modeling for Infrastructure Design",
         link: "https://www.autodesk.com/certification/learn/course/civil3d-surface-modeling-infrastructure-professional",
-        time: "",
-        complexity: "",
-        karma: "",
+   
       },
       {
         id: "3",
         name: "Plan Production and Managing Data for Infrastructure Design",
         link: "https://www.autodesk.com/certification/learn/course/civil3d-plan-production-infrastructure-professional",
-        time: "",
-        complexity: "",
-        karma: "",
+    
       },
     ],
   },

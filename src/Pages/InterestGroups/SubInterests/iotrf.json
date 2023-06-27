@@ -118,14 +118,6 @@
       },
       {
         "id": "2",
-        "name": "Kerala IoT Challenge Level 2",
-        "link": "/iot/core/2",
-        "time": "12 Hours",
-        "complexity": "8",
-        "karma": "800"
-      },
-      {
-        "id": "2",
         "name": "Introduction to IOT - Cisco Networking Acdemy",
         "link": "/iot/core/2",
         "time": "20 Hours",
@@ -133,12 +125,7 @@
         "karma": "800"
       }
     ],
-    "subcourses": [
-      {
-        "name": "Arduino Swayam Portal ",
-        "link": "https://onlinecourses.swayam2.ac.in/aic20_sp04/preview"
-      }
-    ],
+    "subcourses": [],
     "keywords": [
       {
         "id": "1",

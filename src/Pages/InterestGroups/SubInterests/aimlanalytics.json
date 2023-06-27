@@ -77,45 +77,8 @@
       }
     ],
 
-    "corecourses": [
-      {
-        "id": "1",
-        "name": "Advanced NLP with Spacy",
-        "link": "https://course.spacy.io/en/"
-      },
-      {
-        "id": "2",
-        "name": "Supervised Machine Learning: Regression and Classification - Andrew NG",
-        "link": "https://www.coursera.org/learn/machine-learning"
-      },
-      {
-        "id": "3",
-        "name": "Reinforcement Learning Specialization",
-        "link": "https://www.coursera.org/specializations/reinforcement-learning"
-      },
-      {
-        "id": "4",
-        "name": "Applied AI with DeepLearning",
-        "link": "https://in.coursera.org/learn/ai"
-      }
-    ],
-    "subcourses": [
-      {
-        "id": "1",
-        "name": "Docker Curriculum",
-        "link": "https://docker-curriculum.com"
-      },
-      {
-        "id": "2",
-        "name": "Huggingface NLP course",
-        "link": "https://huggingface.co/course"
-      },
-      {
-        "id": "3",
-        "name": "FastAPI course",
-        "link": "https://course.elementsofai.com/"
-      }
-    ],
+    "corecourses": [],
+    "subcourses": [],
     "blogs": [
       {
         "id": "1",

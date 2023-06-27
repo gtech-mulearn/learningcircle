@@ -92,58 +92,7 @@
       }
     ],
     "basicenablementtasks": [],
-    "corecourses": [
-      {
-        "name": "AR/VR Overview",
-        "link": "https://www.youtube.com/watch?v=04AMaTsXFJU",
-        "complexity": "",
-        "time": "",
-        "karma": "Not Announced"
-      },
-      {
-        "name": "Download Unity",
-        "link": "https://unity.com/developer-tools",
-        "complexity": "",
-        "time": "",
-        "karma": "Not Announced"
-      },
-      {
-        "name": "Register with Unity",
-        "link": "https://unity.com/products/unity-student",
-        "complexity": "",
-        "time": "",
-        "karma": "Not Announced"
-      },
-      {
-        "name": "Download Blender 3D",
-        "link": "https://www.blender.org/",
-        "complexity": "",
-        "time": "",
-        "karma": "Not Announced"
-      }
-    ],
-    "subcourses": [
-      {
-        "name": "Git & Github ",
-        "link": "https://youtu.be/apGV9Kg7ics",
-        "complexity": "",
-        "time": "",
-        "karma": "Not Announced"
-      },
-      {
-        "name": "Firebase - backend",
-        "link": "https://firebase.google.com/docs",
-        "complexity": "",
-        "time": "",
-        "karma": "Not Announced"
-      },
-      {
-        "name": "Design Patterns",
-        "link": "https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch10s09.html#:~:text=Both%20MVP%20and%20MVVM%20are,with%20the%20controller%20beside%20it.",
-        "complexity": "",
-        "time": "",
-        "karma": "Not Announced"
-      }
-    ]
+    "corecourses": [],
+    "subcourses": []
   }
 ]
