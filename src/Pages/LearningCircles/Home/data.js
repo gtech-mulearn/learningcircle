@@ -126,7 +126,7 @@ const InterestGroups = [
       // },
       {
         id: "2",
-        name: "Introduction to IOT - Cisco Networking Acdemy",
+        name: "Introduction to IOT - Cisco Networking Academy",
         link: "/iot/core/2",
         time: "20 Hours",
         complexity: "6",
