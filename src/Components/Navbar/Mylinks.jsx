@@ -1,4 +1,4 @@
-const mainlink = "https://mulearn.org"
+const mainlink = "https://mulearn.org";
 export const links = [
   {
     head: -1,
@@ -14,20 +14,6 @@ export const links = [
             submenu: false,
             sublinks: [],
             link: mainlink + "/team",
-            foreign: false,
-          },
-           {
-            name: "Terms and Conditions",
-            submenu: false,
-            sublinks: [],
-            link: mainlink + "/termsandconditions",
-            foreign: false,
-          },
-           {
-            name: "Privacy Policy",
-            submenu: false,
-            sublinks: [],
-            link: mainlink + "/privacypolicy",
             foreign: false,
           },
         ],
@@ -48,19 +34,6 @@ export const links = [
             submenu: false,
             sublinks: [],
             link: mainlink + "/company-partners",
-            foreign: false,
-          },
-        ],
-      },
-      {
-        name: "Participate",
-        submenu: true,
-        sublinks: [
-          {
-            name: "Enablers & Mentor",
-            submenu: false,
-            sublinks: [],
-            link: mainlink + "/participate",
             foreign: false,
           },
         ],
@@ -107,21 +80,28 @@ export const links = [
         ],
       },
       {
-        name: "Campus Chapters",
+        name: "Events",
         submenu: true,
         sublinks: [
           {
-            name: "Home Page",
+            name: "Global Calendar",
             submenu: false,
             sublinks: [],
-            link: mainlink + "/campuschapters",
+            link: mainlink + "/calendar",
             foreign: false,
           },
           {
-            name: "Success Stories",
+            name: "Announcements",
             submenu: false,
             sublinks: [],
-            link: mainlink + "/blogs",
+            link: mainlink + "/announcements",
+            foreign: false,
+          },
+          {
+            name: "Weekly Events",
+            submenu: false,
+            sublinks: [],
+            link: mainlink + "/events",
             foreign: false,
           },
         ],
@@ -139,6 +119,13 @@ export const links = [
         submenu: true,
         sublinks: [
           {
+            name: "YIP",
+            submenu: false,
+            sublinks: [],
+            link: mainlink + "/yip",
+            foreign: true,
+          },
+          {
             name: "Foundation Program",
             submenu: false,
             sublinks: [],
@@ -150,20 +137,6 @@ export const links = [
             submenu: false,
             sublinks: [],
             link: mainlink + "/artofteaching",
-            foreign: false,
-          },
-        ],
-      },
-      {
-        head: 1,
-        name: "Ongoing",
-        submenu: true,
-        sublinks: [
-          {
-            name: "Bootcamps",
-            submenu: false,
-            sublinks: [],
-            link: "/bootcamps",
             foreign: false,
           },
         ],
@@ -200,17 +173,32 @@ export const links = [
   },
   {
     head: -1,
-    name: "Events Page",
+    name: "Campus Chapters",
     submenu: true,
     sublinks: [
       {
         head: 2,
-        name: "Global Calendar",
+        name: "The Chaptership",
         submenu: true,
+        link: mainlink + "/campuschapters",
         sublinks: [
           {
-            name: "Calendar",
-            link: mainlink + "/calendar",
+            name: "User Journey",
+            link: mainlink + "/journey",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Campus Logo Generator",
+            link: mainlink + "/campuschapters/#logo-generator",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Success Stories",
+            link: mainlink + "/successstories",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -219,12 +207,26 @@ export const links = [
       },
       {
         head: 2,
-        name: "Announcements",
+        name: "The Orientation",
         submenu: true,
         sublinks: [
           {
-            name: "Announcements",
-            link: mainlink + "/announcements",
+            name: "Lead a Campus",
+            link: "https://airtable.com/shrmtngt3zopg8eVh",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Typing Mastery",
+            link: "/challenge/typing",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Typing Mastery Leaderboard",
+            link: "/challenge/typingmastery",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -233,40 +235,91 @@ export const links = [
       },
       {
         head: 2,
-        name: "Weekly Events",
+        name: "The Enablement",
         submenu: true,
+        link: "/challenges",
         sublinks: [
           {
-            name: "Home",
-            link: mainlink + "/events",
+            name: "Self Introduction",
+            link: "/common/enablement/1",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "Inspiration Station",
-            link: mainlink + "/isr",
+            name: "Intro to Command Line",
+            link: "/challenge/intro-to-command-line",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "Mentor Connect",
-            link: mainlink + "/events/mentorconnect",
+            name: "Introduction to GitHub",
+            link: "/challenge/intro-to-github",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "Open Mic",
-            link: mainlink + "/events/openmic",
+            name: "Introduction to Markdown",
+            link: "/challenge/intro-to-markdown",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "Salt Mango Tree",
-            link: mainlink + "/events/saltmangotree",
+            name: "Introduction to HTML",
+            link: "/challenge/intro-to-html",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Introduction to Github Page",
+            link: "/challenge/intro-to-github-pages",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Introduction to Discord",
+            link: "/common/enablement/2",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+        ],
+      },
+      {
+        head: 2,
+        name: " The Learning",
+        submenu: true,
+        link: "/",
+        sublinks: [
+          {
+            name: "Form Learning Cirlces",
+            link: "/create",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Interest Groups",
+            link: "/",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Challenges",
+            link: "/challenges",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Bootcamps",
+            link: "/bootcamps",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -284,14 +337,8 @@ export const links = [
         head: 3,
         name: "Interest Groups",
         submenu: true,
+        link: "/",
         sublinks: [
-          {
-            name: "Home",
-            link: "/",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
           {
             name: "Android Development",
             link: "/android",
@@ -320,7 +367,6 @@ export const links = [
             sublinks: [],
             foreign: false,
           },
-          
           {
             name: "IoT",
             link: "/iot",
@@ -355,17 +401,11 @@ export const links = [
         head: 3,
         name: "Bootcamps",
         submenu: true,
+        link: "/bootcamps",
         sublinks: [
           {
-            name: "Home",
-            link: "/bootcamps",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
-          {
             name: "Android",
-            link: "/bootcamps/android",
+            link: "/bootcamps/ig/android",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -386,21 +426,21 @@ export const links = [
           },
           {
             name: "Flutter",
-            link: "/bootcamps/flutter",
+            link: "/bootcamps/ig/flutter",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "Rust",
-            link: "/bootcamps/rust",
+            name: "Unreal Engine",
+            link: "/bootcamps/ig/unreal",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
-            name: "JavaScript",
-            link: "/bootcamps/javascript",
+            name: "Web Development",
+            link: "/bootcamps/ig/web",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -500,4 +540,4 @@ export const links = [
       },
     ],
   },
-]
+];

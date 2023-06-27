@@ -103,7 +103,7 @@ const TrafficLightSimulation = () => {
                   <div className="timeline__event__content">
                     <div className="timeline__event__title">Step Four</div>
                     <div className="timeline__event__description">
-                      Submit the project link from Tinkercad in #students
+                      Submit the project link from Tinkercad in #task-dropbox
                       channel with the hashtag #ge-iot-traffic-light
                     </div>
                   </div>
@@ -122,7 +122,7 @@ const TrafficLightSimulation = () => {
             <div className={styles.sample_container}>
               <p className={styles.sample_header}>Example Message</p>
               <p className={styles.sample_message}>
-                Submit the project link from Tinkercad in #students channel with
+                Submit the project link from Tinkercad in #task-dropbox channel with
                 the hashtag #ge-iot-traffic-light at the beginning
               </p>
             </div>

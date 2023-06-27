@@ -44,7 +44,7 @@
 .create {
   background-color: #f6842c;
   color: white;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   border: none;
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
@@ -361,4 +361,29 @@
   .bottom_grid {
     margin: 6rem;
   }
+}
+
+.wnb_heading {
+  font-size: 1.25rem;
+  color: #f6842c;
+}
+
+.wn_box {
+  margin-top: 3rem;
+  max-width: 400px;
+  box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 1px 1px 45px -5px rgba(0, 0, 0, 0.08);
+  padding: 30px 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.whatnext_boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
 }

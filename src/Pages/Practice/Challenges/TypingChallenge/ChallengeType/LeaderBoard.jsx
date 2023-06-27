@@ -23,7 +23,7 @@ const LeaderBoard = ({ leaderboard, Day, College, setView }) => {
         { title: '🔥', leaderboard: leaderboard.filter((value) => value.streak > 0 && value.qualified) },
         { title: '💔', leaderboard: leaderboard.filter((value) => value.qualified && value.streak <= 0) },
         { title: '☠️', leaderboard: leaderboard.filter((value) => !value.qualified) },
-        { title: '👻', leaderboard: leaderboard.filter((value) => value.streak > 3 && !value.qualified) },
+        { title: '👻', leaderboard: leaderboard.filter((value) => value.streak >= 3 && !value.qualified) },
     ];
 
     let buttonstyles = 'p-3  m-1 rounded-[10px] active:bg-orange-600 cursor-pointer'
@@ -57,7 +57,7 @@ const LeaderBoard = ({ leaderboard, Day, College, setView }) => {
                                 <div className={styles.box_2}>{index + 1}</div>
                                 <div className={styles.name_box_2}>{value.name}</div>
                                 <div className={styles.box_2}>{value.score}</div>
-                                <div className={styles.box_2}>{value.qualified ? value.streak > 0 ? value.streak + "🔥" : "💔" : value.streak > 3 ? "👻" : "☠️"}</div>
+                                <div className={styles.box_2}>{value.qualified ? value.streak > 0 ? value.streak + "🔥" : "💔" : value.streak >= 3 ? "👻" : "☠️"}</div>
                             </div>
                         </div>))}
                     </div>

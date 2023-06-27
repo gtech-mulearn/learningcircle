@@ -1,5 +1,14 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
+
+function scrollTop(){
+  window.scrollTo({
+    top:0,
+    behavior:'smooth'
+  })
+}
+
 
 const Footer = () => {
   return (
@@ -13,6 +22,7 @@ const Footer = () => {
               className={styles.mulearn}
             />
 
+
             <div className={styles.links}>
               <a href="/careers">
                 <p className={styles.link}>Career Labs</p>
@@ -24,10 +34,25 @@ const Footer = () => {
                 href="https://learn.mulearn.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
+                >
                 <p className={styles.link}>Interest Groups</p>
               </a>
+             
+            
+           
             </div>
+            <div className={`${styles.links_mobile} ${styles.larger_screen}`}>
+
+
+              <Link to={"/termsandconditions"} onClick={scrollTop}>
+                <p className={styles.link}>Terms and Condition</p>
+              </Link>
+              <Link to={"/privacypolicy"} onClick={scrollTop}>
+                <p className={styles.link}>Privacy Policy</p>
+              </Link>
+            </div>
+            
+               
           </div>
 
           <div className={styles.fs_rightside}>
@@ -36,7 +61,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
+              <svg
                 src="/assets/footer/whatsapp.svg"
                 alt=""
                 className={styles.social}
@@ -50,7 +75,7 @@ const Footer = () => {
               <img
                 src="/assets/footer/twitter.webp"
                 alt=""
-                className={styles.social_tw}
+                className={styles.social}
               />
             </a>
             <a
@@ -61,7 +86,7 @@ const Footer = () => {
               <img
                 src="/assets/footer/instagram.webp"
                 alt="ig"
-                className={styles.social_in}
+                className={styles.social}
               />
             </a>
             <a
@@ -72,9 +97,10 @@ const Footer = () => {
               <img
                 src="/assets/footer/linkedin.webp"
                 alt="li"
-                className={styles.social_ln}
+                className={styles.social}
               />
             </a>
+
             <a
               href="https://www.youtube.com/c/mulearn"
               target="_blank"
@@ -83,7 +109,7 @@ const Footer = () => {
               <img
                 src="/assets/footer/youtube.webp"
                 alt="yt"
-                className={styles.social_yt}
+                className={styles.social}
               />
             </a>
             <a
@@ -94,7 +120,7 @@ const Footer = () => {
               <img
                 src="/assets/footer/facebook.webp"
                 alt="fb"
-                className={styles.social_fb}
+                className={styles.social}
               />
             </a>
           </div>
@@ -111,8 +137,8 @@ const Footer = () => {
               </p>
 
               <p className={styles.mail}>
-                <a href="mailto:mulearn@gtechindia.org">
-                  mulearn@gtechindia.org
+                <a href="mailto:info@mulearn.org">
+                  info@mulearn.org
                 </a>
               </p>
             </div>
@@ -139,7 +165,7 @@ const Footer = () => {
       </div>
       <div className={styles.bottomcopyright}>
         <div className={styles.line2}></div>
-        <p>GTech µLearn | Copyright © 2022 All rights reserved.</p>
+        <p>GTech µLearn | Copyright © 2023 All rights reserved.</p>
       </div>
     </div>
   );

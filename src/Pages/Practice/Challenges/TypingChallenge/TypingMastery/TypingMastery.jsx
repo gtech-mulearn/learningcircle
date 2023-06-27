@@ -64,7 +64,7 @@ const TypingMastery = () => {
   })
 
   // Create an array of day labels
-  const days = Array.from(Array(30).keys()).map((i) => `day${i + 1}`)
+  const days = Array.from(Array(35).keys()).map((i) => `day${i + 1}`)
 
   return (
     <>

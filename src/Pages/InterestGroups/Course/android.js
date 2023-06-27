@@ -15,14 +15,14 @@ const AndroidData = [
             assignment_description:
               "Now that you have learnt the basics of Kotlin, it’s time to test yourselves by building a simple Todo App Manager using Kotlin. You have all the freedom to design it however you like! Submit your completed project to the Github repository",
             example:
-              "Hey I’ve completed the Intro to Kotlin Course. Check my Todo App. #android-kotlin-intro",
+              "#android-kotlin-intro Hey I’ve completed the Intro to Kotlin Course. Check my Todo App.",
           },
         ],
       },
       {
         id: "2",
         name: "Android Basics with Compose",
-        karma: "800",
+        karma: "1200",
         description:
           "In this course, you'll learn the basics of building Android apps with Jetpack Compose, the new UI toolkit for building Android apps. Along the way, you'll develop a collection of apps to start your journey as an Android developer.",
         link: "https://developer.android.com/courses/android-basics-compose/course",
@@ -41,7 +41,7 @@ const AndroidData = [
         inner_description:
           "Now if you go to the pull requests tab in GTech µLearn repo, you’ll be able to see your pull request. Open it and copy your pull request URL.",
         example:
-          "Submit the link in #android-development channel with the hashtag, #android-git-github",
+          "#android-git-github Submit the link in #android-development channel with the hashtag,",
         assignment: [
           {
             assignment_description:

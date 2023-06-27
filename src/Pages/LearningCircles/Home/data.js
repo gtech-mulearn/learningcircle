@@ -7,9 +7,15 @@ const InterestGroups = [
     leads: [
       {
         id: 1,
-        name: "Jeevan Joseph",
-        college: "Kristu Jyoti College of Management & Technology,Kottayam",
-        images: "assets/interestGroups/jeevanJoseph.webp",
+        name: "Muhammed R",
+        college: "St Thomas institute for science and technology,tvm",
+        images: "assets/interestGroups/Muhammed-R.webp",
+      },
+      {
+        id: 1,
+        name: "Abhiramkrishna R S",
+        college: "Mar Baselios College of Engineering and Technology,tvm",
+        images: "",
       },
     ],
     officetime: "Sunday 7:30 PM",
@@ -110,21 +116,21 @@ const InterestGroups = [
         complexity: "7",
         karma: "400",
       },
+      // {
+      //   id: "2",
+      //   name: "Kerala IoT Challenge Level 2",
+      //   link: "/iot/core/2",
+      //   time: "12 Hours",
+      //   complexity: "8",
+      //   karma: "800",
+      // },
       {
         id: "2",
-        name: "Kerala IoT Challenge Level 2",
-        link: "/iot/core/2",
-        time: "12 Hours",
-        complexity: "8",
-        karma: "800",
-      },
-      {
-        id: "3",
         name: "Introduction to IOT - Cisco Networking Acdemy",
-        link: "https://www.netacad.com/courses/iot/introduction-iot",
+        link: "/iot/core/2",
         time: "20 Hours",
         complexity: "6",
-        karma: "Not Announced",
+        karma: "800",
       },
     ],
     subcourses: [
@@ -616,21 +622,13 @@ const InterestGroups = [
       },
       {
         name: "Android Basics with Compose",
-        link: "/android/core/2",
+        link: "/bootcamps/ig/android",
         complexity: "",
         time: "",
-        karma: "800",
+        karma: "1200",
       },
     ],
-    subcourses: [
-      {
-        name: "Git and Github",
-        link: "/android/sub/1",
-        complexity: "",
-        time: "",
-        karma: "200",
-      },
-    ],
+    subcourses: [],
     blogs: [
       {
         id: "0",
@@ -767,7 +765,7 @@ const InterestGroups = [
       },
       {
         id: "2",
-        name: "Ben George",
+        name: "Ben George Netto",
         college:
           "Mar Baselios College of Engineering and Technology, Trivandrum",
         images: "assets/interestGroups/ben.webp",
@@ -1120,7 +1118,7 @@ const InterestGroups = [
     interestgroupdescription:
       '"Join our Quality Assurance Interest Group to learn and collaborate with peers on best practices for measuring and improving product quality. Discover new testing strategies and Quality Assurance frameworks to ensure your products meet the highest standards of excellence."',
     officetime: "",
-    officeplace: " ",
+    officeplace: "",
     thinktankplace: "",
     thinktanktime: "",
     community: [],
@@ -1264,7 +1262,7 @@ const InterestGroups = [
         time: "",
         karma: "Not Announced",
       },
-    ],
+    ]
   },
   {
     id: "pm",
@@ -1721,7 +1719,7 @@ const InterestGroups = [
     mentors: ["Vishnu Vijayan", "Akshay Jose"],
     mentorscard: [
       {
-        id: "",
+        id: "1",
         name: "Vishnu Vijayan",
         designation: "Alliances Manager, Zilicon Technologies Pvt.Ltd",
         linkedIn: "https://www.linkedin.com/in/vishnu-vijayan-vs/",
@@ -1729,9 +1727,25 @@ const InterestGroups = [
         image: "/assets/mentors/Vishnu Vijayan.webp",
       },
       {
-        id: "",
+        id: "2",
         name: "Akshay Jose",
         designation: "Creative Designer, Xena Intelligence",
+        linkedIn: "https://www.linkedin.com/in/akshay-jose-700025124/",
+        stack: "AR/VR",
+        image: "/assets/mentors/Akshay Jose.webp",
+      },
+      {
+        id: "3",
+        name: "Vishnu Sivan",
+        designation: "",
+        linkedIn: "https://www.linkedin.com/in/akshay-jose-700025124/",
+        stack: "AR/VR",
+        image: "/assets/mentors/Akshay Jose.webp",
+      },
+      {
+        id: "4",
+        name: "Nikhil",
+        designation: "TiltLabs",
         linkedIn: "https://www.linkedin.com/in/akshay-jose-700025124/",
         stack: "AR/VR",
         image: "/assets/mentors/Akshay Jose.webp",
@@ -1777,15 +1791,29 @@ const InterestGroups = [
     basicenablementtasks: [],
     corecourses: [
       {
-        name: "Augmented Reality - Full course from Freecodecamp",
-        link: "https://www.freecodecamp.org/news/augmented-reality-full-course/",
+        name: "AR/VR Overview",
+        link: "https://www.youtube.com/watch?v=04AMaTsXFJU",
         complexity: "",
         time: "",
         karma: "Not Announced",
       },
       {
-        name: "VR Development",
-        link: "https://learn.unity.com/pathway/vr-development",
+        name: "Download Unity",
+        link: "https://unity.com/developer-tools",
+        complexity: "",
+        time: "",
+        karma: "Not Announced",
+      },
+      {
+        name: "Register with Unity",
+        link: "https://unity.com/products/unity-student",
+        complexity: "",
+        time: "",
+        karma: "Not Announced",
+      },
+      {
+        name: "Download Blender 3D",
+        link: "https://www.blender.org/",
         complexity: "",
         time: "",
         karma: "Not Announced",
@@ -2015,10 +2043,10 @@ const InterestGroups = [
     interestgroup: "Blockchain",
     interestgroupdescription:
       "Block chain is a new age technology that makes transactions much more secure and decentralized. The rapid advancements in Blockchain have led to the development of Web 3.0 and has given rise to several crypto-currencies. Join the Blockchain Interest Group to get a better grasp over this world-changing technology.",
-    officetime: " Sunday 8.30 PM",
+    officetime: " Monday 8.30 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
-    thinktanktime: " Monday 8:30 PM",
+    thinktanktime: " Sunday 8:30 PM",
     community: ["KBA"],
     opportunities: [],
     company: [],
@@ -2224,12 +2252,17 @@ const InterestGroups = [
     interestgroup: "Flutter",
     interestgroupdescription:
       "Flutter is an open-source mobile application development framework created by Google. It allows developers to build native applications for Android, iOS, and other platforms using a single codebase. Flutter uses the Dart programming language, which was also developed by Google, and provides a rich set of pre-built widgets and tools for building beautiful, fast, and responsive user interfaces.",
-    officetime: " Monday 8.30 PM",
+    officetime: " Friday 9.00 PM",
     officeplace: " @ Discord Lobby",
     thinktankplace: " @ Google Meet",
-    thinktanktime: " Monday 8:30 PM",
+    thinktanktime: " Thursday 9:30 PM",
     community: [],
-    opportunities: [],
+    opportunities: [
+      "Android developer",
+      "Ios Developer",
+      "Ui designer",
+      "Frontend developer",
+    ],
     company: [],
     pagination: [
       {
@@ -2246,6 +2279,21 @@ const InterestGroups = [
         id: "1",
         name: "Dart Language Tour",
         link: "https://dart.dev/guides/language/language-tour",
+      },
+      {
+        id: "2",
+        name: "Language Tour For Seasoned Programmer",
+        link: "https://gist.github.com/mipsmonsta/6ea53319d43564b1b72859da68924dc7#file-abridged_dart_lang_tour-txt",
+      },
+      {
+        id: "3",
+        name: "Roadmap	",
+        link: "https://roadmap.sh/flutter",
+      },
+      {
+        id: "4",
+        name: "Dart in 100 Seconds	",
+        link: "https://www.youtube.com/watch?v=NrO0CJCbYLA",
       },
     ],
     basicenablementtasks: [
@@ -2329,46 +2377,99 @@ const InterestGroups = [
         karma: "Not Announced",
       },
       {
-        id: "1",
+        id: "2",
         name: "Dart",
         link: "https://www.youtube.com/watch?v=uZvoTCSsfjo&list=PLptHs0ZDJKt_fLp8ImPQVc1obUJKDSQL7",
         difficulty: "",
         karma: "Not Announced",
       },
       {
-        id: "2",
+        id: "3",
         name: "Flutter",
         link: "https://youtu.be/VPvVD8t02U8",
         karma: "Not Announced",
       },
       {
-        id: "2",
+        id: "4",
         name: "Flutter",
         link: "https://www.youtube.com/channel/UCw2IfXRCHaYryORhBICp8QA",
 
         karma: "Not Announced",
       },
     ],
-    subcourses: [
+
+    topkeywords: [
       {
-        name: "Flutter UI Development",
-        link: "https://www.youtube.com/watch?v=zTTP8XBR6fI&list=PLf-j0Hs0PF3uxzMCFLlfJ9W3hRxLzHPGX",
-        karma: "Not Announced",
+        name: "Widgets",
       },
       {
-        name: "Flutter State Management",
-        link: "https://www.youtube.com/watch?v=3tm-R7ymwhc",
-        karma: "Not Announced",
+        name: "Material Design",
       },
       {
-        name: "Flutter Animations",
-        link: "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gP1qg8yj-Jokef29VRCLt1",
-        karma: "Not Announced",
+        name: "Cupertino ",
       },
       {
-        name: "Flutter Firebase Integration",
-        link: "https://www.youtube.com/watch?v=sfA3NWDBPZ4&list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC",
-        karma: "Not Announced",
+        name: "Stateful and Stateless widgets",
+      },
+      {
+        name: "Flutter packages",
+      },
+      {
+        name: "Flutter Web",
+      },
+      {
+        name: "Flutter Desktop",
+      },
+    ],
+    otherresources: [
+      {
+        id: "1",
+        name: "Podcast",
+        link: "https://player.fm/series/flying-high-with-flutter",
+      },
+      {
+        id: "2",
+        name: "Podcast",
+        link: "https://flutter101.dev/",
+      },
+      {
+        id: "3",
+        name: "Tips & Tricks",
+        link: "https://www.youtube.com/watch?v=5vDq5DXXxss",
+      },
+    ],
+    bestblogstofollow: [
+      {
+        id: "1",
+        name: "Flutter – Medium",
+        link: "https://medium.com/flutter",
+      },
+      {
+        id: "2",
+        name: "Flutter Community – Medium",
+        link: "https://medium.com/flutter-community",
+      },
+      {
+        id: "3",
+        name: "Fireship- Flutter",
+        link: "https://fireship.io/tags/flutter/",
+      },
+    ],
+    toppeopletofollow: [
+      {
+        id: "1",
+        name: "Tim Sneath",
+        link: "https://twitter.com/timsneath",
+      },
+      {
+        id: "2",
+        name: "Eric Seidal",
+        link: "https://twitter.com/_eseidel",
+      },
+      {
+        id: "3",
+        name: "Flutter",
+        link: "https://twitter.com/FlutterDev",
       },
     ],
     leads: [
@@ -2386,18 +2487,10 @@ const InterestGroups = [
         images: "assets/interestGroups/Basith P.webp",
         linkedIn: "https://www.linkedin.com/in/basithp9/",
       },
-
       {
         id: 3,
         name: "Arfaz Khan Hijas Khan",
         college: "AWH Engineering College Kozhikode",
-        images: "",
-        linkedIn: "",
-      },
-      {
-        id: 4,
-        name: "Vishnu Prabhakaran",
-        college: "College of Engineering and Technology Payyanur",
         images: "",
         linkedIn: "",
       },
@@ -3066,6 +3159,6 @@ const InterestGroups = [
       },
     ],
   },
-]
+];
 
-export default InterestGroups
+export default InterestGroups;

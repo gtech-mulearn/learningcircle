@@ -113,7 +113,7 @@ const TypingChallenge = () => {
                     <div className="timeline__event__title">Step Three</div>
                     <div className="timeline__event__description">
                       Post the screenshot of your progress when you reach level
-                      126 in <b>#students</b> channel with hashtag{" "}
+                      126 in <b>#task-dropbox</b> channel with hashtag{" "}
                       <b>#ge-typing-challenge-126</b> to avail{" "}
                       <b>200 karma points</b>.
                     </div>
@@ -132,7 +132,7 @@ const TypingChallenge = () => {
                     <div className="timeline__event__title">Step Four</div>
                     <div className="timeline__event__description">
                       Post the screenshot of your progress when you reach level
-                      285 in <b>#students</b> channel with hashtag{" "}
+                      285 in <b>#task-dropbox</b> channel with hashtag{" "}
                       <b>#ge-typing-challenge-285</b> to avail{" "}
                       <b>200 karma points</b>.
                     </div>
@@ -151,7 +151,7 @@ const TypingChallenge = () => {
                     <div className="timeline__event__title">Step Five</div>
                     <div className="timeline__event__description">
                       Post the screenshot of your progress when you reach level
-                      460 in <b>#students</b> channel with hashtag{" "}
+                      460 in <b>#task-dropbox</b> channel with hashtag{" "}
                       <b>#ge-typing-challenge-460</b> to avail{" "}
                       <b>200 karma points</b>.
                     </div>
@@ -170,7 +170,7 @@ const TypingChallenge = () => {
                     <div className="timeline__event__title">Step Six</div>
                     <div className="timeline__event__description">
                       Post the screenshot of your progress when you reach level
-                      685 in <b>#students</b> channel with hashtag{" "}
+                      685 in <b>#task-dropbox</b> channel with hashtag{" "}
                       <b>#ge-typing-challenge-685</b> to avail{" "}
                       <b>200 karma points</b>.
                       <br />
