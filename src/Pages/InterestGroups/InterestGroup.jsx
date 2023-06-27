@@ -55,15 +55,16 @@ const InterestGroup = ({ setInterest }) => {
     setInterest(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [setInterest]);
-  let { id } = useParams();
+  let { id, subinterest } = useParams();
   const link = `/create/${id}`;
   const data = InterestGroups.filter(function (interestgroups) {
     return interestgroups.id === id;
   });
 
   if (!(data && data[0])) {
+    const subdata = require(`../InterestGroups/SubInterests/${subinterest}.json`);
     data.push(
-      webmobile.filter(function (interestgroups) {
+      subdata.filter(function (interestgroups) {
         return interestgroups.id === id;
       })[0]
     );
