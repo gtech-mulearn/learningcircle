@@ -308,7 +308,7 @@ const InterestGroups = [
     challenges: [
       {
         id: "1",
-        name: "Bring A Buisness Online",
+        name: "Bring a business Online",
         link: "https://awesome.mulearn.org/",
       },
       {
@@ -897,7 +897,7 @@ const InterestGroups = [
         karma: "Not Announced",
       },
       {
-        name: "IT Funtamentals",
+        name: "IT Fundamentals",
         link: "https://www.coursera.org/specializations/it-fundamentals-cybersecurity",
         complexity: "5",
         time: "",
@@ -1235,7 +1235,7 @@ const InterestGroups = [
         karma: "Not Announced",
       },
       {
-        name: "API Testing for Begineers using Postman",
+        name: "API Testing for Beginners using Postman",
         link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLt3kLIHDLVjdnmJw7BDvVdE",
         complexity: "",
         time: "",
@@ -1647,7 +1647,7 @@ const InterestGroups = [
       },
       {
         id: "2",
-        name: "Create Loding Animation in Figma",
+        name: "Create Loading Animation in Figma",
       },
       {
         id: "3",
@@ -1882,7 +1882,7 @@ const InterestGroups = [
         name: "Niyas Mohammed",
         designation: "Technology Specialist - AI",
         linkedIn: "https://www.linkedin.com/in/niyasmohammed/",
-        stack: "Artifical Intelligence",
+        stack: "Artificial Intelligence",
         image: "/assets/mentors/Niyas Mohammed.webp",
       },
       {
@@ -1890,7 +1890,7 @@ const InterestGroups = [
         name: "Robin Tommy",
         designation: "Social Innovation and Startup Mentor TCS ",
         linkedIn: "https://www.linkedin.com/in/niyasmohammed/",
-        stack: "Artifical Intelligence",
+        stack: "Artificial Intelligence",
         image: "/assets/mentors/Robin Tommy.webp",
       },
     ],
