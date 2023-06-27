@@ -15,7 +15,7 @@ const InterestGroups = [
         id: 1,
         name: "Abhiramkrishna R S",
         college: "Mar Baselios College of Engineering and Technology,tvm",
-        images: "",
+        images: "assets/interestGroups/abhiraman r s.webp",
       },
     ],
     officetime: "Sunday 7:30 PM",
@@ -126,7 +126,7 @@ const InterestGroups = [
       // },
       {
         id: "2",
-        name: "Introduction to IOT - Cisco Networking Acdemy",
+        name: "Introduction to IOT - Cisco Networking Academy",
         link: "/iot/core/2",
         time: "20 Hours",
         complexity: "6",
@@ -308,7 +308,7 @@ const InterestGroups = [
     challenges: [
       {
         id: "1",
-        name: "Bring A Buisness Online",
+        name: "Bring a business Online",
         link: "https://awesome.mulearn.org/",
       },
       {
@@ -897,7 +897,7 @@ const InterestGroups = [
         karma: "Not Announced",
       },
       {
-        name: "IT Funtamentals",
+        name: "IT Fundamentals",
         link: "https://www.coursera.org/specializations/it-fundamentals-cybersecurity",
         complexity: "5",
         time: "",
@@ -1133,7 +1133,7 @@ const InterestGroups = [
         linkedIn: "https://www.linkedin.com/in/mohammedzaheerulla/",
         stack: "Quality Assurance",
         image:
-          "https://media.licdn.com/dms/image/C5603AQGCLTRDz2a2Qg/profile-displayphoto-shrink_200_200/0/1660308905062?e=1683763200&v=beta&t=QXAep8pfJtXzeVNrmBDUI5HqKsv0cDmZDCdHIrLB3wY",
+          "assets/mentors/Mohammed Zaheer.webp",
       },
       {
         id: "S137",
@@ -1142,7 +1142,7 @@ const InterestGroups = [
         linkedIn: "https://www.linkedin.com/in/saran-krishna-n-a58b191a4/",
         stack: "Quality Assurance",
         image:
-          "https://media.licdn.com/dms/image/D5603AQFoPOdS5W6CkQ/profile-displayphoto-shrink_200_200/0/1674936777472?e=1683763200&v=beta&t=ACquU4WWWfO-FRk-LHj7cdMpJ30DxAY2k5ah5bpDT2k",
+          "assets/mentors/Saran Krishna N.webp",
       },
       {
         id: "S137",
@@ -1235,7 +1235,7 @@ const InterestGroups = [
         karma: "Not Announced",
       },
       {
-        name: "API Testing for Begineers using Postman",
+        name: "API Testing for Beginners using Postman",
         link: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLt3kLIHDLVjdnmJw7BDvVdE",
         complexity: "",
         time: "",
@@ -1647,7 +1647,7 @@ const InterestGroups = [
       },
       {
         id: "2",
-        name: "Create Loding Animation in Figma",
+        name: "Create Loading Animation in Figma",
       },
       {
         id: "3",
@@ -1738,17 +1738,17 @@ const InterestGroups = [
         id: "3",
         name: "Vishnu Sivan",
         designation: "",
-        linkedIn: "https://www.linkedin.com/in/akshay-jose-700025124/",
+        linkedIn: "https://www.linkedin.com/in/codemaker2015/",
         stack: "AR/VR",
-        image: "/assets/mentors/Akshay Jose.webp",
+        image: "/assets/mentors/Vishnu Sivan.webp",
       },
       {
         id: "4",
         name: "Nikhil",
         designation: "TiltLabs",
-        linkedIn: "https://www.linkedin.com/in/akshay-jose-700025124/",
+        linkedIn: "https://www.linkedin.com/in/nikhil-tiltlabs/",
         stack: "AR/VR",
-        image: "/assets/mentors/Akshay Jose.webp",
+        image: "/assets/mentors/Nikhil Chandran.webp",
       },
     ],
     pagination: [
@@ -1881,16 +1881,16 @@ const InterestGroups = [
         id: "",
         name: "Niyas Mohammed",
         designation: "Technology Specialist - AI",
-        linkedIn: "https://www.linkedin.com/in/niyasmohammed/",
-        stack: "Artifical Intelligence",
+        linkedIn: "https://www.linkedin.com/in/robintommy/",
+        stack: "Artificial Intelligence",
         image: "/assets/mentors/Niyas Mohammed.webp",
       },
       {
         id: "",
         name: "Robin Tommy",
         designation: "Social Innovation and Startup Mentor TCS ",
-        linkedIn: "https://www.linkedin.com/in/niyasmohammed/",
-        stack: "Artifical Intelligence",
+        linkedIn: "https://www.linkedin.com/in/robintommy/",
+        stack: "Artificial Intelligence",
         image: "/assets/mentors/Robin Tommy.webp",
       },
     ],
@@ -2491,7 +2491,7 @@ const InterestGroups = [
         id: 3,
         name: "Arfaz Khan Hijas Khan",
         college: "AWH Engineering College Kozhikode",
-        images: "",
+        images: "assets/interestGroups/Arfaz Khan Hijas Khan.webp",
         linkedIn: "",
       },
     ],
