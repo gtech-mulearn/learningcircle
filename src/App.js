@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import axios from "axios";
-import MutechLeaderboard  from "./Pages/MutechLeaderBoard/MutechLeaderBoard";
+
 //LearningCirlces Section
 import Home from "./Pages/LearningCircles/Home/Home";
 import Create from "./Pages/LearningCircles/Create/Create";
@@ -249,7 +249,7 @@ function App() {
             path="/:id"
             element={<InterestGroup setInterest={setInterest} />}
           />
-        <Route path='mutech/leaderboard' element={<MutechLeaderboard />} />
+
           <Route path="/mentors" element={<MentorDirectory />} />
           <Route path="/problemshelves" element={<ProblemShelves />} />
           <Route path="/opensource" element={<OpenSource />} />
