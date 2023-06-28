@@ -180,11 +180,18 @@ export const links = [
         head: 2,
         name: "The Chaptership",
         submenu: true,
-        link: mainlink + "/campuschapters",
+        link: "/campuschapters",
         sublinks: [
           {
-            name: "User Journey",
-            link: mainlink + "/journey",
+            name: "Lead a Campus",
+            link: "https://airtable.com/shrmtngt3zopg8eVh",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Find Your Campus",
+            link: mainlink + "/campuschapters#findchapter",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -198,7 +205,7 @@ export const links = [
           },
           {
             name: "Success Stories",
-            link: mainlink + "/successstories",
+            link: mainlink + "/blogs",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -210,13 +217,6 @@ export const links = [
         name: "The Orientation",
         submenu: true,
         sublinks: [
-          {
-            name: "Lead a Campus",
-            link: "https://airtable.com/shrmtngt3zopg8eVh",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
           {
             name: "Typing Mastery",
             link: "/challenge/typing",
