@@ -272,7 +272,7 @@ const GettingStarted = ({ create, wlink, join }) => {
                   hope to see you there!
                 </p>
                 <a
-                  href="https://discord.mulearn.org"
+                  href="https://app.mulearn.org/user/register"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

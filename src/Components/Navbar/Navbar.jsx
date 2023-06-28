@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 import { DesktopMenu, Resources } from "./Desktop";
 import { MobileTopBar, MobileMenu } from "./Mobile";
@@ -33,13 +32,13 @@ const Navbar = () => {
 
 const Logo = () => {
   return (
-    <Link to="/">
+    <a href="https://mulearn.org">
       <img
         src="/assets/navbar/µLearn.webp"
         alt="logo"
         className="lg:cursor-pointer h-8 z-0"
       />
-    </Link>
+    </a>
   )
 }
 export default Navbar;

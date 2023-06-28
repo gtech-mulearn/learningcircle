@@ -47,23 +47,23 @@ export const MobileMenu = ({ setNotificationOpen, setOpen, handleScrolling, open
       `}
         >
             <NavLinks />
-            <li>
+      
                 <a
-                    href="https://mulear.org/careers"
-                    className="py-7 px-7 inline-block uppercase hover:text-orange-500 text-[13px]"
+                    href="https://mulearn.org/careers"
+                    className="py-4 px-7 inline-block uppercase hover:text-orange-500 text-[13px]"
                     onClick={() => {
                         setOpen(false);
                         setNotificationOpen(false);
                         handleScrolling(true);
                     }}
                 >
-                    Career
+                    Careers
                 </a>
-            </li>
+          
 
             <div className="grid justify-items-center">
                 <a
-                    href="https://discord.mulearn.org/"
+                    href="https://app.mulearn.org/user/register/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="py-3 px-28 "
@@ -162,7 +162,9 @@ export const MobileSubHeader = ({ currentLink, goBack }) => {
                 className="text-xl flex items-center" onClick={() => goBack()}>
                 <ion-icon name="chevron-back-outline" />
             </span>
-            <div className="text-[13px]">{currentLink.name}</div>
+            <a href={currentLink.link} target="_blank" rel="noopener noreferrer">
+             <div className="text-[13px]">{currentLink.name}</div>
+            </a>
             <div></div>
         </div>
     )

@@ -9,7 +9,7 @@ const BlockchainData = [
           "A practical course on learning solidity with examples, projects and theory.This course is designed to help you learn solidity with examples, projects and theory.",
         link: "https://metaschool.so/courses/10-days-of-solidity",
         inner_description:
-          "After course completion, post the screenshort of your profile along with the card showing course completed in #blockchain channel of µLearn Discord server with hashtag #cl-10days-of-soldity to avail karma points.",
+          "After course completion, post the screenshort of your profile along with the card showing course completed in #blockchain channel of µLearn Discord server with hashtag #cl-10days-of-solidity to avail karma points.",
       },
       {
         id: "2",
@@ -63,7 +63,7 @@ const BlockchainData = [
       },
       {
         id: "7",
-        name: "Understand and setup MetaMask Accoun",
+        name: "Understand and setup MetaMask Account",
         karma: "100",
         description:
           "This course will teach you how to install and set up the popular cryptocurrency wallet, Metamask. You will learn the fundamentals of cryptocurrency wallets, how to create and manage an account, and how to safely store and transact with cryptocurrencies. The course will provide step-by-step instructions for downloading, installing, and setting up Metamask. Upon completion, you will have the skills and confidence to use Metamask for secure cryptocurrency storage and transactions.",

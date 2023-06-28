@@ -18,7 +18,7 @@ const InnovationDesignChallenge = () => {
               <p className={styles.fv_content}>
                 Design solutions for home problems in the Civil Engineering
                 course project. Complete five steps and submit work with
-                appropriate hashtags in <b>#civil</b> channel.
+                appropriate hashtags in <b>#entrepreneurship</b> channel.
                 Includes identifying problems, surveying stakeholders, preparing
                 a design sketch, and creating a mock-up model with a video
                 presentation.
@@ -61,7 +61,7 @@ const InnovationDesignChallenge = () => {
                       Identify three problems in your home, document them
                       including photographs, and mention the
                       stakeholders/beneficiaries. Submit the document link in
-                      the <b>#civil</b> channel with the hashtag
+                      the <b>#entrepreneurship</b> channel with the hashtag
                       <b>#cl-ie-design1</b> to get 50 Karma Points
                     </div>
                   </div>
@@ -82,7 +82,7 @@ const InnovationDesignChallenge = () => {
                       corresponding stakeholders. Conduct a detailed study of
                       the problem by asking questions and document it. Submit
                       the document, including questions and their responses
-                      along with photographs, in the <b>#civil</b>{" "}
+                      along with photographs, in the <b>#entrepreneurship</b>{" "}
                       channel with the hashtag <b>#cl-ie-design2</b> to get 50
                       Karma Points
                     </div>
@@ -103,7 +103,7 @@ const InnovationDesignChallenge = () => {
                       Select a problem statement to solve and study existing
                       solutions. Prepare a detailed document of the new design
                       and what values the improvement makes. Submit the
-                      documentation link in the <b>#civil</b>{" "}
+                      documentation link in the <b>#entrepreneurship</b>{" "}
                       channel with the hashtag <b>#cl-ie-design3</b> to get 50
                       Karma Points.
                     </div>
@@ -122,7 +122,7 @@ const InnovationDesignChallenge = () => {
                     <div className="timeline__event__title">Step Four</div>
                     <div className="timeline__event__description">
                       Prepare a sketch of the new/improved design and submit the
-                      image in the <b>#civil</b> channel with the
+                      image in the <b>#entrepreneurship</b> channel with the
                       hashtag
                       <b>#cl-ie-design4</b> to get 50 Karma Points
                     </div>
@@ -143,7 +143,7 @@ const InnovationDesignChallenge = () => {
                       Make a mock-up model and prepare a one-minute video of the
                       product or design that contains the problem, solution, and
                       advantages. Submit the video in the{" "}
-                      <b>#civil</b>
+                      <b>#entrepreneurship</b>
                       channel with the hashtag <b>#cl-ie-design5</b> to get 50
                       Karma Points
                     </div>
