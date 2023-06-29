@@ -5,7 +5,7 @@ const InterestGroups = [
     id: "iotrf",
     interestgroup: "IoT Robotics and Digital Fabrications",
     interestgroupdescription:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "Being smart yourself is not enough these days. You gotta have smart devices too. Smart enough to even drive manufacturing on their own! Need help? Join our Interest Group now to explore the world of automation at your own pace!",
     basicenablementtasks: [],
     learningpaths: [],
     corecourses: [],
@@ -55,7 +55,7 @@ const InterestGroups = [
     id: "webmobile",
     interestgroup: "Web and Mobile App Development",
     interestgroupdescription:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "Creating the perfect place for your business or product to succeed is key nowadays. Learn how to create and develop eye catching web and mobile applications through our Interest Group. Join today! ",
 
     basicenablementtasks: [],
     learningpaths: [],
@@ -377,7 +377,7 @@ const InterestGroups = [
     id: "innovationentre",
     interestgroup: "Innovation and Entrepreneusrship",
     interestgroupdescription:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "Think you're born to lead? Got a new idea that gives you an edge over your competitors? Join our Interest Group and let your innovations be reality and start off your journey of entrepreneurship today!",
 
     basicenablementtasks: [],
     learningpaths: [],
@@ -446,7 +446,7 @@ const InterestGroups = [
     id: "uiuxcreative",
     interestgroup: "UI UX Creative Design",
     interestgroupdescription:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "Ever felt the look of an app could have been better? Ever felt the colours were off? If so, your 'interface' and 'experience' is what's being disturbed. Worry not, we're here to give you a full overview of UI/UX so you don't make the same mistakes when it's your turn to shine! Join now!",
 
     basicenablementtasks: [],
     learningpaths: [],
@@ -506,7 +506,7 @@ const InterestGroups = [
     id: "arvrxr",
     interestgroup: "AR VR XR",
     interestgroupdescription:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "Wanna access the reality you wish to explore in the form of AR, VR and XR? Learn how to access this reality of yours through our Interest Group focused on augmented, virtual and extended realities. Join now!",
 
     basicenablementtasks: [],
     learningpaths: [],
@@ -557,7 +557,7 @@ const InterestGroups = [
     id: "aimlanalytics",
     interestgroup: "AI ML and Analytics",
     interestgroupdescription:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "We live in an age where computers have started predicting the outputs based on its experience with handling data. Join the AI, ML and Analytics Interest Group to learn how to train, test and validate your system to do the same as well as analyse datasets of your requirements. See you on board!",
 
     basicenablementtasks: [],
     learningpaths: [],
@@ -780,7 +780,7 @@ const InterestGroups = [
     id: "noncircuit",
     interestgroup: "Non Circuit Branches",
     interestgroupdescription:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "Ever felt the non circuit branches of engineering are not receiving the attention they deserve? Fear not, because we are here to give you what you deserve! An opportunity to explore beyond computers and electronics to the ways of mechanics and infrastructure. Join our Interest Group for all things related to non circuit branches!",
 
     basicenablementtasks: [],
     learningpaths: [],
