@@ -504,7 +504,7 @@ const InterestGroups = [
     comingsoon: true,
     hassubgroups: true,
     id: "arvrxr",
-    interestgroup: "AR VR XR",
+    interestgroup: "AR VR XR and 3D Animation & Game Development",
     interestgroupdescription:
       "Wanna access the reality you wish to explore in the form of AR, VR and XR? Learn how to access this reality of yours through our Interest Group focused on augmented, virtual and extended realities. Join now!",
 
