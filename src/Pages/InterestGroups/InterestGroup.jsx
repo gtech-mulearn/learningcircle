@@ -567,7 +567,7 @@ const InterestGroup = ({ setInterest }) => {
                   <p className={styles.sv_heading}>Top Blogs to Follow</p>
                   <p className={styles.sv_content}>
                     Learning through Reading is a great method as it has many
-                    advantages. There are multiple Blogs out there with quailty
+                    advantages. There are multiple Blogs out there with quality
                     content and here are few of them.
                   </p>
                   <ul className={styles.sv_lists}>
