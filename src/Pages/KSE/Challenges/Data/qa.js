@@ -154,7 +154,7 @@ const QAStructure = [
   {
     bootcamp: "basic",
     courseid: 7,
-    name: "API Testing for Begineers using Postman",
+    name: "API Testing for Beginneers using Postman",
     segmentid: 0,
     segments: "",
     segmentKarma: "",

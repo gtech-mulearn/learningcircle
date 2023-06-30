@@ -15,7 +15,7 @@ const IoTData = [
       },
       {
         id: "2",
-        name: "Introduction to IOT - Cisco Networking Acdemy",
+        name: "Introduction to IOT - Cisco Networking Acdaemy",
         karma: "800",
         description:
           "Discover how the Internet of Things is enabling digital transformations across a variety of industries and can expand career opportunities in the future.",

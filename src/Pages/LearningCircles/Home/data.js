@@ -514,11 +514,11 @@ const InterestGroups = [
 
     coretracks: [
       {
-        id: "/arvrxr/ar",
+        id: "/arvrxr/arvr",
         description:
           "Augmented Reality and Virtual Reality bridge the gap between the real and digital world and help you conceive digital information in the same way you do in the real world. Join the Interest Group today to delve deeper into the Digital World!",
         name: "Aguemented Reality",
-        link: "/arvrxr/ar",
+        link: "/arvrxr/arvr",
         officetime: "Sunday 08:30 PM",
         officeplace: " @ Discord Lobby",
       },

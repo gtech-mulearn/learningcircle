@@ -38,7 +38,7 @@
     "challenges": [
       {
         "id": "1",
-        "name": "Bring A Buisness Online",
+        "name": "Bring a Buisness Online",
         "link": "https://awesome.mulearn.org/"
       },
       {
@@ -527,7 +527,7 @@
         "designation": "Faya",
         "linkedIn": "https://www.linkedin.com/in/mohammedzaheerulla/",
         "stack": "Quality Assurance",
-        "image": "https://media.licdn.com/dms/image/C5603AQGCLTRDz2a2Qg/profile-displayphoto-shrink_200_200/0/1660308905062?e=1683763200&v=beta&t=QXAep8pfJtXzeVNrmBDUI5HqKsv0cDmZDCdHIrLB3wY"
+        "image": "/assets/mentors/Mohammed Zaheer.webp"
       },
       {
         "id": "S137",
@@ -535,7 +535,7 @@
         "designation": "Faya",
         "linkedIn": "https://www.linkedin.com/in/saran-krishna-n-a58b191a4/",
         "stack": "Quality Assurance",
-        "image": "https://media.licdn.com/dms/image/D5603AQFoPOdS5W6CkQ/profile-displayphoto-shrink_200_200/0/1674936777472?e=1683763200&v=beta&t=ACquU4WWWfO-FRk-LHj7cdMpJ30DxAY2k5ah5bpDT2k"
+        "image": "/assets/mentors/Saran Krishna N.webp"
       },
       {
         "id": "S137",
@@ -714,7 +714,7 @@
         "id": 3,
         "name": "Arfaz Khan Hijas Khan",
         "college": "AWH Engineering College Kozhikode",
-        "images": "",
+        "images": "/assets/interestGroups/Arfaz Khan Hijas Khan.webp",
         "linkedIn": ""
       }
     ]
