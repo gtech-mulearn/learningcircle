@@ -226,7 +226,7 @@ const InterestGroup = ({ setInterest }) => {
                         and get a better understanding of the interest group.
                       </p>
                       <a
-                        href="https://mulearn.org/register"
+                        href="https://app.mulearn.org/register"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

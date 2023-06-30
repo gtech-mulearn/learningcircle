@@ -8,7 +8,7 @@
         "id": 1,
         "name": "Muhammed R",
         "college": "St Thomas institute for science and technology,tvm",
-        "images": "assets/interestGroups/Muhammed-R.webp"
+        "images": "/assets/interestGroups/Muhammed-R.webp"
       },
       {
         "id": 2,
@@ -18,7 +18,7 @@
       },
       {
         "id": 3,
-        "name": "Abhiramkrishna R S",
+        "name": "Badhusha Shaji",
         "college": "KJCMT",
         "images": ""
       },
@@ -90,7 +90,7 @@
         "designation": "Embedded Software Engineer, STABL Energy GmbH",
         "linkedIn": "https://www.linkedIn.com/in/akshaim",
         "stack": "IoT",
-        "image": "assets/mentors/Akshai M.webp"
+        "image": "/assets/mentors/Akshai M.webp"
       },
       {
         "id": "S135",

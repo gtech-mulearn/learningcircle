@@ -8,19 +8,19 @@
         "id": "1",
         "name": "Aswin Asok",
         "college": "Marian Engineering College,Thiruvananthapuram",
-        "images": "assets/interestGroups/Aswin Asok.webp"
+        "images": "/assets/interestGroups/Aswin Asok.webp"
       },
       {
         "id": "2",
         "name": "Adil S ",
         "college": "Govt. Engineering College,Idukki",
-        "images": "assets/interestGroups/Adil S.webp"
+        "images": "/assets/interestGroups/Adil S.webp"
       },
       {
         "id": "3",
         "name": "Alwin John",
         "college": "College of Engineering Chengannur,Alappuzha ",
-        "images": "assets/interestGroups/Alwin John .webp"
+        "images": "/assets/interestGroups/Alwin John .webp"
       }
     ],
     "officetime": "Thursday 7:30 PM",
@@ -484,14 +484,14 @@
       {
         "id": "1",
         "name": "Mariya Merlin ",
-        "images": "assets/interestGroups/mariya.webp",
+        "images": "/assets/interestGroups/mariya.webp",
         "college": "Kristujyoti College of Management and Technology, Changannacherry"
       },
       {
         "id": "2",
         "name": "Ben George Netto",
         "college": "Mar Baselios College of Engineering and Technology, Trivandrum",
-        "images": "assets/interestGroups/ben.webp"
+        "images": "/assets/interestGroups/ben.webp"
       }
     ],
     "resources": [
@@ -700,14 +700,14 @@
         "id": 1,
         "name": "Muhammed R",
         "college": "St Thomas institute for Science and technology, TVM",
-        "images": "assets/interestGroups/Muhammed-R.webp",
+        "images": "/assets/interestGroups/Muhammed-R.webp",
         "linkedIn": "https://www.linkedin.com/in/muhammed-r"
       },
       {
         "id": 2,
         "name": "Basith P",
         "college": "KMCT College of Engineering, Kozhikode",
-        "images": "assets/interestGroups/Basith P.webp",
+        "images": "/assets/interestGroups/Basith P.webp",
         "linkedIn": "https://www.linkedin.com/in/basithp9/"
       },
       {
