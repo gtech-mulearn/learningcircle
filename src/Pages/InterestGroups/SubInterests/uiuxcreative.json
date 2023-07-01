@@ -54,7 +54,7 @@
         "name": "Anjali Reghu",
         "linkedIn": "https://www.linkedin.com/in/anjali-reghu/",
         "stack": "User Experience",
-        "image": "https://media.licdn.com/dms/image/D5603AQFfjwQ6up3N6g/profile-displayphoto-shrink_200_200/0/1681724940505?e=1693440000&v=beta&t=PuSDTM-cnP-K9b0U4v2H2fpsreYxyK1dOEiYmdV3P6U"
+        "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       }
     ],
 
@@ -211,35 +211,5 @@
         "link": "https://www.designassignments.com/assignments?recordId=recwTp10P14EIBQ2g"
       }
     ]
-  },
-  {
-    "id": "creativedesign",
-    "interestgroup": "Creative Design",
-    "interestgroupdescription": "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
-    "officetime": "Tuesday 6:00pm",
-    "comingsoon": true,
-    "officeplace": " @ Discord Lobby",
-    "thinktankplace": " @ Google Meet",
-    "thinktanktime": "Monday 6:00 PM",
-    "community": [],
-    "opportunities": [],
-    "company": [],
-    "mentors": [],
-    "mentorscard": [],
-    "pagination": [
-      {
-        "id": "innovation",
-        "name": "< Innovation"
-      },
-      {
-        "id": "marketing",
-        "name": "Marketing >"
-      }
-    ],
-    "learningpaths": [],
-    "basicenablementtasks": [],
-    "corecourses": [],
-    "subcourses": [],
-    "": {}
   }
 ]

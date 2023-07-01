@@ -1,6 +1,7 @@
 [
   {
     "id": "ai",
+    "comingsoon": true,
     "interestgroup": "Artificial Intelligence",
     "interestgroupdescription": "AI is the simulation of Human Intelligence processes by computer systems Worried if AI will take over the World in the near future? Join our AI Interest Group and learn more about Artificial Intelligence and the latest advancements in the domain.",
     "leads": [
@@ -53,14 +54,14 @@
         "name": "Dr Nidhi",
         "linkedIn": "https://www.linkedin.com/in/dr-nidhi-mb/",
         "stack": "Artificial Intelligence",
-        "image": "https://media.licdn.com/dms/image/C5603AQF_qIJ6p8lk9w/profile-displayphoto-shrink_200_200/0/1607419093951?e=1693440000&v=beta&t=P7CzlIyXJ2XrVDWLaTAiUPLQfRsdccDKHo1PgTSB4sA"
+        "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       },
       {
         "id": "",
         "name": "Gopikrishnan Sasikumar",
         "linkedIn": "https://www.linkedin.com/in/gopikrishnan-sasikumar/",
         "stack": "Artificial Intelligence",
-        "image": "https://media.licdn.com/dms/image/C4E03AQHOdKBydhUTSw/profile-displayphoto-shrink_200_200/0/1623422824424?e=1693440000&v=beta&t=9ORNpTP6K1jmYqKO50zX_YhSdbz1dOUVbHXKvh2zans"
+        "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       }
     ],
     "pagination": [

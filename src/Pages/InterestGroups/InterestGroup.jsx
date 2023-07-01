@@ -18,8 +18,6 @@ import Paper from "@mui/material/Paper";
 import { useParams } from "react-router-dom";
 import InterestGroups from "../LearningCircles/Home/data";
 
-import webmobile from "../InterestGroups/SubInterests/webmobile.json";
-
 import MentorCard from "../../Components/MentorCard/MentorCard";
 import NotFound from "../Misc/404/NotFound";
 import InterestCard from "../../Components/InterestCard/InterestCard";
@@ -161,7 +159,7 @@ const InterestGroup = ({ setInterest }) => {
               </div>
             </div>
           </div>
-          {!data[0].hassubgroups && (
+          {!data[0].hassubgroups && !data[0].comingsoon && (
             <div className={styles.second_view_container}>
               <div className={styles.second_view}>
                 <div className={styles.sv_texts}>
@@ -169,7 +167,7 @@ const InterestGroup = ({ setInterest }) => {
                   <p className={styles.sv_content}>
                     The roadmap below will help you understand the various
                     stages of learning and the tasks that you need to complete
-                    in order to
+                    in order to gain specific knowledge in this domain.
                   </p>
                 </div>
                 <div className={styles.whatnext_container}>

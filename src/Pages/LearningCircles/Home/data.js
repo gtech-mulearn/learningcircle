@@ -129,6 +129,7 @@ const InterestGroups = [
   },
   {
     id: "cybersec",
+    comingsoon: "true",
     interestgroup: "Cyber Security",
     interestgroupdescription:
       "Having an extra layer of security is always an advantage in the current world. The best way to prevent a cyber attack is to learn how it works and block all the loopholes that allow it. Want to learn? Join our Interest Group and learn from our expert mentors.",
@@ -168,21 +169,25 @@ const InterestGroups = [
       {
         name: "Mufeed VH",
         stack: "Cybersecurity",
+        image: "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       },
       {
         name: "Danwand",
         linkedIn: "https://www.linkedin.com/in/danwand/",
         stack: "Cybersecurity",
+        image: "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       },
       {
         name: "Deepraj",
         linkedIn: "https://www.linkedin.com/in/deeprajr/",
         stack: "Cybersecurity",
+        image: "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       },
       {
         name: "Vishnu Vijayan",
         linkedIn: "https://www.linkedin.com/in/vishnu-vijayan-vs/",
         stack: "Cybersecurity",
+        image: "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       },
     ],
     pagination: [
@@ -780,21 +785,27 @@ const InterestGroups = [
         stack: "Kerala Blockchain Academy",
         linkedIn: "https://in.linkedin.com/in/nikhil-v-chandran-69260120",
         image:
-          "https://media.licdn.com/dms/image/C5103AQEdH5urfqY11Q/profile-displayphoto-shrink_200_200/0/1543681128945?e=1693440000&v=beta&t=PIOj7at8yKiLLRRnMJ9M2fdzuiCf4tJq6418FpndXNg",
+          "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg",
       },
       {
         name: "Jikku Jose",
         linkedIn: "https://www.linkedin.com/in/jikkujose/",
+        image:
+          "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg",
       },
       {
         name: "Gyanlakshmi",
         linkedIn: "",
         stack: "Blockchain",
+        image:
+          "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg",
       },
       {
         name: "Shubhanga R Beeragere ",
         linkedIn:
           "https://www.linkedin.com/in/shubhanga-r-beeragere-918b8b18a/",
+          image:
+          "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg",
       },
     ],
   },
@@ -898,37 +909,37 @@ const InterestGroups = [
       },
     ],
   },
-  {
-    id: "digitalmarketing",
-    interestgroup: "Digital Marketing",
-    interestgroupdescription:
-      "Think you have the skill to market any product? Join the Marketing Interest Group to learn latest marketing strategies, interact with Marketing experts and develop some much needed experience in the field.",
-    officetime: "Saturday and Sunday 8:00pm",
-    comingsoon: true,
-    officeplace: " @ Discord Lobby",
-    // thinktankplace: " @ Google Meet",
-    // thinktanktime: "Monday 6:00 PM",
-    community: [],
-    opportunities: [],
-    company: [],
-    mentors: [],
-    mentorscard: [],
-    pagination: [
-      {
-        id: "creativedesign",
-        name: "< Creative Design",
-      },
-      {
-        id: "entrepreneurship",
-        name: "Entrepreneurship >",
-      },
-    ],
-    learningpaths: [],
-    basicenablementtasks: [],
-    corecourses: [],
-    subcourses: [],
-    "": {},
-  },
+  // {
+  //   id: "digitalmarketing",
+  //   interestgroup: "Digital Marketing",
+  //   interestgroupdescription:
+  //     "Think you have the skill to market any product? Join the Marketing Interest Group to learn latest marketing strategies, interact with Marketing experts and develop some much needed experience in the field.",
+  //   officetime: "Saturday and Sunday 8:00pm",
+  //   comingsoon: true,
+  //   officeplace: " @ Discord Lobby",
+  //   // thinktankplace: " @ Google Meet",
+  //   // thinktanktime: "Monday 6:00 PM",
+  //   community: [],
+  //   opportunities: [],
+  //   company: [],
+  //   mentors: [],
+  //   mentorscard: [],
+  //   pagination: [
+  //     {
+  //       id: "creativedesign",
+  //       name: "< Creative Design",
+  //     },
+  //     {
+  //       id: "entrepreneurship",
+  //       name: "Entrepreneurship >",
+  //     },
+  //   ],
+  //   learningpaths: [],
+  //   basicenablementtasks: [],
+  //   corecourses: [],
+  //   subcourses: [],
+  //   "": {},
+  // },
 ];
 
 export default InterestGroups;

@@ -99,17 +99,14 @@
         "name": "Amal Shehu",
         "linkedIn": "https://www.linkedin.com/in/amalshehu/",
         "stack": "Web Development",
-        "image": "https://media.licdn.com/dms/image/C5103AQEssVC-kh-ciA/profile-displayphoto-shrink_200_200/0/1557406726368?e=1693440000&v=beta&t=CsHsyJJiRGiEeBu02AEfBPMGEHEhlTmCd6velX1UNs4"
+        "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       },
-      {
-        "name": "Ganesh Kumar",
-        "stack": "Web Development"
-      },
+   
       {
         "name": "Mujeeb Rahman",
         "stack": "Web Development",
         "linkedIn": "https://www.linkedin.com/in/mujeeb-rahman-420301198/",
-        "image": "https://media.licdn.com/dms/image/C5603AQGB4HfL1a77Zw/profile-displayphoto-shrink_200_200/0/1660663509134?e=1693440000&v=beta&t=OQedO3a_2PQuTqkgxNelk9yLf5ElBuLxClyzwIGObzw"
+        "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       }
     ],
     "basicenablementtasks": [],
@@ -312,13 +309,13 @@
         "name": "Shreyas Patil",
         "linkedIn": "https://www.linkedin.com/in/patil-shreyas/",
         "stack": "Android Developement",
-        "image": "https://media.licdn.com/dms/image/D4D03AQG_0iijXT2xOQ/profile-displayphoto-shrink_200_200/0/1678292151804?e=1693440000&v=beta&t=OmBXY9N7IlIyFJ_MMVakv3CTH0_lAXApNdQ8zft75XE"
+        "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       },
       {
         "name": "Anjana Unnikrishnan",
         "linkedIn": "https://www.linkedin.com/in/anjanaunnikrishnan/",
         "stack": "Android Developement",
-        "image": "https://media.licdn.com/dms/image/C5603AQEhOsOBxKa-eQ/profile-displayphoto-shrink_200_200/0/1604691802358?e=1693440000&v=beta&t=VWoKS6xTfxVfnd6dFfPGtOeJ96kLmuUqiZszL4zINqc"
+        "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       }
     ],
 
@@ -586,6 +583,7 @@
   },
   {
     "id": "flutter",
+    "comingsoon": true,
     "interestgroup": "Flutter",
     "interestgroupdescription": "Flutter is an open-source mobile application development framework created by Google. It allows developers to build native applications for Android, iOS, and other platforms using a single codebase. Flutter uses the Dart programming language, which was also developed by Google, and provides a rich set of pre-built widgets and tools for building beautiful, fast, and responsive user interfaces.",
     "officetime": " Friday 9.00 PM",
@@ -732,18 +730,18 @@
         "linkedIn": ""
       }
     ],
-    "mentors": [
+    "mentorscard": [
       {
         "name": "Bibin Sebastin",
         "linkedIn": "https://www.linkedin.com/in/bibin-sebastian/",
         "stack": "Flutter Developement",
-        "image": "https://media.licdn.com/dms/image/D5603AQE21J-vUF_JYg/profile-displayphoto-shrink_200_200/0/1666680274518?e=1693440000&v=beta&t=xA7HaW9Q1z9gcRIWy1ntqQD1bHVc2egKsLt1VmLvLNc"
+        "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       },
       {
         "name": "Basil",
         "linkedIn": "https://www.linkedin.com/in/muhammed-basil-0a2b691b2/",
         "stack": "Flutter Developement",
-        "image": "https://media.licdn.com/dms/image/D5603AQELgwY0MYq4fw/profile-displayphoto-shrink_200_200/0/1682862125981?e=1693440000&v=beta&t=4RveM3SwDGdbmVRCemiYYqkjFS2y0vPgNht9aiE5_zQ"
+        "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       }
     ]
   }
