@@ -62,43 +62,10 @@
     "mentorscard": [
       {
         "id": "S131",
-        "name": "Muhammad Jaseel P",
-        "designation": "Technical Program Manager, MakerGhat",
-        "linkedIn": "https://www.linkedIn.com/in/jaseelpmuhammed",
+        "name": "Rafi Rasheed T C",
+        "linkedIn": "https://www.linkedin.com/in/rafitc/",
         "stack": "IoT",
-        "image": "https://drive.google.com/uc?export=view&id=1KrUz1CAL29aFXvbP7uuP7wFVDUqJizTm"
-      },
-      {
-        "id": "S132",
-        "name": "Vijay Kumar M",
-        "designation": "CEO & MD, Webyfy Infotech Pvt Ltd",
-        "linkedIn": "https://www.linkedIn.com/in/vijay-kumar-m-04818b",
-        "stack": "IoT",
-        "image": "https://drive.google.com/uc?export=view&id=1YibTLgWRtYOcp74rQkstBCcRY44m2QhM"
-      },
-      {
-        "id": "S133",
-        "name": "Sanju Mathew",
-        "designation": "Chief Executive Officer, Codeofduty",
-        "linkedIn": "https://www.linkedIn.com/in/sanjumathewk",
-        "stack": "IoT",
-        "image": "https://drive.google.com/uc?export=view&id=1lCpWwGNe-xsEJPqOn3JBYRfmINRJ0Uo3"
-      },
-      {
-        "id": "S134",
-        "name": "Akshai M",
-        "designation": "Embedded Software Engineer, STABL Energy GmbH",
-        "linkedIn": "https://www.linkedIn.com/in/akshaim",
-        "stack": "IoT",
-        "image": "/assets/mentors/Akshai M.webp"
-      },
-      {
-        "id": "S135",
-        "name": "Samuel John",
-        "designation": "Co-Founder & CEO, mistEO",
-        "linkedIn": "https://www.linkedIn.com/in/samuel-john-misteo",
-        "stack": "IoT",
-        "image": "/assets/mentors/Samuel John.webp"
+        "image": "https://media.licdn.com/dms/image/C4D03AQG-tc6ObmRv4g/profile-displayphoto-shrink_200_200/0/1610905644787?e=1693440000&v=beta&t=0poOr5Fn236banJo9Ubvvcjexav7JhFk6CHQMG5dZmM"
       }
     ],
     "learningpaths": [

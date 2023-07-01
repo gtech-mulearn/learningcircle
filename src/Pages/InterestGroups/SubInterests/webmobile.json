@@ -96,12 +96,20 @@
         "image": "/assets/mentors/Arjun A G.webp"
       },
       {
-        "id": "",
-        "name": "Binoop M J",
-        "designation": "User Interface Lead Faya",
-        "linkedIn": "https://www.linkedin.com/in/binoop-m-j",
+        "name": "Amal Shehu",
+        "linkedIn": "https://www.linkedin.com/in/amalshehu/",
         "stack": "Web Development",
-        "image": "/assets/mentors/Binoop M J.webp"
+        "image": "https://media.licdn.com/dms/image/C5103AQEssVC-kh-ciA/profile-displayphoto-shrink_200_200/0/1557406726368?e=1693440000&v=beta&t=CsHsyJJiRGiEeBu02AEfBPMGEHEhlTmCd6velX1UNs4"
+      },
+      {
+        "name": "Ganesh Kumar",
+        "stack": "Web Development"
+      },
+      {
+        "name": "Mujeeb Rahman",
+        "stack": "Web Development",
+        "linkedIn": "https://www.linkedin.com/in/mujeeb-rahman-420301198/",
+        "image": "https://media.licdn.com/dms/image/C5603AQGB4HfL1a77Zw/profile-displayphoto-shrink_200_200/0/1660663509134?e=1693440000&v=beta&t=OQedO3a_2PQuTqkgxNelk9yLf5ElBuLxClyzwIGObzw"
       }
     ],
     "basicenablementtasks": [],
@@ -301,10 +309,16 @@
         "image": "/assets//mentors/Sreehari K.webp"
       },
       {
-        "id": "S158",
-        "name": "Arun J",
-        "designation": " Codingo",
-        "stack": "Android Developer"
+        "name": "Shreyas Patil",
+        "linkedIn": "https://www.linkedin.com/in/patil-shreyas/",
+        "stack": "Android Developement",
+        "image": "https://media.licdn.com/dms/image/D4D03AQG_0iijXT2xOQ/profile-displayphoto-shrink_200_200/0/1678292151804?e=1693440000&v=beta&t=OmBXY9N7IlIyFJ_MMVakv3CTH0_lAXApNdQ8zft75XE"
+      },
+      {
+        "name": "Anjana Unnikrishnan",
+        "linkedIn": "https://www.linkedin.com/in/anjanaunnikrishnan/",
+        "stack": "Android Developement",
+        "image": "https://media.licdn.com/dms/image/C5603AQEhOsOBxKa-eQ/profile-displayphoto-shrink_200_200/0/1604691802358?e=1693440000&v=beta&t=VWoKS6xTfxVfnd6dFfPGtOeJ96kLmuUqiZszL4zINqc"
       }
     ],
 
@@ -716,6 +730,20 @@
         "college": "AWH Engineering College Kozhikode",
         "images": "/assets/interestGroups/Arfaz Khan Hijas Khan.webp",
         "linkedIn": ""
+      }
+    ],
+    "mentors": [
+      {
+        "name": "Bibin Sebastin",
+        "linkedIn": "https://www.linkedin.com/in/bibin-sebastian/",
+        "stack": "Flutter Developement",
+        "image": "https://media.licdn.com/dms/image/D5603AQE21J-vUF_JYg/profile-displayphoto-shrink_200_200/0/1666680274518?e=1693440000&v=beta&t=xA7HaW9Q1z9gcRIWy1ntqQD1bHVc2egKsLt1VmLvLNc"
+      },
+      {
+        "name": "Basil",
+        "linkedIn": "https://www.linkedin.com/in/muhammed-basil-0a2b691b2/",
+        "stack": "Flutter Developement",
+        "image": "https://media.licdn.com/dms/image/D5603AQELgwY0MYq4fw/profile-displayphoto-shrink_200_200/0/1682862125981?e=1693440000&v=beta&t=4RveM3SwDGdbmVRCemiYYqkjFS2y0vPgNht9aiE5_zQ"
       }
     ]
   }

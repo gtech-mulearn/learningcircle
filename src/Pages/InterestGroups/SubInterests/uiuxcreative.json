@@ -51,44 +51,10 @@
     ],
     "mentorscard": [
       {
-        "id": "S139",
-        "name": "Michael Mathews",
-        "designation": "Independent consultant, TCS",
-        "linkedIn": "https://www.linkedIn.com/in/michaelmathewsk",
-        "stack": "UI ux",
-        "image": "https://drive.google.com/uc?export=view&id=1IJnPBKa3Ih5egpfV9RUWEuRxS8P_-M1I"
-      },
-      {
-        "id": "S51",
-        "name": "Madhav M Nair",
-        "designation": "User Experience Designer,  Jio Tesseract",
-        "stack": "AR / VR / MR / CR",
-        "image": "https://www.fayaport80.com/speakers/thumb/Madhav-M-Nair.jpg",
-        "linkedIn": "https://www.linkedIn.com/in/madhavmnair/"
-      },
-      {
-        "id": "S140",
-        "name": "Salman Faariz",
-        "designation": "Program Associate, GTech µLearn",
-        "linkedIn": "https://www.linkedIn.com/in/salman-faariz-37b892194",
-        "stack": "UI ux",
-        "image": "https://drive.google.com/uc?export=view&id=1oNK1QekGS6xhNU50317onjvEc82RNQ4s"
-      },
-      {
-        "id": "S141",
-        "name": "Rhea Merin",
-        "designation": "Program Associate, GTech µLearn ",
-        "linkedIn": "https://www.linkedIn.com/in/rheamerin",
-        "stack": "UI ux",
-        "image": "https://drive.google.com/uc?export=view&id=1XGaSobjiNegNPTtpNSsL58aes9PN7XJ6"
-      },
-      {
-        "id": "S142",
-        "name": "Navaneeth Venu",
-        "designation": "Design Lead, GDSC MBCET",
-        "linkedIn": "https://www.linkedIn.com/in/navaneethvenu",
-        "stack": "UI ux",
-        "image": "https://drive.google.com/uc?export=view&id=1wGokGAMruQul49It6LmMeMv_aaV-VN2R"
+        "name": "Anjali Reghu",
+        "linkedIn": "https://www.linkedin.com/in/anjali-reghu/",
+        "stack": "User Experience",
+        "image": "https://media.licdn.com/dms/image/D5603AQFfjwQ6up3N6g/profile-displayphoto-shrink_200_200/0/1681724940505?e=1693440000&v=beta&t=PuSDTM-cnP-K9b0U4v2H2fpsreYxyK1dOEiYmdV3P6U"
       }
     ],
 

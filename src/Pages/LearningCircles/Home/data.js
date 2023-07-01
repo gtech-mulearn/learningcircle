@@ -157,15 +157,6 @@ const InterestGroups = [
           "https://drive.google.com/uc?export=view&id=1jLMLJQRC1wxfV1bNU_F8xWrybLEC-miM",
       },
       {
-        id: "S147",
-        name: "Anees P",
-        designation: "Senior DevSecOps Engineer, Beagle Security",
-        linkedIn: "https://www.linkedIn.com/in/anees-pk/",
-        stack: "Cybersecurity",
-        image:
-          "https://drive.google.com/uc?export=view&id=1kKPODk11RLRZQvpZuHN_hbXy_ddU4Kk7",
-      },
-      {
         id: "S148",
         name: "Nash N Sulthan",
         designation: "Senior Security Engineer",
@@ -173,6 +164,25 @@ const InterestGroups = [
         stack: "Cybersecurity",
         image:
           "https://drive.google.com/uc?export=view&id=1LY9k_PaAqooXRnEY2DtTYgtA7iZXfx2U",
+      },
+      {
+        name: "Mufeed VH",
+        stack: "Cybersecurity",
+      },
+      {
+        name: "Danwand",
+        linkedIn: "https://www.linkedin.com/in/danwand/",
+        stack: "Cybersecurity",
+      },
+      {
+        name: "Deepraj",
+        linkedIn: "https://www.linkedin.com/in/deeprajr/",
+        stack: "Cybersecurity",
+      },
+      {
+        name: "Vishnu Vijayan",
+        linkedIn: "https://www.linkedin.com/in/vishnu-vijayan-vs/",
+        stack: "Cybersecurity",
       },
     ],
     pagination: [
@@ -533,10 +543,10 @@ const InterestGroups = [
     mentorscard: [
       {
         id: "",
-        name: "",
+        name: "Udesh Udaykumar",
         designation: "",
-        linkedIn: "",
-        stack: "",
+        linkedIn: "https://www.linkedin.com/in/udesh-udayakumar/",
+        stack: "Cloud Computing",
         image: "",
       },
     ],
@@ -771,6 +781,20 @@ const InterestGroups = [
         linkedIn: "https://in.linkedin.com/in/nikhil-v-chandran-69260120",
         image:
           "https://media.licdn.com/dms/image/C5103AQEdH5urfqY11Q/profile-displayphoto-shrink_200_200/0/1543681128945?e=1693440000&v=beta&t=PIOj7at8yKiLLRRnMJ9M2fdzuiCf4tJq6418FpndXNg",
+      },
+      {
+        name: "Jikku Jose",
+        linkedIn: "https://www.linkedin.com/in/jikkujose/",
+      },
+      {
+        name: "Gyanlakshmi",
+        linkedIn: "",
+        stack: "Blockchain",
+      },
+      {
+        name: "Shubhanga R Beeragere ",
+        linkedIn:
+          "https://www.linkedin.com/in/shubhanga-r-beeragere-918b8b18a/",
       },
     ],
   },

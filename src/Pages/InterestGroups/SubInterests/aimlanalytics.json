@@ -47,6 +47,20 @@
         "linkedIn": "https://www.linkedin.com/in/robintommy/",
         "stack": "Artificial Intelligence",
         "image": "/assets/mentors/Robin Tommy.webp"
+      },
+      {
+        "id": "",
+        "name": "Dr Nidhi",
+        "linkedIn": "https://www.linkedin.com/in/dr-nidhi-mb/",
+        "stack": "Artificial Intelligence",
+        "image": "https://media.licdn.com/dms/image/C5603AQF_qIJ6p8lk9w/profile-displayphoto-shrink_200_200/0/1607419093951?e=1693440000&v=beta&t=P7CzlIyXJ2XrVDWLaTAiUPLQfRsdccDKHo1PgTSB4sA"
+      },
+      {
+        "id": "",
+        "name": "Gopikrishnan Sasikumar",
+        "linkedIn": "https://www.linkedin.com/in/gopikrishnan-sasikumar/",
+        "stack": "Artificial Intelligence",
+        "image": "https://media.licdn.com/dms/image/C4E03AQHOdKBydhUTSw/profile-displayphoto-shrink_200_200/0/1623422824424?e=1693440000&v=beta&t=9ORNpTP6K1jmYqKO50zX_YhSdbz1dOUVbHXKvh2zans"
       }
     ],
     "pagination": [

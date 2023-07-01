@@ -22,36 +22,10 @@
     "mentors": ["Vishnu Vijayan", "Akshay Jose"],
     "mentorscard": [
       {
-        "id": "1",
-        "name": "Vishnu Vijayan",
-        "designation": "Alliances Manager, Zilicon Technologies Pvt.Ltd",
-        "linkedIn": "https://www.linkedin.com/in/vishnu-vijayan-vs/",
-        "stack": "AR/VR",
-        "image": "/assets/mentors/Vishnu Vijayan.webp"
-      },
-      {
-        "id": "2",
-        "name": "Akshay Jose",
-        "designation": "Creative Designer, Xena Intelligence",
-        "linkedIn": "https://www.linkedin.com/in/akshay-jose-700025124/",
-        "stack": "AR/VR",
-        "image": "/assets/mentors/Akshay Jose.webp"
-      },
-      {
-        "id": "3",
-        "name": "Vishnu Sivan",
-        "designation": "",
-        "linkedIn": "https://www.linkedin.com/in/codemaker2015/",
-        "stack": "AR/VR",
-        "image": "/assets/mentors/Vishnu Sivan.webp"
-      },
-      {
-        "id": "4",
-        "name": "Nikhil",
-        "designation": "TiltLabs",
-        "linkedIn": "https://www.linkedin.com/in/nikhil-tiltlabs/",
-        "stack": "AR/VR",
-        "image": "/assets/mentors/Nikhil Chandran.webp"
+        "name": "Jithin Benny",
+        "linkedIn": "https://www.linkedin.com/in/jithin-o-benny-6b11a9138/",
+        "stack": "AR VR XR",
+        "image": "https://media.licdn.com/dms/image/C5603AQEYT_whJ_dHLA/profile-displayphoto-shrink_200_200/0/1588226296769?e=1693440000&v=beta&t=hkJBklKTMbiCPxpx8XiskF-AlUqwGg3DZf-Tz_kr0Hg"
       }
     ],
     "pagination": [
