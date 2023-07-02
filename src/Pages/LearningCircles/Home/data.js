@@ -476,16 +476,7 @@ const InterestGroups = [
         link: "/uiuxcreative/ux",
         officetime: "Saturday 8:00 PM",
         officeplace: " @ Discord Lobby",
-      },
-      {
-        id: "/uiuxcreative/creativedesign",
-        description:
-          "Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. Join the Creative Design Interest Group, network with fellow designers and mentors, work on projects and build a portfolio for yourself. ",
-        name: "Creative Design",
-        link: "/uiuxcreative/creativedesign",
-        officetime: "Tuesday 6:00pm",
-        officeplace: " @ Discord Lobby",
-      },
+      }
     ],
     subcourses: [
       // {

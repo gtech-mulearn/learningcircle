@@ -101,11 +101,17 @@
         "stack": "Web Development",
         "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       },
-   
+
       {
         "name": "Mujeeb Rahman",
         "stack": "Web Development",
         "linkedIn": "https://www.linkedin.com/in/mujeeb-rahman-420301198/",
+        "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
+      },
+      {
+        "name": "Ganesh Kumar",
+        "stack": "Web Development",
+        "linkedIn": "https://www.linkedin.com/in/ganesh-kumar-7b1b1a1b0/",
         "image": "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
       }
     ],
@@ -532,22 +538,6 @@
     "company": ["Faya"],
     "mentors": ["Lavanya RK", "Mohammad Zaheer", "Saran Kumar S"],
     "mentorscard": [
-      {
-        "id": "S137",
-        "name": "Mohammad Zaheer",
-        "designation": "Faya",
-        "linkedIn": "https://www.linkedin.com/in/mohammedzaheerulla/",
-        "stack": "Quality Assurance",
-        "image": "/assets/mentors/Mohammed Zaheer.webp"
-      },
-      {
-        "id": "S137",
-        "name": "Saran Kumar S",
-        "designation": "Faya",
-        "linkedIn": "https://www.linkedin.com/in/saran-krishna-n-a58b191a4/",
-        "stack": "Quality Assurance",
-        "image": "/assets/mentors/Saran Krishna N.webp"
-      },
       {
         "id": "S137",
         "name": "Lavanya RK",
