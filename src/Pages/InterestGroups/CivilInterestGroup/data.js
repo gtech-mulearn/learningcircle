@@ -131,7 +131,7 @@ const InterestGroups = [
         link: "/civil/revit/core/1",
         time: "",
         complexity: "#cl-rv-planhome",
-        karma: "",
+        karma: "200",
       },
       {
         id: "1",
@@ -139,7 +139,7 @@ const InterestGroups = [
         link: "/civil/revit/core/2",
         time: "",
         complexity: "#cl-rv-modelhome",
-        karma: "",
+        karma: "400",
       }
     ],
     learningpathst: [
