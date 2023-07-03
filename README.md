@@ -8,52 +8,28 @@
 
 This repository contains the the source code files for the µLearn Learning Circle(Interest Group). Kindly read through the following to get a hold on the naming and contributions standards
 
-The central repository holds four main branches with two branches having infinte lifetime(dev-server & production)
+The central repository holds three main branches with two branches having infinte lifetime(dev-server & production)
 
 - dev (Open To Contributors)
 - dev-server (hosted)
-- staging (Open To Contributors, HotFix Only!)
 - production (hosted)
+
+dev branch is open for collaboration and serves as the development environment where contributors can work on new features and bug fixes before they are merged into other branches.
+
+dev-server is the main branch where the source code of HEAD always reflects a state with the latest delivered development changes for the next release
 
 origin/production is the main branch where the source code of HEAD always reflects a production-ready state.
 
-origin/staging is the main branch where the source code of HEAD always reflects a state with the latest delivered development changes for the next release
 
-## Supporting branches
+## Git commit types
 
-- Feature branches
-- Staging branches
-- Hotfix branches
-
-## Feature Branch
-
-- May branch off from: `dev`
-- Must merge back into: `dev`
-- Branches should be prefixed with `feature-`
-- They should be in small letter casing with multiple words separated by `-`
-
-Eg: feature-signup-page, feature-ig-page
-
-## Bugfix Branch
-
-- May branch off from: `dev`
-- Must merge back into: `dev`
-- Branch naming convention: `bugfix-*`
-- Branches should be prefixed with `bugfix-*`
-- They should be in small letter casing with multiple words separated by `-`
-
-Eg: bugfix-spelling-fix, bugfix-style-correction
-
-## Hotfix Branch
-
-- May branch off from: `staging`
-- Must merge back into: `staging`, `dev`, `dev-server`
-- Branch naming convention: `hotfix-*`
-- Branches should be prefixed with `hotfix-*`
-- They should be in small letter casing with multiple words separated by `-`
-
-Eg: hotfix-signup-failure, hotfix-taskid123
-
+- `feat`: (new feature for the user, not a new feature for build script)
+- `fix`: (bug fix for the user, not a fix to a build script)
+- `docs`: (changes to the documentation)
+- `style`: (formatting, missing semi colons, etc; no production code change)
+- `refactor`: (refactoring production code, eg. renaming a variable)
+- `test`: (adding missing tests, refactoring tests; no production code change)
+- `chore`: (updating grunt tasks etc; no production code change)
 
 ## Contributing
 
