@@ -23,13 +23,34 @@ origin/production is the main branch where the source code of HEAD always reflec
 
 ## Git commit types
 
-- `feat`: (new feature for the user, not a new feature for build script)
-- `fix`: (bug fix for the user, not a fix to a build script)
-- `docs`: (changes to the documentation)
-- `style`: (formatting, missing semi colons, etc; no production code change)
-- `refactor`: (refactoring production code, eg. renaming a variable)
-- `test`: (adding missing tests, refactoring tests; no production code change)
-- `chore`: (updating grunt tasks etc; no production code change)
+- `feat`: (adds valuable new features or improvements that directly benefit and engage users.)
+
+         eg:- "feat(): Added new "Date Created" column to the table for better tracking."
+  
+- `fix`: ( resolve user-related issues, improving the software's reliability and providing a smoother user experience.)
+
+         eg:- "fix(): Fixed case sensitivity issue in search functionality for accurate results."
+  
+- `docs`: (making changes or updates to the documentation for better clarity and understanding.)
+
+        eg:- "docs(): Updated README file with installation instructions and usage examples."
+  
+- `style`: ( focus on improving code appearance, such as formatting and fixing missing semicolons, without affecting functionality.)
+
+        eg:- "style(): Corrected indentation and added missing semicolons for consistent code style."
+  
+- `refactor`: (modifying the production code, such as renaming variables, to improve its structure and maintainability.)
+
+        eg:- "refactor(): Renamed variables for improved code clarity and maintainability."
+  
+- `test`: (adding tests that were missing and improving existing tests, without changing the production code.)
+
+        eg:- "test(): Added tests for user login functionality and refactored existing login tests."
+  
+- `chore`: (updating build tasks and other non-production code aspects, without changing the actual software.)
+
+        eg:- "chore(): Updated Grunt tasks for better task automation and build process efficiency."
+
 
 ## Contributing
 
@@ -43,7 +64,7 @@ See [contributing.md](/contributing.md) for ways to get started.
 
 ### Pull Request Flow
 
-- The pull request from the developers can only be received on the **dev**(feature, bugfix) and the **staging**(hotfix) branch.
+- The pull request from the developers can only be received on the **dev** branch.
 
 - After reviewing the request you can merge them to the dev-server/production depending upon the type of request
 
