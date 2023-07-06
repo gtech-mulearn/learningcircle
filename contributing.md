@@ -1,22 +1,25 @@
-## Contributor Readme
+# Contributor Readme
 
-To contribure to this project you can create new branches from either the dev or the staging branch, make required changes and create a new pull request as per the below given structure.
+---
+### Fork the learningcircle
 
-feature-\* : Create new branch from the dev branch and merge back into the dev branch
+```
+https://github.com/gtech-mulearn/learningcircle
+```
+- visit the site
+- click on fork
+- create repository
+---
+### Clone the learningcircle
 
-bugfix-\* : Create new branch from the dev branch and merge back into the dev branch
+--bash
+```
+git clone git@github.com:username/repository.git
+```
+---
+### Setup the learningcircle | Run in localhost
 
-hotfix-\* : Create new branch from the staging branch and merge back into the staging branch.
-
-Running Code Locally
-Clone the Git repository to your local machine.
-
-git clone git@github.com:gtech-mulearn/mulearnfrontend.git
-Change into the project directory.
-
-cd mulearnfrontend
-Install the dependencies using npm or yarn.
-
+--bash
 ```
 npm install
 
@@ -31,67 +34,36 @@ npm run dev
 
 yarn dev
 ```
+---
+### Updating the changes to github repository
 
-Access the project at http://localhost:3000 in your web browser.
+ #### After updates in the files
 
-## Creating New Branch
-
-To clone the project
-
-```bash
-git clone https://github.com/gtech-mulearn/learningcircle.git
-```
-
-Checkout to dev branch
-feature and bugfix branches of and merges to the dev branch
-```
-git checkout dev
-```
-
-Create a new feature branch
+- to add all changes 
 
 ```
-git branch feature-loginpage
+git add .
 ```
 
-Switch to the new branch
+- to commit all changes
 
 ```
-git checkout feature-loginpage
+git commit -m "commit message"
 ```
 
-Do the necessary changes on the files, add the files
+- to update changes to your repository
 
 ```
-git add -A
+git push
 ```
+---
+### Create pull request
 
-Commit the changes
+- visit your repository
+- click on `contribute`
+- select `Open pull request`
+- write `commit message`
+- click `create pull request`
+---
 
-```
-git commit -m "Implemented the login feature"
-```
-
-Pull the changes from the server ( not applicable for the first push )
-
-```
-git pull origin feature-loginpage
-```
-
-Push the changes to server for the first time
-
-```
-git push origin feature-loginpage
-```
-
-Once the feature is complete, merge the changes to the develop branch ( the team lead does this )
-
-```
-git checkout dev
-```
-
-```
-git merge feature-loginpage
-```
-
-Make sure you pull the changes from the required repo and keep your branch updated.
+### The project maintainer will verify your code and merge to dev branch.

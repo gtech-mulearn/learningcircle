@@ -8,51 +8,48 @@
 
 This repository contains the the source code files for the µLearn Learning Circle(Interest Group). Kindly read through the following to get a hold on the naming and contributions standards
 
-The central repository holds four main branches with two branches having infinte lifetime(dev-server & production)
+The central repository holds three main branches with two branches having infinte lifetime(dev-server & production)
 
 - dev (Open To Contributors)
 - dev-server (hosted)
-- staging (Open To Contributors, HotFix Only!)
 - production (hosted)
+
+dev branch is open for collaboration and serves as the development environment where contributors can work on new features and bug fixes before they are merged into other branches.
+
+dev-server is the main branch where the source code of HEAD always reflects a state with the latest delivered development changes for the next release
 
 origin/production is the main branch where the source code of HEAD always reflects a production-ready state.
 
-origin/staging is the main branch where the source code of HEAD always reflects a state with the latest delivered development changes for the next release
 
-## Supporting branches
+## Git commit types
 
-- Feature branches
-- Staging branches
-- Hotfix branches
+- `feat`: (adds valuable new features or improvements that directly benefit and engage users.)
 
-## Feature Branch
+         eg:- "feat(column): Added new "Date Created" column to the table for better tracking."
+  
+- `fix`: ( resolve user-related issues, improving the software's reliability and providing a smoother user experience.)
 
-- May branch off from: `dev`
-- Must merge back into: `dev`
-- Branches should be prefixed with `feature-`
-- They should be in small letter casing with multiple words separated by `-`
+         eg:- "fix(case): Fixed case sensitivity issue in search functionality for accurate results."
+  
+- `docs`: (making changes or updates to the documentation for better clarity and understanding.)
 
-Eg: feature-signup-page, feature-ig-page
+        eg:- "docs(readme): Updated README file with installation instructions and usage examples."
+  
+- `style`: ( focus on improving code appearance, such as formatting and fixing missing semicolons, without affecting functionality.)
 
-## Bugfix Branch
+        eg:- "style(format): Corrected indentation and added missing semicolons for consistent code style."
+  
+- `refactor`: (modifying the production code, such as renaming variables, to improve its structure and maintainability.)
 
-- May branch off from: `dev`
-- Must merge back into: `dev`
-- Branch naming convention: `bugfix-*`
-- Branches should be prefixed with `bugfix-*`
-- They should be in small letter casing with multiple words separated by `-`
+        eg:- "refactor(variables): Renamed variables for improved code clarity and maintainability."
+  
+- `test`: (adding tests that were missing and improving existing tests, without changing the production code.)
 
-Eg: bugfix-spelling-fix, bugfix-style-correction
+        eg:- "test(login): Added tests for user login functionality and refactored existing login tests."
+  
+- `chore`: (updating build tasks and other non-production code aspects, without changing the actual software.)
 
-## Hotfix Branch
-
-- May branch off from: `staging`
-- Must merge back into: `staging`, `dev`, `dev-server`
-- Branch naming convention: `hotfix-*`
-- Branches should be prefixed with `hotfix-*`
-- They should be in small letter casing with multiple words separated by `-`
-
-Eg: hotfix-signup-failure, hotfix-taskid123
+        eg:- "chore(grunt): Updated Grunt tasks for better task automation and build process efficiency."
 
 
 ## Contributing
@@ -67,7 +64,7 @@ See [contributing.md](/contributing.md) for ways to get started.
 
 ### Pull Request Flow
 
-- The pull request from the developers can only be received on the **dev**(feature, bugfix) and the **staging**(hotfix) branch.
+- The pull request from the developers can only be received on the **dev** branch.
 
 - After reviewing the request you can merge them to the dev-server/production depending upon the type of request
 
