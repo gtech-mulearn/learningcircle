@@ -120,7 +120,7 @@ const CivilInterestGroup = ({ setInterest }) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <button class={styles.search_button}>
+                      <button className={styles.search_button}>
                         Search Existing Circles
                       </button>
                     </a>
@@ -506,35 +506,35 @@ const CivilInterestGroup = ({ setInterest }) => {
             <div className={styles.otherresources_container}>
               <p className={styles.sv_heading}>Free Software Access</p>
               <br />
-              <p class={styles.subtitle}>- Autodesk Software's:</p>
-              <ol class={styles.steps}>
-                <li class={styles.step}>
+              <p className={styles.subtitle}>- Autodesk Software's:</p>
+              <ol className={styles.steps}>
+                <li className={styles.step}>
                   Go to the Autodesk Students website -{" "}
                   <a
                     href="https://www.autodesk.com/education/edu-software/"
-                    class={styles.link}
+                    className={styles.link}
                   >
                     Click Here
                   </a>
                 </li>
-                <li class={styles.step}>Create an account</li>
-                <li class={styles.step}>
+                <li className={styles.step}>Create an account</li>
+                <li className={styles.step}>
                   Fill your basic details and verify the account
                 </li>
-                <li class={styles.step}>Log in and upload your college id card</li>
-                <li class={styles.step}>
+                <li className={styles.step}>Log in and upload your college id card</li>
+                <li className={styles.step}>
                   You'll receive a confirmation email regarding your software
                   access after some time. then you can begin utilizing the
                   Software's free or charges
                 </li>
               </ol>
-              <p class={styles.note_title}>Note:</p>
-              <ul class={styles.notes}>
-                <li class={styles.note}>
+              <p className={styles.note_title}>Note:</p>
+              <ul className={styles.notes}>
+                <li className={styles.note}>
                   The access is valid for three years, or until you graduate
                   from college.
                 </li>
-                <li class={styles.note}>
+                <li className={styles.note}>
                   The software is student licensing so there will be minor water
                   marks when print out is taken (only in corners).
                 </li>

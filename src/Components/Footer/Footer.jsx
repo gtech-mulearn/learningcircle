@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 
-function scrollTop(){
+function scrollTop() {
   window.scrollTo({
-    top:0,
-    behavior:'smooth'
+    top: 0,
+    behavior: 'smooth'
   })
 }
 
@@ -34,12 +34,12 @@ const Footer = () => {
                 href="https://learn.mulearn.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                >
+              >
                 <p className={styles.link}>Interest Groups</p>
               </a>
-             
-            
-           
+
+
+
             </div>
             <div className={`${styles.links_mobile} ${styles.larger_screen}`}>
 
@@ -51,8 +51,8 @@ const Footer = () => {
                 <p className={styles.link}>Privacy Policy</p>
               </Link>
             </div>
-            
-               
+
+
           </div>
 
           <div className={styles.fs_rightside}>
@@ -145,16 +145,16 @@ const Footer = () => {
           </div>
 
           {/* <div className={styles.fright_side}>
-            <div class={styles.fsection2}>
-              <div class={styles.newsletter}>
-                <p class={styles.fheadingtext}>Join Our Mailing List</p>
-                <p class={styles.fparagraph}>
+            <div className={styles.fsection2}>
+              <div className={styles.newsletter}>
+                <p className={styles.fheadingtext}>Join Our Mailing List</p>
+                <p className={styles.fparagraph}>
                   Join Our Mailing List Be the first to know about upcoming
                   coding workshops, new coding tools, and other Mulearn related
                   news.
                 </p>
 
-                <div class={styles.invite_container}>
+                <div className={styles.invite_container}>
                   <input type="email" placeholder="Enter your email" />
                   <button>Join</button>
                 </div>

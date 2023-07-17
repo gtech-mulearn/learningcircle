@@ -96,8 +96,8 @@ const InterestGroup = ({ setInterest }) => {
                 {!(
                   data[0].interestgroup === "Innovation & Entrepreneurship"
                 ) && (
-                  <p className={styles.fv_heading}>{data[0].interestgroup}</p>
-                )}
+                    <p className={styles.fv_heading}>{data[0].interestgroup}</p>
+                  )}
 
                 <p className={styles.fv_content}>
                   {data[0].interestgroupdescription}
@@ -137,7 +137,7 @@ const InterestGroup = ({ setInterest }) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <button class={styles.search_button}>
+                      <button className={styles.search_button}>
                         Search Existing Circles
                       </button>
                     </a>
