@@ -23,8 +23,9 @@ import Pygrammers from "./assets/Others/Pygrammers.png";
 import illustrations from "./assets/illustrations.png";
 import InterestCard from "../../../Components/InterestCard/InterestCard";
 
-import InterestGroups from "./data.js";
 import Preloader from "../../../Components/Preloader/Preloader";
+import { useRef } from "react";
+import SheetAPI from "../../../Utils/SheetAPI";
 
 const Home = ({
   backenderr,
@@ -108,7 +109,20 @@ const Home = ({
         });
     }
   }, [college, interest]);
-
+  const firstCall = useRef(true)
+  const [summary, setSummary] = useState([])
+  useEffect(() => {
+    if (firstCall.current) {
+      SheetAPI(
+        "https://docs.google.com/spreadsheets/d/1F3rdjrJ8cS12oR90ClqNNrw10WgWYOQU0A6G4WHdRbA/edit#gid=1291474495",
+        "Summary",
+        setSummary
+      )
+    }
+  }, [])
+  useEffect(() => {
+    console.log(summary)
+  }, [summary])
   if (districts) {
     return (
       <>
@@ -409,15 +423,16 @@ const Home = ({
             Start Learning!
           </div>
           <div className={styles.cards_container}>
-            {InterestGroups.map((InterestGroup, index) => (
+            {summary.map((ig, index) => (
               <InterestCard
                 key={index}
-                id={InterestGroup.id}
-                interestgroup={InterestGroup.interestgroup}
+                id={ig?.page_link}
+                interestgroup={ig?.name}
                 interestgroupdescription={
-                  InterestGroup.interestgroupdescription
+                  ig.description
                 }
-                officetime={InterestGroup.officetime}
+                officetime={ig?.office_hour}
+                officePlacc={ig?.office_place}
               />
             ))}
             <div className={styles.icard}>

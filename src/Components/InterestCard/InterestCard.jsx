@@ -7,6 +7,7 @@ const InterestCard = ({
   interestgroup,
   interestgroupdescription,
   officetime,
+  officePlace
 }) => {
   const link = `${id}`;
   return (
@@ -16,6 +17,9 @@ const InterestCard = ({
         <p className={styles.icardcontent}>{interestgroupdescription}</p>
         {officetime && (
           <p className={styles.icardcontent}>Office Hours: {officetime}</p>
+        )}
+        {officePlace && (
+          <p className={styles.icardcontent}>Office Hours: {officePlace}</p>
         )}
         <a href={link}>
           <button className={styles.icardbtn}>Checkout Group</button>
