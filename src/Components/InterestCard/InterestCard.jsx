@@ -2,22 +2,27 @@ import React from "react";
 import styles from "./InterestCard.module.css";
 
 const InterestCard = ({
+  index,
   id,
   interestgroup,
   interestgroupdescription,
   officetime,
+  officePlace
 }) => {
   const link = `${id}`;
   return (
-    <div class={styles.icard}>
-      <div class={styles.icard_text}>
-        <p class={styles.icardheading}>{interestgroup}</p>
-        <p class={styles.icardcontent}>{interestgroupdescription}</p>
+    <div className={styles.icard} key={index}>
+      <div className={styles.icard_text}>
+        <p className={styles.icardheading}>{interestgroup}</p>
+        <p className={styles.icardcontent}>{interestgroupdescription}</p>
         {officetime && (
-          <p class={styles.icardcontent}>Office Hours: {officetime}</p>
+          <p className={styles.icardcontent}>Office Hours: {officetime}</p>
+        )}
+        {officePlace && (
+          <p className={styles.icardcontent}>Office Hours: {officePlace}</p>
         )}
         <a href={link}>
-          <button class={styles.icardbtn}>Checkout Group</button>
+          <button className={styles.icardbtn}>Checkout Group</button>
         </a>
       </div>
     </div>

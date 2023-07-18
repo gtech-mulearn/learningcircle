@@ -39,8 +39,8 @@ const CTFPage = () => {
               <p className={styles.officehrs}>
                 <span>Think Tank Meet : </span> Tuesday 09:00 PM @ Google Meet
               </p> */}
-              <p class={styles.startingdate}>Starting On <span>1st January 2023</span></p>
-              <div class={styles.supporters}>
+              <p className={styles.startingdate}>Starting On <span>1st January 2023</span></p>
+              <div className={styles.supporters}>
                 <span>Supported By </span>
                 <div className={styles.s_images}>
                   <a
@@ -51,7 +51,7 @@ const CTFPage = () => {
                     <img
                       src="/assets/bootcamp/ctf/riglabs.png"
                       alt="Riglabs"
-                      class={styles.supporter}
+                      className={styles.supporter}
                     />
                   </a>
                 </div>
@@ -64,7 +64,7 @@ const CTFPage = () => {
                     <img
                       src="/assets/bootcamp/ctf/Nixie.png"
                       alt="Lyminal"
-                      class={styles.supporter}
+                      className={styles.supporter}
                     />
                   </a>
                 </div>
@@ -77,7 +77,7 @@ const CTFPage = () => {
                     <img
                       src="/assets/bootcamp/ctf/lyminal.png"
                       alt="Lyminal"
-                      class={styles.supporter}
+                      className={styles.supporter}
                     />
                   </a>
                 </div>

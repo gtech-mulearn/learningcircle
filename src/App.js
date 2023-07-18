@@ -239,7 +239,7 @@ function App() {
           />
 
           <Route
-            path="/:subinterest/:id"
+            path="/:id/:level"
             element={<InterestGroup setInterest={setInterest} />}
           />
 

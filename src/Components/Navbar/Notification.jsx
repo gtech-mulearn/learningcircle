@@ -14,8 +14,8 @@ const Notification = () => {
             <div className=" px-4 py-2 bg-white/90 text-sm rounded-full text-orange-500">This Week</div>
             <div className=" overflow-y-hidden">
                 {notifications &&
-                    notifications.new.map((notification) => (
-                        <div
+                    notifications.new.map((notification, index) => (
+                        <div key={index}
                             className={`px-5 capitalize ${seenAll ? "text-orange-500/70" : ""
                                 } border-b`}
                         >

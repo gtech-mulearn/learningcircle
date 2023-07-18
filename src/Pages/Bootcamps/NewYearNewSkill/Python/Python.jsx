@@ -22,7 +22,7 @@ const Python = () => {
                 is designed for entire beginers. We will also be doing some
                 projects and making it public in github.
               </p>
-              <p class={styles.startingdate}>
+              <p className={styles.startingdate}>
                 Started On <span>4th January 2023</span>
               </p>
               {/* <p className={styles.officehrs}>
@@ -31,13 +31,13 @@ const Python = () => {
               <p className={styles.officehrs}>
                 <span>Think Tank Meet : </span> Tuesday 09:00 PM @ Google Meet
               </p> */}
-              <div class={styles.supporters}>
+              <div className={styles.supporters}>
                 <span>Supported By </span>
                 <div className={styles.s_images}>
                   <img
                     src="/assets/bootcamp/python/pygrammers.webp"
                     alt="Pygrammers"
-                    class={styles.supporter}
+                    className={styles.supporter}
                   />
                 </div>
               </div>
