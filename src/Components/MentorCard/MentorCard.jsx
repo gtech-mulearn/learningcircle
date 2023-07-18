@@ -6,7 +6,6 @@ import Twitter from './assets/twitter.png'
 import GitHub from './assets/github.webp'
 const img = 'https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg'
 const MentorCard = ({
-  key,
   name,
   designation,
   image,
@@ -18,7 +17,7 @@ const MentorCard = ({
   twitter, github
 }) => {
   return (
-    <div className={styles.mentor_card_container} key={key}>
+    <div className={styles.mentor_card_container} >
       <div className={styles.mentor_card}>
         <div className={styles.box}>
           <div className={styles.imagesHolder}>

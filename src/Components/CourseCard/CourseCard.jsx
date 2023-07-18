@@ -1,7 +1,7 @@
 import "./CourseCard.css";
 
-const CourseCard = ({ key, title, desc, duration, link }) => (
-  <div className='container' key={key}>
+const CourseCard = ({ title, desc, duration, link }) => (
+  <div className='container' >
     <div className='details'>
       <p className='title'>{title}</p>
       <p className='desc'>{desc}</p>
