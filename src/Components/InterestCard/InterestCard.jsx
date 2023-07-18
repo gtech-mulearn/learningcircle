@@ -7,9 +7,10 @@ const InterestCard = ({
   interestgroup,
   interestgroupdescription,
   officetime,
-  officePlace
+  officePlace,
+  link = `${id}`
 }) => {
-  const link = `${id}`;
+
   return (
     <div className={styles.icard} key={index}>
       <div className={styles.icard_text}>

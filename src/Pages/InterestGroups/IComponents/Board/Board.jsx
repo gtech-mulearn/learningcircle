@@ -1,6 +1,6 @@
 import styles from "../../InterestGroup.module.css"
 import fvimg from '../../assets/fvimg.png'
-const InterestGroupBoard = ({ children, igSummary }) => {
+const InterestGroupBoard = ({ children, igSummary, subSheetData }) => {
     return (<div className={styles.main_container}>
         <div className={styles.first_view_container}>
             <div className={styles.first_view}>
@@ -8,13 +8,13 @@ const InterestGroupBoard = ({ children, igSummary }) => {
                     {igSummary &&
                         <>
                             <p className={styles.fv_heading}>
-                                {igSummary?.name}
+                                {igSummary?.heading}
                             </p>
                             <p className={styles.fv_content}>
-                                {igSummary?.description}
+                                {igSummary?.desc}
                             </p>
-                            {igSummary?.office_hour && <p className={styles.officehrs}>
-                                <span> Office Hours: </span> {igSummary?.office_hour + ' @ ' + igSummary?.offlice_place}
+                            {subSheetData && subSheetData?.office_hour && <p className={styles.officehrs}>
+                                <span> Office Hours: </span> {subSheetData?.office_hour + ' @ ' + subSheetData?.offlice_place}
                             </p>}
                         </>
                     }

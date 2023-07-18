@@ -12,9 +12,11 @@ import CourseCard from "../../Components/CourseCard/CourseCard";
 import LevelSection from "./IComponents/LevelSection/Level";
 import CardSection from "./IComponents/ListCards/CardSection";
 import InterestGroupBoard from "./IComponents/Board/Board";
-import { courseIntro, courseStructure, mentorIntro, studentLeadIntro } from "./IComponents/Info";
-import getInterestGroupsData from "./Utils/getInterestGroupsData";
-import getPeopleData, { groupPeople } from "./Utils/People";
+import { courseIntro, courseStructure, mainSheetLink, mentorIntro, parentIntro, studentLeadIntro } from "./IComponents/Info";
+import { groupPeople } from "./Utils/People";
+import InterestCard from "../../Components/InterestCard/InterestCard";
+import SheetAPI from "../../Utils/SheetAPI";
+import { handleData } from "./Utils/getInterestGroupsData";
 
 const InterestGroup = ({ setInterest }) => {
   useEffect(() => {
@@ -25,20 +27,18 @@ const InterestGroup = ({ setInterest }) => {
     setInterest(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [setInterest]);
-  let { id, level } = useParams();
+  let { id, sub, level } = useParams();
+  const [mainIg, setMainIg] = useState([])
   const [igSummary, setIgSummary] = useState({})
-
-  const [summary, setSummary] = useState([])
+  const [subSummary, setSubSummary] = useState([])
   const [people, setPeople] = useState([])
-
   const [mentors, setMentors] = useState([])
   const [studentleads, setStudentleads] = useState([])
+
   useEffect(() => {
-    getInterestGroupsData(summary, id, setSummary, setIgSummary)
-  }, [summary, id])
-  useEffect(() => {
-    getPeopleData(igSummary, level, setPeople)
-  }, [igSummary, level])
+    handleData(mainIg, setMainIg, id, sub, setIgSummary, setSubSummary, setPeople)
+  }, [id, mainIg, sub])
+
   useEffect(() => {
     if (people.length) {
       groupPeople(people, setMentors, setStudentleads)
@@ -52,54 +52,74 @@ const InterestGroup = ({ setInterest }) => {
   return (
     <>
       <Navbar />
-      {summary &&
-        <InterestGroupBoard igSummary={igSummary}>
-
+      {igSummary &&
+        <InterestGroupBoard igSummary={igSummary} subSheetData={subSummary}>
+          {
+            id && sub === undefined && level === undefined &&
+            <CardSection {...parentIntro} >
+              {
+                mainIg.map((ig, index) => (
+                  ig?.parent === id &&
+                  <div key={index}>
+                    <InterestCard
+                      id={ig?.code}
+                      interestgroup={ig?.heading}
+                      interestgroupdescription={ig?.desc}
+                      link={`${id}/${ig?.code}`}
+                    />
+                  </div>
+                ))
+              }
+            </CardSection>
+          }
           {/* MENTOR CARDS */}
-          {level === undefined &&
+          {id && sub && level === undefined &&
             <>
-              <div className={styles.first_view_container}>
-
-                <div className="iframe">
-                  <iframe src={igSummary.iframe_link}
-                    title="Title"
-                    width="100%"
-                    height="500px"
-                  ></iframe>
-
-                </div>
-              </div>
-              {mentors && <CardSection {...mentorIntro}>
+              {subSummary.length > 0 && <>
                 {
-                  mentors.map((mentor, index) => (
-                    <div key={index}>
-                      <MentorCard
-                        name={mentor.name}
-                        designation={mentor.organization}
-                        image={mentor?.photo}
-                        linkedIn={mentor.linkedin}
-                        twitter={mentor.twitter}
-                        github={mentor.github}
-                      />
+                  subSummary[0].iframe_link && <div className={styles.first_view_container}>
+
+                    <div className="iframe">
+                      <iframe src={subSummary[0].iframe_link}
+                        title="Title"
+                        width="100%"
+                        height="500px"
+                      ></iframe>
                     </div>
-                  ))
+                  </div>
                 }
-              </CardSection>}
-              {/* STUDENT LEAD CARDS */}
-              {studentleads && <CardSection {...studentLeadIntro}>
-                {
-                  studentleads.map((leads, index) => (
-                    <div key={index}>
-                      <MentorCard
-                        {...leads}
-                        designation={leads.organization}
-                        image={leads?.photo}
-                        linkedIn={leads.linkedin}
-                      />
+                {mentors && <CardSection {...mentorIntro}>
+                  {
+                    mentors.map((mentor, index) => (
+                      <div key={index}>
+                        <MentorCard
+                          name={mentor.name}
+                          designation={mentor.organization}
+                          image={mentor?.photo}
+                          linkedIn={mentor.linkedin}
+                          twitter={mentor.twitter}
+                          github={mentor.github}
+                        />
+                      </div>
+                    ))
+                  }
+                </CardSection>}
+                {/* STUDENT LEAD CARDS */}
+                {studentleads && <CardSection {...studentLeadIntro}>
+                  {
+                    studentleads.map((leads, index) => (
+                      <div key={index}>
+                        <MentorCard
+                          {...leads}
+                          designation={leads.organization}
+                          image={leads?.photo}
+                          linkedIn={leads.linkedin}
+                        />
 
-                    </div>))
-                }
-              </CardSection>}
+                      </div>))
+                  }
+                </CardSection>}
+              </>}
               {/* COURSE STRUCTURE */}
               {courseStructure && <CardSection {...courseIntro}>
                 {
@@ -108,17 +128,17 @@ const InterestGroup = ({ setInterest }) => {
                       <CourseCard
                         {...leads}
                         index={index}
-                        link={`${id}/${leads.link}`}
+                        link={`${sub}/${leads.link}`}
                       />
                     </div>
                   ))
                 }
               </CardSection>}
             </>}
-          {level && <LevelSection level={level} sheet_link={igSummary?.sheet_link} />}
+          {id && level && sub && <LevelSection level={level} sheet_link={igSummary?.sheetlink} />}
         </InterestGroupBoard >
       }
-      {!summary && <NotFound />}
+      {!igSummary && <NotFound />}
       <Footer />
     </>
   );

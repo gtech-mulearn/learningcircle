@@ -1,5 +1,10 @@
-const mainSheetLink = "https://docs.google.com/spreadsheets/d/1F3rdjrJ8cS12oR90ClqNNrw10WgWYOQU0A6G4WHdRbA/edit#gid=1291474495"
-
+const mainSheetLink = "https://docs.google.com/spreadsheets/d/1C7MyDDpRCIq3bnXi-bdWQrUdYMJ0_2cBkpoJ7POQA6A/edit#gid=0"
+const parentIntro={
+    title: 'Interest Groups',
+    description: <>
+    Listed below are the various domains that comes under this interest group. Feel free to select your domain and learn.
+    </>
+}
 const mentorIntro = {
     title: 'Mentor Details',
     description: <>
@@ -43,4 +48,4 @@ const courseStructure = [
     link: 'Advanced'
     }
 ]
-export {courseIntro, courseStructure, mentorIntro, studentLeadIntro, mainSheetLink}
+export {courseIntro, courseStructure, mentorIntro, studentLeadIntro, mainSheetLink,parentIntro}

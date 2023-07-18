@@ -1,8 +1,8 @@
 import SheetAPI from "../../../Utils/SheetAPI"
 
 function getPeopleData(igSummary, level, setPeople) {
-    if (igSummary.sheet_link && level === undefined) {
-      SheetAPI(igSummary.sheet_link, "People", setPeople)
+    if (igSummary.sheetlink && level === undefined) {
+      SheetAPI(igSummary.sheetlink, "People", setPeople)
     }
   }
   

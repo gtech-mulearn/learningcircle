@@ -417,12 +417,12 @@ const Home = ({
           </div>
           <div className={styles.cards_container}>
             {summary.map((ig, index) => (
-              <InterestCard
+              ig.parent === 'null' && <InterestCard
                 key={index}
-                id={ig?.id}
-                interestgroup={ig?.name}
+                id={ig?.code}
+                interestgroup={ig?.heading}
                 interestgroupdescription={
-                  ig.description
+                  ig.desc
                 }
                 officetime={ig?.office_hour}
                 officePlacc={ig?.office_place}

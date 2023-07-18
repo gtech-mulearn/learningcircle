@@ -17,7 +17,8 @@ const LevelSection = ({ level, sheet_link }) => {
             SheetAPI(sheet_link, level, setCourses)
         else if (courses.length && !groupedCourses.length)
             groupCourses(courses, setGroupedCourses)
-    }, [sheet_link, level, courses, groupedCourses.length])
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [sheet_link, level, courses.length, groupedCourses.length])
     return (
         <>
             <CardSection

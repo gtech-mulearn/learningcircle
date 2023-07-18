@@ -238,10 +238,6 @@ function App() {
             element={<CivilInterestGroup setInterest={setInterest} />}
           />
 
-          <Route
-            path="/:id/:level"
-            element={<InterestGroup setInterest={setInterest} />}
-          />
 
           <Route
             path="/gettingstarted/:id"
@@ -254,7 +250,15 @@ function App() {
             path="/:id"
             element={<InterestGroup setInterest={setInterest} />}
           />
+            <Route
+              path="/:id/:sub"
+              element={<InterestGroup setInterest={setInterest} />}
+            />
 
+            <Route
+              path="/:id/:sub/:level"
+              element={<InterestGroup setInterest={setInterest} />}
+            />
           <Route path="/mentors" element={<MentorDirectory />} />
           <Route path="/problemshelves" element={<ProblemShelves />} />
           <Route path="/opensource" element={<OpenSource />} />
