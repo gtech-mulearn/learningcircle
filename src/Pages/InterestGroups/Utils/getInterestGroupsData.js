@@ -1,7 +1,7 @@
 import SheetAPI from "../../../Utils/SheetAPI"
 import { mainSheetLink } from "../IComponents/Info"
 
-function getInterestGroupsData(summary, id, setSummary, setIgSummary,link=mainSheetLink,sheetName="Landing Pages") {
+function getInterestGroupsData(summary, id, setSummary, setIgSummary,link=mainSheetLink,sheetName="landing_pages") {
     if (!summary.length)
         SheetAPI(link, sheetName, setSummary)
     else if (id !== undefined) {
@@ -14,7 +14,7 @@ export default getInterestGroupsData
 
 function handleData(mainIg, setMainIg, id, sub, setIgSummary, setSubSummary, setPeople) {
     if (!mainIg.length) {
-      SheetAPI(mainSheetLink, 'Landing Pages', setMainIg)
+      SheetAPI(mainSheetLink, 'landing_pages', setMainIg)
     }
     else if (sub === undefined) {
       const main = mainIg.find((ig) => ig.code === id)
@@ -25,8 +25,8 @@ function handleData(mainIg, setMainIg, id, sub, setIgSummary, setSubSummary, set
         if (subIg.code)
             setIgSummary(subIg)
         if (subIg.sheetlink) {
-            SheetAPI(subIg.sheetlink, 'Summary', setSubSummary)
-            SheetAPI(subIg.sheetlink, 'People', setPeople)
+            SheetAPI(subIg.sheetlink, 'summary', setSubSummary)
+            SheetAPI(subIg.sheetlink, 'people', setPeople)
         }
     }
 }
