@@ -20,13 +20,13 @@ const FayaDigitalMarketing = () => {
                 products across various digital channels.
                 <br />
               </p>
-              <div className={styles.supporters}>
+              <div class={styles.supporters}>
                 <span>Supported By </span>
                 <div className={styles.s_images}>
                   <img
                     src="/assets/challenge/faya.jpg"
                     alt="Faya"
-                    className={styles.supporter}
+                    class={styles.supporter}
                   />
                 </div>
               </div>

@@ -28,7 +28,7 @@ const Android = () => {
               <p className={styles.officehrs}>
                 <span>Think Tank Meet : </span> Wednesday 09:30 PM @ Google Meet
               </p> */}
-              <div className={styles.supporters}>
+              <div class={styles.supporters}>
                 <span>Supported By </span>
                 <div className={styles.s_images}>
                   <a
@@ -39,7 +39,7 @@ const Android = () => {
                     <img
                       src="/assets/bootcamp/android/androideducators.png"
                       alt="Riglabs"
-                      className={styles.supporter}
+                      class={styles.supporter}
                     />
                   </a>
                 </div>

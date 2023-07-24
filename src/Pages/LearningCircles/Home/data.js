@@ -523,7 +523,7 @@ const InterestGroups = [
         id: "/arvrxr/arvr",
         description:
           "Augmented Reality and Virtual Reality bridge the gap between the real and digital world and help you conceive digital information in the same way you do in the real world. Join the Interest Group today to delve deeper into the Digital World!",
-        name: "Augmented Reality",
+        name: "Aguemented Reality",
         link: "/arvrxr/arvr",
         officetime: "Sunday 08:30 PM",
         officeplace: " @ Discord Lobby",
