@@ -377,7 +377,7 @@ const Search = ({
                   college. <span> Come Lets Create One.</span>
                 </p>
                 <Link to={`/create`}>
-                  <button className={styles.createbtn}>Create Circles</button>
+                  <button class={styles.createbtn}>Create Circles</button>
                 </Link>
               </>
             )}
