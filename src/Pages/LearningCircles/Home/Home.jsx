@@ -23,8 +23,10 @@ import Pygrammers from "./assets/Others/Pygrammers.png";
 import illustrations from "./assets/illustrations.png";
 import InterestCard from "../../../Components/InterestCard/InterestCard";
 
-import InterestGroups from "./data.js";
 import Preloader from "../../../Components/Preloader/Preloader";
+import { useRef } from "react";
+import SheetAPI from "../../../Utils/SheetAPI";
+import getInterestGroupsData from "../../InterestGroups/Utils/getInterestGroupsData";
 
 const Home = ({
   backenderr,
@@ -75,7 +77,7 @@ const Home = ({
           setMembers(response.data.data.members);
         })
         .catch(function (error) {
-          // console.log(error);
+          console.log(error);
         });
     }
   }, [code]);
@@ -108,7 +110,12 @@ const Home = ({
         });
     }
   }, [college, interest]);
+  const [summary, setSummary] = useState([])
 
+  useEffect(() => {
+    if (!summary.length)
+      getInterestGroupsData(summary, undefined, setSummary)
+  }, [summary])
   if (districts) {
     return (
       <>
@@ -164,16 +171,16 @@ const Home = ({
         )}
 
         <div className={styles.body_container}>
-          <div class={styles.first_section}>
-            <div class={styles.fstexts}>
-              <p class={styles.fsheading}>
+          <div className={styles.first_section}>
+            <div className={styles.fstexts}>
+              <p className={styles.fsheading}>
                 Introducing <span> µLearn Learning Circles</span>
               </p>
-              <p class={styles.fssheading}>
+              <p className={styles.fssheading}>
                 Android and Web Development, IoT, CyberSecurity and
                 <span> much more....</span>
               </p>
-              <p class={styles.fstagline}>
+              <p className={styles.fstagline}>
                 An informal mechanism for bringing together learners who are
                 interested in the same topic from across different fields and
                 disciplines. A fantastic way to spend a small amount of time
@@ -181,36 +188,36 @@ const Home = ({
                 interests!
               </p>
 
-              <div class={styles.supporters}>
+              <div className={styles.supporters}>
                 <span>Supported By </span>
 
                 <div className={styles.s_images}>
                   <img
                     src={BeagleSecurity}
                     alt="Beagle Security"
-                    class={styles.supporter}
+                    className={styles.supporter}
                   />
-                  <img src={FoxLabs} alt="" class={styles.supporter} />
+                  <img src={FoxLabs} alt="" className={styles.supporter} />
                   <img
                     src={Pygrammers}
                     alt="Pygrammers"
-                    class={styles.supporter}
+                    className={styles.supporter}
                   />
                 </div>
               </div>
 
-              <div class={styles.buttons}>
+              <div className={styles.buttons}>
                 <Link to={`/create`}>
-                  <button class={styles.fsbtn}>Create Circles</button>
+                  <button className={styles.fsbtn}>Create Circles</button>
                 </Link>
                 <Link to={`/join`}>
-                  <button class={styles.fsobtn}>Join Existing Circles</button>
+                  <button className={styles.fsobtn}>Join Existing Circles</button>
                 </Link>
               </div>
             </div>
 
-            <div class={styles.fsimage}>
-              <img src={illustrations} alt="" class={styles.fs_img} />
+            <div className={styles.fsimage}>
+              <img src={illustrations} alt="" className={styles.fs_img} />
             </div>
           </div>
 
@@ -239,8 +246,8 @@ const Home = ({
                   value={district}
                   onChange={(e) => setDistrict(e.target.value)}
                 >
-                  {districts.map((district) => (
-                    <MenuItem value={district}>{district}</MenuItem>
+                  {districts.map((district, index) => (
+                    <MenuItem key={index} value={district}>{district}</MenuItem>
                   ))}
                 </Select>
               </FormControl>
@@ -409,34 +416,36 @@ const Home = ({
             Start Learning!
           </div>
           <div className={styles.cards_container}>
-            {InterestGroups.map((InterestGroup) => (
-              <InterestCard
-                id={InterestGroup.id}
-                interestgroup={InterestGroup.interestgroup}
+            {summary.map((ig, index) => (
+              ig.parent === 'null' && <InterestCard
+                key={index}
+                id={ig?.code}
+                interestgroup={ig?.heading}
                 interestgroupdescription={
-                  InterestGroup.interestgroupdescription
+                  ig.desc
                 }
-                officetime={InterestGroup.officetime}
+                officetime={ig?.office_hour}
+                officePlacc={ig?.office_place}
               />
             ))}
-            <div class={styles.icard}>
-              <div class={styles.icard_text}>
-                <p class={styles.icardheading}>Interest Group Request Form</p>
-                <p class={styles.icardcontent}>
+            <div className={styles.icard}>
+              <div className={styles.icard_text}>
+                <p className={styles.icardheading}>Interest Group Request Form</p>
+                <p className={styles.icardcontent}>
                   Your Interest Group is not listed there. No worries, you can
                   request the formation of a new Interest Group. We will analyse
                   it from our perspective and see whether there is a majority
                   for a certain interest. It will be made available with all of
                   the necessary resources.
                 </p>
-                {/* <p class={styles.icardcontent}>Office Hours: {officetime}</p> */}
+                {/* <p className={styles.icardcontent}>Office Hours: {officetime}</p> */}
 
                 <a
                   href="https://airtable.com/shriAaNO6q4cQzKKl"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button class={styles.icardbtn}>Submit Request</button>
+                  <button className={styles.icardbtn}>Submit Request</button>
                 </a>
               </div>
             </div>
