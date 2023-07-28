@@ -1,7 +1,7 @@
 import axios from "axios"
 
-function SheetAPI(spreadsheetId,sheetName,setData) {
-    if(spreadsheetId===undefined ||sheetName===undefined ) {
+function SheetAPI(spreadsheetId, sheetName, setData) {
+    if (spreadsheetId === undefined || sheetName === undefined) {
         return undefined
     }
     const API = "https://opensheet.elk.sh/"
