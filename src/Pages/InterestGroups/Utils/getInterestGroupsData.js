@@ -25,8 +25,8 @@ function handleData(mainIg, setMainIg, id, sub, setIgSummary, setSubSummary, set
         if (subIg.code)
             setIgSummary(subIg)
         if (subIg.sheetlink) {
-            SheetAPI(subIg.sheetlink, 'Summary', setSubSummary)
-            SheetAPI(subIg.sheetlink, 'People', setPeople)
+            SheetAPI(subIg.sheetlink, 'summary', setSubSummary)
+            SheetAPI(subIg.sheetlink, 'people', setPeople)
         }
     }
 }

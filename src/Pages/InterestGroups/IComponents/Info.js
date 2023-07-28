@@ -35,17 +35,17 @@ const courseStructure = [
     {
     title: 'Beginner Level Courses',
     desc: 'Designed for those with little to no prior knowledge. Covers foundational concepts, terminology, and practical examples to build a strong understanding.',
-    link: 'Beginner'
+    link: 'beginner'
     },
     {
     title: 'Intermediate Level Courses',
     desc: ' Intended for learners with some prior knowledge. Explores complex ideas, theories, and methodologies to bridge the gap between foundational and advanced concepts.',
-    link: 'Intermediate'
+    link: 'intermediate'
     },
     {
     title: 'Advanced Level Courses',
     desc: 'Targets experienced individuals. Focuses on specialized and research-oriented topics, aiming to develop expertise and proficiency within the subject area.',
-    link: 'Advanced'
+    link: 'advanced'
     }
 ]
 export {courseIntro, courseStructure, mentorIntro, studentLeadIntro, mainSheetLink,parentIntro}
