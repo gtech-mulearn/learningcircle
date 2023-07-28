@@ -86,6 +86,7 @@ const InterestGroup = ({ setInterest }) => {
                         height="500px"
                       ></iframe>
                     </div>
+                    <div className={styles.credits}>Interest Group Roadmap Credits: <a target="_blank" rel="noreferrer" href={subSummary[0].iframe_link}>Roadmap.sh</a></div>
                   </div>
                 }
                 {mentors && <CardSection {...mentorIntro}>
