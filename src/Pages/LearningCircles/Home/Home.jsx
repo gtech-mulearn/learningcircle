@@ -24,8 +24,7 @@ import illustrations from "./assets/illustrations.png";
 import InterestCard from "../../../Components/InterestCard/InterestCard";
 
 import Preloader from "../../../Components/Preloader/Preloader";
-import { useRef } from "react";
-import SheetAPI from "../../../Utils/SheetAPI";
+
 import getInterestGroupsData from "../../InterestGroups/Utils/getInterestGroupsData";
 
 const Home = ({

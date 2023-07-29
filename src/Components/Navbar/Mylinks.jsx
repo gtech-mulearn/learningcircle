@@ -1,4 +1,485 @@
 const mainlink = "https://mulearn.org";
+
+export function getLinks(ig = []) {
+  return [
+    {
+      head: -1,
+      name: "About",
+      submenu: true,
+      sublinks: [
+        {
+          name: "Key Pages",
+          submenu: true,
+          sublinks: [
+            {
+              name: "Our Team",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/team",
+              foreign: false,
+            },
+          ],
+        },
+        {
+          name: "Partners",
+          submenu: true,
+          sublinks: [
+            {
+              name: "Community Partners",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/community-partners",
+              foreign: false,
+            },
+            {
+              name: "Company Partners",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/company-partners",
+              foreign: false,
+            },
+          ],
+        },
+        {
+          name: "Leaderboard",
+          submenu: true,
+          sublinks: [
+            {
+              name: "Overall Leaderboards",
+              link: mainlink + "/leaderboard",
+            },
+            {
+              name: "Monthly Leaderboards",
+              link: mainlink + "/leaderboard/monthly",
+            },
+          ],
+        },
+        {
+          name: "Media",
+          submenu: true,
+          sublinks: [
+            {
+              name: "Gallery",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/gallery",
+              foreign: false,
+            },
+            {
+              name: "News",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/news",
+              foreign: false,
+            },
+            {
+              name: "Blogs",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/blogs",
+              foreign: false,
+            },
+          ],
+        },
+        {
+          name: "Events",
+          submenu: true,
+          sublinks: [
+            {
+              name: "Global Calendar",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/calendar",
+              foreign: false,
+            },
+            {
+              name: "Announcements",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/announcements",
+              foreign: false,
+            },
+            {
+              name: "Weekly Events",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/events",
+              foreign: false,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      head: -1,
+      name: "Programs",
+      submenu: true,
+      sublinks: [
+        {
+          head: 1,
+          name: "Flagship",
+          submenu: true,
+          sublinks: [
+            {
+              name: "YIP",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/yip",
+              foreign: true,
+            },
+            {
+              name: "Foundation Program",
+              submenu: false,
+              sublinks: [],
+              link: "https://foundation.mulearn.org",
+              foreign: true,
+            },
+            {
+              name: "Art of Teaching",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/artofteaching",
+              foreign: false,
+            },
+          ],
+        },
+        {
+          head: 1,
+          name: "Others",
+          submenu: true,
+          sublinks: [
+            {
+              name: "Wiki Syllabus",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/wikisyllabus",
+              foreign: false,
+            },
+            {
+              name: "Hacktober Fest",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/hacktoberfest",
+              foreign: false,
+            },
+            {
+              name: "Build For Team",
+              submenu: false,
+              sublinks: [],
+              link: mainlink + "/BuildForTeam",
+              foreign: false,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      head: -1,
+      name: "Campus Chapters",
+      submenu: true,
+      sublinks: [
+        {
+          head: 2,
+          name: "The Chaptership",
+          submenu: true,
+          link: "/campuschapters",
+          sublinks: [
+            {
+              name: "Lead a Campus",
+              link: "https://airtable.com/shrmtngt3zopg8eVh",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Find Your Campus",
+              link: mainlink + "/campuschapters#findchapter",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Campus Logo Generator",
+              link: mainlink + "/campuschapters/#logo-generator",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Success Stories",
+              link: mainlink + "/blogs",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+          ],
+        },
+        {
+          head: 2,
+          name: "The Orientation",
+          submenu: true,
+          sublinks: [
+            {
+              name: "Typing Mastery",
+              link: "/challenge/typing",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Typing Mastery Leaderboard",
+              link: "/challenge/typingmastery",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+          ],
+        },
+        {
+          head: 2,
+          name: "The Enablement",
+          submenu: true,
+          link: "/challenges",
+          sublinks: [
+            {
+              name: "Self Introduction",
+              link: "/common/enablement/1",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Intro to Command Line",
+              link: "/challenge/intro-to-command-line",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Introduction to GitHub",
+              link: "/challenge/intro-to-github",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Introduction to Markdown",
+              link: "/challenge/intro-to-markdown",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Introduction to HTML",
+              link: "/challenge/intro-to-html",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Introduction to Github Page",
+              link: "/challenge/intro-to-github-pages",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Introduction to Discord",
+              link: "/common/enablement/2",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+          ],
+        },
+        {
+          head: 2,
+          name: " The Learning",
+          submenu: true,
+          link: "/",
+          sublinks: [
+            {
+              name: "Form Learning Cirlces",
+              link: "/create",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Interest Groups",
+              link: "/",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Challenges",
+              link: "/challenges",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Bootcamps",
+              link: "/bootcamps",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      head: -1,
+      name: "Interest Group",
+      submenu: true,
+      sublinks: [
+        {
+          head: 3,
+          name: "Interest Groups",
+          submenu: true,
+          link: "/",
+          sublinks: [...ig],
+        },
+        {
+          head: 3,
+          name: "Bootcamps",
+          submenu: true,
+          link: "/bootcamps",
+          sublinks: [
+            {
+              name: "Android",
+              link: "/bootcamps/ig/android",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Artificial Intelligence",
+              link: "/bootcamps/ai",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "CTF",
+              link: "/bootcamps/ctf",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Flutter",
+              link: "/bootcamps/ig/flutter",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Web Development",
+              link: "/bootcamps/ig/web",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Python",
+              link: "/bootcamps/python",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+          ],
+        },
+        {
+          head: 3,
+          name: "Practice",
+          submenu: true,
+          sublinks: [
+            {
+              name: "OpenSource Projects",
+              link: "/opensource",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Problem Shelf",
+              link: "/problemshelves",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Challenges",
+              link: "/challenges",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Courses",
+              link: "/courses",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "API Setu",
+              link: "/apisetu",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+          ],
+        },
+        {
+          head: 3,
+          name: "Learning Circles",
+          submenu: true,
+          sublinks: [
+            {
+              name: "Create Circle",
+              link: "/create",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Join Circles",
+              link: "/join",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+          ],
+        },
+        {
+          head: 3,
+          name: "Search",
+          submenu: true,
+          sublinks: [
+            {
+              name: "Mentor Directory",
+              link: "/mentors",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+            {
+              name: "Existing Circles",
+              link: "/searchcircles",
+              submenu: false,
+              sublinks: [],
+              foreign: false,
+            },
+          ],
+        },
+      ],
+    },
+  ]
+}
 export const links = [
   {
     head: -1,
@@ -338,15 +819,7 @@ export const links = [
         name: "Interest Groups",
         submenu: true,
         link: "/",
-        sublinks: [
-          {
-            name: "Web Development",
-            link: "/webmobile/web",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
-        ],
+        sublinks: [],
       },
       {
         head: 3,

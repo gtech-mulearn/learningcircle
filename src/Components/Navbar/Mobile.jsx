@@ -1,10 +1,14 @@
 import React from "react";
 import NavLinks from "./NavLinks";
 import Notification from "./Notification";
-import { links } from "./Mylinks";
+import { getLinks } from "./Mylinks";
 import SearchBar from "./SearchBar";
 import { useState } from "react";
+import { useCallback } from "react";
+import SheetAPI from "../../Utils/SheetAPI";
+import { useEffect } from "react";
 export const MobileTopBar = ({ setNotificationOpen, notificationOpen, handleScrolling, setOpen, open }) => {
+
     function menuCloseEvent() {
         setOpen(!open);
         setNotificationOpen(false);
@@ -106,10 +110,27 @@ export const MobileView = ({ visible, setVisibility, prev, setPrev, currentLink,
     )
 }
 export const MobileNavHeader = ({ visible, test1 }) => {
+    const [variable, setVariable] = useState([])
+    const ig = variable.map(link => {
+        if (link.parent === 'null')
+            return ({
+                name: link?.heading,
+                link: `https://learn.mulearn.org/${link?.code}`,
+            })
+        else return {}
+    })
+    const Sheet = useCallback(() => {
+        SheetAPI('https://docs.google.com/spreadsheets/d/1C7MyDDpRCIq3bnXi-bdWQrUdYMJ0_2cBkpoJ7POQA6A/edit#gid=0', 'landing_pages', setVariable)
+    }, [])
+    useEffect(() => {
+        if (variable.length <= 0)
+            Sheet()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [variable.length])
     return (
         <>
             {!visible &&
-                links.map((link, index) => (
+                getLinks(ig).map((link, index) => (
                     <div key={index} className={`px-7 py-5 text-left flex justify-between items-center }`} onClick={() => { test1(link); }}>
                         <h1 className="text-[13px]">{link.name}</h1>
                         <span className="text-[13px] flex items-center" onClick={() => { test1(link); }} >
