@@ -200,12 +200,13 @@ const Home = ({
               </div>
 
               <div class={styles.buttons}>
-                <Link to={`/create`}>
-                  <button class={styles.fsbtn}>Create Circles</button>
-                </Link>
-                <Link to={`/join`}>
-                  <button class={styles.fsobtn}>Join Existing Circles</button>
-                </Link>
+                <a
+                  href="https://app.mulearn.org/dashboard/learning-circle"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class={styles.fsbtn}>Join/Create Circles</button>
+                </a>
               </div>
             </div>
 
@@ -213,189 +214,6 @@ const Home = ({
               <img src={illustrations} alt="" class={styles.fs_img} />
             </div>
           </div>
-
-          <div className={styles.secondsection}>
-            <div className={styles.fssheading1}>
-              <span>Search</span> Existing Learning Circles
-            </div>
-            <div className={styles.fsstagline}>
-              µLearn currently has multiple active learning circles under
-              several interest groups. Fill in the following data to find out
-              existing learning circles near you so you can also join in and
-              learn.
-            </div>
-          </div>
-
-          <div className={styles.form}>
-            <Box sx={{ minWidth: 300, maxWidth: 300, marginY: 1.5 }}>
-              <FormControl fullWidth>
-                <InputLabel id="demo-simple-select-label">
-                  Select District
-                </InputLabel>
-                <Select
-                  labelId="demo-simple-select-label"
-                  id="demo-simple-select"
-                  label="Select District"
-                  value={district}
-                  onChange={(e) => setDistrict(e.target.value)}
-                >
-                  {districts.map((district) => (
-                    <MenuItem value={district}>{district}</MenuItem>
-                  ))}
-                </Select>
-              </FormControl>
-            </Box>
-
-            {interests && district && (
-              <Box sx={{ minWidth: 300, maxWidth: 300, marginY: 1.5 }}>
-                <FormControl fullWidth>
-                  <InputLabel id="demo-simple-select-label">
-                    Select Interest Group
-                  </InputLabel>
-                  <Select
-                    labelId="demo-simple-select-label"
-                    id="demo-simple-select"
-                    label="Select College"
-                    value={interest}
-                    onChange={(e) => setInterest(e.target.value)}
-                  >
-                    {interests.map((interest) => (
-                      <MenuItem value={interest.id}>{interest.title}</MenuItem>
-                    ))}
-                  </Select>
-                </FormControl>
-              </Box>
-            )}
-
-            {colleges && interest && options && (
-              <Box sx={{ minWidth: 300, maxWidth: 300, marginY: 1.5 }}>
-                <Autocomplete
-                  id="grouped-demo"
-                  options={
-                    options &&
-                    options.sort(
-                      (a, b) => -b.firstLetter.localeCompare(a.firstLetter)
-                    )
-                  }
-                  isOptionEqualToValue={(option, value) =>
-                    option.value === value.value
-                  }
-                  groupBy={(option) => option.firstLetter}
-                  getOptionLabel={(option) => option.name}
-                  onChange={(event, newValue) => {
-                    setCollege(newValue.code);
-                  }}
-                  sx={{ width: 300 }}
-                  renderInput={(params) => (
-                    <TextField {...params} label="Select College" />
-                  )}
-                />
-              </Box>
-            )}
-          </div>
-        </div>
-        <div className={styles.circles_cointainer}>
-          {teams.length > 0 && (
-            <div className={styles.thirdsection}>
-              <div className={styles.tssheading1}>
-                <span>Existing </span>Learning Circles
-              </div>
-              {/* <div className={styles.tsstagline}>
-                These are the existing learning circles which are present in
-                your campus. You contact the circle lead if you are interested
-                to join into the learning circles. If you are intersted to
-                create a learning circle. <a href="/create"> Click Here</a>
-              </div> */}
-            </div>
-          )}
-          <div className={styles.circles}>
-            <>
-              {teams.length > 0 &&
-                teams.map((team) => (
-                  <>
-                    <div className={styles.circles_card}>
-                      <div className={styles.circle_text}>
-                        <p className={styles.interest}>Interest: {interest}</p>
-                        <p className={styles.circle_name}>{team.code}</p>
-                        <p className={styles.circle_lead}>Lead: {team.lead}</p>
-                        <p className={styles.circle_member}>
-                          Members: {team.count}
-                        </p>
-                        {team.meet_place !== "No Data" && (
-                          <p className={styles.circle_member}>
-                            Meet Place: {team.meet_place}
-                          </p>
-                        )}
-                        {team.meet_time !== "No Data" && (
-                          <p className={styles.circle_member}>
-                            Meet Time: {team.meet_time}
-                          </p>
-                        )}
-                      </div>
-                      <div className={styles.buttons}>
-                        <Link to={`/join`}>
-                          <button
-                            onClick={() => setCode(team.code)}
-                            className={styles.join_circle}
-                          >
-                            Join Circle
-                          </button>
-                        </Link>
-                        <button
-                          onClick={() => {
-                            setPlace(team.meet_place);
-                            setTime(team.meet_time);
-                            setCode(team.code);
-                            handleOpen();
-                          }}
-                          className={styles.view_members}
-                        >
-                          View Members
-                        </button>
-                      </div>
-                    </div>
-                  </>
-                ))}
-
-              {teams.length > 0 && (
-                <div className={styles.circles_card}>
-                  <div className={styles.circle_text}>
-                    <p className={styles.circle_name}>Create New Circle</p>
-                    <p className={styles.circle_lead}>
-                      Only the Team Lead is required to create the circle.
-                    </p>
-                    <br />
-                    <p className={styles.circle_member}>
-                      {" "}
-                      Call in your friends and let's learn.
-                    </p>
-                  </div>
-
-                  <div className={styles.buttons}>
-                    <Link to={`/create`}>
-                      <button className={styles.view_members}>
-                        Create Circle Now!
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              )}
-            </>
-          </div>
-
-          {college && teams.length === 0 && (
-            <div className={styles.no_circle}>
-              <p className={styles.notfound}>
-                It seems there is <span>No Learning Cirlces</span> in your
-                college. <span> Come Lets Create One.</span>
-              </p>
-              <div className={styles.createbtnalign}>
-                <Link to={`/create`}>
-                  <button className={styles.createbtn}>Create Circles</button>
-                </Link>
-              </div>
-            </div>
-          )}
         </div>
 
         <div className={styles.secondsection}>

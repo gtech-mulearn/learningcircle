@@ -126,20 +126,12 @@ const InterestGroup = ({ setInterest }) => {
 
                 {!data[0].comingsoon && !data[0].hassubgroups && (
                   <div className={styles.fv_buttons}>
-                    <Link to={link}>
-                      <button className={styles.create}>
-                        Create Learning Circles
-                      </button>
-                    </Link>
-
                     <a
-                      href="https://learn.mulearn.org/searchcircles"
+                      href="https://app.mulearn.org/dashboard/learning-circle"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <button class={styles.search_button}>
-                        Search Existing Circles
-                      </button>
+                      <button class={styles.create}>Create Circles</button>
                     </a>
                   </div>
                 )}

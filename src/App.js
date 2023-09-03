@@ -4,9 +4,6 @@ import axios from "axios";
 
 //LearningCirlces Section
 import Home from "./Pages/LearningCircles/Home/Home";
-import Create from "./Pages/LearningCircles/Create/Create";
-import Join from "./Pages/LearningCircles/Join/Join.jsx";
-import GettingStarted from "./Pages/LearningCircles/GettingStarted/GettingStarted";
 
 //InterestGroups
 import InterestGroup from "./Pages/InterestGroups/InterestGroup";
@@ -47,7 +44,6 @@ import NotFound from "./Pages/Misc/404/NotFound";
 
 //Search Section
 import MentorDirectory from "./Pages/Search/MentorDirectory/MentorDirectory";
-import Search from "./Pages/Search/Search/Search";
 
 // Practice Section
 import ProblemShelves from "./Pages/Practice/ProblemShelves/ProblemShelves";
@@ -184,55 +180,7 @@ function App() {
               />
             }
           />
-          <Route
-            path="/create"
-            element={
-              <Create
-                interest={interest}
-                districts={districts}
-                district={district}
-                setDistrict={setDistrict}
-                setInterest={setInterest}
-                interests={interests}
-                college={college}
-                setCollege={setCollege}
-                colleges={colleges}
-                create={create}
-                setCreate={setCreate}
-                setWLink={setWLink}
-              />
-            }
-          />
 
-          <Route
-            path="/join"
-            element={
-              <Join
-                code={code}
-                setCode={setCode}
-                join={join}
-                setJoin={setJoin}
-                college={college}
-                setCollege={setCollege}
-                setWLink={setWLink}
-              />
-            }
-          />
-
-          <Route
-            path="/join/:id"
-            element={
-              <Join
-                code={code}
-                setCode={setCode}
-                join={join}
-                setJoin={setJoin}
-                college={college}
-                setCollege={setCollege}
-                setWLink={setWLink}
-              />
-            }
-          />
           <Route
             path="/civil/:id"
             element={<CivilInterestGroup setInterest={setInterest} />}
@@ -241,13 +189,6 @@ function App() {
           <Route
             path="/:subinterest/:id"
             element={<InterestGroup setInterest={setInterest} />}
-          />
-
-          <Route
-            path="/gettingstarted/:id"
-            element={
-              <GettingStarted create={create} wlink={wlink} join={join} />
-            }
           />
 
           <Route
@@ -384,43 +325,6 @@ function App() {
             path="/kse/pow/:course/:bootcamp/:id/segment/:sid"
             element={<ProofOfWork />}
           /> */}
-
-          <Route
-            path="/searchcircles"
-            element={
-              <Search
-                code={code}
-                setCode={setCode}
-                districts={districts}
-                district={district}
-                setDistrict={setDistrict}
-                colleges={colleges}
-                setCollege={setCollege}
-                college={college}
-                interests={interests}
-                setInterest={setInterest}
-                interest={interest}
-              />
-            }
-          />
-          <Route
-            path="/create/:id"
-            element={
-              <Create
-                interest={interest}
-                districts={districts}
-                district={district}
-                setDistrict={setDistrict}
-                setInterest={setInterest}
-                interests={interests}
-                college={college}
-                setCollege={setCollege}
-                colleges={colleges}
-                create={create}
-                setCreate={setCreate}
-              />
-            }
-          />
         </Routes>
       </Router>
     </div>
