@@ -5,15 +5,9 @@ import Footer from "../../../Components/Footer/Footer";
 import styles from "./Home.module.css";
 
 import Box from "@mui/material/Box";
-import Autocomplete from "@mui/material/Autocomplete";
-import TextField from "@mui/material/TextField";
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import Select from "@mui/material/Select";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
-import { Link } from "react-router-dom";
+
 import Modal from "@mui/material/Modal";
 
 import BeagleSecurity from "./assets/Others/BeagleSecurity.png";

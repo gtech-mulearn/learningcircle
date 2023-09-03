@@ -1,24 +1,24 @@
-import React, { useEffect } from "react"
-import { Link } from "react-router-dom"
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
-import Navbar from "../../../../Components/Navbar/Navbar"
-import Footer from "../../../../Components/Footer/Footer"
-import styles from "./CivilInterestGroup.module.css"
+import Navbar from "../../../../Components/Navbar/Navbar";
+import Footer from "../../../../Components/Footer/Footer";
+import styles from "./CivilInterestGroup.module.css";
 
-import fvimg from "../../assets/fvimg.png"
+import fvimg from "../../assets/fvimg.png";
 
-import { styled } from "@mui/material/styles"
-import Table from "@mui/material/Table"
-import TableBody from "@mui/material/TableBody"
-import TableCell, { tableCellClasses } from "@mui/material/TableCell"
-import TableContainer from "@mui/material/TableContainer"
-import TableHead from "@mui/material/TableHead"
-import TableRow from "@mui/material/TableRow"
-import Paper from "@mui/material/Paper"
-import { useParams } from "react-router-dom"
-import InterestGroups from "../data.js"
-import MentorCard from "../../../../Components/MentorCard/MentorCard"
-import NotFound from "../../../Misc/404/NotFound"
+import { styled } from "@mui/material/styles";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell, { tableCellClasses } from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Paper from "@mui/material/Paper";
+import { useParams } from "react-router-dom";
+import InterestGroups from "../data.js";
+import MentorCard from "../../../../Components/MentorCard/MentorCard";
+import NotFound from "../../../Misc/404/NotFound";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -30,7 +30,7 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
     fontFamily: "Poppins",
     fontSize: 14,
   },
-}))
+}));
 
 const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:nth-of-type(odd)": {
@@ -40,23 +40,23 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:last-child td, &:last-child th": {
     border: 0,
   },
-}))
+}));
 
 const CivilInterestGroup = ({ setInterest }) => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
-    setInterest(id)
+    setInterest(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [setInterest])
-  let { id } = useParams()
+  }, [setInterest]);
+  let { id } = useParams();
 
-  const link = `/create/civil`
+  const link = `/create/civil`;
   const data = InterestGroups.filter(function (interestgroups) {
-    return interestgroups.id === id
-  })
+    return interestgroups.id === id;
+  });
 
   // let next = ""
   // let previous = ""
@@ -65,10 +65,10 @@ const CivilInterestGroup = ({ setInterest }) => {
   //   next = `/${data[0].pagination[1].id}`
   // }
 
-  let tracks = null
+  let tracks = null;
 
   if (data[0].learningpathst) {
-    tracks = [...new Set(data[0].learningpathst.map((path) => path.track))]
+    tracks = [...new Set(data[0].learningpathst.map((path) => path.track))];
   }
 
   return (
@@ -109,20 +109,12 @@ const CivilInterestGroup = ({ setInterest }) => {
 
                 {!data[0].comingsoon && (
                   <div className={styles.fv_buttons}>
-                    <Link to={link}>
-                      <button className={styles.create}>
-                        Create Learning Circles
-                      </button>
-                    </Link>
-
                     <a
-                      href="https://learn.mulearn.org/searchcircles"
+                      href="https://app.mulearn.org/dashboard/learning-circle"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <button class={styles.search_button}>
-                        Search Existing Circles
-                      </button>
+                      <button class={styles.create}>Create Circles</button>
                     </a>
                   </div>
                 )}
@@ -325,7 +317,7 @@ const CivilInterestGroup = ({ setInterest }) => {
             tracks.map((track) => {
               const trackPaths = data[0].learningpathst.filter(
                 (path) => path.track === track
-              ) // Filter paths by track
+              ); // Filter paths by track
               return (
                 <div className={styles.table_view_container}>
                   <div className={styles.table_view}>
@@ -383,7 +375,7 @@ const CivilInterestGroup = ({ setInterest }) => {
                     </div>
                   </div>
                 </div>
-              )
+              );
             })}
 
           <div className={styles.bottom_grid}>
@@ -521,7 +513,9 @@ const CivilInterestGroup = ({ setInterest }) => {
                 <li class={styles.step}>
                   Fill your basic details and verify the account
                 </li>
-                <li class={styles.step}>Log in and upload your college id card</li>
+                <li class={styles.step}>
+                  Log in and upload your college id card
+                </li>
                 <li class={styles.step}>
                   You'll receive a confirmation email regarding your software
                   access after some time. then you can begin utilizing the
@@ -546,7 +540,7 @@ const CivilInterestGroup = ({ setInterest }) => {
       {!(data && data[0]) && <NotFound />}
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default CivilInterestGroup
+export default CivilInterestGroup;
