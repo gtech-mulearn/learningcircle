@@ -41,7 +41,7 @@ export const Resources = ({ notificationOpen }) => {
         </button>
       </a>
       <a
-        href="http://mulearn.org/magazine"
+        href="http://mulearn.org/r/magazine"
         target="_blank"
         rel="noopener noreferrer"
         className="py-7 px-3 inline-block"
