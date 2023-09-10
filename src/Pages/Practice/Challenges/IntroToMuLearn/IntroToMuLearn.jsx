@@ -148,8 +148,7 @@ const IntroToMulearn = () => {
                     <div className="timeline__event__description">
                       After course completion, share the certificate in{" "}
                       <b>#task-dropbox</b> channel with hashtag{" "}
-                      <b>#ge-intro-to-mulearn</b> and also mention the name of
-                      the learning circle you have created.
+                      <b>#ge-intro-to-mulearn</b> and also post the screenshot of the learning circle you have created.
                       {/* <a href="#step5">see screenshot ↓</a> */}
                     </div>
                   </div>
