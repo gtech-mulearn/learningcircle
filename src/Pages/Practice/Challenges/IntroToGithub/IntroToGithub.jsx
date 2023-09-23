@@ -124,7 +124,7 @@ const IntroToGithub = () => {
             <ExampleMsg
               hashtag="#ge-intro-to-github"
               firstLine="Hi! I've completed the Intro to GitHub course."
-              link="https://github.com/Angelrose19/intro-to-github"
+              link="https://github.com/deepusnath/skills-github-pages"
             
             />
           </div>

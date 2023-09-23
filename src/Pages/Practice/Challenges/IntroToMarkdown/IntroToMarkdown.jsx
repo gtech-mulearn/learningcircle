@@ -50,8 +50,15 @@ const IntroToMarkdown = () => {
                         href="https://github.com/skills/communicate-using-markdown"
                         target="_blank"
                         rel="noopener noreferrer"
+                        style={{ textDecoration: "none" }}
+                        onMouseEnter={(e) =>
+                          (e.target.style.textDecoration = "underline")
+                        }
+                        onMouseLeave={(e) =>
+                          (e.target.style.textDecoration = "none")
+                        }
                       >
-                        Github Skills
+                        Github Skills, Click Here.
                       </a>
                     </div>
                   </div>
@@ -95,10 +102,9 @@ const IntroToMarkdown = () => {
               </div>
             </div>
             <ExampleMsg
-             hashtag="#ge-intro-to-markdown"
+              hashtag="#ge-intro-to-markdown"
               linkText="Hi! I've completed the Intro to Markdown course."
-              link="https://github.com/Angelrose19/intro-to-markdown"
-             
+              link="https://github.com/deepusnath/skills-communicate-using-markdown"
             />
           </div>
         </div>
