@@ -3,6 +3,7 @@ import Navbar from "../../../../Components/Navbar/Navbar";
 import Footer from "../../../../Components/Footer/Footer";
 
 import styles from "./IntroToGithubPages.module.css";
+import ExampleMsg from "../../../../Components/ExampleMsg/ExampleMsg";
 
 const IntroToGithubPages = () => {
   return (
@@ -146,17 +147,11 @@ const IntroToGithubPages = () => {
                 alt=""
               />
             </div>
-          </div>
-
-          <div className={styles.sample_container}>
-            <p className={styles.sample_header}>Example Message</p>
-            <p className={styles.sample_message}>
-            #ge-github-pages
-              Hi! I've learnt to deploy GitHub Pages<br></br>
-              My page URL is "link"
-              <br></br>
-             
-            </p>
+            <ExampleMsg
+              hashtag="#ge-github-pages"
+              firstLine="Hi! I've learnt to deploy GitHub Pages."
+              link="https://github.com/deepusnath/skills-github-pages"
+            />
           </div>
         </div>
       </div>
