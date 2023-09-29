@@ -141,6 +141,42 @@ const WebData = [
         example:
           "After completing your task, share the hosted GitHub repository URL in the #web-development channel using the hashtag #cl-silly-story-generator.",
       },
+      {
+        level: "lvl4",
+        id: 4,
+        name: "Personal Portfolio",
+        karma: 200,
+        description:
+          "Create a static site showcasing your skills, projects, and resume.",
+        link: "https://www.freecodecamp.org/news/build-portfolio-website-react/",
+        innner_description: "",
+        example:
+          "After completing this task, share the hosted GitHub repository URL in the #web-development channel using the hashtag #cl-react-portfolio.",
+      },
+      {
+        level: "lvl4",
+        id: 5,
+        name: "ToDo List",
+        karma: 200,
+        description:
+          "Design a simple interactive to-do list with functionalities to add, delete, and mark tasks as done.",
+        link: "https://www.youtube.com/watch?v=Rh3tobg7hEo",
+        innner_description: "",
+        example:
+          "After completing this task, share the hosted GitHub repository URL in the #web-development channel using the hashtag #cl-react-todo.",
+      },
+      {
+        level: "lvl4",
+        id: 6,
+        name: "Tic-Tac-Toe Game",
+        karma: 400,
+        description:
+          "Create an interactive Tic Tac Toe game using React where two players can play against each other. The game should show whose turn it is, detect when a player has won, and offer an option to restart the game.",
+        link: "https://react.dev/learn/tutorial-tic-tac-toe",
+        innner_description: "",
+        example:
+          "After completing this task, share the hosted GitHub repository URL in the #web-development channel using the hashtag #cl-react-tictactoe.",
+      },
     ],
 
     lvl5: [
@@ -216,6 +252,42 @@ const WebData = [
         example:
           "After completing your task, share the hosted GitHub repository URL in the #web-development channel using the hashtag #cl-bouncing-balls-demo.",
       },
+      {
+        level: "lvl5",
+        id: 7,
+        name: "YouTube Clone Using React.js",
+        karma: 400,
+        description:
+          "Using React.js buiding a YouTube Clone and style it using Material UI",
+        link: "https://www.youtube.com/watch?v=FHTbsZEJspU",
+        innner_description: "",
+        example:
+          "After completing this task, share the hosted GitHub repository URL in the #web-development channel using the hashtag #cl-react-youtube.",
+      },
+      {
+        level: "lvl5",
+        id: 8,
+        name: "Building a Movie Listing Application",
+        karma: 400,
+        description:
+          "Using the Open Source Library OMDB generate a movie search library or directory",
+        link: "https://www.youtube.com/watch?v=b9eMGE7QtTk",
+        innner_description: "",
+        example:
+          "After completing this task, share the hosted GitHub repository URL in the #web-development channel using the hashtag #cl-react-movieapp.",
+      },
+      {
+        level: "lvl5",
+        id: 9,
+        name: "Building a Bugetting Application with React.js",
+        karma: 400,
+        description:
+          "Create a fully responsive react.js application for bugetting which has forms and helps you track your financial item",
+        link: "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iNnY07bh_UPaRIQZcJfARY",
+        innner_description: "",
+        example:
+          "After completing this task, share the hosted GitHub repository URL in the #web-development channel using the hashtag #cl-react-budgetapp.",
+      },
     ],
 
     lvl6: [
@@ -266,6 +338,18 @@ const WebData = [
         innner_description: "",
         example:
           "After completing your task, share the hosted GitHub repository URL in the #web-development channel using the hashtag #cl-client-side-web-api.",
+      },
+      {
+        level: "lvl6",
+        id: 5,
+        name: "Chat Room Application",
+        karma: 800,
+        description:
+          "Create a fully functional react.js chat application which supports multiple rooms using react.js and firebase",
+        link: "https://www.youtube.com/watch?v=0gLr-pBIPhI",
+        innner_description: "",
+        example:
+          "After completing this task, share the hosted GitHub repository URL in the #web-development channel using the hashtag #cl-react-chatapp.",
       },
     ],
   },

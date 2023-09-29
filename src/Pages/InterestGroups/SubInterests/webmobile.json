@@ -262,13 +262,26 @@
         "time": "",
         "karma": 400
       },
-
       {
-        "name": "Adding features to our bouncing balls demo",
-        "link": "/web/lvl5/6",
-        "complexity": "Level 5",
+        "name": "Personal Portfolio",
+        "link": "/web/lvl4/4",
+        "complexity": "Level 4",
         "time": "",
-        "karma": 800
+        "karma": 200
+      },
+      {
+        "name": "ToDo List",
+        "link": "/web/lvl4/5",
+        "complexity": "Level 4",
+        "time": "",
+        "karma": 200
+      },
+      {
+        "name": "Tic-Tac-Toe Game",
+        "link": "/web/lvl4/6",
+        "complexity": "Level 4",
+        "time": "",
+        "karma": 400
       }
     ],
     "lvl5": [
@@ -306,6 +319,34 @@
         "complexity": "Level 5",
         "time": "",
         "karma": 800
+      },
+      {
+        "name": "Adding features to our bouncing balls demo",
+        "link": "/web/lvl5/6",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 800
+      },
+      {
+        "name": "YouTube Clone Using React.js",
+        "link": "/web/lvl5/7",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 400
+      },
+      {
+        "name": "Building a Movie Listing Application",
+        "link": "/web/lvl5/8",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 400
+      },
+      {
+        "name": "Building a Bugetting Application with React.js",
+        "link": "/web/lvl5/9",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 400
       }
     ],
     "lvl6": [
@@ -333,6 +374,13 @@
       {
         "name": "Client-side web APIs",
         "link": "/web/lvl6/4",
+        "complexity": "Level 6",
+        "time": "",
+        "karma": 800
+      },
+      {
+        "name": "Chat Room Application",
+        "link": "/web/lvl6/5",
         "complexity": "Level 6",
         "time": "",
         "karma": 800
