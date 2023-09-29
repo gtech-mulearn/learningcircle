@@ -353,6 +353,195 @@ const InterestGroup = ({ setInterest }) => {
               </div>
             </div>
           )}
+          {data[0].lvl4 && data[0].lvl4[0] && (
+            <div className={styles.table_view_container} id="ctable">
+              <div className={styles.table_view}>
+                <div className={styles.tav_texts}>
+                  <p className={styles.tav_heading}>Level 4 Tasks</p>
+                  <p className={styles.tav_contents}>
+                    Every subject or skill has some core set of things to be
+                    learned. Here are a few resources curated by us to
+                    understand them
+                  </p>
+                </div>
+
+                <div className={styles.tav_tasks_container}>
+                  <div className={styles.tav_tasks}>
+                    <TableContainer component={Paper}>
+                      <Table
+                        sx={{ minWidth: 700 }}
+                        aria-label="customized table"
+                      >
+                        <TableHead>
+                          <TableRow>
+                            <StyledTableCell>Task's Name</StyledTableCell>
+                            <StyledTableCell align="right">
+                              Task's Link
+                            </StyledTableCell>
+
+                            <StyledTableCell align="right">
+                              Karma Points
+                            </StyledTableCell>
+                          </TableRow>
+                        </TableHead>
+                        <TableBody>
+                          {data[0].lvl4 &&
+                            data[0].lvl4.map((task) => (
+                              <StyledTableRow key={task.name}>
+                                <StyledTableCell component="th" scope="row">
+                                  {task.name}
+                                </StyledTableCell>
+                                <StyledTableCell align="right">
+                                  <a
+                                    href={task.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <span className={styles.link}>
+                                      Click Here
+                                    </span>
+                                  </a>
+                                </StyledTableCell>
+
+                                <StyledTableCell align="right">
+                                  {task.karma}
+                                </StyledTableCell>
+                              </StyledTableRow>
+                            ))}
+                        </TableBody>
+                      </Table>
+                    </TableContainer>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+          {data[0].lvl5 && data[0].lvl5[0] && (
+            <div className={styles.table_view_container} id="ctable">
+              <div className={styles.table_view}>
+                <div className={styles.tav_texts}>
+                  <p className={styles.tav_heading}>Level 5 Tasks</p>
+                  <p className={styles.tav_contents}>
+                    Every subject or skill has some core set of things to be
+                    learned. Here are a few resources curated by us to
+                    understand them
+                  </p>
+                </div>
+
+                <div className={styles.tav_tasks_container}>
+                  <div className={styles.tav_tasks}>
+                    <TableContainer component={Paper}>
+                      <Table
+                        sx={{ minWidth: 700 }}
+                        aria-label="customized table"
+                      >
+                        <TableHead>
+                          <TableRow>
+                            <StyledTableCell>Task's Name</StyledTableCell>
+                            <StyledTableCell align="right">
+                              Task's Link
+                            </StyledTableCell>
+
+                            <StyledTableCell align="right">
+                              Karma Points
+                            </StyledTableCell>
+                          </TableRow>
+                        </TableHead>
+                        <TableBody>
+                          {data[0].lvl5 &&
+                            data[0].lvl5.map((task) => (
+                              <StyledTableRow key={task.name}>
+                                <StyledTableCell component="th" scope="row">
+                                  {task.name}
+                                </StyledTableCell>
+                                <StyledTableCell align="right">
+                                  <a
+                                    href={task.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <span className={styles.link}>
+                                      Click Here
+                                    </span>
+                                  </a>
+                                </StyledTableCell>
+
+                                <StyledTableCell align="right">
+                                  {task.karma}
+                                </StyledTableCell>
+                              </StyledTableRow>
+                            ))}
+                        </TableBody>
+                      </Table>
+                    </TableContainer>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+          {data[0].lvl6 && data[0].lvl6[0] && (
+            <div className={styles.table_view_container} id="ctable">
+              <div className={styles.table_view}>
+                <div className={styles.tav_texts}>
+                  <p className={styles.tav_heading}>Level 6 Tasks</p>
+                  <p className={styles.tav_contents}>
+                    Every subject or skill has some core set of things to be
+                    learned. Here are a few resources curated by us to
+                    understand them
+                  </p>
+                </div>
+
+                <div className={styles.tav_tasks_container}>
+                  <div className={styles.tav_tasks}>
+                    <TableContainer component={Paper}>
+                      <Table
+                        sx={{ minWidth: 700 }}
+                        aria-label="customized table"
+                      >
+                        <TableHead>
+                          <TableRow>
+                            <StyledTableCell>Task's Name</StyledTableCell>
+                            <StyledTableCell align="right">
+                              Task's Link
+                            </StyledTableCell>
+
+                            <StyledTableCell align="right">
+                              Karma Points
+                            </StyledTableCell>
+                          </TableRow>
+                        </TableHead>
+                        <TableBody>
+                          {data[0].lvl6 &&
+                            data[0].lvl6.map((task) => (
+                              <StyledTableRow key={task.name}>
+                                <StyledTableCell component="th" scope="row">
+                                  {task.name}
+                                </StyledTableCell>
+                                <StyledTableCell align="right">
+                                  <a
+                                    href={task.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <span className={styles.link}>
+                                      Click Here
+                                    </span>
+                                  </a>
+                                </StyledTableCell>
+
+                                <StyledTableCell align="right">
+                                  {task.karma}
+                                </StyledTableCell>
+                              </StyledTableRow>
+                            ))}
+                        </TableBody>
+                      </Table>
+                    </TableContainer>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
           {data[0].corecourses && data[0].corecourses[0] && (
             <div className={styles.table_view_container} id="ctable">
               <div className={styles.table_view}>

@@ -240,6 +240,104 @@
         "karma": "200"
       }
     ],
+    "lvl4": [
+      {
+        "name": "Marking up a letter",
+        "link": "/web/lvl4/1",
+        "complexity": "Level 4",
+        "time": "",
+        "karma": 400
+      },
+      {
+        "name": "Styling a biography page",
+        "link": "/web/lvl4/2",
+        "complexity": "Level 4",
+        "time": "",
+        "karma": 200
+      },
+      {
+        "name": "Silly story generator",
+        "link": "/web/lvl4/3",
+        "complexity": "Level 4",
+        "time": "",
+        "karma": 400
+      },
+
+      {
+        "name": "Adding features to our bouncing balls demo",
+        "link": "/web/lvl5/6",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 800
+      }
+    ],
+    "lvl5": [
+      {
+        "name": "Mozilla splash page",
+        "link": "/web/lvl5/1",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 400
+      },
+      {
+        "name": "Fundamental CSS comprehension",
+        "link": "/web/lvl5/2",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 400
+      },
+      {
+        "name": "Typesetting a community school homepage",
+        "link": "/web/lvl5/3",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 800
+      },
+      {
+        "name": "Web forms — Working with user data",
+        "link": "/web/lvl5/4",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 800
+      },
+      {
+        "name": "Image gallery",
+        "link": "/web/lvl5/5",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 800
+      }
+    ],
+    "lvl6": [
+      {
+        "name": "Structuring planet data",
+        "link": "/web/lvl6/1",
+        "complexity": "Level 6",
+        "time": "",
+        "karma": 400
+      },
+      {
+        "name": "Fundamental layout comprehension",
+        "link": "/web/lvl6/2",
+        "complexity": "Level 6",
+        "time": "",
+        "karma": 800
+      },
+      {
+        "name": "Sequencing animations",
+        "link": "/web/lvl6/3",
+        "complexity": "Level 6",
+        "time": "",
+        "karma": 800
+      },
+      {
+        "name": "Client-side web APIs",
+        "link": "/web/lvl6/4",
+        "complexity": "Level 6",
+        "time": "",
+        "karma": 800
+      }
+    ],
     "trendingprojects": [
       {
         "id": "1",

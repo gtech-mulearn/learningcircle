@@ -1,25 +1,31 @@
-import React, { useState, useEffect } from "react"
-import Footer from "../../../Components/Footer/Footer"
-import Navbar from "../../../Components/Navbar/Navbar"
-import styles from "./coursepage.module.css"
+import React, { useState, useEffect } from "react";
+import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar";
+import styles from "./coursepage.module.css";
 
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
 
 const CoursePage = ({ CourseData }) => {
-  const [course, setCourse] = useState()
-  const { type, id } = useParams()
+  const [course, setCourse] = useState();
+  const { type, id } = useParams();
 
   useEffect(() => {
     if (type === "core") {
-      setCourse(CourseData[0].core[id - 1])
+      setCourse(CourseData[0].core[id - 1]);
     } else if (type === "sub") {
-      setCourse(CourseData[0].sub[id - 1])
+      setCourse(CourseData[0].sub[id - 1]);
     } else if (type === "enablement") {
-      setCourse(CourseData[0].enablement[id - 1])
+      setCourse(CourseData[0].enablement[id - 1]);
+    } else if (type === "lvl4") {
+      setCourse(CourseData[0].lvl4[id - 1]);
+    } else if (type === "lvl5") {
+      setCourse(CourseData[0].lvl5[id - 1]);
+    } else if (type === "lvl6") {
+      setCourse(CourseData[0].lvl6[id - 1]);
     } else {
-      setCourse("Sorry!")
+      setCourse("Sorry");
     }
-  }, [type, id, CourseData])
+  }, [type, id, CourseData]);
 
   return (
     <>
@@ -143,7 +149,7 @@ const CoursePage = ({ CourseData }) => {
       )}
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default CoursePage
+export default CoursePage;
