@@ -84,6 +84,68 @@
         "karma": "200"
       }
     ],
+    "lvl4": [
+      {
+        "name": "Find and define a Simple Problem",
+        "link": "/ux/lvl4/1",
+        "complexity": "Level 4",
+        "time": "",
+        "karma": 100
+      },
+      {
+        "name": "Figma Basics",
+        "link": "/ux/lvl4/2",
+        "complexity": "Level 4",
+        "time": "",
+        "karma": 400
+      },
+      {
+        "name": "Sun and Moon",
+        "link": "/ux/lvl4/3",
+        "complexity": "Level 4",
+        "time": "",
+        "karma": 400
+      },
+      {
+        "name": "Create a User Persona",
+        "link": "/ux/lvl4/4",
+        "complexity": "Level 4",
+        "time": "",
+        "karma": 400
+      }
+    ],
+    "lvl5": [
+      {
+        "name": "Create a Competitive Audit Report",
+        "link": "/ux/lvl5/1",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 800
+      },
+      {
+        "name": "Card Sorting Design Method",
+        "link": "/ux/lvl5/2",
+        "complexity": "Level 5",
+        "time": "",
+        "karma": 800
+      }
+    ],
+    "lvl6": [
+      {
+        "name": "Create a Paper Wireframe",
+        "link": "/ux/lvl6/1",
+        "complexity": "Level 6",
+        "time": "",
+        "karma": 200
+      },
+      {
+        "name": "Create Low-Fi Prototype",
+        "link": "/ux/lvl6/2",
+        "complexity": "Level 6",
+        "time": "",
+        "karma": 400
+      }
+    ],
     "keywords": [
       {
         "id": "1",

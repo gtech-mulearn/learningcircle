@@ -74,6 +74,117 @@ const UIUXData = [
         inner_description: "",
       },
     ],
+
+    lvl4: [
+      {
+        level: 4,
+        id: 1,
+        name: "Find and define a Simple Problem",
+        karma: 100,
+        description:
+          "In this task, you are required to prepare a problem statement based on research, user needs, and business goals and design a solution that meets the needs.",
+        link: "https://www.coursera.org/learn/start-ux-design-process/lecture/NC282/create-problem-statements",
+        innner_description:
+          "After completing this task, share the PDF or Word File in the ⁠ui-ux channel using the hashtag #cl-findaproblem",
+        example:
+          "#cl-findaproblem \nHey, I have completed the task and here is the link to my file",
+      },
+      {
+        level: 4,
+        id: 2,
+        name: "Figma Basics",
+        karma: 400,
+        description:
+          "In this task, you are required to go through the video provided below and clone any three screens of your favorite app in Figma. You can create the home screen and any other screens of your choice.",
+        link: "https://www.classcentral.com/classroom/youtube-figma-tutorials-the-ultimate-crash-course-51794",
+        innner_description:
+          "After completing this task, share the Figma file in the ⁠ui-ux channel using the hashtag #cl-ui-figma",
+        example:
+          "#cl-ui-figma\nHey, I have completed the task and here is the figma link for my submission. [Link]",
+      },
+      {
+        level: 4,
+        id: 3,
+        name: "Sun and Moon",
+        karma: 400,
+        description:
+          "In this task, you are required to watch the video provided below and create toggle buttons on your own.",
+        link: "https://youtu.be/rKtBy63cHJ4?si=fN4E1sWSHYwWijS1",
+        innner_description:
+          "After completing this task, share the Figma file in the ⁠ui-ux channel using the hashtag #cl-ui-sunmoon",
+        example:
+          "#cl-ui-sunmoon\nHey, I have completed the task and here the figma link [Link}",
+      },
+      {
+        level: 4,
+        id: 4,
+        name: "Create a User Persona",
+        karma: 400,
+        description:
+          "In this task, you are required to create personas of 3 target users and design a solution to the needs, based on research and data that provides a clear understanding of the users’ needs, goals, pain points, and motivations. Mention demographics, and users' quotes as well.",
+        link: "https://www.coursera.org/learn/start-ux-design-process/lecture/ZpYoj/understand-personas",
+        innner_description:
+          "After completing this task, share the PDF or Word File in the ⁠ui-ux channel using the hashtag #cl-ux-persona",
+        example:
+          "#cl-ux-persona\nHey, I have completed the user persona task and here is my link to the word file",
+      },
+    ],
+    lvl5: [
+      {
+        level: 5,
+        id: 1,
+        name: "Create a Competitive Audit Report",
+        karma: 800,
+        description:
+          "In this task, you are required to assess and write a report on a company’s rival, pointing out its strengths, weaknesses, and opportunities. Examine competitor products, marketing strategies, and customer feedback. Specify recommendations to enhance the company’s position as well.",
+        link: "https://www.coursera.org/learn/start-ux-design-process/lecture/JG2nZ/steps-to-conduct-a-competitive-audit",
+        innner_description:
+          "After completing this task, share the PDF of your report in the ⁠ui-ux channel using the hashtag #cl-ux-competitivereport",
+        example:
+          "#cl-ux-competitivereport\nHey, I have completed the task and here is the figma link [Link}",
+      },
+      {
+        level: 5,
+        id: 2,
+        name: "Card Sorting Design Method",
+        karma: 800,
+        description:
+          "In this task, you will learn a design technique for a user-centered, card-sorting method for organizing website content by categorizing topics into groups and aiding in website structure and navigation. \nMake a report stating the similarities, and the most confusing points you faced while sorting.",
+        link: "https://youtu.be/AxgMIEVcIMY",
+        innner_description:
+          "After completing this task, share the PDF or an image showing all cards, and a PDF of the Report in the ⁠ui-ux channel using the hashtag #cl-ux-cardsorting",
+        example:
+          "#cl-ux-cardsorting\nHey, I have completed the card sorting task and here is the link to my submission [Link}",
+      },
+    ],
+    lvl6: [
+      {
+        level: 6,
+        id: 1,
+        name: "Create a Paper Wireframe",
+        karma: 200,
+        description:
+          "In this task, you will learn how to create paper wireframes which is a hand-drawn sketch of a digital interface showing the layout, elements, and user flow. There should be a minimum of 4 windows in the design",
+        link: "https://www.coursera.org/learn/wireframes-low-fidelity-prototypes/lecture/wN5Wk/draw-your-first-wireframe",
+        innner_description:
+          "After completing this task, share the image as a PNG or JPEG of your paper wireframe in the ⁠ui-ux channel using the hashtag #cl-ux-paperwireframe",
+        example:
+          "#cl-ux-paperwireframe\nHey, I have completed the paper wireframe task and here are the images",
+      },
+      {
+        level: 6,
+        id: 2,
+        name: "Create Low-Fi Prototype",
+        karma: 400,
+        description:
+          "In this task, you are required to create and design a Low-Fi prototype of a digital wireframe you designed to represent its basic interface, focusing on functions over appearance, using Figma ONLY.",
+        link: "https://youtu.be/3F4mWr1cY-8",
+        innner_description:
+          "After completing this task, share your Figma file URL in the ⁠ui-ux channel using the hashtag #cl-ux-lowfi",
+        example:
+          "#cl-ux-lowfi\nHey, I have completed the Low-Fi Wireframe task and here is my figma link [Link]",
+      },
+    ],
   },
 ];
 
