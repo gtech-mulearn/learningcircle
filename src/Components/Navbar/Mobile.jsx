@@ -73,7 +73,7 @@ export const MobileMenu = ({ setNotificationOpen, setOpen, handleScrolling, open
                     className="py-3 px-28 "
                 >
                     <button className="bg-orange-400 text-white  px-6 py-2 rounded-md ">
-                        Join Discord
+                        Join µLearn
                     </button>
                 </a>
                 <a
