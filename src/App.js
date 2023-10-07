@@ -91,34 +91,6 @@ function App() {
   const [backenderr, setBackenderr] = useState(false);
 
   //Create Page State Variables
-  const [wlink, setWLink] = useState();
-  const [create, setCreate] = useState({
-    code: "",
-    lead: {
-      name: "",
-      email: "",
-      // discord_id: "",
-      // karma: "",
-    },
-    passcode: "",
-    college: college,
-    phone: "",
-    interest: interest,
-    meet_time: "",
-    meet_place: "",
-  });
-
-  //Join page State Variable
-  const [join, setJoin] = useState({
-    code: "",
-    name: "",
-    email: "",
-    // discord_id: "",
-    // karma: "",
-    college: "",
-    phone: "",
-  });
-
   useEffect(() => {
     if (!districts) {
       axios
