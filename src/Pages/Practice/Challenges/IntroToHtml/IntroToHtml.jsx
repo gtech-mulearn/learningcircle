@@ -24,7 +24,7 @@ const IntroToHtml = () => {
                 building your own cat photo app.
               </p>
               <p className={styles.fv_content_karma}>
-                On Completion Earn 100 Karma Points
+                On Completion Earn 200 Karma Points
               </p>
             </div>
 
