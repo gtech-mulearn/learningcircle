@@ -257,10 +257,10 @@ function App() {
             path="/challenge/traffic-light-simulation"
             element={<TrafficLightSimulation />}
           />
-          <Route
+          {/* <Route
             path="/challenge/defensivedriving"
             element={<DefensiveDriving />}
-          />
+          /> */}
           <Route path="/challenge/marathon" element={<MarathonChallenge />} />
           <Route
             path="/challenge/googlesolution"
