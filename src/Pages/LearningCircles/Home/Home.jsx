@@ -12,7 +12,6 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Typography from "@mui/material/Typography";
-import axios from "axios";
 import { Link } from "react-router-dom";
 import Modal from "@mui/material/Modal";
 
@@ -68,47 +67,7 @@ const Home = ({
     window.scrollTo(0, 0);
   }, []);
 
-  useEffect(() => {
-    if (code) {
-      axios
-        .get(`${process.env.REACT_APP_BACKEND_URL}/team/${code}`)
-        .then(function (response) {
-          setMembers(response.data.data.members);
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
-    }
-  }, [code]);
 
-  useEffect(() => {
-    if (colleges) {
-      setOptions(
-        colleges.map((option) => {
-          const firstLetter = option.name[0].toUpperCase();
-          return {
-            firstLetter: /[0-9]/.test(firstLetter) ? "0-9" : firstLetter,
-            ...option,
-          };
-        })
-      );
-    }
-  }, [colleges]);
-
-  useEffect(() => {
-    if (college && interest) {
-      axios
-        .get(
-          `${process.env.REACT_APP_BACKEND_URL}/teams/${college}/${interest}`
-        )
-        .then(function (response) {
-          setTeams(response.data.data);
-        })
-        .catch(function (error) {
-          // console.log(error);
-        });
-    }
-  }, [college, interest]);
   const [summary, setSummary] = useState([])
 
   useEffect(() => {

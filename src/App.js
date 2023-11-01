@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import axios from "axios";
 
 //LearningCirlces Section
 import Home from "./Pages/LearningCircles/Home/Home";
@@ -122,43 +121,6 @@ function App() {
     college: "",
     phone: "",
   });
-
-  useEffect(() => {
-    if (!districts) {
-      axios
-        .get(`${process.env.REACT_APP_BACKEND_URL}/districts`)
-        .then(function (response) {
-          setDistricts(response.data.data);
-        })
-        .catch(function (error) {
-          console.log(error);
-          setBackenderr(true);
-        });
-    }
-
-    if (!interests) {
-      axios
-        .get(`${process.env.REACT_APP_BACKEND_URL}/interests`)
-        .then(function (response) {
-          setInterests(response.data.data);
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
-    }
-
-    if (district) {
-      axios
-        .get(`${process.env.REACT_APP_BACKEND_URL}/colleges/${district}`)
-        .then(function (response) {
-          setColleges(response.data.data);
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [district, college]);
 
   return (
     <div className="App">

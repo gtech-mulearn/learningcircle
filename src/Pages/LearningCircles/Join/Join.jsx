@@ -7,7 +7,6 @@ import styles from "./Join.module.css";
 
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
 import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
 import CheckIcon from "@mui/icons-material/Check";
@@ -43,26 +42,6 @@ const Join = ({
     }));
   };
 
-  useEffect(() => {
-    const delayDebounceFn = setTimeout(() => {
-      axios
-        .get(
-          `${process.env.REACT_APP_BACKEND_URL}/team/${join.code || code || id}`
-        )
-        .then(function (response) {
-          setCollege(response.data.data.college.name);
-          setMembers(response.data.data.members);
-          setValid(true);
-        })
-        .catch(function (error) {
-          setCollege();
-          setMembers();
-          setValid(false);
-        });
-    }, 3000);
-
-    return () => clearTimeout(delayDebounceFn);
-  }, [join.code, setCollege, setMembers, setValid, code, id]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -79,54 +58,7 @@ const Join = ({
       setToken();
       setVerify(false);
       const baseURL = `${process.env.REACT_APP_BACKEND_URL}/join`;
-      axios
-        .post(
-          baseURL,
-          {
-            code: join.code || code,
-            name: join.name,
-            email: join.email,
-            // discord_id: join.discord_id,
-            // karma: join.karma,
-            college: join.college,
-            phone: join.phone,
-            recaptcha: token,
-          },
-          {
-            headers: {
-              Authorization: pass,
-            },
-          }
-        )
-        .then((response) => {
-          if (response.data.status === "success") {
-            // setJoin({
-            //   code: "",
-            //   name: "",
-            //   email: "",
-            //   college: "",
-            //   phone: "",
-            // });
-            setErrors("");
-            setCompleted(true);
-            setWLink(response.data.wa_url);
-            setPass("");
-            confetti();
-          }
-        })
-        .catch((error) => {
-          if (error.response.status === 400) {
-            if (error.response.data.detail) {
-              setErrors(error.response.data.detail.errors);
-            }
 
-            setSnackError(error.response.data.message);
-          } else if (error.response.status === 401) {
-            setErrors(error.response.status);
-          } else {
-            setErrors("");
-          }
-        });
     }
   };
 
