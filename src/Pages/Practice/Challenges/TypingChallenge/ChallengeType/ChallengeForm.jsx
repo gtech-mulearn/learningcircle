@@ -9,13 +9,15 @@ const ChallengeForm = ({ exportGoogleSheetData, getNumberOfDays, getCollege, set
     const [update, setUpdate] = useState(false)
     const API = "https://opensheet.elk.sh/"
 
+
     useEffect(() => {
         // 83 is the length of spreadsheetId
         if (spreadsheetId.length >= 83) {
             try {
                 axios.get(`${API + spreadsheetId.split("/")[5]}/${sheet}`)
-                    .then(res => res.data)
-                    .then(result => exportGoogleSheetData(result))
+                .then(res => res.data)
+                .then(result => exportGoogleSheetData(result))
+                
             }
             catch (err) {
                 // exportGoogleSheetData([])    

@@ -6,7 +6,6 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
 import { useParams } from "react-router-dom";
-import axios from "axios";
 
 const IGBootcamp = () => {
   const { id } = useParams();
@@ -18,31 +17,6 @@ const IGBootcamp = () => {
   //   const boldText = text.replace(pattern, (match, word) => `<b>#${word}</b>`);
   //   return <div dangerouslySetInnerHTML={{ __html: boldText }} />;
   // };
-
-  useEffect(() => {
-    axios
-      .get(
-        `https://opensheet.elk.sh/15EurXumruFeT9D9s7aJSR8r1Zv9a9-iQnA5CGPbx0Xg/${id}`
-      )
-      .then((response) => {
-        setData(response.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-
-    axios
-      .get(
-        "https://opensheet.elk.sh/15EurXumruFeT9D9s7aJSR8r1Zv9a9-iQnA5CGPbx0Xg/commondata"
-      )
-      .then((response) => {
-        const commonData = response.data.filter((item) => item.ig === id);
-        setCommonData(commonData[0]);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, [id]);
 
   return (
     <>

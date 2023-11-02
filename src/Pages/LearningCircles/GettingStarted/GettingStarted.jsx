@@ -4,8 +4,6 @@ import styles from "./GettingStarted.module.css";
 
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
-
-import axios from "axios";
 import InterestGroups from "../Home/data";
 import { Box } from "@mui/system";
 import Preloader from "../../../Components/Preloader/Preloader";
@@ -16,30 +14,6 @@ const GettingStarted = ({ create, wlink, join }) => {
   const [redirect, setRedirect] = useState(false);
   const [buttontext, setButtonText] = useState("Copy Joining Link");
   const [resources, setResources] = useState();
-  useEffect(() => {
-    axios
-      .get(
-        `${process.env.REACT_APP_BACKEND_URL}/team/${
-          join.code || create.code || id
-        }`
-      )
-      .then(function (response) {
-        setCircleData(response.data.data);
-        console.log(response.data.data);
-        setRedirect(false);
-
-        setResources(
-          InterestGroups.filter(function (interestgroups) {
-            return interestgroups.id === response.data.data.interest;
-          })
-        );
-      })
-      .catch(function (error) {
-        console.log(error);
-        setRedirect(true);
-        setCircleData(true);
-      });
-  }, [id, create, join]);
 
   if (!redirect && circledata) {
     return (

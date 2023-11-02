@@ -3,7 +3,6 @@ import styles from "./TypingMastery.module.css"
 import Navbar from "../../../../../Components/Navbar/Navbar"
 import Footer from "../../../../../Components/Footer/Footer"
 import axios from "axios"
-
 import { styled } from "@mui/material/styles"
 import Table from "@mui/material/Table"
 import TableBody from "@mui/material/TableBody"
@@ -49,6 +48,7 @@ const TypingMastery = () => {
         console.error(error)
       })
   }, [])
+
 
   // Sort the data by number of days and last day participants
   const sortedData = data.sort((a, b) => {

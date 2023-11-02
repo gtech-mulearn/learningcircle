@@ -13,7 +13,6 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Typography from "@mui/material/Typography";
-import axios from "axios";
 import { Link } from "react-router-dom";
 import { Modal } from "@mui/material";
 
@@ -71,47 +70,6 @@ const Search = ({
       );
     }
   }, [colleges]);
-
-  useEffect(() => {
-    if (code) {
-      axios
-        .get(`${process.env.REACT_APP_BACKEND_URL}/team/${code}`)
-        .then(function (response) {
-          setMembers(response.data.data.members);
-        })
-        .catch(function (error) {
-          // console.log(error);
-        });
-    }
-  }, [code]);
-
-  useEffect(() => {
-    if (college && interest) {
-      axios
-        .get(
-          `${process.env.REACT_APP_BACKEND_URL}/teams/${college}/${interest}`
-        )
-        .then(function (response) {
-          setTeams(response.data.data);
-        })
-        .catch(function (error) {
-          // console.log(error);
-        });
-    }
-  }, [college, interest]);
-
-  useEffect(() => {
-    if (code) {
-      axios
-        .get(`${process.env.REACT_APP_BACKEND_URL}/team/${code}`)
-        .then(function (response) {
-          setMembers(response.data.data.members);
-        })
-        .catch(function (error) {
-          // console.log(error);
-        });
-    }
-  }, [code]);
 
   return (
     <>

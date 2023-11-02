@@ -12,7 +12,6 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Button from "@mui/material/Button";
-import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
 
 import CustomizedSnackbars from "../../../Components/SnackBar/SnackBar";
@@ -81,61 +80,6 @@ const Create = ({
       setVerify(false);
       const baseURL = `${process.env.REACT_APP_BACKEND_URL}/create`;
 
-      axios
-        .post(baseURL, {
-          code: create.code,
-          lead: {
-            name: create.lead.name,
-            email: create.lead.email,
-            // discord_id: create.lead.discord_id,
-            // karma: create.lead.karma,
-          },
-          passcode: create.passcode,
-          college: create.college || college,
-          phone: create.phone,
-          recaptcha: token,
-          interest: create.interest || interest,
-          meet_place: create.meet_place,
-          meet_time: create.meet_time,
-        })
-        .then((response) => {
-          console.log(response);
-          if (response.data.status === "success") {
-            // setCreate({
-            //   code: "",
-            //   lead: {
-            //     name: "",
-            //     email: "",
-            //   },
-            //   passcode: "",
-            //   college: college,
-            //   phone: "",
-            //   interest: interest,
-            //   meet_place: "",
-            //   meet_time: "",
-            // });
-            setErrors("");
-            setCompleted(true);
-            setWLink(response.data.wa_url);
-            confetti();
-          }
-        })
-        .catch((error) => {
-          if (error.response.status === 400) {
-            if (error.response.data.detail) {
-              setErrors(error.response.data.detail.errors);
-            }
-            setSnackError(error.response.data.message);
-          } else if (
-            error.response.status === 401 ||
-            error.response.status === 500
-          ) {
-            setErrors(error.response.status);
-            setSnackError(error.response.data.message);
-          } else {
-            setErrors("");
-          }
-        });
     }
   };
 
