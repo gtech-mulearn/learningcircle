@@ -4,10 +4,24 @@ import styles from "./OpenSource.module.css";
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
 import OpenSourceCard from "../../../Components/OpenSourceCard/OpenSourceCard";
+import axios from "axios";
 
 const OpenSource = () => {
   const projects = require("./data.json");
   const [fossprojects, setFossProjects] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get(
+        "https://opensheet.elk.sh/1r5Pav8TlUEao_9GuMcFasKUEPSDIJOPB9PXKbt4KlTQ/fossprojects"
+      )
+      .then((response) => {
+        setFossProjects(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
 
 
   return (

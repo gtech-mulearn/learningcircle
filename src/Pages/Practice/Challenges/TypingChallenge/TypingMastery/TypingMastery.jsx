@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import styles from "./TypingMastery.module.css"
 import Navbar from "../../../../../Components/Navbar/Navbar"
 import Footer from "../../../../../Components/Footer/Footer"
+import axios from "axios"
 import { styled } from "@mui/material/styles"
 import Table from "@mui/material/Table"
 import TableBody from "@mui/material/TableBody"
@@ -35,6 +36,18 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 
 const TypingMastery = () => {
   const [data, setData] = useState([])
+  useEffect(() => {
+    axios
+      .get(
+        "https://opensheet.elk.sh/1TeGv6a8jsIRX_7wRyokic_EatIbJ8a0TwMcziYDdp84/LeaderboardSheet"
+      )
+      .then((response) => {
+        setData(response.data)
+      })
+      .catch((error) => {
+        console.error(error)
+      })
+  }, [])
 
 
   // Sort the data by number of days and last day participants

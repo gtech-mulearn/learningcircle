@@ -1,18 +1,23 @@
 import React, { useEffect, useState } from 'react'
 import "../TypingChallenge.module.css"
+import axios from 'axios'
 import styles from "./Challenge.module.css"
 import Rules from './Rules'
 const ChallengeForm = ({ exportGoogleSheetData, getNumberOfDays, getCollege, setView }) => {
     const [spreadsheetId, setSpreadsheetId] = useState("")
     const [sheet, setSheet] = useState("")
     const [update, setUpdate] = useState(false)
+    const API = "https://opensheet.elk.sh/"
 
 
     useEffect(() => {
         // 83 is the length of spreadsheetId
         if (spreadsheetId.length >= 83) {
             try {
-
+                axios.get(`${API + spreadsheetId.split("/")[5]}/${sheet}`)
+                .then(res => res.data)
+                .then(result => exportGoogleSheetData(result))
+                
             }
             catch (err) {
                 // exportGoogleSheetData([])    
