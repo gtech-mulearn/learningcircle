@@ -74,11 +74,11 @@ const IntroToGithub = () => {
                     <div className="timeline__event__description">
                       Navigate to{" "}
                       <a
-                        href="https://github.com/skills/introduction-to-github"
+                        href="https://github.com/gtech-mulearn/learn-github-pages"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        github.com/skills/introduction-to-github
+                        github.com/gtech-mulearn/learn-github-pages
                       </a>
                     </div>
                   </div>
