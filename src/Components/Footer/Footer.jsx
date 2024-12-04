@@ -11,6 +11,7 @@ function scrollTop() {
 
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className={styles.mainfooter_container}>
       <div className={styles.footer_container}>
@@ -165,7 +166,7 @@ const Footer = () => {
       </div>
       <div className={styles.bottomcopyright}>
         <div className={styles.line2}></div>
-        <p>GTech µLearn | Copyright © 2023 All rights reserved.</p>
+        <p>GTech µLearn | Copyright © {currentYear} All rights reserved.</p>
       </div>
     </div>
   );
